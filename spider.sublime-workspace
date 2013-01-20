@@ -1,0 +1,384 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"unscraped",
+				"unscraped_pages"
+			],
+			[
+				"exi",
+				"process.exit(code);"
+			],
+			[
+				"exis",
+				"path.exists(path, callback);"
+			],
+			[
+				"mkdir",
+				"fs.mkdirSync(path, mode);"
+			],
+			[
+				"exists",
+				"path.existsSync(path);"
+			],
+			[
+				"scraping",
+				"scraping_pages"
+			],
+			[
+				"request",
+				"http.request(options, cb);"
+			],
+			[
+				"unscrap",
+				"unscraped_pages"
+			],
+			[
+				"connect_",
+				"connect_pool_size"
+			],
+			[
+				"req",
+				"require.resolve(request);"
+			],
+			[
+				"set",
+				"setInterval();"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\n\n\nvar $ = require('jquery');\n\nvar fs = require('fs');\n\nvar log = require('./log');\nvar path = require('path');\n\nexports = module.exports = Page;\n\n\n/*\nvar profile = {\n    sites:[{\n        host:'www.163.com',\n        pages:[{\n            path: '/',\n            status: '0',\n            httpStatus: undefined,\n            title: '',\n            hashCode: undefined,\n            html: '',\n            parent: undefined\n        }],\n        dir:\"www.163.com\",\n        hashsize:5000\n    }]\n};\n*/\n\n/* constructor */\nfunction Page(profile){\n    var self = this;\n    self.path = profile.path;\n    self.status = profile.status;\n    self.httpStatus = profile.httpStatus;\n    self.title = profile.title;\n    self.hashCode = profile.hashCode;\n    self.html = profile.html;\n    self.parent = profile.parent;\n};\n\n\nPage.statusDescription = {\n    unscraped : '0',\n    scraping  : '1',\n    scraped   : '2',\n    parsed    : '3'\n};\n\n\n\n/* set HashCode */\nPage.prototype.setHashCode = function(hashCode){\n    this.hashCode = hashCode;\n};\n\n\n/* profile */\nPage.prototype.profile = function(){\n    var profile = {};\n\n    profile.path = this.path;\n    profile.status = this.status;\n    profile.httpStatus = this.httpStatus;\n    profile.title = this.title;\n    profile.hashCode = this.hashCode;\n    profile.parent = this.parent;\n\n    return profile;\n};\n\n\n\n\n/* is the page on status */\nPage.prototype.isOnStatus = function(status){\n    if(this.status == Page.statusDescription[status]){\n        return true;\n    }else{\n        return false;\n    }\n};\n\n\n/* set scraping status */\nPage.prototype.setStatus = function(status){\n    if(Page.statusDescription[status]){\n        this.status = Page.statusDescription[status];\n    }else{\n        // an error happend.\n    }\n};\n\n\n/* parse ancher hrefs in the page */\nPage.prototype.parseAncherHref = function(fn){\n    var self = this;\n    $(self.html).find('a[href]').attr('href', function(index, href){\n        fn(href);\n    });\n};\n\n\n/* persist to hardware */\nPage.prototype.persist = function(dir, fn){\n\n    log.info(path.basename(__filename), __line, this.path, 'persist start');\n\n    var self = this;\n    //var file = './mirror/' + dir + (this.path == '/' ? 'index.html' : this.path);\n    var file = './mirror/' + dir + '/' + this.hashCode;\n\n    log.trace(path.basename(__filename), __line, file);\n\n    fs.open(file, 'w', function(err, fd){\n        if(err){\n            fn(err)\n        }else{\n            fs.write(fd, self.html, 0, self.html.length, null, function(err, written, buffer){\n                fn(err);\n            });\n        }\n    });\n\n    log.info(path.basename(__filename), __line, this.path, 'persist end');\n};\n",
+			"file": "page.js",
+			"file_size": 2769,
+			"file_write_time": 1357392753000000,
+			"settings":
+			{
+				"buffer_size": 2640,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n\n\nvar url = require('url');\nvar fs = require('fs');\nvar path = require('path');\n\nvar Page = require('./page');\nvar Hash = require('./hash');\n\nvar log = require('./log');\n\n\n\nexports = module.exports = Site;\n\n/*\nvar profile = {\n    sites:[{\n        host:'www.163.com',\n        pages:[{\n            path: '/',\n            status: '0',\n            httpStatus: undefined,\n            title: '',\n            hashCode: undefined,\n            html: '',\n            parent: undefined\n        }],\n        dir:\"www.163.com\",\n        hashsize:5000\n    }]\n};\n*/\nfunction Site(profile){\n\n    log.info(path.basename(__filename), __line, 'site init start');\n\n    var self = this;\n\n    // init basic property.\n    self.host = profile.host;\n    self.dir  = profile.dir;\n\n    self.unscraped_pages = [];\n    self.scraping_pages = {};\n    self.scraped_pages  = [];\n    self.parsed_pages = [];\n\n    self.hash = new Hash({\n        hashsize:profile.hashsize\n    });\n\n    var pageprofiles = profile.pages || [];\n\n\n    //init unscraped_pages, scraped_pages \n    pageprofiles.forEach(function(pageprofile, index, pageprofiles){\n        var page = new Page(pageprofile);\n\n        //filter\n        if( page.isOnStatus('unscraped') || page.isOnStatus('scraping') || page.isOnstatus('scraped')){\n            self.unscraped_pages.push(page);\n        }else{\n            self.parsed_pages.push(page);\n        }\n\n        //hash map\n        if(page.hashCode){\n            self.hash.setHashCode(hashCode);\n        }else{\n            var hashCode = self.hash.calculateHashCode(page.path);\n            self.hash.setHashCode(hashCode);\n            page.setHashCode(hashCode);\n        }\n    });\n\n    //init hash\n    self.parsed_pages.forEach(function(page, index, parsed_pages){\n        var hashCode = self.hash.calculateHashCode(page.path);\n        self.hash.setHashCode(hashCode);\n    });\n\n    //init fs system mirror.\n    if(!fs.existsSync('./mirror/' + self.dir)){\n        fs.mkdirSync('./mirror/' + self.dir);\n    };\n\n    log.info(path.basename(__filename), __line, 'site:', self);\n    log.info(path.basename(__filename), __line, 'site init start');\n};\n\n\n// is the url among in the site\nSite.prototype.isHostNameSame = function(host){\n    if( this.host.localeCompare(host) == 0 ){\n        return true;\n    }else{\n        return false;\n    }\n};\n\n\n/* profile */\nSite.prototype.profile = function(){\n    var self = this;\n\n    var profile = {};\n\n    profile.host = self.host;\n    profile.hashsize = self.hashsize;\n    profile.dir = self.dir;\n    profile.pages = [];\n\n    self.unscraped_pages.forEach(function(page, index, unscraped_pages){\n        profile.pages.push(page.profile());\n    });\n\n\n    for(var hashCode in self.scraping_pages){\n        var page  = self.scraping_pages[hashCode]\n        if( page instanceof Page){\n            profile.pages.push(page.profile());\n        }\n    }\n\n    self.scraped_pages.forEach(function(page, index, scraped_pages){\n        profile.pages.push(page.profile());\n    });\n\n\n    self.parsed_pages.forEach(function(page, index, parsed_pages){\n        profile.pages.push(page.profile());\n    });\n\n\n    return profile;\n};\n\n/* parse */\nSite.prototype.resolve = function(){\n\n    log.info(path.basename(__filename), __line, 'resolve start');\n\n    var self = this;\n\n    var page;\n    while( page = self.scraped_pages.shift()){\n\n        log.info(path.basename(__filename), __line, 'page resolove start:', page.path);\n        // parse page url\n        page.parseAncherHref(function(href){\n\n            var urlObj = url.parse(href);\n\n            if(self.isHostNameSame(urlObj.host)){\n\n                var hashCode = self.hash.calculateHashCode(urlObj.path);\n\n                if(self.hash.isHashCodeSet(hashCode)){\n                    // the path scrapped.\n                    log.info(path.basename(__filename), __line, 'has scraped', urlObj.path);\n                }else{\n                    self.hash.setHashCode(hashCode);\n\n                    var childPage = new Page({\n                        path: urlObj.path,\n                        hashCode: hashCode,\n                        status: '0',\n                        httpStatus : undefined,\n                        title: '',\n                        html : '',\n                        parent: page.path\n                    });\n\n                    self.unscraped_pages.push(childPage);\n                    childPage = null;\n\n                    log.info(path.basename(__filename), __line, 'get', urlObj.path);\n                }\n            }else{\n               //log.info(path.basename(__filename), __line, 'diff host', href); \n            }\n        });\n\n        // page content parse\n\n\n        // save the page\n        page.persist(self.dir, function(err){\n            if(err){\n                log.error(path.basename(__filename), __line, 'page persiste error', err);\n            }else{\n                page.html = null;\n                page.setStatus(Page.statusDescription('parsed'));\n            }\n        });\n        self.parsed_pages.push(page);\n\n        log.info(path.basename(__filename), __line, 'page resolove end', page.path);\n    };\n\n    log.info(path.basename(__filename), __line, 'resolve end');\n};\n",
+			"file": "site.js",
+			"file_size": 5361,
+			"file_write_time": 1357392702000000,
+			"settings":
+			{
+				"buffer_size": 5157,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "connect.js",
+			"settings":
+			{
+				"buffer_size": 2548,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nConvertToUTF8:\n-------------\n\n  ConvertToUTF8\n  ==================\n  With this plugin, you can edit and save the files which encodings are not supported by Sublime Text currently, especially for those used by CJK users, such as GB2312, GBK, BIG5, EUC-KR, EUC-JP, etc.\n  \n  Configuration\n  ------------------\n  Please check ConvertToUTF8.sublime-settings file for details. You should save your personal settings in a file named \"ConvertToUTF8.sublime-settings\" under \"User\" folder.\n  \n  * encoding_list: encoding selection list when detection is failed\n  * max_cache_size: maximum encoding cache size, 0 means no cache (default: 100)\n  * max_detect_lines: maximum detection lines, 0 means unlimited (default: 600)\n  * preview_action: specific the action when previewing a file, available options: no_action, convert_and_open (default: no_action)\n  * default_encoding_on_create: specific the default encoding for newly created file (such as \"GBK\"), empty value means using sublime text's \"default_encoding\" setting (default: empty)\n  * convert_on_load: enable/disable convert file content to UTF-8 when it is loaded, available options: always, never (default: always)\n  * convert_on_save: enable/disable convert file from UTF-8 to a specific encoding when it is saved, available options: always, never (default: always)\n  \n  Contact me\n  ------------------\n  Please send me your questions or suggestions: sunlxy (at) yahoo.com or http://weibo.com/seanliang\n  \n",
+			"settings":
+			{
+				"buffer_size": 1509,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "Packages/User/node.sublime-build",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Sort Lines"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 219.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kzhiquan/Desktop/share/spider/mirror/www.163.com/47",
+		"/Users/kzhiquan/Desktop/share/spider/profile.js",
+		"/Users/kzhiquan/Desktop/share/spider/page.js",
+		"/Users/kzhiquan/Desktop/share/spider/site.js",
+		"/Users/kzhiquan/Desktop/share/spider/connect.js",
+		"/Users/kzhiquan/Desktop/share/spider/dispatcher.js",
+		"/Users/kzhiquan/Desktop/share/spider/mirrorwww.163.comindex.html",
+		"/Users/kzhiquan/Desktop/share/spider/mirror/www.163.comindex.html",
+		"/Users/kzhiquan/Desktop/share/spider/main.js",
+		"/Users/kzhiquan/Desktop/share/spider/spider.js",
+		"/Users/kzhiquan/Desktop/share/spider/mirror/www.163.com/a:b:c",
+		"/Users/kzhiquan/Desktop/share/spider/node_modules/log4js/lib/logger.js",
+		"/Users/kzhiquan/Desktop/share/spider/profileundefined+21_49_51.js",
+		"/Users/kzhiquan/Desktop/share/spider/profileundefined+21_44_1.js",
+		"/Users/kzhiquan/Desktop/share/spider/log.js",
+		"/Users/kzhiquan/Desktop/share/spider/logs/spider.log",
+		"/Users/kzhiquan/Desktop/share/spider/logs/cheese.log",
+		"/Users/kzhiquan/Desktop/share/spider/hash.js",
+		"/Users/kzhiquan/Desktop/share/spider/pageParser.js",
+		"/Users/kzhiquan/Desktop/share/spider/node_modules/log4js/README.md",
+		"/Users/kzhiquan/Desktop/share/spider/part.js",
+		"/Users/kzhiquan/Desktop/share/spider/profile.json",
+		"/Users/kzhiquan/Desktop/share/spider/package.json",
+		"/Users/kzhiquan/Desktop/share/spider/spider.sublime-project",
+		"/Users/kzhiquan/Desktop/share/spider/spider.sublime-workspace",
+		"/Users/kzhiquan/Desktop/share/spider/leak.js",
+		"/Users/kzhiquan/Desktop/share/spider/configure.js",
+		"/Users/kzhiquan/Desktop/share/spider/node_modules/v8-profiler/package.json",
+		"/Users/kzhiquan/Library/Application Support/Sublime Text 2/Packages/Nodejs/Nodejs.sublime-settings",
+		"/Users/kzhiquan/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/kzhiquan/Library/Application Support/Sublime Text 2/Packages/MacTerminal/MacTerminal.sublime-settings",
+		"/Users/kzhiquan/Library/Application Support/Sublime Text 2/Packages/User/MacTerminal.sublime-settings",
+		"/Users/kzhiquan/Library/Application Support/Sublime Text 2/Packages/User/Nodejs.sublime-settings",
+		"/Users/kzhiquan/Library/Application Support/Sublime Text 2/Packages/User/node.sublime-build"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hashCode",
+			"calculateHashCode",
+			"calculateHashcode",
+			"forEach"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "page.js",
+					"settings":
+					{
+						"buffer_size": 2640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								415,
+								415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 53.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "site.js",
+					"settings":
+					{
+						"buffer_size": 5157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1450,
+								1458
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 743.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "connect.js",
+					"settings":
+					{
+						"buffer_size": 2548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								988,
+								996
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 413.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 1509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1509,
+								1509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true
+}
