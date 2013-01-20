@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>&lt;英音&gt;集中营：UK出品，必属正品！之 电影</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="&lt;英音&gt;集中营：UK出品，必属正品！之 电影">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>&lt;英音&gt;集中营：UK出品，必属正品！之 电影</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/Russian_Blue/"><img src="http://img3.douban.com/icon/u3243761-665.jpg" align="left" alt="Russian Blue"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/Russian_Blue/">Russian Blue (上海)</a><br />
+        创建时间: 2009-08-16 15:06:03　最后修改时间: 2011-12-31 10:34:45</p><p class="indent">　　大爱英音 ~ （●￣(工,)￣●）~ <br/>　　<br/>　　搜集各种British accents!!!<br/>　　<br/>　　◤FYI◢<br/>　　<br/>　　This is a collection of british accent movies.<br/>　　<br/>　　Generally ★★★+<br/>　　<br/>　　优秀的老片经得起考验，评分不会有太大的变化<br/>　　<br/>　　新片有待观众考察...<br/>　　<br/>　　╔━━━╗ <br/>　　┃ 收藏 ┃ <br/>　　╚━━━╝ <br/>　　<br/></p>
+        </div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-283585"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">1521人</span>
+</div>
+<div class="filters">全部电影(255)</div>
+    <p id="sb1485976" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1485976/"><img width="80" src="http://img3.douban.com/spic/s1785857.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-25 02:30:10添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/1485976/">巨蟒剧团之飞翔的马戏团 第一季 Monty Python's Flying Circus Season 1</a>
+    
+    </div>
+    <p class="pl">导演 : 约翰·霍华德·戴维斯 John Howard Davies/Ian MacNaughton<br/>主演 : 格雷厄姆·查普曼 Graham Chapman/约翰·克立斯 John Cleese/艾瑞克·爱都 Eric Idle/特瑞·吉列姆 Terry Gilliam/特瑞·琼斯 Terry Jones/麦克·帕林 Michael Palin/Carol Cleveland</p><p><span class="pl">评语</span> : [豆瓣评分9.5] 1969年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1877363" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1877363/"><img width="80" src="http://img3.douban.com/spic/s2144052.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-25 02:27:52添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/1877363/">羚羊号历险记 第一季 The Return of the Antelope Season 1</a>
+    
+    </div>
+    <p class="pl">导演 : Eugene Ferguson/Willis Hall (writer)<br/>主演 : 爷爷配音-杨光/坏蛋配音-陈大千</p><p><span class="pl">评语</span> : [豆瓣评分9.5] 1986年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1957933" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1957933/"><img width="80" src="http://img3.douban.com/spic/s3207427.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-08-19 19:44:21添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/1957933/">Monster</a>
+    
+    </div>
+    <p class="pl"><br/>主演 : Dylan Moran</p><p><span class="pl">评语</span> : [豆瓣评分9.2] 2004年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293350" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293350/"><img width="80" src="http://img3.douban.com/spic/s1401145.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-16 07:15:21添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/1293350/">两杆大烟枪 Lock, Stock and Two Smoking Barrels</a>
+    
+    </div>
+    <p class="pl">导演 : Guy Ritchie<br/>主演 : Jason Flemyng/Dexter Fletcher/Nick Moran/Jason Statham/Steven Mackintosh/Sting</p><p><span class="pl">评语</span> : [豆瓣评分9.1] 1998年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1302958" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1302958/"><img width="80" src="http://img3.douban.com/spic/s2343588.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-25 02:29:11添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/1302958/">憨豆先生 第一季 Mr. Bean Season 1</a>
+    
+    </div>
+    <p class="pl">导演 : John Birkin/约翰·霍华德·戴维斯 John Howard Davies/保罗·韦兰德 Paul Weiland<br/>主演 : 罗温·艾金森 Rowan Atkinson/Matilda Ziegler/Robyn Driscoll/Matthew Ashforde</p><p><span class="pl">评语</span> : [豆瓣评分8.9] 1990年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3931832" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3931832/"><img width="80" src="http://img3.douban.com/spic/s4092426.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-08-07 13:30:16添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/3931832/">英国皇家莎士比亚剧团 哈姆雷特 Hamlet</a>
+    
+    </div>
+    <p class="pl">导演 : Gregory Doran<br/>主演 : David Tennant/Patrick Stewart/Oliver Ford Davies/John Woodvine/Penny Downie/Mariah Gale</p><p><span class="pl">评语</span> : [豆瓣评分8.9] 2009年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3389591" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3389591/"><img width="80" src="http://img3.douban.com/spic/s4354238.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-08-10 21:38:04添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/3389591/">四头狮子 Four Lions</a>
+    
+    </div>
+    <p class="pl">导演 : Christopher Morris<br/>主演 : Preeya Kalidas/Kayvan Novak/Riz Ahmed/Julia Davis</p><p><span class="pl">评语</span> : [豆瓣评分8.9] 2010年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1294639" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1294639/"><img width="80" src="http://img3.douban.com/spic/s2804838.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-16 07:16:27添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/1294639/">勇敢的心 Braveheart</a>
+    
+    </div>
+    <p class="pl">导演 : 梅尔·吉布森 Mel Gibson<br/>主演 : 梅尔·吉布森 Mel Gibson/苏菲·玛索 Sophie Marceau/布莱恩·考克斯 Brian Cox/詹姆斯·卡沙莫 James Cosmo/辛·劳洛 Sean Lawlor/凯瑟琳·麦克马克 Catherine McCormack</p><p><span class="pl">评语</span> : [豆瓣评分8.8] 1995</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1301169" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1301169/"><img width="80" src="http://img3.douban.com/spic/s3833857.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-17 02:59:56添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/1301169/">跳出我天地 Billy Elliot</a>
+    
+    </div>
+    <p class="pl">导演 : Stephen Daldry<br/>主演 : Jamie Bell/Julie Walters/Gary Lewis/Jean Heywood/Jamie Draven</p><p><span class="pl">评语</span> : [豆瓣评分8.7] 2000年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3007773" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3007773/"><img width="80" src="http://img3.douban.com/spic/s3582245.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-09-02 16:37:00添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/3007773/">海盗电台 The Boat That Rocked</a>
+    
+    </div>
+    <p class="pl">导演 : 理查德·柯蒂斯 Richard Curtis<br/>主演 : 比尔·奈伊 Bill Nighy/肯尼思·布拉纳 Kenneth Branagh/菲利普·塞默·霍夫曼 Philip Seymour Hoffman/尼克·弗罗斯特 Nick Frost/汤姆·斯图里奇 Tom Sturridge/瑞斯·伊凡斯 Rhys Ifans/瑞斯·达比 Rhys Darby/克里斯·奥多德 Chris O'Dowd/妲露拉·莱莉 Talulah Riley/凯瑟琳·帕金森 Katherine Parkinson</p><p><span class="pl">评语</span> : [豆瓣评分8.7] 2009年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1301849" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1301849/"><img width="80" src="http://img3.douban.com/spic/s3344608.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-22 17:16:03添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/1301849/">一九八四 Nineteen Eighty-Four</a>
+    
+    </div>
+    <p class="pl">导演 : Michael Radford<br/>主演 : John Hurt/Richard Burton/Suzanna Hamilton/Gregor Fisher/Cyril Cusack</p><p><span class="pl">评语</span> :  [豆瓣评分8.6] 1984</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1756840" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1756840/"><img width="80" src="http://img3.douban.com/spic/s1691135.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-18 11:04:41添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/1756840/">万能管家 第一季 Jeeves and Wooster Season 1</a>
+    
+    </div>
+    <p class="pl">导演 : Ferdinand Fairfax/Simon Langton/Robert Young<br/>主演 : 斯蒂芬·弗雷 Stephen Fry/休·劳瑞 Hugh Laurie</p><p><span class="pl">评语</span> : [豆瓣评分8.6] 1990年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1292528" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1292528/"><img width="80" src="http://img3.douban.com/spic/s1642564.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-16 07:17:09添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/1292528/">猜火车 Trainspotting</a>
+    
+    </div>
+    <p class="pl">导演 : 丹尼·鲍尔 Danny Boyle<br/>主演 : 伊万·麦克格雷格 Ewan McGregor/艾文·布莱纳 Ewen Bremner/约翰·李·米勒 Jonny Lee Miller/凯文·麦克基德 Kevin McKidd/罗伯特·卡莱尔 Robert Carlyle/凯莉·麦克唐纳 Kelly Macdonald</p><p><span class="pl">评语</span> : [豆瓣评分8.6] 1996年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1292401" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1292401/"><img width="80" src="http://img3.douban.com/spic/s1312705.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-16 07:07:16添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/1292401/">真爱至上 Love Actually</a>
+    
+    </div>
+    <p class="pl">导演 : 理查德·柯蒂斯 Richard Curtis<br/>主演 : 休·格兰特 Hugh Grant/柯林·菲尔斯 Colin Firth/艾玛·汤普森 Emma Thompson/凯拉·奈特莉 Keira Knightley/连姆·尼森 Liam Neeson/托马斯·桑斯特 Thomas Sangster/比尔·奈伊 Bill Nighy/马丁·弗瑞曼 Martin Freeman/劳拉·琳妮 Laura Linney/艾伦·瑞克曼 Alan Rickman/克里斯·马歇尔 Kris Marshall/罗德里格·桑托罗 Rodrigo Santoro/罗温·艾金森 Rowan Atkinson/比利·鲍伯·松顿 Billy Bob Thornton/玛汀·麦古基安 Martine McCutcheon/安德鲁·林肯 Andrew Lincoln/Lúcia Moniz</p><p><span class="pl">评语</span> : [豆瓣评分8.6] 2003</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1460030" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1460030/"><img width="80" src="http://img3.douban.com/spic/s4640791.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-09-15 09:15:44添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/1460030/">生命的舞动 Inside I'm Dancing</a>
+    
+    </div>
+    <p class="pl">导演 : Damien O'Donnell<br/>主演 : 詹姆斯·麦卡沃伊 James McAvoy/史蒂文·罗伯特森 Steven Robertson/萝玛拉·嘉瑞 Romola Garai</p><p><span class="pl">评语</span> : [豆瓣评分8.6] 2004</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5041077" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5041077/"><img width="80" src="http://img3.douban.com/spic/s7056550.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-08-19 22:49:47添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/5041077/">不可分割 Inseparable</a>
+    
+    </div>
+    <p class="pl">导演 : Nick White<br/>主演 : 本尼迪克特·康伯巴奇 Benedict Cumberbatch/娜塔莉·普莱斯 Natalie Press/Bijan Daneshmand</p><p><span class="pl">评语</span> :  [豆瓣评分8.6] 2007 </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5383158" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5383158/"><img width="80" src="http://img5.douban.com/spic/s6976739.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-04-30 17:15:28添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/5383158/">曼联 United</a>
+    
+    </div>
+    <p class="pl">导演 : James Strong<br/>主演 : 大卫·田纳特 David Tennant/杰克·奥康奈尔 Jack O'Connell/山姆·克拉弗林 Sam Claflin/多格雷·斯科特 Dougray Scott/Dean Andrews/凯特·阿什菲尔德 Kate Ashfield/大卫·卡尔德 David Calder/Neil Dudgeon/Tim Healy/Melanie Hill</p><p><span class="pl">评语</span> : [豆瓣评分8.6] 2011</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1299481" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1299481/"><img width="80" src="http://img3.douban.com/spic/s1425886.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-07-08 05:01:40添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/1299481/">查令十字街84号 84 Charing Cross Road</a>
+    
+    </div>
+    <p class="pl">导演 : 大卫·休·琼斯 David Hugh Jones<br/>主演 : 安妮·班克劳夫特 Anne Bancroft/安东尼·霍普金斯 Anthony Hopkins/朱迪·丹奇 Judi Dench</p><p><span class="pl">评语</span> : [豆瓣评分8.5] 1987年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1301636" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1301636/"><img width="80" src="http://img3.douban.com/spic/s1788501.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-13 00:43:27添加</span>
+        19. 
+    <a href="http://movie.douban.com/subject/1301636/">冬天的访客 The Winter Guest</a>
+    
+    </div>
+    <p class="pl">导演 : Alan Rickman<br/>主演 : Emma Thompson/Phyllida Law/Gary Hollywood/Sheila Reid</p><p><span class="pl">评语</span> :  [豆瓣评分8.5] 1997</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1780330" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1780330/"><img width="80" src="http://img3.douban.com/spic/s1872245.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-16 07:10:47添加</span>
+        20. 
+    <a href="http://movie.douban.com/subject/1780330/">致命魔术 The Prestige</a>
+    
+    </div>
+    <p class="pl">导演 : 克里斯托弗·诺兰 Christopher Nolan<br/>主演 : 克里斯蒂安·贝尔 Christian Bale/休·杰克曼 Hugh Jackman/迈克尔·凯恩 Michael Caine/斯嘉丽·约翰逊 Scarlett Johansson/丽贝卡·豪尔 Rebecca Hall/大卫·鲍伊 David Bowie/安迪·塞基斯 Andy Serkis</p><p><span class="pl">评语</span> : [豆瓣评分8.5] 2006</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1401431" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1401431/"><img width="80" src="http://img3.douban.com/spic/s1789851.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-18 09:17:59添加</span>
+        21. 
+    <a href="http://movie.douban.com/subject/1401431/">雾都孤儿 oliver twist (BBC)</a>
+    
+    </div>
+    <p class="pl">导演 : Gareth Davies</p><p><span class="pl">评语</span> : [豆瓣评分8.2] 1985</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4023638" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4023638/"><img width="80" src="http://img3.douban.com/spic/s4566148.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-09-17 23:28:03添加</span>
+        22. 
+    <a href="http://movie.douban.com/subject/4023638/">国王的演讲 The King's Speech</a>
+    
+    </div>
+    <p class="pl">导演 : 汤姆·霍珀 Tom Hooper<br/>主演 : 柯林·菲尔斯 Colin Firth/杰弗里·拉什 Geoffrey Rush/海伦娜·邦汉·卡特 Helena Bonham Carter/盖·皮尔斯 Guy Pearce/迈克尔·刚本 Michael Gambon/蒂莫西·斯波 Timothy Spall/詹妮弗·艾莉 Jennifer Ehle/德里克·雅各比 Derek Jacobi/安东尼·安德鲁斯 Anthony Andrews/克莱尔·布鲁姆 Claire Bloom</p><p><span class="pl">评语</span> :  [豆瓣评分8.5] 2010</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1292233" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1292233/"><img width="80" src="http://img3.douban.com/spic/s1669022.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-08-22 17:27:31添加</span>
+        23. 
+    <a href="http://movie.douban.com/subject/1292233/">发条橙 A Clockwork Orange</a>
+    
+    </div>
+    <p class="pl">导演 : Stanley Kubrick<br/>主演 : Malcolm McDowell/Patrick Magee/Michael Bates/Warren Clarke/John Clive</p><p><span class="pl">评语</span> : [豆瓣评分8.4] 1971</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1291853" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1291853/"><img width="80" src="http://img5.douban.com/spic/s3848039.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-08-11 12:05:30添加</span>
+        24. 
+    <a href="http://movie.douban.com/subject/1291853/">英国病人 The English Patient</a>
+    
+    </div>
+    <p class="pl">导演 : 安东尼·明格拉 Anthony Minghella<br/>主演 : 拉尔夫·费因斯 Ralph Fiennes/克里斯汀·斯科特·托马斯 Kristin Scott Thomas/朱丽叶·比诺什 Juliette Binoche/威廉·达福 Willem Dafoe/纳威恩·安德利维斯 Naveen Andrews/柯林·菲尔斯 Colin Firth</p><p><span class="pl">评语</span> :  [豆瓣评分8.4] 1996</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1950988" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1950988/"><img width="80" src="http://img3.douban.com/spic/s2368484.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-12-17 18:01:18添加</span>
+        25. 
+    <a href="http://movie.douban.com/subject/1950988/">小鬼历险记 Tom &amp; Thomas</a>
+    
+    </div>
+    <p class="pl">导演 : Esmé Lammers<br/>主演 : Sean Bean/Aaron Johnson/Ryan Nelson</p><p><span class="pl">评语</span> : [豆瓣评分8.4]  2002年</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    <div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/doulist/283585/?start=25&filter=">2</a><a href="http://movie.douban.com/doulist/283585/?start=50&filter=">3</a><a href="http://movie.douban.com/doulist/283585/?start=75&filter=">4</a><a href="http://movie.douban.com/doulist/283585/?start=100&filter=">5</a><a href="http://movie.douban.com/doulist/283585/?start=125&filter=">6</a><a href="http://movie.douban.com/doulist/283585/?start=150&filter=">7</a><a href="http://movie.douban.com/doulist/283585/?start=175&filter=">8</a><a href="http://movie.douban.com/doulist/283585/?start=200&filter=">9</a><span class="break">...</span><a href="http://movie.douban.com/doulist/283585/?start=225&filter=">10</a><a href="http://movie.douban.com/doulist/283585/?start=250&filter=">11</a><span class="next"><a href="http://movie.douban.com/doulist/283585/?start=25&filter=">后页&gt;</a><link rel="next" href="http://movie.douban.com/doulist/283585/?start=25&filter="/></span></div>
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2>最新留言 · · · · · ·  <span class="pl">( <a href="http://movie.douban.com/doulist/283585/comments">查看全部</a> )</span></h2><ul class="mbt"><li class="mbtl"><a href="http://www.douban.com/people/52219110/"><img src="http://img3.douban.com/icon/u52219110-3.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/283585/comments#c-279958">老饕家的餮餮 : PPT</a><span class="pl">  01-04 14:15</span></li><li class="mbtl"><a href="http://www.douban.com/people/56503123/"><img src="http://img3.douban.com/icon/u56503123-11.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/283585/comments#c-275449">walle93 : 有木有带中英字幕的好片源</a><span class="pl">  2012-10-26 23:54</span></li><li class="mbtl"><a href="http://www.douban.com/people/Eva.pisces/"><img src="http://img3.douban.com/icon/u3193049-20.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/283585/comments#c-269659">eva丨一娃 : 电驴里有巴黎我爱你</a><span class="pl">  2012-07-23 16:07</span></li><li class="mbtl"><a href="http://www.douban.com/people/danzi520/"><img src="http://img3.douban.com/icon/u52633872-12.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/283585/comments#c-266994">chantal : 求&lt;巴黎我愛你&gt; &gt;&lt;!!</a><span class="pl">  2012-06-26 10:18</span></li><li class="mbtl"><a href="http://www.douban.com/people/Russian_Blue/"><img src="http://img3.douban.com/icon/u3243761-665.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/283585/comments#c-255708">Russian Blue : @Miss.7unday (ID:V.eronique)
+
+CD1 
+　　ed2k://|file|[%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%A4%9C].Twelfth.Night.1996.DVDRip.DivX.cd1.avi|7344...</a><span class="pl">  2012-02-06 20:10</span></li></ul><h2 style="margin-top:30px">Russian Blue的其他电影豆列  · · · · · ·  </h2>
+        <style>.dlistp p{margin-top:4px;border-bottom:1px #ddd dashed;padding-bottom:4px}</style>
+        <div class="dlistp"><p><a href="http://movie.douban.com/doulist/698753/">&lt;英音&gt;集中营 之 小杂烩</a></p> <p><a href="http://movie.douban.com/doulist/1440175/">&lt;英音&gt;集中营：UK出品，必属正品！之 电影</a></p> <p><a href="http://movie.douban.com/doulist/698612/">&lt;英音&gt;集中营 之 英剧</a></p> </div><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper5 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

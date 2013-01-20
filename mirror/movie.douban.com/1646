@@ -1,0 +1,724 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>游牧人·芳汀的电影</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+#celebrity .list-s li { height: 140px; overflow: hidden }
+.aside .mod .pl a{font-size:14px;}
+.contact-update-time {margin-top:10px;border-bottom:1px solid #ddd }
+
+    </style>
+    
+<link href="http://img3.douban.com/css/ui/packed_mypage6119031721.css" rel="stylesheet" type="text/css" />
+<link href="http://img3.douban.com/css/music/packed_people5808759241.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.form5689674177.js"></script>
+
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+
+
+
+    
+
+    
+
+    
+
+    
+    <div id="db-usr-profile">
+        <div class="pic">
+            <a href="http://movie.douban.com/people/melody1971/"><img height="48" width="48" alt="游牧人·芳汀" src="http://img3.douban.com/icon/u1917650-287.jpg" /></a>
+        </div>
+        <div class="info">
+            <h1>游牧人·芳汀的电影</h1>
+            <ul>
+                    
+        <li><a href="http://movie.douban.com/people/melody1971/">电影主页</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/melody1971/reviews?cat_id=1002">影评</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/melody1971/do">在看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/melody1971/wish">想看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/melody1971/collect">看过</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/melody1971/doulists">豆列</a></li>
+    
+                    
+        <li class="sep">|</li>
+    
+                    
+        <li><a href="http://www.douban.com/people/melody1971/">豆瓣主页</a></li>
+    
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+
+
+
+
+    <div id="db-book-mine">
+            
+
+    <h2  >看过 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/melody1971/collect">1651部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1305364/" class="cover"><img alt="烈火青春" title="烈火青春" src="http://img3.douban.com/spic/s1387387.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3060465/" class="cover"><img alt="一帘幽梦" title="一帘幽梦" src="http://img3.douban.com/spic/s2757382.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2214123/" class="cover"><img alt="青青河边草" title="青青河边草" src="http://img3.douban.com/spic/s2659844.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1426881/" class="cover"><img alt="晴天娃娃" title="晴天娃娃" src="http://img3.douban.com/spic/s1436683.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1863626/" class="cover"><img alt="用爱捉伊人" title="用爱捉伊人" src="http://img5.douban.com/spic/s3901009.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/20473389/" class="cover"><img alt="坏未来" title="坏未来" src="http://img5.douban.com/spic/s24525499.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4707230/" class="cover"><img alt="恋爱通告" title="恋爱通告" src="http://img3.douban.com/spic/s4402102.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/20394480/" class="cover"><img alt="The Last" title="The Last" src="http://img3.douban.com/spic/s24493955.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4739969/" class="cover"><img alt="新浪漫主义：李云迪传" title="新浪漫主义：李云迪传" src="http://img3.douban.com/spic/s10389706.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1418671/" class="cover"><img alt="真假公主" title="真假公主" src="http://img3.douban.com/spic/s6990191.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >想看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/melody1971/wish">2053部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1328665/" class="cover"><img alt="笑之大学" title="笑之大学" src="http://img3.douban.com/spic/s22717842.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6430807/" class="cover"><img alt="三凤求凰" title="三凤求凰" src="http://img3.douban.com/spic/s8978982.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1480492/" class="cover"><img alt="屈原" title="屈原" src="http://img3.douban.com/spic/s2143966.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6753166/" class="cover"><img alt="七个神经病" title="七个神经病" src="http://img5.douban.com/spic/s24591129.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3158449/" class="cover"><img alt="希区柯克" title="希区柯克" src="http://img5.douban.com/spic/s22717949.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6428121/" class="cover"><img alt="卖妻" title="卖妻" src="http://img3.douban.com/spic/s6382086.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1298220/" class="cover"><img alt="绝桥智多星" title="绝桥智多星" src="http://img3.douban.com/spic/s3289794.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1308329/" class="cover"><img alt="台上台下" title="台上台下" src="http://img3.douban.com/spic/s3046801.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2357381/" class="cover"><img alt="我在垦丁天气晴" title="我在垦丁天气晴" src="http://img3.douban.com/spic/s2853654.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2127188/" class="cover"><img alt="邓丽君物语：我的家在山那边" title="邓丽君物语：我的家在山那边" src="http://img3.douban.com/spic/s2548318.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >在看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/melody1971/do">3部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1482132/" class="cover"><img alt="布莱克书店 第一季" title="布莱克书店 第一季" src="http://img3.douban.com/spic/s3637804.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1878605/" class="cover"><img alt="大时代" title="大时代" src="http://img3.douban.com/spic/s1814081.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1979063/" class="cover"><img alt="皮囊 第一季" title="皮囊 第一季" src="http://img3.douban.com/spic/s2764331.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+            <h2  >收藏的影人 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/melody1971/celebrities">1121位</a> )</span></h2>
+            
+
+    <div id="celebrity" class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1311596/" class="cover">
+                        <img alt="威尔逊·绫香  Ayaka Wilson" src="http://img3.douban.com/img/celebrity/small/44140.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1311596/">威尔逊·绫香 </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1021674/" class="cover">
+                        <img alt="李康宜 Kang-i Lee" src="http://img3.douban.com/img/celebrity/small/4892.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1021674/">李康宜</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1313011/" class="cover">
+                        <img alt="段博文 Bowen Duan" src="http://img3.douban.com/img/celebrity/small/42083.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1313011/">段博文</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1325753/" class="cover">
+                        <img alt="冯文娟 Wenjuan Feng " src="http://img3.douban.com/img/celebrity/small/1356337179.16.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1325753/">冯文娟</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1315611/" class="cover">
+                        <img alt="柯震东 Chen-tung Ko " src="http://img3.douban.com/img/celebrity/small/39610.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1315611/">柯震东</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    </div>
+    
+    <style>
+        .comment-m .comment-item h3 {padding-left:0;}
+        .comment-m .comment-item .author {background:#fff; padding-left:13px; margin-bottom:1em;}
+    </style>
+    <div class="mod comment-m">
+        <h2  >游牧人·芳汀的影评 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/melody1971/reviews?cat_id=1002">8篇</a> )</span></h2>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/1301118/" title="柠檬可乐"><img src="http://img3.douban.com/spic/s3950188.jpg" alt="柠檬可乐"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="30年转瞬即逝，我想知道女孩们后来的命运会是如何？" href="http://movie.douban.com/review/5548741/" class="title">30年转瞬即逝，我想知道女孩们后来的命运会是如何？</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/melody1971/">游牧人·芳汀</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/1301118/">柠檬可乐</a>
+                </div>
+                <p>                             “纯情之中有冲劲，
+                  活像有片白墙。
+                  我画交叉，我画圆形，
+                  不需要谁欣赏。
+
+                  回头侧身看一看，
+                  热泪挂满在脸上。
+                  再望清楚墙上弯直线，
+                  先知我迷...<a href="http://movie.douban.com/review/5548741/">(13回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/1297854/" title="彩云曲"><img src="http://img3.douban.com/spic/s11281913.jpg" alt="彩云曲"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="彩云曲散三十年，只红一个刘德华。" href="http://movie.douban.com/review/5268808/" class="title">彩云曲散三十年，只红一个刘德华。</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/melody1971/">游牧人·芳汀</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/1297854/">彩云曲</a>
+                </div>
+                <p>当年新艺城电影公司决定启用新人阵容拍摄《彩云曲》，刘德华等无线艺人训练班的新人纷纷报名去甄选主角，但包括关之琳等人都败下阵来。最后决定的男主角是来自台湾的吴少刚，女主角是徐杰和庄静而。现在看来他们三个人谁也没有长期走红，但在当时这个决定是合适的，业内人士都很看好他们，原因是：
+
+“家明”吴少刚当...<a href="http://movie.douban.com/review/5268808/">(11回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/5502680/" title="突破"><img src="http://img3.douban.com/spic/s7049114.jpg" alt="突破"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="独家剧评：陈百强生前主演的唯一一部电视剧《突破》" href="http://movie.douban.com/review/5265532/" class="title">独家剧评：陈百强生前主演的唯一一部电视剧《突破》</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/melody1971/">游牧人·芳汀</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/5502680/">突破</a>
+                </div>
+                <p> 這部由《上海灘》導演招振強執導，陳百強、翁靜晶、毛舜筠、馮淬帆、胡燕妮等人連袂主演的1981年電視劇《突破》，一直到2003年TVB才重新發行修復版VCD，並在港澳銷售。也因為原拷貝年久，故刪去部分劇情，經過剪輯而做成11碟VCD。經陳百強的歌迷在百度貼吧發佈，本人也有幸得以觀看陳百強早期的第一部同時也是他生前主...<a href="http://movie.douban.com/review/5265532/">(5回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/1470868/" title="喝采"><img src="http://img3.douban.com/spic/s4001446.jpg" alt="喝采"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="今次一别，后会无期。" href="http://movie.douban.com/review/5229903/" class="title">今次一别，后会无期。</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/melody1971/">游牧人·芳汀</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/1470868/">喝采</a>
+                </div>
+                <p>【生活静静似是湖水，全为你泛起淡淡的涟漪。】
+
+在《喝彩》的最后，青春无敌的翁静晶饰演的少女要飞赴国外，离开香港。陈百强去机场给她送行，临行前，她羞涩地亲吻了他的面颊，说：“我会惦念你的。”
+
+在飞机上，少女远眺窗外的蓝天白云，耳朵里塞满了他在Walkman里为她灌录的温暖旋律，她在微笑，在憧憬……但她...<a href="http://movie.douban.com/review/5229903/">(6回应)</a></p>
+            </div>
+        </div>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+    <div class="mod">
+        <h2>游牧人·芳汀的电影豆列 &nbsp; ·&nbsp;·&nbsp;·&nbsp;
+            <span class="pl">( <a href="http://movie.douban.com/people/melody1971/doulists">7个</a> )</span>
+        </h2>
+        <ul class="list-m">
+            <li>
+                <p>
+                    <a href="http://movie.douban.com/doulist/582045/">唯一的烦恼就是长大</a>
+                    <span class="rec">13人推荐</span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="http://movie.douban.com/doulist/835174/">你的灵魂，我的蜜糖</a>
+                    <span class="rec">4人推荐</span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="http://movie.douban.com/doulist/942814/">一生只能有一次</a>
+                    <span class="rec">1人推荐</span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="http://movie.douban.com/doulist/1311582/">扑倒之后蹂躏一百遍啊一百遍</a>
+                    <span class="rec">5人推荐</span>
+                </p>
+            </li>
+        </ul>
+    </div>
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper3-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

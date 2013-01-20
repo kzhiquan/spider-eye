@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>豆瓣电影标签: 金秀炫</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="http://img3.douban.com/js/packed_hashchange5131997993.js">
+        </script>
+        <script type="text/javascript">/*<![CDATA[*/
+    $(function () {
+        function update_tags(current) {
+            html = $.map(current, function(o) {return '<span class="tags-name">' + o + '</span><sup class="tags-del"></sup> '}).join('<span class="tags-add">+</span>');
+            $('h1').html('<span class="name">电影标签：</span>' + html);
+        };
+
+        function get_current_tags() {
+            var r = [];
+            $('.tags-name').each(function() {r.push($(this).text())});
+            return r;
+        };
+
+        function get_current_sort_type() {
+            url = location.href;
+            array = url.split("?")
+            if (array.length == 1) {
+                return "";
+            }
+            query = array[1];
+            arr = query.split("&");
+            for (var i = 0; i < arr.length; i++) {
+                arr2 = arr[i].split('=');
+                if (arr2[0] == "type") {
+                    if (arr2.length == 1) {
+                        return "";
+                    }
+                    return arr2[1];
+                }
+            }
+            return "";
+        };
+
+        function update_subject_list(current, sort_type) {
+            $('#subject_list').html('<span class="pl">载入中，请稍候...</span>');
+            $('#subject_list').load_withck('/j/tag/j_subject_list', {tags:current.join(' '), type:sort_type}, function() {});
+        };
+
+        function update_related_tags_and_subject(current, sort_type) {
+            update_related_tags(current, sort_type);
+            // update_subject_list(current, sort_type);
+        };
+
+        function update_related_tags(current, sort_type) {
+            $('#related_tags').load_withck('/j/tag/j_related_tag', {tags:current.join(' '), type:sort_type}, function() {
+                $('.more').toggle(
+                    function () {
+                        $('.tags-hide').css('display', 'inline');
+                        $(this).text('收起▲');
+                    },
+                    function () {
+                        $('.tags-hide').hide();
+                        $(this).text('更多▼');
+                    }
+                );
+                $('.tags-del').click(function () {
+                    if($(this).prev().prev().text() == '+') {
+                        $(this).prev().prev().remove();
+                    } else if ($(this).next().text() == '+') {
+                        $(this).next().remove();
+                    }
+                    $(this).prev().remove().end().remove();
+                    current = get_current_tags();
+                    if (current.length == 0){
+                        document.location.href = '/tag/';
+                    } else {
+                        //setHash(current.join(' '));
+                        //location.href = '/tag/' + (location.href).split('#')[1] + '?type=' + sort_type;
+                        sort_type = get_current_sort_type();
+                        location.href = '/tag/' + current.join(' ') + '?type=' + sort_type;
+                    }
+                });
+                $('.add-tag').click(function () {
+                    current = get_current_tags();
+                    current.push($(this).text());
+                    update_tags(current);
+                    //setHash(current.join(' '));
+                    //location.href = '/tag/' + (location.href).split('#')[1] + '?type=' + sort_type;
+                    sort_type = get_current_sort_type();
+                    location.href = '/tag/' + current.join(' ') + '?type=' + sort_type;
+                });
+                $('.tagsInput').keypress(function (e) {
+                    if (e.which == 13) {
+                        current = get_current_tags();
+                        current.push($(this).val());
+                        update_tags(current);
+                        sort_type = get_current_sort_type();
+                        //setHash(current.join(' '));
+                        //location.href = '/tag/' + (location.href).split('#')[1] + '?type=' + sort_type;
+                        location.href = '/tag/' + current.join(' ') + '?type=' + sort_type;
+                    }
+                });
+                checkInput($('.tagsInput'));
+            });
+        };
+
+        current = get_current_tags();
+        sort_type = get_current_sort_type();
+        update_related_tags_and_subject(current, sort_type);
+
+        function checkInput (o) {
+            if (!o.val() || o.val() == o.attr('title')) {
+                o.addClass('greyinput');
+                o.val(o.attr('title'));
+            }
+            o.focus(function(){
+                o.removeClass('greyinput');
+                if(o.val() == o.attr('title')) o.val('');
+            });
+            o.blur(function(){
+                if(!o.val()){
+                    o.addClass('greyinput');
+                    o.val(o.attr('title'));
+                }
+            });
+        }
+
+        if($.browser.msie && $.browser.version == 6.0) {
+            $('.tags-del').hover(
+                function () { $(this).addClass('tags-hover'); },
+                function () { $(this).removeClass('tags-hover'); }
+            );
+        }
+        if (location.href.split('#').length > 1) {
+            //changeUrl ();
+        }
+
+    });
+
+    function setHash (a) {
+        $.browser.msie?$.locationHash(a):location.hash = a;
+    }
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>电影标签：<span class="tags-name">金秀炫</span><sup class="tags-del"></sup> </h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        
+        <table width="100%" class="infobox">
+            <tbody>
+                <tr>
+                    <td class="tablelt"/>
+                    <td class="tablect"/>
+                    <td class="tablert"/>
+                </tr>
+                <tr>
+                    <td class="tablelc"/>
+                        <td class="tablecc">
+                            <div class="tags-result" id="related_tags">
+                            </div>
+                        </td>
+                        <td class="tablerc"/>
+                </tr>
+                <tr>
+                    <td class="tablelb"/>
+                    <td class="tablecb"/>
+                    <td class="tablerb"/>
+                </tr>
+            </tbody>
+        </table>
+        <div class="clearfix">
+    <span class="rr greyinput">综合排序&nbsp;/&nbsp;<a href="http://movie.douban.com/tag/%E9%87%91%E7%A7%80%E7%82%AB?type=S">评分排序</a>&nbsp;/&nbsp;<a href="http://movie.douban.com/tag/%E9%87%91%E7%A7%80%E7%82%AB?type=R">日期排序</a>&nbsp;/&nbsp;<a href="http://movie.douban.com/tag/%E9%87%91%E7%A7%80%E7%82%AB?type=O">标注次数排序</a></span></div> 
+
+    <div id="subject_list">
+    
+        <p class="ul first"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/5502697/"  title="夺宝联盟" >
+            <img src="http://img3.douban.com/spic/s9053553.jpg" alt="夺宝联盟"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/5502697/"  >夺宝联盟 / <span style="font-size:12px;">盗贼门(港) / 盗海豪情(台)</span></a></div><p class="pl">2012-07-25(韩国) / 2013-01-15(中国大陆) / 金允石 / 全智贤 / 李政宰 / 金惠秀 / 金海淑 / 吴达洙 / 任达华 / 李心洁 / 曾国祥 / 金秀贤 / 申河均 / 金秀贤 / 金允石 Yun-seok Kim / 全智贤 Gianna Jun / 李政宰 Jung-Jae Lee / 金惠秀 Hye-su Kim / 金海淑 Hae-suk...</p><div class="star clearfix"><span class="allstar40"></span><span class="rating_nums">7.2</span><span class="pl">(25426人评价)</span></div></td></tr></table><div id="collect_form_5502697"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/4728583/"  title="Giant巨人" >
+            <img src="http://img3.douban.com/spic/s4626476.jpg" alt="Giant巨人"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/4728583/"  >Giant巨人 / <span style="font-size:12px;">巨人（Giant） / 兄妹情深（台译）</span></a><style>.icon-on-air{font-size:12px;margin-left:15px;background-color:#71B5DE;color:#fff;padding:3px 5px;border-radius:3px;}</style><span class="icon-on-air">可播放</span></div><p class="pl">2010-05-10 / 李凡秀 / 黄静茵 / 朱相昱 / 朴真熙 Jin-hie Park / 朴尚民 / 韩国 / 刘仁植 / Giant巨人 / 剧情 / 张英哲 / 朝鲜语</p><div class="star clearfix"><span class="allstar45"></span><span class="rating_nums">8.3</span><span class="pl">(546人评价)</span></div></td></tr></table><div id="collect_form_4728583"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/5355080/"  title="丛林的鱼" >
+            <img src="http://img3.douban.com/spic/s4530307.jpg" alt="丛林的鱼"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/5355080/"  >丛林的鱼 / <span style="font-size:12px;">Jungle Fish / 丛林的鱼</span></a></div><p class="pl">2008-05-05 / 金秀炫 Su-hyeon Kim / 朴宝英 / 张基范 / 黄灿成 / 民智 / 金秀贤 / 韩国 / 崔成范 / 丛林的鱼 / 剧情 / 徐在元、金京敏、尹宰俊 / 韩语</p><div class="star clearfix"><span class="allstar35"></span><span class="rating_nums">6.9</span><span class="pl">(50人评价)</span></div></td></tr></table><div id="collect_form_5355080"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/5294276/"  title="密林鱼：剧场版" >
+            <img src="http://img3.douban.com/spic/s4487930.jpg" alt="密林鱼：剧场版"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/5294276/"  >密林鱼：剧场版 / <span style="font-size:12px;">Jungle Fish / 丛林的鱼：剧场版</span></a></div><p class="pl">2010-09-23 / 朴宝英 / 金秀贤 / 朴宝英 Bo-yeong Park / 金秀炫 Su-hyeon Kim / 灿成 / 韩国 / Choi Seong-beom / 密林鱼：剧场版 / 韩国语</p><div class="star clearfix"><span class="allstar35"></span><span class="rating_nums">6.9</span><span class="pl">(44人评价)</span></div></td></tr></table><div id="collect_form_5294276"></div>
+    </div>
+    
+                </div>
+            <div class="aside">
+    <div style="background-color:#f2f7f6;padding:10px
+        15px;font-size:14px;width:270px;"><a href="/category/">试试新的电影分类筛选 &gt;</a></div><br/><div id="dale_movie_tag_top_right"></div><h2  >相关的标签 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div class="tags-list"><a href="http://movie.douban.com/tag/%E6%A8%B8%E5%AF%B6%E8%8B%B1">樸寶英</a><a href="http://movie.douban.com/tag/%E9%BB%83%E7%87%A6%E6%88%90">黃燦成</a><a href="http://movie.douban.com/tag/%E6%9C%B4%E5%AE%9D%E8%8B%B1">朴宝英</a><a href="http://movie.douban.com/tag/%E5%BE%88%E5%8A%B2">很劲</a><a href="http://movie.douban.com/tag/kr">kr</a><a href="http://movie.douban.com/tag/%E7%AA%83%E8%B4%BC%E4%BB%AC">窃贼们</a><a href="http://movie.douban.com/tag/%E5%B4%94%E6%9D%B1%E5%8B%9B">崔東勛</a><a href="http://movie.douban.com/tag/Gaint">Gaint</a></div><form name="tsp_form" action="http://movie.douban.com/tag/" method="GET"><input name="search_text" class="j a_search_text" type="text" size="24" maxlength="36" title="去其他标签" value=""/>
+    <input class="butt" type="submit" value="进入"/>
+    </form><br/><br/><p class="pl2 mb30">&gt; <a href="http://movie.douban.com/tag/">浏览全部电影标签</a></p>
+        
+
+
+
+
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = 'http://erebor.douban.com/',
+            userId = '',
+            browserId = 'VKpIE5M+TuQ',
+            ipAddress = '122.236.48.167',
+            criteria = '3:/tag/%E9%87%91%E7%A7%80%E7%82%AB',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_movie_tag_top_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, ip: ipAddress, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'http://img3.douban.com/js/packed_ad3738113870.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/tag/-', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/tag/-', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/tag/-', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper1 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

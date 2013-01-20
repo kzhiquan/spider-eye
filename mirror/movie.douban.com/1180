@@ -1,0 +1,716 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        怎样去给你一个足够好的未来 (坏未来 影评)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <meta name="keywords" content="坏未来,影评,评论,观后感"/>
+    <meta name="description" content="怎样去给你一个足够好的未来" />
+    <meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.douban.com/movie/review/5747985/">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/3f45551276fb584e.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1><span property="v:summary">怎样去给你一个足够好的未来</span></h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    <div class="obss" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review">
+        <div class="piil">
+            <a onclick="moreurl(this, {from:'mv_rv_au_icon'})" href="http://movie.douban.com/people/41802894/">
+                <img class="pil" src="http://img3.douban.com/icon/user_normal.jpg">
+            </a>
+        </div>
+        <div class="piir">
+            <span property="v:dtreviewed" content="2013-01-20" class="mn">2013-01-20 12:53:19</span>            <span class="pl2">　　                来自: <a onclick="moreurl(this, {from:'mv_rv_au_name'})" href="http://movie.douban.com/people/41802894/"><span property="v:reviewer">luwenronon</span></a>
+                <br/>
+                <a onclick="moreurl(this, {from:'mv_rv_sbj_l'})"  href="http://movie.douban.com/subject/20473389/"><span property="v:itemreviewed">
+    
+坏未来 / 坏未来</span></a>的评论
+<span title="力荐">&nbsp;&nbsp;<img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/></span>
+
+                <span property="v:rating" style="color: #fff">5</span>
+
+                    <br/>提示: 有关键情节透露
+            </span>
+            <br/><br/> 
+
+            <div id="link-report">
+                <span property="v:description">　　我们先从几个问题开始，这也是我没怎么搞定的，欢迎有人来解答：<br/>　　1.为什么会叫这么一个题目？<br/>　　坏，也许是对于未来的悲观，也许是因为未来是属于坏的赵寇的未来。孙白，白；赵寇，寇；名字似乎也恰如其分的说明了两者的关系。坏未来，从孙白和郑晓燕离婚的时候就已经注定了，<br/>　　<br/>　　2.孙白和郑晓燕为什么会离婚？<br/>　　我不知道李阳为什么会特意的忽略这个，就像在李献计里特地忽略了王倩和李献计的分手原因一样（车祸这个说实话，苍白了）。既然郑晓燕从一开始就是间谍，那战争是最可能的解释。其实啊，我们连他们什么时候结婚，都不知道不是么。他们的二居室，究竟买到了么，我也不知道。<br/>　　<br/>　　3.究竟有几个郑晓燕？<br/>　　按照开始孙白的自白，应该是两个的。片中也出现了很多处的疑点，例如郑晓燕为什么会在后面中文忽然退步了；例如所以我推测，郑晓燕也是两个。一个郑晓燕是我们知道的这个，学习成绩优异，爱着孙白；还有一个郑晓燕，是离婚之后出现的这个，脾气正如开始的时候说的，每个月只在身体里几天，性格暴躁且极其不爱体育运动。为什么会不爱体育运动，也许正是因为她在接收特工的训练已经对那些体能训练反感而麻木了。两具身体之间显然是会有关联的。以至于郑晓燕摔罐子的时候，那个射箭的形象郑晓燕是右手拿弓左手拉弦，和正常人相反，或许意味着这只是一个镜像。<br/>　　我曾经大胆的想象另一个郑晓燕其实就是活阎王，后来觉得太牵强推翻了。<br/>　　<br/>　　4.那么，接下来的问题就是，既然郑晓燕早就知道孙白等于赵寇，那么火车上的一起，都是在演戏么？<br/>　　那么就该是的罢。在孙白说出，我知道那下面藏着世界上最好看的姑娘时，郑晓燕及时打断，怕的是自己会动摇一下hold不住而泄露罢。是的，郑晓燕当然一直爱着孙白，也爱着赵寇。不然以她的水平，不会贸然接过孙白给的饮料。火车爆炸前孙白切换到赵寇的身体，郑晓燕打了赵寇的手机；既然是未知号码，之前肯定是没存着的所以联系不多，但郑晓燕记得。一个人的性格，总会有黑暗和光明，那么同样一分为二的郑晓燕，在冥冥之中觉得孙白有另外一半的性格在外面，也是合情理的。<br/>　　<br/>　　最后来整个的说这个片子，除了李阳扎实的技术基础，出彩的还有优秀的剧本和台词，当然包括李阳逆天的声优出演，真是没见过其他的片子可以相比的。开始的施工楼里打斗略长，也许几个漫画场景就能交代清楚，也不会由着动画化的血腥场面吓走一些女生或洁癖观众；中间总统的演说也偏长，也是几个快速闪回的报纸就可以说清的，片尾唐僧根本不说话都可以。如果再精炼一下能把片子压缩到30MIN的话，整个的品质会有更加的提升。调色方面颜色的饱和度过渡有些不自然，缺乏大片的平整感，有的场景有些用力过猛。镜头上李阳似乎喜欢手持摄影的摇晃，稍微加一些当然可以，但从总的片子来看觉得量有点儿过。配乐THE END OF THE WORLD很赞，为大家所诟病的片尾曲看来果然是出自投资方的压力，那就不提了。<br/>　　<br/>　　要说中国还有什么值得我期待的导演，在陆川阵亡之后，只剩宁浩；好在现在多了个李阳。说起来这也是挺悲剧的一事儿，往往都是一些没有名气的圈外人给我们一些眼前一亮的东西。也许很多我看不懂的，技巧啊经验方面还有很大的不足，但是这些业余的人，心里有足够好的故事，还有更重要的，他们的心里有属于自己的那些特别打动人的感情，而他们还年轻，有足够坚定和美好的信念去把这感情，通过各样的方式表达出来，从而使片子的一开始，就带了足够的浓厚的个人风格。我喜欢这样的个人风格，不是因为它承载怎样天马行空的想象力或者身披多么玄虚的外衣，而是因为那最核心最本源的是真挚的情感。<br/>　　我常想，我们看电影是为了看什么，是恢弘奇幻的场面？那是一小部分；看构思精巧的情节？那不如直接看书；看演员的出色表演？那也只是一部分；最关键，还是从整个片子里渗透出来的感情，在那设定好的时代背景下，以人类和深植根于文化的基础来思考与代入所能获得的情感共振，也就是常说的“共鸣”。换做我是主角/配角，我会怎么做？故事终走向这样的结局，究竟是因为客观的无奈，还是因为本性的使然？把所有的花哨技巧细节蒙太奇都去掉，剩下最核心的，就是那感情，纯粹的、清澈的，和每个人多少都能有共通之处的感情。<br/>　　就如当年李献计打动我一样，我之所以冠之以国产最佳没有之一，不仅仅是因为流畅的故事出色的风格以及天衣无缝的BGM还有绝赞的声优配音，更加是因为这个片儿表达的情感内涵太对我胃口了——李献计，愿意为了王倩，付出一切。就那么简单，为一个几乎不可能实现的目标而去不断的奋斗不断的折腾甚至有点丧心病狂，这太TMD男人了，明知不可为而为之，这是没有几个人能做到的也是我特别佩服的。<br/>　　这个片儿也一样，李阳用同样闪回的手法交代拿到赦免令的过程，原来代价是7亿人的生命。这里是好人孙白，不是坏人赵寇，孙白到底是怎样有了这样的觉悟，去承担如此的大恶？他明知道自己换回来的，也只是郑晓燕的生命而不是郑晓燕和他在一起，他早就能猜到最后的结局自己不会翻身，但他还是这样去做了，他不管什么对错好坏，就是想着能保全郑晓燕，别的不重要。不去计较自己会付出多么沉重的代价。就像最开始的时候，赵寇做的，宁愿背负所有的罪恶，为孙白和郑晓燕换取一个好的未来，然而他还是失败了。<br/>　　<br/>　　豆瓣的评论里说，给他3000万，他就能逆天。好希望自己是个有钱的人，给他好多好多的钱，去让他拍更加精彩的东西。</span>
+            </div>
+
+            
+
+
+            <div class="clear"></div>
+
+            
+
+            <div class="review-panel" name="5747985">
+                <div class="review-note">
+                </div>
+                <div class="review-stat">
+                    
+                    你认为这篇评论：
+                    <span class="useful">
+                        <a class="btn-useful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_y'});voteuseful('r-5747985',true)">有用</a>
+                        <em id="ucount5747985u">1</em>
+                    </span>
+                    <span class="unuseful">
+                        <a class="btn-unuseful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_n'});voteuseless('r-5747985',true)">没用</a>
+                        <em id="ucount5747985l"></em>
+                    </span>
+                </div>
+            </div>
+
+            <div class="ul" style="margin-top:10px;margin-bottom:5px"></div>
+                
+                <ul style="margin:0;padding:0;float:left;">
+                    
+    
+    <li class="rec" id="O-5747985">
+        <a href= "#" data-url="http://movie.douban.com/review/5747985/" data-desc="" data-title="怎样去给你一个足够好的未来  (豆瓣影评 - 关于电影《坏未来》)" data-pic="" class="bn-sharing ">分享到</a> &nbsp;&nbsp;
+    </li>
+    <script>
+    var cache_url = cache_url || {};
+    (function(u){ if(cache_url[u]){ return; } cache_url[u] = true; Do(function(){$.getScript(u);}); })('http://img3.douban.com/js/lib/packed_sharebutton1775626802.js');
+    </script>
+ 
+                </ul>
+                
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+</div>
+
+                <div class="clear"></div>
+                
+
+
+
+
+
+
+
+
+
+
+<div id="comments">
+
+
+
+
+
+    
+
+<div class="comment-item" id=5324089 data-cid="5324089" data-target_id="5747985" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 15:11:18 
+          <a href="http://www.douban.com/people/3695126/">觉醒</a>  (直到天明)
+        </div>
+
+
+        
+        <p>　　很好。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u3695126 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5747985/remove_comment?cid=5324089" class="j a_confirm_link" title="删除觉醒的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5324136 data-cid="5324136" data-target_id="5747985" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 15:35:36 
+          <a href="http://www.douban.com/people/liyaoyao/">李妖妖</a>  (葛利斯581d我来了！)
+        </div>
+
+
+        
+        <p>　　每个月只在身体里几天，性格暴躁且极其不爱体育运动。<br/>　　<br/>　　指的是月经</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1224385 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5747985/remove_comment?cid=5324136" class="j a_confirm_link" title="删除李妖妖的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5324150 data-cid="5324150" data-target_id="5747985" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 15:40:24 
+          <a href="http://www.douban.com/people/41802894/">luwenronon</a> 
+        </div>
+
+
+        
+        <p>　　@李妖妖 虽然有想到过是这个~~~但是觉得这个哏没啥意义啊~~~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u41802894 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5747985/remove_comment?cid=5324150" class="j a_confirm_link" title="删除luwenronon的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div id="last"></div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <br/><span class="pl2" align="right"><a class="j a_show_login" href="https://www.douban.com/accounts/register?reason=comment">&gt; 我来回应</a></span>
+
+
+ 
+
+ 
+
+    
+    
+    
+
+
+
+
+
+
+
+</div>
+
+
+<script>
+Do(function(){
+  $('#comments').find('.comment-item').hover(function(){$(this).addClass('over');}, function(){$(this).removeClass('over');});
+  $('.reply-quote .toggle-reply').click(function(e) {
+    e.preventDefault();
+    var el = $(this);
+    el.prevAll('span').toggle(); 
+    el.find('span').toggle();
+  });
+});
+</script>
+
+
+
+
+        </div>
+    </div>
+
+    
+
+	</div>
+        <div class="aside">
+            
+    
+
+
+
+
+
+
+
+    <div class="copyright indent">本评论版权属于作者luwenronon，并受法律保护。除非评论正文中另有声明，未经合法书面许可任何人不得转载或使用整体或任何部分的内容。</div>
+    <p class="pl2">&gt; <a onclick="moreurl(this, {from:'mv_rv_sbj_r'})" href="http://movie.douban.com/subject/20473389/">去坏未来的页面</a></p>
+
+    <div class="indent">
+        
+
+
+
+
+
+
+
+<style>
+    .movie-summary {overflow:hidden; zoom:1;}
+    .movie-summary .movie-pic {margin-bottom:15px; margin-top:3px;}
+    .movie-summary p {margin:3px 0; padding-left:2.5em; text-indent:-2.5em; color:#111;}
+    .movie-summary p .pl, .movie-summary p a:link , .movie-summary p a:visited{color:#111;}
+    .movie-summary p a:hover {color:#fff;}
+    .trail_link,.trail_link:visited,.trail_link:hover,.trail_link:active {margin-top:5px; display:block; height:28px; width:96px; background:url('/pics/movie_trailer_icon2.png'); overflow:hidden; line-height:99em;}
+    .btn-complete-video{margin-top:5px;}
+    .btn-complete-video,.btn-complete-video:active,.btn-complete-video:hover,.btn-complete-video:visited{background:url(http://img3.douban.com/pics/movie_trailer_icon4.png) no-repeat left top;display:block;height:28px;width:96px;line-height:99em;margin-bottom:10px;overflow:hidden}
+</style>
+
+<div class="movie-summary">
+        <div class="movie-pic"><a onclick="moreurl(this, {from:'mv_rv_poster'})"  href="http://movie.douban.com/subject/20473389/" ><img alt="坏未来" title="坏未来" src="http://img5.douban.com/mpic/s24525499.jpg" rel="v:image"></a></div>
+    <span class="attrs">
+        
+            
+        <p>
+            <span class="pl">导演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_director'})"  href="http://movie.douban.com/celebrity/1324950/">李阳</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">主演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1313011/">段博文</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1325753/">冯文娟</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/search/%E6%9D%8E%E8%8C%82">李茂</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">类型:</span>
+                剧情, 动作, 爱情, 科幻
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">地区:</span>
+                中国大陆
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">片长:</span>
+                36分钟
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">上映:</span>
+                2013-01-11(中国大陆)
+        </p>
+
+    </span>
+</div>
+
+
+
+
+
+    </div>
+
+            <h2>luwenronon的其他评论</h2>
+        <div class="indent other_review">
+            <ul>
+                    
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_1'})" href="http://movie.douban.com/review/5699025/" class="ll">这里不是影评，只是问题</a> 
+                                    <span class="stars4 starstop" title="推荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/6890730/">寒戰</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_2'})" href="http://movie.douban.com/review/5695867/" class="ll">没人说点反话么？</a> 
+                                    <span class="stars3 starstop" title="还行"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/11499033/">Eega</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_3'})" href="http://movie.douban.com/review/5127313/" class="ll">流浪人小队最终和安达利尔握手言和，女伯爵把爱情埋在心底</a> 
+                                    <span class="stars2 starstop" title="较差"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/5194471/">画壁</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_4'})" href="http://movie.douban.com/review/4950467/" class="ll">信任，执着和奇迹</a> 
+                                    <span class="stars5 starstop" title="力荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/3808604/">The Next Three Days</a>)
+                        </li>
+            </ul>
+            <p class="pl clearfix">
+                <a class="rr" onclick="moreurl(this, {from:'mv_rv_au_all'})" href="http://movie.douban.com/people/41802894/reviews?cat_id=1002">&gt; 全部评论(5)</a>
+            </p>
+        </div>
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/703012dc8cdf08fe.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper3-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

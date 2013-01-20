@@ -1,0 +1,531 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        夺宝联盟 的影评 (1)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    
+    <meta name="keywords" content="夺宝联盟,도둑들,影评,评论,观后感">
+    <meta name="description" content="夺宝联盟热门影评和最新影评,夺宝联盟电影评论">
+    <link rel="alternate" href="http://movie.douban.com/feed/subject/5502697/reviews" type="application/rss+xml" title="RSS">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/6dfdb53a5cbe25d8.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1>夺宝联盟 的影评 (1)</h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+    <h2 class="green_tab clearfix">
+        
+            
+    
+    <a href="javascript:;" class="on">
+        <span>热门影评</span>
+    </a>
+
+            
+    
+    <a href="http://movie.douban.com/subject/5502697/reviews?sort=time&amp;filter=&amp;score=1" class="">
+        <span>最新影评</span>
+    </a>
+
+            
+    
+    <a href="http://movie.douban.com/subject/5502697/follows_reviews?filter=&amp;score=1" class="j a_show_login">
+        <span>我关注的</span>
+    </a>
+
+
+    </h2>
+    
+
+
+
+
+
+
+
+
+
+
+
+        <div class="fold-hd">
+            <a class="btn-unfold" href="#">有一些影评被折叠了</a>
+            <a class="qa" href="/help/opinion#t1-qs" target="_blank">为什么被折叠？</a>
+            <div class="qa-tip">
+                评论被折叠，是因为发布这条评论的帐号行为异常。评论仍可以被展开阅读，对发布人的账号不造成其他影响。如果认为有问题，可以<a href="http://help.douban.com/help/ask?category=movie">联系</a>豆瓣电影。
+            </div>
+        </div>
+        <div class="fold-bd">
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5656026" class="rr"><a id="af-5656026" rel="sw-False" href="http://movie.douban.com/review/5656026/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'5502697',itself:5656026})"/></a>
+                        <a id="au-5656026" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="这不叫同盟" href="http://movie.douban.com/review/5656026/">这不叫同盟</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/50650141/" title="不走夜路"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg" alt="不走夜路"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/50650141/">不走夜路</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5656026_short" class="review-short">
+                    何谓同盟，建立同盟的目的通常是为了相互保障自身的安全。11个人穿的五颜六色，浩浩荡荡一起进入据点，有木有相互遮掩？不合逻辑的犯罪片本身就是从负数开始起评，打五星的不适合看犯罪片，因为秀下限的智商很容易被编剧漏洞百出的剧本+不合逻辑的讲述给唬住。......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-16 11:08:29 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5656026_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        </div>
+
+
+
+
+
+    
+    
+    
+    <div id="paginator">
+            <span class="first">第一页</span> /
+            <span class="prev">前一页</span> /
+            <span class="next">后一页</span> /
+        <span class="total">(共 1 条)</span>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+        
+    <h2>
+        按评分查看影评
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+    <div class="rating_list clearfix">
+        <ul>
+                <li  >
+                    <a href="http://movie.douban.com/subject/5502697/reviews?score=">
+                       <span>全部 - 105</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/5502697/reviews?score=5">
+                       <span>5星 - 16</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/5502697/reviews?score=4">
+                       <span>4星 - 45</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/5502697/reviews?score=3">
+                       <span>3星 - 31</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/5502697/reviews?score=2">
+                       <span>2星 - 12</span>
+                    </a>
+                </li>
+                <li class='on' >
+                    <a href="http://movie.douban.com/subject/5502697/reviews?score=1">
+                       <span>1星 - 1</span>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div>
+        <a href="http://movie.douban.com/subject/5502697/"><img alt="夺宝联盟" title="夺宝联盟" src="http://img3.douban.com/mpic/s9053553.jpg"/></a>
+    </div>
+    <p class="pl2">&gt; <a href="http://movie.douban.com/subject/5502697/">去夺宝联盟的页面</a></p>
+    
+    <h2>
+        用你的鼠标投票
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+    <div class="indent">
+        <span class="pl">
+            如果你觉得一篇评论对你有帮助，请你点击“有用”。你的投票直接决定哪些评论出现在豆瓣首页和“豆瓣最受欢迎的评论”里，以及在书、电影和音乐介绍页里评论的排序。
+            <br/>
+            <br/>
+            所有“没用”的点击都是匿名的。
+        </span>
+    </div>
+    <br/>
+    <br/>
+    
+    
+<p class="pl">订阅夺宝联盟 도둑들的影评: <br/><span class="feed">
+    <a href="http://movie.douban.com/feed/subject/5502697/reviews"> feed: rss 2.0</a></span></p>
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/5f95afa3d50334d7.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper1-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>新片预知</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="新片预知">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>新片预知</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/52160430/"><img src="http://img3.douban.com/icon/u52160430-2.jpg" align="left" alt="大同万达电影城"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/52160430/">大同万达电影城 </a><br />
+        创建时间: 2012-03-14 17:38:39　最后修改时间: 2013-01-15 15:30:45</p></div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-1486939"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+</div>
+<div class="filters">全部电影(5)</div>
+    <p id="sb2363876" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2363876/"><img width="80" src="http://img3.douban.com/spic/s12620955.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-15 15:30:45添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/2363876/">007：大破天幕杀机 Skyfall</a>
+    
+    </div>
+    <p class="pl">导演 : 萨姆·门德斯 Sam Mendes<br/>主演 : 丹尼尔·克雷格 Daniel Craig/拉尔夫·费因斯 Ralph Fiennes/哈维尔·巴登 Javier Bardem/贝纳尼丝·玛尔洛 Bérénice Marlohe/娜奥米·哈里斯 Naomie Harris/朱迪·丹奇 Judi Dench/阿尔伯特·芬尼 Albert Finney/本·卫肖 Ben Whishaw/海伦·麦克洛瑞 Helen McCrory</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3530403" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3530403/"><img width="80" src="http://img3.douban.com/spic/s22705883.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-15 15:30:45添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/3530403/">云图 Cloud Atlas</a>
+    
+    </div>
+    <p class="pl">导演 : 汤姆·提克威 Tom Tykwer/拉娜·沃卓斯基 Lana Wachowski/安迪·沃卓斯基 Andy Wachowski<br/>主演 : 汤姆·汉克斯 Tom Hanks/哈莉·贝瑞 Halle Berry/吉姆·布劳德本特 Jim Broadbent/雨果·维文 Hugo Weaving/吉姆·斯特吉斯 Jim Sturgess/裴斗娜 Doona Bae/本·卫肖 Ben Whishaw/詹姆斯·达西 James D'Arcy/周迅 Xun Zhou/凯斯·大卫 Keith David/大卫·吉雅西 David Gyasi/苏珊·萨兰登 Susan Sarandon/休·格兰特 Hugh Grant</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb20277285" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/20277285/"><img width="80" src="http://img3.douban.com/spic/s24524580.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-15 15:30:45添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/20277285/">喜羊羊与灰太狼之喜气羊羊过蛇年</a>
+    
+    </div>
+    <p class="pl">导演 : 1326141<br/>主演 : 祖晴 Qing Zu/梁颖 Ying Liang/张琳 Lin Zhang/邓玉婷 Yuting Deng/高全胜 Quansheng Gao/刘红韵 Hongyun Liu/赵娜 Na Zhao</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb20278174" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/20278174/"><img width="80" src="http://img3.douban.com/spic/s24522545.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-15 15:30:45添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/20278174/">绿林大冒险</a>
+    
+    </div>
+    <p class="pl">导演 : (小)徐克 Xu Kerr<br/>主演 : 张欣 Xin Zhang/张安琪 Anqi Zhang/王肖兵 Xiaobing Wang/李正翔 Zhengxiang Li/李传缨 Chuanying Li/杨梦露 Menglu Yang/高其昌 Qichang Gao/姜玉玲 Yuling Jiang</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb20369263" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/20369263/"><img width="80" src="http://img3.douban.com/spic/s24598278.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-15 15:30:45添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/20369263/">巴啦啦小魔仙</a>
+    
+    </div>
+    <p class="pl">导演 : 李欣 Xin Li/叶凯 Kai Ye<br/>主演 : 廖景萱 Jingxuan Liao/袁奇峰 Qifeng Yuan/王慧 Hui Wang/唐梦娅 Mengya Tang</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2 style="margin-top:30px">大同万达电影城的其他电影豆列  · · · · · ·  </h2>
+        <style>.dlistp p{margin-top:4px;border-bottom:1px #ddd dashed;padding-bottom:4px}</style>
+        <div class="dlistp"><p><a href="http://movie.douban.com/doulist/1234678/">新片速递</a></p> <p><a href="http://movie.douban.com/doulist/1270016/">8月热电影</a></p> <p><a href="http://movie.douban.com/doulist/1306768/">9月电影速递</a></p> <p><a href="http://movie.douban.com/doulist/1339556/">10月影片速递</a></p> <p><a href="http://movie.douban.com/doulist/1360261/">11月热电影</a></p> </div><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper11 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

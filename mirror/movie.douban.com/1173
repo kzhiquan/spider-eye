@@ -1,0 +1,639 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        江湖 大寒 (一代宗师 影评)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <meta name="keywords" content="一代宗师,一代宗師,影评,评论,观后感"/>
+    <meta name="description" content="江湖 大寒" />
+    <meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.douban.com/movie/review/5748356/">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/3f45551276fb584e.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1><span property="v:summary">江湖 大寒</span></h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    <div class="obss" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review">
+        <div class="piil">
+            <a onclick="moreurl(this, {from:'mv_rv_au_icon'})" href="http://movie.douban.com/people/zishuzishu/">
+                <img class="pil" src="http://img3.douban.com/icon/u11974468-121.jpg">
+            </a>
+        </div>
+        <div class="piir">
+            <span property="v:dtreviewed" content="2013-01-20" class="mn">2013-01-20 18:30:47</span>            <span class="pl2">　　                来自: <a onclick="moreurl(this, {from:'mv_rv_au_name'})" href="http://movie.douban.com/people/zishuzishu/"><span property="v:reviewer">紫书</span></a>
+                    (若存若亡)
+                <br/>
+                <a onclick="moreurl(this, {from:'mv_rv_sbj_l'})"  href="http://movie.douban.com/subject/3821067/"><span property="v:itemreviewed">
+    
+一代宗師 / 一代宗师</span></a>的评论
+<span title="力荐">&nbsp;&nbsp;<img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/></span>
+
+                <span property="v:rating" style="color: #fff">5</span>
+
+            </span>
+            <br/><br/> 
+
+            <div id="link-report">
+                <span property="v:description">　　     观影的时间一推再推，早上陆续两场约会或因人事或因天意而推后，我在归家的路途上不可遏止地想赴这一场电影的约。<br/>　　<br/>　　   有些是合适在银幕上观看的片子，有些是合适在家抿酒小酌的片子。而这一部，我坐在众人之中，寥落而空旷。<br/>　　<br/>　　   最开始，直看的我皱眉，不知所以的打戏，不知来龙的搭手纷争，宫二的出场，难得没有重复她的过往，虽然隐然延续了少年玉娇龙的任性。然而至少让我慢慢沉下心去看。<br/>　　<br/>　　   观影之前，正好在看徐皓峰的大日坛城，看到片中提到鸟不飞，哑然一笑，果然是王家卫成就了徐皓峰。<br/>　　   我曾经同先生推手，瞬间空空落落，无所依从，人不由自主的往前跌仆，又瞬间粘连处大力涌来，踉跄失步。<br/>　　<br/>　　   叶问的背后，其实还是宫二，是关东之鬼，是一线天，而曾经在我们生活中熟稔的各种武林犹如被飞驰列车甩掉的迷雾，终于逝去在我们的视野中。所以我们才会抚掌大笑，曰各种不可思议。<br/>　　<br/>　　   人说武学有三境界，一见自己，二见天地，三见众生，其实三则一也，你见的到自己，自然能看到自己与众生，人与天地，所以我执始终越不过，此见也非此见，见亦不见。所以宫二不曾见，而叶问终能见，仅此而已。<br/>　　    说起来，刀与星辰，我其实没有看完。<br/>　　<br/>　　    每个人都有自己的江湖，江湖实则大寒。<br/>　　   </span>
+            </div>
+
+            
+
+
+            <div class="clear"></div>
+
+            
+
+            <div class="review-panel" name="5748356">
+                <div class="review-note">
+                </div>
+                <div class="review-stat">
+                    
+                    你认为这篇评论：
+                    <span class="useful">
+                        <a class="btn-useful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_y'});voteuseful('r-5748356',true)">有用</a>
+                        <em id="ucount5748356u">1</em>
+                    </span>
+                    <span class="unuseful">
+                        <a class="btn-unuseful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_n'});voteuseless('r-5748356',true)">没用</a>
+                        <em id="ucount5748356l"></em>
+                    </span>
+                </div>
+            </div>
+
+            <div class="ul" style="margin-top:10px;margin-bottom:5px"></div>
+                
+                <ul style="margin:0;padding:0;float:left;">
+                    
+    
+    <li class="rec" id="O-5748356">
+        <a href= "#" data-url="http://movie.douban.com/review/5748356/" data-desc="" data-title="江湖 大寒  (豆瓣影评 - 关于电影《一代宗师 一代宗師》)" data-pic="" class="bn-sharing ">分享到</a> &nbsp;&nbsp;
+    </li>
+    <script>
+    var cache_url = cache_url || {};
+    (function(u){ if(cache_url[u]){ return; } cache_url[u] = true; Do(function(){$.getScript(u);}); })('http://img3.douban.com/js/lib/packed_sharebutton1775626802.js');
+    </script>
+ 
+                </ul>
+                
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+</div>
+
+                <div class="clear"></div>
+                
+
+
+
+
+
+
+
+
+
+
+<div id="comments">
+
+
+
+
+
+<div id="last"></div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <br/><span class="pl2" align="right"><a class="j a_show_login" href="https://www.douban.com/accounts/register?reason=comment">&gt; 我来回应</a></span>
+
+
+ 
+
+ 
+
+    
+    
+    
+
+
+
+
+
+
+
+</div>
+
+
+<script>
+Do(function(){
+  $('#comments').find('.comment-item').hover(function(){$(this).addClass('over');}, function(){$(this).removeClass('over');});
+  $('.reply-quote .toggle-reply').click(function(e) {
+    e.preventDefault();
+    var el = $(this);
+    el.prevAll('span').toggle(); 
+    el.find('span').toggle();
+  });
+});
+</script>
+
+
+
+
+        </div>
+    </div>
+
+    
+
+	</div>
+        <div class="aside">
+            
+    
+
+
+
+
+
+
+
+    <div class="copyright indent">本评论版权属于作者紫书，并受法律保护。除非评论正文中另有声明，未经合法书面许可任何人不得转载或使用整体或任何部分的内容。</div>
+    <p class="pl2">&gt; <a onclick="moreurl(this, {from:'mv_rv_sbj_r'})" href="http://movie.douban.com/subject/3821067/">去一代宗师的页面</a></p>
+
+    <div class="indent">
+        
+
+
+
+
+
+
+
+<style>
+    .movie-summary {overflow:hidden; zoom:1;}
+    .movie-summary .movie-pic {margin-bottom:15px; margin-top:3px;}
+    .movie-summary p {margin:3px 0; padding-left:2.5em; text-indent:-2.5em; color:#111;}
+    .movie-summary p .pl, .movie-summary p a:link , .movie-summary p a:visited{color:#111;}
+    .movie-summary p a:hover {color:#fff;}
+    .trail_link,.trail_link:visited,.trail_link:hover,.trail_link:active {margin-top:5px; display:block; height:28px; width:96px; background:url('/pics/movie_trailer_icon2.png'); overflow:hidden; line-height:99em;}
+    .btn-complete-video{margin-top:5px;}
+    .btn-complete-video,.btn-complete-video:active,.btn-complete-video:hover,.btn-complete-video:visited{background:url(http://img3.douban.com/pics/movie_trailer_icon4.png) no-repeat left top;display:block;height:28px;width:96px;line-height:99em;margin-bottom:10px;overflow:hidden}
+</style>
+
+<div class="movie-summary">
+        <div class="movie-pic"><a onclick="moreurl(this, {from:'mv_rv_poster'})"  href="http://movie.douban.com/subject/3821067/" ><img alt="一代宗师 一代宗師" title="一代宗师 一代宗師" src="http://img3.douban.com/mpic/s24591423.jpg" rel="v:image"></a></div>
+    <span class="attrs">
+        
+            
+        <p>
+            <span class="pl">导演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_director'})"  href="http://movie.douban.com/celebrity/1041024/">王家卫</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">主演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1115918/">梁朝伟</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1041014/">章子怡</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1077991/">张震</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1197534/">宋慧乔</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1274296/">赵本山</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1274081/">小沈阳</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1300406/">王庆祥</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1318005/">张晋</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1038772/">卢海鹏</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1283563/">冯克安</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/search/%E5%88%98%E5%AE%B6%E5%8B%87">刘家勇</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1050979/">张智霖</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1275482/">金士杰</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1028828/">徐锦江</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1274304/">刘洵</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">类型:</span>
+                剧情, 动作, 传记
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">地区:</span>
+                中国大陆, 香港
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">片长:</span>
+                130分钟
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">上映:</span>
+                2013-01-08(中国大陆), 2013-01-10(香港)
+        </p>
+
+        <a onclick="moreurl(this, {from:'mv_rv_trailer'})"  class="trail_link" data-trailer-id="128125" href="http://movie.douban.com/trailer/128125/#content" >预告片</a>
+    </span>
+</div>
+
+
+
+
+
+    </div>
+
+            <h2>紫书的其他评论</h2>
+        <div class="indent other_review">
+            <ul>
+                    
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_1'})" href="http://movie.douban.com/review/5748355/" class="ll">江湖 大寒</a> 
+                                    <span class="stars5 starstop" title="力荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/3821067/">一代宗師</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_2'})" href="http://movie.douban.com/review/5550669/" class="ll">香港的老人们</a> 
+                                    <span class="stars5 starstop" title="力荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/5977835/">桃姐</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_3'})" href="http://movie.douban.com/review/5481037/" class="ll">虽有浮城，而无大亨</a> 
+                                    <span class="stars3 starstop" title="还行"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/10586620/">浮城</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_4'})" href="http://movie.douban.com/review/5465062/" class="ll">江湖之爱</a> 
+                                    <span class="stars4 starstop" title="推荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/1296623/">两个只能活一个</a>)
+                        </li>
+            </ul>
+            <p class="pl clearfix">
+                <a class="rr" onclick="moreurl(this, {from:'mv_rv_au_all'})" href="http://movie.douban.com/people/zishuzishu/reviews?cat_id=1002">&gt; 全部评论(26)</a>
+            </p>
+        </div>
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/703012dc8cdf08fe.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper5-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>ღ♩♪生活有这些期待很有动力♫♬ღ</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="ღ♩♪生活有这些期待很有动力♫♬ღ">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>ღ♩♪生活有这些期待很有动力♫♬ღ</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/46320993/"><img src="http://img3.douban.com/icon/u46320993-11.jpg" align="left" alt="freedom♪"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/46320993/">freedom♪ (北京)</a><br />
+        创建时间: 2012-04-01 07:14:49　最后修改时间: 2013-01-12 20:02:09</p><p class="indent">　　现在是2012-04-01日。我很期待的新剧~<br/>　　<br/>　　<br/>　　2012--4--11.待续待续......<br/></p>
+        </div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-1504454"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">10人</span>
+</div>
+<div class="filters">全部电影(243)</div>
+    <p id="sb20395646" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/20395646/"><img width="80" src="http://img3.douban.com/spic/s24620173.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-24 20:54:58添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/20395646/">越来越好之村晚</a>
+    
+    </div>
+    <p class="pl">导演 : 张一白 Yibai Zhang/谢东燊 Dongshen Xie<br/>主演 : 郭富城 Aaron Kwok/王宝强 Baoqiang Wang/吴君如 Sandra Ng/徐静蕾 Jinglei Xu/佟大为 Dawei Tong/王珞丹 Luodan Wang/梁家辉 Tony Leung Ka Fai/倪大红 Dahong Ni/景甜 Tian Jing/张译 Yi Zhang/吴刚 Gang Wu/黄觉 Jue Huang</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6791750" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6791750/"><img width="80" src="http://img3.douban.com/spic/s24511058.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-08 19:44:18添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/6791750/">风儿起 風立ちぬ</a>
+    
+    </div>
+    <p class="pl">导演 : 宫崎骏 Hayao Miyazaki</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb20274039" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/20274039/"><img width="80" src="http://img3.douban.com/spic/s24346761.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-24 20:40:09添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/20274039/">名侦探柯南：远海的侦探 名探偵コナン 絶海の探偵</a>
+    
+    </div>
+    <p class="pl">导演 : 静野孔文<br/>主演 : 高山南/山崎和佳奈/小山力也/山口胜平/崛川亮/宫村优子/林原惠美</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10514849" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10514849/"><img width="80" src="http://img3.douban.com/spic/s8826476.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-07-07 02:17:07添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/10514849/">新编辑部故事</a>
+    
+    </div>
+    <p class="pl">导演 : 郑晓龙 Xiaolong Zheng<br/>主演 : 吕丽萍 Liping Lü/黄海波 Haibo Huang/井柏然 Boran Jing/陈好 Hao Chen/王千源 Qianyuan Wang/焦俊艳 Junyan Jiao</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6971281" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6971281/"><img width="80" src="http://img3.douban.com/spic/s7009690.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-01 07:17:52添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/6971281/">花开半夏</a>
+    
+    </div>
+    <p class="pl">导演 : 李少红<br/>主演 : 林申/李沁/张嘉倪/杨洋/苗侨伟</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6974520" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6974520/"><img width="80" src="http://img3.douban.com/spic/s8920226.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-01 07:17:52添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/6974520/">女人帮</a>
+    
+    </div>
+    <p class="pl">导演 : 刘心刚<br/>主演 : 蒋雯丽/邬君梅/梁静</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb7564975" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/7564975/"><img width="80" src="http://img3.douban.com/spic/s10518325.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-01 07:27:31添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/7564975/">大漠谣</a>
+    
+    </div>
+    <p class="pl">导演 : 李国立 Kwok-Laap Lee<br/>主演 : 刘诗诗 Cecilia Liu/彭于晏 Eddie Peng/胡歌 Ge Hu/韩栋 Dong Han/陈法拉 Fala Chen/张可颐 Maggie Cheung Ho Yee/秦昊 Hao Qin/田蕊妮 Kristal Tin</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6872259" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6872259/"><img width="80" src="http://img3.douban.com/spic/s6965926.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-01 07:28:17添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/6872259/">寂寞空庭春欲晚</a>
+    
+    </div>
+    <p class="pl">导演 : 曾麗珍<br/>主演 : 劉愷威/佟麗婭/袁弘</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6518754" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6518754/"><img width="80" src="http://img3.douban.com/spic/s11353028.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-01 07:31:06添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/6518754/">冲上云霄II 衝上雲霄II</a>
+    
+    </div>
+    <p class="pl">导演 : 潘嘉德 Poon Ka Tak<br/>主演 : 吴镇宇 Francis Ng/张智霖 Julian Cheung/胡杏儿 Myolie Wu/陈法拉 Fala Chen/吴卓羲 Ron Ng/马国明 Kwok-Ming Ma/胡定欣  Nancy Wu Ting-yan/罗仲谦 Chung Him Law/江美仪 Elena Kong/梁靖琪 Toby Leung/朱晨丽 Rebecca Zhu/傅嘉莉 Kelly Fu</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10561869" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10561869/"><img width="80" src="http://img3.douban.com/spic/s8985366.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-01 07:37:28添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/10561869/">步步惊心2 步步惊心Ⅱ</a>
+    
+    </div>
+    <p class="pl">导演 : 李国立<br/>主演 : 刘诗诗/吴奇隆/郑嘉颖/林更新/袁弘/刘心悠</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6973376" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6973376/"><img width="80" src="http://img3.douban.com/spic/s24511254.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-01 07:51:24添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/6973376/">致我们终将逝去的青春</a>
+    
+    </div>
+    <p class="pl">导演 : 赵薇 Wei Zhao<br/>主演 : 韩庚/赵又廷/杨子珊/江疏影/郑恺/黄明/佟丽娅/包贝尔</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6126442" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6126442/"><img width="80" src="http://img3.douban.com/spic/s9166916.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-07 03:19:27添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/6126442/">一步之遥</a>
+    
+    </div>
+    <p class="pl">导演 : 姜文 Wen Jiang<br/>主演 : 姜文 Wen Jiang/葛优 You Ge/巩俐 Li Gong</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb20020577" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/20020577/"><img width="80" src="http://img5.douban.com/spic/s24473389.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-16 03:11:03添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/20020577/">推拿</a>
+    
+    </div>
+    <p class="pl">导演 : 娄烨 Ye Lou<br/>主演 : 郭晓冬 Xiaodong Guo/秦昊 Hao Qin/黄轩 Xuan Huang/梅婷 Ting Mei</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6874741" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6874741/"><img width="80" src="http://img3.douban.com/spic/s9085534.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-07 03:42:26添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/6874741/">无问西东</a>
+    
+    </div>
+    <p class="pl">导演 : 李芳芳 Fangfang Li<br/>主演 : 张震 Chen Chang/王力宏 Lee-Hom Wang/黄晓明 Xiaoming Huang/陈楚生 Chusheng Chen/章子怡 Ziyi Zhang</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5996799" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5996799/"><img width="80" src="http://img3.douban.com/spic/s6988317.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-07 03:45:15添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/5996799/">忠烈杨家将</a>
+    
+    </div>
+    <p class="pl">导演 : 于仁泰 Ronny Yu<br/>主演 : 吴尊 Chun Wu/郑伊健 Ekin Cheng/郑少秋 Adam Cheng/周渝民 Vic Chow/林峰 Raymond Lam/付辛博 Xinbo Fu/李晨 Chen Li/于波 Bo Yu</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10455181" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10455181/"><img width="80" src="http://img3.douban.com/spic/s8995814.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-07 04:01:24添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/10455181/">特殊身份</a>
+    
+    </div>
+    <p class="pl">导演 : 霍耀良<br/>主演 : 甄子丹/景甜/张涵予/杨坤/亓达吉</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6793349" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6793349/"><img width="80" src="http://img3.douban.com/spic/s6869154.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-07 04:09:11添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/6793349/">下一个奇迹 下一個奇跡</a>
+    
+    </div>
+    <p class="pl">导演 : 梁修身 Hsiu-shen Liang<br/>主演 : 谢霆锋 Nicholas Tse/张卫健 Dicky Cheung/吴秀波 Xiubo Wu/海清 Hai-Qing/李光洁 Guangjie Li</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6539421" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6539421/"><img width="80" src="http://img3.douban.com/spic/s7045576.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-07 04:21:00添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/6539421/">精忠岳飞</a>
+    
+    </div>
+    <p class="pl">导演 : 鞠覺亮/邹集城<br/>主演 : 黄晓明/林心如/羅嘉良/張馨予/吳秀波/劉詩詩</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5308265" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5308265/"><img width="80" src="http://img3.douban.com/spic/s24423024.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-07 04:39:38添加</span>
+        19. 
+    <a href="http://movie.douban.com/subject/5308265/">西游降魔篇</a>
+    
+    </div>
+    <p class="pl">导演 : 周星驰 Stephen Chow/郭子健 Derek Kwok Chi-kin<br/>主演 : 舒淇 Qi Shu/文章 Zhang Wen/黄渤  Bo Huang/罗志祥 Show/周秀娜 Chrissie Chow/何文辉 Wen Hui He/释延能 Xingyu Shi/赵志凌 Zhilin Zhao/杨迪 Di Yang/李尚正/冯勉恒 Min Hun Fung/卢正雨 Zhengyu Lu</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10344754" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10344754/"><img width="80" src="http://img3.douban.com/spic/s24841890.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-07 04:44:32添加</span>
+        20. 
+    <a href="http://movie.douban.com/subject/10344754/">毒战 毒戰</a>
+    
+    </div>
+    <p class="pl">导演 : 杜琪峰 Johnnie To/韦家辉 Ka-Fai Wai<br/>主演 : 古天乐 Louis Koo/孙红雷 Honglei Sun/林雪 Suet Lam/黄奕 Yi Huang/钟汉良 Wallace Chung/甘婷婷 Tingting Gan/叶璇 Michelle Ye/李菁 Jing Li/李光洁 Guangjie Li/高云翔 Gao Yunxiang/林家栋 Ka Tung Lam/卢海鹏 Hoi-Pang Lo</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4237863" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4237863/"><img width="80" src="http://img3.douban.com/spic/s4562647.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-07 04:49:09添加</span>
+        21. 
+    <a href="http://movie.douban.com/subject/4237863/">一场风花雪月的事</a>
+    
+    </div>
+    <p class="pl">导演 : 高群书 Qunshu Gao<br/>主演 : 黄晓明 Xiaoming Huang/杨颖 Angelababy/巍子 Wei Zi/苏青 suqing/在熙 Hyun-kyoon Lee</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3078390" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3078390/"><img width="80" src="http://img3.douban.com/spic/s3145880.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-07 04:50:15添加</span>
+        22. 
+    <a href="http://movie.douban.com/subject/3078390/">生死恋</a>
+    
+    </div>
+    <p class="pl">导演 : 吴宇森 John Woo<br/>主演 : 张震 Chen Chang/宋慧乔 Hye-kyo Song/张涵予 Hanyu Zhang/章子怡 Ziyi Zhang</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10467746" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10467746/"><img width="80" src="http://img3.douban.com/spic/s8912841.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-07 05:05:39添加</span>
+        23. 
+    <a href="http://movie.douban.com/subject/10467746/">无憾 無憾</a>
+    
+    </div>
+    <p class="pl">导演 : 张丽<br/>主演 : 刘德华 Andy Lau/叶德娴 Deannie Yip/许鞍华 Ann Hui/李恩霖</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb7051294" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/7051294/"><img width="80" src="http://img3.douban.com/spic/s11229993.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-11 18:07:55添加</span>
+        24. 
+    <a href="http://movie.douban.com/subject/7051294/">花漾</a>
+    
+    </div>
+    <p class="pl">导演 : 周美玲 Zero Chou<br/>主演 : 陈妍希 Michelle Chen/陈意涵 Ivy Chen/言承旭 Jerry Yan/郑元畅 Joe Cheng/任达华 Simon Yam/吴君如 Sandra Ng/茅子俊 Zijun Mao/李小冉 Xiao Ran Li</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6011806" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6011806/"><img width="80" src="http://img5.douban.com/spic/s10328309.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-12 21:48:51添加</span>
+        25. 
+    <a href="http://movie.douban.com/subject/6011806/">厨子·戏子·痞子</a>
+    
+    </div>
+    <p class="pl">导演 : 管虎 Hu Guan<br/>主演 : 刘烨 Ye Liu/张涵予 Hanyu Zhang/黄渤  Bo Huang/田中千绘 Chie Tanaka/梁静 Jing Liang/王迅 Xun Wang</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    <div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/doulist/1504454/?start=25&filter=">2</a><a href="http://movie.douban.com/doulist/1504454/?start=50&filter=">3</a><a href="http://movie.douban.com/doulist/1504454/?start=75&filter=">4</a><a href="http://movie.douban.com/doulist/1504454/?start=100&filter=">5</a><a href="http://movie.douban.com/doulist/1504454/?start=125&filter=">6</a><a href="http://movie.douban.com/doulist/1504454/?start=150&filter=">7</a><a href="http://movie.douban.com/doulist/1504454/?start=175&filter=">8</a><a href="http://movie.douban.com/doulist/1504454/?start=200&filter=">9</a><a href="http://movie.douban.com/doulist/1504454/?start=225&filter=">10</a><span class="next"><a href="http://movie.douban.com/doulist/1504454/?start=25&filter=">后页&gt;</a><link rel="next" href="http://movie.douban.com/doulist/1504454/?start=25&filter="/></span></div>
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2>最新留言 · · · · · ·  <span class="pl">( <a href="http://movie.douban.com/doulist/1504454/comments">查看全部</a> )</span></h2><ul class="mbt"><li class="mbtl"><a href="http://www.douban.com/people/46073432/"><img src="http://img3.douban.com/icon/u46073432-2.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/1504454/comments#c-270328">侧耳倾听 笑 : M 期待</a><span class="pl">  2012-08-02 16:57</span></li></ul><h2 style="margin-top:30px">freedom♪的其他电影豆列  · · · · · ·  </h2>
+        <style>.dlistp p{margin-top:4px;border-bottom:1px #ddd dashed;padding-bottom:4px}</style>
+        <div class="dlistp"><p><a href="http://movie.douban.com/doulist/1644474/">ღ♩♪生活有这些期待很有动力2♫♬ღ</a></p> <p><a href="http://movie.douban.com/doulist/1660821/">ღ♩♪生活有这些期待很有动力3♫♬ღ</a></p> </div><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- hogg5 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

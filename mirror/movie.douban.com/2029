@@ -1,0 +1,1416 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        一代宗师 的影评 (2292)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    
+    <meta name="keywords" content="一代宗师,一代宗師,影评,评论,观后感">
+    <meta name="description" content="一代宗师热门影评和最新影评,一代宗师电影评论">
+    <link rel="alternate" href="http://movie.douban.com/feed/subject/3821067/reviews" type="application/rss+xml" title="RSS">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/6dfdb53a5cbe25d8.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1>一代宗师 的影评 (2292)</h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+    <h2 class="green_tab clearfix">
+        
+            
+    
+    <a href="javascript:;" class="on">
+        <span>热门影评</span>
+    </a>
+
+            
+    
+    <a href="http://movie.douban.com/subject/3821067/reviews?sort=time&amp;filter=" class="">
+        <span>最新影评</span>
+    </a>
+
+            
+    
+    <a href="http://movie.douban.com/subject/3821067/follows_reviews?filter=" class="j a_show_login">
+        <span>我关注的</span>
+    </a>
+
+
+    </h2>
+    
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5731998" class="rr"><a id="af-5731998" rel="sw-False" href="http://movie.douban.com/review/5731998/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5731998})"/></a>
+                        <a id="au-5731998" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="台词很重要。" href="http://movie.douban.com/review/5731998/">台词很重要。</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/cure101/" title="木巧去工"><img class="pil" src="http://img3.douban.com/icon/u2303409-148.jpg" alt="木巧去工"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/cure101/">木巧去工</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5731998_short" class="review-short">
+                    如果人生有四季，四十岁前，我的人生都是春天。
+
+做羹要讲究火候。火候不到，众口难调，火候过了，事情就焦。做人也是这样。
+
+暗事好做，明事难成。
+
+宝森不是想当英雄，是想造时势。现在这炉子里，需要这根新柴。
+
+让他搭手多大的面子，姓叶的不识抬举，咱可不要坏了规矩。
+
+别跟他们一般见识，老人死守着规矩，......
+                        <a class="pl" href="http://movie.douban.com/review/5731998/">(258回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-08 21:42:45 &nbsp; &nbsp; 2359/2457有用 </span>
+                    </div>
+                </div>
+                <div id="review_5731998_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5733990" class="rr"><a id="af-5733990" rel="sw-False" href="http://movie.douban.com/review/5733990/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5733990})"/></a>
+                        <a id="au-5733990" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="赵本山演的是一个什么人物？" href="http://movie.douban.com/review/5733990/">赵本山演的是一个什么人物？</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/imagefly/" title="摩西不夜奔"><img class="pil" src="http://img3.douban.com/icon/u1367128-1.jpg" alt="摩西不夜奔"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/imagefly/">摩西不夜奔</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5733990_short" class="review-short">
+                    《一代宗师》赵本山演的是一个什么人物？
+
+《一代宗师》是王家卫对民国武林潜心研究多年之后拍出的心血之作，民国是中国武术最后一个黄金时代，一时英雄辈出风云际会，王家卫以自己独特的电影风格深情而诗意地追忆了这个时代，选定咏春、八极、八卦和形意四种武术来展现，八卦门中王庆祥饰演的掌门宫羽田极具宗师气派，但赵本山老师演的“......
+                        <a class="pl" href="http://movie.douban.com/review/5733990/">(172回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-10 03:07:22 &nbsp; &nbsp; 1817/1845有用 </span>
+                    </div>
+                </div>
+                <div id="review_5733990_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5732143" class="rr"><a id="af-5732143" rel="sw-False" href="http://movie.douban.com/review/5732143/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5732143})"/></a>
+                        <a id="au-5732143" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="【纯吐槽非影评】影史奇闻，走过路过不要错过哦亲们！" href="http://movie.douban.com/review/5732143/">【纯吐槽非影评】影史奇闻，走过路过不要错过哦...</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/yinxiang/" title="胤祥"><img class="pil" src="http://img3.douban.com/icon/u1228445-98.jpg" alt="胤祥"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/yinxiang/">胤祥</a>
+                    </span>
+                    <span class="allstar20" title="较差">
+                    </span>
+                </span>
+                <div id="review_5732143_short" class="review-short">
+                    【说了我不是王家卫黑我是王家卫粉，墨镜王的片儿虽然没看全，但是那几个难找的短片我也都刷过了。别认错了乱骂人……】
+
+1.这不是一篇影评。因为今天兄弟我在华星看到的这个版本，果断不是也不能，更不可能是完成片。对于一部处于中间状态的“影片”，自然是不能有“影评”这种东西存在的。当然，我是王家卫粉，这个两星仅对这个版本，......
+                        <a class="pl" href="http://movie.douban.com/review/5732143/">(377回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-08 22:50:39 &nbsp; &nbsp; 2016/2476有用 </span>
+                    </div>
+                </div>
+                <div id="review_5732143_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5732535" class="rr"><a id="af-5732535" rel="sw-False" href="http://movie.douban.com/review/5732535/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5732535})"/></a>
+                        <a id="au-5732535" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="一代宗师终落寞" href="http://movie.douban.com/review/5732535/">一代宗师终落寞</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/jhz/" title="今何在"><img class="pil" src="http://img3.douban.com/icon/u1626458-1.jpg" alt="今何在"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/jhz/">今何在</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5732535_short" class="review-short">
+                    一代宗师终落寞
+
+
+这部电影的情节：
+打
+打打打
+打个饼
+再打
+分开了
+老爸死了
+报仇了
+又见了
+死了
+全片完
+
+这部电影的每一个镜头或片段都是宗师级的。
+但凑在一起看你可能会疯掉
+后来你发现也许导演已经疯了
+好吧也许不疯魔不成活，正常人谁花八年拍一部电影啊。
+
+张震是来干嘛的？......
+                        <a class="pl" href="http://movie.douban.com/review/5732535/">(160回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-09 08:18:26 &nbsp; &nbsp; 1240/1317有用 </span>
+                    </div>
+                </div>
+                <div id="review_5732535_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5733221" class="rr"><a id="af-5733221" rel="sw-False" href="http://movie.douban.com/review/5733221/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5733221})"/></a>
+                        <a id="au-5733221" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="《一代宗师》：犹叹醉生梦死" href="http://movie.douban.com/review/5733221/">《一代宗师》：犹叹醉生梦死</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/luzhiyu/" title="陆支羽"><img class="pil" src="http://img3.douban.com/icon/u2866549-128.jpg" alt="陆支羽"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/luzhiyu/">陆支羽</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5733221_short" class="review-short">
+                    01.有人说，王家卫的野心或许正在于，他妄图像莱昂内拍《美国往事》一样，拍一部《民国往事》出来。遗憾的是，如今上映版的《一代宗师》，虽言未完成，却终究没有“XX往事”那样的宏大底气。或许，拖了那么多年，他内心也有些元气大伤吧；正如他自己对影片的评价：“有人说所谓绝招，就是把一个简单的事情做到极致，这部电影，我们是尽了力......
+                        <a class="pl" href="http://movie.douban.com/review/5733221/">(110回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-09 16:59:49 &nbsp; &nbsp; 785/816有用 </span>
+                    </div>
+                </div>
+                <div id="review_5733221_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5729782" class="rr"><a id="af-5729782" rel="sw-False" href="http://movie.douban.com/review/5729782/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5729782})"/></a>
+                        <a id="au-5729782" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="三板斧足以成大师" href="http://movie.douban.com/review/5729782/">三板斧足以成大师</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/MovieL/" title="木卫二"><img class="pil" src="http://img3.douban.com/icon/u1128221-43.jpg" alt="木卫二"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/MovieL/">木卫二</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5729782_short" class="review-short">
+                    看完《一代宗师》，很多人会持跟我一样的观点：叶问不是想象中（过往形象）的叶问，但王家卫还是那个王家卫。如果不算第一部的《旺角卡门》和上一部的《蓝莓之夜》（大概也是评价最差的王家卫作品），《一代宗师》是商业元素最强的一部王家卫作品。但即便如此，轻言观众会买王家卫的帐，好像也不太乐观。在我看来，由于暗藏各种言外之意、弦外之......
+                        <a class="pl" href="http://movie.douban.com/review/5729782/">(163回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-07 11:33:26 &nbsp; &nbsp; 734/837有用 </span>
+                    </div>
+                </div>
+                <div id="review_5729782_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5742409" class="rr"><a id="af-5742409" rel="sw-False" href="http://movie.douban.com/review/5742409/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5742409})"/></a>
+                        <a id="au-5742409" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="事关《一代宗师》的种种断想" href="http://movie.douban.com/review/5742409/">事关《一代宗师》的种种断想</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/1237533/" title="武束衣"><img class="pil" src="http://img3.douban.com/icon/u1237533-27.jpg" alt="武束衣"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/1237533/">武束衣</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5742409_short" class="review-short">
+                    1，分两头说。目前影院上映的《一代宗师》未定剪感很严重，部分素材调色不统一，但这和王家卫一直以来持独有语法叙事是不同层次的问题。电影本身质量造成的明显不满意，和电影风格造成的本能不适应，水酒交融地混在一起。谈一个点，往往顺着就谈向另一件。反驳也会这样。
+
+ 
+
+ 
+
+2，所谓“王家卫从来都不会讲故事”，不管......
+                        <a class="pl" href="http://movie.douban.com/review/5742409/">(76回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-15 22:41:23 &nbsp; &nbsp; 196/225有用 </span>
+                    </div>
+                </div>
+                <div id="review_5742409_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5728650" class="rr"><a id="af-5728650" rel="sw-False" href="http://movie.douban.com/review/5728650/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5728650})"/></a>
+                        <a id="au-5728650" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="王家卫影像源流考" href="http://movie.douban.com/review/5728650/">王家卫影像源流考</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/2109807/" title="林中狐"><img class="pil" src="http://img3.douban.com/icon/u2109807-1.jpg" alt="林中狐"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/2109807/">林中狐</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5728650_short" class="review-short">
+                    by林有狐
+
+1992年，王家卫还身陷在“《阿飞正传》效应”中，该片票房惨败，口碑却奇好，令他的电影之路面临着多种可能性。在这种情况下，王家卫部署成立了自己的电影公司——泽东电影。“泽东”的名称来自其英文名“Jet Tone”的音译，这个英文名其实是由刘镇伟的太太提出来的。从《东邪西毒》开始，王家卫的电影都由泽东公......
+                        <a class="pl" href="http://movie.douban.com/review/5728650/">(129回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-06 12:53:54 &nbsp; &nbsp; 341/378有用 </span>
+                    </div>
+                </div>
+                <div id="review_5728650_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5735845" class="rr"><a id="af-5735845" rel="sw-False" href="http://movie.douban.com/review/5735845/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5735845})"/></a>
+                        <a id="au-5735845" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="【有灯就有人，有人就有情 】——宗师的东与西之辩" href="http://movie.douban.com/review/5735845/">【有灯就有人，有人就有情 】——宗师的东与西之辩</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/Rstories/" title="李茶"><img class="pil" src="http://img3.douban.com/icon/u37999765-51.jpg" alt="李茶"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/Rstories/">李茶</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5735845_short" class="review-short">
+                    有灯就有人，有人就有情。
+一代宗师的东与西之辩
+
+文/ 李茶
+
+
+
+
+
+1
+
+
+多天之前，我在微博上转过木心写的一首诗，叫《杰克逊高地》。
+
+“
+连日强光普照
+一路一路树荫
+呆滞到傍晚
+红胸鸟在电线上啭鸣
+天色舒齐地暗下来
+那是慢慢地，很慢
+绿葉藂间的白屋
+夕陽射亮玻璃
+草......
+                        <a class="pl" href="http://movie.douban.com/review/5735845/">(46回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-11 13:38:30 &nbsp; &nbsp; 249/253有用 </span>
+                    </div>
+                </div>
+                <div id="review_5735845_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5732006" class="rr"><a id="af-5732006" rel="sw-False" href="http://movie.douban.com/review/5732006/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5732006})"/></a>
+                        <a id="au-5732006" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="只见自己，何以见天地，见众生？" href="http://movie.douban.com/review/5732006/">只见自己，何以见天地，见众生？</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/Queenie.Emika/" title="猫司令"><img class="pil" src="http://img3.douban.com/icon/u2272123-196.jpg" alt="猫司令"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/Queenie.Emika/">猫司令</a>
+                    </span>
+                    <span class="allstar20" title="较差">
+                    </span>
+                </span>
+                <div id="review_5732006_short" class="review-short">
+                    毫无疑问，这是一部再典型不过的王家卫式的电影，但也无法否认它是地地道道的下乘之作。
+
+《一代宗师》完全暴露了王家卫的风格中的缺点和局限。撇开题材先不谈，叙事的散文化，片段化非常不适应商业片的水土。两个多小时的片长，竖不起一个丰满的人物，加上某些男演员的脸谱化表演，甚至让人分不清不同的角色。节奏拖沓，散漫，文戏和武戏......
+                        <a class="pl" href="http://movie.douban.com/review/5732006/">(95回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-08 21:43:38 &nbsp; &nbsp; 305/389有用 </span>
+                    </div>
+                </div>
+                <div id="review_5732006_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5732322" class="rr"><a id="af-5732322" rel="sw-False" href="http://movie.douban.com/review/5732322/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5732322})"/></a>
+                        <a id="au-5732322" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="影片背后的一段历史，循着张大春的梳理，这电影的一切都变得豁然开朗。" href="http://movie.douban.com/review/5732322/">影片背后的一段历史，循着张大春的梳理，这电影...</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/poseidonhan/" title="浮云舍二当家"><img class="pil" src="http://img3.douban.com/icon/u3139385-25.jpg" alt="浮云舍二当家"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/poseidonhan/">浮云舍二当家</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5732322_short" class="review-short">
+                    张大春：丁连山生死流亡
+
+
+       丁连山是个鬼魅一般的人物，但这不是生成胎就，而是有一段特殊的渊源。若非涉入一段中日之间、北洋与国府之间的秘辛，他自己的人生，不会老是在黑暗里摩挲，用他自己的话来说：从此，我便堕入了鬼道！」
+
+　　这是关乎1912年的奉天血案，但是背景还要上推到1905年的「刺杀出洋五......
+                        <a class="pl" href="http://movie.douban.com/review/5732322/">(14回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-09 00:07:05 &nbsp; &nbsp; 120/129有用 </span>
+                    </div>
+                </div>
+                <div id="review_5732322_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5730710" class="rr"><a id="af-5730710" rel="sw-False" href="http://movie.douban.com/review/5730710/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5730710})"/></a>
+                        <a id="au-5730710" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="王家卫为爱走钢索" href="http://movie.douban.com/review/5730710/">王家卫为爱走钢索</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/jallenzhang/" title="Jallen"><img class="pil" src="http://img3.douban.com/icon/u33964786-11.jpg" alt="Jallen"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/jallenzhang/">Jallen</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5730710_short" class="review-short">
+                    《一代宗师》是电影里的奢侈品。
+
+      其实很怕那种一上来就口碑一片爆红的电影噜。《一代宗师》出来之前就意料到，肯定是喜欢和不喜欢的人一样多——《花样年华》《春光乍泄》《2046》这样的片子现在放在电影院里也是没有多少人会兴致勃勃从头看到尾吧。既然说是奢侈品，那肯定也是不会满足所有受众的品味的。他的电影注定两......
+                        <a class="pl" href="http://movie.douban.com/review/5730710/">(135回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-07 23:37:13 &nbsp; &nbsp; 275/310有用 </span>
+                    </div>
+                </div>
+                <div id="review_5730710_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5029310" class="rr"><a id="af-5029310" rel="sw-False" href="http://movie.douban.com/review/5029310/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5029310})"/></a>
+                        <a id="au-5029310" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="王家卫与胡金铨——《一代宗师》断想" href="http://movie.douban.com/review/5029310/">王家卫与胡金铨——《一代宗师》断想</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/shadanbbi/" title="奇爱"><img class="pil" src="http://img3.douban.com/icon/u1453341-69.jpg" alt="奇爱"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/shadanbbi/">奇爱</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5029310_short" class="review-short">
+                    王家卫与胡金铨——《一代宗师》断想
+  
+
+     《一代宗师》片方刚刚公布了一款预告片，这款预告片与上一版最大的区别，表面上看来是“真人亮相”，可实际上，除了潜台词告诉观众“王家卫磨洋工多年的这部功夫巨制终于开始从制作阶段转入市场营销阶段”，其它，仍然是雾里看花。这也如同墨镜后的王家卫，让人难以刺探其深邃的内......
+                        <a class="pl" href="http://movie.douban.com/review/5029310/">(72回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2011-07-19 08:55:09 &nbsp; &nbsp; 236/266有用 </span>
+                    </div>
+                </div>
+                <div id="review_5029310_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5732033" class="rr"><a id="af-5732033" rel="sw-False" href="http://movie.douban.com/review/5732033/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5732033})"/></a>
+                        <a id="au-5732033" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="一代宗师宫二和她的男人们" href="http://movie.douban.com/review/5732033/">一代宗师宫二和她的男人们</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/datuoshou/" title="打脱手"><img class="pil" src="http://img3.douban.com/icon/u1243359-12.jpg" alt="打脱手"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/datuoshou/">打脱手</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5732033_short" class="review-short">
+                    相信不少观众朋友跟我最初一样，看过片子后无所适从，感觉这是一出绚丽的MTV集锦，加上错乱高级版的心灵鸡汤台词混搭，间或出现的文艺对白完全让人感觉在看爱情片，而叶问好似打酱油般零落出场……
+
+抛开那些迷惘吧，朋友，你对这部片子的所有不满其实仅仅缘于片名，如果把它改成《逝去的武林》，就蛮符合大部分情节和情调了；如果改成......
+                        <a class="pl" href="http://movie.douban.com/review/5732033/">(55回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-08 21:57:25 &nbsp; &nbsp; 150/167有用 </span>
+                    </div>
+                </div>
+                <div id="review_5732033_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5744283" class="rr"><a id="af-5744283" rel="sw-False" href="http://movie.douban.com/review/5744283/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5744283})"/></a>
+                        <a id="au-5744283" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="当传统遭遇后现代" href="http://movie.douban.com/review/5744283/">当传统遭遇后现代</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/fengjiansun/" title="风间隼"><img class="pil" src="http://img3.douban.com/icon/u2521825-49.jpg" alt="风间隼"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/fengjiansun/">风间隼</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5744283_short" class="review-short">
+                    谈《一代宗师》，必须要提王家卫和徐浩峰，缺了谁都不行，因为这是一部他俩人互相成全的电影。
+
+说王家卫成全了徐浩峰，这很显然。徐浩峰日思夜想的民国武林，不是那么轻易就能搬上银幕的，牵涉到巨大的财力和人力投入，而王家卫作为国际知名导演，实现这一切易如反掌。
+
+除了财力之外，更重要的是墨镜王对于影像和声音的精准控制。......
+                        <a class="pl" href="http://movie.douban.com/review/5744283/">(12回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-17 11:35:36 &nbsp; &nbsp; 37/41有用 </span>
+                    </div>
+                </div>
+                <div id="review_5744283_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5732737" class="rr"><a id="af-5732737" rel="sw-False" href="http://movie.douban.com/review/5732737/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5732737})"/></a>
+                        <a id="au-5732737" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="电影来去匆匆，只有风格永存" href="http://movie.douban.com/review/5732737/">电影来去匆匆，只有风格永存</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/pinkonion/" title="水木丁"><img class="pil" src="http://img3.douban.com/icon/u1026712-64.jpg" alt="水木丁"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/pinkonion/">水木丁</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5732737_short" class="review-short">
+                    昨天和朋友们去看了《一代宗师》，随便说两句不成文的，我一向看电影赶不上院线的热闹，这次终于吃了口热乎儿的。
+
+1、这电影肯定会引起争论，所以首先得站队了，反正也跑不了，先明确表示我很喜欢，仅代表我个人，我们三个姑娘一起去看，出来后两个表示喜欢，一个态度不明。这里只陈述客观事实，不想吹捧，出来的时候想起邦妮有一次皱着......
+                        <a class="pl" href="http://movie.douban.com/review/5732737/">(20回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-09 11:31:26 &nbsp; &nbsp; 97/117有用 </span>
+                    </div>
+                </div>
+                <div id="review_5732737_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5733585" class="rr"><a id="af-5733585" rel="sw-False" href="http://movie.douban.com/review/5733585/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5733585})"/></a>
+                        <a id="au-5733585" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="《一代宗师》：不是所有王家卫都值得称赞" href="http://movie.douban.com/review/5733585/">《一代宗师》：不是所有王家卫都值得称赞</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/yeun/" title="默语生"><img class="pil" src="http://img3.douban.com/icon/u1560879-3.jpg" alt="默语生"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/yeun/">默语生</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5733585_short" class="review-short">
+                    1月8日零点场看完电影，没有照以往惯例在第一时间发表观感。这是出于一个王家卫脑残粉的私心。至少在我的言论打消某些人的观影冲动前，还能多忽悠到一些票房。票房这件事是墨镜粉心中永远的痛，我不是希望他破纪录，而是怕他再这么赔钱下去，就真的没有制片方肯烧钱纵容他“X年磨一剑”了。
+
+这部电影已经跳票太多次太多年，一方面吊足......
+                        <a class="pl" href="http://movie.douban.com/review/5733585/">(15回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-09 21:42:09 &nbsp; &nbsp; 67/83有用 </span>
+                    </div>
+                </div>
+                <div id="review_5733585_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5656029" class="rr"><a id="af-5656029" rel="sw-False" href="http://movie.douban.com/review/5656029/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5656029})"/></a>
+                        <a id="au-5656029" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="《宗师之路》：欲推陈出新 先正本清源" href="http://movie.douban.com/review/5656029/">《宗师之路》：欲推陈出新 先正本清源</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/imagefly/" title="摩西不夜奔"><img class="pil" src="http://img3.douban.com/icon/u1367128-1.jpg" alt="摩西不夜奔"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/imagefly/">摩西不夜奔</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5656029_short" class="review-short">
+                    王家卫的《一代宗师》要在12月18日上映，很多人还将信将疑，但这上映消息是确凿的。一向慢工细磨的王家卫的这部新作从准备到上映，花费十年有余，是一次越发深入的潜心研修。十年间投资易主，团队辗转，这部最初的叶问题材电影也终于升级为展现武术最后一个黄金时代的武林生态的野心之作。
+
+《宗师之路》记录的并非王家卫准备《一代宗......
+                        <a class="pl" href="http://movie.douban.com/review/5656029/">(39回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-16 11:09:20 &nbsp; &nbsp; 166/186有用 </span>
+                    </div>
+                </div>
+                <div id="review_5656029_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5740316" class="rr"><a id="af-5740316" rel="sw-False" href="http://movie.douban.com/review/5740316/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5740316})"/></a>
+                        <a id="au-5740316" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="生活是把杀猪刀" href="http://movie.douban.com/review/5740316/">生活是把杀猪刀</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/taichidavid/" title="道一"><img class="pil" src="http://img3.douban.com/icon/u2340972-17.jpg" alt="道一"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/taichidavid/">道一</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5740316_short" class="review-short">
+                    昨天带着几个练武的兄弟，去看了《一代宗师》。
+一点没有失望，也解开了我内心深处，一直想不明白的一个问题。
+
+1、关于师父的疑问。
+   我师父是1932年生于青海互助，40岁以前，从来没有接触过武术，43岁的时候，得了肺癌，后来被杨澄甫侄外孙赵斌收留，成了赵斌师爷的第一女弟子，从此师父每天用5-8个小时来练功，......
+                        <a class="pl" href="http://movie.douban.com/review/5740316/">(26回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-14 16:12:19 &nbsp; &nbsp; 43/44有用 </span>
+                    </div>
+                </div>
+                <div id="review_5740316_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5733982" class="rr"><a id="af-5733982" rel="sw-False" href="http://movie.douban.com/review/5733982/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'3821067',itself:5733982})"/></a>
+                        <a id="au-5733982" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="梁朝伟：《一代宗师》里神一样的存在" href="http://movie.douban.com/review/5733982/">梁朝伟：《一代宗师》里神一样的存在</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/imagefly/" title="摩西不夜奔"><img class="pil" src="http://img3.douban.com/icon/u1367128-1.jpg" alt="摩西不夜奔"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/imagefly/">摩西不夜奔</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5733982_short" class="review-short">
+                    王家卫十多年前就想拍叶问，02年前后就带梁朝伟拜访叶准。直到07年，梁朝伟对王家卫说，再不拍，我就老了，打不动了。这时候，王家卫对叶问和功夫题材的“念念不忘”才“终有回响”。而后又是漫长的筹备与拍摄，辗转往复，而这个原本要拍叶问的电影成为民国武林黄金时代的诗意追怀。
+
+如果梁朝伟再老一点，王家卫的宗师之路就会更艰辛......
+                        <a class="pl" href="http://movie.douban.com/review/5733982/">(14回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-10 02:20:11 &nbsp; &nbsp; 56/57有用 </span>
+                    </div>
+                </div>
+                <div id="review_5733982_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+
+
+
+
+
+    
+    
+    
+    <div id="paginator">
+            <span class="first">第一页</span> /
+            <span class="prev">前一页</span> /
+            <a href="?start=22&amp;filter=&amp;limit=20" data-page="" class="next">后一页</a>
+        <span class="total">(共 2292 条)</span>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+        
+    <h2>
+        按评分查看影评
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+    <div class="rating_list clearfix">
+        <ul>
+                <li class='on' >
+                    <a href="http://movie.douban.com/subject/3821067/reviews?score=">
+                       <span>全部 - 2292</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/3821067/reviews?score=5">
+                       <span>5星 - 751</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/3821067/reviews?score=4">
+                       <span>4星 - 832</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/3821067/reviews?score=3">
+                       <span>3星 - 423</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/3821067/reviews?score=2">
+                       <span>2星 - 178</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/3821067/reviews?score=1">
+                       <span>1星 - 105</span>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div>
+        <a href="http://movie.douban.com/subject/3821067/"><img alt="一代宗师" title="一代宗师" src="http://img3.douban.com/mpic/s24591423.jpg"/></a>
+    </div>
+    <p class="pl2">&gt; <a href="http://movie.douban.com/subject/3821067/">去一代宗师的页面</a></p>
+    
+    <h2>
+        用你的鼠标投票
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+    <div class="indent">
+        <span class="pl">
+            如果你觉得一篇评论对你有帮助，请你点击“有用”。你的投票直接决定哪些评论出现在豆瓣首页和“豆瓣最受欢迎的评论”里，以及在书、电影和音乐介绍页里评论的排序。
+            <br/>
+            <br/>
+            所有“没用”的点击都是匿名的。
+        </span>
+    </div>
+    <br/>
+    <br/>
+    
+    
+<p class="pl">订阅一代宗师 一代宗師的影评: <br/><span class="feed">
+    <a href="http://movie.douban.com/feed/subject/3821067/reviews"> feed: rss 2.0</a></span></p>
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/5f95afa3d50334d7.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper10-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

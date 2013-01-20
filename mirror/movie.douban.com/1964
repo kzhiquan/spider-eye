@@ -1,0 +1,556 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>潮爆Ryohei的电影</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+#celebrity .list-s li { height: 140px; overflow: hidden }
+.aside .mod .pl a{font-size:14px;}
+.contact-update-time {margin-top:10px;border-bottom:1px solid #ddd }
+
+    </style>
+    
+<link href="http://img3.douban.com/css/ui/packed_mypage6119031721.css" rel="stylesheet" type="text/css" />
+<link href="http://img3.douban.com/css/music/packed_people5808759241.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.form5689674177.js"></script>
+
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+
+
+
+    
+
+    
+
+    
+
+    
+    <div id="db-usr-profile">
+        <div class="pic">
+            <a href="http://movie.douban.com/people/andreryohei/"><img height="48" width="48" alt="潮爆Ryohei" src="http://img3.douban.com/icon/u49761958-2.jpg" /></a>
+        </div>
+        <div class="info">
+            <h1>潮爆Ryohei的电影</h1>
+            <ul>
+                    
+        <li><a href="http://movie.douban.com/people/andreryohei/">电影主页</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/andreryohei/reviews?cat_id=1002">影评</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/andreryohei/do">在看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/andreryohei/wish">想看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/andreryohei/collect">看过</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/andreryohei/doulists">豆列</a></li>
+    
+                    
+        <li class="sep">|</li>
+    
+                    
+        <li><a href="http://www.douban.com/people/andreryohei/">豆瓣主页</a></li>
+    
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+
+
+
+
+    <div id="db-book-mine">
+            
+
+    <h2  >看过 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/andreryohei/collect">66部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6558801/" class="cover"><img alt="浪客剑心" title="浪客剑心" src="http://img3.douban.com/spic/s8940827.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6532822/" class="cover"><img alt="生化危机5：惩罚" title="生化危机5：惩罚" src="http://img3.douban.com/spic/s10339981.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3990098/" class="cover"><img alt="黑夜传说4：觉醒" title="黑夜传说4：觉醒" src="http://img3.douban.com/spic/s7022535.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6402121/" class="cover"><img alt="逆转裁判" title="逆转裁判" src="http://img3.douban.com/spic/s8815847.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/11502889/" class="cover"><img alt="光晕4：航向黎明号" title="光晕4：航向黎明号" src="http://img3.douban.com/spic/s11090626.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3395373/" class="cover"><img alt="蝙蝠侠：黑暗骑士崛起" title="蝙蝠侠：黑暗骑士崛起" src="http://img3.douban.com/spic/s9127643.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3179706/" class="cover"><img alt="环形使者" title="环形使者" src="http://img3.douban.com/spic/s9017457.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1929463/" class="cover"><img alt="少年派的奇幻漂流" title="少年派的奇幻漂流" src="http://img3.douban.com/spic/s11119812.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6796158/" class="cover"><img alt="铜雀台" title="铜雀台" src="http://img5.douban.com/spic/s16628869.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3008712/" class="cover"><img alt="汉娜·蒙塔娜：电影版" title="汉娜·蒙塔娜：电影版" src="http://img5.douban.com/spic/s3551509.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+    </div>
+    
+    <style>
+        .comment-m .comment-item h3 {padding-left:0;}
+        .comment-m .comment-item .author {background:#fff; padding-left:13px; margin-bottom:1em;}
+    </style>
+    <div class="mod comment-m">
+        <h2  >潮爆Ryohei的影评 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/andreryohei/reviews?cat_id=1002">67篇</a> )</span></h2>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/6558801/" title="るろうに剣心"><img src="http://img3.douban.com/spic/s8940827.jpg" alt="るろうに剣心"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="【电影】13005[1.13]《浪客剑心》" href="http://movie.douban.com/review/5744857/" class="title">【电影】13005[1.13]《浪客剑心》</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/andreryohei/">潮爆Ryohei</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/6558801/">るろうに剣心</a>
+                </div>
+                <p>       师从《棋魂》小畑健，又贵为《通灵王》武井宏之嘅老师，即使一直冇睇过《浪客剑心》，和月伸宏嘅大名仍然如雷贯耳。讲武士侠客嘅漫画其实很多，论感情，《浪》喺我心中或者远远不比上条明峰嘅《KYO鬼眼狂刀》，但背景赋予佐作品另一层意义，使呢个故事于我增添佐厚厚嘅一份历史感。
+
+    人类历史上从未有过一...<a href="http://movie.douban.com/review/5744857/">(0回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/6532822/" title="Resident Evil: Retribution"><img src="http://img3.douban.com/spic/s10339981.jpg" alt="Resident Evil: Retribution"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="【电影】13004[1.11]《生化危机5：惩罚》" href="http://movie.douban.com/review/5740763/" class="title">【电影】13004[1.11]《生化危机5：惩罚》</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/andreryohei/">潮爆Ryohei</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/6532822/">Resident Evil: Retribution</a>
+                </div>
+                <p>       从“生化3”开始，生化危机就已经成为佐烂片代言词，首先喺严重脱离游戏主线条嘅剧情，唔似得Capcom独立动画电影，生化事故还只喺某些地区小规模爆发，电影已经发展到冚世界都俾丧尸占领晒，人类濒临灭绝嘅境地，而喺咁样一种情况下居然仲有人会继续做生化试验，美其名曰喺仲要同各国政府做交易！？呢种逻辑亦未...<a href="http://movie.douban.com/review/5740763/">(0回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/3990098/" title="Underworld: Awakening"><img src="http://img3.douban.com/spic/s7022535.jpg" alt="Underworld: Awakening"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="【电影】13003[1.8]《黑夜传说4：觉醒》" href="http://movie.douban.com/review/5736781/" class="title">【电影】13003[1.8]《黑夜传说4：觉醒》</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/andreryohei/">潮爆Ryohei</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/3990098/">Underworld: Awakening</a>
+                </div>
+                <p>       又喺时隔3年，“黑夜传说”再出续集。呢次贝金赛尔强势回归，一个破冰全裸特写就讲明佐点解我觉得第3集咁烂，因为缺佐妳啊！！Selene同Michael搞佐咁多年亦终于有佐个囡囡啦，仲喺个胖嘟嘟，很有邻家feel嘅妹纸，虽然变起身嚟还很垃圾，但可以拍全家福还是其乐融融呀。
+
+    作为我睇嘅第一部吸血鬼电影，对于2...<a href="http://movie.douban.com/review/5736781/">(0回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/6402121/" title="逆転裁判"><img src="http://img3.douban.com/spic/s8815847.jpg" alt="逆転裁判"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="【电影】13002[1.5]《逆转裁判》" href="http://movie.douban.com/review/5732247/" class="title">【电影】13002[1.5]《逆转裁判》</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/andreryohei/">潮爆Ryohei</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/6402121/">逆転裁判</a>
+                </div>
+                <p>       又睇一部FANS向电影，今次唔喺游戏，喺漫画！
+
+    喺嚟近嘅未来，各种恶性犯罪日益增长，为佐应对呢一现状，新嘅司法系统“序审裁判”得到推广。呢个系统允许辩护律师同检察官当庭辩论，并喺三日之内迅速得到审判结果。电影就讲佐喺呢一个时代背景下嘅法庭审判故事。
+
+    其实就电影本身而言，喺冇任何值得...<a href="http://movie.douban.com/review/5732247/">(0回应)</a></p>
+            </div>
+        </div>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper11-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

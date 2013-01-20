@@ -1,0 +1,555 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+007：大破天幕杀机 Skyfall的论坛
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <meta name="keywords" content="007：大破天幕杀机 Skyfall,论坛,电影讨论"/>
+    <meta name="description" content="007：大破天幕杀机 Skyfall论坛,007：大破天幕杀机 Skyfall电影讨论"/>
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+.useful {color:#999;}
+.spost {text-align:right; margin:0 0 10px 0;}
+.spost a:hover {
+  background-color: transparent;
+  background-image: url(/pics/post.gif);
+}
+.ssort {margin:0 0 20px 0;}
+
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+<h1>007：大破天幕杀机 Skyfall的论坛</h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    <p>
+        <a href="/login" class="rr bn-post j a_show_login"><span>添加新话题</span></a>
+    </p>
+
+
+    
+<table class="olt">
+    <tr>
+        <td>话题</td>
+        <td>作者</td>
+        <td nowrap="nowrap">回应</td>
+        <td align="right">更新时间</td>
+    </tr>
+
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/49997028/" title="觉得剧本莫名其妙的进">觉得剧本莫名其妙的进</a></td>
+        <td><a href="http://movie.douban.com/people/1159054/">入</a></td>
+        <td>85</td>
+        <td class="time">2013-01-20 17:40</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/51110370/" title="门德斯+007这个组合卫西谛是这么看的，你怎么看？">门德斯+007这个组合卫西谛是这么看的，你怎么看？</a></td>
+        <td><a href="http://movie.douban.com/people/1096715/">薄荷</a></td>
+        <td>16</td>
+        <td class="time">2013-01-04 14:45</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/49806339/" title="呵呵呵呵呵难道没人觉得烂到死么？">呵呵呵呵呵难道没人觉得烂到死么？</a></td>
+        <td><a href="http://movie.douban.com/people/Sherrylxy/">啊在很想补眠</a></td>
+        <td>92</td>
+        <td class="time">2013-01-20 10:26</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/51081212/" title="终于定了国内上映档期了！！！">终于定了国内上映档期了！！！</a></td>
+        <td><a href="http://movie.douban.com/people/liligin/">lilith</a></td>
+        <td>35</td>
+        <td class="time">2013-01-16 23:02</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/45694388/" title="没人觉得丹尼尔克雷格很像吴奇隆吗？">没人觉得丹尼尔克雷格很像吴奇隆吗？</a></td>
+        <td><a href="http://movie.douban.com/people/40084538/">不要说话、</a></td>
+        <td>72</td>
+        <td class="time">2013-01-20 18:13</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/50788564/" title="剧情真心渣啊">剧情真心渣啊</a></td>
+        <td><a href="http://movie.douban.com/people/ooariaoo/">咏叹调</a></td>
+        <td>3</td>
+        <td class="time">2013-01-19 22:03</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/43373769/" title="这海报让我误认为是上古卷轴5：天际·····">这海报让我误认为是上古卷轴5：天际·····</a></td>
+        <td><a href="http://movie.douban.com/people/uncleleee/">黎叔</a></td>
+        <td>16</td>
+        <td class="time">2012-12-07 23:47</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/50429165/" title="看来007系列不需要诺兰来拯救了，它自己已经知道抄诺兰了">看来007系列不需要诺兰来拯救了，它自己已经知道抄...</a></td>
+        <td><a href="http://movie.douban.com/people/1374079/">牛锁</a></td>
+        <td></td>
+        <td class="time">2012-11-23 11:38</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/51306507/" title="别怪这名字了，翻译坑爹而已，就差天网降临了，看我推理">别怪这名字了，翻译坑爹而已，就差天网降临了，看...</a></td>
+        <td><a href="http://movie.douban.com/people/4425621/">Begonia</a></td>
+        <td>3</td>
+        <td class="time">2013-01-10 12:45</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/46230448/" title="有100多人看过了">有100多人看过了</a></td>
+        <td><a href="http://movie.douban.com/people/4767630/">索利.犹古利</a></td>
+        <td>25</td>
+        <td class="time">2012-11-19 09:11</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/51317813/" title="007已死！经典成了一坨狗屎！">007已死！经典成了一坨狗屎！</a></td>
+        <td><a href="http://movie.douban.com/people/nesen/">Nesen</a></td>
+        <td>2</td>
+        <td class="time">2013-01-10 17:30</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/42811169/" title="这大哥头发越来越少了，这怎么往下拍啊！">这大哥头发越来越少了，这怎么往下拍啊！</a></td>
+        <td><a href="http://movie.douban.com/people/52035149/">Oueng</a></td>
+        <td>2</td>
+        <td class="time">2013-01-06 15:07</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/50753074/" title="房子那里我想起了小鬼当家= =">房子那里我想起了小鬼当家= =</a></td>
+        <td><a href="http://movie.douban.com/people/65685055/">[已注销]</a></td>
+        <td>2</td>
+        <td class="time">2013-01-04 12:38</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/50994642/" title="我就是为了片头曲 和 上海大厦那一段水母荧光给的五颗星！">我就是为了片头曲 和 上海大厦那一段水母荧光给的...</a></td>
+        <td><a href="http://movie.douban.com/people/ultrakidult/">仔</a></td>
+        <td>1</td>
+        <td class="time">2012-12-17 19:54</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/49718737/" title="skyfall 翻译应该是天塌了了吧">skyfall 翻译应该是天塌了了吧</a></td>
+        <td><a href="http://movie.douban.com/people/37327750/">文峰</a></td>
+        <td>3</td>
+        <td class="time">2012-12-03 10:55</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/50423199/" title="总菊又造孽了!">总菊又造孽了!</a></td>
+        <td><a href="http://movie.douban.com/people/62716267/">小猪taot-vcn</a></td>
+        <td></td>
+        <td class="time">2012-11-22 23:24</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/51233422/" title="我想问一下看过此片的观众，适合看IMAX版吗？">我想问一下看过此片的观众，适合看IMAX版吗？</a></td>
+        <td><a href="http://movie.douban.com/people/lh900224/">龍影涵楓</a></td>
+        <td>5</td>
+        <td class="time">2013-01-20 13:21</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/49463345/" title="好莱坞有多少以字母“j”开头的小强？">好莱坞有多少以字母“j”开头的小强？</a></td>
+        <td><a href="http://movie.douban.com/people/48539814/">max</a></td>
+        <td>7</td>
+        <td class="time">2013-01-18 20:42</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/50470406/" title="007用腿在水中夹死对手的那一幕 全场包括我的3个亚洲人都笑了.">007用腿在水中夹死对手的那一幕 全场包括我的3个亚...</a></td>
+        <td><a href="http://movie.douban.com/people/MATTZ/">失足弄潮儿</a></td>
+        <td>7</td>
+        <td class="time">2013-01-14 18:55</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/2363876/discussion/49921479/" title="M在听证会上朗读的诗">M在听证会上朗读的诗</a></td>
+        <td><a href="http://movie.douban.com/people/66046739/">李云翔</a></td>
+        <td>6</td>
+        <td class="time">2013-01-14 10:02</td>
+    </tr>
+</table>
+
+
+
+
+    
+    
+
+    
+        <div class="paginator">
+        <span class="prev">
+            &lt;前页
+        </span>
+        
+        
+
+                <span class="thispage">1</span>
+                
+            <a href="http://movie.douban.com/subject/2363876/discussion/?start=20&amp;sort=vote" >2</a>
+        
+                
+            <a href="http://movie.douban.com/subject/2363876/discussion/?start=40&amp;sort=vote" >3</a>
+        
+                
+            <a href="http://movie.douban.com/subject/2363876/discussion/?start=60&amp;sort=vote" >4</a>
+        
+                
+            <a href="http://movie.douban.com/subject/2363876/discussion/?start=80&amp;sort=vote" >5</a>
+        
+        <span class="next">
+            <link rel="next" href="http://movie.douban.com/subject/2363876/discussion/?start=20&amp;sort=vote"/>
+            <a href="http://movie.douban.com/subject/2363876/discussion/?start=20&amp;sort=vote" >后页&gt;</a>
+        </span>
+
+            <span class="count">(共85条)</span>
+        </div>
+
+
+
+	</div>
+        <div class="aside">
+            
+
+    <h2>
+        哪些内容不适合这里
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+<p>请尊重创作者的劳动，不要在讨论区里提供或讨论下载方面的内容。</p>
+
+
+<p class="pl2">&gt; <a href="http://movie.douban.com/subject/2363876/">去 007：大破天幕杀机 的页面</a></p>
+
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper2-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

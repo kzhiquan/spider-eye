@@ -1,0 +1,669 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>CyberKnight电子骑士的电影</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+#celebrity .list-s li { height: 140px; overflow: hidden }
+.aside .mod .pl a{font-size:14px;}
+.contact-update-time {margin-top:10px;border-bottom:1px solid #ddd }
+
+    </style>
+    
+<link href="http://img3.douban.com/css/ui/packed_mypage6119031721.css" rel="stylesheet" type="text/css" />
+<link href="http://img3.douban.com/css/music/packed_people5808759241.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.form5689674177.js"></script>
+
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+
+
+
+    
+
+    
+
+    
+
+    
+    <div id="db-usr-profile">
+        <div class="pic">
+            <a href="http://movie.douban.com/people/CyberKnight/"><img height="48" width="48" alt="CyberKnight电子骑士" src="http://img3.douban.com/icon/u1819911-1.jpg" /></a>
+        </div>
+        <div class="info">
+            <h1>CyberKnight电子骑士的电影</h1>
+            <ul>
+                    
+        <li><a href="http://movie.douban.com/people/CyberKnight/">电影主页</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/CyberKnight/reviews?cat_id=1002">影评</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/CyberKnight/do">在看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/CyberKnight/wish">想看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/CyberKnight/collect">看过</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/CyberKnight/doulists">豆列</a></li>
+    
+                    
+        <li class="sep">|</li>
+    
+                    
+        <li><a href="http://www.douban.com/people/CyberKnight/">豆瓣主页</a></li>
+    
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+
+
+
+
+    <div id="db-book-mine">
+            
+
+    <h2  >看过 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/CyberKnight/collect">2047部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3025809/" class="cover"><img alt="无法无天" title="无法无天" src="http://img3.douban.com/spic/s11159968.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/7015775/" class="cover"><img alt="千锤百炼" title="千锤百炼" src="http://img3.douban.com/spic/s9096143.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3821067/" class="cover"><img alt="一代宗师" title="一代宗师" src="http://img3.douban.com/spic/s24591423.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10574622/" class="cover"><img alt="人再囧途之泰囧" title="人再囧途之泰囧" src="http://img3.douban.com/spic/s19836660.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1305080/" class="cover"><img alt="怒海沉尸" title="怒海沉尸" src="http://img3.douban.com/spic/s4048146.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1295820/" class="cover"><img alt="狂凶记" title="狂凶记" src="http://img3.douban.com/spic/s6807358.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1297228/" class="cover"><img alt="一封陌生女子的来信" title="一封陌生女子的来信" src="http://img3.douban.com/spic/s4633307.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/11499033/" class="cover"><img alt="功夫小蝇" title="功夫小蝇" src="http://img3.douban.com/spic/s11063621.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6121141/" class="cover"><img alt="套利交易" title="套利交易" src="http://img3.douban.com/spic/s10414502.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10429716/" class="cover"><img alt="国土安全 第二季" title="国土安全 第二季" src="http://img3.douban.com/spic/s22715505.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >想看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/CyberKnight/wish">122部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6937813/" class="cover"><img alt="逆流的色彩" title="逆流的色彩" src="http://img3.douban.com/spic/s24453400.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/11516744/" class="cover"><img alt="峡谷" title="峡谷" src="http://img3.douban.com/spic/s24426662.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4043410/" class="cover"><img alt="如履薄冰" title="如履薄冰" src="http://img3.douban.com/spic/s10205336.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1766084/" class="cover"><img alt="间谍" title="间谍" src="http://img3.douban.com/spic/s1637360.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1303410/" class="cover"><img alt="爵士歌手" title="爵士歌手" src="http://img3.douban.com/spic/s4091351.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10581946/" class="cover"><img alt="致命禁闭" title="致命禁闭" src="http://img3.douban.com/spic/s9025590.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4091092/" class="cover"><img alt="最后的尼安德特人" title="最后的尼安德特人" src="http://img3.douban.com/spic/s4179322.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3026632/" class="cover"><img alt="列王纪" title="列王纪" src="http://img3.douban.com/spic/s3665585.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1499670/" class="cover"><img alt="秘密部队 第一季" title="秘密部队 第一季" src="http://img5.douban.com/spic/s4723829.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1296487/" class="cover"><img alt="雨天下的迎神会" title="雨天下的迎神会" src="http://img3.douban.com/spic/s1440178.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >在看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/CyberKnight/do">13部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10537866/" class="cover"><img alt="革命 第一季" title="革命 第一季" src="http://img3.douban.com/spic/s11363228.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10778994/" class="cover"><img alt="反击 第三季" title="反击 第三季" src="http://img3.douban.com/spic/s10516148.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6142597/" class="cover"><img alt="新闻编辑室 第一季" title="新闻编辑室 第一季" src="http://img3.douban.com/spic/s9128700.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/5966471/" class="cover"><img alt="名声大噪 第一季" title="名声大噪 第一季" src="http://img3.douban.com/spic/s6999691.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6395245/" class="cover"><img alt="破产姐妹 第一季" title="破产姐妹 第一季" src="http://img3.douban.com/spic/s8903063.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    </div>
+    
+    <style>
+        .comment-m .comment-item h3 {padding-left:0;}
+        .comment-m .comment-item .author {background:#fff; padding-left:13px; margin-bottom:1em;}
+    </style>
+    <div class="mod comment-m">
+        <h2  >CyberKnight电子骑士的影评 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/CyberKnight/reviews?cat_id=1002">147篇</a> )</span></h2>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/7015714/" title="Beasts of the Southern Wild"><img src="http://img3.douban.com/spic/s9071832.jpg" alt="Beasts of the Southern Wild"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="童真与怪兽" href="http://movie.douban.com/review/5742061/" class="title">童真与怪兽</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/CyberKnight/">CyberKnight电子骑士</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/7015714/">Beasts of the Southern Wild</a>
+                </div>
+                <p>《南国野兽》是一部出自年仅30岁导演之手的处女作电影，可以说是2012年甚至近几年来少有的真正激动人心之作。影片原始、粗糙、活力四溢、充满童真与诗意。
+
+《南国野兽》可以看做是奇幻甚至科幻电影，整个故事背景都似乎建立在陌生的近未来基础上：低洼的南方有一片随时会被洪水吞没的土地，生活在这里的人们却不愿放...<a href="http://movie.douban.com/review/5742061/">(0回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/2407373/" title="奇怪的球赛"><img src="http://img3.douban.com/spic/s2868148.jpg" alt="奇怪的球赛"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="一部另类的老动画片" href="http://movie.douban.com/review/5733157/" class="title">一部另类的老动画片</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/CyberKnight/">CyberKnight电子骑士</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/2407373/">奇怪的球赛</a>
+                </div>
+                <p>       小时候看过一部动画片，一直记得它的音乐有点怪怪的，是那种外国的风格；还记得这个动画片是关于一场球赛的，还带有一点科幻的味道——前一阵，通过万能的网络我才查到，这部动画片就是1979年上海动画片厂拍摄的《奇怪的球赛》。
+
+　　这部动画片看起来不像《鹿铃》《小蝌蚪找妈妈》《九色鹿》等影片那样民族风...<a href="http://movie.douban.com/review/5733157/">(0回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/1929463/" title="Life of Pi"><img src="http://img3.douban.com/spic/s11119812.jpg" alt="Life of Pi"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="星空大海——猛虎惊雷" href="http://movie.douban.com/review/5670145/" class="title">星空大海——猛虎惊雷</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/CyberKnight/">CyberKnight电子骑士</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/1929463/">Life of Pi</a>
+                </div>
+                <p>我最欣赏李安的一点，就是他能“于无声处听惊雷”，像《少年派》这样惨烈的生存故事，《色戒》这样情爱家国纠结的故事，《断背山》这样为时代所不容的异色畸恋故事，他拍出来表面却是一片温柔醇美。只在底下暗流涌动，缓缓冲刷你的心灵。
+
+《少年派》的本色故事相当残酷黑暗，李安既没有给这个故事涂抹上过多温情款款...<a href="http://movie.douban.com/review/5670145/">(3回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/3569911/" title="Total Recall"><img src="http://img3.douban.com/spic/s8993125.jpg" alt="Total Recall"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="旧瓶有爱，新酒无香" href="http://movie.douban.com/review/5634042/" class="title">旧瓶有爱，新酒无香</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/CyberKnight/">CyberKnight电子骑士</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/3569911/">Total Recall</a>
+                </div>
+                <p>　　比起那部北美一片好评但看下来有点言过其实的《环形使者》，我觉得新版《全面回忆》是更好看的科幻大片——后者好比一位身材姣好的泳装少女，纵然脸庞不太精致，但前凸后翘真材实料；《环形使者》则像明明身高一般，偏要穿起10厘米的高跟鞋扮模特范儿自以为很酷的小女生。
+　　
+　　《全面回忆》的画面风格性十足...<a href="http://movie.douban.com/review/5634042/">(1回应)</a></p>
+            </div>
+        </div>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+    <div class="mod">
+        <h2>CyberKnight电子骑士的电影豆列 &nbsp; ·&nbsp;·&nbsp;·&nbsp;
+            <span class="pl">( <a href="http://movie.douban.com/people/CyberKnight/doulists">3个</a> )</span>
+        </h2>
+        <ul class="list-m">
+            <li>
+                <p>
+                    <a href="http://movie.douban.com/doulist/358351/">2009个人年度十佳电影（初选版）</a>
+                    <span class="rec">2人推荐</span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="http://movie.douban.com/doulist/409658/">十大科学上较为可信的影片</a>
+                    <span class="rec">0人推荐</span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="http://movie.douban.com/doulist/450716/">说怪不怪，就是喜爱</a>
+                    <span class="rec">6人推荐</span>
+                </p>
+            </li>
+        </ul>
+    </div>
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper5-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

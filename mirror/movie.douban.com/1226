@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>入选《第十放映室》影片之国外篇Ⅱ</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="入选《第十放映室》影片之国外篇Ⅱ">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>入选《第十放映室》影片之国外篇Ⅱ</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/Fe.douban/"><img src="http://img3.douban.com/icon/u1564283-49.jpg" align="left" alt="心之旋影"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/Fe.douban/">心之旋影 (武汉)</a><br />
+        创建时间: 2008-02-21 18:11:35　最后修改时间: 2010-10-21 18:23:40</p><p class="indent">　　国外影片 Ⅲ：<br/>　　<a href="http://www.douban.com/link2?url=http%3A//www.douban.com/doulist/432244/">www.douban.com/douli<wbr/>st/432244/</a><br/></p>
+        </div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-127474"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">1729人</span>
+</div>
+<div class="filters">全部电影(256)</div>
+    <p id="sb1297643" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1297643/"><img width="80" src="http://img3.douban.com/spic/s1511872.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-10-21 18:23:40添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/1297643/">心火 Firelight</a>
+    
+    </div>
+    <p class="pl">导演 : William Nicholson<br/>主演 : 苏菲·玛索 Sophie Marceau/斯蒂芬·迪兰 Stephen Dillane/凯文·安德森 Kevin Anderson/乔斯·雅克兰德 Joss Ackland</p><p><span class="pl">评语</span> : 第五十二期 法国电影中的男人女人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293377" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293377/"><img width="80" src="http://img3.douban.com/spic/s1314918.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-10-21 18:23:14添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/1293377/">芳芳 Fanfan</a>
+    
+    </div>
+    <p class="pl">导演 : Alexandre Jardin<br/>主演 : 苏菲·玛索 Sophie Marceau/文森特·佩雷斯 Vincent Perez/Marine Delterme/布鲁诺·托德契尼 Bruno Todeschini</p><p><span class="pl">评语</span> : 第五十二期 法国电影中的男人女人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1291868" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1291868/"><img width="80" src="http://img3.douban.com/spic/s2382562.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-10-21 18:22:45添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/1291868/">情人 L'amant</a>
+    
+    </div>
+    <p class="pl">导演 : 让-雅克·阿诺 Jean-Jacques Annaud<br/>主演 : 珍·玛奇 Jane March/梁家辉 Tony Leung Ka Fai/Arnaud Giovaninetti/Frédérique Meininger</p><p><span class="pl">评语</span> : 第五十二期 法国电影中的男人女人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1340517" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1340517/"><img width="80" src="http://img3.douban.com/spic/s2548284.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-10-21 18:22:16添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/1340517/">初吻 La boum</a>
+    
+    </div>
+    <p class="pl">导演 : 克劳德·比诺多 Claude Pinoteau<br/>主演 : 苏菲·玛索 Sophie Marceau/克劳德·布莱塞 Claude Brasseur/布丽吉特·佛西 Brigitte Fossey/Alexandre Sterling</p><p><span class="pl">评语</span> : 第五十二期 法国电影中的男人女人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293466" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293466/"><img width="80" src="http://img3.douban.com/spic/s2631470.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-08-27 23:44:31添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/1293466/">罗丹的情人 Camille Claudel</a>
+    
+    </div>
+    <p class="pl">导演 : Bruno Nuytten<br/>主演 : Isabelle Adjani/Gérard Depardieu/Laurent Grévill/Alain Cuny</p><p><span class="pl">评语</span> : 第五十二期 法国电影中的男人女人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1300802" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1300802/"><img width="80" src="http://img3.douban.com/spic/s2375584.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-08-27 22:47:46添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/1300802/">玛戈皇后 La reine Margot</a>
+    
+    </div>
+    <p class="pl">导演 : 帕特里斯·夏侯 Patrice Chéreau<br/>主演 : 伊莎贝尔·阿佳妮 Isabelle Adjani/丹尼尔·奥图 Daniel Auteuil/让·雨果·安格拉德 Jean-Hugues Anglade/文森特·佩雷斯 Vincent Perez/艾莎·阿基多 Asia Argento/多米尼克·布兰科 Dominique Blanc</p><p><span class="pl">评语</span> : 第五十二期 法国电影中的男人女人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1298616" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1298616/"><img width="80" src="http://img3.douban.com/spic/s3403116.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 05:54:11添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/1298616/">最后一班地铁 Le dernier métro</a>
+    
+    </div>
+    <p class="pl">导演 : François Truffaut<br/>主演 : Catherine Deneuve/Gérard Depardieu/Jean Poiret/Andréa Ferréol/Marcel Berbert</p><p><span class="pl">评语</span> : 第五十二期 法国电影中的男人女人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1292467" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1292467/"><img width="80" src="http://img5.douban.com/spic/s2847299.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 05:59:50添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/1292467/">地下铁 Subway</a>
+    
+    </div>
+    <p class="pl">导演 : 吕克·贝松 Luc Besson<br/>主演 : 伊莎贝尔·阿佳妮 Isabelle Adjani/克里斯多弗·兰伯特 Christopher Lambert/让·雨果·安格拉德 Jean-Hugues Anglade/理查德·波林热 Richard Bohringer/迈克尔·加拉布鲁 Michel Galabru/让·雷诺 Jean Reno</p><p><span class="pl">评语</span> : 第十期 映像·吕克·贝松/第五十二期 法国电影中的男人女人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1291859" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1291859/"><img width="80" src="http://img5.douban.com/spic/s2562509.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:00:58添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/1291859/">布拉格之恋 The Unbearable Lightness of Being</a>
+    
+    </div>
+    <p class="pl">导演 : 菲利普·考夫曼 Philip Kaufman<br/>主演 : 丹尼尔·戴-刘易斯 Daniel Day-Lewis/朱丽叶·比诺什 Juliette Binoche/莉娜·奥琳 Lena Olin/德雷克·德·林特 Derek de Lint/厄兰·约瑟夫森 Erland Josephson</p><p><span class="pl">评语</span> : 第五十二期 法国电影中的男人女人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1292048" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1292048/"><img width="80" src="http://img5.douban.com/spic/s1311209.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:01:45添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/1292048/">蓝白红三部曲之蓝 Trois couleurs: Bleu</a>
+    
+    </div>
+    <p class="pl">导演 : 克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski<br/>主演 : 朱丽叶·比诺什 Juliette Binoche/贝努特·里格恩特 Benoît Régent/弗罗伦斯·派梅尔 Florence Pernel/Charlotte Véry/Hélène Vincent</p><p><span class="pl">评语</span> : 第五十二期 法国电影中的男人女人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1299292" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1299292/"><img width="80" src="http://img3.douban.com/spic/s1509464.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:02:18添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/1299292/">八美图 8 femmes</a>
+    
+    </div>
+    <p class="pl">导演 : 弗朗索瓦·欧容 François Ozon<br/>主演 : 达尼尔·达黎欧 Danielle Darrieux/凯瑟琳·德纳芙 Catherine Deneuve/伊莎贝尔·于佩尔 Isabelle Huppert/芬妮·阿尔丹 Fanny Ardant/艾曼纽·贝阿 Emmanuelle Béart/维吉妮·拉朵嫣 Virginie Ledoyen/露迪芬·莎妮 Ludivine Sagnier/Firmine Richard</p><p><span class="pl">评语</span> : 第五十二期 法国电影中的男人女人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1301646" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1301646/"><img width="80" src="http://img3.douban.com/spic/s4072490.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:03:14添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/1301646/">瑟堡的雨伞 Les parapluies de Cherbourg</a>
+    
+    </div>
+    <p class="pl">导演 : Jacques Demy<br/>主演 : Catherine Deneuve/Nino Castelnuovo/Anne Vernon/Marc Michel/Jacques Demy/Rosalie Varda</p><p><span class="pl">评语</span> : 第五十二期 法国电影中的男人女人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1303410" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1303410/"><img width="80" src="http://img3.douban.com/spic/s4091351.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:20:26添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/1303410/">爵士歌手 The Jazz Singer</a>
+    
+    </div>
+    <p class="pl">导演 : Alan Crosland<br/>主演 : Al Jolson/May McAvoy/Warner Oland/Eugenie Besserer/Otto Lederer/Robert Gordon/Richard Tucker/Cantor Joseff Rosenblatt</p><p><span class="pl">评语</span> : 第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293460" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293460/"><img width="80" src="http://img3.douban.com/spic/s1500143.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:21:23添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/1293460/">雨中曲 Singin' in the Rain</a>
+    
+    </div>
+    <p class="pl">导演 : Stanley Donen/Gene Kelly<br/>主演 : Gene Kelly/Donald O'Connor/Debbie Reynolds/Cyd Charisse/Jean Hagen</p><p><span class="pl">评语</span> : 第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1295225" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1295225/"><img width="80" src="http://img3.douban.com/spic/s7054197.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:21:47添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/1295225/">西区故事 West Side Story</a>
+    
+    </div>
+    <p class="pl">导演 : Jerome Robbins/Robert Wise<br/>主演 : Natalie Wood/Richard Beymer/Russ Tamblyn/Rita Moreno/George Chakiris</p><p><span class="pl">评语</span> : 第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1291832" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1291832/"><img width="80" src="http://img3.douban.com/spic/s2845185.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:22:31添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/1291832/">低俗小说 Pulp Fiction</a>
+    
+    </div>
+    <p class="pl">导演 : 昆汀·塔伦蒂诺 Quentin Tarantino<br/>主演 : 乌玛·瑟曼 Uma Thurman/塞缪尔·杰克逊 Samuel L. Jackson/约翰·特拉沃塔 John Travolta/蒂姆·罗斯 Tim Roth/布鲁斯·威利斯 Bruce Willis</p><p><span class="pl">评语</span> : 第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1306337" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1306337/"><img width="80" src="http://img3.douban.com/spic/s4151426.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:23:20添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/1306337/">霹雳舞 Breakin'</a>
+    
+    </div>
+    <p class="pl">导演 : 裘伊西柏 (Joel Silberg)<br/>主演 : Jean-Claude Van Damme</p><p><span class="pl">评语</span> : 第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293347" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293347/"><img width="80" src="http://img3.douban.com/spic/s1485984.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:23:44添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/1293347/">青楼情孽 Moulin Rouge</a>
+    
+    </div>
+    <p class="pl">导演 : 约翰·休斯顿 John Huston<br/>主演 : José Ferrer/Zsa Zsa Gabor</p><p><span class="pl">评语</span> : 第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1307697" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1307697/"><img width="80" src="http://img3.douban.com/spic/s1317977.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:25:21添加</span>
+        19. 
+    <a href="http://movie.douban.com/subject/1307697/">芝加哥 Chicago</a>
+    
+    </div>
+    <p class="pl">导演 : Rob Marshall<br/>主演 : Renée Zellweger/Catherine Zeta-Jones/Richard Gere/Queen Latifah/John C. Reilly/刘玉玲/Taye Diggs/Christine Baranski</p><p><span class="pl">评语</span> : 第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1302457" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1302457/"><img width="80" src="http://img3.douban.com/spic/s1326151.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:25:45添加</span>
+        20. 
+    <a href="http://movie.douban.com/subject/1302457/">阿育王 Asoka</a>
+    
+    </div>
+    <p class="pl">导演 : Santosh Sivan<br/>主演 : 沙鲁克·汗 Shahrukh Khan/卡琳娜·卡普 Kareena Kapoor/Danny Denzongpa/Rahul Dev/瑞莎塔·布哈特 Hrishitaa Bhatt/Gerson Da Cunha</p><p><span class="pl">评语</span> : 第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1301169" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1301169/"><img width="80" src="http://img3.douban.com/spic/s3833857.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:26:36添加</span>
+        21. 
+    <a href="http://movie.douban.com/subject/1301169/">跳出我天地 Billy Elliot</a>
+    
+    </div>
+    <p class="pl">导演 : Stephen Daldry<br/>主演 : Jamie Bell/Julie Walters/Gary Lewis/Jean Heywood/Jamie Draven</p><p><span class="pl">评语</span> : 第四十七期 电影过年·父子情/第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293964" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293964/"><img width="80" src="http://img3.douban.com/spic/s3812838.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:27:45添加</span>
+        22. 
+    <a href="http://movie.douban.com/subject/1293964/">魂断蓝桥 Waterloo Bridge</a>
+    
+    </div>
+    <p class="pl">导演 : Mervyn LeRoy<br/>主演 : Vivien Leigh/Robert Taylor/Lucile Watson/Virginia Field/Maria Ouspenskaya</p><p><span class="pl">评语</span> : 第一期 当电影遭遇爱情/第十七期 电影音乐与歌曲/第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1294689" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1294689/"><img width="80" src="http://img3.douban.com/spic/s3912978.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:28:54添加</span>
+        23. 
+    <a href="http://movie.douban.com/subject/1294689/">中央舞台 Center Stage</a>
+    
+    </div>
+    <p class="pl">导演 : Nicholas Hytner<br/>主演 : 彼得·盖勒 Peter Gallagher/Ilia Kulik/佐伊·索尔达娜 Zoe Saldana/Amanda Schull/Susan May/Debra Monk/Ethan Stiefel/Sascha Radetsky/唐纳·墨菲 Donna Murphy/Julie Kent/艾恩·贝利 Eion Bailey/Shakiem Evans/Elizabeth Hubbard</p><p><span class="pl">评语</span> : 第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1458865" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1458865/"><img width="80" src="http://img3.douban.com/spic/s1650448.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:29:36添加</span>
+        24. 
+    <a href="http://movie.douban.com/subject/1458865/">芭蕾舞学院 발레 교습소</a>
+    
+    </div>
+    <p class="pl">导演 : 边荣珠 Byeon Yeong-ju<br/>主演 : 尹启相（饰姜民载） Yun Gye-sang/金敏贞（饰黄甫秀珍） Kim Min-jeong/陈由荣（饰民载父亲） Jin Yu-yeong</p><p><span class="pl">评语</span> : 第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1308137" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1308137/"><img width="80" src="http://img5.douban.com/spic/s1887739.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-22 06:30:01添加</span>
+        25. 
+    <a href="http://movie.douban.com/subject/1308137/">浮生若舞 The Company</a>
+    
+    </div>
+    <p class="pl">导演 : 罗伯特·奥特曼 Robert Altman<br/>主演 : 内芙·坎贝尔 Neve Campbell/马尔科姆·麦克道威尔 Malcolm McDowell/詹姆斯·弗兰科 James Franco/Barbara E. Robertson/William Dick</p><p><span class="pl">评语</span> : 第五十四期 光影舞者</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    <div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/doulist/127474/?start=25&filter=">2</a><a href="http://movie.douban.com/doulist/127474/?start=50&filter=">3</a><a href="http://movie.douban.com/doulist/127474/?start=75&filter=">4</a><a href="http://movie.douban.com/doulist/127474/?start=100&filter=">5</a><a href="http://movie.douban.com/doulist/127474/?start=125&filter=">6</a><a href="http://movie.douban.com/doulist/127474/?start=150&filter=">7</a><a href="http://movie.douban.com/doulist/127474/?start=175&filter=">8</a><a href="http://movie.douban.com/doulist/127474/?start=200&filter=">9</a><span class="break">...</span><a href="http://movie.douban.com/doulist/127474/?start=225&filter=">10</a><a href="http://movie.douban.com/doulist/127474/?start=250&filter=">11</a><span class="next"><a href="http://movie.douban.com/doulist/127474/?start=25&filter=">后页&gt;</a><link rel="next" href="http://movie.douban.com/doulist/127474/?start=25&filter="/></span></div>
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2>最新留言 · · · · · ·  <span class="pl">( <a href="http://movie.douban.com/doulist/127474/comments">查看全部</a> )</span></h2><ul class="mbt"><li class="mbtl"><a href="http://www.douban.com/people/52267935/"><img src="http://img3.douban.com/icon/u52267935-14.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/127474/comments#c-256469">六。 : 我我曾经弄错过魔窟和暗袭。在电影过节时讲过七大秘境（好像是七个）中的洞穴，先后讲到这两部电影，都是关于异类生物的，暗袭最后那个女的逃出来...</a><span class="pl">  2012-02-15 09:53</span></li><li class="mbtl"><a href="http://www.douban.com/people/babafeile/"><img src="http://img3.douban.com/icon/u2929303-46.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/127474/comments#c-256186">爸爸 : 如果全都有观看地址或种子就好了！！！！！！！！！！！！！！！！！！！！！！！！！！！！</a><span class="pl">  2012-02-12 01:27</span></li><li class="mbtl"><a href="http://www.douban.com/people/licn/"><img src="http://img3.douban.com/icon/u3044474-16.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/127474/comments#c-249604">李掰掰 : M</a><span class="pl">  2011-11-17 15:16</span></li><li class="mbtl"><a href="http://www.douban.com/people/zhangxun/"><img src="http://img3.douban.com/icon/u32044928-3.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/127474/comments#c-245433">多萝西 : 楼上的楼上说的是《黑暗侵袭》？</a><span class="pl">  2011-09-22 08:48</span></li><li class="mbtl"><a href="http://www.douban.com/people/53078367/"><img src="http://img3.douban.com/icon/u53078367-4.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/127474/comments#c-244899">后排的阴暗角落 : 会不会是暗袭啊？</a><span class="pl">  2011-09-15 08:44</span></li></ul><h2 style="margin-top:30px">心之旋影的其他电影豆列  · · · · · ·  </h2>
+        <style>.dlistp p{margin-top:4px;border-bottom:1px #ddd dashed;padding-bottom:4px}</style>
+        <div class="dlistp"><p><a href="http://movie.douban.com/doulist/154856/">被海报吸引.......</a></p> <p><a href="http://movie.douban.com/doulist/253474/">“12位最致命的好莱坞职业杀手!”</a></p> <p><a href="http://movie.douban.com/doulist/122323/">入选《第十放映室》影片之国内篇Ⅰ</a></p> <p><a href="http://movie.douban.com/doulist/169461/">入选《第十放映室》影片之国内篇Ⅱ</a></p> <p><a href="http://movie.douban.com/doulist/470592/">入选《第十放映室》影片之国内篇 Ⅲ</a></p> </div><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper5 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

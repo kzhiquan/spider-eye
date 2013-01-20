@@ -92,8 +92,8 @@ function Site(profile){
     });
 
     //init fs system mirror.
-    if(!fs.existsSync('./mirror/' + self.dir)){
-        fs.mkdirSync('./mirror/' + self.dir);
+    if(!fs.existsSync('../mirror/' + self.dir)){
+        fs.mkdirSync('../mirror/' + self.dir);
     };
 
     log.info(path.basename(__filename), __line, 'site:', self);
@@ -164,6 +164,10 @@ Site.prototype.filterUrl = function(page, href){
 
     var urlObj = url.parse(href);
 
+
+    //log.info(path.basename(__filename), __line, 'urlObj:', urlObj);
+    //log.info(path.basename(__filename), __line, 'href:', href);
+
     if(self.isHostNameSame(urlObj.host)){
 
         var hashCode = self.hash.calculateHashCode(urlObj.path);
@@ -171,6 +175,7 @@ Site.prototype.filterUrl = function(page, href){
         if(self.hash.isHashCodeSet(hashCode)){
             // the path scrapped.
             log.info(path.basename(__filename), __line, 'has scraped', urlObj.path);
+
         }else{
             self.hash.setHashCode(hashCode);
 

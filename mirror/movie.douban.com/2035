@@ -1,0 +1,1350 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        浪客剑心 的影评 (115)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    
+    <meta name="keywords" content="浪客剑心,るろうに剣心,影评,评论,观后感">
+    <meta name="description" content="浪客剑心热门影评和最新影评,浪客剑心电影评论">
+    <link rel="alternate" href="http://movie.douban.com/feed/subject/6558801/reviews" type="application/rss+xml" title="RSS">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/6dfdb53a5cbe25d8.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1>浪客剑心 的影评 (115)</h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+    <h2 class="green_tab clearfix">
+        
+            
+    
+    <a href="javascript:;" class="on">
+        <span>热门影评</span>
+    </a>
+
+            
+    
+    <a href="http://movie.douban.com/subject/6558801/reviews?sort=time&amp;filter=" class="">
+        <span>最新影评</span>
+    </a>
+
+            
+    
+    <a href="http://movie.douban.com/subject/6558801/follows_reviews?filter=" class="j a_show_login">
+        <span>我关注的</span>
+    </a>
+
+
+    </h2>
+    
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5566048" class="rr"><a id="af-5566048" rel="sw-False" href="http://movie.douban.com/review/5566048/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5566048})"/></a>
+                        <a id="au-5566048" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="被舍弃的原著迷的碎碎谈" href="http://movie.douban.com/review/5566048/">被舍弃的原著迷的碎碎谈</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/48731580/" title="K.H"><img class="pil" src="http://img3.douban.com/icon/u48731580-7.jpg" alt="K.H"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/48731580/">K.H</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5566048_short" class="review-short">
+                    作为一个被追忆和星霜两部剧场版彻底征服的剑心迷来说，剑心是一个说到就会心痛的词。和月伸宏和古桥一浩在星霜篇中将剑心的生命画上句点，没有妥协于喜欢happyending的观众，执着了他们的正义观。它包括整个浪客剑心作品中最痛苦的人物性格——剑心善良柔软的内心和杀人无数的事实的矛盾，一生赎罪却无法自我原谅。在前几年新出的星......
+                        <a class="pl" href="http://movie.douban.com/review/5566048/">(77回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-08-30 06:44:25 &nbsp; &nbsp; 140/144有用 </span>
+                    </div>
+                </div>
+                <div id="review_5566048_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5564248" class="rr"><a id="af-5564248" rel="sw-False" href="http://movie.douban.com/review/5564248/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5564248})"/></a>
+                        <a id="au-5564248" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="高荷惠太嫩，左之助太老，除此之外一切还算美好" href="http://movie.douban.com/review/5564248/">高荷惠太嫩，左之助太老，除此之外一切还算美好</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/evilcrystal/" title="god♪fish"><img class="pil" src="http://img3.douban.com/icon/u2951696-6.jpg" alt="god♪fish"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/evilcrystal/">god♪fish</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5564248_short" class="review-short">
+                    剑心的真人版...当初听到这消息的时候一口老血都快吐出来了。
+作为一个原作死忠，介于一贯以来真人版的种种糟糕表现，我已经默默地把这部电影贴上了悲剧的标签。（直接一颗星的广大同志们应该很能理解这种心情XD）
+所以，其实压根就没想着去电影院烧钱。
+
+不过话说事情总是会时不时柳暗花明峰回路转一下的。
+某一天...逛......
+                        <a class="pl" href="http://movie.douban.com/review/5564248/">(58回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-08-28 21:24:02 &nbsp; &nbsp; 91/94有用 </span>
+                    </div>
+                </div>
+                <div id="review_5564248_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5705009" class="rr"><a id="af-5705009" rel="sw-False" href="http://movie.douban.com/review/5705009/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5705009})"/></a>
+                        <a id="au-5705009" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="亦未松手中之剑" href="http://movie.douban.com/review/5705009/">亦未松手中之剑</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/sophialeng/" title="尽挹西江"><img class="pil" src="http://img3.douban.com/icon/u53583480-2.jpg" alt="尽挹西江"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/sophialeng/">尽挹西江</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5705009_short" class="review-short">
+                    飞机上看到了最近上映的《浪客剑心》电影版，是意外之喜。
+
+没想到能把这部改变了如许多人——我相信这句话不是站在以己度人的角度上说的。在狭隘而动辄激愤，渴望拍案而起，杀人闹市的少年时代，为这个个头矮小，面如好女，会把邻居家的小孩子哈哈笑着扛在头顶上的男人震撼而膺服的，绝不止我一个人——的动画，拍到不过不失，令人淡淡点......
+                        <a class="pl" href="http://movie.douban.com/review/5705009/">(22回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-19 18:41:17 &nbsp; &nbsp; 47/48有用 </span>
+                    </div>
+                </div>
+                <div id="review_5705009_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5722567" class="rr"><a id="af-5722567" rel="sw-False" href="http://movie.douban.com/review/5722567/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5722567})"/></a>
+                        <a id="au-5722567" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="作为剑心的脑残粉……" href="http://movie.douban.com/review/5722567/">作为剑心的脑残粉……</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/mrlljx/" title="火星龙猫"><img class="pil" src="http://img3.douban.com/icon/u1037453-24.jpg" alt="火星龙猫"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/mrlljx/">火星龙猫</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5722567_short" class="review-short">
+                    作为剑心的狂热脑残粉，和很多原著党一样，在听到真人版的消息以及看到海报的时候，就默默做好了打一星并狂吐槽的准备。（看看柯南的真人版！）但看完预告片后，觉得似乎没有那么雷，于是鼓起勇气下载看完，结果居然是意外的惊喜！
+
+1、剧情还原度高，综合了原作的前几个故事：真假拔刀斋、佐之助出场、和刃卫对决、救高荷惠，将它们穿插......
+                        <a class="pl" href="http://movie.douban.com/review/5722567/">(9回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-01 14:50:01 &nbsp; &nbsp; 21/21有用 </span>
+                    </div>
+                </div>
+                <div id="review_5722567_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5572114" class="rr"><a id="af-5572114" rel="sw-False" href="http://movie.douban.com/review/5572114/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5572114})"/></a>
+                        <a id="au-5572114" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="我，希望并且期待它会有续集" href="http://movie.douban.com/review/5572114/">我，希望并且期待它会有续集</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/kouiku/" title="或闪"><img class="pil" src="http://img3.douban.com/icon/u45350232-24.jpg" alt="或闪"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/kouiku/">或闪</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5572114_short" class="review-short">
+                    我还记得当初听说剑心要拍真人版的时候想冲到集英社总部砸东西的心情。
+
+然后作为原作超级fan的我，其实也在心中无数次警告过自己，其实可能最好，还是不要去看真人版。
+
+然后，某一天不小心去官网看了2分钟的预告。
+然后，我就觉得我实在还是应该去看一看这个片子。
+
+总体来说，作为漫画改编作品，这个电影没有什么大......
+                        <a class="pl" href="http://movie.douban.com/review/5572114/">(17回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-09-03 22:54:53 &nbsp; &nbsp; 14/16有用 </span>
+                    </div>
+                </div>
+                <div id="review_5572114_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5704414" class="rr"><a id="af-5704414" rel="sw-False" href="http://movie.douban.com/review/5704414/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5704414})"/></a>
+                        <a id="au-5704414" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="雪代巴给了几个背影，而薰还是天真的微笑着" href="http://movie.douban.com/review/5704414/">雪代巴给了几个背影，而薰还是天真的微笑着</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/3226180/" title="无脸妖怪"><img class="pil" src="http://img3.douban.com/icon/u3226180-17.jpg" alt="无脸妖怪"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/3226180/">无脸妖怪</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5704414_short" class="review-short">
+                    少年时代的首席男偶像绯村剑心是佐藤健扮演的，身高比漫画里的剑心更完美的拔高了一点，其实扮相还是过得去。
+
+故事大概只讲了漫画的开卷，如何在幕府时代刚刚结束了的东京遇见了薰，如何打败了武田观柳拯救了高荷惠（经常调戏剑心的小风骚竟然是清新界代表苍井优演的。。。），如何强调一番不再杀人的美好人生观价值观，如何为了执著的薰......
+                        <a class="pl" href="http://movie.douban.com/review/5704414/">(4回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-19 11:17:55 &nbsp; &nbsp; 7/8有用 </span>
+                    </div>
+                </div>
+                <div id="review_5704414_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5721506" class="rr"><a id="af-5721506" rel="sw-False" href="http://movie.douban.com/review/5721506/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5721506})"/></a>
+                        <a id="au-5721506" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="一个少年的探索之旅" href="http://movie.douban.com/review/5721506/">一个少年的探索之旅</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/49226002/" title="千年放浪"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg" alt="千年放浪"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/49226002/">千年放浪</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5721506_short" class="review-short">
+                    　　浪客剑心这部作品基本上就是一个时代的标志，记得我刚看的时候属于暑假，小孩子很容易就被剑和热血一下子迷倒了，可惜那时候对电视没有自主权，只能看得断断续续，隐隐约约只能记得众多剑技和几句帅气的台词，很是遗憾。
+　　再后来盗版盘开始泛滥，我买了一盘，马不停蹄地完成了人生第一次动漫补完。接着是互联网，在那个龟速的年代彻夜......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-31 14:29:24 &nbsp; &nbsp; 6/6有用 </span>
+                    </div>
+                </div>
+                <div id="review_5721506_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5719194" class="rr"><a id="af-5719194" rel="sw-False" href="http://movie.douban.com/review/5719194/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5719194})"/></a>
+                        <a id="au-5719194" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="如何应对美瞳先生的惊艳一招" href="http://movie.douban.com/review/5719194/">如何应对美瞳先生的惊艳一招</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/withsusy/" title="susy"><img class="pil" src="http://img3.douban.com/icon/u1839501-1.jpg" alt="susy"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/withsusy/">susy</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5719194_short" class="review-short">
+                    美瞳叔武艺超群，一招“墨蓝美瞳瞪眼流”，横走江湖。虽剑心不吃这一套，但有几人能修得如此境界。所以寻思着，这不无敌了么？瞪谁谁怀孕，还好五姑娘凭真爱成功避孕，但那是女主光环啊各位！想我苍井小姐贵为小清新女王，但屈居女配人在屋檐下，竟也无法抵挡瞪眼流的蹂躏，一时失了气节，叹兮痛兮。
+
+于是，鄙人以我等草民角度出发，想出......
+                        <a class="pl" href="http://movie.douban.com/review/5719194/">(9回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-29 20:31:58 &nbsp; &nbsp; 5/5有用 </span>
+                    </div>
+                </div>
+                <div id="review_5719194_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5718240" class="rr"><a id="af-5718240" rel="sw-False" href="http://movie.douban.com/review/5718240/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5718240})"/></a>
+                        <a id="au-5718240" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="如果这片其他国家来拍...." href="http://movie.douban.com/review/5718240/">如果这片其他国家来拍....</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/7396769/" title="gayfish"><img class="pil" src="http://img3.douban.com/icon/u7396769-2.jpg" alt="gayfish"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/7396769/">gayfish</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5718240_short" class="review-short">
+                    如果由美国来拍,一定会加上各种特效,什么以眼杀人,口中喷火,拔刀术接近光速,一律还原,导演就用李安,最终战前,小熏和剑心一定要缠绵一晚上,再来个吻别...
+
+
+如果由中国来拍,一定要突出人民群众遭受的深重苦难,和对资本主义的血泪控诉,把剑心塑造成战斗英雄,把左之助塑造成进步青年,最终军民一心,打倒
+邪恶的资本家......
+                        <a class="pl" href="http://movie.douban.com/review/5718240/">(2回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-29 03:13:27 &nbsp; &nbsp; 4/4有用 </span>
+                    </div>
+                </div>
+                <div id="review_5718240_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5668531" class="rr"><a id="af-5668531" rel="sw-False" href="http://movie.douban.com/review/5668531/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5668531})"/></a>
+                        <a id="au-5668531" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="这不是日本电影，这是好莱坞电影公司当地分公司投拍的本土化电影。" href="http://movie.douban.com/review/5668531/">这不是日本电影，这是好莱坞电影公司当地分公司...</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/1054598/" title="chenzj"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg" alt="chenzj"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/1054598/">chenzj</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5668531_short" class="review-short">
+                    好莱坞巨头们最理想的进入海外市场的结果就是：能打入该国的电影、电视制作发行流通等各环节，无论观众选择英语影视节目还是本土影视节目，我这边“总有一款适合您”。在日本市场，华纳兄弟影业公司现在就混到了这种程度。有院线（华纳兄弟与永旺集团联合设立的WARNER MYCAL院线旗下的电影院遍布全日本各都道府县）、自家的电视剧源......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-25 17:59:21 &nbsp; &nbsp; 1/2有用 </span>
+                    </div>
+                </div>
+                <div id="review_5668531_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5721057" class="rr"><a id="af-5721057" rel="sw-False" href="http://movie.douban.com/review/5721057/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5721057})"/></a>
+                        <a id="au-5721057" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="热血沸腾的追忆青春篇" href="http://movie.douban.com/review/5721057/">热血沸腾的追忆青春篇</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/songgpqg/" title="Song"><img class="pil" src="http://img3.douban.com/icon/u1472393-2.jpg" alt="Song"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/songgpqg/">Song</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5721057_short" class="review-short">
+                    那些高中时做完习题在昏暗的床头灯下偷看漫画的日子又浮现！看完真是浑身热血沸腾！！
+
+选角方面，剑心的背影实在让人产生&#39;那就是他啊&#39;的错觉！演员让人少女之心又萌动了一把。如果非要挑剔一下就是木有剑心wulu~~可爱的到位。斋藤的脸不够长啊不够长眼睛不够小啊不够小，佐之助脸稍微胖了点也不够帅。阿惠太嫩了木有风韵。不过一......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-31 02:47:07 &nbsp; &nbsp; 1/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5721057_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5735309" class="rr"><a id="af-5735309" rel="sw-False" href="http://movie.douban.com/review/5735309/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5735309})"/></a>
+                        <a id="au-5735309" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="不负责任的叨逼叨~~~" href="http://movie.douban.com/review/5735309/">不负责任的叨逼叨~~~</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/sh17/" title="四魂"><img class="pil" src="http://img3.douban.com/icon/u1614520-59.jpg" alt="四魂"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/sh17/">四魂</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5735309_short" class="review-short">
+                        暑假时，看到《浪客剑心》真人版电影的部分剧照，顿感一种天地混沌、核电泄露、冬天没肉吃，夏天没冰棍儿的末日幻灭感！！！！！再想想毁我Leon叔万世英名的哆啦a梦，不禁强忍悲愤，仰天长啸：“二次元进化为三次元的惨烈就不要一再重演了！！！”
+
+       Demo，没节操如我，还是在预告片出来以后，屁颠颠儿的去......
+                        <a class="pl" href="http://movie.douban.com/review/5735309/">(1回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-10 23:55:05 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5735309_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5718106" class="rr"><a id="af-5718106" rel="sw-False" href="http://movie.douban.com/review/5718106/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5718106})"/></a>
+                        <a id="au-5718106" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="剑心！！" href="http://movie.douban.com/review/5718106/">剑心！！</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/poo0ooq/" title="Aoi*葵"><img class="pil" src="http://img3.douban.com/icon/u1466503-39.jpg" alt="Aoi*葵"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/poo0ooq/">Aoi*葵</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5718106_short" class="review-short">
+                    日本人下血本了，演员，造型，配乐，武术场面！日本人居然拍出了这么大气势的电影！！！制作团队以及日本人真的很爱很爱这部作品！我也是！
+   剑心选角选的太好了，还没露脸一看外形就binggo！当然佐藤健我就挺待见的，诠释剑心这个超速敏捷的小个子男人完全到位，感动死我了，剑心这个沉默寡言偶尔犯呆的男人曾在漫画里深深打动过......
+                        <a class="pl" href="http://movie.douban.com/review/5718106/">(17回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-29 00:07:42 &nbsp; &nbsp; 5/5有用 </span>
+                    </div>
+                </div>
+                <div id="review_5718106_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5719576" class="rr"><a id="af-5719576" rel="sw-False" href="http://movie.douban.com/review/5719576/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5719576})"/></a>
+                        <a id="au-5719576" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="请更名为《犀利哥的神奇冒险》" href="http://movie.douban.com/review/5719576/">请更名为《犀利哥的神奇冒险》</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/bdforever/" title="刹·那"><img class="pil" src="http://img3.douban.com/icon/u3598185-24.jpg" alt="刹·那"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/bdforever/">刹·那</a>
+                    </span>
+                    <span class="allstar20" title="较差">
+                    </span>
+                </span>
+                <div id="review_5719576_short" class="review-short">
+                    虽然距离看漫画已经过了将近十年，但是居然没有勾起我的一点回忆，这算不算是失败中的失败？
+
+好吧这是我自己的问题，那么我想吐槽的是，剑心枯黄的“红发”以及像是用指甲硬生生抠出来的刀疤真的大丈夫？袒胸露乳一副街头混混+桃地再不斩混搭风的斩左真的大丈夫？面对一群混混来闹事无措到只剩嘴遁毫无原作中坚强坚毅气质的神谷熏真的大......
+                        <a class="pl" href="http://movie.douban.com/review/5719576/">(4回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-30 00:24:26 &nbsp; &nbsp; 8/9有用 </span>
+                    </div>
+                </div>
+                <div id="review_5719576_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5732069" class="rr"><a id="af-5732069" rel="sw-False" href="http://movie.douban.com/review/5732069/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5732069})"/></a>
+                        <a id="au-5732069" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="电影微评：浪客剑心" href="http://movie.douban.com/review/5732069/">电影微评：浪客剑心</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/51715849/" title="Riobluemoon"><img class="pil" src="http://img3.douban.com/icon/u51715849-3.jpg" alt="Riobluemoon"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/51715849/">Riobluemoon</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5732069_short" class="review-short">
+                    6.5分。竟然拍得还成！可以说是今年最出色的真人改编了。本片并没有截取原作中最精彩的志志雄的故事，而是只选了原作中鹈堂以及观柳的内容，再加上合理的改编，插入了斋藤一等人物，应该说还是有一定惊喜的。几场动作戏的设计在日本同类电影中算是有新意的了。看这样子有续集是必然的了～......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-08 22:16:28 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5732069_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5720180" class="rr"><a id="af-5720180" rel="sw-False" href="http://movie.douban.com/review/5720180/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5720180})"/></a>
+                        <a id="au-5720180" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="尚算未糟蹋原著" href="http://movie.douban.com/review/5720180/">尚算未糟蹋原著</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/withanorchid/" title="withanorchid"><img class="pil" src="http://img3.douban.com/icon/u2098410-4.jpg" alt="withanorchid"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/withanorchid/">withanorchid</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5720180_short" class="review-short">
+                    浪客剑心的动画很久前看过，那时印象深刻。在当时优秀经典动漫喷薄而出的时刻，浪客剑心是以其对人生深刻的思考，而非一味追求热血励志而脱颖而出的。诚然，最脱颖而出的，其实是优良的动画场景制作和精彩的打斗场面。尽管有些漫迷非常热衷于追忆篇，我却是兴趣寥寥。一个侠客和一个孤女的爱恨情仇，难道还嫌少吗？
+当时尚是年少的我，从浪客......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-30 14:41:39 &nbsp; &nbsp; 2/2有用 </span>
+                    </div>
+                </div>
+                <div id="review_5720180_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5724594" class="rr"><a id="af-5724594" rel="sw-False" href="http://movie.douban.com/review/5724594/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5724594})"/></a>
+                        <a id="au-5724594" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="浪客的归宿" href="http://movie.douban.com/review/5724594/">浪客的归宿</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/stellastluna/" title="皱纹"><img class="pil" src="http://img3.douban.com/icon/u2834814-65.jpg" alt="皱纹"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/stellastluna/">皱纹</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5724594_short" class="review-short">
+                        动画真人版的历史通常比较惨烈，在看预告的时候也并未对这部电影抱多大希望。拖了很久才看了这部电影，本想打发时间，看到结尾却眼眶湿润。算是个意外。
+   剑心首先年纪轻轻就获得高超的剑艺，但这身武艺仅仅是作为幕府的工具，他动摇过，雪代巴的死则让他完成从为幕府的工具到拔刀斋的转折。
+   心有大悲才会真正珍惜每一......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-02 23:28:44 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5724594_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5722083" class="rr"><a id="af-5722083" rel="sw-False" href="http://movie.douban.com/review/5722083/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5722083})"/></a>
+                        <a id="au-5722083" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="十年一觉剑心梦" href="http://movie.douban.com/review/5722083/">十年一觉剑心梦</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/yezhia/" title="镜中人"><img class="pil" src="http://img3.douban.com/icon/u2775924-50.jpg" alt="镜中人"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/yezhia/">镜中人</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5722083_short" class="review-short">
+                    真是没想到有生之年能看到剑心的真人电影版，且不差，且让我十几年后再度回归当年少女的热血和痴狂。
+
+各种影评剧透前人有讲，这里也就不细赘了。个人情感是总.剑心，只要剑心这个形象或者载体能满足我，其他角色成功与否对我而言毫不介意，毕竟各花入各眼，只能说总体把握得不错，故事剪辑也很流畅，打斗是亮点，更因打斗凸显了剑心这个......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-31 22:44:27 &nbsp; &nbsp; 5/5有用 </span>
+                    </div>
+                </div>
+                <div id="review_5722083_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5719411" class="rr"><a id="af-5719411" rel="sw-False" href="http://movie.douban.com/review/5719411/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5719411})"/></a>
+                        <a id="au-5719411" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="期盼很久后的失落感" href="http://movie.douban.com/review/5719411/">期盼很久后的失落感</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/moicheng/" title="Moi™"><img class="pil" src="http://img3.douban.com/icon/u30730657-98.jpg" alt="Moi™"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/moicheng/">Moi™</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5719411_short" class="review-short">
+                    作为剑心的脑残粉 我也只能给三星
+
+一星给音乐 但感觉联想到日剧夜叉的开头曲 真的很像 
+一星给动作设计 尽管不完美但看得出来很用心 着重表现了速度 一段和苍紫合体打斗时候的反手用刀 一段是最后的打斗 都不错 基本剑心的打斗场面撑起全剧的看点
+一星给演员卖力演出 看着剑心在泥里各种翻滚严重于心不忍 加上我脑残......
+                        <a class="pl" href="http://movie.douban.com/review/5719411/">(3回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-29 22:41:38 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5719411_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5739259" class="rr"><a id="af-5739259" rel="sw-False" href="http://movie.douban.com/review/5739259/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'6558801',itself:5739259})"/></a>
+                        <a id="au-5739259" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="完成度较高" href="http://movie.douban.com/review/5739259/">完成度较高</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/stevenzhaodl/" title="steven"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg" alt="steven"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/stevenzhaodl/">steven</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5739259_short" class="review-short">
+                    意外的完成度很高，可以期待续集。总的来说，在沉重背景和伺机买萌之间平衡尚好，轻功耍帅为主的飞天御剑流也表现的适当。虽然很难完全再现原作，但是2次元到3次元的转换损失算很少了。
+不过，颜是个大问题。除了剑心削尖脸庞以外，人人都是一身正气的国字脸，包括斩左啦，斋藤啦，甚至刃卫都一脸忠厚，如果不是有演变态驾轻就熟的香川坐镇......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-13 21:39:56 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5739259_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+
+
+
+
+
+    
+    
+    
+    <div id="paginator">
+            <span class="first">第一页</span> /
+            <span class="prev">前一页</span> /
+            <a href="?start=22&amp;filter=&amp;limit=20" data-page="" class="next">后一页</a>
+        <span class="total">(共 115 条)</span>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+        
+    <h2>
+        按评分查看影评
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+    <div class="rating_list clearfix">
+        <ul>
+                <li class='on' >
+                    <a href="http://movie.douban.com/subject/6558801/reviews?score=">
+                       <span>全部 - 115</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/6558801/reviews?score=5">
+                       <span>5星 - 34</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/6558801/reviews?score=4">
+                       <span>4星 - 51</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/6558801/reviews?score=3">
+                       <span>3星 - 28</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/6558801/reviews?score=2">
+                       <span>2星 - 2</span>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div>
+        <a href="http://movie.douban.com/subject/6558801/"><img alt="浪客剑心" title="浪客剑心" src="http://img3.douban.com/mpic/s8940827.jpg"/></a>
+    </div>
+    <p class="pl2">&gt; <a href="http://movie.douban.com/subject/6558801/">去浪客剑心的页面</a></p>
+    
+    <h2>
+        用你的鼠标投票
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+    <div class="indent">
+        <span class="pl">
+            如果你觉得一篇评论对你有帮助，请你点击“有用”。你的投票直接决定哪些评论出现在豆瓣首页和“豆瓣最受欢迎的评论”里，以及在书、电影和音乐介绍页里评论的排序。
+            <br/>
+            <br/>
+            所有“没用”的点击都是匿名的。
+        </span>
+    </div>
+    <br/>
+    <br/>
+    
+    
+<p class="pl">订阅浪客剑心 るろうに剣心的影评: <br/><span class="feed">
+    <a href="http://movie.douban.com/feed/subject/6558801/reviews"> feed: rss 2.0</a></span></p>
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/5f95afa3d50334d7.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper2-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

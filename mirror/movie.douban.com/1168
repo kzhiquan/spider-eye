@@ -1,0 +1,1144 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        作为一个不看电视的人... (快乐到家 影评)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <meta name="keywords" content="快乐到家,影评,评论,观后感"/>
+    <meta name="description" content="作为一个不看电视的人..." />
+    <meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.douban.com/movie/review/5742492/">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/3f45551276fb584e.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1><span property="v:summary">作为一个不看电视的人...</span></h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    <div class="obss" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review">
+        <div class="piil">
+            <a onclick="moreurl(this, {from:'mv_rv_au_icon'})" href="http://movie.douban.com/people/ciciloveizzy/">
+                <img class="pil" src="http://img3.douban.com/icon/u2222809-38.jpg">
+            </a>
+        </div>
+        <div class="piir">
+            <span property="v:dtreviewed" content="2013-01-15" class="mn">2013-01-15 23:36:57</span>            <span class="pl2">　　                来自: <a onclick="moreurl(this, {from:'mv_rv_au_name'})" href="http://movie.douban.com/people/ciciloveizzy/"><span property="v:reviewer">Cee_C</span></a>
+                    (trouble shooter)
+                <br/>
+                <a onclick="moreurl(this, {from:'mv_rv_sbj_l'})"  href="http://movie.douban.com/subject/11610693/"><span property="v:itemreviewed">
+    
+快乐到家</span></a>的评论
+<span title="较差">&nbsp;&nbsp;<img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="2 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="2 star rating"/><img src="http://img3.douban.com/pics/nst.gif" alt=" "/><img src="http://img3.douban.com/pics/nst.gif" alt=" "/><img src="http://img3.douban.com/pics/nst.gif" alt=" "/></span>
+
+                <span property="v:rating" style="color: #fff">2</span>
+
+                    <br/>提示: 有关键情节透露
+            </span>
+            <br/><br/> 
+
+            <div id="link-report">
+                <span property="v:description">　　作为一个不看电视不看芒果台不看快乐大本营快乐家族几个人名字叫不全的人...其实也对本片抱有挺高期望的=。=虽然boss不看好此片。但我还是幻想快乐家族的死忠粉会买帐...结果，今天！星期二！下午3：30的场次全满！于是还抱着说不定会比泰囧更有趣（但票房肯定没戏）的心态去观摩了。<br/>　　<br/>　　从开头就一直在很努力的挤笑点，但是全场没一个人笑...十分钟后纸片人问我能走不，我说不，要善始善终。<br/>　　<br/>　　1、现在喜剧是不是不在泰国拍不出来？<br/>　　<br/>　　2、作为主角！这狗真心不够萌！你看ugly betty 虽然丑的时候丑，但人家美的时候真能美啊！这狗画完妆还是这个样子想怎样（不过卖萌卖得确实还行）<br/>　　<br/>　　3、作为龙套主角，吴昕没那个公主气质硬要装...再说这片子后期都吃屎了嘛？人不好看就算了，能把皮肤稍微弄好点嘛？！反而最成功造型属于坡姐了！<br/>　　<br/>　　4、整片演得最好就杜汶泽了不多说。<br/>　　<br/>　　5、但最抢镜的还是师兄！加上《一代宗师》，猴族要逆袭了么？<br/>　　<br/>　　6、从来不知道何炅的演技可以如此烂！去做科教节目主持算了！<br/>　　<br/>　　7、情节也太生硬了吧！噢，这里该加段惊险的场面，这里该加段温馨的...写个模板出来硬塞内容吗？！<br/>　　<br/>　　8、韩庚那个茄哩啡戴了墨镜不好看，不戴墨镜更难看</span>
+            </div>
+
+            
+
+
+            <div class="clear"></div>
+
+            
+
+            <div class="review-panel" name="5742492">
+                <div class="review-note">
+                </div>
+                <div class="review-stat">
+                    
+                    你认为这篇评论：
+                    <span class="useful">
+                        <a class="btn-useful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_y'});voteuseful('r-5742492',true)">有用</a>
+                        <em id="ucount5742492u">54</em>
+                    </span>
+                    <span class="unuseful">
+                        <a class="btn-unuseful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_n'});voteuseless('r-5742492',true)">没用</a>
+                        <em id="ucount5742492l">11</em>
+                    </span>
+                </div>
+            </div>
+
+            <div class="ul" style="margin-top:10px;margin-bottom:5px"></div>
+                
+                <ul style="margin:0;padding:0;float:left;">
+                    
+    
+    <li class="rec" id="O-5742492">
+        <a href= "#" data-url="http://movie.douban.com/review/5742492/" data-desc="" data-title="作为一个不看电视的人...  (豆瓣影评 - 关于电影《快乐到家》)" data-pic="" class="bn-sharing ">分享到</a> &nbsp;&nbsp;
+    </li>
+    <script>
+    var cache_url = cache_url || {};
+    (function(u){ if(cache_url[u]){ return; } cache_url[u] = true; Do(function(){$.getScript(u);}); })('http://img3.douban.com/js/lib/packed_sharebutton1775626802.js');
+    </script>
+ 
+                </ul>
+                
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+</div>
+
+                <div class="clear"></div>
+                
+
+
+
+
+
+
+
+
+
+
+<div id="comments">
+
+
+
+
+
+    
+
+<div class="comment-item" id=5313014 data-cid="5313014" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 08:36:33 
+          <a href="http://www.douban.com/people/giliani/">Giliani</a>  (豆瓣 废城雾扰)
+        </div>
+
+
+        
+        <p>　　居然有评论进电影首页。。。。。居然是这电影。。。。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2708923 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5313014" class="j a_confirm_link" title="删除Giliani的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5313059 data-cid="5313059" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 09:13:42 
+          <a href="http://www.douban.com/people/68128563/">复古风格</a> 
+        </div>
+
+
+        
+        <p>　　对 太二了这部电影 我也是硬找笑点想笑 但是就是笑不出来！！！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68128563 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5313059" class="j a_confirm_link" title="删除复古风格的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5313105 data-cid="5313105" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 09:45:48 
+          <a href="http://www.douban.com/people/ciciloveizzy/">Cee_C</a>  (trouble shooter)
+        </div>
+
+
+        
+        <p>　　啥？进电影首页？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2222809 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5313105" class="j a_confirm_link" title="删除Cee_C的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5313188 data-cid="5313188" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 10:20:01 
+          <a href="http://www.douban.com/people/68130901/">han </a> 
+        </div>
+
+
+        
+        <p>　　看看你的样子  也长得就就样  </p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68130901 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5313188" class="j a_confirm_link" title="删除han 的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5313221 data-cid="5313221" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 10:32:32 
+          <a href="http://www.douban.com/people/ciciloveizzy/">Cee_C</a>  (trouble shooter)
+        </div>
+
+
+        
+        <p>　　谢谢~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2222809 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5313221" class="j a_confirm_link" title="删除Cee_C的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5313445 data-cid="5313445" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 11:56:38 
+          <a href="http://www.douban.com/people/49742440/">mtime</a> 
+        </div>
+
+
+        
+        <p>　　楼主你居然看了</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u49742440 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5313445" class="j a_confirm_link" title="删除mtime的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5313456 data-cid="5313456" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 12:01:59 
+          <a href="http://www.douban.com/people/64763469/">同志们辛苦了</a>  (你想听什么好听顺耳的话，嗯？)
+        </div>
+
+
+        
+        <p>　　lsss的水军啊，你不说话，别人也知道你是水军的</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u64763469 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5313456" class="j a_confirm_link" title="删除同志们辛苦了的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5313700 data-cid="5313700" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 13:36:37 
+          <a href="http://www.douban.com/people/iki77/">nick</a>  (愿吾已放下 常驻光明中。)
+        </div>
+
+
+        
+        <p>　　为啥有两星捏</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u45250998 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5313700" class="j a_confirm_link" title="删除nick的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5313945 data-cid="5313945" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 15:01:41 
+          <a href="http://www.douban.com/people/ciciloveizzy/">Cee_C</a>  (trouble shooter)
+        </div>
+
+
+        
+        <p>　　因为真的看过更烂的~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2222809 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5313945" class="j a_confirm_link" title="删除Cee_C的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5313956 data-cid="5313956" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 15:06:34 
+          <a href="http://www.douban.com/people/44217205/">阿拉阿拉蕾鲁鲁</a> 
+        </div>
+
+
+        
+        <p>　　不知道为什么那么多人看。。。但是以往经验可以告诉我们只要有快乐家族的片都是做作，硬挤笑点</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u44217205 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5313956" class="j a_confirm_link" title="删除阿拉阿拉蕾鲁鲁的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5313999 data-cid="5313999" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 15:19:57 
+          <a href="http://www.douban.com/people/wenqi55520/">常减常肥的温绮</a>  (你妹你妹你妹！！！)
+        </div>
+
+
+        
+        <p>　　更烂的是什么片？求片名</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1571126 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5313999" class="j a_confirm_link" title="删除常减常肥的温绮的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5314391 data-cid="5314391" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 17:37:00 
+          <a href="http://www.douban.com/people/ciciloveizzy/">Cee_C</a>  (trouble shooter)
+        </div>
+
+
+        
+        <p>　　例如近期上映的一些国产“恐怖”“惊悚”“悬疑”片</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2222809 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5314391" class="j a_confirm_link" title="删除Cee_C的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5314720 data-cid="5314720" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 20:01:24 
+          <a href="http://www.douban.com/people/63412313/">麥c臭魚</a>  (不是所有的鱼都是臭鱼！)
+        </div>
+
+
+        
+        <p>　　3、作为龙套主角，吴昕没那个公主气质硬要装...再说这片子后期都吃屎了嘛？人不好看就算了，能把皮肤稍微弄好点嘛？！反而最成功造型属于坡姐了！ <br/>　　<br/>　　严重赞同！！吴昕真的没丝毫公主气质，经常以为是李维嘉反串演的= =<br/>　　　　 <br/>　　　　4、整片演得最好就杜汶泽了不多说。 <br/>　　<br/>　　还有阿SA啊也不错，韩庚直接无视、<br/>　　　　 <br/>　　　　5、但最抢镜的还是师兄！加上《一代宗师》，猴族要逆袭了么？ <br/>　　<br/>　　猴子比那个乐乐萌一百倍！<br/>　　<br/>　　</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u63412313 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5314720" class="j a_confirm_link" title="删除麥c臭魚的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316763 data-cid="5316763" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 15:21:22 
+          <a href="http://www.douban.com/people/47795407/">Penny!!Penny!!</a>  (气味不同 　便是陌生人)
+        </div>
+
+
+        
+        <p>　　2013-01-16 15:01:41 Cee_C (trouble shooter)<br/>　　　　因为真的看过更烂的~<br/>　　<br/>　　<br/>　　楼主 我都能感觉到你说这话时的忧伤 哈哈</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u47795407 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5316763" class="j a_confirm_link" title="删除Penny!!Penny!!的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316834 data-cid="5316834" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 15:55:34 
+          <a href="http://www.douban.com/people/67929665/">叶红花青</a> 
+        </div>
+
+
+        
+        <p>　　我就想问问为啥是两颗星</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u67929665 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5316834" class="j a_confirm_link" title="删除叶红花青的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318552 data-cid="5318552" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 10:16:56 
+          <a href="http://www.douban.com/people/wenqi55520/">常减常肥的温绮</a>  (你妹你妹你妹！！！)
+        </div>
+
+
+        
+        <p>　　lz看片真不挑，净捡烂的看，近期上映的那些国产片光看片名就够了</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1571126 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5318552" class="j a_confirm_link" title="删除常减常肥的温绮的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319128 data-cid="5319128" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 14:38:03 
+          <a href="http://www.douban.com/people/maob/">Cather1ne</a> 
+        </div>
+
+
+        
+        <p>　　CEE CEE你還跑電影院看去了。。。。。。。。。。。。。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2246167 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5319128" class="j a_confirm_link" title="删除Cather1ne的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320162 data-cid="5320162" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:21:11 
+          <a href="http://www.douban.com/people/61514272/">Yoshimori</a> 
+        </div>
+
+
+        
+        <p>　　我觉得前面不加上＂名字叫不全的主持人＂，这篇评论会更好</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u61514272 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5320162" class="j a_confirm_link" title="删除Yoshimori的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5322765 data-cid="5322765" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 23:22:25 
+          <a href="http://www.douban.com/people/athenahyphen/">奔奔</a>  (坚持就是胜利！)
+        </div>
+
+
+        
+        <p>　　我去看这电影，基本是儿童专场。估计家长们看着海报就觉得是小孩儿们喜欢的型吧。可全场下来基本都没人笑啊，小孩儿们该干嘛都干嘛去了，玩得不亦乐乎，谁看这傻电影。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2298186 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5322765" class="j a_confirm_link" title="删除奔奔的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5322979 data-cid="5322979" data-target_id="5742492" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 00:31:40 
+          <a href="http://www.douban.com/people/68244289/">hmf</a> 
+        </div>
+
+
+        
+        <p>　　你的纸片人是何人，</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68244289 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5742492/remove_comment?cid=5322979" class="j a_confirm_link" title="删除hmf的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div id="last"></div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <br/><span class="pl2" align="right"><a class="j a_show_login" href="https://www.douban.com/accounts/register?reason=comment">&gt; 我来回应</a></span>
+
+
+ 
+
+ 
+
+    
+    
+    
+
+
+
+
+
+
+
+</div>
+
+
+<script>
+Do(function(){
+  $('#comments').find('.comment-item').hover(function(){$(this).addClass('over');}, function(){$(this).removeClass('over');});
+  $('.reply-quote .toggle-reply').click(function(e) {
+    e.preventDefault();
+    var el = $(this);
+    el.prevAll('span').toggle(); 
+    el.find('span').toggle();
+  });
+});
+</script>
+
+
+
+
+        </div>
+    </div>
+
+    
+
+	</div>
+        <div class="aside">
+            
+    
+
+
+
+
+
+
+
+    <div class="copyright indent">本评论版权属于作者Cee_C，并受法律保护。除非评论正文中另有声明，未经合法书面许可任何人不得转载或使用整体或任何部分的内容。</div>
+    <p class="pl2">&gt; <a onclick="moreurl(this, {from:'mv_rv_sbj_r'})" href="http://movie.douban.com/subject/11610693/">去快乐到家的页面</a></p>
+
+    <div class="indent">
+        
+
+
+
+
+
+
+
+<style>
+    .movie-summary {overflow:hidden; zoom:1;}
+    .movie-summary .movie-pic {margin-bottom:15px; margin-top:3px;}
+    .movie-summary p {margin:3px 0; padding-left:2.5em; text-indent:-2.5em; color:#111;}
+    .movie-summary p .pl, .movie-summary p a:link , .movie-summary p a:visited{color:#111;}
+    .movie-summary p a:hover {color:#fff;}
+    .trail_link,.trail_link:visited,.trail_link:hover,.trail_link:active {margin-top:5px; display:block; height:28px; width:96px; background:url('/pics/movie_trailer_icon2.png'); overflow:hidden; line-height:99em;}
+    .btn-complete-video{margin-top:5px;}
+    .btn-complete-video,.btn-complete-video:active,.btn-complete-video:hover,.btn-complete-video:visited{background:url(http://img3.douban.com/pics/movie_trailer_icon4.png) no-repeat left top;display:block;height:28px;width:96px;line-height:99em;margin-bottom:10px;overflow:hidden}
+</style>
+
+<div class="movie-summary">
+        <div class="movie-pic"><a onclick="moreurl(this, {from:'mv_rv_poster'})"  href="http://movie.douban.com/subject/11610693/" ><img alt="快乐到家" title="快乐到家" src="http://img3.douban.com/mpic/s24585226.jpg" rel="v:image"></a></div>
+    <span class="attrs">
+        
+            
+        <p>
+            <span class="pl">导演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_director'})"  href="http://movie.douban.com/celebrity/1313266/">傅华阳</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">主演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1313023/">何炅</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1274270/">谢娜</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1313025/">李维嘉</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1318460/">吴昕</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1313024/">杜海涛</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1019343/">杜汶泽</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1274306/">倪大红</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1041425/">蔡卓妍</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1275667/">韩庚</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">类型:</span>
+                喜剧
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">地区:</span>
+                中国大陆
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">片长:</span>
+                97分钟
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">上映:</span>
+                2013-01-15(中国大陆)
+        </p>
+
+        <a onclick="moreurl(this, {from:'mv_rv_trailer'})"  class="trail_link" data-trailer-id="128494" href="http://movie.douban.com/trailer/128494/#content" >预告片</a>
+    </span>
+</div>
+
+
+
+
+
+    </div>
+
+            <h2>Cee_C的其他评论</h2>
+        <div class="indent other_review">
+            <ul>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_0'})" href="http://movie.douban.com/review/5743894/" class="ll">作为犯罪片它比快乐到家好笑</a> 
+                                    <span class="stars3 starstop" title="还行"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/5502697/">도둑들</a>)
+                        </li>
+                    
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_2'})" href="http://movie.douban.com/review/5732208/" class="ll">鸡刨豆腐</a> 
+                                    <span class="stars4 starstop" title="推荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/3821067/">一代宗師</a>)
+                        </li>
+            </ul>
+            <p class="pl clearfix">
+                <a class="rr" onclick="moreurl(this, {from:'mv_rv_au_all'})" href="http://movie.douban.com/people/ciciloveizzy/reviews?cat_id=1002">&gt; 全部评论(3)</a>
+            </p>
+        </div>
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/703012dc8cdf08fe.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper6-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

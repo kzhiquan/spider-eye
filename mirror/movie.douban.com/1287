@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>第十放映室：恭贺2013——2012年度电影回顾</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="第十放映室：恭贺2013——2012年度电影回顾">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>第十放映室：恭贺2013——2012年度电影回顾</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/klakt/"><img src="http://img3.douban.com/icon/u4471380-7.jpg" align="left" alt="核蛋Klakt"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/klakt/">核蛋Klakt (北京)</a><br />
+        创建时间: 2013-01-12 02:31:49　最后修改时间: 2013-01-13 01:35:49</p><p class="indent">　　本人只是搬运工。<br/>　　本豆列按节目中影片先后顺序排列。<br/>　　由于豆列评价字数有限，部分影片以个人拙见对栏目影评有所删减，不妥之处可留言告知。<br/>　　文字资料：百度“第十放映室”吧 <a href="http://www.douban.com/link2?url=http%3A//tieba.baidu.com/p/2076836718%3Fpn%3D1" target="_blank" rel="nofollow">http://tieba.baidu.c<wbr/>om/p/2076836718?pn=1<wbr/></a><br/>　　感谢：《第十放映室》栏目组、[第十放映室贴吧黑暗骑士团]<br/>　　<br/>　　★喜欢本豆列的童鞋，为了让更多童鞋看到，随手点个推荐呗~<br/></p>
+        </div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-1768934"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">18人</span>
+</div>
+<div class="filters">全部电影(68)</div>
+    <p id="sb3068206" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3068206/"><img width="80" src="http://img3.douban.com/spic/s6975693.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:14:25添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/3068206/">碟中谍4 Mission: Impossible - Ghost Protocol</a>
+    
+    </div>
+    <p class="pl">导演 : 布拉德·伯德 Brad Bird<br/>主演 : 汤姆·克鲁斯 Tom Cruise/杰瑞米·雷纳 Jeremy Renner/西蒙·佩吉 Simon Pegg/宝拉·巴顿 Paula Patton/乔什·哈洛威 Josh Holloway/迈克尔·恩奎斯特 Michael Nyqvist/亚尼·卡普 Anil Kapoor/蕾雅·赛杜 Léa Seydoux/弗拉基米尔·马什科夫 Vladimir Mashkov/文·瑞姆斯 Ving Rhames</p><p><span class="pl">评语</span> : 一部完美的爆米花电影。汤姆.克鲁斯化身《超人总动员》中的超人英雄，再次上演了不死小强的全球逆袭之旅。让我们恍惚间有一种错觉，他演的其实是皮克斯的超级英雄动画片。面对这样的电影，我们不必妄自菲薄，也不必自恃清高，这就是成熟的好莱坞工业体系在视觉奇观电影方面所能做到的最新高度。全世界观众都无法抗拒这样的电影，我们也不必假装自己和别的国家观众有什么不一样。我们即使想山寨它，都会发现，我们连一直引以为自豪的不差钱方面都望尘莫及，更不要说那些设备，技术，以及使用他们的专业人员了。所以，轻松当个观众好了。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4051753" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4051753/"><img width="80" src="http://img3.douban.com/spic/s7008774.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:17:35添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/4051753/">大侦探福尔摩斯2：诡影游戏 Sherlock Holmes: A Game of Shadows</a>
+    
+    </div>
+    <p class="pl">导演 : 盖·里奇 Guy Ritchie<br/>主演 : 小罗伯特·唐尼 Robert Downey Jr./裘德·洛 Jude Law/瑞秋·麦克亚当斯 Rachel McAdams/劳米·拉佩斯 Noomi Rapace/斯蒂芬·弗雷 Stephen Fry/凯利·蕾莉 Kelly Reilly (I)/埃德·哈里斯 Jared Harris (I)/杰拉丁妮·詹姆斯 Geraldine James/William Houston/保罗·安德森 Paul Anderson(I)</p><p><span class="pl">评语</span> : 福尔摩斯和华生之间的搭档关系，一直受到广大年轻女性观众的特殊喜爱。导演盖里奇不知道自己的口味一向如此，还是受到制片公司和票房的暗示，在《福尔摩斯2：诡影游戏》中可以说是放手大干，各种层出不穷的暧昧暗示，简直要让电影院里的女观众们尖叫了。本片中似乎还有一位女主角存在，但是有多少人会在意本片有一位女主角呢，在福尔摩斯与华生的强大气场中就算是一席女王，又能如何呢………</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4913200" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4913200/"><img width="80" src="http://img3.douban.com/spic/s6971753.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:22:04添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/4913200/">大魔术师</a>
+    
+    </div>
+    <p class="pl">导演 : 尔冬升 Tung-Shing Yee<br/>主演 : 梁朝伟 Tony Leung Chiu Wai/刘青云 Ching Wan Lau/周迅 Xun Zhou/闫妮 Ni Yan/吴刚 Gang Wu/方中信 Alex Fong/秦沛 Paul Chun/林雪 Suet Lam/泽田谦也 Kenya Sawada/王子文 Ziwen Wang/王子义 Zi-yi Wang/吴彦祖 Daniel Wu/徐克 Hark Tsui/戎祥 Cheung Yung/陆剑明 Jamie Luk/江道海/谷德昭 Vincent Kok/吴廷烨 Berg Ng</p><p><span class="pl">评语</span> : 如果只看故事简介，很多观众可能会误认为这是一部类似克里斯托弗·诺兰导演的《魔道争锋》（又名《致命魔术》），或者是尼尔伯格导演的《魔术师》一样的悬疑电影，但实际上，它更像是一部魔术版的《东成西就》。各种没心没肺的娱乐元素一通乱炖之后，大家最后发现，整个故事和魔术其实没啥关系，它讲的是普通青年帮文艺青年和一个二二乎乎的青年争女人，争到最后，青年们发现，他们已经不需要女人了。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb7056398" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/7056398/"><img width="80" src="http://img3.douban.com/spic/s7032465.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:23:53添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/7056398/">喜羊羊与灰太狼之开心闯龙年</a>
+    
+    </div>
+    <p class="pl">导演 : 简耀宗<br/>主演 : 周笔畅 Bichang Zhou/阿牛 Ah-Niu/欧弟 O Ti</p><p><span class="pl">评语</span> : 喜洋洋大电影真的已经没什么可说的了，它每年都如期而至，然后拿一份该拿的钱，挥一挥衣袖，不带走一片云彩，就像过年领红包一样，给钱的和拿钱的都开心祥和，各得其所。唯一值得我们担心的就是看着喜洋洋长大的小朋友们可能会真的觉得用平底锅敲自己老公的脑袋会很好玩，在此严肃的提醒一下小朋友们，这样做，是会出人命的。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb7055675" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/7055675/"><img width="80" src="http://img3.douban.com/spic/s7030897.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:24:34添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/7055675/">绝录求生</a>
+    
+    </div>
+    <p class="pl">导演 : 陆可 Ke Lu<br/>主演 : 吴超 Chao Wu/孙骁潇 Xiaoxiao Sun/吴楚 Chu Wu/冯波 Bo Feng/王思思 Sisi Wang/安琥 Hu An/国庆 Qing Guo/刘波 Bo Liu</p><p><span class="pl">评语</span> : 本片并不是简单的抄袭《死亡录像》，它也根据中国市场的特点，做了很多值得称道的改进，除了同样采用伪纪录片的拍摄手法外，《绝录求生》也巧妙的把僵尸类型片的元素融合进来，虽然仍然在故事逻辑上有些漏洞，但对于国产惊悚片来说，本片在创意和实施层面却是做到了一个还算不错的程度，作为一个90后导演的处女座，《绝录求生》虽然在创意方面显得有些过于投机取巧外，但在制作层面所呈现的完整性和成熟度，对于绝大多数国产惊悚片来说，还是值得借鉴的。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4920528" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4920528/"><img width="80" src="http://img3.douban.com/spic/s6985526.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:27:40添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/4920528/">那些年，我们一起追的女孩 那些年，我們一起追的女孩</a>
+    
+    </div>
+    <p class="pl">导演 : 九把刀 Giddens<br/>主演 : 柯震东 Ko Chen Tung/陈妍希 Michelle Chen/敖犬 Owodog/郝邵文 Shaowen Hao/蔡昌宪 Chang-Hsien Tsai/鄢胜宇 Sheng-yu Yen/弯弯 Wan Wan/邱彦翔 Yanxiang Qiu/王彩桦 Lotus Wang</p><p><span class="pl">评语</span> : 对于绝大多少去看这部电影的年轻观众来说，他们看的已经不是一部电影，而是自己过往的青春。在2012年有诸多国内制片公司已经开始尝试，等到2013年暑期档的时候我们自然就能看到一些跟风之作到底会是什么样子。而至于说为什么我们或许现在就可以给出答案，因为现在有权利去决定去拍什么电影的人他们绝大多数都已经不再是年轻人了，他们的青春岁月和感悟和现在的年轻人所思所想之间的差距差不多从地球到火星那么遥远。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4206436" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4206436/"><img width="80" src="http://img3.douban.com/spic/s6949506.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:29:26添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/4206436/">战马 War Horse</a>
+    
+    </div>
+    <p class="pl">导演 : 史蒂文·斯皮尔伯格 Steven Spielberg<br/>主演 : 杰瑞米·艾文 Jeremy Irvine/彼得·穆兰 Peter Mullan/艾米丽·沃森 Emily Watson/本尼迪克特·康伯巴奇 Benedict Cumberbatch/汤姆·希德尔斯顿 Tom Hiddleston/大卫·休里斯 David Thewlis/尼尔斯·阿莱斯楚普 Niels Arestrup/席琳·邦金斯 Celine Buckens/大卫·克劳斯 David Kross/托比·凯贝尔 Toby Kebbell/帕特里克·肯尼迪 Patrick Kennedy</p><p><span class="pl">评语</span> : 基本上，《战马》是一部挑不出错误的电影，无论什么样的观众都能从其中看到闪光点。对于斯皮尔伯格这种级别的导演，他失手的几率已经低到可以忽略不计的地步，如果一定要挑剔，本片的缺点就是太完美了，以至于它损失了一种让观众长久铭记它的力量。这种电影和中国电影之间的距离已相差太远，远到我们都无法谈论我们能从中借鉴到什么。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4023638" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4023638/"><img width="80" src="http://img3.douban.com/spic/s4566148.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:31:08添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/4023638/">国王的演讲 The King's Speech</a>
+    
+    </div>
+    <p class="pl">导演 : 汤姆·霍珀 Tom Hooper<br/>主演 : 柯林·菲尔斯 Colin Firth/杰弗里·拉什 Geoffrey Rush/海伦娜·邦汉·卡特 Helena Bonham Carter/盖·皮尔斯 Guy Pearce/迈克尔·刚本 Michael Gambon/蒂莫西·斯波 Timothy Spall/詹妮弗·艾莉 Jennifer Ehle/德里克·雅各比 Derek Jacobi/安东尼·安德鲁斯 Anthony Andrews/克莱尔·布鲁姆 Claire Bloom</p><p><span class="pl">评语</span> : 中国开始引进好莱坞分账大片后，中国观众开始在影院大荧幕上接触到各种强调视觉奇观和感官刺激的好莱坞影片，加上相对收入而言的高票价政策，让他们逐渐在电影消费上形成了一种独特的审美趣味，那就是极尽奢侈之能事，看电影就一定要看大片，大明星，大制作，大阵仗，没有最大只有更大，最好的大片还得是IMAX的，如果能有3D那就更好了。总之，如果一部电影没有这些标榜它昂贵奢侈的元素那就不能吸引足够多的观众。面对这样的消费心理和市场环境，《国王的演讲》这样的电影如果没有奥斯卡小金人的耀眼光环，它甚至都不能进入引进片的行列。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6425116" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6425116/"><img width="80" src="http://img3.douban.com/spic/s8438293.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:33:02添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/6425116/">倭寇的踪迹</a>
+    
+    </div>
+    <p class="pl">导演 : 徐浩峰 Haofeng Xu<br/>主演 : 于承惠 Cheng-Hui Yu/宋洋 Yang Song/赵圆圆 Yuanyuan Zhao</p><p><span class="pl">评语</span> : 《倭寇的踪迹》是一部很难被定义的电影，他不同与传统的武侠片和功夫片，虽然在描写江湖，却没有给观众所想象的刀光剑影，快意恩仇。编剧兼导演徐浩峰试图开创一条全新的道路，来描绘他心目中的江湖世界，但这种尝试却因为经验与成本的限制最后变成了一锅夹生饭。但即使本片存在这样那样的不足，凭借它所呈现出的独特风格和美学体系，如果假以时日，再加上足够的磨练，徐浩峰是能够在中国电影的江湖中开宗立派的，中国电影需要这样的改变，而我们也应该去支持这样的改变。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6782006" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6782006/"><img width="80" src="http://img3.douban.com/spic/s7050900.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:34:17添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/6782006/">我愿意</a>
+    
+    </div>
+    <p class="pl">导演 : 孙周 Zhou Sun<br/>主演 : 李冰冰 Bingbing Li/孙红雷 Honglei Sun/段奕宏 Yihong Duan/薛佳凝 Jianing Xue/张俪 Li Zhang</p><p><span class="pl">评语</span> : 在这部讲爱情的电影里，如果没有那么多的植入广告晃来晃去的话，其实这部电影还是能够看下去的。作为一部都市浪漫爱情片，这部从片名就开始做广告的电影，在很多时候已经被广告淹没了剧情。如果制作方都对电影如此无动于衷，那么它又怎么能感动观众呢？如果一部爱情电影不能感动观众，请创作者反思自己对于爱情的态度。你不能拿自己都不相信的事情去卖钱，观众迟早会识破的。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5977838" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5977838/"><img width="80" src="http://img3.douban.com/spic/s6993922.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:35:39添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/5977838/">高海拔之恋Ⅱ</a>
+    
+    </div>
+    <p class="pl">导演 : 杜琪峰 Johnnie To<br/>主演 : 古天乐 Louis Koo/郑秀文 Sammi Cheng/高圆圆 Yuanyuan Gao/黄奕 Yi Huang/刘浩龙 Wilfred Lau/王宝强 Baoqiang Wang/李光洁 Guangjie Li/恬妞 Niu Tien</p><p><span class="pl">评语</span> : 估计很多观众一直到看到本期节目时都不会意识到，其实真是世界中并没有《高海拔之恋1》这样的一部电影。这部电影的片名为什么会带上一个“2”？这个问题恐怕只有导演杜琪峰才能回答了。但毫无疑问，这样的片名会让很多带着女朋友的男性观众临阵犹豫一下：既然我都没看过第一部，那就别看这部“2”的了。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3532614" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3532614/"><img width="80" src="http://img3.douban.com/spic/s6943426.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:36:09添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/3532614/">夺命金 奪命金</a>
+    
+    </div>
+    <p class="pl">导演 : 杜琪峰 Johnnie To<br/>主演 : 刘青云 Ching Wan Lau/何韵诗 Wan-Si Ho/任贤齐 Richie Jen/胡杏儿 Myolie Wu/卢海鹏 Hoi-Pang Lo/苏杏璇 Hang Shuen So/钟舒漫 Sherman Chung/谭炳文 Ping-Man Tam/黄日华 Felix Wong/车婉婉 Stephanie Che/陈自瑶 Yoyo Chen/梁俊一 Anson Leung/黄智贤 Chi-yin Wong/尹子维 Terence Yin/贾晓晨  Xiaochen Jia/姜皓文 Philip Keung Ho-Man</p><p><span class="pl">评语</span> : 《夺命金》的英文名是《Life Without Principle》，就是“在一个没有原则的时代活下去”。这个片名完美地传递了影片的所有故事的精髓。作为杜琪峰导演最近几年最好的作品之一，能够在内地大银幕上观看这部电影，无疑让许多杜琪峰导演的影迷们暗爽不已。而杜琪峰导演也因此片获得刚刚结束的第49届台湾金马奖最佳导演奖，主演刘青云也夺得最佳男演员奖。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6855094" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6855094/"><img width="80" src="http://img3.douban.com/spic/s6944943.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:37:24添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/6855094/">绣花鞋</a>
+    
+    </div>
+    <p class="pl">导演 : 叶伟民 Wai Man Yip<br/>主演 : 林心如 Ruby Lin/莫小棋 Monica Mok/叶熙祺 Xiqi Ye/惠英红 Kara Hui/邢岷山 Minshan Xing/原岛大地 Daichi Harashima/唐文龙 Michael Tong/景岗山 Gangshan Jing/陈晓东 Daniel Chan Hiu Tung</p><p><span class="pl">评语</span> : 在中国，任何一部标榜自己是鬼片的惊悚片，最后都要毫无例外的在结尾抽自己的脸。本片虽然借用了一个中国通俗文化中的流行符号，但我们也想不明白“绣花鞋”和这个电影有什么关系。基本上，既然不能有鬼，那国产惊悚片只能在重口味上下功夫了。可真的重口味是需要想象力的，而视觉想象力是需要花钱的。对于吓人是假，骗钱是真的国产鬼片来说，任何提高制片成本的企图都是必定审查不能容忍的。于是，国产惊悚片所有关于重口味的想象力，最后全都集中到海报和预告片里去了。对于国产惊悚片来说，如果不谈电影本身的话，也就剩钱的事情可以说了。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4824515" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4824515/"><img width="80" src="http://img3.douban.com/spic/s7931698.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:40:55添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/4824515/">诸神之怒 Wrath of the Titans</a>
+    
+    </div>
+    <p class="pl">导演 : 乔纳森·里贝斯曼 Jonathan Liebesman<br/>主演 : 萨姆·沃辛顿 Sam Worthington/拉尔夫·费因斯 Ralph Fiennes/连姆·尼森 Liam Neeson/丹尼·赫斯顿 Danny Huston/埃德加·拉米雷兹 Édgar Ramírez/比尔·奈伊 Bill Nighy/托比·凯贝尔 Toby Kebbell/罗莎蒙德·派克 Rosamund Pike</p><p><span class="pl">评语</span> : 作为著名的伪3D代表作《诸神之战》的续集，《诸神之怒》发奋图强，虽然还是后期转成3D，但是在3D效果上终于有了点儿进步——除了字幕外，在个别场景中也出现了3D效果。对于不太熟悉希腊神话的观众，这个故事里的坏人和好人都很难辨认，除了他们手里的叉子在数量上有所不同外，其它的都差不多，反正一通打，从头打到尾，然后结束了。不过让观众感到欣慰的是，本片的3D效果终于像那么回事了，起码这次是要带着立体眼镜才能看的。 </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6386345" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6386345/"><img width="80" src="http://img3.douban.com/spic/s8985924.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:42:49添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/6386345/">春娇与志明 春嬌與志明</a>
+    
+    </div>
+    <p class="pl">导演 : 彭浩翔 Ho-Cheung Pang<br/>主演 : 杨千嬅 Miriam Yeung/余文乐 Shawn Yue/杨幂 Mi Yang/徐峥 Zheng Xu/谷德昭 Vincent Kok/郑伊健 Ekin Cheng/陈逸宁 Yat Ning Chan/司徒慧焯 Roy Szeto/黄晓明 Xiaoming Huang/詹瑞文 Sui-man Chim/田蕊妮 Kristal Tin/王馨平 Linda Wong/郝蕾 Lei Hao/谷祖琳 Jo Kuk/王太利 Taili Wang/邵音音 Shaw Yin Yin/曾国祥 Derek Tsang/尹志文 Jimmy Wan/彭浩翔 Ho-Cheung Pang/魏雨琦 Monica Wei/林兆霞</p><p><span class="pl">评语</span> : 为什么不选择用《志明与春娇2》作为电影的片名，导演的回答是——因为我不喜欢二，我们的电影也不二。整部电影虽然绝大多数场景都是在北京拍摄的，但它在精神气质上仍然是一部香港电影，有一种香港人和北京人都看不太明白的感觉在里面。这种感觉经过发酵之后，就变成了一个问题——一个香港文艺青年到了内地，肯定不会是普通青年。那他是什么呢？</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1985677" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1985677/"><img width="80" src="http://img3.douban.com/spic/s7059555.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:44:16添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/1985677/">异星战场 John Carter</a>
+    
+    </div>
+    <p class="pl">导演 : 安德鲁·斯坦顿 Andrew Stanton<br/>主演 : 泰勒·克奇 Taylor Kitsch/琳恩·柯林斯 Lynn Collins/托马斯·哈登·丘奇 Thomas Haden Church/威廉·达福 Willem Dafoe/萨曼莎·莫顿 Samantha Morton/马克·斯特朗 Mark Strong/多米尼克·威斯特 Dominic West/塞伦·希德 Ciarán Hinds/杰姆斯·鲍弗 James Purefoy/布莱恩·科兰斯顿 Bryan Cranston/波利·沃克 Polly Walker/达里尔·沙巴拉 Daryl Sabara</p><p><span class="pl">评语</span> : 当我们在网上搜索埃德加·赖斯·巴勒斯的介绍时就会发现，基本上各种版本的介绍里都有一句“虽然他的小说评价不高”这样的评语。作为一部十九世纪的通俗小说改编而来的电影，与其说它是科幻电影，不如说是奇幻电影更合适些，整个故事基本上就是山寨了《阿凡达》，只是故事背景改到了南北战争时期的美国。一个落魄青年穿越到火星，然后在那里上演了一出男人、女人和狗的故事。 </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5977835" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5977835/"><img width="80" src="http://img3.douban.com/spic/s8422157.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:45:26添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/5977835/">桃姐</a>
+    
+    </div>
+    <p class="pl">导演 : 许鞍华 Ann Hui<br/>主演 : 叶德娴 Deannie Yip/刘德华 Andy Lau/秦海璐 Hailu Qin/秦沛 Paul Chun/黄秋生 Anthony Wong Chau-Sang/王馥荔 Fuli Wang/朱慧敏 Queenie Chu/江美仪 Elena Kong/罗兰 Lan Law/谭炳文 Ping-Man Tam/梁天 Tin Leung/宫雪花 Xuehua Gong/徐克 Hark Tsui/洪金宝 Sammo Hung Kam-Bo/于冬 Dong Yu</p><p><span class="pl">评语</span> : 《桃姐》是2012年华语电影的最佳作品之一。许鞍华导演从香港电影新浪潮时代开始，就一直在坚持着自己的创作风格，并没有跟随香港商业化电影的浪潮起伏，而是固守她独特的自我表达方式。在本片中，她基本放弃了所有可以用来引导观众情绪的电影技巧，而是用平实的镜头角度记录下诸多会被我们刻意忽视的生活细节。许鞍华导演并不在电影中评判这些细节，但也不仅仅是毫无态度的展示。这是内地观众已经很久没有在大荧幕上看到的一种电影，对于所有错过在大荧幕上欣赏此片的观众来说，这会是一个在很长时间内都难以得到弥补的缺憾。 </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10477734" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10477734/"><img width="80" src="http://img3.douban.com/spic/s8354393.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:47:44添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/10477734/">疯狂的蠢贼</a>
+    
+    </div>
+    <p class="pl">导演 : 李凯 Kai Li<br/>主演 : 吴镇宇 Francis Ng/林雪 Suet Lam/刘颖 Ying Liu/王太利 Taili Wang/连晋 Teddy Lin/彭波 Bo Peng</p><p><span class="pl">评语</span> : 这是一部愚蠢的电影，我们根本不会花时间去说它。之所以要提它，完全是为了用它来占一点时间，来给大家简要吐糟一季度的其它片及说说电影片名的问题。在过去的几年，中国电影有大批类似的国产喜剧以各种充满乡土气息的片名自成一派。这些所谓的电影，他们基本都是头脑发热和耍鸡贼结合的产物，本来试图浑水摸鱼，却意外的发现水里全是手。最后，这些片名证明了一个颠覆不破的真理——凡是敢在片名中用分隔号的电影基本都是大烂片，而凡是想用“色·戒”这个片名作为例子来试图颠覆这条真理的人，你都要反思一下自己的阅读能力和观察力了。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5450891" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5450891/"><img width="80" src="http://img3.douban.com/spic/s6994298.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:52:35添加</span>
+        19. 
+    <a href="http://movie.douban.com/subject/5450891/">泰坦尼克号 3D版 Titanic 3D</a>
+    
+    </div>
+    <p class="pl">导演 : 詹姆斯·卡梅隆 James Cameron<br/>主演 : 莱昂纳多·迪卡普里奥 Leonardo DiCaprio/凯特·温丝莱特 Kate Winslet/比利·赞恩 Billy Zane/凯西·贝茨 Kathy Bates/弗兰西丝·费舍 Frances Fisher/格劳瑞亚·斯图尔特 Gloria Stuart/苏茜·爱米斯 Suzy Amis/比尔·帕克斯顿 Bill Paxton/伯纳德·希尔 Bernard Hill/维克托·加柏 Victor Garber/伊万·斯图尔特 Ewan Stewart/詹姆斯·卡梅隆 James Cameron</p><p><span class="pl">评语</span> : 作为一部号称2.99D的后期转制3D 电影，《泰坦尼克号3D版》除了将泰坦尼克号3D化外，没有在内容上做任何改动。当然，对于中国观众来说并不是这样的。虽然没有达到《阿凡达》那样的完美3D效果，但对于大多数连灯泡亮度都不太在乎的中国观众来说，这部电影的3D效果如何，其实并不重要，重要的是必须要在这样一部话题之作面前表现出足够的存在感。本片最后顺利的再次获得将近10亿人民币的国内票房，成就了一个不灭神话，为2012年开始的国产3D电影热加了一把柴禾，并顺手刨了一个坑。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3742937" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3742937/"><img width="80" src="http://img3.douban.com/spic/s7016446.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 03:56:38添加</span>
+        20. 
+    <a href="http://movie.douban.com/subject/3742937/">超级战舰 Battleship</a>
+    
+    </div>
+    <p class="pl">导演 : 彼得·博格 Peter Berg<br/>主演 : 连姆·尼森 Liam Neeson/亚历山大·斯卡斯加德 Alexander Skarsgård/泰勒·克奇 Taylor Kitsch/乔什·平茨 Josh Pence/布鲁克琳·黛克 Brooklyn Decker/蕾哈娜 Rihanna/杰西·普莱蒙 Jesse Plemons/浅野忠信 Tadanobu Asano</p><p><span class="pl">评语</span> : 我们现在都已经很难回忆起超级战舰这部电影到底讲了一个什么样的故事，因为，他是如此的似成相识，我们完全可以把很多DVD扔到搅拌机里加工一下，最后出来的东西也不会比这个电影差到哪里去。虽然这部电影的很多故事逻辑都不能细想，但好莱坞每次都能凭借娴熟的工业制作技术让我们的观众莫明奇妙的就能为八杆子打不着的一帮美国人欢呼雀跃，同时潜移默化地完成了一次价值观输出。在好莱坞电影里，美军打败世界无敌手颇有独孤求败之势，最后只能将目光不怀好意的转向了外星人。如果有一天地球被外星人毁灭了，这些好莱坞电影史逃脱不了干系的。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6080775" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6080775/"><img width="80" src="http://img3.douban.com/spic/s9022604.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 04:02:35添加</span>
+        21. 
+    <a href="http://movie.douban.com/subject/6080775/">黄金大劫案</a>
+    
+    </div>
+    <p class="pl">导演 : 宁浩 Hao Ning<br/>主演 : 雷佳音 Jiayin Lei/陶虹 Hong Tao/程媛媛 Yuanyuan Cheng/山崎敬一 Keiichi Yamasaki/郭涛 Tao Guo/范伟 Wei Fan/孙淳 Chun Sun/刘桦 Hua Liu/黄渤  Bo Huang/岳小军 Xiaojun Yue/傅亨 Heng Fu</p><p><span class="pl">评语</span> : 宁浩导演凭借《疯狂的石头》成为新锐导演，凭借《疯狂的赛车》晋升亿元俱乐部导演行列，然后摩拳擦掌拍了部无人区，然后……就没然后了。可能是这部传说的《无人区》让导演和观众都憋着一股劲，直接导致了《黄金大劫案》双方都有点用力过猛。相互拧巴的欲望让《黄金大劫案》最后有点尴尬，他必须要同时满足如此多人的各种需求，结果，最后他忘了自己是谁。但对于市场上正与好莱坞大片鏖战的中国电影来说，《黄金大劫案》已经是中国电影能拿出手的最好产品了。在国产商业类型片里，宁浩仍然是我们最值得期待的一个导演。 </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10508901" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10508901/"><img width="80" src="http://img3.douban.com/spic/s9022453.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 04:05:12添加</span>
+        22. 
+    <a href="http://movie.douban.com/subject/10508901/">匹夫</a>
+    
+    </div>
+    <p class="pl">导演 : 杨树鹏 Shupeng Yang<br/>主演 : 黄晓明 Xiaoming Huang/张译 Yi Zhang/张歆艺 Xinyi Zhang/王烈 Lie Wang/包小柏 Tino Bao/倪景阳 Jingyang Ni/马志明 Zhiming Ma/孙磊 Lei Sun/张粤 Yue Zhang/高群书 Qunshu Gao/梁静 Jing Liang/江珊 Shan Jiang/李子雄 Waise Lee</p><p><span class="pl">评语</span> : 《匹夫》是一部气质很奇特的国产电影，文艺片腔调和类型片尝试都奇怪的在本片中混杂在一起。一方面影片努力包含了各种可能的类型片商业元素，如地道枪战、西部小镇、视觉奇观、竞技爱情等等；另一方面，这部电影又处处都体现出导演试图驾驭浪漫文艺片的情怀。对于这样一部电影来说，类型定位的模糊以及对类型化叙事的不坚定，不彻底，则会是一个致命的问题。而对于成熟导演来说，如何在一个商业化，类型化的电影制作中，依然能保持强烈的和独特的个人风格，则是一个必须要迈过的门槛。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4176542" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4176542/"><img width="80" src="http://img3.douban.com/spic/s8925423.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 04:08:11添加</span>
+        23. 
+    <a href="http://movie.douban.com/subject/4176542/">杀生</a>
+    
+    </div>
+    <p class="pl">导演 : 管虎 Hu Guan<br/>主演 : 黄渤  Bo Huang/苏有朋 Alec Su/余男 Nan Yu/任达华 Simon Yam/马精武 Jingwu Ma/梁静 Jing Liang/王迅 Xun Wang</p><p><span class="pl">评语</span> : 这是一部充满愤怒但寓言幼稚的电影。里面充满了各种力量和欲望的挣扎，可以说是当下中国电影的一个缩影。如果把她当作是一部剧情片那么这部电影又有些令人费解，如果试图去解读里面的各种隐喻，那么这部电影就会变成一个找不到出口的迷宫。虽然本片因为市场压力而不得不结合一些商业化叙事的故事元素和视觉元素，但从整体来看，这仍然是一部不折不扣的文艺电影。保护好那些还在认真思考什么才是电影，什么是中国电影的创作者，就能够替未来保留一份希望和种子。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1866479" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1866479/"><img width="80" src="http://img3.douban.com/spic/s8904324.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 04:09:48添加</span>
+        24. 
+    <a href="http://movie.douban.com/subject/1866479/">复仇者联盟 The Avengers</a>
+    
+    </div>
+    <p class="pl">导演 : 乔斯·韦登 Joss Whedon<br/>主演 : 小罗伯特·唐尼 Robert Downey Jr./克里斯·埃文斯 Chris Evans/斯嘉丽·约翰逊 Scarlett Johansson/克里斯·海姆斯沃斯 Chris Hemsworth/杰瑞米·雷纳 Jeremy Renner/马克·鲁弗洛 Mark Ruffalo/塞缪尔·杰克逊 Samuel L. Jackson/汤姆·希德勒斯顿 Tom Hiddleston/斯特兰·斯卡斯加德 Stellan Skarsgård/寇碧·史莫德斯 Cobie Smulders/克拉克·格雷格 Clark Gregg/保罗·贝坦尼 Paul Bettany/格温妮斯·帕特洛 Gwyneth Paltrow</p><p><span class="pl">评语</span> : 作为一部漫画改编电影，吸引中国观众的不是片中那些复杂的人物以及他们之间错综复杂的前史和关系，而是各种视觉奇观场面。在营造了出色的视觉奇观场面之余，本片故事也保持了较高水准。《复仇者联盟》是一部后期转制3D电影，因为一开始就考虑到如何将3D技术运用到画面中，本片的3D效果终于达到了接近原生3D的水准，一直纷争不断的真假3D的讨论随着技术进步终于告一段落。3D电影的视觉效果有很多实现手段，3D效果不分真假，只有好坏。《复仇者联盟》中出场的主角和反派人物都分别由漫威公司拍摄了前传。可以说，一直在下一盘很大的棋。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3993559" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3993559/"><img width="80" src="http://img5.douban.com/spic/s9026719.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 04:15:59添加</span>
+        25. 
+    <a href="http://movie.douban.com/subject/3993559/">赛德克·巴莱 賽德克·巴萊</a>
+    
+    </div>
+    <p class="pl">导演 : 魏德圣 Te-Sheng Wei<br/>主演 : 林庆台 Ching-tai Lin/马志翔 Zhixiang Ma/安藤政信 Masanobu Andô/河原萨布 Sabu Kawahara/徐诣帆 Yi-Fan Hsu/温岚 Landy Wen/罗美玲 Mei-Ling Lo/徐若瑄 Vivian Hsu/大庆 Da-Ching/林源杰 Yuan-jie Lin</p><p><span class="pl">评语</span> : 对于一部有着野心史诗的电影来说，无论哪个版本的《赛德克巴莱》都令人遗憾地在世界观和电影技巧上存在一些缺憾。一方面作为台湾电影史上投资最高的电影，它面临着巨大的市场回收压力不得不在很多细节上做出妥协，另一方面导演魏德圣因为对这部电影全情投入导致他对自己的电影无法做出更加客观的判断，使得本片在不少地方显得有些失控。整个拍摄和制作过程如同一场英雄冒险旅程，充满了各种不可思议的艰苦和挑战，但魏德圣导演最后还是完成了本片的拍摄。不过直接导致影片长度超长不得不将本片分为上下两集公映。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    <div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/doulist/1768934/?start=25&filter=">2</a><a href="http://movie.douban.com/doulist/1768934/?start=50&filter=">3</a><span class="next"><a href="http://movie.douban.com/doulist/1768934/?start=25&filter=">后页&gt;</a><link rel="next" href="http://movie.douban.com/doulist/1768934/?start=25&filter="/></span></div>
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2>最新留言 · · · · · ·  <span class="pl">( <a href="http://movie.douban.com/doulist/1768934/comments">查看全部</a> )</span></h2><ul class="mbt"><li class="mbtl"><a href="http://www.douban.com/people/klakt/"><img src="http://img3.douban.com/icon/u4471380-7.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/1768934/comments#c-282371">核蛋Klakt : @【汪汪汪汪狗】 我是按照文字版一个一个添加进来的 如果确实还有遗漏欢迎补充哈~</a><span class="pl">  01-16 00:27</span></li><li class="mbtl"><a href="http://www.douban.com/people/27506178/"><img src="http://img3.douban.com/icon/u27506178-2.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/1768934/comments#c-282165">【汪汪汪汪狗】 : 是不是少了几部？真的只有那么少吗？</a><span class="pl">  01-15 19:55</span></li><li class="mbtl"><a href="http://www.douban.com/people/3927664/"><img src="http://img3.douban.com/icon/u3927664-3.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/1768934/comments#c-282047">wheeeirl : 杀生：欲言又止</a><span class="pl">  01-14 20:19</span></li></ul><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper3 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

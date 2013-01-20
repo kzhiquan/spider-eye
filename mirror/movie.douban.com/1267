@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>2012年观影佳片候选</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="2012年观影佳片候选">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>2012年观影佳片候选</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/zhangzongqian/"><img src="http://img3.douban.com/icon/u3995080-199.jpg" align="left" alt="亵渎电影"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/zhangzongqian/">亵渎电影 </a><br />
+        创建时间: 2012-01-07 10:23:56　最后修改时间: 2012-12-30 17:50:11</p><p class="indent">　　如果没有世界末日的话，我们依旧一起看电影！<br/>　　<br/>　　亵渎电影2012年度十佳<br/>　　1、【周末时光】<br/>　　2、【爱】<br/>　　3、【勒阿弗尔】<br/>　　4、【月升王国】【南国野兽】<br/>　　6、【浮士德】<br/>　　7、【凯撒必须死】<br/>　　8、【色彩斑斓】【天堂：爱】<br/>　　10、【父亲劫】<br/>　　<br/>　　年度特别推荐：【兴盛】<br/>　　年度华语电影：【夺命金】<br/>　　<br/>　　年度冷门十佳：<br/>　　【禁忌】<br/>　　【濒临边缘的人】<br/>　　【我们的福音】<br/>　　【奥海姆一家】<br/>　　【小丑漫游记】<br/>　　<br/>　　【直到永远】<br/>　　【最后的沉默】<br/>　　【我的祖父】<br/>　　【橡树少年】<br/>　　【血腥的宽恕】<br/>　　<br/>　　<br/></p>
+        </div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-1420326"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">204人</span>
+</div>
+<div class="filters">全部电影(87)</div>
+    <p id="sb6876006" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6876006/"><img width="80" src="http://img3.douban.com/spic/s6961854.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-02-03 09:23:59添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/6876006/">兴盛 Thrive</a>
+    
+    </div>
+    <p class="pl">导演 : Stephen Gagne/Kimberly Carter Gamble<br/>主演 : Lane Andrews/Dwynne Arnesson/John Bedini/John Callahan/Deepak Chopra/Frank Doran/Albert Einstein/Duane Elgin</p><p><span class="pl">评语</span> : 从磁场出发解决了UFO星际流行，麦田怪圈和外星人能量来源的谜团，再从历史上那些遭迫害的研究磁场的科学家，这片子最终的观众绝对可以很多人，强烈推荐给更多的人观看！不同于《远古外星人》之类的美剧纪录片的是“本片所涉及的所有内容均被证实” ！★★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6024430" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6024430/"><img width="80" src="http://img3.douban.com/spic/s6954325.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-01-13 03:46:30添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/6024430/">周末时光 Weekend</a>
+    
+    </div>
+    <p class="pl">导演 : 安德鲁·海格 Andrew Haigh<br/>主演 : 汤姆·库伦 Tom Cullen/克里斯·钮 Chris New/Laura Freeman/Vauxhall Jermaine</p><p><span class="pl">评语</span> : 又一部经典的同志电影诞生了！每当导演将自己的生活经历，对人生的感悟，把自己的世界观和爱情观投射到故事了，拍进自己的电影里，一切总会想显得真实迷人。真诚有了，能再有点情调或情怀，人物和性格再迷人点，爱情再富有点感染力，一切就可以等同于完美了。很高兴，这一切，这里几乎都有！★★★★☆</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4798707" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4798707/"><img width="80" src="http://img3.douban.com/spic/s24228185.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-02 05:10:15添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/4798707/">爱 Amour</a>
+    
+    </div>
+    <p class="pl">导演 : 迈克尔·哈内克 Michael Haneke<br/>主演 : 简-路易斯·特林提格南特 Jean-Louis Trintignant/埃玛妞·丽娃 Emmanuelle Riva/伊莎贝尔·于佩尔 Isabelle Huppert/威廉姆·西梅尔 William Shimell</p><p><span class="pl">评语</span> : 想起10月中那则夫妻黄河边徘徊12小时，丈夫将瘫痪8年的妻子推入江中的新闻。天朝这是没医保没钱，但有的都是爱。用不了多久，我肯定记不住这部电影的细节，记不住摄影场景和场面调度，甚至记不住那几句戳痛人心的对白，但我能记住那种绝望的情绪，就像老头讲叙自己小时候看电影的经历那样。★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3627216" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3627216/"><img width="80" src="http://img3.douban.com/spic/s9110940.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-22 00:45:05添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/3627216/">天堂：爱 Paradies: Liebe</a>
+    
+    </div>
+    <p class="pl">导演 : 尤里西·塞德尔 Ulrich Seidl<br/>主演 : Maria Hofstätter/Margarete Tiesel/Inge Maux/Peter Kazungu/Gabriel Mwarua/Carlos Mkutano</p><p><span class="pl">评语</span> : 通过一个旅游业现象由点及面扯出一大片，一个在外国的中年妇女在野炮中渐渐明白自己的价值，性的背后只是骗局，源于地域性的贫富差距，源于金钱，看这群白人女性的身体和肯尼亚黑人的身体讽刺就不言自明。环境宛如天堂，现实堪比地狱，片中裸体的尺度让人变得和动物没什么本质的区别。★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3731625" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3731625/"><img width="80" src="http://img3.douban.com/spic/s7026555.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-04 22:40:25添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/3731625/">浮士德 Фауст</a>
+    
+    </div>
+    <p class="pl">导演 : 亚历山大·索科洛夫 Aleksandr Sokurov<br/>主演 : Stefan Weber/Wolfgang Bauer/Anita Groissmayer/Johannes Zeiler/Hanna Schygulla/Maxim Mehmet/Antoine Monot Jr.</p><p><span class="pl">评语</span> : 一个有为人处事之道的浮士德，逐渐无法克制欲望，屈服于魔鬼的交易。不快乐的人是危险的，没有信仰的人也是危险的，人的力量所谓的自救可以转眼撕掉和魔鬼的契约，浮士德以灵魂为赌注，但他却不知灵魂在何处。2个小时游走于一座腐败的城池在索科洛夫的滤镜下直接就是一场古典的视觉艺术之旅。★★★★ </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4030657" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4030657/"><img width="80" src="http://img3.douban.com/spic/s6979128.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-03-01 22:08:34添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/4030657/">勒阿弗尔 Le havre</a>
+    
+    </div>
+    <p class="pl">导演 : 阿基·考里斯马基 Aki Kaurismäki<br/>主演 : André Wilms/让-皮埃尔·达鲁山 Jean-Pierre Darroussin/卡蒂·奥廷宁 Kati Outinen/让-皮埃尔·利奥德 Jean-Pierre Léaud/Evelyne Didi/Elina Salo</p><p><span class="pl">评语</span> : 这应该是阿基·考里斯马基最温情的一部电影，满是阳光和可爱的心灵，老导演总算没有再愤世嫉俗，就连最后妻子的小悬念都是悲观后的圆满。依旧无产阶级的故事，依旧是敏感的社会问题，只是这一次你只需要敞开心扉享受那份老导演带来的难得的温情就够了。★★★★ </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10438582" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10438582/"><img width="80" src="http://img3.douban.com/spic/s8814332.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-08-13 22:47:16添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/10438582/">凯撒必须死 Cesare deve morire</a>
+    
+    </div>
+    <p class="pl">导演 : 保罗·塔维安尼 Paolo Taviani/维克托里奥·塔维亚尼 Vittorio Taviani<br/>主演 : 萨尔瓦多·斯特里亚诺 Salvatore Striano/柯西莫·雷加 Cosimo Rega/安东尼奥·弗拉斯加 Antonio Frasca/胡安·达里奥·伯内蒂 Juan Dario Bonetti/文森特·盖洛 Vincent Gallo/乔瓦尼•阿库里 Giovanni Arcuri</p><p><span class="pl">评语</span> : 黑白的影像让监狱呈现出与众不同的感觉，不自然，甚至那么非现实，囚犯们在设计感十足的场景中表演，他们的演技似乎神奇的和他们曾经的犯罪过去产生了奇怪的化学反应，触动人心的不再仅仅是戏剧本身，还有每个饰演者背后未曾告诉我们的过去。艺术太神奇了，它也许真的可以改变某些东西。★★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5154376" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5154376/"><img width="80" src="http://img3.douban.com/spic/s9024615.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-11 00:49:21添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/5154376/">色彩斑斓 A Million Colours</a>
+    
+    </div>
+    <p class="pl">导演 : Peter Bishai<br/>主演 : Jason Hartman/Wandile Molebatsi</p><p><span class="pl">评语</span> : 改编自南非童星Muntu Ndebele的真实经历，从1976年南非最严重的黑人群众和警察的暴力冲突索韦托起义开始，看着一个男孩失去事业、家庭、爱情、友谊和一切，堕落成窃贼、瘾君子，好在他最后幸运的还有机会自我救赎。社会大环境左右着普通人的命运，好在这场“罗密欧与朱莉叶”的爱情不是悲剧。★★★★ </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3236412" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3236412/"><img width="80" src="http://img3.douban.com/spic/s7053064.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-02-24 22:43:40添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/3236412/">失乐园3：炼狱 Paradise Lost 3: Purgatory</a>
+    
+    </div>
+    <p class="pl">导演 : Joe Berlinger/Bruce Sinofsky<br/>主演 : Jason Baldwin/Damien Wayne Echols/Jessie Miskelly</p><p><span class="pl">评语</span> : 创作者的心态很健康，单纯的就事论事，只是这件事非常沉重，三个无辜的人被漫长的法律程序耗尽18年的青春，最后凶手是谁似乎也显而易见了，但也不那么重要了，谈何道德、公平、正义和法律？司法有时候就是一个无底洞，相信天朝的人民更容易找到共鸣！但愿奥斯卡的评委们有勇气选择这部电影！★★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5936103" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5936103/"><img width="80" src="http://img5.douban.com/spic/s6155239.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-01-29 04:50:42添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/5936103/">父亲劫 Father's Day</a>
+    
+    </div>
+    <p class="pl">导演 : Adam Brooks/Matthew Kennedy<br/>主演 : Adam Brooks/Mackenzie Murdock/Amy Groening</p><p><span class="pl">评语</span> : 加拿大电影公司Astron-6专门制作这种低成本的B级片，1980年代的磨房电影风格，杂糅恐怖和喜剧类型，暴力和色情更是必须元素，以满足昆汀那个录像厅年代的影迷。这部电影曾在2011年多伦多暮色电影节大受恐怖片粉丝们的欢迎，包揽最佳影片在内的六个奖项，是一道B级片粉们不可错过的饕餮盛宴！★★★★ </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10438585" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10438585/"><img width="80" src="http://img3.douban.com/spic/s8816633.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-04 23:37:40添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/10438585/">禁忌 Tabu</a>
+    
+    </div>
+    <p class="pl">导演 : 米古尔·麦斯 Miguel Gomes<br/>主演 : Laura Soveral/Ana Moreira/Teresa Madruga</p><p><span class="pl">评语</span> : 一位怪老太和她背后的故事被前后两部分处理的很有戏剧性，导演的风格个性独特，默片式的画面，文学性的旁白几乎贯通了全片，故事本身的代入感并不强。一周一年一辈子，这个爱情悲剧的本身也充满了人性的复杂、现实的无奈、时间的流逝和年龄生死带来的心境改变，弥漫着一段遥远的美丽与乡愁。★★★★ </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb19945757" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/19945757/"><img width="80" src="http://img3.douban.com/spic/s17505136.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-26 00:27:18添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/19945757/">偶滴神啊 OMG: Oh My God!</a>
+    
+    </div>
+    <p class="pl">导演 : Umesh Shukla<br/>主演 : Paresh Rawal/阿克谢·库玛尔 Akshay Kumar/米特胡恩·查克拉博蒂 Mithun Chakraborty/Govind Namdeo/Mahesh Manjrekar/Nidhi Subbaiah/康柯纳·森·沙尔玛 Konkona Sen Sharma/Prabhu Deva/索娜什·辛哈  Sonakshi Sinha/萨尔曼·汗 Salman Khan</p><p><span class="pl">评语</span> : 如今选择看哪国电影就会自觉的调成哪国的逻辑，这部关于宗教和信仰的觉醒电影绝对是今年的印度神片，特别是它的诡辩的神逻辑，充满了机智和风趣的幽默感，同时又犀利讽刺，一番辩论之后还能让听者思考有所顿悟收获。天朝人们大都是无神论者，其实没有信仰有时也可以一种信仰，信仰善良和爱。★★★★ </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5360889" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5360889/"><img width="80" src="http://img5.douban.com/spic/s24447129.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-19 22:28:57添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/5360889/">月升王国 Moonrise Kingdom</a>
+    
+    </div>
+    <p class="pl">导演 : 韦斯·安德森 Wes Anderson<br/>主演 : 杰瑞德·吉尔曼  Jared Gilman/卡拉·海沃德 Kara Hayward/布鲁斯·威利斯 Bruce Willis/爱德华·诺顿 Edward Norton/弗兰西斯·麦克多蒙德 Frances McDormand/蒂尔达·斯文顿 Tilda Swinton/比尔·默瑞 Bill Murray/詹森·舒瓦兹曼 Jason Schwartzman/哈威·凯特尔 Harvey Keitel</p><p><span class="pl">评语</span> : 有没有人觉得这是一部喜剧？但片中所有的人都很严肃，尽管孩子们严肃的儿戏，大人们儿戏般的严肃。奇思妙想般怪异可爱反正是来自韦斯·安德森的脑子，影迷们早已习以为常了，就像画面的色彩和优雅的配乐那样，当然还有比尔·默瑞。复古的小清新，摄影和场景调度必须赞一下。★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1929463" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1929463/"><img width="80" src="http://img3.douban.com/spic/s11119812.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-23 07:29:13添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/1929463/">少年派的奇幻漂流 Life of Pi</a>
+    
+    </div>
+    <p class="pl">导演 : 李安 Ang Lee<br/>主演 : 苏拉·沙玛 Suraj Sharma/拉菲·斯波 Rafe Spall/伊尔凡·可汗 Irrfan Khan/杰拉尔·德帕迪约 Gérard Depardieu/塔布 Tabu/阿迪勒·侯赛因 Adil Hussain/阿尤什·坦东 Ayush Tandon/王柏杰 Bo-Chieh Wang/Jun Naito</p><p><span class="pl">评语</span> : 不知道为什么有观众看完电影看到了信仰，或者又相信上帝了。而原著是让人宁愿相信有上帝，实际上故事的真相血淋淋的告诉你这个世界上根本就没有上帝。在清醒者眼里，你清楚事实的真相，你知道上帝没用；在善良者眼里，你宁愿相信稍微不太残忍的海上驯兽，你宁愿自我选择去相信美好和信仰而已。★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6549903" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6549903/"><img width="80" src="http://img3.douban.com/spic/s24510981.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-23 07:28:39添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/6549903/">逃离德黑兰 Argo</a>
+    
+    </div>
+    <p class="pl">导演 : 本·阿弗莱克 Ben Affleck<br/>主演 : 布莱恩·科兰斯顿 Bryan Cranston/本·阿弗莱克 Ben Affleck/凯尔·钱德勒 Kyle Chandler/约翰·古德曼 John Goodman/克里·杜瓦尔 Clea DuVall/艾伦·阿金 Alan Arkin/罗利·科奇瑞恩 Rory Cochrane/克里斯托弗·邓汉 Christopher Denham/维克多·加博 Victor Garber</p><p><span class="pl">评语</span> : 整部电影的每个方面都很完美，就连小本那张扑克脸的演技都和这个角色完美贴合，绝对是今年颁奖季的大热门，当然主旋律的政治惊悚片想最终登顶前途也不太乐观。最后一分钟营救的经典商业片模式，精准的摄影和剪辑，行云流水般的节奏，个人英雄主义和主旋律价值观始终让观影情绪热血沸腾。★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb7015714" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/7015714/"><img width="80" src="http://img3.douban.com/spic/s9071832.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-22 00:45:49添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/7015714/">南国野兽 Beasts of the Southern Wild</a>
+    
+    </div>
+    <p class="pl">导演 : 贝赫·泽特林 Benh Zeitlin<br/>主演 : Quvenzhané Wallis/德怀特·亨利 Dwight Henry/Jonshel Alexander/利维·伊斯特利 Levy Easterly/Kaliana Brower</p><p><span class="pl">评语</span> : 勇敢的人直面内心的野兽，无所畏惧，【楢山节考】式的蛮荒文明生存法则看来放在任何蛮荒的角落都很适合。宇宙万物和谐统一，永远不要庆幸他人的苦难，当统一的整体自我修复的时候，谁也会付出代价。这是一个关于生存和传承的故事，一代代的繁衍与延续，充满了爱与勇敢和生命气息。★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2363876" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2363876/"><img width="80" src="http://img3.douban.com/spic/s12620955.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-15 15:12:43添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/2363876/">007：大破天幕杀机 Skyfall</a>
+    
+    </div>
+    <p class="pl">导演 : 萨姆·门德斯 Sam Mendes<br/>主演 : 丹尼尔·克雷格 Daniel Craig/拉尔夫·费因斯 Ralph Fiennes/哈维尔·巴登 Javier Bardem/贝纳尼丝·玛尔洛 Bérénice Marlohe/娜奥米·哈里斯 Naomie Harris/朱迪·丹奇 Judi Dench/阿尔伯特·芬尼 Albert Finney/本·卫肖 Ben Whishaw/海伦·麦克洛瑞 Helen McCrory</p><p><span class="pl">评语</span> : 还真有几分黑暗骑士的影子，门德斯的镜头就像没了名言警句好口才的诺兰，却用邦德招牌式的时尚范儿和软色情代替。当然视觉奇观必须至少有三个，不过这片子的动作更让人兴奋的是毁东西，5辆大众甲壳虫，1辆地铁，1辆阿斯顿·马丁DB5、1架直升机，1套古董别墅，还有什么比烧钱更能让人刺激的吗？★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6053679" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6053679/"><img width="80" src="http://img3.douban.com/spic/s7021892.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-15 15:11:49添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/6053679/">通灵男孩诺曼 ParaNorman</a>
+    
+    </div>
+    <p class="pl">导演 : 克里斯·巴特勒 Chris Butler/山姆·菲尔 Sam Fell<br/>主演 : 柯蒂·斯密特-麦菲 Kodi Smit-McPhee/安娜·肯德里克 Anna Kendrick/莱斯利·曼恩 Leslie Mann/约翰·古德曼 John Goodman/克里斯托夫·梅兹-普莱瑟 Christopher Mintz-Plasse/卡西·阿弗莱克 Casey Affleck/祖蒂·弗兰 Jodelle Ferland/Jeremy Shada/伯纳德·希尔 Bernard Hill/杰夫·格尔林 Jeff Garlin</p><p><span class="pl">评语</span> : 时近三分之二处剧情一反转，主题变得寓教于乐了，桥段也变得新鲜反传统思维了，同时又充满着童真和善良。有创意，有技术，还有几分小惊喜，加上可爱的粘土角色，仿佛每一帧定格动画上都带着创作者的折纹，有趣的桥段甚至让人想到【生人回避】【电锯惊魂】【绿野仙踪】之类的片子。★★★★ </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6875451" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6875451/"><img width="80" src="http://img3.douban.com/spic/s10391434.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-10 22:17:48添加</span>
+        19. 
+    <a href="http://movie.douban.com/subject/6875451/">神圣车行 Holy Motors</a>
+    
+    </div>
+    <p class="pl">导演 : 莱奥·卡拉克斯 Leos Carax<br/>主演 : 德尼·拉旺 Denis Lavant/爱迪丝·斯考博 Edith Scob/凯莉·米洛 Kylie Minogue/米歇尔·皮寇利 Michel Piccoli/伊娃·门德斯 Eva Mendes/莱奥·卡拉克斯 Leos Carax</p><p><span class="pl">评语</span> : 就像赶场子看电影的疯狂影迷一样，进入一个厅就是一个截然不同的世界，好坏都要全身心的投入，完了又是下一场，赶场之间偶尔做一会自己。表面上无形的操控者、表演任务、无形了的摄影机和表演者甚至可以说隐喻着资本、电影媒介、技术、观感反馈以及逝去的时代和回忆，千丝万缕，可供无限解读。★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6843843" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6843843/"><img width="80" src="http://img3.douban.com/spic/s9028916.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-10 22:17:18添加</span>
+        20. 
+    <a href="http://movie.douban.com/subject/6843843/">锈与骨 De rouille et d'os</a>
+    
+    </div>
+    <p class="pl">导演 : 雅克·欧迪亚 Jacques Audiard<br/>主演 : 马提亚斯·修奈尔  Matthias Schoenaerts/玛丽昂·歌迪亚 Marion Cotillard/伯利·兰内尔 Bouli Lanners/Armand Verdure/Céline Sallette/Corinne Masiero/Jean-Michel Correia</p><p><span class="pl">评语</span> : 看来导演根本就不想拍一出爱情故事，换成好莱坞这早就狗血的一塌糊涂或许只剩演技了，但到了欧洲文艺片这里各种细腻的细节拍出了一种细水长流的感觉，一切都充满着不确定性，连角色自己都轻易控制不了周遭的变故。人的社会身份和地位的变化常常左右你选择去爱什么人，其实谁都不比谁更优越。★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4206497" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4206497/"><img width="80" src="http://img3.douban.com/spic/s9085637.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-10 21:59:42添加</span>
+        21. 
+    <a href="http://movie.douban.com/subject/4206497/">大屠杀之殇 Romanzo di una strage</a>
+    
+    </div>
+    <p class="pl">导演 : Marco Tullio Giordana<br/>主演 : 皮尔弗朗西斯科·法维诺 Pierfrancesco Favino/瓦里诺·马斯坦德雷阿 Valerio Mastandrea/卢伊吉洛·肖卡 Luigi Lo Cascio</p><p><span class="pl">评语</span> : 影片的野心不小，一二十个人物试图勾勒出“一个无政府主义者的意外死亡”真相，基本上通片对话，有阴谋，有悬疑，也看似有了一部分真相。翻了翻维基百科，有很多不同立场人士的分析，也没有定论，帕索里尼还拍了纪录片【12月12日】。意大利人当这是屠杀，我们看后扶额表示“呵呵后”，共鸣啊！★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10542144" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10542144/"><img width="80" src="http://img3.douban.com/spic/s22918238.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-22 21:30:40添加</span>
+        22. 
+    <a href="http://movie.douban.com/subject/10542144/">金发缪斯 The Girl</a>
+    
+    </div>
+    <p class="pl">导演 : 朱里安·杰拉德 Julian Jarrold<br/>主演 : 托比·琼斯 Toby Jones/西耶娜·米勒 Sienna Miller/佩内洛普·威尔顿 Penelope Wilton/伊梅尔达·斯汤顿 Imelda Staunton</p><p><span class="pl">评语</span> : 希区柯克从殿堂级的大神化为恶毒讨人嫌的色老头，和艾尔玛的终生婚姻也遭遇了危机，希区对蒂比·海德莉的爱恋、骚扰和强势的控制占有欲成了整部电影重点。剧本对于各种历史细节的还原，潜台词处理以及对人物性格的刻画尤为精彩，考究的英式文艺片气质，经典与再现在剪辑的处理下恍如隔世。★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10487226" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10487226/"><img width="80" src="http://img3.douban.com/spic/s11364196.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-29 00:53:10添加</span>
+        23. 
+    <a href="http://movie.douban.com/subject/10487226/">圣殇 피에타</a>
+    
+    </div>
+    <p class="pl">导演 : 金基德 Ki-duk Kim<br/>主演 : 李廷镇 Jeong-jin Lee/赵敏秀 Min-su Jo/伍基洪/姜恩珍</p><p><span class="pl">评语</span> : 复仇与怜悯，爱让恶魔变成了人，爱虽是全宇宙的终极世界观，金基德变仁慈了点，但他的世界依然残忍，超脱于现实之上，死亡总是以让人难以想象的想象形式冷冰冰的出现，只有你想不到，没有他死不了。即使最终让人领悟了爱，但救赎依旧是一道长长的红线，他懂得爱与怜悯，却依旧信不过这个世界。★★★★</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5937923" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5937923/"><img width="80" src="http://img3.douban.com/spic/s11098143.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-24 14:36:46添加</span>
+        24. 
+    <a href="http://movie.douban.com/subject/5937923/">血腥的宽恕 The Forgiveness of Blood</a>
+    
+    </div>
+    <p class="pl">导演 : 乔舒华·玛斯顿 Joshua Marston<br/>主演 : Tristan Halilaj/Sindi Laçej/Refet Abazi</p><p><span class="pl">评语</span> : 一个非常优秀的剧本，通过一起杀人案表现了整个阿尔巴尼亚北部地区的社会现实，野蛮，荒谬，地痞流氓般的人们，讽刺的是这里的血债根本无法被宽恕，唯有血债血偿。标准公司冷偏高的品位确实喜欢这种以小见大的低成本作品，私人化的美学风格，某一类人或某一社会复杂的现实状况问题。★★★★ </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5990243" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5990243/"><img width="80" src="http://img3.douban.com/spic/s7817380.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-22 21:30:15添加</span>
+        25. 
+    <a href="http://movie.douban.com/subject/5990243/">停止跟踪 Halt auf freier Strecke</a>
+    
+    </div>
+    <p class="pl">导演 : 安德里亚斯·德里森 Andreas Dresen<br/>主演 : Steffi Kühnert/Milan Peschel/Talisa Lilly Lemke/Mika Seidel/Ursula Werner/Marie Rosa Tietjen/Otto Mellies/Christine Schorn/Bernhard Schütz/Thorsten Merten</p><p><span class="pl">评语</span> : 这种电影多棒啊，质朴又包含情绪，几乎事无巨细的放大了一个濒临边缘的癌症病人最后的时光，真实，让人无比心酸，你根本无需怀疑，现实生活本身肯定就是这个样子。男主角的表演情绪饱满直击人心，表演成了这部最大的亮点，镜头总是人性化的在情绪化的表演面前恋恋不舍。★★★★ </p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    <div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/doulist/1420326/?start=25&filter=">2</a><a href="http://movie.douban.com/doulist/1420326/?start=50&filter=">3</a><a href="http://movie.douban.com/doulist/1420326/?start=75&filter=">4</a><span class="next"><a href="http://movie.douban.com/doulist/1420326/?start=25&filter=">后页&gt;</a><link rel="next" href="http://movie.douban.com/doulist/1420326/?start=25&filter="/></span></div>
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2>最新留言 · · · · · ·  <span class="pl">( <a href="http://movie.douban.com/doulist/1420326/comments">查看全部</a> )</span></h2><ul class="mbt"><li class="mbtl"><a href="http://www.douban.com/people/shadowshu/"><img src="http://img3.douban.com/icon/u2810893-6.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/1420326/comments#c-279066">水金金 : the forgiveness of blood 是2011年的电影</a><span class="pl">  2012-12-22 22:15</span></li><li class="mbtl"><a href="http://www.douban.com/people/jay-wen/"><img src="http://img3.douban.com/icon/u47218284-3.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/1420326/comments#c-277453">JayWen : 感谢lz亲力亲为把好片都看了一遍</a><span class="pl">  2012-11-27 23:38</span></li></ul><h2 style="margin-top:30px">亵渎电影的其他电影豆列  · · · · · ·  </h2>
+        <style>.dlistp p{margin-top:4px;border-bottom:1px #ddd dashed;padding-bottom:4px}</style>
+        <div class="dlistp"><p><a href="http://movie.douban.com/doulist/300331/">2009 浓缩好电影</a></p> <p><a href="http://movie.douban.com/doulist/436766/">2010 纸上看电影</a></p> <p><a href="http://movie.douban.com/doulist/943808/">亵渎电影2011冷门佳片计划</a></p> <p><a href="http://movie.douban.com/doulist/1306898/">2011亵渎电影年度佳片候选</a></p> <p><a href="http://movie.douban.com/doulist/1324897/">乔治克鲁尼1964~1976年之间最爱的100部电影</a></p> </div><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper2 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

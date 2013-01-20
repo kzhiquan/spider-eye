@@ -1,0 +1,566 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>一汪浪漫的电影</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+#celebrity .list-s li { height: 140px; overflow: hidden }
+.aside .mod .pl a{font-size:14px;}
+.contact-update-time {margin-top:10px;border-bottom:1px solid #ddd }
+
+    </style>
+    
+<link href="http://img3.douban.com/css/ui/packed_mypage6119031721.css" rel="stylesheet" type="text/css" />
+<link href="http://img3.douban.com/css/music/packed_people5808759241.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.form5689674177.js"></script>
+
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+
+
+
+    
+
+    
+
+    
+
+    
+    <div id="db-usr-profile">
+        <div class="pic">
+            <a href="http://movie.douban.com/people/dianyingzhizui/"><img height="48" width="48" alt="一汪浪漫" src="http://img3.douban.com/icon/u54416551-2.jpg" /></a>
+        </div>
+        <div class="info">
+            <h1>一汪浪漫的电影</h1>
+            <ul>
+                    
+        <li><a href="http://movie.douban.com/people/dianyingzhizui/">电影主页</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/dianyingzhizui/reviews?cat_id=1002">影评</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/dianyingzhizui/do">在看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/dianyingzhizui/wish">想看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/dianyingzhizui/collect">看过</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/dianyingzhizui/doulists">豆列</a></li>
+    
+                    
+        <li class="sep">|</li>
+    
+                    
+        <li><a href="http://www.douban.com/people/dianyingzhizui/">豆瓣主页</a></li>
+    
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+
+
+
+
+    <div id="db-book-mine">
+            
+
+    <h2  >看过 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/dianyingzhizui/collect">442部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4212172/" class="cover"><img alt="十二生肖" title="十二生肖" src="http://img3.douban.com/spic/s24519706.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1308799/" class="cover"><img alt="一个陌生女人的来信" title="一个陌生女人的来信" src="http://img3.douban.com/spic/s1946524.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1292633/" class="cover"><img alt="冲锋队之怒火街头" title="冲锋队之怒火街头" src="http://img3.douban.com/spic/s1767483.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1295157/" class="cover"><img alt="神偷谍影" title="神偷谍影" src="http://img3.douban.com/spic/s3947066.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1296530/" class="cover"><img alt="紫雨风暴" title="紫雨风暴" src="http://img3.douban.com/spic/s1786903.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1301153/" class="cover"><img alt="完全女人" title="完全女人" src="http://img3.douban.com/spic/s3570882.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1428112/" class="cover"><img alt="复仇" title="复仇" src="http://img5.douban.com/spic/s2617149.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1295409/" class="cover"><img alt="纵横四海" title="纵横四海" src="http://img3.douban.com/spic/s2372646.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1293147/" class="cover"><img alt="辣手神探" title="辣手神探" src="http://img3.douban.com/spic/s1993246.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1296519/" class="cover"><img alt="喋血双雄" title="喋血双雄" src="http://img3.douban.com/spic/s2524328.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+            
+
+    <h2  >在看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/dianyingzhizui/do">1部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3230172/" class="cover"><img alt="Mission: SAS" title="Mission: SAS" src="http://img3.douban.com/spic/s24510430.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    </div>
+    
+    <style>
+        .comment-m .comment-item h3 {padding-left:0;}
+        .comment-m .comment-item .author {background:#fff; padding-left:13px; margin-bottom:1em;}
+    </style>
+    <div class="mod comment-m">
+        <h2  >一汪浪漫的影评 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/dianyingzhizui/reviews?cat_id=1002">42篇</a> )</span></h2>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/4212172/" title="十二生肖"><img src="http://img3.douban.com/spic/s24519706.jpg" alt="十二生肖"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="《十二生肖》制作水平像80年代的港产片，不好看。" href="http://movie.douban.com/review/5747818/" class="title">《十二生肖》制作水平像80年代的港产片，不好看。</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/dianyingzhizui/">一汪浪漫</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/4212172/">十二生肖</a>
+                </div>
+                <p>本来想给一颗星的，但由于是成龙大哥只好给两颗了，《十二生肖》真的有点大失水准，故事剧情荒诞离奇不要紧，但节奏剪辑的过于快了，让人觉得有点香港80年代喜剧片的节奏，所以显得很假，整部影片充满了爱国情怀本来挺好的，但是几乎每一句台词都充满着说教让人反感，电影如果想传达给观众的某种精神一定要潜移默化让观...<a href="http://movie.douban.com/review/5747818/">(0回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/1295686/" title="Heat"><img src="http://img3.douban.com/spic/s1458637.jpg" alt="Heat"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="《盗火线》是一部感人至深的充满人情味的经典警匪片" href="http://movie.douban.com/review/5740178/" class="title">《盗火线》是一部感人至深的充满人情味的经典警匪片</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/dianyingzhizui/">一汪浪漫</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/1295686/">Heat</a>
+                </div>
+                <p>《盗火线》从头到尾都有着浓浓的人情味，劫匪不是冷血动物他们也是普通人，而警察亦如是，很多人津津乐道的是这部影片中的阳刚之气，其实这部影片中的儿女情长同样吸引人，当方基墨冒着全城围捕的危险来见阿什利嘉德一面时，当阿什利嘉德站在阳台上看到冒着生命危险来见她的方基墨时，她脸上的表情百感交集，她喜悦因为...<a href="http://movie.douban.com/review/5740178/">(0回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/3217165/" title="The Town"><img src="http://img5.douban.com/spic/s4440289.jpg" alt="The Town"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="《城中大盗》是好莱坞难得一见的充满人情味的经典感人动作片" href="http://movie.douban.com/review/5740008/" class="title">《城中大盗》是好莱坞难得一见的充满人情味的经典感人动作片</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/dianyingzhizui/">一汪浪漫</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/3217165/">The Town</a>
+                </div>
+                <p>这部《城中大盗》隐约可以看到《盗火线》的影子，是近些年来好莱坞难得一见的有人情味的警匪动作大片，影片的动作场面风格真实绝非那些天马行空电脑特技做出来的无聊之作，而影片中从头至尾无处不在的那种人情味是好莱坞影片少有的，而正是这种人性的刻画才最吸引人，世界上没有绝对的黑绝对的白，而大多数时候是灰色地...<a href="http://movie.douban.com/review/5740008/">(0回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/1301153/" title="Totale!, La"><img src="http://img3.douban.com/spic/s3570882.jpg" alt="Totale!, La"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="《真实的谎言》抄袭的就是这部《完全女人》" href="http://movie.douban.com/review/5736582/" class="title">《真实的谎言》抄袭的就是这部《完全女人》</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/dianyingzhizui/">一汪浪漫</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/1301153/">Totale!, La</a>
+                </div>
+                <p>这部影片之所以可以被称为经典是因为为众人所熟知的好莱坞经典动作大片《真实的谎言》完全抄袭的这部《完全女人》，好莱坞抄袭法国片已经不是第一次了，但《真实的谎言》抄袭的很成功使全世界的人只知道翻版的《真实谎言》而不知道原版的法国片《完全女人》。<a href="http://movie.douban.com/review/5736582/">(0回应)</a></p>
+            </div>
+        </div>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper3-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

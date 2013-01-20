@@ -1,0 +1,655 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+    分类筛选
+</title>
+    
+
+    
+    <meta name="baidu-site-verification" content="cZdR4xxR7RxmM4zE" />
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    
+    <meta name="keywords" content="电影、经典电影、热映、电视剧、美剧、影评、电影院、电影票、排行、推荐"/>
+    <meta name="description" content="豆瓣电影提供最新的电影介绍及评论包括上映影片的影讯查询及购票服务。你可以记录想看、在看和看过的电影电视剧，顺便打分、写影评。根据你的口味，豆瓣电影会推荐好电影给你。" />
+    <script>
+        window.Douban=window.Douban||{};var Do=function(){Do.actions.push([].slice.call(arguments))};Do.ready=function(){Do.actions.push([].slice.call(arguments))};Do.add=Do.define=function(a,b){Do.mods[a]=b};Do.global=function(){Do.global.mods=Array.prototype.concat(Do.global.mods,[].slice.call(arguments))};Do.global.mods=[];Do.mods={};Do.actions=[];function set_cookie(g,f,d,e){var b=new Date(),a,c;b.setTime(b.getTime()+((f||30)*24*60*60*1000));a="; expires="+b.toGMTString();for(c in g){document.cookie=c+"="+g[c]+a+"; domain="+(d||"douban.com")+"; path="+(e||"/")}}function get_cookie(b){var e=b+"=",a=document.cookie.split(";"),d,f;for(d=0;d<a.length;d++){f=a[d];while(f.charAt(0)==" "){f=f.substring(1,f.length)}if(f.indexOf(e)===0){return f.substring(e.length,f.length).replace(/\"/g,"")}}return null}Douban.init_show_login=function(a){Do("dialog",function(){var b="/j/misc/login_form";dui.Dialog({title:"登录",url:b,width:/device-mobile/i.test(document.documentElement.className)?document.documentElement.offsetWidth*0.9:350,cache:true,callback:function(c,d){d.node.addClass("dialog-login");d.node.find("h2").css("display","none");d.node.find(".hd h3").replaceWith(d.node.find(".bd h3"));d.node.find("form").css({border:"none",width:"auto",padding:"0"});d.update()}}).open()})};Do(function(){$.ajax_withck=function(a){if(a.type=="POST"){a.data=$.extend(a.data||{},{ck:get_cookie("ck")})}return $.ajax(a)};$.postJSON_withck=function(a,b,c){$.post_withck(a,b,c,"json")};$.post_withck=function(a,c,d,b){if($.isFunction(c)){b=d;d=c;c={}}return $.ajax({type:"POST",url:a,data:$.extend(c,{ck:get_cookie("ck")}),success:d,dataType:b||"text"})};$("html").click(function(c){var a=$(c.target),b=a.attr("class");if(!b){return}$(b.match(/a_(\w+)/gi)).each($.proxy(function(d,f){var e=Douban[f.replace(/^a_/,"init_")];if(typeof e==="function"){c.preventDefault();e.call(this,c)}},a[0]))})});
+        Do.global('http://img3.douban.com/js/separation/packed_prettyfield9429611286.js');
+        Do.add('underscore', {path: 'http://img3.douban.com/js/lib/backbone/packed_underscore-min4088733534.js', type: 'js'});
+        Do.add('backbone', {path: 'http://img3.douban.com/js/lib/backbone/packed_backbone-min1461497957.js', type: 'js', requires:['underscore']});
+        Do.global('http://img3.douban.com/js/core/packed_moreurl7707771666.js')
+    </script>
+    <link rel="stylesheet" href="http://img3.douban.com/css/core/packed__init_6312190557.css">
+    <link rel="stylesheet" href="http://img3.douban.com/css/core/packed_site_nav6549403524.css">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/5c599e15975cf608.css">
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1>分类筛选</h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+
+    
+
+    <div id="filters">
+        <div id="keys">
+            <h4 class="label"><span class="tip">已选条件为空</span><span class="save">(<a id="save-keywords" href="#">保存</a>)</span></h4>
+            <ul></ul>
+        </div>
+        <div id="type" class="filter">
+            <h4 class="label">类型</h4>
+            <ul>
+                <li><a href="#">剧情</a></li>
+                <li><a href="#">喜剧</a></li>
+                <li><a href="#">动作</a></li>
+                <li><a href="#">爱情</a></li>
+                <li><a href="#">科幻</a></li>
+                <li><a href="#">动画</a></li>
+                <li><a href="#">悬疑</a></li>
+                <li><a href="#">惊悚</a></li>
+                <li><a href="#">恐怖</a></li>
+                <li><a href="#">纪录片</a></li>
+                <li><a href="#">短片</a></li>
+                <li><a href="#">情色</a></li>
+                <li><a href="#">同性</a></li>
+                <li><a href="#">音乐</a></li>
+                <li><a href="#">歌舞</a></li>
+                <li><a href="#">家庭</a></li>
+                <li><a href="#">儿童</a></li>
+                <li><a href="#">传记</a></li>
+                <li><a href="#">历史</a></li>
+                <li><a href="#">战争</a></li>
+                <li><a href="#">犯罪</a></li>
+                <li><a href="#">西部</a></li>
+                <li><a href="#">奇幻</a></li>
+                <li><a href="#">冒险</a></li>
+                <li><a href="#">灾难</a></li>
+                <li><a href="#">武侠</a></li>
+                <li><a href="#">古装</a></li>
+                <li><a href="#">鬼怪</a></li>
+                <li><a href="#">运动</a></li>
+                <li><a href="#">戏曲</a></li>
+            </ul>
+        </div>
+        <div id="district" class="filter">
+            <a class="more" href="#">+</a>
+            <h4 class="label">地区</h4>
+            <ul>
+                <li><a href="#">美国</a></li>
+                <li><a href="#">中国大陆</a></li>
+                <li><a href="#">香港</a></li>
+                <li><a href="#">台湾</a></li>
+                <li><a href="#">日本</a></li>
+                <li><a href="#">韩国</a></li>
+                <li><a href="#">英国</a></li>
+                <li><a href="#">法国</a></li>
+                <li><a href="#">意大利</a></li>
+                <li><a href="#">西班牙</a></li>
+                <li><a href="#">德国</a></li>
+                <li><a href="#">泰国</a></li>
+                <li><a href="#">印度</a></li>
+                <li><a href="#">加拿大</a></li>
+                <li><a href="#">澳大利亚</a></li>
+                <li><a href="#">俄罗斯</a></li>
+                <li><a href="#">波兰</a></li>
+                <li><a href="#">丹麦</a></li>
+                <li><a href="#">瑞典</a></li>
+                <li><a href="#">巴西</a></li>
+                <li><a href="#">墨西哥</a></li>
+                <li><a href="#">阿根廷</a></li>
+                <li><a href="#">比利时</a></li>
+                <li><a href="#">奥地利</a></li>
+                <li><a href="#">荷兰</a></li>
+                <li><a href="#">匈牙利</a></li>
+                <li><a href="#">土耳其</a></li>
+                <li><a href="#">希腊</a></li>
+                <li><a href="#">爱尔兰</a></li>
+                <li><a href="#">伊朗</a></li>
+                <li><a href="#">捷克</a></li>
+                <li id="custom"><input id="custom-district" type="text" placeholder="输入地区" maxlength="30"><button id="btn-search" href="#">搜索</button></li>
+            </ul>
+        </div>
+        <div id="era" class="filter">
+            <a class="more" href="#">+</a>
+            <h4 class="label">年代</h4>
+            <ul>
+                <li><a href="#">2012</a></li>
+                <li><a href="#">2011</a></li>
+                <li><a href="#">2010</a></li>
+                <li><a href="#">2009</a></li>
+                <li><a href="#">2008</a></li>
+                <li><a href="#">2007</a></li>
+                <li><a href="#">2006</a></li>
+                <li><a href="#">2001-2005</a></li>
+                <li><a href="#">1996-2000</a></li>
+                <li><a href="#">1991-1995</a></li>
+                <li><a href="#">1986-1990</a></li>
+                <li><a href="#">1981-1985</a></li>
+                <li><a href="#">70年代</a></li>
+                <li><a href="#">60年代</a></li>
+                <li><a href="#">50年代</a></li>
+                <li><a href="#">40年代</a></li>
+                <li><a href="#">30年代</a></li>
+                <li><a href="#">早期</a></li>
+            </ul>
+        </div>
+        <div id="extra" class="filter">
+            <div id="sort">
+                <span id="sortBy-score" class="sort">评价排序</span>/<a id="sortBy-date" href="#" class="sort">日期排序</a>
+            </div>
+            <div id="other">
+                <span class="category" id="category-all">全部</span>/<a id="category-movie" class="category" href="#">电影</a>/<a id="category-tv" class="category" href="#">电视剧</a>
+                <label><input id="unwatched" type="checkbox">我没看过的</label>
+                <label><input id="availabel" type="checkbox">可在线播放</label>
+            </div>
+        </div>
+    </div>
+
+    <div id="subjects"></div>
+    <div id="paginator"></div>
+
+    
+        <script type="text/template" id="keyword-template">
+            <span><%- keyword %></span><a class="del">x</a>
+        </script>
+
+        <script type="text/template" id="item-template">
+                <div class="poster">
+                    <a href="<%- url %>" target="_blank"><img src="<%- poster %>" alt=""></a>
+                </div>
+                <div class="info">
+                    <div class="hd">
+                        <h4>
+                            <a href="<%- url %>" target="_blank" onclick="moreurl(this, {from: '<%- keys %>'})"><%- title %></a>
+                            <span class="released">(<%- release_year %>)</span>
+                            <% if (has_video){ %>
+                                <span class="available">可播放</span>
+                            <% } %>
+                        </h4>
+                        <% if(status.indexOf('尚未') === -1){ %>
+                            <div class="rating">
+                                <% if (show_rating) { %>
+                                    <span class="star allstar<%- star %>"></span>
+                                    <span class="rate"><%- rate %></span>
+                                    <span class="rater">(<%- rater %>人评价)</span>
+                                <% }else{ %>
+                                    <span class="tip">(评分人数不足)</span>
+                                <% }%>
+                            </div>
+                        <% } %>
+                    </div>
+                    <div class="bd">
+                        <div class="abstract"><%= abstract %></div>
+                        <div class="status"><%- status %></div>
+                    </div>
+                </div>
+        </script>
+
+        <script type="text/template" id="paginator-template">
+            <% if (page <= 5 ) { %>
+                <% if (page === 1) { %>
+                    <span class="prev">&lt;前页</span>
+                <% }else{ %>
+                    <span class="prev"><a href="#" data-page="<%- page - 1 %>">&lt;前页</a></span>
+                <% } %>
+
+                <% for(var i=1; i<10; i++){ %>
+                    <% if (page == i) { %>
+                        <span class="thispage"><%- i %></span>
+                    <% }else{ %>
+                        <a href="#" data-page="<%- i %>"><%- i %></a>
+                    <% } %>
+                <% } %>
+
+                <span class="break">...</span>
+                <span class="next"><a href="#" data-page="<%- page + 1 %>">后页&gt;</a></span>
+            <% }else if(page <= 10){ %>
+                <span class="prev"><a href="#" data-page="<%- page - 1 %>">&lt;前页</a></span>
+
+                <% for(var i=1; i<page + 5; i++){ %>
+                    <% if (page === i) { %>
+                        <span class="thispage"><%- i %></span>
+                    <% }else{ %>
+                        <a href="#" data-page="<%- i %>"><%- i %></a>
+                    <% } %>
+                <% } %>
+
+                <span class="break">...</span>
+                <span class="next"><a href="#" data-page="<%- page + 1 %>">后页&gt;</a></span>
+            <% }else{ %>
+                <span class="prev"><a href="#" data-page="<%- page - 1 %>">&lt;前页</a></span>
+                <a href="#" data-page="1">1</a>
+                <a href="#" data-page="2">2</a>
+                <span class="break">...</span>
+
+                <% for(var i=page-4; i<page; i++){ %>
+                    <a href="#" data-page="<%- i %>"><%- i %></a>
+                <% } %>
+
+                <span class="thispage"><%- page %></span>
+
+                <% for(var i=page+1; i<page + 5; i++){ %>
+                    <a href="#" data-page="<%- i %>"><%- i %></a>
+                <% } %>
+
+                <span class="break">...</span>
+                <span class="next"><a href="#" data-page="<%- page + 1 %>">后页&gt;</a></span>
+            <% } %>
+        </script>
+    
+
+	</div>
+        <div class="aside">
+            
+    <div class="entrance">
+        <h3>通过自定义标签筛选电影</h3>
+        <form action="/tag/" method="GET">
+            <input name="search_text" type="text" size="24" maxlength="36" placeholder="输入标签" value="">
+            <input type="submit" value="进入">
+        </form>
+    </div>
+
+    <!-- douban ad begin -->
+    <div id="dale_movie_tag_top_right"></div>
+    <!-- douban ad end -->
+
+    
+
+    
+        <script type="text/template" id="keywords-item-template">
+            <li id="<%- id %>">
+                <a class="del-keywords-saved" href="#">x</a>
+                <a href="<%- url %>" class="keywords-item">
+                    <% if(type.length){ %>
+                        <%- type.join('+') %>
+                        <% if (district) { %>
+                            +<%- district %>
+                            <% if (era) { %>
+                               +<%- era %>
+                            <% } %>
+                        <% }else{ %>
+                            <% if (era) { %>
+                               +<%- era %>
+                            <% } %>
+                        <% } %>
+                    <% }else{ %>
+                        <% if (district) { %>
+                            <%- district %>
+                            <% if (era) { %>
+                               +<%- era %>
+                            <% } %>
+                        <% }else{ %>
+                            <% if (era) { %>
+                               <%- era %>
+                            <% } %>
+                        <% } %>
+                    <% } %>
+                </a>
+            </li>
+        </script>
+    
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/2ecd4da73d03f0a6.js"></script>
+    
+  <!-- douban ad begin -->
+  
+
+
+
+
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = 'http://erebor.douban.com/',
+            userId = '',
+            browserId = 'VKpIE5M+TuQ',
+            ipAddress = '122.236.48.167',
+            criteria = '3:/category/',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_movie_tag_top_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, ip: ipAddress, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'http://img3.douban.com/js/packed_ad3738113870.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+  <!-- douban ad end -->
+
+    
+    <script src="http://img3.douban.com/js/core/do/packed__init_7701316160.js" data-cfg-corelib="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- gardner5-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

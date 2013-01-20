@@ -1,0 +1,977 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        痞子在左，牛逼在右 (被解放的姜戈 影评)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <meta name="keywords" content="被解放的姜戈,Django Unchained,影评,评论,观后感"/>
+    <meta name="description" content="痞子在左，牛逼在右" />
+    <meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.douban.com/movie/review/5746762/">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/3f45551276fb584e.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1><span property="v:summary">痞子在左，牛逼在右</span></h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    <div class="obss" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review">
+        <div class="piil">
+            <a onclick="moreurl(this, {from:'mv_rv_au_icon'})" href="http://movie.douban.com/people/kingedward/">
+                <img class="pil" src="http://img3.douban.com/icon/u3744974-215.jpg">
+            </a>
+        </div>
+        <div class="piir">
+            <span property="v:dtreviewed" content="2013-01-19" class="mn">2013-01-19 12:26:17</span>            <span class="pl2">　　                来自: <a onclick="moreurl(this, {from:'mv_rv_au_name'})" href="http://movie.douban.com/people/kingedward/"><span property="v:reviewer">Edward羽</span></a>
+                    (2013)
+                <br/>
+                <a onclick="moreurl(this, {from:'mv_rv_sbj_l'})"  href="http://movie.douban.com/subject/6307447/"><span property="v:itemreviewed">
+    
+Django Unchained / 被解放的姜戈</span></a>的评论
+<span title="力荐">&nbsp;&nbsp;<img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/></span>
+
+                <span property="v:rating" style="color: #fff">5</span>
+
+            </span>
+            <br/><br/> 
+
+            <div id="link-report">
+                <span property="v:description">　　我不是昆汀脑残粉。<br/>　　我是昆汀粉。<br/>　　我期待这片子好久了，尤其当你发现这家伙已经三年没出新片，而上一部又是一部让人爱不释眼的神级作品时，你真的会按捺不住对他新作的饥渴。<br/>　　还好，姜哥姗姗来迟。<br/>　　我如同欣赏一件精雕细琢的艺术品般看完了这部接近三小时的所谓“通心粉西部片”，你要问我观后感是啥，那就是“痞子，牛逼！”<br/>　　<br/>　　1.西部片？<br/>　　老实说，我不是啥西部片粉，看过的西部片少之又少，所以我肯定是无法从西部片“专业”角度来评判什么。该片是昆汀向1966年由塞吉奥·考布西执导的经典意大利西部片致敬之作，致敬了多少？怎么个致敬？因为我么看过那老片子自然无从说起，我就听说姜哥在那儿说“俺叫姜哥，那个D不发音”的时候，旁边发话的那老黑正是原版的姜哥。<br/>　　前半部西部味儿颇足，又是解救黑奴、又是精练枪法、又是赏金杀人，后半部就变成了黑娃救妻的吴宇森式的单挑童话。黑奴通常可不是西部片的主角，昆叔其实特想讲个跟把那段黑奴历史相关的东东，专门讲吧一来不见得好讲二来不见得好看，这次刚好借机套上西部片的外套自然一拍即合。近年来西部片复古之潮有些起色，前有《西部风云》《决战刹马镇》《大地惊雷》，但多还走得正经套路，昆汀如果也按照常理出牌那就不是他了，大段的扯淡、四处散落的小幽默、四溅的番茄汁···这些才是他的路数，选择用一个黑奴粉碎白人奴隶主的故事作为主线不得不说是另辟蹊径，关于自由与奴役、黑人与白人的恩怨、那段蛮荒血腥历史本可以继续深入探讨，但昆叔皆点到即止，他亦意不在此，就如之前拿希特勒纳粹开涮一般，他喜欢把玩历史、喜欢将自己待见的各类cult元素乱入、喜欢让自己的电影更酷更带劲，深度这种东西，你看得出来自然好，看不到也无妨。最重要的是，你一定得看得爽！<br/>　　2.逻辑不通？<br/>　　看到不少朋友说这片子有太多讲不通的地方，例如小李子明明可以杀死那俩“骗子”拿走钱财却偏要君子般得跟人家好心做买卖、医生明明可以委屈自己握个手以求全身而退却冲动拔枪置大家于不利、姜哥明明在投降后应当被乱枪打死却被饶命禁闭还毫发不损的被丢进矿市厂···诸如此类。<br/>　　其实吧，我也觉得讲不通太扯淡，可是当我想到这片子的导演是昆汀，不是斯科塞斯不是伊斯特伍德，我突然很能接受了，昆叔就是要一次次让你陷入绝境然后扯淡得再化险为夷亦或破罐子破摔，反正就是不按你所想的来。<br/>　　这么长部影片，故事却简单地用几句话就能讲完，好多处其实可以见好就收、及时收尾了，可昆叔偏不，你以为他们会瞒天过海顺利过关，他偏安排杰克逊饰演的那个狡猾老管家戳穿谎言；你以为他们要顺着小李子给的梯子安妥离开，他偏让一向沉稳的医生暴怒一次，整出一场大枪战；你以为姜哥就这么被搞死了，他偏安排自己演个二货矿工放了姜哥一条生路。总之，你觉得不合理，他却觉得再合理不过，让你猜不透就是他眼中的合理。<br/>　　3.神级表演<br/>　　小李子这次的表演你能不竖起大拇哥大加赞赏么？跟马叔混可不就能把自己整的苦大仇深，这次跟怪咖昆叔玩儿却新鲜感十足，昆汀就是有激发那些正派演员异样一面的本事，小李这次男配的表现值五颗星（刚刚看到奥斯卡提名名单，小李赫然···不在列，哎，跟昆叔混看来也拯救不了小李额，就这么不被学院待见么）；不得不说瓦尔兹这个戏痞，他崛起于昆汀的无耻混蛋，昆叔当年差点因为那个“犹太猎人”的角色找不到合适演员而搁浅拍摄，可当他发现瓦叔的时候立马被折服了，上次瓦叔横扫戛纳奥斯卡，这次的医生一角也像是为其量身定做，再拿下个把奖项不在话下；至于影帝福克斯，作为男主他的表演中规中矩不功不过，总的来说外形还是非常帅气滴，当初如若真能找来史皇来出演此角会不会更好呢，这俨然马后炮了，不说也罢；塞缪尔杰克逊这老戏骨的黑人管家形象可谓深入骨髓，而这个角色也无可争议的是最令人印象深刻同时最有戏剧矛盾的角色之一。<br/>　　4.线性叙事&amp;暴力美学&amp;五星配乐<br/>　　这次昆汀难得玩儿了次规规矩矩的线性叙事，摒弃了之前的chapter1234的把戏，主要角色也缩减到只有那么三四个人，如此以来片子更加通俗易懂了，却也少了些许叙事上的乐趣，好坏留给观众评价，至少对于一个熟稔各路招数的大侠，返璞归真也算是一种突破吧。<br/>　　提起昆汀就难免想到暴力美学，这词儿已经用烂了，实在不想再多说了，反正呢，之前的昆叔，好比《落水狗》《低俗小说》《杰克布朗》，走的路线是“扯淡-话唠-扯淡-话唠-稍微打一下“，后来呢，好比《杀死比尔》《无耻混蛋》《姜哥》，走的路线变成”扯淡-打一下-话唠-使劲再打一下-扯淡-最后放个大招完事儿“，孰优孰劣见仁见智。我自然还是喜欢后者，这次的姜哥更是如此，每当你被话唠的台词和缓慢的剧情折腾得无可适从时，他就给你丢个炸弹，提个神、爽一下，这暴力美不美我不知道，我就知道这暴力还挺爽。还好昆汀仁慈，没把狗撕人的画面呈现出来，也没把烧下体的镜头搞出来，这已经很是收敛啦。<br/>　　关于配乐你大可放心，昆汀的电影里的配乐什么时候差劲过？这次更是在西部片里加入些许黑人说唱音乐，这杂烩炖的着实让人虎躯一震，此外多首传统的西部片歌曲更是为影片增色不少，贴个虾米的试听地址以飨各位：http://www.xiami.com<wbr/>/album/560329#wall_l<wbr/>ist<br/>　　5.鬼才<br/>　　据说，所谓鬼才，就是鬼才知道他要拍啥。<br/>　　赏金猎人医生马车上那颗可爱的大牙喜欢不？蒙面“骑士”们面罩上的错位小孔喜欢不？邪恶又不失风度的庄园主小李子喜欢不？老瓦突然死亡连个特写悼念都没有喜欢不？四处喷溅的血浆和枪弹迸发的薄雾喜欢不？姜哥干掉所有反派并神一般地救下爱妻、炸掉豪宅作为烟花、骑着骏马跳着舞示爱、俨然一个黑马王子兼南方第一快枪手喜欢不？昆叔自己把自己炸飞喜欢不？<br/>　　被解放的姜哥，你喜欢不？<br/>　　<br/>　　看电影午夜场里这样评说昆汀·塔伦天奴：<br/>　　爱吐槽，爱致敬，爱没完没了的FUCK，爱中国功夫，爱意大利黑帮，爱流行世界里的性感和血浆···没上过大学，没当过大兵，寂寞了，就看看电影。崛起于音像店，纵横江湖20年，一个牛逼传奇的诞生。一半是痞子，另一半，还是痞子。<br/>　　<br/>　　《姜哥》绝对不是最好的昆汀，一定一定要跟《无耻混蛋》比的话，也还差了不少感觉，但是呢，我已知足，我依旧发现，左边是痞子，右边是牛逼，中间趴着四个字儿：<br/>　　哥是传奇！<br/>　　PS：爱咋咋地！</span>
+            </div>
+
+            
+
+
+            <div class="clear"></div>
+
+            
+
+            <div class="review-panel" name="5746762">
+                <div class="review-note">
+                </div>
+                <div class="review-stat">
+                    
+                    你认为这篇评论：
+                    <span class="useful">
+                        <a class="btn-useful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_y'});voteuseful('r-5746762',true)">有用</a>
+                        <em id="ucount5746762u">11</em>
+                    </span>
+                    <span class="unuseful">
+                        <a class="btn-unuseful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_n'});voteuseless('r-5746762',true)">没用</a>
+                        <em id="ucount5746762l">2</em>
+                    </span>
+                </div>
+            </div>
+
+            <div class="ul" style="margin-top:10px;margin-bottom:5px"></div>
+                
+                <ul style="margin:0;padding:0;float:left;">
+                    
+    
+    <li class="rec" id="O-5746762">
+        <a href= "#" data-url="http://movie.douban.com/review/5746762/" data-desc="" data-title="痞子在左，牛逼在右  (豆瓣影评 - 关于电影《被解放的姜戈 Django Unchained》)" data-pic="" class="bn-sharing ">分享到</a> &nbsp;&nbsp;
+    </li>
+    <script>
+    var cache_url = cache_url || {};
+    (function(u){ if(cache_url[u]){ return; } cache_url[u] = true; Do(function(){$.getScript(u);}); })('http://img3.douban.com/js/lib/packed_sharebutton1775626802.js');
+    </script>
+ 
+                </ul>
+                
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+</div>
+
+                <div class="clear"></div>
+                
+
+
+
+
+
+
+
+
+
+
+<div id="comments">
+
+
+
+
+
+    
+
+<div class="comment-item" id=5321275 data-cid="5321275" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 13:10:50 
+          <a href="http://www.douban.com/people/linchuzhuang/">花开的声音</a>  (无欲则刚)
+        </div>
+
+
+        
+        <p>　　看了你的影评，决定找个时间去看一下，PS，你不看七个神经病？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u53899916 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5321275" class="j a_confirm_link" title="删除花开的声音的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5321298 data-cid="5321298" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 13:21:34 
+          <a href="http://www.douban.com/people/kingedward/">Edward羽</a>  (2013)
+        </div>
+
+
+        
+        <p>　　哇，这是巧合吗？我现在刚好正在看麦克唐纳的七个神经病，白发麦这片子我也期待很久了。最近好片真多，要一部一部慢慢看</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u3744974 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5321298" class="j a_confirm_link" title="删除Edward羽的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5321317 data-cid="5321317" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 13:31:06 
+          <a href="http://www.douban.com/people/linchuzhuang/">花开的声音</a>  (无欲则刚)
+        </div>
+
+
+        
+        <p>　　前几天我在快播那打算看了，结果那个字幕好无语，不知道是不是直接百度翻译上去的，本来这类台词又多，看半天不知道在扯什么==</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u53899916 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5321317" class="j a_confirm_link" title="删除花开的声音的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5321343 data-cid="5321343" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 13:44:35 
+          <a href="http://www.douban.com/people/kingedward/">Edward羽</a>  (2013)
+        </div>
+
+
+        
+        <p>　　现在出的字幕都很不错的</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u3744974 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5321343" class="j a_confirm_link" title="删除Edward羽的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5322159 data-cid="5322159" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 20:22:44 
+          <a href="http://www.douban.com/people/qilvc/">www.qilvc.com</a>  (净化工程www.qilvc.com)
+        </div>
+
+
+        
+        <p>　　好像效果还不是很好，你们在哪找的？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u48749323 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5322159" class="j a_confirm_link" title="删除www.qilvc.com的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5322327 data-cid="5322327" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 21:19:52 
+          <a href="http://www.douban.com/people/kingedward/">Edward羽</a>  (2013)
+        </div>
+
+
+        
+        <p>　　我看的就是那个For your consideration的···我觉得效果还凑合吧</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u3744974 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5322327" class="j a_confirm_link" title="删除Edward羽的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5323554 data-cid="5323554" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 11:01:12 
+          <a href="http://www.douban.com/people/68249338/">哈喽-简</a>  (活的不要太严肃~)
+        </div>
+
+
+        
+        <p>　　看了影评似乎还蛮好看的样子~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68249338 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5323554" class="j a_confirm_link" title="删除哈喽-简的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5323564 data-cid="5323564" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 11:06:54 
+          <a href="http://www.douban.com/people/kingedward/">Edward羽</a>  (2013)
+        </div>
+
+
+        
+        <p>　　不要随便相信“影评”···而且我这也不是影评···</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u3744974 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5323564" class="j a_confirm_link" title="删除Edward羽的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5324252 data-cid="5324252" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 16:25:40 
+          <a href="http://www.douban.com/people/4563515/">很好~</a> 
+        </div>
+
+
+        
+        <p>　　我也喜欢昆汀，但看了这叙述，感觉是在”舔“昆汀  感觉有点过了···</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u4563515 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5324252" class="j a_confirm_link" title="删除很好~的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5324335 data-cid="5324335" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 17:04:38 
+          <a href="http://www.douban.com/people/kingedward/">Edward羽</a>  (2013)
+        </div>
+
+
+        
+        <p>　　没啥，有这感觉正常，尤其最后那两段话本来就是无节操夸他，觉得过了忽视便是。索性你还喜欢昆汀，要来个讨厌他的估计都觉得恶心死了，哈哈</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u3744974 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5324335" class="j a_confirm_link" title="删除Edward羽的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5324447 data-cid="5324447" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 18:04:08 
+          <a href="http://www.douban.com/people/40110643/">清寒思哲</a>  (天冷，不想动)
+        </div>
+
+
+        
+        <p>　　 单纯的来为小李子鸣个不平啊！！！表演神级了啊！！！还是不受待见啊！！！<br/>　　我早就看不下去了啊！！！！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u40110643 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5324447" class="j a_confirm_link" title="删除清寒思哲的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5324464 data-cid="5324464" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 18:13:47 
+          <a href="http://www.douban.com/people/kingedward/">Edward羽</a>  (2013)
+        </div>
+
+
+        
+        <p>　　小李子这次连个提名都没搞到，真是没天理···</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u3744974 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5324464" class="j a_confirm_link" title="删除Edward羽的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5324467 data-cid="5324467" data-target_id="5746762" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 18:15:15 
+          <a href="http://www.douban.com/people/51611310/">Coogurise</a> 
+        </div>
+
+
+        
+        <p>　　小李子的表演把瓦叔都盖下去了...杰米福克斯就是一坨翔......然后这片子我觉得是昆汀的片子里最不闷最不话唠节奏最棒的啊啊啊啊~~~....</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u51611310 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746762/remove_comment?cid=5324467" class="j a_confirm_link" title="删除Coogurise的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div id="last"></div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <br/><span class="pl2" align="right"><a class="j a_show_login" href="https://www.douban.com/accounts/register?reason=comment">&gt; 我来回应</a></span>
+
+
+ 
+
+ 
+
+    
+    
+    
+
+
+
+
+
+
+
+</div>
+
+
+<script>
+Do(function(){
+  $('#comments').find('.comment-item').hover(function(){$(this).addClass('over');}, function(){$(this).removeClass('over');});
+  $('.reply-quote .toggle-reply').click(function(e) {
+    e.preventDefault();
+    var el = $(this);
+    el.prevAll('span').toggle(); 
+    el.find('span').toggle();
+  });
+});
+</script>
+
+
+
+
+        </div>
+    </div>
+
+    
+
+	</div>
+        <div class="aside">
+            
+    
+
+
+
+
+
+
+
+    <div class="copyright indent">本评论版权属于作者Edward羽，并受法律保护。除非评论正文中另有声明，未经合法书面许可任何人不得转载或使用整体或任何部分的内容。</div>
+    <p class="pl2">&gt; <a onclick="moreurl(this, {from:'mv_rv_sbj_r'})" href="http://movie.douban.com/subject/6307447/">去被解放的姜戈的页面</a></p>
+
+    <div class="indent">
+        
+
+
+
+
+
+
+
+<style>
+    .movie-summary {overflow:hidden; zoom:1;}
+    .movie-summary .movie-pic {margin-bottom:15px; margin-top:3px;}
+    .movie-summary p {margin:3px 0; padding-left:2.5em; text-indent:-2.5em; color:#111;}
+    .movie-summary p .pl, .movie-summary p a:link , .movie-summary p a:visited{color:#111;}
+    .movie-summary p a:hover {color:#fff;}
+    .trail_link,.trail_link:visited,.trail_link:hover,.trail_link:active {margin-top:5px; display:block; height:28px; width:96px; background:url('/pics/movie_trailer_icon2.png'); overflow:hidden; line-height:99em;}
+    .btn-complete-video{margin-top:5px;}
+    .btn-complete-video,.btn-complete-video:active,.btn-complete-video:hover,.btn-complete-video:visited{background:url(http://img3.douban.com/pics/movie_trailer_icon4.png) no-repeat left top;display:block;height:28px;width:96px;line-height:99em;margin-bottom:10px;overflow:hidden}
+</style>
+
+<div class="movie-summary">
+        <div class="movie-pic"><a onclick="moreurl(this, {from:'mv_rv_poster'})"  href="http://movie.douban.com/subject/6307447/" ><img alt="被解放的姜戈 Django Unchained" title="被解放的姜戈 Django Unchained" src="http://img3.douban.com/mpic/s11163072.jpg" rel="v:image"></a></div>
+    <span class="attrs">
+        
+            
+        <p>
+            <span class="pl">导演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_director'})"  href="http://movie.douban.com/celebrity/1054444/">昆汀·塔伦蒂诺</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">主演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1036329/">杰米·福克斯</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1041029/">莱昂纳多·迪卡普里奥</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1054405/">克里斯托弗·沃尔兹</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1054408/">塞缪尔·杰克逊</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1004616/">凯丽·华盛顿</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1098551/">沃尔顿·戈金斯</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1074908/">丹尼斯·克里斯托弗</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1036302/">乔纳·希尔</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1013812/">詹姆斯·瑞马尔</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1044877/">爱波·塔布琳</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1036400/">弗兰科·尼罗</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1002739/">罗伯特·卡拉丁</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1040579/">佐伊·贝尔</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">类型:</span>
+                剧情, 西部
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">地区:</span>
+                美国
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">片长:</span>
+                165分钟
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">上映:</span>
+                2012-12-25(美国)
+        </p>
+
+        <a onclick="moreurl(this, {from:'mv_rv_trailer'})"  class="trail_link" data-trailer-id="126869" href="http://movie.douban.com/trailer/126869/#content" >预告片</a>
+    </span>
+</div>
+
+
+
+
+
+    </div>
+
+            <h2>Edward羽的其他评论</h2>
+        <div class="indent other_review">
+            <ul>
+                    
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_1'})" href="http://movie.douban.com/review/5610559/" class="ll">普通人</a> 
+                                    <span class="stars5 starstop" title="力荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/6123978/">ヒミズ</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_2'})" href="http://movie.douban.com/review/5608042/" class="ll">连上自己</a> 
+                                    <span class="stars3 starstop" title="还行"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/3240436/">自殺サークル</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_3'})" href="http://movie.douban.com/review/5505311/" class="ll">杀死结实</a> 
+                                    <span class="stars5 starstop" title="力荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/4176542/">杀生</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_4'})" href="http://movie.douban.com/review/5459560/" class="ll">不存在感</a> 
+                                    <span class="stars5 starstop" title="力荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/5322596/">Detachment</a>)
+                        </li>
+            </ul>
+            <p class="pl clearfix">
+                <a class="rr" onclick="moreurl(this, {from:'mv_rv_au_all'})" href="http://movie.douban.com/people/kingedward/reviews?cat_id=1002">&gt; 全部评论(87)</a>
+            </p>
+        </div>
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/703012dc8cdf08fe.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper5-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

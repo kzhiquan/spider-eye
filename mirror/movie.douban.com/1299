@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>大上海 (豆瓣)</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="大上海,大上海影评,剧情介绍,电影图片,预告片,影讯,论坛">
+        <meta name="description" content="大上海电影简介和剧情介绍、大上海影评、图片、预告片和论坛推荐">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    li.qiyi span { width: 19px; height: 7px; display: inline-block; *zoom: 1; background: url('http://img3.douban.com/pics/new_menu.gif') no-repeat center right }
+
+    </style>
+    <meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.douban.com/movie/subject/10540066/">
+    <link rel="alternate" href="http://movie.douban.com/feed/subject/10540066/reviews" type="application/rss+xml" title="RSS">
+        <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/3130011f77ea574d.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Movie">
+    <h1>
+    <span property="v:itemreviewed">大上海</span>
+    <span class="year" style="display:inline-block;*display:inline;zoom:1;">(2012)</span><div class="clear"></div></h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.ba-hashchange.min1350447987.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $("#season").change(function(){
+        var subject_id = $(this).val();
+        if (subject_id!=""){
+                window.location = "/subject/" + subject_id + "/";
+            }
+        });
+
+        $(window).hashchange();
+        if(window.location.href.indexOf('sugest')>0 && window.location.href.indexOf("?")>0){
+            if(window.history.pushState){
+                window.history.pushState(null, document.title,  window.location.href.substring(0,window.location.href.indexOf("?")));
+            }
+        }
+    })
+    </script>
+    <div class="indent"><div class="subjectwrap clearfix" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Movie">
+
+<div class="subject clearfix">
+    <style> h2 {color: #007722;} </style>
+    <div id="mainpic">
+       <a class="nbg" href="http://movie.douban.com/subject/10540066/photos?type=R" title="点击看更多海报">
+           <img src="http://img3.douban.com/mpic/s24429998.jpg" title="点击看更多海报" alt="大上海" rel="v:image" />
+       </a>
+       <br />
+
+        
+            <style>
+               .trail_link,.trail_link:visited,.trail_link:hover,.trail_link:active {margin-bottom:10px; display:block; height:28px; width:96px; background:url('/pics/movie_trailer_icon2.png'); overflow:hidden; line-height:99em;}
+               .trail_link.full {background:url('/pics/movie_trailer_icon4.png');}
+            </style>
+            <a class="trail_link" href="http://movie.douban.com/trailer/126459/#content">预告片</a>
+
+        
+
+
+    </div>
+
+    <div id="info">
+            <span><span class="pl">导演</span>: <a href="/celebrity/1274331/" rel="v:directedBy">王晶</a></span><br/>
+            <span><span class="pl">编剧</span>: <a href="/celebrity/1274823/">文隽</a> / <a href="/celebrity/1313441/">吕冠南</a> / <a href="/celebrity/1274331/">王晶</a></span><br/>
+            <span><span class="pl">主演</span>: <a href="/celebrity/1044899/" rel="v:starring">周润发</a> / <a href="/celebrity/1041404/" rel="v:starring">黄晓明</a> / <a href="/celebrity/1055887/" rel="v:starring">洪金宝</a> / <a href="/celebrity/1037098/" rel="v:starring">吴镇宇</a> / <a href="/celebrity/1010504/" rel="v:starring">袁泉</a> / <a href="/celebrity/1012196/" rel="v:starring">袁莉</a> / <a href="/celebrity/1275369/" rel="v:starring">莫小棋</a> / <a href="/celebrity/1320526/" rel="v:starring">童菲</a> / <a href="/celebrity/1274737/" rel="v:starring">高虎</a> / <a href="/celebrity/1021293/" rel="v:starring">辛柏青</a> / <a href="/celebrity/1323735/" rel="v:starring">戚迹</a></span><br/>
+            <span class="pl">类型:</span> <span property="v:genre">剧情</span> / <span property="v:genre">动作</span><br/>
+            
+            <span class="pl">制片国家/地区:</span> 中国大陆 / 香港<br/>
+            <span class="pl">语言:</span> 汉语普通话 / 粤语<br/>
+            <span class="pl">上映日期:</span> <span property="v:initialReleaseDate" content="2012-12-21">2012-12-21(中国大陆)</span><br/>
+            <span class="pl">片长:</span> <span property="v:runtime" content="117">117分钟</span><br/>
+            <span class="pl">又名:</span> The Last Tycoon<br/>
+            
+        <span class="pl">IMDb链接:</span> <a href="http://www.imdb.com/title/tt2458314" target="_blank" rel="nofollow">tt2458314</a><br>
+        
+
+    </div>
+</div>
+
+    <div id="interest_sectl">
+    <div class="rating_wrap clearbox" rel="v:rating">
+    <p class="rating_self clearfix" typeof="v:Rating">
+        <span class="ll bigstar35"></span>
+        <strong class="ll rating_num" property="v:average">6.7</strong>
+        <span property="v:best" content="10.0"></span>
+    </p>
+    <p class="rating_self font_normal">(<a href="collections"><span property="v:votes">21224</span>人评价</a>)</p>
+    <span class="stars5 starstop" title="力荐"></span><div class="power" style="width:14px"></div>
+    10.1%<br/>
+            <span class="stars4 starstop" title="推荐"></span><div class="power" style="width:45px"></div>
+    32.0%<br/>
+            <span class="stars3 starstop" title="还行"></span><div class="power" style="width:59px"></div>
+    42.0%<br/>
+            <span class="stars2 starstop" title="较差"></span><div class="power" style="width:17px"></div>
+    12.2%<br/>
+            <span class="stars1 starstop" title="很差"></span><div class="power" style="width:5px"></div>
+    3.7%<br/>
+            </div></div></div><div id="interest_sect_level" class="clearfix"><a href="http://www.douban.com/register?reason=collectwish&amp;ck=" rel="nofollow" class="j a_show_login colbutt ll" name="pbtn-10540066-wish"><span>想看</span></a><a href="http://www.douban.com/register?reason=collectcollect&amp;ck=" rel="nofollow" class="j a_show_login colbutt ll" name="pbtn-10540066-collect"><span>看过</span></a><div class="ll j a_stars">评价:
+    <span id="rating"><span id="stars">
+    <a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-10540066-1"><img src="http://img3.douban.com/pics/nst.gif" id="star1"/></a><a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-10540066-2"><img src="http://img3.douban.com/pics/nst.gif" id="star2"/></a><a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-10540066-3"><img src="http://img3.douban.com/pics/nst.gif" id="star3"/></a><a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-10540066-4"><img src="http://img3.douban.com/pics/nst.gif" id="star4"/></a><a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-10540066-5"><img src="http://img3.douban.com/pics/nst.gif" id="star5"/></a></span><span id="rateword" class="pl"></span>
+    <input id="n_rating" type="hidden" value=""  /></span></div></div><div class="gtleft"><ul class="ul_subject_menu bicelink color_gray pt6 clearfix">
+       <li><img src="http://img3.douban.com/pics/short-comment.gif" />&nbsp;<a onclick="moreurl(this, {from:'mv_sbj_wr_cmnt_login'})" class="j a_show_login" href="http://www.douban.com/register?reason=review" rel="nofollow">写短评</a></li>
+       <li>
+             <img src="http://img3.douban.com/pics/add-review.gif" />&nbsp;<a onclick="moreurl(this, {from:'mv_sbj_wr_rv_login'})" class="j a_show_login" href="http://www.douban.com/register?reason=review" rel="nofollow">写影评</a>
+             </li><li><img src="http://img3.douban.com/pics/add-doulist.gif" />&nbsp;<a class="j a_show_login" onclick="moreurl(this, {from:'mv_sbj_add_dlist_login'})" href="http://www.douban.com/register?reason=collect-doulist" rel="nofollow">加入豆列</a></li>
+        
+    
+    <li class="rec" id="M-10540066">
+        <a href= "#" data-url="http://movie.douban.com/subject/10540066/" data-desc="" data-title="电影《大上海》 (来自豆瓣) " data-pic="http://img3.douban.com/lpic/s24429998.jpg" class="bn-sharing ">分享到</a> &nbsp;&nbsp;
+    </li>
+    <script>
+    var cache_url = cache_url || {};
+    (function(u){ if(cache_url[u]){ return; } cache_url[u] = true; Do(function(){$.getScript(u);}); })('http://img3.douban.com/js/lib/packed_sharebutton1775626802.js');
+    </script>
+</ul>
+    <script type="text/javascript">
+        $(function(){
+            $(".ul_subject_menu li.rec .bn-sharing").bind("click", function(){
+                $.get("/blank?sbj_page_click=bn_sharing");
+            });
+        });
+    </script>
+    </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+</div>
+
+    <script>
+        $(function(){
+            //bind events for collection button.
+            $('.collect_btn', '#interest_sect_level').each(function(){
+                Douban.init_collect_btn(this);
+            });
+
+            $(".indent .rec-sec .lnk-sharing").bind("click", function(){
+                moreurl(this, {from:'mv_sbj_db_share'})
+            });
+        });
+    </script>
+    </div><br clear="all"><div id="collect_form_10540066"></div>
+    <div class="related_info"><a name="intro"></a><h2  >大上海的剧情简介 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div class="indent" id="link-report"><span class="short">　　<span property="v:summary">本是水果店小伙计的成大器（黄晓明 饰），在上海投向权倾一时的巡捕房探长金寿亭（洪金宝 饰）旗下，任职赌场打手，被洪寿亭的妻子凌沪生（袁莉 饰）慧眼赏识，造就大器迅速出人头地。成大器颇具江湖手腕，不仅敢打敢拼，还擅于各方谈判，愿意利益共享，往往能化干戈为玉帛，令他终于成为上海一代枭雄之首。<br/>　　成大器少年得志，交上了上海第一美人“溢春园阿宝”（莫小棋 饰），阿宝对王公巨贾都不假辞色，但对大器却一往情深，可惜她发现了无论大器如何疼她宠她，她在大器的心目中永远都只能是第二位，第一位始终是青梅竹马、音讯全无的叶知秋（袁泉 饰）。<br/>　　多年后，人到中年的成大器（周润发 饰），已是一方之雄，声誉与地位已超越了师父洪寿亭。在上海几乎已无人匹敌，但外敌蠢动的野心与霸道，成为他的最大难题。此时，当年救他一命的茅载（吴镇宇 饰）已成为大特务头子，野心勃勃，以权谋私，令成大器不得...</span> <a href="javascript:void(0)" class="j a_show_full">(展开全部)</a></span>
+                    <span class="all hidden">　　本是水果店小伙计的成大器（黄晓明 饰），在上海投向权倾一时的巡捕房探长金寿亭（洪金宝 饰）旗下，任职赌场打手，被洪寿亭的妻子凌沪生（袁莉 饰）慧眼赏识，造就大器迅速出人头地。成大器颇具江湖手腕，不仅敢打敢拼，还擅于各方谈判，愿意利益共享，往往能化干戈为玉帛，令他终于成为上海一代枭雄之首。<br/>　　成大器少年得志，交上了上海第一美人“溢春园阿宝”（莫小棋 饰），阿宝对王公巨贾都不假辞色，但对大器却一往情深，可惜她发现了无论大器如何疼她宠她，她在大器的心目中永远都只能是第二位，第一位始终是青梅竹马、音讯全无的叶知秋（袁泉 饰）。<br/>　　多年后，人到中年的成大器（周润发 饰），已是一方之雄，声誉与地位已超越了师父洪寿亭。在上海几乎已无人匹敌，但外敌蠢动的野心与霸道，成为他的最大难题。此时，当年救他一命的茅载（吴镇宇 饰）已成为大特务头子，野心勃勃，以权谋私，令成大器不得不计划好“杀出一条血路”。而就在这时，他竟重遇了多年不见的叶知秋，同时发现原来她已作人妇……</span>　　<span class="pl">&nbsp; &nbsp;<a href="http://www.douban.com/about?topic=copyright"> &copy; 豆瓣</a></span> 
+                    <br/></div>
+
+
+
+    <h2>
+        大上海的电影图片
+         &nbsp; &middot;&nbsp; &middot;&nbsp; &middot;&nbsp; &middot;&nbsp; &middot;&nbsp; &middot;
+            <span class="pl">(
+                <a href="http://movie.douban.com/subject/10540066/all_photos">全部218</a>&nbsp;|&nbsp; <a href="http://movie.douban.com/subject/10540066/mupload">我来添加</a>
+            ) </span>
+    </h2>
+
+
+    <ul class="pic-col5 clearfix">
+                <li>
+                <a href="http://movie.douban.com/photos/photo/1774341004/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1774341004.jpg" /></a>
+            </li>
+                <li>
+                <a href="http://movie.douban.com/photos/photo/1769929036/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1769929036.jpg" /></a>
+            </li>
+                <li>
+                <a href="http://movie.douban.com/photos/photo/1793193619/"><img src="http://img5.douban.com/view/photo/albumicon/public/p1793193619.jpg" /></a>
+            </li>
+                <li>
+                <a href="http://movie.douban.com/photos/photo/1769928056/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1769928056.jpg" /></a>
+            </li>
+                <li class="last">
+                <a href="http://movie.douban.com/photos/photo/1766200646/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1766200646.jpg" /></a>
+            </li>
+    </ul>
+<div id="db-tags-section" class="blank20"><h2  >豆瓣成员常用的标签(共1087个) &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div class="indent"><a href="http://movie.douban.com/tag/%E5%91%A8%E6%B6%A6%E5%8F%91">周润发</a>(3911) &nbsp;<a href="http://movie.douban.com/tag/%E5%90%B4%E9%95%87%E5%AE%87">吴镇宇</a>(2176) &nbsp;<a href="http://movie.douban.com/tag/%E7%8E%8B%E6%99%B6">王晶</a>(1979) &nbsp;<a href="http://movie.douban.com/tag/%E9%BB%84%E6%99%93%E6%98%8E">黄晓明</a>(1765) &nbsp;<a href="http://movie.douban.com/tag/%E9%A6%99%E6%B8%AF%E7%94%B5%E5%BD%B1">香港电影</a>(1625) &nbsp;<a href="http://movie.douban.com/tag/%E9%BB%91%E5%B8%AE">黑帮</a>(1545) &nbsp;<a href="http://movie.douban.com/tag/%E9%A6%99%E6%B8%AF">香港</a>(1184) &nbsp;<a href="http://movie.douban.com/tag/%E6%B4%AA%E9%87%91%E5%AE%9D">洪金宝</a>(1140) &nbsp;</div></div>
+
+
+<style type="text/css">
+.award li { display: inline; margin-right: 5px }
+.awards { margin-bottom: 20px }
+.awards h2 { background: none; color: #000; font-size: 14px; padding-bottom: 5px; margin-bottom: 8px; border-bottom: 1px dashed #dddddd }
+.awards .year { color: #666666; margin-left: -5px }
+.mod { margin-bottom: 25px }
+.mod .hd { margin-bottom: 10px }
+</style>
+
+
+
+<div id="db-rec-section" class="block5 subject_show knnlike"><h2  >喜欢看"大上海"的人也喜欢 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div class="content clearfix">
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/4906427/"><img class="m_sub_img" src="http://img3.douban.com/spic/s4678570.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/4906427/">万有引力</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/4035906/"><img class="m_sub_img" src="http://img3.douban.com/spic/s6809800.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/4035906/">三个火枪手</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/4728584/"><img class="m_sub_img" src="http://img3.douban.com/spic/s4707998.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/4728584/">不再让你孤单</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/2027948/"><img class="m_sub_img" src="http://img3.douban.com/spic/s2376460.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/2027948/">人在江湖</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/2159051/"><img class="m_sub_img" src="http://img3.douban.com/spic/s2762222.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/2159051/">从足球流氓到黑帮崛起</a></dd>
+</dl>
+<dl class="clear"></dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/2278017/"><img class="m_sub_img" src="http://img5.douban.com/spic/s2724789.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/2278017/">兄弟</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/11639147/"><img class="m_sub_img" src="http://img3.douban.com/spic/s11337796.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/11639147/">六颗子弹</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/2992042/"><img class="m_sub_img" src="http://img3.douban.com/spic/s2991324.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/2992042/">再见古惑仔</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/1306988/"><img class="m_sub_img" src="http://img3.douban.com/spic/s1448162.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/1306988/">刀手</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/4212172/"><img class="m_sub_img" src="http://img3.douban.com/spic/s24519706.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/4212172/">十二生肖</a></dd>
+</dl>
+<dl class="clear"></dl>
+
+</div></div>
+        <div id="comments-section">
+            <div class="mod-hd">
+                
+                <a class="redbutt j a_show_login rr" href="http://www.douban.com/register?reason=review" rel="nofollow">
+                    <span> 我来说两句 </span>
+                </a>
+                
+                <h2 id="comment_short_tab" class="green_tab clearfix">
+                    <span>大上海的短评&nbsp;&nbsp;· · · · · ·&nbsp;</span>
+                    <span class="pl">(<a href="comments">全部 11333 条</a>)</span>
+                 </h2>
+            </div>
+        
+
+
+
+
+
+
+
+<div class="mod-bd">
+    
+        
+    <div class="tab-hd">
+        <a href="hot-comments" class="on">热门</a>
+        <a href="new-comments">最新</a>
+        <a href="following-comments"  class="j a_show_login">我关注的</a>
+    </div>
+
+    <div class="tab-bd">
+        <div id="hot-comments" class="tab">
+            
+    
+        <div class="clearfix subject-comment-item" data-cid="525391066">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">86</span>
+                <input value="525391066" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/jywpl/">獨孤島主</a></span>
+            <span class="fleft ml8">2012-12-19</span>
+                <span class="allstar10 rating" title="很差"></span>
+        </h3>
+        <p class="w550"> 发锅再次奔跑，三五秒的持续时长彷如预兆了后半截影片的惨不忍睹，空洞的爆破与完全无法称为剧情的叙事线，辅以王晶式不思进取的短平快观念，俗套中的战斗机集体亮相，最后是精武门与上海滩的合体。望着发锅一阵一阵落下入戏的泪与看上去一个个都差不多且廿四年年驻颜有术的女角，老夫的心无聊地滴血
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="515225048">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">103</span>
+                <input value="515225048" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/seafans/">taoxinxu释凡</a></span>
+            <span class="fleft ml8">2012-12-20</span>
+                <span class="allstar50 rating" title="力荐"></span>
+        </h3>
+        <p class="w550"> 对杜月笙改编超越《上海皇帝》，浓缩了《英雄本色》《古惑仔》癫狂打斗、忠肝义胆、江湖情义+《岁月神偷》《梅兰芳》怀旧浪漫+《卡萨布兰卡》《十三钗》伤感反纳粹！华语黑帮片20年内难超越集大成巅峰！王晶不可思议逆天做到好莱坞灾难史诗磅礴恢宏，众星表演绝佳，成大器抱妻尸体赴死，超刻骨铭心感动
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="619488082">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">33</span>
+                <input value="619488082" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/movie007wn/">蒜 | BOY A✎</a></span>
+            <span class="fleft ml8">2012-12-22</span>
+                <span class="allstar40 rating" title="推荐"></span>
+        </h3>
+        <p class="w550"> 大家都在骂电影，我来说点意外惊喜吧。意外的看完没骂王晶，给四星算鼓励一下。剧情太凌乱，但结尾有惊喜，魂断蓝桥附体，乱世佳人还魂。几个男猪脚弱爆了，反倒被配角和女人们抢了惊喜。爆炸场面，画面细节都算尚可，摄影绝对是惊喜，一定要下1080P再次细细回味。
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="619131108">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">47</span>
+                <input value="619131108" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/reave/">谢谢你们的鱼</a></span>
+            <span class="fleft ml8">2012-12-21</span>
+                <span class="allstar40 rating" title="推荐"></span>
+        </h3>
+        <p class="w550"> 今年唯一一部中国式大片，时代正剧的外壳包装港味十足的黑帮大佬故事。气场强烈、制作精良，有着很多经典的影子，而且通俗好看，非常过瘾，有小缺点，但是瑕不掩瑜。
+        </p>
+    </div>
+ </div>
+
+
+
+            <a href="comments?sort=new_score">查看更多&raquo;</a>
+        </div>
+        <div id="new-comments" class="tab">
+            
+    
+        <div class="clearfix subject-comment-item" data-cid="632368247">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="632368247" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/35827456/">amyhuhu</a></span>
+            <span class="fleft ml8">2013-01-20</span>
+                <span class="allstar30 rating" title="还行"></span>
+        </h3>
+        <p class="w550"> 周润发等老戏骨还是气场十足，但是每每看到晓明兄出场总是昂着头，端着架子，好像只有这样才能展现大哥的气魄，你看人家周润发尽管低着头，却气场全开，这就是区别！！！！
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="632384960">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="632384960" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/48163076/">向来痴</a></span>
+            <span class="fleft ml8">2013-01-20</span>
+                <span class="allstar40 rating" title="推荐"></span>
+        </h3>
+        <p class="w550"> 没有那么差吧？
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="632449926">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="632449926" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/41629334/">YY糖罐子</a></span>
+            <span class="fleft ml8">2013-01-20</span>
+                <span class="allstar30 rating" title="还行"></span>
+        </h3>
+        <p class="w550"> 比血滴子有智商一点。。。就是这电影还能再浮夸一点么。。。。
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="632408057">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="632408057" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/66650204/">二丫</a></span>
+            <span class="fleft ml8">2013-01-20</span>
+        </h3>
+        <p class="w550"> 爱，是可以变的。也可以欺骗的。
+        </p>
+    </div>
+ </div>
+
+
+
+            <a href="comments?sort=time">查看更多&raquo;</a>
+        </div>
+        <div id="following-comments" class="tab">
+            
+    
+
+
+        <div class="clearfix subject-comment-item">
+            你关注的人还没写过短评
+        </div>
+
+            <a href="follows_comments">查看更多&raquo;</a>
+        </div>
+    </div>
+
+
+
+    
+    
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="reviews"></a>
+<div class="clear"></div>
+    
+    
+        <h2 class="green_tab pb10 clearfix">
+            <div class="fleft">
+                大上海的影评 
+                &nbsp;&nbsp;· · · · · ·&nbsp;
+                <span class="pl">
+                    (<a href="http://movie.douban.com/subject/10540066/reviews">共<span property="v:count">455</span>条</a>)
+                </span>
+            </div>
+            
+    
+            <a class="redbutt rr j a_show_login" href="http://www.douban.com/register?reason=review" rel="nofollow"><span>我来评论这部电影</span></a>
+
+        </h2>
+        
+<ul class="vs-mod">
+    <li class="vs-good">
+    
+
+<h2>最有用的好评</h2>
+<div class="vs-content">
+    <h3>
+        <a title="导演王晶和那些被埋没的俗气电影" href="http://movie.douban.com/review/5665968/" onclick="moreurl(this,{from:'vs'})">导演王晶和那些被埋没...</a>
+        <span class="vs-useful">
+            
+            &nbsp;&nbsp;179/211有用
+        </span>
+    </h3>
+    <div class="vs-detail">
+        <div class="vs-author">
+            <span class="stars5 stars" title="力荐"></span>
+            疯疯癫癫假斯文&nbsp;&nbsp;2012-11-24
+        </div>
+        <p>
+        
+         在06年王晶做客的《背后的故事》......&nbsp;(<a href="http://movie.douban.com/review/5665968/"  onclick="moreurl(this,{from:'vs'})">查看原文</a>)
+        </p>
+        <div class="vs-more">
+            
+            更多
+    
+        <a href="http://movie.douban.com/subject/10540066/reviews?score=5">5星(152条)</a>
+,
+    
+        <a href="http://movie.douban.com/subject/10540066/reviews?score=4">4星(127条)</a>
+的评论
+        </div>
+    </div>
+</div>
+
+    </li>
+    <li class="vs-bad">
+    
+
+<h2>最有用的中差评</h2>
+<div class="vs-content">
+    <h3>
+        <a title="古惑仔之解放上海" href="http://movie.douban.com/review/5724603/" onclick="moreurl(this,{from:'vs'})">古惑仔之解放上海</a>
+        <span class="vs-useful">
+            
+            &nbsp;&nbsp;123/134有用
+        </span>
+    </h3>
+    <div class="vs-detail">
+        <div class="vs-author">
+            <span class="stars3 stars" title="还行"></span>
+            半辈子&nbsp;&nbsp;2013-01-02
+        </div>
+        <p>
+        
+        片名：古惑仔之决战上海
+
+监制-......&nbsp;(<a href="http://movie.douban.com/review/5724603/"  onclick="moreurl(this,{from:'vs'})">查看原文</a>)
+        </p>
+        <div class="vs-more">
+            
+            更多
+    
+        <a href="http://movie.douban.com/subject/10540066/reviews?score=3">3星(118条)</a>
+,
+    
+        <a href="http://movie.douban.com/subject/10540066/reviews?score=2">2星(30条)</a>
+,
+    
+        <a href="http://movie.douban.com/subject/10540066/reviews?score=1">1星(25条)</a>
+的评论
+        </div>
+    </div>
+</div>
+
+    </li>
+</ul>
+
+        <div class="clear"></div>
+
+
+
+    
+    
+    <h2 id="comment_tab" class="green_tab clearfix">
+        <a id="t_0" class="on" onclick="return switch_tab('t_0')" href="javascript:void(0)">
+            <span>
+                热门
+            </span>
+        </a>
+        <a id="t_1" class="" onclick="return switch_tab('t_1')" href="javascript:void(0)">
+            <span>
+                最新
+            </span>
+        </a>
+        <a id="t_2" class="j a_show_login" onclick="return switch_tab('t_2')" href="javascript:void(0)">
+            <span>
+                我关注的
+            </span>
+        </a>
+    </h2>
+        <div id="wt_0" class="">
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5724603" class="rr"><a id="af-5724603" rel="sw-False" href="http://movie.douban.com/review/5724603/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10540066',itself:5724603})"/></a>
+                        <a id="au-5724603" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="古惑仔之解放上海" href="http://movie.douban.com/review/5724603/">古惑仔之解放上海</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/banbeizi/" title="半辈子"><img class="pil" src="http://img3.douban.com/icon/u1073676-45.jpg" alt="半辈子"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/banbeizi/">半辈子</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5724603_short" class="review-short">
+                    片名：古惑仔之决战上海
+
+监制-刘伟强
+
+导演-王晶
+
+主要演员：
+
+赵根大-男主角，洪兴新生代
+
+叶知秋-女主角，赵根大初恋
+
+舞女阿宝-女二号，赵根大红颜
+
+林坏-洪兴打仔，赵根大发小
+
+洪爷-洪兴大佬
+
+凌沪生-大嫂
+
+靓坤-反派，洪兴反骨仔
+
+野田-反派，日本山口组......
+                        <a class="pl" href="http://movie.douban.com/review/5724603/">(27回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-02 23:37:23 &nbsp; &nbsp; 123/134有用 </span>
+                    </div>
+                </div>
+                <div id="review_5724603_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5665968" class="rr"><a id="af-5665968" rel="sw-False" href="http://movie.douban.com/review/5665968/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10540066',itself:5665968})"/></a>
+                        <a id="au-5665968" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="导演王晶和那些被埋没的俗气电影" href="http://movie.douban.com/review/5665968/">导演王晶和那些被埋没的俗气电影</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/57048174/" title="疯疯癫癫假斯文"><img class="pil" src="http://img3.douban.com/icon/u57048174-8.jpg" alt="疯疯癫癫假斯文"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/57048174/">疯疯癫癫假斯文</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5665968_short" class="review-short">
+                     在06年王晶做客的《背后的故事》这个节目上一位男性观众直截了当地提到了他和王家卫的对比，并直言不讳地说很多人认为他是“烂片导演”，即便是喜欢看他电影的人，也通常是自己偷偷摸摸的看，认为说出来有损自己的品位。面对种种质疑，王晶谈笑风生地回答，“我和王家卫是很好的朋友，虽然我们做电影的风格和理念不同，但我们之间没有任何矛......
+                        <a class="pl" href="http://movie.douban.com/review/5665968/">(56回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-24 00:07:19 &nbsp; &nbsp; 179/211有用 </span>
+                    </div>
+                </div>
+                <div id="review_5665968_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5710787" class="rr"><a id="af-5710787" rel="sw-False" href="http://movie.douban.com/review/5710787/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10540066',itself:5710787})"/></a>
+                        <a id="au-5710787" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="悲辛无尽——《大上海》（二）" href="http://movie.douban.com/review/5710787/">悲辛无尽——《大上海》（二）</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/joycesin/" title="Joyce"><img class="pil" src="http://img3.douban.com/icon/u2543465-12.jpg" alt="Joyce"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/joycesin/">Joyce</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5710787_short" class="review-short">
+                           终于是不得不写女人。
+    这四星中，有一颗星专给Monica，于公于私都应该。
+    很早就猜测，阿宝身上也许有着一些人的影子——《马永贞》的周嘉玲，《真心英雄》的梁艺龄和蒙嘉慧，《江湖告急》的吴君如，《上海皇帝》的刘嘉玲……
+    事实证明，我对王晶的趣味还是了解的。
+    小时候读金......
+                        <a class="pl" href="http://movie.douban.com/review/5710787/">(50回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-23 21:11:53 &nbsp; &nbsp; 196/200有用 </span>
+                    </div>
+                </div>
+                <div id="review_5710787_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5713846" class="rr"><a id="af-5713846" rel="sw-False" href="http://movie.douban.com/review/5713846/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10540066',itself:5713846})"/></a>
+                        <a id="au-5713846" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="抗日基情成大器【含剧透慎入！！】" href="http://movie.douban.com/review/5713846/">抗日基情成大器【含剧透慎入！！】</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/zhongdafengxiao/" title="司马 咦"><img class="pil" src="http://img3.douban.com/icon/u38770128-10.jpg" alt="司马 咦"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/zhongdafengxiao/">司马 咦</a>
+                    </span>
+                    <span class="allstar20" title="较差">
+                    </span>
+                </span>
+                <div id="review_5713846_short" class="review-short">
+                    故事是这样的，有志青年成大器年轻的时候（黄晓明）爱上了美丽的妹子叶知秋，与其相约有朝一日双宿双栖。
+
+可是，造化弄人，有一天成大器阴差阳错被关进了监狱，被同一间里的……额，忘了叫什么了 就是吴镇宇演的那个神经质男一眼看上！于是神经质吴镇宇告诉他 你要是想活命，就要从了我！！！有志青年成大器当然不想就这样死 于是委曲......
+                        <a class="pl" href="http://movie.douban.com/review/5713846/">(60回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-26 00:15:17 &nbsp; &nbsp; 87/106有用 </span>
+                    </div>
+                </div>
+                <div id="review_5713846_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5684162" class="rr"><a id="af-5684162" rel="sw-False" href="http://movie.douban.com/review/5684162/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10540066',itself:5684162})"/></a>
+                        <a id="au-5684162" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="我就是来夸吴镇宇的！" href="http://movie.douban.com/review/5684162/">我就是来夸吴镇宇的！</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/55364425/" title="品诚客烦"><img class="pil" src="http://img3.douban.com/icon/u55364425-2.jpg" alt="品诚客烦"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/55364425/">品诚客烦</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5684162_short" class="review-short">
+                    有剧透，慎入，亲
+   
+20121221 UME国际影城 华星 18:00 票价：70元
+
+   我是多羡慕那些提前观看《大上海》的媒体和影评人呀，看看人家不但能提前观影还能得到商家送的ip的壳啦、U盘啦，抱枕啦，台历啦，每每看到人家在微博炫耀这些“福利”，我就很不争气的两眼馋得烁烁放光，你有没有呢？
+
+......
+                        <a class="pl" href="http://movie.douban.com/review/5684162/">(59回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-04 21:36:33 &nbsp; &nbsp; 87/113有用 </span>
+                    </div>
+                </div>
+                <div id="review_5684162_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5696522" class="rr"><a id="af-5696522" rel="sw-False" href="http://movie.douban.com/review/5696522/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10540066',itself:5696522})"/></a>
+                        <a id="au-5696522" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="《大上海》：瞬间即为永恒" href="http://movie.douban.com/review/5696522/">《大上海》：瞬间即为永恒</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/1511195/" title="芷宁"><img class="pil" src="http://img3.douban.com/icon/u1511195-13.jpg" alt="芷宁"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/1511195/">芷宁</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5696522_short" class="review-short">
+                    （芷宁写于2012年12月13日）
+    与其说影片《大上海》是一部黑帮片，倒不如说是一部爱情片，当然，黑帮和爱情这两个元素从来都不矛盾冲突，在经典黑帮片《美国往事》里人们记住的，除了“面条”和算计了他一辈子的麦克斯之间的纠葛，还有他和黛博拉之间的情感悲剧，而那句“我们浪费了一生”，虽是“面条”对麦克斯说的，但用在......
+                        <a class="pl" href="http://movie.douban.com/review/5696522/">(23回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-13 14:03:35 &nbsp; &nbsp; 74/88有用 </span>
+                    </div>
+                </div>
+                <div id="review_5696522_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+
+
+
+
+            <p class="pl" align="right">&gt; <a href="http://movie.douban.com/subject/10540066/reviews">更多影评(共455条)</a></p>
+
+        </div>
+        <div id="wt_1" class="hidden">
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5747780" class="rr"><a id="af-5747780" rel="sw-False" href="http://movie.douban.com/review/5747780/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10540066',itself:5747780})"/></a>
+                        <a id="au-5747780" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="大上海" href="http://movie.douban.com/review/5747780/">大上海</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/52929940/" title="alvinchan"><img class="pil" src="http://img3.douban.com/icon/u52929940-3.jpg" alt="alvinchan"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/52929940/">alvinchan</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5747780_short" class="review-short">
+                    由一系列‘结果’完成对电影系列相关情节的串联，大多出现的情节都是蜻蜓点水——点到为止，由此串联起一个有比较清楚线索的故事。电影展现了王晶电影‘短平快’的特点：像其其他的电影一样都是一份速食快餐，成形快，却耐不住咀嚼。电影画面构型显得简单，缺少细致的镜头，各种快餐元素的杂糅容易造成画面的突兀。电影打斗模式似乎与90年代、......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-20 09:24:37 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5747780_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5746974" class="rr"><a id="af-5746974" rel="sw-False" href="http://movie.douban.com/review/5746974/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10540066',itself:5746974})"/></a>
+                        <a id="au-5746974" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="为女人喝彩" href="http://movie.douban.com/review/5746974/">为女人喝彩</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/purpleafye/" title="子夜"><img class="pil" src="http://img3.douban.com/icon/u2367966-3.jpg" alt="子夜"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/purpleafye/">子夜</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5746974_short" class="review-short">
+                    第一次写影评，小紧张~
+
+为什么决定写影评呢？为了阿宝吧~~
+
+虽然我一直对王晶导演是又爱又恨，因为他确实挺有才华，但是作品之中也不乏许多烂片，并且还要把一些错误的理念传递出去，例如婚前试爱之类的~好吧，不说这些~~但是对于大上海，我一直都是挺期待的~因为袁泉和发哥。
+
+香港电影看得少，所以关于他之前的那些......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-19 16:23:04 &nbsp; &nbsp; 1/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5746974_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5745451" class="rr"><a id="af-5745451" rel="sw-False" href="http://movie.douban.com/review/5745451/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10540066',itself:5745451})"/></a>
+                        <a id="au-5745451" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="喜剧之王" href="http://movie.douban.com/review/5745451/">喜剧之王</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/renatabuddhist/" title="谭茵同学"><img class="pil" src="http://img3.douban.com/icon/u45735200-4.jpg" alt="谭茵同学"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/renatabuddhist/">谭茵同学</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5745451_short" class="review-short">
+                      这就是一场喜剧。整部戏，我觉得演得最好的是袁立。真是到位啊。哈哈
+  大嫂，我们听见的是黄晓明的声音在给周润发配音。然后，洪金宝最后的那个造型，让人如鲠在喉。不是滋味。这两个人就是亮点。反而，黄晓明和周润发的表演，我觉得喜剧成分居多。林坏，是个很有气质的人，虽然我现在还没搞清楚演这个角色的演员叫啥名。绝对的不一般......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-18 10:16:08 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5745451_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5745114" class="rr"><a id="af-5745114" rel="sw-False" href="http://movie.douban.com/review/5745114/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10540066',itself:5745114})"/></a>
+                        <a id="au-5745114" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="这要是个电视剧可能更加市场吧" href="http://movie.douban.com/review/5745114/">这要是个电视剧可能更加市场吧</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/huanyue/" title="环玥"><img class="pil" src="http://img3.douban.com/icon/u1028728-10.jpg" alt="环玥"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/huanyue/">环玥</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5745114_short" class="review-short">
+                    认识的演员戚迹参演了这部电影。在见他之前总要看过才好聊天。
+认识的编剧说其实剧本不差，王晶导演打算拿来做翻身之作。他的意思是黄晓明的演技比周润发差，所以拖累了整体分数。
+想去电影院已经下档，所以只能网上看高清。
+这故事结构不能说不用心思。在家里看故事的坏处是总有旁骛，发个短信回个微薄什么的，导演的套线结构如果在电......
+                        <a class="pl" href="http://movie.douban.com/review/5745114/">(1回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-17 22:43:21 &nbsp; &nbsp; 1/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5745114_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5744499" class="rr"><a id="af-5744499" rel="sw-False" href="http://movie.douban.com/review/5744499/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10540066',itself:5744499})"/></a>
+                        <a id="au-5744499" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="一切都很好，一切都很平庸（大上海）" href="http://movie.douban.com/review/5744499/">一切都很好，一切都很平庸（大上海）</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/suxiaoxiang/" title="苏小香"><img class="pil" src="http://img3.douban.com/icon/u48061510-7.jpg" alt="苏小香"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/suxiaoxiang/">苏小香</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5744499_short" class="review-short">
+                    从这部电影的所有方面来说，这部电影应该是很不错的，一切都很好，演员，导演，投资，编剧，画面，一切都应该是没问题的，但是看过之后大家还是摆摆手说，嗯，还行吧。一切都很好，但是一切都很平庸，就算是里面有了吴镇宇，有了周润发，但是一切还都只是平庸的样子。但是看一下最近几年王晶的作品来说《大上海》还算是不错了，总比《财神客栈》......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-17 14:30:07 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5744499_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5743710" class="rr"><a id="af-5743710" rel="sw-False" href="http://movie.douban.com/review/5743710/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10540066',itself:5743710})"/></a>
+                        <a id="au-5743710" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="电影微评：大上海" href="http://movie.douban.com/review/5743710/">电影微评：大上海</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/51715849/" title="Riobluemoon"><img class="pil" src="http://img3.douban.com/icon/u51715849-3.jpg" alt="Riobluemoon"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/51715849/">Riobluemoon</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5743710_short" class="review-short">
+                    6.5分。其实拍得还成，算是王晶近年来比较出色的作品了。但问题是其中某些所谓的致敬场面拍得太假，而故事中各种细节过于零散了，黄晓明的情节同周润发的故事有些“搭”不起来。不知是否是审查的关系，硬去把黑帮仇杀的故事连上抗日战争去洗白，结果有些两头不着杠，使电影可看性大大下降。......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-16 21:34:49 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5743710_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+
+
+
+
+            <p class="pl" align="right">&gt; <a href="http://movie.douban.com/subject/10540066/reviews">更多影评(共455条)</a></p>
+
+        </div>
+        <div id="wt_2" class="hidden">
+            
+        <div style="margin:20px 0;">你关注的人还没写过影评</div>
+
+        </div>
+
+
+
+<br/><h2  >大上海的论坛 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div id="db-discussion-section" class="indent"><table class="olt"><tr><td><td><td><td></tr>
+    <tr><td class="pl"><a href="http://movie.douban.com/subject/10540066/discussion/49587958/" title="我想说我是为了吴镇宇而来的~">我想说我是为了吴镇宇而来的~</a></td><td class="pl">来自<a href="http://movie.douban.com/people/40896891/">冉先森的猫！</a></td><td class="pl">60 回应</td><td class="pl">2013-01-19</td></tr>
+        <tr><td class="pl"><a href="http://movie.douban.com/subject/10540066/discussion/51205689/" title="宝爷呢！！难道就让他在那里泡澡玩鸭子么！！！">宝爷呢！！难道就让他在那里泡澡玩鸭子么！！！</a></td><td class="pl">来自<a href="http://movie.douban.com/people/photomyworld/">外卖男P老湿</a></td><td class="pl">26 回应</td><td class="pl">2013-01-19</td></tr>
+        <tr><td class="pl"><a href="http://movie.douban.com/subject/10540066/discussion/47987633/" title="说实在的，我非常非常喜欢发哥，不过那是去美国之前的他！现在的他就像小明刚出道时候一样">说实在的，我非常非常喜欢发哥，不过那是去美国之...</a></td><td class="pl">来自<a href="http://movie.douban.com/people/4686921/">111111</a></td><td class="pl">8 回应</td><td class="pl">2013-01-02</td></tr>
+        <tr><td class="pl"><a href="http://movie.douban.com/subject/10540066/discussion/47554080/" title="双周一成决战贺岁档 发哥能否拯救王晶">双周一成决战贺岁档 发哥能否拯救王晶</a></td><td class="pl">来自<a href="http://movie.douban.com/people/seafans/">taoxinxu释凡</a></td><td class="pl">6 回应</td><td class="pl">2012-12-30</td></tr>
+        <tr><td class="pl"><a href="http://movie.douban.com/subject/10540066/discussion/50258319/" title="难道没有人觉得这片豆瓣上的海报像天龙特攻队？">难道没有人觉得这片豆瓣上的海报像天龙特攻队？</a></td><td class="pl">来自<a href="http://movie.douban.com/people/50643040/">ssss1212</a></td><td class="pl">8 回应</td><td class="pl">2013-01-01</td></tr>
+        </table>
+    <p class="pl" align="right">&gt; <a href="http://movie.douban.com/subject/10540066/discussion/">浏览更多话题</a></p></div></div>
+    <script type="text/javascript">
+        $(function(){if($.browser.msie && $.browser.version == 6.0){
+            var maxWidth = parseInt($('#info').css('max-width'));
+            if($('#info').width() > maxWidth)
+                $('#info').width(maxWidth)
+        }});
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+
+
+
+    <div id="dale_movie_subject_top_right"></div>
+    
+
+
+
+<style type="text/css">
+    .m4 {margin-bottom:8px; padding-bottom:8px;}
+    .movieOnline {background:#FFF6ED; padding:10px; margin-bottom:20px;}
+    .movieOnline h2 {margin:0 0 5px;}
+    .movieOnline .sitename {line-height:2em; width:160px;}
+    .movieOnline td,.movieOnline td a:link,.movieOnline td a:visited{color:#666;}
+    .movieOnline td a:hover {color:#fff;}
+    .link-bt:link,
+    .link-bt:visited,
+    .link-bt:hover,
+    .link-bt:active {margin:5px 0 0; padding:2px 8px; background:#a8c598; color:#fff; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; display:inline-block;}
+</style>
+
+<h2>以下豆列推荐 · · · · · · <span class="pl">(<a href="http://movie.douban.com/subject/10540066/doulists">全部</a>)</span></h2><div id="db-doulist-section" class="indent"><ul class="bs"><li><a href="http://movie.douban.com/doulist/891658/">猛龙帮帮主释凡推荐五星级佳片00-12年</a>
+            <span class="pl">(taoxinxu释凡)</span>
+                </li><li><a href="http://movie.douban.com/doulist/943009/">内地票房年度总排行：2012年电影（截至2013年1月13日）</a>
+            <span class="pl">(鸟甲)</span>
+                </li><li><a href="http://movie.douban.com/doulist/1629724/">【2012年国内公映电影排期 pt.2】</a>
+            <span class="pl">(荔枝超人)</span>
+                </li><li><a href="http://movie.douban.com/doulist/1768934/">第十放映室：恭贺2013——2012年度电影回顾</a>
+            <span class="pl">(核蛋Klakt)</span>
+                </li><li><a href="http://movie.douban.com/doulist/1434921/">2012—2014值得期待的华语电影</a>
+            <span class="pl">(黑暗没有骑士)</span>
+                </li></ul></div><h2>谁看这部电影?</h2><div class="indent" id="collector"><div class="ll"><a href="http://movie.douban.com/people/49767694/"><img src="http://img3.douban.com/icon/u49767694-2.jpg" class="pil" alt="嘉小宝"/></a></div>
+            <div style="padding-left:60px"><a href="http://movie.douban.com/people/49767694/">嘉小宝</a><br/><div class="pl ll">1分钟前想看</div><br/></div><div class="clear"></div><br/><div class="ul" style="margin-bottom:12px;"></div><div class="ll"><a href="http://movie.douban.com/people/50692350/"><img src="http://img3.douban.com/icon/u50692350-2.jpg" class="pil" alt="l0ck"/></a></div>
+            <div style="padding-left:60px"><a href="http://movie.douban.com/people/50692350/">l0ck</a><br/><div class="pl ll">4分钟前想看</div><br/></div><div class="clear"></div><br/><div class="ul" style="margin-bottom:12px;"></div><div class="ll"><a href="http://movie.douban.com/people/simon8lee/"><img src="http://img3.douban.com/icon/u54843011-1.jpg" class="pil" alt="simon_lee"/></a></div>
+            <div style="padding-left:60px"><a href="http://movie.douban.com/people/simon8lee/">simon_lee</a><br/><div class="pl ll">5分钟前看过</div><span class="allstar30" title="还行"></span><br/><span class="pl">tags:发哥</span></div><div class="clear"></div><br/><div class="ul" style="margin-bottom:12px;"></div><div class="ll"><a href="http://movie.douban.com/people/60589387/"><img src="http://img3.douban.com/icon/u60589387-3.jpg" class="pil" alt="Terminator"/></a></div>
+            <div style="padding-left:60px"><a href="http://movie.douban.com/people/60589387/">Terminator</a><br/><div class="pl ll">6分钟前看过</div><span class="allstar50" title="力荐"></span><br/><span class="pl">tags:2012 周润发 黄晓明 洪金宝...</span></div><div class="clear"></div><br/><div class="ul" style="margin-bottom:12px;"></div><p class="pl">&gt; <a href="http://movie.douban.com/subject/10540066/collections">24986人看过</a></p><p class="pl">&gt; <a href="http://movie.douban.com/subject/10540066/wishes">6728人想看</a></p></div>
+
+
+
+
+    <h2>
+        喜欢这部电影的人常去
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/blabla/"><img src="http://img3.douban.com/icon/g248952-4.jpg" class="m_sub_img" alt="八卦来了"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/blabla/">八卦来了</a> 
+            <span>(180369)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/hkmovies/"><img src="http://img3.douban.com/icon/g10039-23.jpg" class="m_sub_img" alt="香港电影"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/hkmovies/">香港电影</a> 
+            <span>(19059)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/taotaopaoxiao/"><img src="http://img3.douban.com/icon/g124140-2.jpg" class="m_sub_img" alt="景涛同好组！！！！！！"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/taotaopaoxiao/">景涛同好组！！！！！！</a> 
+            <span>(159692)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/classicreading/"><img src="http://img3.douban.com/icon/g74135-11.jpg" class="m_sub_img" alt="经典短篇阅读"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/classicreading/">经典短篇阅读</a> 
+            <span>(182915)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/insidestory/"><img src="http://img3.douban.com/icon/g195383-12.jpg" class="m_sub_img" alt="掀起你的内幕来™ 新年快樂"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/insidestory/">掀起你的内幕来™ 新...</a> 
+            <span>(128444)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/zhuangb/"><img src="http://img3.douban.com/icon/g17947-5.jpg" class="m_sub_img" alt="文艺青年装逼会"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/zhuangb/">文艺青年装逼会</a> 
+            <span>(189385)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/spoil/"><img src="http://img3.douban.com/icon/g28421-3.jpg" class="m_sub_img" alt="我们什么都知道……一点儿"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/spoil/">我们什么都知道……一点儿</a> 
+            <span>(185922)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/asshole/"><img src="http://img3.douban.com/icon/g60439-1.jpg" class="m_sub_img" alt="我总觉得自己就是一个傻逼"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/asshole/">我总觉得自己就是一个傻逼</a> 
+            <span>(186567)</span>
+    </dd>
+</dl>
+
+
+<div class="clear"></div>
+
+
+
+    <div id="dale_movie_subject_middle_right"></div>
+    
+
+
+
+<style type="text/css">
+</style>
+
+<div class="citysmr" style="width:98%;margin:0;padding:0;">
+    <h2>喜欢这部电影的人关注的活动 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;</h2>
+<ul>
+    
+    <li class="clearbox">
+    <div class="title"><a href="http://www.douban.com/event/18095996/">《热年》  独立影像计划</a></div>
+    <a href="http://www.douban.com/event/18095996/"><img src="http://img3.douban.com/pview/event_poster/sicon/public/b1327a8864931aa.jpg" class="actimgs"/></a>
+    <div class="evtdesc">
+        时间：2013-01-07 17:30<br/>
+        地点：绍兴 绍兴县 柯桥 西官塘 古村落<br/>24人关注
+    </div>
+    </li>
+    
+    <li class="clearbox">
+    <div class="title"><a href="http://www.douban.com/event/17954765/">我来做你的私人导游之绍兴</a></div>
+    <a href="http://www.douban.com/event/17954765/"><img src="http://img3.douban.com/pview/event_poster/sicon/public/39191e78ed75d5c.jpg" class="actimgs"/></a>
+    <div class="evtdesc">
+        时间：2012-12-11 08:00<br/>
+        地点：绍兴 越城区 绍兴<br/>63人关注
+    </div>
+    </li>
+    
+    <li class="clearbox">
+    <div class="title"><a href="http://www.douban.com/event/18100236/">遇见——来一场和陌生人的约会吧</a></div>
+    <a href="http://www.douban.com/event/18100236/"><img src="http://img3.douban.com/pview/event_poster/sicon/public/7e731af424ea517.jpg" class="actimgs"/></a>
+    <div class="evtdesc">
+        时间：2013-01-08 08:00<br/>
+        地点：绍兴 绍兴县 浙江省绍兴市环城西路508号绍兴文理学院河东校区<br/>42人关注
+    </div>
+    </li>
+</ul>
+</div>
+<br clear="all"/><p class="pl">&gt; <a href="http://movie.douban.com/subject/10540066/group_collectors">收藏这部电影的小组</a></p><br/><div class="clear"></div>
+<p class="pl">订阅大上海的影评: <br/><span class="feed">
+    <a href="http://movie.douban.com/feed/subject/10540066/reviews"> feed: rss 2.0</a></span></p>
+
+
+
+
+
+
+<div class="mobile-app-entrance block5 app-movie">
+
+    <a class="entrance-link first-link" href="http://www.douban.com/mobile/movie">
+        <span class="app-icon icon-movie"></span>
+        <span class="main-title">豆瓣电影客户端</span>
+        <span class="sub-title">让买票看电影更简单</span>
+    </a>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = 'http://erebor.douban.com/',
+            userId = '',
+            browserId = 'VKpIE5M+TuQ',
+            ipAddress = '122.236.48.167',
+            criteria = '3:/subject/10540066/',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_movie_subject_top_right', 'dale_movie_subject_top_middle', 'dale_movie_subject_middle_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, ip: ipAddress, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'http://img3.douban.com/js/packed_ad3738113870.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/37af16dc0af2bf37.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/subject/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/subject/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/subject/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper4 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

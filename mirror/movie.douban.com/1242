@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>叹为观止电影短片</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="叹为观止电影短片">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>叹为观止电影短片</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/luhua/"><img src="http://img3.douban.com/icon/u1329080-7.jpg" align="left" alt="芦哲峰"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/luhua/">芦哲峰 (沈阳)</a><br />
+        创建时间: 2011-02-06 17:02:21　最后修改时间: 2013-01-13 09:14:44</p></div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-967577"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">18人</span>
+</div>
+<div class="filters">全部电影(69)</div>
+    <p id="sb1301252" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1301252/"><img width="80" src="http://img3.douban.com/spic/s3120103.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-02-15 19:24:34添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/1301252/">十诫 Dekalog</a>
+    
+    </div>
+    <p class="pl">导演 : 克日什托夫·基耶斯洛夫斯基 Krzysztof Kieslowski<br/>主演 : Artur Barcis/Olgierd Lukaszewicz/Olaf Lubaszenko/Piotr Machalica/Jan Tesarz/Katarzyna Piwowarczyk/昂里克·巴兰诺斯基 Henryk Baranowski/克里斯提娜·杨达 Krystyna Janda/Aleksander Bardini/Stanislaw Gawlik/Krzysztof Kumor/Maciej Szary/Anna Polony/Maria Pakulnis</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1781002" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1781002/"><img width="80" src="http://img3.douban.com/spic/s9061891.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-03-06 18:40:47添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/1781002/">飞逝的狮子 Le lion volatil</a>
+    
+    </div>
+    <p class="pl">导演 : Agnès Varda<br/>主演 : Julie Depardieu/Frédérick E. Grasser-Hermé/Silvia Urrutia/David Deciron</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3563121" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3563121/"><img width="80" src="http://img3.douban.com/spic/s3619016.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-04-26 16:25:12添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/3563121/">家屋风景 7p., cuis., s. de b., ... a saisir</a>
+    
+    </div>
+    <p class="pl">导演 : 阿涅斯·瓦尔达 Agnès Varda<br/>主演 : 埃尔威•米姆兰 Hervé Mimran/Louis Bec/Saskia Cohen Tanugi/Colette Bonnet/Pierre Esposito/Catherine De Barbeyrac/Folco Chevalier/Michèle Nespoulet/友兰达·梦露 Yolande Moreau</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1763691" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1763691/"><img width="80" src="http://img3.douban.com/spic/s2677575.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-04-27 22:10:42添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/1763691/">尤利西斯 Ulysse</a>
+    
+    </div>
+    <p class="pl">导演 : Agnès Varda<br/>主演 : Charles de Gaulle/Agnès Varda</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4064425" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4064425/"><img width="80" src="http://img3.douban.com/spic/s4426091.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-07-31 22:57:26添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/4064425/">叠叠山中 첩첩산중</a>
+    
+    </div>
+    <p class="pl">导演 : 洪尚秀 Sang-soo Hong<br/>主演 : 李善均 Seon-gyun Lee/郑有美 Yu-mi Jeong/文成根 Seong-kun Mun</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1307909" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1307909/"><img width="80" src="http://img3.douban.com/spic/s1879591.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-06 17:05:25添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/1307909/">天桥不见了 天橋不見了</a>
+    
+    </div>
+    <p class="pl">导演 : 蔡明亮<br/>主演 : 李康生/陆奕静/陈湘淇</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1795570" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1795570/"><img width="80" src="http://img3.douban.com/spic/s1686102.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-04-07 20:11:18添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/1795570/">被访者 Gadające głowy</a>
+    
+    </div>
+    <p class="pl">导演 : Krzysztof Kieslowski</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1917398" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1917398/"><img width="80" src="http://img5.douban.com/spic/s1891249.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-03-04 21:47:37添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/1917398/">房间里的女人 The Woman in the Room</a>
+    
+    </div>
+    <p class="pl">导演 : Frank Darabont<br/>主演 : Michael Cornelison/Dee Croxton/Brian Libby/Bob Brunson/George Russell</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1915570" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1915570/"><img width="80" src="http://img3.douban.com/spic/s6947465.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-10-03 08:06:16添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/1915570/">最后的农场 Síðasti bærinn</a>
+    
+    </div>
+    <p class="pl">导演 : Rúnar Rúnarsson<br/>主演 : Ólafía Hrönn Jónsdóttir/Jón Sigurbjörnsson/Sigurður Skúlason</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4843013" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4843013/"><img width="80" src="http://img3.douban.com/spic/s9047962.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-11-06 17:54:00添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/4843013/">清蜜星体验</a>
+    
+    </div>
+    <p class="pl">导演 : 连奕琦/钮承泽<br/>主演 : 李康宜/五熊/许玮宁/修杰楷/吴慷仁/邵翔/张家慧/曾佩瑜/柯有纶/丁春诚/温升豪</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6727326" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6727326/"><img width="80" src="http://img3.douban.com/spic/s9047967.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-11-07 09:30:09添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/6727326/">发现生活新味 發現生活新味</a>
+    
+    </div>
+    <p class="pl">导演 : 連奕琦<br/>主演 : 李康宜/張書豪/五熊/謝欣穎/納豆/阿Ken/李維維/張少懷/李律/蔡昌憲/葉羿君/張睿家/曾允柔/鄢勝宇/曾沛慈/藍鈞天/李千娜/王宥勝/陳庭妮/李迪恩/唐青慧/曾少宗/楊子珊/吳中天</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6886896" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6886896/"><img width="80" src="http://img3.douban.com/spic/s9091153.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-27 16:58:38添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/6886896/">白糖 Suiker</a>
+    
+    </div>
+    <p class="pl">导演 : Jeroen Annokkeé</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2070004" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2070004/"><img width="80" src="http://img5.douban.com/spic/s2392329.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-10-03 16:09:17添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/2070004/">变形记 Die Verwandlung</a>
+    
+    </div>
+    <p class="pl">导演 : Jan Nemec<br/>主演 : Heinz Bennent/Zdenka Procházková/Edwige Pierre</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1401521" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1401521/"><img width="80" src="http://img3.douban.com/spic/s1430496.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-02-02 09:30:06添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/1401521/">草迷宫 草迷宮</a>
+    
+    </div>
+    <p class="pl">导演 : 寺山修司<br/>主演 : 三上博史/若松武/新高惠子/兰妖子/伊丹十三</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1437390" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1437390/"><img width="80" src="http://img3.douban.com/spic/s1648087.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-06 17:04:03添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/1437390/">午后的迷惘 Meshes of the Afternoon</a>
+    
+    </div>
+    <p class="pl">导演 : 梅雅·黛伦 Maya Deren/Alexander Hammid<br/>主演 : Maya Deren/Alexander Hammid</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1437391" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1437391/"><img width="80" src="http://img5.douban.com/spic/s1454019.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-03-09 20:07:44添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/1437391/">在陆地上 At Land</a>
+    
+    </div>
+    <p class="pl">导演 : Maya Deren<br/>主演 : John Cage/Maya Deren/Alexander Hammid</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1481456" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1481456/"><img width="80" src="http://img5.douban.com/spic/s3254719.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-01-03 19:31:25添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/1481456/">电话亭 La cabina</a>
+    
+    </div>
+    <p class="pl">导演 : Antonio Mercero<br/>主演 : José Luis López Vázquez/Agustín González/Goyo Lebrero/Tito García</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1302911" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1302911/"><img width="80" src="http://img3.douban.com/spic/s3345532.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-03-11 12:40:21添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/1302911/">沙漠中的西蒙 Simón del desierto</a>
+    
+    </div>
+    <p class="pl">导演 : Luis Buñuel<br/>主演 : Claudio Brook/Enrique Álvarez Félix/Hortensia Santoveña/Francisco Reiguera</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1394348" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1394348/"><img width="80" src="http://img3.douban.com/spic/s1653660.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-04-27 22:35:35添加</span>
+        19. 
+    <a href="http://movie.douban.com/subject/1394348/">面包店的女孩 La boulangère de Monceau</a>
+    
+    </div>
+    <p class="pl">导演 : Eric Rohmer<br/>主演 : Barbet Schroeder/Claudine Soubrier/Michèle Girardon</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1306626" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1306626/"><img width="80" src="http://img3.douban.com/spic/s1915624.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-06 17:05:14添加</span>
+        20. 
+    <a href="http://movie.douban.com/subject/1306626/">堤 La jetée</a>
+    
+    </div>
+    <p class="pl">导演 : Chris Marker<br/>主演 : Hélène Chatelain/Davos Hanich/Jean Négroni/Jacques Ledoux</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1959925" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1959925/"><img width="80" src="http://img3.douban.com/spic/s2883334.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-10-05 22:04:46添加</span>
+        21. 
+    <a href="http://movie.douban.com/subject/1959925/">白鬃野马 Crin blanc: Le cheval sauvage</a>
+    
+    </div>
+    <p class="pl">导演 : Albert Lamorisse<br/>主演 : Alain Emery</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293270" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293270/"><img width="80" src="http://img5.douban.com/spic/s1430759.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-10-19 09:45:51添加</span>
+        22. 
+    <a href="http://movie.douban.com/subject/1293270/">寻子遇仙记 The Kid</a>
+    
+    </div>
+    <p class="pl">导演 : Charles Chaplin<br/>主演 : Charles Chaplin/Jackie Coogan</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1308609" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1308609/"><img width="80" src="http://img3.douban.com/spic/s2872120.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-06 17:07:28添加</span>
+        23. 
+    <a href="http://movie.douban.com/subject/1308609/">压路机和小提琴 Каток и скрипка</a>
+    
+    </div>
+    <p class="pl">导演 : 安德烈·塔科夫斯基 Andrei Tarkovsky<br/>主演 : Igor Fomchenko/弗拉基米尔·扎曼斯基 Vladimir Zamansky/Marina Adzhubei/Yuri Brusser/Vyacheslav Borisov/Aleksandr Vitoslavsky/Aleksandr Ilyin</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1326038" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1326038/"><img width="80" src="http://img3.douban.com/spic/s2883331.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-18 13:11:17添加</span>
+        24. 
+    <a href="http://movie.douban.com/subject/1326038/">红气球 Le ballon rouge</a>
+    
+    </div>
+    <p class="pl">导演 : Albert Lamorisse<br/>主演 : Pascal Lamorisse/Georges Sellier/Vladimir Popov</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1481753" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1481753/"><img width="80" src="http://img3.douban.com/spic/s1850905.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-02-02 09:55:07添加</span>
+        25. 
+    <a href="http://movie.douban.com/subject/1481753/">双头女 二頭女－映画の影</a>
+    
+    </div>
+    <p class="pl">导演 : 寺山修司<br/>主演 : 新高惠子/中山孝子</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    <div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/doulist/967577/?start=25&filter=">2</a><a href="http://movie.douban.com/doulist/967577/?start=50&filter=">3</a><span class="next"><a href="http://movie.douban.com/doulist/967577/?start=25&filter=">后页&gt;</a><link rel="next" href="http://movie.douban.com/doulist/967577/?start=25&filter="/></span></div>
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2>最新留言 · · · · · ·  <span class="pl">( <a href="http://movie.douban.com/doulist/967577/comments">查看全部</a> )</span></h2><ul class="mbt"><li class="mbtl"><a href="http://www.douban.com/people/luhua/"><img src="http://img3.douban.com/icon/u1329080-7.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/967577/comments#c-249244">芦哲峰 : 感谢推荐。</a><span class="pl">  2011-11-13 08:34</span></li><li class="mbtl"><a href="http://www.douban.com/people/xizif/"><img src="http://img3.douban.com/icon/u3388268-2.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/967577/comments#c-249189">卡非鱼 : 《扒手莫扎特》、《一条安达鲁狗》。。。</a><span class="pl">  2011-11-12 16:45</span></li></ul><h2 style="margin-top:30px">芦哲峰的其他电影豆列  · · · · · ·  </h2>
+        <style>.dlistp p{margin-top:4px;border-bottom:1px #ddd dashed;padding-bottom:4px}</style>
+        <div class="dlistp"><p><a href="http://movie.douban.com/doulist/200218/">叹为观止</a></p> <p><a href="http://movie.douban.com/doulist/774265/">性的艺术</a></p> <p><a href="http://movie.douban.com/doulist/800192/">佛教电影</a></p> <p><a href="http://movie.douban.com/doulist/937993/">钟爱的导演</a></p> <p><a href="http://movie.douban.com/doulist/967060/">叹为观止动画短片</a></p> </div><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- hogg6 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

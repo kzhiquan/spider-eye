@@ -1,0 +1,1237 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        classic with an edge (007：大破天幕杀机 影评)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <meta name="keywords" content="007：大破天幕杀机,Skyfall,影评,评论,观后感"/>
+    <meta name="description" content="classic with an edge" />
+    <meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.douban.com/movie/review/5651031/">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/3f45551276fb584e.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1><span property="v:summary">classic with an edge</span></h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    <div class="obss" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review">
+        <div class="piil">
+            <a onclick="moreurl(this, {from:'mv_rv_au_icon'})" href="http://movie.douban.com/people/petitespot/">
+                <img class="pil" src="http://img3.douban.com/icon/u1548489-15.jpg">
+            </a>
+        </div>
+        <div class="piir">
+            <span property="v:dtreviewed" content="2012-11-12" class="mn">2012-11-12 08:07:21</span>            <span class="pl2">　　                来自: <a onclick="moreurl(this, {from:'mv_rv_au_name'})" href="http://movie.douban.com/people/petitespot/"><span property="v:reviewer">小斑</span></a>
+                    (&lt;--自以为是刻薄固执嗜好拉黑)
+                <br/>
+                <a onclick="moreurl(this, {from:'mv_rv_sbj_l'})"  href="http://movie.douban.com/subject/2363876/"><span property="v:itemreviewed">
+    
+Skyfall / 007：大破天幕杀机</span></a>的评论
+<span title="力荐">&nbsp;&nbsp;<img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="5 star rating"/></span>
+
+                <span property="v:rating" style="color: #fff">5</span>
+
+            </span>
+            <br/><br/> 
+
+            <div id="link-report">
+                <span property="v:description">　　PS：在豆瓣这片神奇的土地上，好像应该先自我表白一下：这打分是以“同类型片”而论的。另外姐真的不是小清新文艺青年！姐喜欢砰砰砰（各种方式的）电影<br/>　　<br/>　　打从一开始，我就下定决心不喜欢这任”Bond, James Bond”——金发碧眼大肌肉坏小子气质神马的，ew！！！但是姐灰常喜欢这集007——classic with an edge，classic很大，edge也很大，却平衡极佳，bravo<br/>　　<br/>　　作为一部类型片，尤其是一部长寿类型片，观众对其结构走向甚至片段构造都已经有了一个既定的期待，野蛮粗暴地打破这种期待以示“不走寻常路”当然是自寻死路——这些期待是这类型片受欢迎能经典的群众基础，但是完全按既定预期走又很容易被批评为“庸俗”“没有新意”。<br/>　　这部007该有bond的部分一点也没有少——搏击泡妞etc，在OST和摄影上很下了一番心力，使之在细节上跳脱而出显得品质不凡，尤其是主题曲的选择和片头MV的美术设计，彰显品味。影片刻意袭承了古典风格的取影（正中或对分平移）和六、十七年代的光影（澳门赌场一幕用的红色主调，这种做法应该是七十年代吧，表示不确定），但是剪辑和分镜上又非常现代化的节奏，算得经典元素的完美复起。<br/>　　至于题材故事方面，本片似乎有意充当里程碑角色——顺应世界电影潮流，向更plot更严密人性更深入批判更现实的现代间谍片过度，但同时仍然保有007不同于其他特工的终极标签：女王的骑士。<br/>　　<br/>　　在这个特工横行的好莱坞电影世界里，一块招牌掉下来总能砸死一打间谍，CIA,FBI,KGB,MI6,摩萨德……陪葬两打恐怖份子。不安全，的确太不安全了。但是Hunt也好Bourne也罢，都还没有——极可能也达不成——James Bond在屏幕上的辉煌：50周年，他还保有特工NO.1的头衔。美女名车高级订制最新科技环游世界，这些硬件Ethan Hunt也有，软件上他甚至还有阿汤哥的脸。早前就私下分析过，007之所以是全世界直男幻想中的自己，全世界直女幻想中的直男（基友的数据我暂时的没有），最无法超越的优势是：他是女王的特工。<br/>　　<br/>　　君宪的好处之一是将“国家”概念具象化到一位优雅端庄的老太太身上。007小说诞生时，二战结束不久，百废待兴，女王年方26刚刚登基。忠诚勇敢对敌人如秋风扫落叶般的James Bond无疑是这位肩负重任却缺乏经验历练的年青女士的守护神，于是他自然而然成为“骑士”形象的延展（相当于我国的大侠）。较之笔挺的西装，其实是这位隐藏在他身后的女王给予了James Bond绅士感和古典味。<br/>　　相比之下美国的间谍们就没那么好运了——电影人基于自己的政治立场也好（搞艺术的左派居多）为了迎合观众的吐槽需要也好，常把他们的顶头上司描写为阴险狡猾自私冷酷黑心烂肠的政客们，把他们拼了老命保护的政府刻画成诡诈阴祟尔虞我诈。谁倒是敢这样描写英女王试试看~~~<br/>　　<br/>　　007的形象总是伴随国际局势而变化，时而如可靠的情人（初登场时），时而如悲痛的丈夫，如而如叛逆的儿子。如今英女王已经是一位饱经风霜的祖母，全世界都在揣测继位者属谁，甚至君宪制是否仍有保留的必要。另加欧洲经济衰退，苏格兰将2014年公投是否独立，她更显得脆弱，更让人怀念那曾经的风采容发的岁月那一去不复还的时光……<br/>　　而就在这个时候007系列电影迎来了50年纪念。还有比现下更适合怀旧的机会么？007空前的也可能是绝后的变成“乖觉的孩子”。M是英女王在屏幕上的替身——打从选择Judi Dench出任此角色始，这个意图就很明显。在这部告别演出里，M极尽可能地展现了她的英国特色：内敛的感情、偏冷的幽默感、坚毅的个性、诗人的亡夫，配合典雅的大衣和各色格子围巾。<br/>　　M甚至参与了最后的战役。现任女王在二战时曾加入Women’s Auxiliary Territorial Service获得中尉军衔，不过她的职务是司机和机械师——确实不长于射击。<br/>　　<br/>　　虽然整个布局围绕信息科技展开，但是最后一战却发生在地处苏格兰的古堡，对手是IRA风格装扮的私人武装，作战方式是古典的游击埋伏。good old times是这集的主题，影片第一镜的复古风格和贯穿序幕的bumbumbum主题新编就向观众承诺了这一点。<br/>　　经济冉冉升起几图加入欧盟却被奥斯曼帝国的过往所限的伊斯坦布尔，全无古国风韵俨然山寨版纽约的魔都，和古今交织中玉其外洋絮其中的澳门，bond跟silva集团三度遭遇战的地点都是精心选择。谢耳朵附体极客风十足的Q提供给Bond的新装备是最传统的手枪和radio。<br/>　　sometimes the old ways are best，诚如Bond所言，这些细节还有他身上的复古西装复古手表驾驶的经典车款，都是在提醒观众：无论好莱坞间谍形象如何变化，007终归是女王的骑士，aka绅士中的绅士——这是他与众不同之处，经久不衰之因。<br/>　　<br/>　　故此，本集放弃了“对抗敌对海外势力”的cliche，将矛盾内化，集中在M也即是女王也即是“国家”身上。Bond和Silva对M的感情都有一种介于情人和母子之间的暧昧。“情人”一层是对过往的怀念，“母子”一层是对当下的总结。<br/>　　Bond和M彼此信任互相打趣（特别是Bond回归的那场戏），虽然有很深的感情羁绊却不愿亦不能诉诸于口。她把感激与愧疚写进他的死亡报告，他则用“复职”的行动表达牵挂与不舍。他们用吐槽表示“很高兴再见到你”。最后他为了保护她不惜毁掉自己的故居（“我一直讨厌这个地方”真的不是针对苏格兰的傲娇吐槽么？）<br/>　　Silva自称曾经是M的爱将，从M记得他的本名并自觉有必要向Bond告白这一点可以确知Silva所说的是事实，也即可推断他跟M的关系曾一度与Bond一样。打silva看到bond双亲的墓碑时的表情可揣测他也是孤儿，从他的名字可知他也是移民后裔（bond的妈妈信delacoix，是法国姓氏），他们是穿越时空的一体两面（于是silva调戏bond那一幕也不是单纯的卖腐）。silva曾将M视为母亲，却自感被伤得太重从而由爱生恨。<br/>　　同样是被M在关键时刻当成“弃子”，bond跟silva截然不同的选择反映的是处在分裂岔口的大不列颠及北爱尔兰共和国的态度（如果苏格兰独立了，IRA的春天还会远么？）。当然美国佬还是倾向于bond这样的“孝子”——怨恨一下就好了，关键时刻还是应该保护老妈。<br/>　　<br/>　　这个主题选择对007系统来说算得突破，结合新崛起的东方经济体（土耳其+天朝），跟brainy is new sexy的新兴人类，为全片的复古风格加了一层sharp edge，怀旧亦是告别。新秘书，新M，新时代，也许不久的将来会有新的王，old dog, new tricks，有些东西是与世具进的，有些东西是亘古不变的——比如007所体现的绅士风范与所承载的骑士精神。<br/>　　<br/>　　作为一部classic的间谍电影，追车和火拼两大场景缺一不可。本片将这两大要素分放在头尾两段，既保留了此类型片应有的肾上腺素刺激，又能腾挪出大把时间去塑造人物关系——尤其是反派。silva不是传统意义上的“天生坏种”，他是“被侮辱与被损害”的，带有悲剧色彩，他对M的感情过于复杂（几类似于Savage Grace之类的文艺片），是一个极端的叛逆与破坏者。<br/>　　Barden大叔当然不会miss这个人物变态扭曲的一面，却同时奇妙地给予了这个人物强健和控制感（就连他调戏bond那一段都不显丝毫娘娘腔，姐甚至觉得如果真上的话，他应该是top），从而使其行为不显得单纯病态而具有某种damaged intensity，令人——至少是令我——心有戚戚焉：唯有你才能令我俩皆获自由，please do it！！！<br/>　　说到令人难忘的反派神马的……我现在已经无法正视Barden叔演的正派形象了。<br/>　　</span>
+            </div>
+
+            
+
+
+            <div class="clear"></div>
+
+            
+
+            <div class="review-panel" name="5651031">
+                <div class="review-note">
+                </div>
+                <div class="review-stat">
+                    
+                    你认为这篇评论：
+                    <span class="useful">
+                        <a class="btn-useful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_y'});voteuseful('r-5651031',true)">有用</a>
+                        <em id="ucount5651031u">65</em>
+                    </span>
+                    <span class="unuseful">
+                        <a class="btn-unuseful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_n'});voteuseless('r-5651031',true)">没用</a>
+                        <em id="ucount5651031l">12</em>
+                    </span>
+                </div>
+            </div>
+
+            <div class="ul" style="margin-top:10px;margin-bottom:5px"></div>
+                
+                <ul style="margin:0;padding:0;float:left;">
+                    
+    
+    <li class="rec" id="O-5651031">
+        <a href= "#" data-url="http://movie.douban.com/review/5651031/" data-desc="" data-title="classic with an edge  (豆瓣影评 - 关于电影《007：大破天幕杀机 Skyfall》)" data-pic="" class="bn-sharing ">分享到</a> &nbsp;&nbsp;
+    </li>
+    <script>
+    var cache_url = cache_url || {};
+    (function(u){ if(cache_url[u]){ return; } cache_url[u] = true; Do(function(){$.getScript(u);}); })('http://img3.douban.com/js/lib/packed_sharebutton1775626802.js');
+    </script>
+ 
+                </ul>
+                
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+</div>
+
+                <div class="clear"></div>
+                
+
+
+
+
+
+
+
+
+
+
+<div id="comments">
+
+
+
+
+
+    
+
+<div class="comment-item" id=5140267 data-cid="5140267" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-12 12:23:38 
+          <a href="http://www.douban.com/people/SokSolon/">轨迹猫（Sok）</a>  (我在人间不游戏)
+        </div>
+
+
+        
+        <p>　　还没看啊,等大陆上映看完在继续读完.</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u4842945 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5140267" class="j a_confirm_link" title="删除轨迹猫（Sok）的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5140313 data-cid="5140313" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-12 12:49:00 
+          <a href="http://www.douban.com/people/2039887/">davekoz</a>  (新丰美酒斗十千，咸阳游侠多少年)
+        </div>
+
+
+        
+        <p>　　Barden叔非常非常非常基！！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2039887 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5140313" class="j a_confirm_link" title="删除davekoz的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5140392 data-cid="5140392" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-12 13:25:25 
+          <a href="http://www.douban.com/people/1185929/">独行瞎</a> 
+        </div>
+
+
+        
+        <p>　　可是Barden叔享有的是佩内洛普克鲁兹这样的一流美女哦！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1185929 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5140392" class="j a_confirm_link" title="删除独行瞎的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5140398 data-cid="5140398" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-12 13:27:01 
+          <a href="http://www.douban.com/people/1185929/">独行瞎</a> 
+        </div>
+
+
+        
+        <p>　　苏格兰将2014年公投是否独立<br/>　　——————————————<br/>　　原来还有这么回事。可怜IRA和英国政府闹了那么些年，这几年总算消停了，如若苏格兰独立，岂不又要硝烟四起？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1185929 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5140398" class="j a_confirm_link" title="删除独行瞎的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5140405 data-cid="5140405" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-12 13:28:41 
+          <a href="http://www.douban.com/people/4877703/">火烈鸟</a> 
+        </div>
+
+
+        
+        <p>　　原来有这么多背景知识，我没看懂，惭愧了</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u4877703 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5140405" class="j a_confirm_link" title="删除火烈鸟的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5141999 data-cid="5141999" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-13 00:50:43 
+          <a href="http://www.douban.com/people/petitespot/">小斑</a>  (&lt;--自以为是刻薄固执嗜好拉黑)
+        </div>
+
+
+        
+        <p>　　@独行瞎<br/>　　<br/>　　卡梅隆有把握苏格兰不会投出去才答应公投的。当然苏独那边的想法是还有两年时间给他们动员，一切皆有可能。万一英国政坛出现变动（比如女王驾崩之类的），机会还是有的。<br/>　　<br/>　　北爱的问题就实在太复杂了。爱尔兰当年是以放弃北爱为代价取得独立的，现在大家的经济都不好，也已经不怎么说收回该地区的问题了。北爱要独也没地方去。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1548489 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5141999" class="j a_confirm_link" title="删除小斑的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5142003 data-cid="5142003" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-13 00:52:49 
+          <a href="http://www.douban.com/people/petitespot/">小斑</a>  (&lt;--自以为是刻薄固执嗜好拉黑)
+        </div>
+
+
+        
+        <p>　　@火烈鸟<br/>　　<br/>　　这种片子不用“背景知识”神马的，看个热闹图个高兴，美女型男帅车靓服明星云集砰砰砰……足够了。<br/>　　<br/>　　我就是纯无聊闲八卦而已。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1548489 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5142003" class="j a_confirm_link" title="删除小斑的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5142090 data-cid="5142090" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-13 02:54:51 
+          <a href="http://www.douban.com/people/33754744/">E</a> 
+        </div>
+
+
+        
+        <p>　　深有同感</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u33754744 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5142090" class="j a_confirm_link" title="删除E的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5142246 data-cid="5142246" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-13 09:14:20 
+          <a href="http://www.douban.com/people/wishbetrue_Juno/">J</a>  (开始为吾王的结局锻炼强壮的心脏)
+        </div>
+
+
+        
+        <p>　　我也直觉的认为silva面前bond必须是受。。。。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2387479 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5142246" class="j a_confirm_link" title="删除J的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5142709 data-cid="5142709" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-13 12:58:55 
+          <a href="http://www.douban.com/people/1185929/">独行瞎</a> 
+        </div>
+
+
+        
+        <p>　　原来是这样。还是不分裂的好，独立大多时候只是给政治投机客制造机会。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1185929 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5142709" class="j a_confirm_link" title="删除独行瞎的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5149140 data-cid="5149140" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-16 08:31:53 
+          <a href="http://www.douban.com/people/dawenxi/">文西</a>  (民工进行时)
+        </div>
+
+
+        
+        <p>　　哈哈，有一部西班牙片叫 the second skin, 小斑可以看看</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1033322 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5149140" class="j a_confirm_link" title="删除文西的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5150195 data-cid="5150195" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-16 16:25:47 
+          <a href="http://www.douban.com/people/petitespot/">小斑</a>  (&lt;--自以为是刻薄固执嗜好拉黑)
+        </div>
+
+
+        
+        <p>　　@文西<br/>　　<br/>　　侬是说巴登叔拍的那部基片？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1548489 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5150195" class="j a_confirm_link" title="删除小斑的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5153826 data-cid="5153826" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-18 00:18:50 
+          <a href="http://www.douban.com/people/thmmdgb/">弹簧mama电光B</a>  (看见好朋友当备胎，心情十分复杂)
+        </div>
+
+
+        
+        <p>　　KGB</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u4292737 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5153826" class="j a_confirm_link" title="删除弹簧mama电光B的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5155407 data-cid="5155407" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-18 20:06:04 
+          <a href="http://www.douban.com/people/65127560/">loveseveus</a> 
+        </div>
+
+
+        
+        <p>　　上应的时候去看。看到女王的骑士 绅士的绅士<br/>　　就要去看了。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u65127560 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5155407" class="j a_confirm_link" title="删除loveseveus的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5155544 data-cid="5155544" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-18 20:57:04 
+          <a href="http://www.douban.com/people/65127560/">loveseveus</a> 
+        </div>
+
+
+        
+        <p>　　上应的时候去看。看到女王的骑士 绅士的绅士<br/>　　就要去看了。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u65127560 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5155544" class="j a_confirm_link" title="删除loveseveus的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5168938 data-cid="5168938" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-24 13:15:30 
+          <a href="http://www.douban.com/people/38457012/">huhu</a> 
+        </div>
+
+
+        
+        <p>　　好吧。。。看到这个影评，昨天看的有点云里雾里，像杯温嘟嘟的白开水的skyfull算是可以加点分了。。。电影的生命是情节。。skyfull缺失的就是这个吧。。。不管怎样，期待下集会精彩。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u38457012 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5168938" class="j a_confirm_link" title="删除huhu的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5171932 data-cid="5171932" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-11-25 16:12:13 
+          <a href="http://www.douban.com/people/65685951/">喝多了没名字</a> 
+        </div>
+
+
+        
+        <p>　　笑面腹黑攻 冷面傲娇受= =</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u65685951 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5171932" class="j a_confirm_link" title="删除喝多了没名字的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5194044 data-cid="5194044" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-12-02 20:09:06 
+          <a href="http://www.douban.com/people/35016390/">Lucy</a> 
+        </div>
+
+
+        
+        <p>　　写到我心里去了，字字句句都是，甚至连javier大叔前bond必须是受这个观点也是一样的！ ps话说巴登叔叔演什么象什么，前几年情迷巴塞罗那那个文艺范儿还历历在目</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u35016390 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5194044" class="j a_confirm_link" title="删除Lucy的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5207871 data-cid="5207871" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2012-12-07 05:35:07 
+          <a href="http://www.douban.com/people/4040806/">misswolf</a> 
+        </div>
+
+
+        
+        <p>　　非常到位，最好的点评！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u4040806 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5207871" class="j a_confirm_link" title="删除misswolf的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5275787 data-cid="5275787" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-01 20:01:26 
+          <a href="http://www.douban.com/people/XuYankang/">文奇</a>  (能薄欲大，中浅外浮，十人九败！)
+        </div>
+
+
+        
+        <p>　　看了这篇看出很多时代背景来，感谢。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2624896 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5275787" class="j a_confirm_link" title="删除文奇的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5276258 data-cid="5276258" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-01 22:39:43 
+          <a href="http://www.douban.com/people/alexlovesavril/">Alex-Yeh-</a>  (night&#39;s dark &amp; full of terrors)
+        </div>
+
+
+        
+        <p>　　  nice . </p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u3940966 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5276258" class="j a_confirm_link" title="删除Alex-Yeh-的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5282156 data-cid="5282156" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-04 08:30:48 
+          <a href="http://www.douban.com/people/27582303/">lisa</a>  (人在江湖漂 哪能不卖笑)
+        </div>
+
+
+        
+        <p>　　我靠 这评论~！ 港港的~！！膜拜了个去的~~！！有文化就是不一样啊~~！！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u27582303 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5282156" class="j a_confirm_link" title="删除lisa的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5302727 data-cid="5302727" data-target_id="5651031" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-12 11:32:24 
+          <a href="http://www.douban.com/people/52587990/">teeson777</a>  (你若晴天，我便骑车~~)
+        </div>
+
+
+        
+        <p>　　“姐甚至觉得如果真上的话，他应该是top”——笑死了，呵呵，好！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u52587990 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5651031/remove_comment?cid=5302727" class="j a_confirm_link" title="删除teeson777的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div id="last"></div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <br/><span class="pl2" align="right"><a class="j a_show_login" href="https://www.douban.com/accounts/register?reason=comment">&gt; 我来回应</a></span>
+
+
+ 
+
+ 
+
+    
+    
+    
+
+
+
+
+
+
+
+</div>
+
+
+<script>
+Do(function(){
+  $('#comments').find('.comment-item').hover(function(){$(this).addClass('over');}, function(){$(this).removeClass('over');});
+  $('.reply-quote .toggle-reply').click(function(e) {
+    e.preventDefault();
+    var el = $(this);
+    el.prevAll('span').toggle(); 
+    el.find('span').toggle();
+  });
+});
+</script>
+
+
+
+
+        </div>
+    </div>
+
+    
+
+	</div>
+        <div class="aside">
+            
+    
+
+
+
+
+
+
+
+    <div class="copyright indent">本评论版权属于作者小斑，并受法律保护。除非评论正文中另有声明，未经合法书面许可任何人不得转载或使用整体或任何部分的内容。</div>
+    <p class="pl2">&gt; <a onclick="moreurl(this, {from:'mv_rv_sbj_r'})" href="http://movie.douban.com/subject/2363876/">去007：大破天幕杀机的页面</a></p>
+
+    <div class="indent">
+        
+
+
+
+
+
+
+
+<style>
+    .movie-summary {overflow:hidden; zoom:1;}
+    .movie-summary .movie-pic {margin-bottom:15px; margin-top:3px;}
+    .movie-summary p {margin:3px 0; padding-left:2.5em; text-indent:-2.5em; color:#111;}
+    .movie-summary p .pl, .movie-summary p a:link , .movie-summary p a:visited{color:#111;}
+    .movie-summary p a:hover {color:#fff;}
+    .trail_link,.trail_link:visited,.trail_link:hover,.trail_link:active {margin-top:5px; display:block; height:28px; width:96px; background:url('/pics/movie_trailer_icon2.png'); overflow:hidden; line-height:99em;}
+    .btn-complete-video{margin-top:5px;}
+    .btn-complete-video,.btn-complete-video:active,.btn-complete-video:hover,.btn-complete-video:visited{background:url(http://img3.douban.com/pics/movie_trailer_icon4.png) no-repeat left top;display:block;height:28px;width:96px;line-height:99em;margin-bottom:10px;overflow:hidden}
+</style>
+
+<div class="movie-summary">
+        <div class="movie-pic"><a onclick="moreurl(this, {from:'mv_rv_poster'})"  href="http://movie.douban.com/subject/2363876/" ><img alt="007：大破天幕杀机 Skyfall" title="007：大破天幕杀机 Skyfall" src="http://img3.douban.com/mpic/s12620955.jpg" rel="v:image"></a></div>
+    <span class="attrs">
+        
+            
+        <p>
+            <span class="pl">导演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_director'})"  href="http://movie.douban.com/celebrity/1048021/">萨姆·门德斯</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">主演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1025175/">丹尼尔·克雷格</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1006956/">拉尔夫·费因斯</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1054414/">哈维尔·巴登</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1316250/">贝纳尼丝·玛尔洛</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1049542/">娜奥米·哈里斯</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1054384/">朱迪·丹奇</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1048153/">阿尔伯特·芬尼</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1025149/">本·卫肖</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1025197/">海伦·麦克洛瑞</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">类型:</span>
+                动作, 惊悚, 犯罪, 冒险
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">地区:</span>
+                英国, 美国
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">片长:</span>
+                143分钟
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">上映:</span>
+                2012-10-26(英国), 2013-01-21(中国大陆)
+        </p>
+
+        <a onclick="moreurl(this, {from:'mv_rv_trailer'})"  class="trail_link" data-trailer-id="127943" href="http://movie.douban.com/trailer/127943/#content" >预告片</a>
+    </span>
+</div>
+
+
+
+
+
+    </div>
+
+            <h2>小斑的其他评论</h2>
+        <div class="indent other_review">
+            <ul>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_0'})" href="http://movie.douban.com/review/5730737/" class="ll">还是应该叫《如歌的野田妹》</a> 
+                                    <span class="stars5 starstop" title="力荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/1997685/">のだめカンタービレ</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_1'})" href="http://movie.douban.com/review/5692087/" class="ll">安导，请恣意，算我求你了</a> 
+                                    <span class="stars5 starstop" title="力荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/1929463/">Life of Pi</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_2'})" href="http://movie.douban.com/review/5664227/" class="ll">乖孩子讲故事也有春天</a> 
+                                    <span class="stars5 starstop" title="力荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/6549903/">Argo</a>)
+                        </li>
+                    
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_4'})" href="http://movie.douban.com/review/5630477/" class="ll">Beutiful</a> 
+                                    <span class="stars5 starstop" title="力荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/1482022/">Hawking</a>)
+                        </li>
+            </ul>
+            <p class="pl clearfix">
+                <a class="rr" onclick="moreurl(this, {from:'mv_rv_au_all'})" href="http://movie.douban.com/people/petitespot/reviews?cat_id=1002">&gt; 全部评论(277)</a>
+            </p>
+        </div>
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/703012dc8cdf08fe.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper2-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

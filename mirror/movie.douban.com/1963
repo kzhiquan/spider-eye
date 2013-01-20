@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>想看"快乐到家"的豆瓣成员</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>想看"快乐到家"的豆瓣成员</h1><form id="lzform" name="lzform" method="post" action="">
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <h2>
+            27122人参与评价 · · · · · ·
+        </h2>
+        
+        <div class="rating_detail_wrap clearfix">
+            <div class="rating_detail_star">
+                <p class="rating_self clearfix">
+                <span class="ll bigstar15"></span>
+                <strong class="ll rating_num">2.7</strong>
+                </p>
+        
+                <span class="fleft color_gray mr10">
+                力荐
+                </span>
+                <span class="stars5 starstop" title="力荐">
+                </span>
+                <div class="power" style="width:13px"></div>
+    
+                15.1%
+                <br/>
+            
+                <span class="fleft color_gray mr10">
+                推荐
+                </span>
+                <span class="stars4 starstop" title="推荐">
+                </span>
+                <div class="power" style="width:5px"></div>
+    
+                6.4%
+                <br/>
+            
+                <span class="fleft color_gray mr10">
+                还行
+                </span>
+                <span class="stars3 starstop" title="还行">
+                </span>
+                <div class="power" style="width:4px"></div>
+    
+                4.8%
+                <br/>
+            
+                <span class="fleft color_gray mr10">
+                较差
+                </span>
+                <span class="stars2 starstop" title="较差">
+                </span>
+                <div class="power" style="width:5px"></div>
+    
+                6.5%
+                <br/>
+            
+                <span class="fleft color_gray mr10">
+                很差
+                </span>
+                <span class="stars1 starstop" title="很差">
+                </span>
+                <div class="power" style="width:59px"></div>
+    
+                67.2%
+                <br/>
+            
+            </div>
+        
+        </div>
+        <div class="zbar clearfix"><div><span id="collections_bar"><span><a href="javascript:void(0)">27405人看过</a></span></span> <span id="wishes_bar" class="now"><span>2383人想看</span></span> </div></div><div class="clear"></div> <div id="collections_tab" style="display:none"><div class="sub_ins">
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/xuminghao/"><img src="http://img3.douban.com/icon/u51411717-4.jpg" alt="爱F的B" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/xuminghao/">爱F的B
+         <span style="font-size:12px;">(杭州)</span></a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/57091410/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="美女baby" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/57091410/">美女baby
+         <span style="font-size:12px;">(北京)</span></a></div><p class="pl">2013-01-20 &nbsp;&nbsp;&nbsp;&nbsp;tags: 只顾自己娱乐，不要忘了观众的感受 <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/68262709/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt=" 扣1258008302" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/68262709/"> 扣1258008302
+         <span style="font-size:12px;">(南宁)</span></a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/53032472/"><img src="http://img3.douban.com/icon/u53032472-42.jpg" alt="叁月大人" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/53032472/">叁月大人
+         <span style="font-size:12px;">(深圳)</span></a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/61535875/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="依然一年" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/61535875/">依然一年
+         <span style="font-size:12px;">(深圳)</span></a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/68264400/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="爱你一生" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/68264400/">爱你一生
+         <span style="font-size:12px;">(杭州)</span></a></div><p class="pl">2013-01-20 &nbsp;&nbsp;&nbsp;&nbsp;tags: 喜剧</p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/61181094/"><img src="http://img3.douban.com/icon/u61181094-2.jpg" alt="嘘嘘" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/61181094/">嘘嘘
+         <span style="font-size:12px;">(成都)</span></a></div><p class="pl">2013-01-20  <span class="allstar50" title="力荐"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/55599359/"><img src="http://img3.douban.com/icon/u55599359-5.jpg" alt="果冻" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/55599359/">果冻
+         <span style="font-size:12px;">(武汉)</span></a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/taohualove/"><img src="http://img3.douban.com/icon/u55389332-2.jpg" alt="carl" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/taohualove/">carl
+         <span style="font-size:12px;">(北京)</span></a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/57488053/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="混世好少年" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/57488053/">混世好少年
+         <span style="font-size:12px;">(上海)</span></a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/66392276/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="Zachary-Oswald" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/66392276/">Zachary-Oswald
+         <span style="font-size:12px;">(北京)</span></a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/67321538/"><img src="http://img3.douban.com/icon/u67321538-1.jpg" alt="曼陀罗静静~" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/67321538/">曼陀罗静静~
+         <span style="font-size:12px;">(北京)</span></a></div><p class="pl">2013-01-20 &nbsp;&nbsp;&nbsp;&nbsp;tags: 灾难 <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/68264086/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="祁少爷" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/68264086/">祁少爷
+         <span style="font-size:12px;">(泉州)</span></a></div><p class="pl">2013-01-20 &nbsp;&nbsp;&nbsp;&nbsp;tags: 喜剧 值得一看 <span class="allstar50" title="力荐"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/63735027/"><img src="http://img3.douban.com/icon/u63735027-2.jpg" alt="吃鱼豆68" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/63735027/">吃鱼豆68
+         <span style="font-size:12px;">(宁波)</span></a></div><p class="pl">2013-01-20 &nbsp;&nbsp;&nbsp;&nbsp;tags: 烂片 <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/57698061/"><img src="http://img3.douban.com/icon/u57698061-2.jpg" alt="alu~" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/57698061/">alu~
+         <span style="font-size:12px;">(岳阳)</span></a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/2090388/"><img src="http://img3.douban.com/icon/u2090388-1.jpg" alt="zxy" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/2090388/">zxy
+        </a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/37962151/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="Eric Zeng" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/37962151/">Eric Zeng
+        </a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/joshwang/"><img src="http://img3.douban.com/icon/u15019503-3.jpg" alt="Josh" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/joshwang/">Josh
+         <span style="font-size:12px;">(北京)</span></a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/66713427/"><img src="http://img3.douban.com/icon/u66713427-9.jpg" alt="唐 水" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/66713427/">唐 水
+         <span style="font-size:12px;">(广州)</span></a></div><p class="pl">2013-01-20 &nbsp;&nbsp;&nbsp;&nbsp;tags: 快乐家族 喜剧 搞笑 <span class="allstar30" title="还行"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/1828544/"><img src="http://img3.douban.com/icon/u1828544-2.jpg" alt="墨墨转" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/1828544/">墨墨转
+         <span style="font-size:12px;">(北京)</span></a></div><p class="pl">2013-01-20  <span class="allstar50" title="力荐"></span></p></td></tr></table><p class="ul"></p></div><div class="paginator"><span class="next"><a href="http://movie.douban.com/subject/11610693/collections?start=20">后页&gt;</a></span></div></div><div id="wishes_tab" ><div class="sub_ins">
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/68264394/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="孤独的泡沫" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/68264394/">孤独的泡沫
+         <span style="font-size:12px;">(武汉)</span></a></div><p class="pl">2013-01-20 &nbsp;&nbsp;&nbsp;&nbsp;tags: 喜剧</p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/kiki1123/"><img src="http://img3.douban.com/icon/u33487660-11.jpg" alt="达达芝" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/kiki1123/">达达芝
+         <span style="font-size:12px;">(石家庄)</span></a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/68057812/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="时间缝隙426" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/68057812/">时间缝隙426
+        </a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/cherryko1021/"><img src="http://img3.douban.com/icon/u26511567-22.jpg" alt="樱桃子" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/cherryko1021/">樱桃子
+         <span style="font-size:12px;">(北京)</span></a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/1451306/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="KK" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/1451306/">KK
+        </a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/floran/"><img src="http://img3.douban.com/icon/u2314085-13.jpg" alt="猫二" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/floran/">猫二
+         <span style="font-size:12px;">(北京)</span></a></div><p class="pl">2013-01-20 &nbsp;&nbsp;&nbsp;&nbsp;tags: 看到一片恶评，我笑了。。。因此想看有多烂，三俗了我</p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/3983202/"><img src="http://img3.douban.com/icon/u3983202-8.jpg" alt="陈绮绮" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/3983202/">陈绮绮
+         <span style="font-size:12px;">(天津)</span></a></div><p class="pl">2013-01-20 &nbsp;&nbsp;&nbsp;&nbsp;tags: 喜剧</p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/67652604/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="杏" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/67652604/">杏
+        </a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/68262806/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="如果是你" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/68262806/">如果是你
+        </a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/66157128/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="Aingno1" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/66157128/">Aingno1
+        </a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/68262487/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="多言不由衷" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/68262487/">多言不由衷
+        </a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/68262363/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="开心" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/68262363/">开心
+        </a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/61252145/"><img src="http://img3.douban.com/icon/u61252145-2.jpg" alt="娩貴姓孔" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/61252145/">娩貴姓孔
+         <span style="font-size:12px;">(上海)</span></a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/Jason.Su/"><img src="http://img3.douban.com/icon/u42492730-23.jpg" alt="Jason.Su" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/Jason.Su/">Jason.Su
+         <span style="font-size:12px;">(青岛)</span></a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/68117829/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="Focker" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/68117829/">Focker
+        </a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/59496617/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="忱忱" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/59496617/">忱忱
+         <span style="font-size:12px;">(洛阳)</span></a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/3805376/"><img src="http://img3.douban.com/icon/u3805376-5.jpg" alt="W.C" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/3805376/">W.C
+         <span style="font-size:12px;">(深圳)</span></a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/68260493/"><img src="http://img3.douban.com/icon/u68260493-3.jpg" alt="最凉不过人心ヾ" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/68260493/">最凉不过人心ヾ
+         <span style="font-size:12px;">(长治)</span></a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/53618326/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="霜冷冰寒" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/53618326/">霜冷冰寒
+        </a></div><p class="pl">2013-01-20 </p></td></tr></table><p class="ul"></p>
+        <table width="100%"><tr>
+        <td width="80" valign="top">
+        <a href="http://movie.douban.com/people/66538423/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="夏年" /></a>
+        </td>
+        
+        <td valign="top">
+        <div class="pl2"><a href="http://movie.douban.com/people/66538423/">夏年
+        </a></div><p class="pl">2013-01-20  <span class="allstar10" title="很差"></span></p></td></tr></table><p class="ul"></p></div><div class="paginator"><span class="next"><a href="http://movie.douban.com/subject/11610693/wishes?start=20">后页&gt;</a></span></div></div><script>
+     (function(){
+     var zs=$(".zbar div>span")
+     zs.click(function(){
+     var ts=this,self=$(ts),s=self.find('span'),t=self.text();
+
+     self.addClass("now")
+
+     s.html($.trim(t))
+     zs.each(function(){
+
+     var id=this.id.split("_")[0];
+
+     if(this==ts){
+     $("#"+id+"_tab").show()
+     return;
+     }
+     $("#"+id+"_tab").hide()
+     var m=$(this)
+     m.removeClass('now')
+     if(!m.find('a').length){
+     m.find('span').html('<a href="javascript:void(0)">'+m.text()+'</a>')
+     }
+     })
+     })
+     })()
+     </script>
+     
+                </div>
+            <div class="aside">
+    <div class="copyright indent">条目的评分是将豆瓣成员的评价数据加权平均计算后的结果，通过算法的调校，使得海量用户主观喜好的聚合能够更客观准确地反映条目本身的价值。</div>
+    <p class="pl2">&gt;&nbsp;<a href="http://movie.douban.com/subject/11610693/">快乐到家</a></p><div class="indent">
+
+
+
+
+
+
+
+
+
+
+<div>
+<a href="http://movie.douban.com/subject/11610693/"><img class="fil" alt="快乐到家" title="快乐到家" src="http://img3.douban.com/mpic/s24585226.jpg" rel="v:image"></a>
+<br clear="all"/>
+
+
+
+
+
+        
+        
+<span class="pl">原名:</span> 快乐到家<br/>
+
+
+
+        
+        
+<span class="pl">片长:</span> 97分钟<br/>
+
+
+        
+        
+<span class="pl">制片国家/地区:</span> 中国大陆<br/>
+
+
+            
+            
+    <span><span class="pl">编剧</span>: <a href="/celebrity/1325780/">傅敏</a></span><br/>
+
+
+        
+        
+<span class="pl">类型:</span> 喜剧<br/>
+
+
+            
+            
+    <span><span class="pl">导演</span>: <a href="/celebrity/1313266/">傅华阳</a></span><br/>
+
+
+
+
+
+
+        
+        
+<span class="pl">上映日期:</span> 2013-01-15(中国大陆)<br/>
+
+
+
+
+        
+        
+<span class="pl">又名:</span> 快乐大本营之快乐到家, 快乐到家之百万宝贝, Bring Happiness Home<br/>
+
+
+        
+        
+<span class="pl">语言:</span> 汉语普通话<br/>
+
+
+            
+            
+    <span><span class="pl">主演</span>: <a href="/celebrity/1313023/">何炅</a> / <a href="/celebrity/1274270/">谢娜</a> / <a href="/celebrity/1313025/">李维嘉</a> / <a href="/celebrity/1318460/">吴昕</a> / <a href="/celebrity/1313024/">杜海涛</a> / <a href="/celebrity/1019343/">杜汶泽</a> / <a href="/celebrity/1274306/">倪大红</a> / <a href="/celebrity/1041425/">蔡卓妍</a> / <a href="/celebrity/1275667/">韩庚</a></span><br/>
+
+
+</div>
+
+    </div>
+    
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    </form>
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/subject/-/wishes', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/subject/-/wishes', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/subject/-/wishes', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper4 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

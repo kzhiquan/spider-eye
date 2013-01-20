@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>四十而惑 (豆瓣)</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="四十而惑,This Is 40,四十而惑影评,剧情介绍,电影图片,预告片,影讯,论坛">
+        <meta name="description" content="四十而惑电影简介和剧情介绍、四十而惑影评、图片、预告片和论坛推荐">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    li.qiyi span { width: 19px; height: 7px; display: inline-block; *zoom: 1; background: url('http://img3.douban.com/pics/new_menu.gif') no-repeat center right }
+
+    </style>
+    <meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.douban.com/movie/subject/5908859/">
+    <link rel="alternate" href="http://movie.douban.com/feed/subject/5908859/reviews" type="application/rss+xml" title="RSS">
+        <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/3130011f77ea574d.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Movie">
+    <h1>
+    <span property="v:itemreviewed">四十而惑 This Is 40</span>
+    <span class="year" style="display:inline-block;*display:inline;zoom:1;">(2012)</span><div class="clear"></div></h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.ba-hashchange.min1350447987.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $("#season").change(function(){
+        var subject_id = $(this).val();
+        if (subject_id!=""){
+                window.location = "/subject/" + subject_id + "/";
+            }
+        });
+
+        $(window).hashchange();
+        if(window.location.href.indexOf('sugest')>0 && window.location.href.indexOf("?")>0){
+            if(window.history.pushState){
+                window.history.pushState(null, document.title,  window.location.href.substring(0,window.location.href.indexOf("?")));
+            }
+        }
+    })
+    </script>
+    <div class="indent"><div class="subjectwrap clearfix" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Movie">
+
+<div class="subject clearfix">
+    <style> h2 {color: #007722;} </style>
+    <div id="mainpic">
+       <a class="nbg" href="http://movie.douban.com/subject/5908859/photos?type=R" title="点击看更多海报">
+           <img src="http://img3.douban.com/mpic/s9099640.jpg" title="点击看更多海报" alt="This Is 40" rel="v:image" />
+       </a>
+       <br />
+
+        
+            <style>
+               .trail_link,.trail_link:visited,.trail_link:hover,.trail_link:active {margin-bottom:10px; display:block; height:28px; width:96px; background:url('/pics/movie_trailer_icon2.png'); overflow:hidden; line-height:99em;}
+               .trail_link.full {background:url('/pics/movie_trailer_icon4.png');}
+            </style>
+            <a class="trail_link" href="http://movie.douban.com/trailer/127295/#content">预告片</a>
+
+        
+
+
+    </div>
+
+    <div id="info">
+            <span><span class="pl">导演</span>: <a href="/celebrity/1036351/" rel="v:directedBy">贾德·阿帕图</a></span><br/>
+            <span><span class="pl">编剧</span>: <a href="/celebrity/1036351/">贾德·阿帕图</a></span><br/>
+            <span><span class="pl">主演</span>: <a href="/celebrity/1002667/" rel="v:starring">保罗·路德</a> / <a href="/celebrity/1000023/" rel="v:starring">莱斯利·曼恩</a> / <a href="/celebrity/1013759/" rel="v:starring">杰森·席格尔</a> / <a href="/celebrity/1031755/" rel="v:starring">克里斯·奥多德</a> / <a href="/celebrity/1044700/" rel="v:starring">梅根·福克斯</a> / <a href="/celebrity/1049660/" rel="v:starring">梅丽莎·麦卡西</a> / <a href="/celebrity/1045327/" rel="v:starring">莉娜·杜汉姆</a> / <a href="/celebrity/1010594/" rel="v:starring">艾伯特·布鲁克斯</a> / <a href="/search/Maude%20Apatow" rel="v:starring">Maude Apatow</a> / <a href="/search/Iris%20Apatow" rel="v:starring">Iris Apatow</a></span><br/>
+            <span class="pl">类型:</span> <span property="v:genre">喜剧</span><br/>
+            <span class="pl">官方网站:</span> <a href="http://www.thisis40movie.com" rel="nofollow" target="_blank">www.thisis40movie.com</a><br/>
+            <span class="pl">制片国家/地区:</span> 美国<br/>
+            <span class="pl">语言:</span> 英语<br/>
+            <span class="pl">上映日期:</span> <span property="v:initialReleaseDate" content="2012-12-21">2012-12-21(美国)</span><br/>
+            <span class="pl">片长:</span> <span property="v:runtime" content="134">134分钟</span><br/>
+            <span class="pl">又名:</span> 这就是四十岁 / 四十不惑 / This Is Forty<br/>
+            
+        <span class="pl">IMDb链接:</span> <a href="http://www.imdb.com/title/tt1758830" target="_blank" rel="nofollow">tt1758830</a><br>
+        
+
+    </div>
+</div>
+
+    <div id="interest_sectl">
+    <div class="rating_wrap clearbox" rel="v:rating">
+    <p class="rating_self clearfix" typeof="v:Rating">
+        <span class="ll bigstar35"></span>
+        <strong class="ll rating_num" property="v:average">6.9</strong>
+        <span property="v:best" content="10.0"></span>
+    </p>
+    <p class="rating_self font_normal">(<a href="collections"><span property="v:votes">244</span>人评价</a>)</p>
+    <span class="stars5 starstop" title="力荐"></span><div class="power" style="width:10px"></div>
+    8.0%<br/>
+            <span class="stars4 starstop" title="推荐"></span><div class="power" style="width:51px"></div>
+    38.3%<br/>
+            <span class="stars3 starstop" title="还行"></span><div class="power" style="width:59px"></div>
+    44.2%<br/>
+            <span class="stars2 starstop" title="较差"></span><div class="power" style="width:9px"></div>
+    7.3%<br/>
+            <span class="stars1 starstop" title="很差"></span><div class="power" style="width:2px"></div>
+    2.2%<br/>
+            </div></div></div><div id="interest_sect_level" class="clearfix"><a href="http://www.douban.com/register?reason=collectwish&amp;ck=" rel="nofollow" class="j a_show_login colbutt ll" name="pbtn-5908859-wish"><span>想看</span></a><a href="http://www.douban.com/register?reason=collectcollect&amp;ck=" rel="nofollow" class="j a_show_login colbutt ll" name="pbtn-5908859-collect"><span>看过</span></a><div class="ll j a_stars">评价:
+    <span id="rating"><span id="stars">
+    <a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-5908859-1"><img src="http://img3.douban.com/pics/nst.gif" id="star1"/></a><a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-5908859-2"><img src="http://img3.douban.com/pics/nst.gif" id="star2"/></a><a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-5908859-3"><img src="http://img3.douban.com/pics/nst.gif" id="star3"/></a><a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-5908859-4"><img src="http://img3.douban.com/pics/nst.gif" id="star4"/></a><a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-5908859-5"><img src="http://img3.douban.com/pics/nst.gif" id="star5"/></a></span><span id="rateword" class="pl"></span>
+    <input id="n_rating" type="hidden" value=""  /></span></div></div><div class="gtleft"><ul class="ul_subject_menu bicelink color_gray pt6 clearfix">
+       <li><img src="http://img3.douban.com/pics/short-comment.gif" />&nbsp;<a onclick="moreurl(this, {from:'mv_sbj_wr_cmnt_login'})" class="j a_show_login" href="http://www.douban.com/register?reason=review" rel="nofollow">写短评</a></li>
+       <li>
+             <img src="http://img3.douban.com/pics/add-review.gif" />&nbsp;<a onclick="moreurl(this, {from:'mv_sbj_wr_rv_login'})" class="j a_show_login" href="http://www.douban.com/register?reason=review" rel="nofollow">写影评</a>
+             </li><li><img src="http://img3.douban.com/pics/add-doulist.gif" />&nbsp;<a class="j a_show_login" onclick="moreurl(this, {from:'mv_sbj_add_dlist_login'})" href="http://www.douban.com/register?reason=collect-doulist" rel="nofollow">加入豆列</a></li>
+        
+    
+    <li class="rec" id="M-5908859">
+        <a href= "#" data-url="http://movie.douban.com/subject/5908859/" data-desc="" data-title="电影《四十而惑 This Is 40》 (来自豆瓣) " data-pic="http://img3.douban.com/lpic/s9099640.jpg" class="bn-sharing ">分享到</a> &nbsp;&nbsp;
+    </li>
+    <script>
+    var cache_url = cache_url || {};
+    (function(u){ if(cache_url[u]){ return; } cache_url[u] = true; Do(function(){$.getScript(u);}); })('http://img3.douban.com/js/lib/packed_sharebutton1775626802.js');
+    </script>
+</ul>
+    <script type="text/javascript">
+        $(function(){
+            $(".ul_subject_menu li.rec .bn-sharing").bind("click", function(){
+                $.get("/blank?sbj_page_click=bn_sharing");
+            });
+        });
+    </script>
+    </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+</div>
+
+    <script>
+        $(function(){
+            //bind events for collection button.
+            $('.collect_btn', '#interest_sect_level').each(function(){
+                Douban.init_collect_btn(this);
+            });
+
+            $(".indent .rec-sec .lnk-sharing").bind("click", function(){
+                moreurl(this, {from:'mv_sbj_db_share'})
+            });
+        });
+    </script>
+    </div><br clear="all"><div id="collect_form_5908859"></div>
+    <div class="related_info"><a name="intro"></a><h2  >四十而惑的剧情简介 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div class="indent" id="link-report"><span class="short">　　<span property="v:summary">本片延续贾德·阿帕图《一夜大肚》剧情，主角换成片中年过四十、性格迥异的姐姐和姐夫，讲述他们焦头烂额的家庭故事。<br/>　　《一夜大肚》中的皮特（保罗·路德 Paul Rudd 饰）和德比（莱斯利·曼恩 Leslie Mann 饰）这对夫妻在婚姻生活中渐渐遭遇到了种种暗礁，首先是他们的资金链出了问题，其次是他们的父母年龄渐渐变大，不再像以前那么令人放心了，最后是他们自己走进了爱情的坟墓，激情和生活的乐趣也已经渐渐不再了。<br/>　　他们的两个女儿，8岁的卡罗特（艾瑞斯·阿帕图 Iris Apatow  饰）和13岁的萨迪（马蒂·阿帕图 Maude Apatow 饰），就是两个活宝，把原本已经有些令人焦头烂额的家庭搞的鸡飞狗跳。在这种情况下，皮特和德比已经走到了崩溃的边缘，他们之间的情绪也异常紧张。在这种情况下，他们只有携起手来，忘记之前的种种不快，原谅之前的种种错误，修正...</span> <a href="javascript:void(0)" class="j a_show_full">(展开全部)</a></span>
+                    <span class="all hidden">　　本片延续贾德·阿帕图《一夜大肚》剧情，主角换成片中年过四十、性格迥异的姐姐和姐夫，讲述他们焦头烂额的家庭故事。<br/>　　《一夜大肚》中的皮特（保罗·路德 Paul Rudd 饰）和德比（莱斯利·曼恩 Leslie Mann 饰）这对夫妻在婚姻生活中渐渐遭遇到了种种暗礁，首先是他们的资金链出了问题，其次是他们的父母年龄渐渐变大，不再像以前那么令人放心了，最后是他们自己走进了爱情的坟墓，激情和生活的乐趣也已经渐渐不再了。<br/>　　他们的两个女儿，8岁的卡罗特（艾瑞斯·阿帕图 Iris Apatow  饰）和13岁的萨迪（马蒂·阿帕图 Maude Apatow 饰），就是两个活宝，把原本已经有些令人焦头烂额的家庭搞的鸡飞狗跳。在这种情况下，皮特和德比已经走到了崩溃的边缘，他们之间的情绪也异常紧张。在这种情况下，他们只有携起手来，忘记之前的种种不快，原谅之前的种种错误，修正自己的婚姻，改善家人之间的关系，才能继续把这段婚姻维持下去。</span>　　 
+                    <br/></div>
+
+
+
+    <h2>
+        四十而惑的电影图片
+         &nbsp; &middot;&nbsp; &middot;&nbsp; &middot;&nbsp; &middot;&nbsp; &middot;&nbsp; &middot;
+            <span class="pl">(
+                <a href="http://movie.douban.com/subject/5908859/all_photos">全部55</a>&nbsp;|&nbsp; <a href="http://movie.douban.com/subject/5908859/mupload">我来添加</a>
+            ) </span>
+    </h2>
+
+
+    <ul class="pic-col5 clearfix">
+                <li>
+                <a href="http://movie.douban.com/photos/photo/1806932257/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1806932257.jpg" /></a>
+            </li>
+                <li>
+                <a href="http://movie.douban.com/photos/photo/1806931097/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1806931097.jpg" /></a>
+            </li>
+                <li>
+                <a href="http://movie.douban.com/photos/photo/1558106370/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1558106370.jpg" /></a>
+            </li>
+                <li>
+                <a href="http://movie.douban.com/photos/photo/1806932796/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1806932796.jpg" /></a>
+            </li>
+                <li class="last">
+                <a href="http://movie.douban.com/photos/photo/1806932720/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1806932720.jpg" /></a>
+            </li>
+    </ul>
+<div id="db-tags-section" class="blank20"><h2  >豆瓣成员常用的标签(共55个) &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div class="indent"><a href="http://movie.douban.com/tag/%E5%96%9C%E5%89%A7">喜剧</a>(152) &nbsp;<a href="http://movie.douban.com/tag/%E7%BE%8E%E5%9B%BD">美国</a>(136) &nbsp;<a href="http://movie.douban.com/tag/2012">2012</a>(79) &nbsp;<a href="http://movie.douban.com/tag/%E7%88%B1%E6%83%85">爱情</a>(27) &nbsp;<a href="http://movie.douban.com/tag/%E6%90%9E%E7%AC%91">搞笑</a>(19) &nbsp;<a href="http://movie.douban.com/tag/%E9%98%BF%E5%B8%95%E5%9B%BE">阿帕图</a>(13) &nbsp;<a href="http://movie.douban.com/tag/%E5%89%A7%E6%83%85">剧情</a>(13) &nbsp;<a href="http://movie.douban.com/tag/%E5%AE%B6%E5%BA%AD">家庭</a>(12) &nbsp;</div></div>
+
+
+<style type="text/css">
+.award li { display: inline; margin-right: 5px }
+.awards { margin-bottom: 20px }
+.awards h2 { background: none; color: #000; font-size: 14px; padding-bottom: 5px; margin-bottom: 8px; border-bottom: 1px dashed #dddddd }
+.awards .year { color: #666666; margin-left: -5px }
+.mod { margin-bottom: 25px }
+.mod .hd { margin-bottom: 10px }
+</style>
+
+
+
+<div id="db-rec-section" class="block5 subject_show knnlike"><h2  >喜欢看"四十而惑"的人也喜欢 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div class="content clearfix">
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/10539837/"><img class="m_sub_img" src="http://img3.douban.com/spic/s10175993.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/10539837/">工作男</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/6878468/"><img class="m_sub_img" src="http://img3.douban.com/spic/s7031537.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/6878468/">不忠者</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/2368587/"><img class="m_sub_img" src="http://img3.douban.com/spic/s3668436.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/2368587/">丑陋的真相</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/3927750/"><img class="m_sub_img" src="http://img5.douban.com/spic/s4720009.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/3927750/">两男变错身</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/3154908/"><img class="m_sub_img" src="http://img3.douban.com/spic/s8916114.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/3154908/">五年之约</a></dd>
+</dl>
+<dl class="clear"></dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/3326710/"><img class="m_sub_img" src="http://img5.douban.com/spic/s4706059.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/3326710/">亚瑟</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/2230893/"><img class="m_sub_img" src="http://img3.douban.com/spic/s4570490.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/2230893/">今晚带我回家</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/3569954/"><img class="m_sub_img" src="http://img3.douban.com/spic/s4487884.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/3569954/">侦探拍档</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/5327655/"><img class="m_sub_img" src="http://img3.douban.com/spic/s6989595.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/5327655/">像男人一样思考</a></dd>
+</dl>
+
+<dl>
+<dt>
+<a href="http://movie.douban.com/subject/2372586/"><img class="m_sub_img" src="http://img3.douban.com/spic/s3932301.jpg"/></a>
+</dt>
+<dd><a href="http://movie.douban.com/subject/2372586/">关于史蒂夫的一切</a></dd>
+</dl>
+<dl class="clear"></dl>
+
+</div></div>
+        <div id="comments-section">
+            <div class="mod-hd">
+                
+                <a class="redbutt j a_show_login rr" href="http://www.douban.com/register?reason=review" rel="nofollow">
+                    <span> 我来说两句 </span>
+                </a>
+                
+                <h2 id="comment_short_tab" class="green_tab clearfix">
+                    <span>四十而惑的短评&nbsp;&nbsp;· · · · · ·&nbsp;</span>
+                    <span class="pl">(<a href="comments">全部 108 条</a>)</span>
+                 </h2>
+            </div>
+        
+
+
+
+
+
+
+
+<div class="mod-bd">
+    
+        
+    <div class="tab-hd">
+        <a href="hot-comments" class="on">热门</a>
+        <a href="new-comments">最新</a>
+        <a href="following-comments"  class="j a_show_login">我关注的</a>
+    </div>
+
+    <div class="tab-bd">
+        <div id="hot-comments" class="tab">
+            
+    
+        <div class="clearfix subject-comment-item" data-cid="625778824">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="625778824" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/35790692/">饮歌</a></span>
+            <span class="fleft ml8">2013-01-05</span>
+                <span class="allstar30 rating" title="还行"></span>
+        </h3>
+        <p class="w550"> 阿帕图典型例作，前一个多小时倒是让人真正体会到了中年两口子的生活纠葛。只是导演太贪心，矛盾越支越多，摊子越来越大，最后几乎刹不住车，只能用两口子的简单交流收了所有矛盾，实在是唐突的有些惊人了。
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="627371519">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="627371519" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/yenkwok/">Yen Kwok</a></span>
+            <span class="fleft ml8">2013-01-09</span>
+                <span class="allstar30 rating" title="还行"></span>
+        </h3>
+        <p class="w550"> 当Debby大吼：“Stop eating the fxxking cupcake!&#34; 时真是太有感触了，哎
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="630787086">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="630787086" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/shiftworld/">睡不醒的不死鸟</a></span>
+            <span class="fleft ml8">2013-01-16</span>
+                <span class="allstar30 rating" title="还行"></span>
+        </h3>
+        <p class="w550"> 啰啰嗦嗦地讲了一堆中年夫妻破事儿，夹着黄段子和对音乐、美剧的吐槽。梅根·福克斯还要没事儿出来露个肉，Billie Joe、Ryan Adams还要乱入一下，稀里糊涂乱炖了一锅，仔细一想其实啥也没讲。
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="627732685">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="627732685" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/lizandliz/">Liz</a></span>
+            <span class="fleft ml8">2013-01-10</span>
+                <span class="allstar40 rating" title="推荐"></span>
+        </h3>
+        <p class="w550"> 算同类电影里面中上水平的了。
+        </p>
+    </div>
+ </div>
+
+
+
+            <a href="comments?sort=new_score">查看更多&raquo;</a>
+        </div>
+        <div id="new-comments" class="tab">
+            
+    
+        <div class="clearfix subject-comment-item" data-cid="627390520">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="627390520" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/overlysilly/">mideastspitfir</a></span>
+            <span class="fleft ml8">2013-01-09</span>
+                <span class="allstar30 rating" title="还行"></span>
+        </h3>
+        <p class="w550"> 又是dramedy 两个角色很不讨喜甚至有些mean-spirited 自传式材料standup或者podcast喜剧用用可以 cinematic喜剧光有日常笑话不够的 不过这好像是我第一次看到有电影提到在社交网络时代parenting的问题
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="630787086">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="630787086" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/shiftworld/">睡不醒的不死鸟</a></span>
+            <span class="fleft ml8">2013-01-16</span>
+                <span class="allstar30 rating" title="还行"></span>
+        </h3>
+        <p class="w550"> 啰啰嗦嗦地讲了一堆中年夫妻破事儿，夹着黄段子和对音乐、美剧的吐槽。梅根·福克斯还要没事儿出来露个肉，Billie Joe、Ryan Adams还要乱入一下，稀里糊涂乱炖了一锅，仔细一想其实啥也没讲。
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="627732685">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="627732685" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/lizandliz/">Liz</a></span>
+            <span class="fleft ml8">2013-01-10</span>
+                <span class="allstar40 rating" title="推荐"></span>
+        </h3>
+        <p class="w550"> 算同类电影里面中上水平的了。
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="631649839">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="631649839" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/sherrybb/">Cui</a></span>
+            <span class="fleft ml8">2013-01-18</span>
+                <span class="allstar40 rating" title="推荐"></span>
+        </h3>
+        <p class="w550"> 语言幽默，我喜欢。
+        </p>
+    </div>
+ </div>
+
+
+
+            <a href="comments?sort=time">查看更多&raquo;</a>
+        </div>
+        <div id="following-comments" class="tab">
+            
+    
+
+
+        <div class="clearfix subject-comment-item">
+            你关注的人还没写过短评
+        </div>
+
+            <a href="follows_comments">查看更多&raquo;</a>
+        </div>
+    </div>
+
+
+
+    
+    
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="reviews"></a>
+<div class="clear"></div>
+    
+    
+        <h2 class="clearfix">
+            四十而惑的影评&nbsp;&nbsp;· · · · · ·&nbsp;
+                <span class="pl">
+                    (<a href="http://movie.douban.com/subject/5908859/reviews">全部 1 条</a>)
+                </span>
+            
+    
+            <a class="redbutt rr j a_show_login" href="http://www.douban.com/register?reason=review" rel="nofollow"><span>我来评论这部电影</span></a>
+
+        </h2>
+
+
+
+    
+    
+    <h2 id="comment_tab" class="green_tab clearfix">
+        <a id="t_0" class="on" onclick="return switch_tab('t_0')" href="javascript:void(0)">
+            <span>
+                热门
+            </span>
+        </a>
+        <a id="t_1" class="" onclick="return switch_tab('t_1')" href="javascript:void(0)">
+            <span>
+                最新
+            </span>
+        </a>
+        <a id="t_2" class="j a_show_login" onclick="return switch_tab('t_2')" href="javascript:void(0)">
+            <span>
+                我关注的
+            </span>
+        </a>
+    </h2>
+        <div id="wt_0" class="">
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5718252" class="rr"><a id="af-5718252" rel="sw-False" href="http://movie.douban.com/review/5718252/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'5908859',itself:5718252})"/></a>
+                        <a id="au-5718252" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="40岁挺好的" href="http://movie.douban.com/review/5718252/">40岁挺好的</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/edisonlover/" title="鸡"><img class="pil" src="http://img3.douban.com/icon/u43827031-123.jpg" alt="鸡"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/edisonlover/">鸡</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5718252_short" class="review-short">
+                    如果人没有子女，其实40岁和20岁也没什么区别。比如俩人在酒店就挺high的。酒店里，俩人吃了marijuana cookie之后。。。
+
+1， Paul把香蕉和两个橙子摆在裤衩外头说，check it out, my dick and balls...然后咬了一口香蕉说，oh my god, I got to e......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-29 03:58:01 &nbsp; &nbsp; 1/2有用 </span>
+                    </div>
+                </div>
+                <div id="review_5718252_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+
+
+
+
+
+        </div>
+        <div id="wt_1" class="hidden">
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5718252" class="rr"><a id="af-5718252" rel="sw-False" href="http://movie.douban.com/review/5718252/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'5908859',itself:5718252})"/></a>
+                        <a id="au-5718252" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="40岁挺好的" href="http://movie.douban.com/review/5718252/">40岁挺好的</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/edisonlover/" title="鸡"><img class="pil" src="http://img3.douban.com/icon/u43827031-123.jpg" alt="鸡"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/edisonlover/">鸡</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5718252_short" class="review-short">
+                    如果人没有子女，其实40岁和20岁也没什么区别。比如俩人在酒店就挺high的。酒店里，俩人吃了marijuana cookie之后。。。
+
+1， Paul把香蕉和两个橙子摆在裤衩外头说，check it out, my dick and balls...然后咬了一口香蕉说，oh my god, I got to e......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-29 03:58:01 &nbsp; &nbsp; 1/2有用 </span>
+                    </div>
+                </div>
+                <div id="review_5718252_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+
+
+
+
+
+        </div>
+        <div id="wt_2" class="hidden">
+            
+        <div style="margin:20px 0;">你关注的人还没写过影评</div>
+
+        </div>
+
+
+
+<br/><h2  >四十而惑的论坛 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div id="db-discussion-section" class="indent"><table class="olt"><tr><td><td><td><td></tr>
+    <tr><td class="pl"><a href="http://movie.douban.com/subject/5908859/discussion/51234153/" title="DVDscr ！">DVDscr ！</a></td><td class="pl">来自<a href="http://movie.douban.com/people/lixiuyeyu/">山藥炖鴨舌頭</a></td><td class="pl">6 回应</td><td class="pl">2013-01-16</td></tr>
+        <tr><td class="pl"><a href="http://movie.douban.com/subject/5908859/discussion/47977747/" title="又有个人看过？？？？？？？？？？？？？？">又有个人看过？？？？？？？？？？？？？？</a></td><td class="pl">来自<a href="http://movie.douban.com/people/pandaisy/">总酱BANGBANG</a></td><td class="pl">10 回应</td><td class="pl">2012-12-28</td></tr>
+        </table>
+    </div></div>
+    <script type="text/javascript">
+        $(function(){if($.browser.msie && $.browser.version == 6.0){
+            var maxWidth = parseInt($('#info').css('max-width'));
+            if($('#info').width() > maxWidth)
+                $('#info').width(maxWidth)
+        }});
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+
+
+
+    <div id="dale_movie_subject_top_right"></div>
+    
+        <div id="dale_movie_subject_top_middle"></div>
+        
+
+
+
+<style type="text/css">
+    .m4 {margin-bottom:8px; padding-bottom:8px;}
+    .movieOnline {background:#FFF6ED; padding:10px; margin-bottom:20px;}
+    .movieOnline h2 {margin:0 0 5px;}
+    .movieOnline .sitename {line-height:2em; width:160px;}
+    .movieOnline td,.movieOnline td a:link,.movieOnline td a:visited{color:#666;}
+    .movieOnline td a:hover {color:#fff;}
+    .link-bt:link,
+    .link-bt:visited,
+    .link-bt:hover,
+    .link-bt:active {margin:5px 0 0; padding:2px 8px; background:#a8c598; color:#fff; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; display:inline-block;}
+</style>
+
+<h2>以下豆列推荐 · · · · · · <span class="pl">(<a href="http://movie.douban.com/subject/5908859/doulists">全部</a>)</span></h2><div id="db-doulist-section" class="indent"><ul class="bs"><li><a href="http://movie.douban.com/doulist/13921/">2013 豆瓣电影【口碑榜】01/16 更新</a>
+            <span class="pl">(芙蓉镇上影志叔)</span>
+                </li><li><a href="http://movie.douban.com/doulist/1200210/">2012新电影（这些，可以期待）</a>
+            <span class="pl">(桃桃林林)</span>
+                </li><li><a href="http://movie.douban.com/doulist/1276354/">2012—2018值得期待的好莱坞影片</a>
+            <span class="pl">(黑暗没有骑士)</span>
+                </li><li><a href="http://movie.douban.com/doulist/1697791/">FYC 2013年第85届奥斯卡备选影片</a>
+            <span class="pl">(放开那个浪味仙)</span>
+                </li><li><a href="http://movie.douban.com/doulist/1192180/">收集二流屎尿屁和非屎尿屁喜剧电影  之二</a>
+            <span class="pl">(窜)</span>
+                </li></ul></div><h2>谁看这部电影?</h2><div class="indent" id="collector"><div class="ll"><a href="http://movie.douban.com/people/softwind/"><img src="http://img3.douban.com/icon/u1047428-3.jpg" class="pil" alt="softwind"/></a></div>
+            <div style="padding-left:60px"><a href="http://movie.douban.com/people/softwind/">softwind</a><br/><div class="pl ll">1小时前想看</div><br/><span class="pl">tags:喜剧 美国 2012 家庭 人生</span></div><div class="clear"></div><br/><div class="ul" style="margin-bottom:12px;"></div><div class="ll"><a href="http://movie.douban.com/people/beckham7/"><img src="http://img3.douban.com/icon/u1082881-2.jpg" class="pil" alt="贾小炜"/></a></div>
+            <div style="padding-left:60px"><a href="http://movie.douban.com/people/beckham7/">贾小炜</a><br/><div class="pl ll">2小时前想看</div><br/></div><div class="clear"></div><br/><div class="ul" style="margin-bottom:12px;"></div><div class="ll"><a href="http://movie.douban.com/people/liiinda/"><img src="http://img3.douban.com/icon/u1202029-33.jpg" class="pil" alt="L:nda"/></a></div>
+            <div style="padding-left:60px"><a href="http://movie.douban.com/people/liiinda/">L:nda</a><br/><div class="pl ll">今天下午看过</div><span class="allstar40" title="推荐"></span><br/></div><div class="clear"></div><br/><div class="ul" style="margin-bottom:12px;"></div><div class="ll"><a href="http://movie.douban.com/people/53040458/"><img src="http://img3.douban.com/icon/u53040458-8.jpg" class="pil" alt="爱咖喱爱wasabi"/></a></div>
+            <div style="padding-left:60px"><a href="http://movie.douban.com/people/53040458/">爱咖喱爱wasabi</a><br/><div class="pl ll">今天下午想看</div><br/></div><div class="clear"></div><br/><div class="ul" style="margin-bottom:12px;"></div><p class="pl">&gt; <a href="http://movie.douban.com/subject/5908859/collections">292人看过</a></p><p class="pl">&gt; <a href="http://movie.douban.com/subject/5908859/wishes">1481人想看</a></p></div>
+
+
+
+
+    <h2>
+        喜欢这部电影的人常去
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/SNL/"><img src="http://img3.douban.com/icon/g125030-2.jpg" class="m_sub_img" alt="Saturday Night Live"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/SNL/">Saturday Night Live</a> 
+            <span>(6130)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/ryan-gosling/"><img src="http://img3.douban.com/icon/g16870-3.jpg" class="m_sub_img" alt="Ryan Sweet ♥ someday i&#39;d put u in my car"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/ryan-gosling/">Ryan Sweet ♥ somed...</a> 
+            <span>(1629)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/andysamberg/"><img src="http://img3.douban.com/icon/g43761-1.jpg" class="m_sub_img" alt="Andy Samberg"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/andysamberg/">Andy Samberg</a> 
+            <span>(773)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/Fassbender/"><img src="http://img3.douban.com/icon/g198264-4.jpg" class="m_sub_img" alt="Michael Fassbender"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/Fassbender/">Michael Fassbender</a> 
+            <span>(1212)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/RachelMcAdams/"><img src="http://img3.douban.com/icon/g44399-5.jpg" class="m_sub_img" alt="Rachel McAdams"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/RachelMcAdams/">Rachel McAdams</a> 
+            <span>(576)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/38323/"><img src="http://img3.douban.com/icon/g38323-1.jpg" class="m_sub_img" alt="james franco"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/38323/">james franco</a> 
+            <span>(1727)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/179209/"><img src="http://img3.douban.com/icon/g179209-1.jpg" class="m_sub_img" alt="Community 废柴联盟"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/179209/">Community 废柴联盟</a> 
+            <span>(1670)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/55217/"><img src="http://img3.douban.com/icon/g55217-1.jpg" class="m_sub_img" alt="桃桃林林"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/55217/">桃桃林林</a> 
+            <span>(4971)</span>
+    </dd>
+</dl>
+
+
+<div class="clear"></div>
+
+
+
+    <div id="dale_movie_subject_middle_right"></div>
+    
+
+
+
+<style type="text/css">
+</style>
+
+<div class="citysmr" style="width:98%;margin:0;padding:0;">
+    <h2>喜欢这部电影的人关注的活动 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;</h2>
+<ul>
+    
+    <li class="clearbox">
+    <div class="title"><a href="http://www.douban.com/event/18095996/">《热年》  独立影像计划</a></div>
+    <a href="http://www.douban.com/event/18095996/"><img src="http://img3.douban.com/pview/event_poster/sicon/public/b1327a8864931aa.jpg" class="actimgs"/></a>
+    <div class="evtdesc">
+        时间：2013-01-07 17:30<br/>
+        地点：绍兴 绍兴县 柯桥 西官塘 古村落<br/>24人关注
+    </div>
+    </li>
+    
+    <li class="clearbox">
+    <div class="title"><a href="http://www.douban.com/event/18134875/">绍兴沙画【视典沙画】邀你一起免费学沙画! </a></div>
+    <a href="http://www.douban.com/event/18134875/"><img src="http://img3.douban.com/pview/event_poster/sicon/public/76b49d6bfa0283d.jpg" class="actimgs"/></a>
+    <div class="evtdesc">
+        时间：2013-01-14 08:00<br/>
+        地点：绍兴 越城区 绍兴视典沙画<br/>8人关注
+    </div>
+    </li>
+    
+    <li class="clearbox">
+    <div class="title"><a href="http://www.douban.com/event/18100236/">遇见——来一场和陌生人的约会吧</a></div>
+    <a href="http://www.douban.com/event/18100236/"><img src="http://img3.douban.com/pview/event_poster/sicon/public/7e731af424ea517.jpg" class="actimgs"/></a>
+    <div class="evtdesc">
+        时间：2013-01-08 08:00<br/>
+        地点：绍兴 绍兴县 浙江省绍兴市环城西路508号绍兴文理学院河东校区<br/>42人关注
+    </div>
+    </li>
+</ul>
+</div>
+<br clear="all"/><p class="pl">&gt; <a href="http://movie.douban.com/subject/5908859/group_collectors">收藏这部电影的小组</a></p><br/><div class="clear"></div>
+<p class="pl">订阅四十而惑的影评: <br/><span class="feed">
+    <a href="http://movie.douban.com/feed/subject/5908859/reviews"> feed: rss 2.0</a></span></p>
+
+
+
+
+
+
+<div class="mobile-app-entrance block5 app-movie">
+
+    <a class="entrance-link first-link" href="http://www.douban.com/mobile/movie">
+        <span class="app-icon icon-movie"></span>
+        <span class="main-title">豆瓣电影客户端</span>
+        <span class="sub-title">让买票看电影更简单</span>
+    </a>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = 'http://erebor.douban.com/',
+            userId = '',
+            browserId = 'VKpIE5M+TuQ',
+            ipAddress = '122.236.48.167',
+            criteria = '3:/subject/5908859/',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_movie_subject_top_right', 'dale_movie_subject_top_middle', 'dale_movie_subject_middle_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, ip: ipAddress, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'http://img3.douban.com/js/packed_ad3738113870.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/37af16dc0af2bf37.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/subject/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/subject/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/subject/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper1 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

@@ -1,0 +1,1374 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        快乐到家 的影评 (70)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    
+    <meta name="keywords" content="快乐到家,影评,评论,观后感">
+    <meta name="description" content="快乐到家热门影评和最新影评,快乐到家电影评论">
+    <link rel="alternate" href="http://movie.douban.com/feed/subject/11610693/reviews" type="application/rss+xml" title="RSS">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/6dfdb53a5cbe25d8.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1>快乐到家 的影评 (70)</h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+    <h2 class="green_tab clearfix">
+        
+            
+    
+    <a href="javascript:;" class="on">
+        <span>热门影评</span>
+    </a>
+
+            
+    
+    <a href="http://movie.douban.com/subject/11610693/reviews?sort=time&amp;filter=" class="">
+        <span>最新影评</span>
+    </a>
+
+            
+    
+    <a href="http://movie.douban.com/subject/11610693/follows_reviews?filter=" class="j a_show_login">
+        <span>我关注的</span>
+    </a>
+
+
+    </h2>
+    
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5744207" class="rr"><a id="af-5744207" rel="sw-False" href="http://movie.douban.com/review/5744207/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5744207})"/></a>
+                        <a id="au-5744207" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="无下限，无智商，无剧情，无节操人拍了一部这种无下限，无智商，无剧情，无节操的片子" href="http://movie.douban.com/review/5744207/">无下限，无智商，无剧情，无节操人拍了一部这种...</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/elfz/" title="MysterioJr"><img class="pil" src="http://img3.douban.com/icon/u1201222-3.jpg" alt="MysterioJr"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/elfz/">MysterioJr</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5744207_short" class="review-short">
+                    我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？
+娘炮何炅在快乐大本营里说：
+如果这个片子的票房能过3亿，就如何如何。。。。
+旁边娘炮维嘉说：
+如果这个片子票房能过6亿，就如何如何。。。
+这优越感真尼玛爆棚啊
+想一下快乐大本营里的几个主持人
+谢娜，一个智商趋近于0的女人，主持这么多年节目，......
+                        <a class="pl" href="http://movie.douban.com/review/5744207/">(259回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-17 10:43:05 &nbsp; &nbsp; 1062/1146有用 </span>
+                    </div>
+                </div>
+                <div id="review_5744207_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5742054" class="rr"><a id="af-5742054" rel="sw-False" href="http://movie.douban.com/review/5742054/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5742054})"/></a>
+                        <a id="au-5742054" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="一！星！标！杆！大！开！眼！界！" href="http://movie.douban.com/review/5742054/">一！星！标！杆！大！开！眼！界！</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/collapsed/" title="神奇的狗狒狒"><img class="pil" src="http://img3.douban.com/icon/u54483830-5.jpg" alt="神奇的狗狒狒"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/collapsed/">神奇的狗狒狒</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5742054_short" class="review-short">
+                    我看这个片子确实是出于某种恶趣味，因为之前从没有看过3分以下的片子，今天打算见识一下。
+大概说说我的观后感吧..
+
+1.台词都是说烂了的网络段子，如同姜昆大爷的相声。
+但姜昆大爷的相声好歹只引用冷笑话啊，这片子还引用尼玛淫淫网的心灵鸡汤啊..而且连个铺垫都没有就莫名其妙的心灵鸡汤啊！！
+
+2.演员要么何炅之......
+                        <a class="pl" href="http://movie.douban.com/review/5742054/">(170回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-15 18:06:36 &nbsp; &nbsp; 528/554有用 </span>
+                    </div>
+                </div>
+                <div id="review_5742054_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5741811" class="rr"><a id="af-5741811" rel="sw-False" href="http://movie.douban.com/review/5741811/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5741811})"/></a>
+                        <a id="au-5741811" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="我无聊的去电影院看了，然后无聊的看了二十分钟实在挺不住出来了。" href="http://movie.douban.com/review/5741811/">我无聊的去电影院看了，然后无聊的看了二十分钟...</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/65535918/" title="ゞ紫轩№逐月"><img class="pil" src="http://img3.douban.com/icon/u65535918-3.jpg" alt="ゞ紫轩№逐月"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/65535918/">ゞ紫轩№逐月</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5741811_short" class="review-short">
+                    这绝对是我今年看过的最烂的电影。。
+剧情超烂
+演技超烂
+台词超烂
+唯一的亮点就是狗了，可见狗都比那几个脑残人都演的好
+首先说明，电影票不是我特意去买的，而是微博上不小心抽到奖了，反正是免费了就去看了。。。我承认要是我去之前先在豆豆上看下影评后，票就直接往火里一扔。。。现在我都后悔死了，那二十分钟感觉就是我今年......
+                        <a class="pl" href="http://movie.douban.com/review/5741811/">(51回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-15 15:50:53 &nbsp; &nbsp; 107/119有用 </span>
+                    </div>
+                </div>
+                <div id="review_5741811_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5744795" class="rr"><a id="af-5744795" rel="sw-False" href="http://movie.douban.com/review/5744795/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5744795})"/></a>
+                        <a id="au-5744795" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="一部你放在回收站，回收站都鄙视你的电影" href="http://movie.douban.com/review/5744795/">一部你放在回收站，回收站都鄙视你的电影</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/42851268/" title="木头王"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg" alt="木头王"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/42851268/">木头王</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5744795_short" class="review-short">
+                    实在没其他时间，又不想浪费免费票（这就是踩时限用票的后果），我去看了这部无下限的电影。看了三分钟，浑身的寒毛就开始全部起立，再看几分钟，一种晕眩的感觉，再坚持几分钟，胃液开始翻腾。最后，我实在忍受不了地跑出电影院。
+最让我反感的是她还拿狗说事，号称什么爱狗宣传。这根以“爱狗为名，捞钱为实”。狗狗很可爱，但更多的奇形怪......
+                        <a class="pl" href="http://movie.douban.com/review/5744795/">(16回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-17 18:19:46 &nbsp; &nbsp; 53/56有用 </span>
+                    </div>
+                </div>
+                <div id="review_5744795_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5742492" class="rr"><a id="af-5742492" rel="sw-False" href="http://movie.douban.com/review/5742492/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5742492})"/></a>
+                        <a id="au-5742492" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="作为一个不看电视的人..." href="http://movie.douban.com/review/5742492/">作为一个不看电视的人...</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/ciciloveizzy/" title="Cee_C"><img class="pil" src="http://img3.douban.com/icon/u2222809-38.jpg" alt="Cee_C"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/ciciloveizzy/">Cee_C</a>
+                    </span>
+                    <span class="allstar20" title="较差">
+                    </span>
+                </span>
+                <div id="review_5742492_short" class="review-short">
+                    作为一个不看电视不看芒果台不看快乐大本营快乐家族几个人名字叫不全的人...其实也对本片抱有挺高期望的=。=虽然boss不看好此片。但我还是幻想快乐家族的死忠粉会买帐...结果，今天！星期二！下午3：30的场次全满！于是还抱着说不定会比泰囧更有趣（但票房肯定没戏）的心态去观摩了。
+
+从开头就一直在很努力的挤笑点，但是......
+                        <a class="pl" href="http://movie.douban.com/review/5742492/">(20回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-15 23:36:57 &nbsp; &nbsp; 54/65有用 </span>
+                    </div>
+                </div>
+                <div id="review_5742492_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5746156" class="rr"><a id="af-5746156" rel="sw-False" href="http://movie.douban.com/review/5746156/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5746156})"/></a>
+                        <a id="au-5746156" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="《快乐到家》：以快乐的名义耍流氓" href="http://movie.douban.com/review/5746156/">《快乐到家》：以快乐的名义耍流氓</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/turbine/" title="MSC_51"><img class="pil" src="http://img3.douban.com/icon/u9611861-2.jpg" alt="MSC_51"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/turbine/">MSC_51</a>
+                    </span>
+                    <span class="allstar20" title="较差">
+                    </span>
+                </span>
+                <div id="review_5746156_short" class="review-short">
+                    　　声明：本人已脱离电视节目多年，虽然知晓《快乐大本营》这一节目，但从没有真切观看过完整一集，所以对“快乐家族”并没有成见，所以以下评论仅从电影出发，绝不是针对个人。
+
+　　作为引子，我想起了很久以前读到过的一篇文章，主要内容就是《读者》和《青年文摘》两本杂志的市场占有率和读者构成的关系，其中《读者》在一二线城市占......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-18 20:51:59 &nbsp; &nbsp; 3/4有用 </span>
+                    </div>
+                </div>
+                <div id="review_5746156_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5747452" class="rr"><a id="af-5747452" rel="sw-False" href="http://movie.douban.com/review/5747452/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5747452})"/></a>
+                        <a id="au-5747452" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="快乐大本营这帮人，他们总是自己玩得很嗨！？" href="http://movie.douban.com/review/5747452/">快乐大本营这帮人，他们总是自己玩得很嗨！？</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/ideavip/" title="大胃~染色T创意"><img class="pil" src="http://img3.douban.com/icon/u1817323-6.jpg" alt="大胃~染色T创意"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/ideavip/">大胃~染色T创意</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5747452_short" class="review-short">
+                    毫无笑料的几个人能一起主持一个节目这么多年已经是很奇葩了，当然刚开始的大本营我还是多喜欢看的，那个时候小，可以看的综艺节目不多。后来什么李维嘉，吴昕，谢娜加入后这个节目已经破碎得没有节操了，最后还来一个杜海涛，我插，这个肥头大耳的东西真的没有一点喜感啊，顶多是一个弱智的形象啊，我不是想骂他啊，只是他确实不会搞笑啊，他故......
+                        <a class="pl" href="http://movie.douban.com/review/5747452/">(6回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-19 22:41:35 &nbsp; &nbsp; 3/4有用 </span>
+                    </div>
+                </div>
+                <div id="review_5747452_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5744155" class="rr"><a id="af-5744155" rel="sw-False" href="http://movie.douban.com/review/5744155/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5744155})"/></a>
+                        <a id="au-5744155" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="水军表黑快乐到家好么！！！！" href="http://movie.douban.com/review/5744155/">水军表黑快乐到家好么！！！！</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/47345235/" title="嚼着口香糖的蛇"><img class="pil" src="http://img3.douban.com/icon/u47345235-1.jpg" alt="嚼着口香糖的蛇"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/47345235/">嚼着口香糖的蛇</a>
+                    </span>
+                    <span class="allstar20" title="较差">
+                    </span>
+                </span>
+                <div id="review_5744155_short" class="review-short">
+                    什么10分评2.7分，8月开拍1月影院上映非微电影，速度+1，狗狗可爱+3，狗狗名字叫乐乐+1（和汪涵老婆同名），快乐大本营快乐家族多年陪伴+2，何老师表演太用力了-2，so 5分！（非粉慎重！祭奠俺的45块，内牛，开场坡姐和海涛骑车是对着摄像机干骑的吧(就是在摄影棚摆辆车摆pose,原谅俺不懂专业术语）奠定了这部影片......
+                        <a class="pl" href="http://movie.douban.com/review/5744155/">(1回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-17 10:04:59 &nbsp; &nbsp; 10/12有用 </span>
+                    </div>
+                </div>
+                <div id="review_5744155_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5746512" class="rr"><a id="af-5746512" rel="sw-False" href="http://movie.douban.com/review/5746512/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5746512})"/></a>
+                        <a id="au-5746512" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="欧阳台长请收回你的坡姐" href="http://movie.douban.com/review/5746512/">欧阳台长请收回你的坡姐</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/43485680/" title="致命ID"><img class="pil" src="http://img3.douban.com/icon/u43485680-2.jpg" alt="致命ID"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/43485680/">致命ID</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5746512_short" class="review-short">
+                       如果这东西也叫电影的话，那我以后就告别电影改看荤段子的二人传了，因为都比这东西高雅。
+   自从谢女生被刘先生甩了之后，她的智商和品德都趋向了负值，看着人家生儿育女幸福美满，她也要穿着那城乡接合部发廊妹最爱的自创品牌和闰土先生出来秀一秀，其实我挺可怜那闰土先生的，我感觉他就是来满足谢疯子虚荣心的代替品。
+   我......
+                        <a class="pl" href="http://movie.douban.com/review/5746512/">(1回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-19 01:06:27 &nbsp; &nbsp; 2/2有用 </span>
+                    </div>
+                </div>
+                <div id="review_5746512_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5744049" class="rr"><a id="af-5744049" rel="sw-False" href="http://movie.douban.com/review/5744049/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5744049})"/></a>
+                        <a id="au-5744049" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="儿童片？！" href="http://movie.douban.com/review/5744049/">儿童片？！</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/1010630/" title="coolnay"><img class="pil" src="http://img3.douban.com/icon/u1010630-5.jpg" alt="coolnay"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/1010630/">coolnay</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5744049_short" class="review-short">
+                    花钱看了部傻傻的儿童片。。。电影院里笑的最多的基本都是小朋友。。。我是被这片子雷到了，导演编剧真弱。。。几个主持演员本就不专业，也不必提了。该片如果定位是儿童片可以勉强打个5分6分的，但打着温馨爆笑喜剧片的旗号大肆宣传来骗我们成年人的钱，尼玛！我只能给1星了。。。烂！......
+                        <a class="pl" href="http://movie.douban.com/review/5744049/">(5回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-17 03:53:51 &nbsp; &nbsp; 8/9有用 </span>
+                    </div>
+                </div>
+                <div id="review_5744049_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5745304" class="rr"><a id="af-5745304" rel="sw-False" href="http://movie.douban.com/review/5745304/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5745304})"/></a>
+                        <a id="au-5745304" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="有黑星星吗？可以打负分吗？" href="http://movie.douban.com/review/5745304/">有黑星星吗？可以打负分吗？</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/6600662/" title="浮生其一"><img class="pil" src="http://img3.douban.com/icon/u6600662-4.jpg" alt="浮生其一"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/6600662/">浮生其一</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5745304_short" class="review-short">
+                           团购了电影票，本来想看一代宗师的，结果还要加15元，问有什么不加钱的，说是泰囧和此片，泰囧看过了，无奈走上了不归路。
+       有点智商的，都看不懂此片的起承转合，不是人的逻辑，完全指哪打哪，想怎么来怎么来。情节极度拖沓，表演极度浮夸，笑点极度无聊，可惜了倪大红老师的一世英名。杜海涛的倔强萝卜，何炅......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-18 02:51:05 &nbsp; &nbsp; 8/9有用 </span>
+                    </div>
+                </div>
+                <div id="review_5745304_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5748371" class="rr"><a id="af-5748371" rel="sw-False" href="http://movie.douban.com/review/5748371/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5748371})"/></a>
+                        <a id="au-5748371" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="快乐到家很，很搞笑，很感人！" href="http://movie.douban.com/review/5748371/">快乐到家很，很搞笑，很感人！</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/68263050/" title="糖糖"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg" alt="糖糖"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/68263050/">糖糖</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5748371_short" class="review-short">
+                           刚看何炅出来的时候表情很严肃，气氛很重，很有故事。吴昕表演的大小姐很到位，故事由大小姐选狗参加比赛开始，自己亲身去寻找心目中的狗，在最后一家宠物店 找到了 流浪狗的乐乐，但是乐乐很没教养，大小姐找来了何炅维嘉扮演的兄弟训狗师来训练乐乐，乐乐在训练的过程中和何炅培养除了感情，在举办乐乐参加比赛入围的宴会上，......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-20 18:42:17 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5748371_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        <div class="fold-hd">
+            <a class="btn-unfold" href="#">有一些影评被折叠了</a>
+            <a class="qa" href="/help/opinion#t1-qs" target="_blank">为什么被折叠？</a>
+            <div class="qa-tip">
+                评论被折叠，是因为发布这条评论的帐号行为异常。评论仍可以被展开阅读，对发布人的账号不造成其他影响。如果认为有问题，可以<a href="http://help.douban.com/help/ask?category=movie">联系</a>豆瓣电影。
+            </div>
+        </div>
+        <div class="fold-bd">
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5744195" class="rr"><a id="af-5744195" rel="sw-False" href="http://movie.douban.com/review/5744195/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5744195})"/></a>
+                        <a id="au-5744195" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="我真的不是水军" href="http://movie.douban.com/review/5744195/">我真的不是水军</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/pandira/" title="tiffany"><img class="pil" src="http://img3.douban.com/icon/u44817562-2.jpg" alt="tiffany"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/pandira/">tiffany</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5744195_short" class="review-short">
+                    电影可以没有良心，做人一定要有良心，你们都不要再黑快乐到家了，我这条命是它救的。我出车祸在医院躺了4年，医生都说没有救了，有一天，护士打开电视，正好在放快乐到家的预告片，我挣扎着起来把电视给关了。
+
+
+有些人就是不懂幽默，人家救了我，我给5星不对么？......
+                        <a class="pl" href="http://movie.douban.com/review/5744195/">(68回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-17 10:37:53 &nbsp; &nbsp; 277/296有用 </span>
+                    </div>
+                </div>
+                <div id="review_5744195_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5743164" class="rr"><a id="af-5743164" rel="sw-False" href="http://movie.douban.com/review/5743164/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5743164})"/></a>
+                        <a id="au-5743164" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="原来还有这么烂的电影" href="http://movie.douban.com/review/5743164/">原来还有这么烂的电影</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/48551498/" title="共产主义青年"><img class="pil" src="http://img3.douban.com/icon/u48551498-3.jpg" alt="共产主义青年"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/48551498/">共产主义青年</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5743164_short" class="review-short">
+                    最近好多只脑残一直向我推荐马桶台拍的某部烂片，我只想借用朝廷台的一评论来抒发我的心情“不管它上映之前或是之后多么喧闹，时间会飞快的证明这是一部根本不需要被记住的电影，这部电影唯一的价值就是告诉我们——原来还有这么烂的电影”
+
+真的，此片又一次刷新了国产电影的下限。它会是最烂的国产电影吗？不，因为我听说制片方明年还要......
+                        <a class="pl" href="http://movie.douban.com/review/5743164/">(29回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-16 14:43:06 &nbsp; &nbsp; 67/70有用 </span>
+                    </div>
+                </div>
+                <div id="review_5743164_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5742612" class="rr"><a id="af-5742612" rel="sw-False" href="http://movie.douban.com/review/5742612/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5742612})"/></a>
+                        <a id="au-5742612" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="真的忍不住吐槽一万次以平浪费两个小时生命的愤怒！！" href="http://movie.douban.com/review/5742612/">真的忍不住吐槽一万次以平浪费两个小时生命的愤...</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/Msmint/" title="浅_颜"><img class="pil" src="http://img3.douban.com/icon/u56876706-4.jpg" alt="浅_颜"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/Msmint/">浅_颜</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5742612_short" class="review-short">
+                    在豆瓣从来都是当一名沉默的潜水员，只看不评。
+可是今天！我真的忍不住了！
+本来说考完试去看场电影愉悦一下氛围，奈何1、一代宗师没有合适场次2、晚上还要回寝室不然得被宿舍阿姨骂死3、。。朋友是快乐家族的xx粉。。于是我就拿着票 走进了那个可怕的2号厅。。。。
+然后就在心里我操了将近两个小时
+这电影是脑残么，导演你......
+                        <a class="pl" href="http://movie.douban.com/review/5742612/">(29回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-16 01:54:06 &nbsp; &nbsp; 72/76有用 </span>
+                    </div>
+                </div>
+                <div id="review_5742612_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5730359" class="rr"><a id="af-5730359" rel="sw-False" href="http://movie.douban.com/review/5730359/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5730359})"/></a>
+                        <a id="au-5730359" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="喜剧片也是要有诚意的。" href="http://movie.douban.com/review/5730359/">喜剧片也是要有诚意的。</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/54907599/" title="poer"><img class="pil" src="http://img3.douban.com/icon/u54907599-9.jpg" alt="poer"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/54907599/">poer</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5730359_short" class="review-short">
+                     作为一部喜剧，它最重要的就是有诚意，观众才会买来看，别的剧最大的意识也是要有诚意，这样才会博得观众的尊重。
+像这样一部NC片，完全当观众是傻子，要好笑没好笑，要剧情没剧情，要尊重没尊重，真以为观众是傻逼会买来秀逗啊？？
+还有TM的连一个角色的名字都好不到哪儿去，对，叫坡姐！你没听错，一个角色能叫坡姐！这样就看的出......
+                        <a class="pl" href="http://movie.douban.com/review/5730359/">(69回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-07 18:35:36 &nbsp; &nbsp; 80/111有用 </span>
+                    </div>
+                </div>
+                <div id="review_5730359_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5743246" class="rr"><a id="af-5743246" rel="sw-False" href="http://movie.douban.com/review/5743246/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5743246})"/></a>
+                        <a id="au-5743246" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="让快乐家族掉价的电影" href="http://movie.douban.com/review/5743246/">让快乐家族掉价的电影</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/14979755/" title="董岳奇"><img class="pil" src="http://img3.douban.com/icon/u14979755-2.jpg" alt="董岳奇"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/14979755/">董岳奇</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5743246_short" class="review-short">
+                    最让人受不了的是无论是微博还是贴吧都在努力营造一个电影很好看，
+大家都在争着买票的假象，
+快乐到家首映和明星的强大号召力无需置疑，
+VIP厅座无虚席，
+而且可以看到的是携带儿童的家长居多，
+我们始终把快乐到家当做快乐大本营的15年特辑电影版，
+对于这样一期伴随了我们15年的娱乐节目我们真心乐于奉献，
+我也......
+                        <a class="pl" href="http://movie.douban.com/review/5743246/">(2回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-16 15:42:44 &nbsp; &nbsp; 6/6有用 </span>
+                    </div>
+                </div>
+                <div id="review_5743246_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5747000" class="rr"><a id="af-5747000" rel="sw-False" href="http://movie.douban.com/review/5747000/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5747000})"/></a>
+                        <a id="au-5747000" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="看看导演是如何来评价自己的作品" href="http://movie.douban.com/review/5747000/">看看导演是如何来评价自己的作品</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/59980445/" title="Madao"><img class="pil" src="http://img3.douban.com/icon/u59980445-3.jpg" alt="Madao"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/59980445/">Madao</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5747000_short" class="review-short">
+                    
+虽然《快乐到家》被一些人恶意攻击，但傅华阳导演觉得没有必要回应，好作品观众自然会喜欢，即便它被恶意谩骂，“我知道冯小刚[微博]的《一九四二》和陆川[微博]的《王的盛宴》上映的时候网络水军也在严重诋毁，还闹出黑水和白水在电影评论网站互骂对掐的事件，《泰囧》也被骂“三俗”，我觉得回应恶意抹黑、恶语相向没这个必要，我觉得......
+                        <a class="pl" href="http://movie.douban.com/review/5747000/">(1回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-19 16:46:55 &nbsp; &nbsp; 4/4有用 </span>
+                    </div>
+                </div>
+                <div id="review_5747000_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5741310" class="rr"><a id="af-5741310" rel="sw-False" href="http://movie.douban.com/review/5741310/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5741310})"/></a>
+                        <a id="au-5741310" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="看完，想吐。。" href="http://movie.douban.com/review/5741310/">看完，想吐。。</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/53782024/" title="非小泥"><img class="pil" src="http://img3.douban.com/icon/u53782024-2.jpg" alt="非小泥"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/53782024/">非小泥</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5741310_short" class="review-short">
+                    说它是八十年代喜剧片水准都抬高了它，整场感觉被硬行挠痒痒却还是一点笑不出来的感觉。坐在座位上痛苦地来回思考一个问题：现在就走吧，再忍忍吧，好心疼票钱啊，实在太折磨人了，演员为什么自己不停大笑？他们自己都什么笑点啊？观众一点笑声也没有，是都在生闷气么？。。。太难看了！！！实在是太太难看了！都是在演即兴的小品吧，最糟糕的，......
+                        <a class="pl" href="http://movie.douban.com/review/5741310/">(3回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-15 10:56:18 &nbsp; &nbsp; 17/18有用 </span>
+                    </div>
+                </div>
+                <div id="review_5741310_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5744376" class="rr"><a id="af-5744376" rel="sw-False" href="http://movie.douban.com/review/5744376/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'11610693',itself:5744376})"/></a>
+                        <a id="au-5744376" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="这部电影的唯一好处是，可以瞬间测定智商" href="http://movie.douban.com/review/5744376/">这部电影的唯一好处是，可以瞬间测定智商</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/48094334/" title="navalyang"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg" alt="navalyang"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/48094334/">navalyang</a>
+                    </span>
+                    <span class="allstar10" title="很差">
+                    </span>
+                </span>
+                <div id="review_5744376_short" class="review-short">
+                    上微博一搜，尼玛居然有不少智商下限的二货在大抹眼泪的支持
+
+T-sweety甜：@快乐大本营 @快乐到家 昨晚看的，忘记发微薄了。客观的说，我咋感觉主角不是你们5个，而是乐乐呢？似乎笑点也都在乐乐身上 不过看得出快乐家族的每一个成员都是认真努力的再演。相信3亿票房指日可待！
+宗媛love：唉，肿么说呢！这部电影真......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-17 13:00:30 &nbsp; &nbsp; 7/8有用 </span>
+                    </div>
+                </div>
+                <div id="review_5744376_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        </div>
+
+
+
+
+
+    
+    
+    
+    <div id="paginator">
+            <span class="first">第一页</span> /
+            <span class="prev">前一页</span> /
+            <a href="?start=78&amp;filter=&amp;limit=20" data-page="" class="next">后一页</a>
+        <span class="total">(共 70 条)</span>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+        
+    <h2>
+        按评分查看影评
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+    <div class="rating_list clearfix">
+        <ul>
+                <li class='on' >
+                    <a href="http://movie.douban.com/subject/11610693/reviews?score=">
+                       <span>全部 - 70</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/11610693/reviews?score=5">
+                       <span>5星 - 5</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/11610693/reviews?score=4">
+                       <span>4星 - 4</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/11610693/reviews?score=3">
+                       <span>3星 - 2</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/11610693/reviews?score=2">
+                       <span>2星 - 11</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/11610693/reviews?score=1">
+                       <span>1星 - 48</span>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div>
+        <a href="http://movie.douban.com/subject/11610693/"><img alt="快乐到家" title="快乐到家" src="http://img3.douban.com/mpic/s24585226.jpg"/></a>
+    </div>
+    <p class="pl2">&gt; <a href="http://movie.douban.com/subject/11610693/">去快乐到家的页面</a></p>
+    
+    <h2>
+        用你的鼠标投票
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+    <div class="indent">
+        <span class="pl">
+            如果你觉得一篇评论对你有帮助，请你点击“有用”。你的投票直接决定哪些评论出现在豆瓣首页和“豆瓣最受欢迎的评论”里，以及在书、电影和音乐介绍页里评论的排序。
+            <br/>
+            <br/>
+            所有“没用”的点击都是匿名的。
+        </span>
+    </div>
+    <br/>
+    <br/>
+    
+    
+<p class="pl">订阅快乐到家的影评: <br/><span class="feed">
+    <a href="http://movie.douban.com/feed/subject/11610693/reviews"> feed: rss 2.0</a></span></p>
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/5f95afa3d50334d7.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- hogg2-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

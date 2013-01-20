@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>【值得期待的新片】</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="【值得期待的新片】">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>【值得期待的新片】</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/bladerunner2/"><img src="http://img3.douban.com/icon/u1090084-326.jpg" align="left" alt="大宸"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/bladerunner2/">大宸 </a><br />
+        创建时间: 2010-09-16 08:36:12　最后修改时间: 2013-01-11 16:58:28</p><p class="indent">　　最爱科幻电影和恐怖电影，然后再看演员和导演...<br/>　　<br/>　　一旦出资源或者电影院看完就删之....<br/>　　（不断更新中......）<br/></p>
+        </div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-730752"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">357人</span>
+</div>
+<div class="filters">全部电影(142)</div>
+    <p id="sb20020577" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/20020577/"><img width="80" src="http://img5.douban.com/spic/s24473389.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-07 12:33:01添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/20020577/">推拿</a>
+    
+    </div>
+    <p class="pl">导演 : 娄烨 Ye Lou<br/>主演 : 郭晓冬 Xiaodong Guo/秦昊 Hao Qin/黄轩 Xuan Huang/梅婷 Ting Mei</p><p><span class="pl">评语</span> : 娄烨新作</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2049435" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2049435/"><img width="80" src="http://img3.douban.com/spic/s24471198.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-09-16 09:16:03添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/2049435/">超人：钢铁之躯 Man of Steel</a>
+    
+    </div>
+    <p class="pl">导演 : 扎克·施奈德 Zack Snyder<br/>主演 : 亨利·卡维尔 Henry Cavill/艾米·亚当斯 Amy Adams/迈克尔·珊农 Michael Shannon/凯文·科斯特纳 Kevin Costner/戴安·琳恩 Diane Lane/罗素·克劳 Russell Crowe</p><p><span class="pl">评语</span> : 《惊天战神》中帅气主角亨利·卡维尔出演“超人”，扎克·施奈德执导，诺兰做编剧！</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3627216" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3627216/"><img width="80" src="http://img3.douban.com/spic/s9110940.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-02-09 18:45:15添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/3627216/">天堂：爱 Paradies: Liebe</a>
+    
+    </div>
+    <p class="pl">导演 : 尤里西·塞德尔 Ulrich Seidl<br/>主演 : Maria Hofstätter/Margarete Tiesel/Inge Maux/Peter Kazungu/Gabriel Mwarua/Carlos Mkutano</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3231740" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3231740/"><img width="80" src="http://img3.douban.com/spic/s22898993.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-03-14 22:21:20添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/3231740/">侠探杰克 Jack Reacher</a>
+    
+    </div>
+    <p class="pl">导演 : 克里斯托弗·麦奎里 Christopher McQuarrie<br/>主演 : 汤姆·克鲁斯 Tom Cruise/罗莎蒙德·派克 Rosamund Pike/理查·詹金斯 Richard Jenkins/沃纳·赫尔佐格 Werner Herzog/罗伯特·杜瓦尔 Robert Duvall/大卫·奥伊罗 David Oyelowo/Joseph Sikora</p><p><span class="pl">评语</span> : 汤姆·克鲁斯新作</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3821067" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3821067/"><img width="80" src="http://img3.douban.com/spic/s24591423.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-11-02 07:06:16添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/3821067/">一代宗师 一代宗師</a>
+    
+    </div>
+    <p class="pl">导演 : 王家卫 Kar Wai Wong<br/>主演 : 梁朝伟 Tony Leung Chiu Wai/章子怡 Ziyi Zhang/张震 Chen Chang/宋慧乔 Hye-kyo Song/赵本山 Benshan Zhao/小沈阳 Xiao Shen-Yang/王庆祥 Qingxiang Wang/张晋 Jin Zhang/卢海鹏 Hoi-Pang Lo/冯克安 Hark-On Fung/刘家勇/张智霖 Julian Cheung/金士杰 Shi-Jye Jin/徐锦江 Elvis Tsui/刘洵 Shun Lau</p><p><span class="pl">评语</span> : 王家卫磨磨蹭蹭终于把这部电影拍完了，只不过演员阵容真没多大兴趣...</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6959152" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6959152/"><img width="80" src="http://img3.douban.com/spic/s7010048.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-01-28 07:17:16添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/6959152/">诺亚 Noah</a>
+    
+    </div>
+    <p class="pl">导演 : 达伦·阿伦诺夫斯基 Darren Aronofsky<br/>主演 : 罗素·克劳 Russell Crowe/罗根·勒曼 Logan Lerman/道格拉斯·布斯 Douglas Booth/詹妮弗·康纳利 Jennifer Connelly</p><p><span class="pl">评语</span> : 达伦新作</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6433905" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6433905/"><img width="80" src="http://img3.douban.com/spic/s11169725.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-06-02 11:48:47添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/6433905/">大师 The Master</a>
+    
+    </div>
+    <p class="pl">导演 : 保罗·托马斯·安德森 Paul Thomas Anderson<br/>主演 : 杰昆·菲尼克斯 Joaquin Phoenix/菲利普·塞默·霍夫曼 Philip Seymour Hoffman/艾米·亚当斯 Amy Adams/杰西·普莱蒙 Jesse Plemons/劳拉·邓恩 Laura Dern</p><p><span class="pl">评语</span> : 保罗·托马斯·安德森新作...</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3212400" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3212400/"><img width="80" src="http://img3.douban.com/spic/s24423654.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-08-11 20:32:10添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/3212400/">鬼玩人 Evil Dead</a>
+    
+    </div>
+    <p class="pl">导演 : Fede Alvarez<br/>主演 : 简·拉维 Jane Levy/希罗·弗南德兹 Shiloh Fernandez/杰西卡·卢卡斯 Jessica Lucas/卢·泰勒·普奇 Lou Taylor Pucci/Elizabeth Blackmore</p><p><span class="pl">评语</span> : 《恐慌发作！》导演Federico Alvarez翻拍新版《鬼玩人》</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4301181" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4301181/"><img width="80" src="http://img3.douban.com/spic/s9099728.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-09-16 09:22:04添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/4301181/">特种部队2：复仇 G.I. Joe: Retaliation</a>
+    
+    </div>
+    <p class="pl">导演 : 朱浩伟 Jon M. Chu<br/>主演 : 查宁·塔图姆 Channing Tatum/布鲁斯·威利斯 Bruce Willis/道恩·强森 Dwayne Johnson/阿德琳妮·帕里奇 Adrianne Palicki/雷·史蒂文森 Ray Stevenson/沃尔顿·戈金斯 Walton Goggins/雷·帕克 Ray Park/约瑟夫·梅泽罗 Joseph Mazzello/阿诺德·沃斯洛 Arnold Vosloo/RZA/李秉宪 Lee Byeong-Heon</p><p><span class="pl">评语</span> : 蛮喜欢第一部...</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6126442" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6126442/"><img width="80" src="http://img3.douban.com/spic/s9166916.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-06-09 07:04:43添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/6126442/">一步之遥</a>
+    
+    </div>
+    <p class="pl">导演 : 姜文 Wen Jiang<br/>主演 : 姜文 Wen Jiang/葛优 You Ge/巩俐 Li Gong</p><p><span class="pl">评语</span> : 姜文新作</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5996801" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5996801/"><img width="80" src="http://img3.douban.com/spic/s11160587.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-08-16 08:36:34添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/5996801/">狄仁杰前传</a>
+    
+    </div>
+    <p class="pl">导演 : 徐克 Hark Tsui<br/>主演 : 赵又廷 Mark Chao/杨颖 Angelababy/林更新 Gengxin Lin/金泛 Beom Kim/刘嘉玲 Carina Lau/冯绍峰 William Feng</p><p><span class="pl">评语</span> : 赵又廷+杨颖+“林更新“！</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3931898" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3931898/"><img width="80" src="http://img3.douban.com/spic/s6571881.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-09-01 01:23:52添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/3931898/">送冰的人 The Iceman</a>
+    
+    </div>
+    <p class="pl">导演 : Ariel Vromen<br/>主演 : 迈克尔·珊农 Michael Shannon/克里斯·埃文斯 Chris Evans/薇诺娜·瑞德 Winona Ryder/雷·利奥塔 Ray Liotta/詹姆斯·弗兰科 James Franco</p><p><span class="pl">评语</span> : 克里斯·埃文斯+詹姆斯·弗兰科+薇诺娜·瑞德 </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5317291" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5317291/"><img width="80" src="http://img3.douban.com/spic/s24471240.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-08-15 17:32:27添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/5317291/">大闹天宫</a>
+    
+    </div>
+    <p class="pl">导演 : 郑保瑞 Pou-Soi Cheang<br/>主演 : 甄子丹 Donnie Yen/夏梓桐 Zitong Xia/周润发 Yun-Fat Chow/郭富城 Aaron Kwok/陈乔恩 Joe Chan/何润东 Peter Ho/梁咏琪 Gigi Leung/陈慧琳 Kelly Chen/张兆辉 Siu-Fai Cheung/海一天 Yitian Hai/刘桦 Hua Liu/汪圆圆 Irene Wong/郑家星 Jiaxing Zheng</p><p><span class="pl">评语</span> : 郑保瑞新作+群星，不过制片人怎么是阿甘~~</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3895511" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3895511/"><img width="80" src="http://img3.douban.com/spic/s24485304.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-01-25 22:22:57添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/3895511/">遗忘 Oblivion</a>
+    
+    </div>
+    <p class="pl">导演 : 约瑟夫·科辛斯基 Joseph Kosinski<br/>主演 : 汤姆·克鲁斯 Tom Cruise/摩根·弗里曼 Morgan Freeman/欧嘉·柯瑞兰寇 Olga Kurylenko/尼可拉·科斯特-瓦尔道 Nikolaj Coster-Waldau/佐伊·贝尔 Zoe Bell/梅丽莎·里奥 Melissa Leo/安德丽亚·瑞斯波罗格 Andrea Riseborough</p><p><span class="pl">评语</span> :  汤姆·克鲁斯</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2132473" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2132473/"><img width="80" src="http://img3.douban.com/spic/s24149575.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-10-26 04:02:40添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/2132473/">僵尸世界大战 World War Z</a>
+    
+    </div>
+    <p class="pl">导演 : 马克·福斯特 Marc Forster<br/>主演 : 布拉德·皮特 Brad Pitt/米瑞·伊诺丝 Mireille Enos/艾德·哈里斯 Ed Harris</p><p><span class="pl">评语</span> : 我对Marc Forster失望透了，但是布拉德皮特的加入可以弥补很多遗憾</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3071441" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3071441/"><img width="80" src="http://img3.douban.com/spic/s4098757.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-09-16 08:49:33添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/3071441/">雪国列车 설국 열차</a>
+    
+    </div>
+    <p class="pl">导演 : 奉俊昊 Joon-ho Bong<br/>主演 : 宋康昊 Kang-ho Song/蒂尔达·斯文顿 Tilda Swinton/克里斯·埃文斯 Chris Evans/杰米·贝尔 Jamie Bell/约翰·赫特 John Hurt/艾丽森·皮尔 Alison Pill/艾文·布莱纳 Ewen Bremner/艾德·哈里斯 Ed Harris/奥克塔维亚·斯宾瑟  Octavia Spencer</p><p><span class="pl">评语</span> : 奉俊昊执导
+</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4896894" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4896894/"><img width="80" src="http://img3.douban.com/spic/s24478003.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-07-22 22:56:56添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/4896894/">斯托克 Stoker</a>
+    
+    </div>
+    <p class="pl">导演 : 朴赞郁 Chan-wook Park<br/>主演 : 米娅·华希科沃斯卡 Mia Wasikowska/妮可·基德曼 Nicole Kidman/马修·古迪 Matthew Goode/德蒙特·莫罗尼 Dermot Mulroney/卢卡斯·提尔 Lucas Till/阿尔登·埃伦瑞奇 Alden Ehrenreich/杰基·韦佛 Jacki Weaver</p><p><span class="pl">评语</span> : 朴赞郁新作</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4156402" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4156402/"><img width="80" src="http://img5.douban.com/spic/s11187619.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-07-12 10:33:46添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/4156402/">背水一战 The Last Stand</a>
+    
+    </div>
+    <p class="pl">导演 : 金知云 Jee-woon Kim<br/>主演 : 阿诺·施瓦辛格 Arnold Schwarzenegger/福里斯特·惠特克 Forest Whitaker/罗德里格·桑托罗 Rodrigo Santoro/杰米·亚历山大 Jaimie Alexander/彼得·斯特曼 Peter Stormare/约翰尼·诺克斯维尔 Johnny Knoxville</p><p><span class="pl">评语</span> : 金知云+施瓦辛格</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5954958" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5954958/"><img width="80" src="http://img3.douban.com/spic/s9109414.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-01-29 19:42:36添加</span>
+        19. 
+    <a href="http://movie.douban.com/subject/5954958/">光之后 Post Tenebras Lux</a>
+    
+    </div>
+    <p class="pl">导演 : 卡洛斯·雷加达斯 Carlos Reygadas<br/>主演 : Nathalia Acevedo/Adolfo Jiménez Castro/Willebaldo Torres</p><p><span class="pl">评语</span> : 不吃水果推荐，卡洛斯新作~~</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5995338" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5995338/"><img width="80" src="http://img3.douban.com/spic/s10169534.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-26 15:43:05添加</span>
+        20. 
+    <a href="http://movie.douban.com/subject/5995338/">如沐爱河 Like Someone in Love</a>
+    
+    </div>
+    <p class="pl">导演 : 阿巴斯·基亚罗斯塔米 Abbas Kiarostami<br/>主演 : 高梨临 Rin Takanashi/奥野匡 Tadashi Okuno/加濑亮 Ryo Kase/点点 Denden</p><p><span class="pl">评语</span> : 阿巴斯新作</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3415993" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3415993/"><img width="80" src="http://img3.douban.com/spic/s24509998.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-03-03 00:49:40添加</span>
+        21. 
+    <a href="http://movie.douban.com/subject/3415993/">杰克和巨人 Jack the Giant Slayer</a>
+    
+    </div>
+    <p class="pl">导演 : 布莱恩·辛格 Bryan Singer<br/>主演 : 尼古拉斯·霍尔特 Nicholas Hoult/嘉玛·沃德 Gemma Ward/亚伦·约翰逊 Aaron Johnson/伊万·麦克格雷格 Ewan McGregor/艾莉诺·汤姆林森 Eleanor Tomlinson/伊恩·麦柯肖恩 Ian McShane/埃迪·马森 Eddie Marsan/比尔·奈伊 Bill Nighy/史坦利·图齐 Stanley Tucci/艾文·布莱纳 Ewen Bremner</p><p><span class="pl">评语</span> : Bryan Singer新作，Nicholas Hoult参演！</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3364223" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3364223/"><img width="80" src="http://img3.douban.com/spic/s8963172.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-06-11 01:07:27添加</span>
+        22. 
+    <a href="http://movie.douban.com/subject/3364223/">了不起的盖茨比 The Great Gatsby</a>
+    
+    </div>
+    <p class="pl">导演 : 巴兹·鲁赫曼 Baz Luhrmann<br/>主演 : 莱昂纳多·迪卡普里奥 Leonardo DiCaprio/凯瑞·穆里根 Carey Mulligan/托比·马奎尔 Tobey Maguire/艾拉·菲舍尔 Isla Fisher/乔尔·埃哲顿 Joel Edgerton/嘉玛·沃德 Gemma Ward/卡兰·麦克奥利菲 Callan McAuliffe/阿米特巴·巴赫卡安 Amitabh Bachchan/杰森·克拉科 Jason Clarke/伊丽莎白·戴碧科 Elizabeth Debick</p><p><span class="pl">评语</span> : Baz Luhrmann新作，莱昂纳多主演...</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6516595" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6516595/"><img width="80" src="http://img3.douban.com/spic/s11189864.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-06-15 10:00:51添加</span>
+        23. 
+    <a href="http://movie.douban.com/subject/6516595/">阁楼 The Loft</a>
+    
+    </div>
+    <p class="pl">导演 : 艾瑞克·范·洛依 Erik Van Looy<br/>主演 : 文特沃斯·米勒 Wentworth Miller/卡尔·厄本 Karl Urban/詹姆斯·麦斯登 James Marsden/瑞切尔·泰勒 Rachael Taylor/伊莎贝尔·卢卡斯 Isabel Lucas/罗娜·迈特拉 Rhona Mitra/艾瑞克·斯通斯崔特 Eric Stonestreet/伊莲·卡西迪 Elaine Cassidy</p><p><span class="pl">评语</span> : 米勒新作</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1949877" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1949877/"><img width="80" src="http://img5.douban.com/spic/s24585589.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-06-18 13:39:47添加</span>
+        24. 
+    <a href="http://movie.douban.com/subject/1949877/">惊声尖笑5 Scary Movie 5</a>
+    
+    </div>
+    <p class="pl">导演 : David Zucker<br/>主演 : Anna Faris/Leslie Nielsen/Regina Hall/Hulk Hogan/Marlon Wayans/Shawn Wayans/Simon Rex</p><p><span class="pl">评语</span> : 系列新作...</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3264229" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3264229/"><img width="80" src="http://img3.douban.com/spic/s6937401.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-06-18 13:47:13添加</span>
+        25. 
+    <a href="http://movie.douban.com/subject/3264229/">冥界警局 R.I.P.D.</a>
+    
+    </div>
+    <p class="pl">导演 : Robert Schwentke<br/>主演 : 瑞恩·雷诺兹 Ryan Reynolds/杰夫·布里吉斯 Jeff Bridges/凯文·贝肯 Kevin Bacon</p><p><span class="pl">评语</span> : Ryan Reynolds</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    <div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/doulist/730752/?start=25&filter=">2</a><a href="http://movie.douban.com/doulist/730752/?start=50&filter=">3</a><a href="http://movie.douban.com/doulist/730752/?start=75&filter=">4</a><a href="http://movie.douban.com/doulist/730752/?start=100&filter=">5</a><a href="http://movie.douban.com/doulist/730752/?start=125&filter=">6</a><span class="next"><a href="http://movie.douban.com/doulist/730752/?start=25&filter=">后页&gt;</a><link rel="next" href="http://movie.douban.com/doulist/730752/?start=25&filter="/></span></div>
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2>最新留言 · · · · · ·  <span class="pl">( <a href="http://movie.douban.com/doulist/730752/comments">查看全部</a> )</span></h2><ul class="mbt"><li class="mbtl"><a href="http://www.douban.com/people/50095437/"><img src="http://img3.douban.com/icon/u50095437-9.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/730752/comments#c-271237">西都葵 : 怎么没有白鹿原吗？</a><span class="pl">  2012-08-16 14:21</span></li><li class="mbtl"><a href="http://www.douban.com/people/59543076/"><img src="http://img3.douban.com/icon/user_normal.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/730752/comments#c-259087">爱丽丝丝 : 恐怖片</a><span class="pl">  2012-03-16 23:21</span></li><li class="mbtl"><a href="http://www.douban.com/people/53576556/"><img src="http://img3.douban.com/icon/u53576556-4.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/730752/comments#c-253837">寂寞的梧桐 : 咋都是些恐怖片捏</a><span class="pl">  2012-01-13 17:08</span></li><li class="mbtl"><a href="http://www.douban.com/people/54750670/"><img src="http://img3.douban.com/icon/u54750670-2.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/730752/comments#c-250626">年少情狂 : 想看的寥寥无几</a><span class="pl">  2011-11-30 15:40</span></li><li class="mbtl"><a href="http://www.douban.com/people/kick-my-ass/"><img src="http://img3.douban.com/icon/u44819703-497.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/730752/comments#c-214751">高压电 : 《电梯里的恶魔》可以删了，已经上映了！
+印度阿三的能力实在是。。。。</a><span class="pl">  2010-10-18 17:16</span></li></ul><h2 style="margin-top:30px">大宸的其他电影豆列  · · · · · ·  </h2>
+        <style>.dlistp p{margin-top:4px;border-bottom:1px #ddd dashed;padding-bottom:4px}</style>
+        <div class="dlistp"><p><a href="http://movie.douban.com/doulist/141029/">久石让配乐空间</a></p> <p><a href="http://movie.douban.com/doulist/212981/">Uwe Boll-----游戏终结者</a></p> <p><a href="http://movie.douban.com/doulist/222219/">大宸推荐｜值得一看的恐怖片</a></p> <p><a href="http://movie.douban.com/doulist/226377/">泰国电影新浪潮</a></p> <p><a href="http://movie.douban.com/doulist/606217/">你的名字总那么好听</a></p> </div><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper11 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

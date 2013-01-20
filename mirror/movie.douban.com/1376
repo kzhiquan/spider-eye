@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>豆瓣电影标签: 武侠</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="http://img3.douban.com/js/packed_hashchange5131997993.js">
+        </script>
+        <script type="text/javascript">/*<![CDATA[*/
+    $(function () {
+        function update_tags(current) {
+            html = $.map(current, function(o) {return '<span class="tags-name">' + o + '</span><sup class="tags-del"></sup> '}).join('<span class="tags-add">+</span>');
+            $('h1').html('<span class="name">电影标签：</span>' + html);
+        };
+
+        function get_current_tags() {
+            var r = [];
+            $('.tags-name').each(function() {r.push($(this).text())});
+            return r;
+        };
+
+        function get_current_sort_type() {
+            url = location.href;
+            array = url.split("?")
+            if (array.length == 1) {
+                return "";
+            }
+            query = array[1];
+            arr = query.split("&");
+            for (var i = 0; i < arr.length; i++) {
+                arr2 = arr[i].split('=');
+                if (arr2[0] == "type") {
+                    if (arr2.length == 1) {
+                        return "";
+                    }
+                    return arr2[1];
+                }
+            }
+            return "";
+        };
+
+        function update_subject_list(current, sort_type) {
+            $('#subject_list').html('<span class="pl">载入中，请稍候...</span>');
+            $('#subject_list').load_withck('/j/tag/j_subject_list', {tags:current.join(' '), type:sort_type}, function() {});
+        };
+
+        function update_related_tags_and_subject(current, sort_type) {
+            update_related_tags(current, sort_type);
+            // update_subject_list(current, sort_type);
+        };
+
+        function update_related_tags(current, sort_type) {
+            $('#related_tags').load_withck('/j/tag/j_related_tag', {tags:current.join(' '), type:sort_type}, function() {
+                $('.more').toggle(
+                    function () {
+                        $('.tags-hide').css('display', 'inline');
+                        $(this).text('收起▲');
+                    },
+                    function () {
+                        $('.tags-hide').hide();
+                        $(this).text('更多▼');
+                    }
+                );
+                $('.tags-del').click(function () {
+                    if($(this).prev().prev().text() == '+') {
+                        $(this).prev().prev().remove();
+                    } else if ($(this).next().text() == '+') {
+                        $(this).next().remove();
+                    }
+                    $(this).prev().remove().end().remove();
+                    current = get_current_tags();
+                    if (current.length == 0){
+                        document.location.href = '/tag/';
+                    } else {
+                        //setHash(current.join(' '));
+                        //location.href = '/tag/' + (location.href).split('#')[1] + '?type=' + sort_type;
+                        sort_type = get_current_sort_type();
+                        location.href = '/tag/' + current.join(' ') + '?type=' + sort_type;
+                    }
+                });
+                $('.add-tag').click(function () {
+                    current = get_current_tags();
+                    current.push($(this).text());
+                    update_tags(current);
+                    //setHash(current.join(' '));
+                    //location.href = '/tag/' + (location.href).split('#')[1] + '?type=' + sort_type;
+                    sort_type = get_current_sort_type();
+                    location.href = '/tag/' + current.join(' ') + '?type=' + sort_type;
+                });
+                $('.tagsInput').keypress(function (e) {
+                    if (e.which == 13) {
+                        current = get_current_tags();
+                        current.push($(this).val());
+                        update_tags(current);
+                        sort_type = get_current_sort_type();
+                        //setHash(current.join(' '));
+                        //location.href = '/tag/' + (location.href).split('#')[1] + '?type=' + sort_type;
+                        location.href = '/tag/' + current.join(' ') + '?type=' + sort_type;
+                    }
+                });
+                checkInput($('.tagsInput'));
+            });
+        };
+
+        current = get_current_tags();
+        sort_type = get_current_sort_type();
+        update_related_tags_and_subject(current, sort_type);
+
+        function checkInput (o) {
+            if (!o.val() || o.val() == o.attr('title')) {
+                o.addClass('greyinput');
+                o.val(o.attr('title'));
+            }
+            o.focus(function(){
+                o.removeClass('greyinput');
+                if(o.val() == o.attr('title')) o.val('');
+            });
+            o.blur(function(){
+                if(!o.val()){
+                    o.addClass('greyinput');
+                    o.val(o.attr('title'));
+                }
+            });
+        }
+
+        if($.browser.msie && $.browser.version == 6.0) {
+            $('.tags-del').hover(
+                function () { $(this).addClass('tags-hover'); },
+                function () { $(this).removeClass('tags-hover'); }
+            );
+        }
+        if (location.href.split('#').length > 1) {
+            //changeUrl ();
+        }
+
+    });
+
+    function setHash (a) {
+        $.browser.msie?$.locationHash(a):location.hash = a;
+    }
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>电影标签：<span class="tags-name">武侠</span><sup class="tags-del"></sup> </h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        
+        <table width="100%" class="infobox">
+            <tbody>
+                <tr>
+                    <td class="tablelt"/>
+                    <td class="tablect"/>
+                    <td class="tablert"/>
+                </tr>
+                <tr>
+                    <td class="tablelc"/>
+                        <td class="tablecc">
+                            <div class="tags-result" id="related_tags">
+                            </div>
+                        </td>
+                        <td class="tablerc"/>
+                </tr>
+                <tr>
+                    <td class="tablelb"/>
+                    <td class="tablecb"/>
+                    <td class="tablerb"/>
+                </tr>
+            </tbody>
+        </table>
+        <div class="clearfix">
+    <span class="rr greyinput">综合排序&nbsp;/&nbsp;<a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?type=S">评分排序</a>&nbsp;/&nbsp;<a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?type=R">日期排序</a>&nbsp;/&nbsp;<a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?type=O">标注次数排序</a></span></div> 
+
+    <div id="subject_list">
+    
+        <p class="ul first"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/3821067/"  title="一代宗师" >
+            <img src="http://img3.douban.com/spic/s24591423.jpg" alt="一代宗师"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/3821067/"  >一代宗师 / <span style="font-size:12px;">The Grandmaster</span></a></div><p class="pl">2013-01-08(中国大陆) / 2013-01-10(香港) / 梁朝伟 / 章子怡 / 张震 / 宋慧乔 / 赵本山 / 小沈阳 / 王庆祥 / 张晋 / 卢海鹏 / 冯克安 / 张智霖 / 金士杰 / 徐锦江 / 刘洵 / 梁朝伟 Tony Leung Chiu Wai / 章子怡 Ziyi Zhang / 张震 Chen Chang / 宋慧乔 Hye-kyo Song...</p><div class="star clearfix"><span class="allstar40"></span><span class="rating_nums">7.6</span><span class="pl">(70328人评价)</span></div></td></tr></table><div id="collect_form_3821067"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/2994851/"  title="血滴子" >
+            <img src="http://img3.douban.com/spic/s24446566.jpg" alt="血滴子"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/2994851/"  >血滴子 / <span style="font-size:12px;">The Guillotines</span></a></div><p class="pl">2012-12-20(中国大陆) / 黄晓明 / 阮经天 / 李宇春 / 余文乐 / 井柏然 / 周一围 / 蒲巴甲 / 高天 / 文章 / 刘伟强 / 李梦 / 王羽 / 金士杰 / 黄晓明 Xiaoming Huang / 阮经天 Ching-Tien Juan / 李宇春 Yuchun Li / 余文乐 Shawn Yue / 井柏然 Boran Jing / 周一围...</p><div class="star clearfix"><span class="allstar25"></span><span class="rating_nums">4.8</span><span class="pl">(18908人评价)</span></div></td></tr></table><div id="collect_form_2994851"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/10573695/"  title="太极2：英雄崛起" >
+            <img src="http://img3.douban.com/spic/s22998550.jpg" alt="太极2：英雄崛起"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/10573695/"  >太极2：英雄崛起 / <span style="font-size:12px;">太极2 / 太极之英雄崛起</span></a></div><p class="pl">2012-10-25(中国大陆 IMAX-3D) / 2012-11-01(中国大陆) / 梁家辉 / 袁晓超 / 杨颖 / 彭于晏 / 冯绍峰 / 谢欣颖 / 冯淬帆 / 吴迪 / 熊乃瑾 / 申思 / 英达 / 刘碧丽 / 冯德伦 / 陈思成 / 彼得·斯特曼 / 袁文康 / 谢贤 / 元彪 / 吴彦祖 / 梁家辉 Tony Leung...</p><div class="star clearfix"><span class="allstar35"></span><span class="rating_nums">6.3</span><span class="pl">(17432人评价)</span></div></td></tr></table><div id="collect_form_10573695"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/5996800/"  title="太极1：从零开始" >
+            <img src="http://img5.douban.com/spic/s11428199.jpg" alt="太极1：从零开始"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/5996800/"  >太极1：从零开始 / <span style="font-size:12px;">太极 / 太极之从零开始</span></a><style>.icon-on-air{font-size:12px;margin-left:15px;background-color:#71B5DE;color:#fff;padding:3px 5px;border-radius:3px;}</style><span class="icon-on-air">可播放</span></div><p class="pl">2012-09-27(中国大陆) / 2012-10-19(美国) / 袁晓超 / 梁家辉 / 杨颖 / 彭于晏 / 冯绍峰 / 舒淇 / 刘伟强 / 谢欣颖 / 熊欣欣 / 冯克安 / 梁小龙 / 陈思成 / 熊乃瑾 / 英达 / 冯德伦 / 刘碧丽 / 袁晓超 Xiaochao Yuan / 梁家辉 Tony Leung Ka Fai / 杨颖 Angelababy...</p><div class="star clearfix"><span class="allstar30"></span><span class="rating_nums">5.9</span><span class="pl">(45129人评价)</span></div></td></tr></table><div id="collect_form_5996800"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/1301168/"  title="卧虎藏龙" >
+            <img src="http://img3.douban.com/spic/s3838374.jpg" alt="卧虎藏龙"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/1301168/"  >卧虎藏龙 / <span style="font-size:12px;">Crouching Tiger, Hidden Dragon</span></a><style>.icon-on-air{font-size:12px;margin-left:15px;background-color:#71B5DE;color:#fff;padding:3px 5px;border-radius:3px;}</style><span class="icon-on-air">可播放</span></div><p class="pl">2000-07-13 / 周润发 / 杨紫琼 / 章子怡 / 张震 / 郑佩佩 / 郎雄 / 黄素影 / 周润发 / 杨紫琼 / 章子怡 / 张震 / 郑佩佩 / 郎雄 / 黄素影 Su Ying Huang / 中国 / 香港 / 台湾 / 美国 / www.sonypictures.com/cthv/crouchingtiger / 李安 / 李安 / 120 分钟 / 卧虎藏龙...</p><div class="star clearfix"><span class="allstar40"></span><span class="rating_nums">7.3</span><span class="pl">(81041人评价)</span></div></td></tr></table><div id="collect_form_1301168"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/1292287/"  title="新龙门客栈" >
+            <img src="http://img3.douban.com/spic/s8478617.jpg" alt="新龙门客栈"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/1292287/"  >新龙门客栈 / <span style="font-size:12px;">New Dragon Gate Inn</span></a></div><p class="pl">1992-08-27(中国香港) / 2012-02-24(中国大陆/复映) / 张曼玉 / 林青霞 / 梁家辉 / 甄子丹 / 熊欣欣 / 刘洵 / 任世官 / 吴启华 / 袁祥仁 / 徐锦江 / 郑希怡 / 张曼玉 Maggie Cheung / 林青霞 Brigitte Lin / 梁家辉 Tony Leung Ka Fai / 甄子丹 Donnie Yen / 熊欣欣...</p><div class="star clearfix"><span class="allstar45"></span><span class="rating_nums">8.3</span><span class="pl">(97827人评价)</span></div></td></tr></table><div id="collect_form_1292287"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/4896304/"  title="龙门飞甲" >
+            <img src="http://img3.douban.com/spic/s7001357.jpg" alt="龙门飞甲"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/4896304/"  >龙门飞甲 / <span style="font-size:12px;">The Flying Swords of Dragon Gate</span></a><style>.icon-on-air{font-size:12px;margin-left:15px;background-color:#71B5DE;color:#fff;padding:3px 5px;border-radius:3px;}</style><span class="icon-on-air">可播放</span></div><p class="pl">2011-12-15(中国大陆) / 李连杰 / 周迅 / 陈坤 / 李宇春 / 桂纶镁 / 范晓萱 / 樊少皇 / 杜奕衡 / 刘家辉 / 张馨予 / 盛鉴 / 李连杰 Jet Li / 周迅 Xun Zhou / 陈坤 Kun Chen / 李宇春 Yuchun Li / 桂纶镁 Lunmei Kwai / 范晓萱 Mavis Fan / 樊少皇 Siu-Wong Fan / 杜奕衡...</p><div class="star clearfix"><span class="allstar35"></span><span class="rating_nums">6.8</span><span class="pl">(132259人评价)</span></div></td></tr></table><div id="collect_form_4896304"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/1292328/"  title="东邪西毒" >
+            <img src="http://img3.douban.com/spic/s1413178.jpg" alt="东邪西毒"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/1292328/"  >东邪西毒 / <span style="font-size:12px;">Ashes of Time</span></a></div><p class="pl">1994-09-17 / 张国荣 / 张曼玉 / 梁朝伟 / 林青霞 / 张学友 / 梁家辉 / 杨采妮 / 刘嘉玲 / 邹兆龙 / 王祖贤 / 张国荣 Leslie Cheung / 张曼玉 Maggie Cheung / 梁朝伟 Tony Leung Chiu Wai / 林青霞 Brigitte Lin / 张学友 Jacky Cheung / 梁家辉 Tony Leung Ka Fai / 杨采妮...</p><div class="star clearfix"><span class="allstar45"></span><span class="rating_nums">8.5</span><span class="pl">(140250人评价)</span></div></td></tr></table><div id="collect_form_1292328"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/6124012/"  title="四大名捕" >
+            <img src="http://img3.douban.com/spic/s10425432.jpg" alt="四大名捕"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/6124012/"  >四大名捕 / <span style="font-size:12px;">The Four</span></a></div><p class="pl">2012-07-12(中国大陆/香港) / 邓超 / 刘亦菲 / 郑中基 / 邹兆龙 / 黄秋生 / 江一燕 / 吴秀波 / 邓萃雯 / 成泰燊 / 吴映洁 / 包贝尔 / 木幡龙 / 田启文 / 方安娜 / 邓超 Chao Deng / 刘亦菲 Yifei Liu / 郑中基 Ronald Cheng / 邹兆龙 Collin Chou / 黄秋生 Anthony...</p><div class="star clearfix"><span class="allstar25"></span><span class="rating_nums">4.9</span><span class="pl">(41748人评价)</span></div></td></tr></table><div id="collect_form_6124012"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/1306123/"  title="英雄" >
+            <img src="http://img3.douban.com/spic/s1394495.jpg" alt="英雄"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/1306123/"  >英雄 / <span style="font-size:12px;">Hero</span></a><style>.icon-on-air{font-size:12px;margin-left:15px;background-color:#71B5DE;color:#fff;padding:3px 5px;border-radius:3px;}</style><span class="icon-on-air">可播放</span></div><p class="pl">2002-12-19 / 李连杰 / 梁朝伟 / 张曼玉 / 陈道明 / 甄子丹 / 章子怡 / 李连杰 / 梁朝伟 / 张曼玉 / 陈道明 / 甄子丹 / 章子怡 / 中国 / 香港 / 张艺谋 / 张艺谋 / 99 分钟 / 93 分钟(中国大陆) / 剧情 / 动作 / 武侠 / 古装 / 王斌 / 李冯 / 张艺谋...</p><div class="star clearfix"><span class="allstar35"></span><span class="rating_nums">6.3</span><span class="pl">(77950人评价)</span></div></td></tr></table><div id="collect_form_1306123"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/3754946/"  title="锦衣卫" >
+            <img src="http://img5.douban.com/spic/s4132059.jpg" alt="锦衣卫"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/3754946/"  >锦衣卫 / <span style="font-size:12px;">14 Blades</span></a></div><p class="pl">2010-02-03(中国大陆) / 甄子丹 / 赵薇 / 吴尊 / 徐子珊 / 戚玉武 / 陈观泰 / 午马 / 洪金宝 / 罗家英 / 刘松仁 / 甄子丹 Donnie Yen / 赵薇 Wei Zhao / 吴尊 Chun Wu / 徐子珊 Kate Tsui / 戚玉武 Yuwu Qi / 陈观泰 Kuan Tai Chen / 午马 Ma Wu / 洪金宝 Sammo Hung Kam-Bo...</p><div class="star clearfix"><span class="allstar30"></span><span class="rating_nums">6.0</span><span class="pl">(80305人评价)</span></div></td></tr></table><div id="collect_form_3754946"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/3813779/"  title="剑雨" >
+            <img src="http://img3.douban.com/spic/s4402142.jpg" alt="剑雨"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/3813779/"  >剑雨 / <span style="font-size:12px;">剑雨江湖 / Reign of Assassins</span></a><style>.icon-on-air{font-size:12px;margin-left:15px;background-color:#71B5DE;color:#fff;padding:3px 5px;border-radius:3px;}</style><span class="icon-on-air">可播放</span></div><p class="pl">2010-09-28(中国大陆) / 杨紫琼 / 郑雨盛 / 王学圻 / 徐熙媛 / 余文乐 / 戴立忍 / 鲍起静  / 林熙蕾 / 郭晓冬 / 江一燕 / 吴佩慈 / 李宗翰 / 金士杰 / 杨紫琼 Michelle Yeoh / 郑雨盛 Woo-sung Jung / 王学圻 Xueqi Wang / 徐熙媛 Barbie Hsu / 余文乐 Shawn Yue...</p><div class="star clearfix"><span class="allstar35"></span><span class="rating_nums">6.6</span><span class="pl">(77279人评价)</span></div></td></tr></table><div id="collect_form_3813779"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/6558801/"  title="浪客剑心" >
+            <img src="http://img3.douban.com/spic/s8940827.jpg" alt="浪客剑心"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/6558801/"  >浪客剑心 / <span style="font-size:12px;">神剑闯江湖(台) / Rurôni Kenshin: Meiji kenkaku roman tan</span></a></div><p class="pl">2012-08-25(日本) / 佐藤健 / 武井咲 / 吉川晃司 / 苍井优 / 青木崇高 / 绫野刚 / 田中伟登 / 奥田瑛二 / 江口洋介 / 香川照之 / 佐藤健 Takeru Satô / 武井咲 Emi Takei / 吉川晃司 Kôji Kikkawa / 苍井优 Yu Aoi / 青木崇高 Munetaka Aoki / 绫野刚 Gô Ayano...</p><div class="star clearfix"><span class="allstar40"></span><span class="rating_nums">7.6</span><span class="pl">(11884人评价)</span></div></td></tr></table><div id="collect_form_6558801"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/3148013/"  title="铁拳" >
+            <img src="http://img3.douban.com/spic/s10425332.jpg" alt="铁拳"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/3148013/"  >铁拳 / <span style="font-size:12px;">金刚拳 / 铁拳汉子</span></a></div><p class="pl">2012-11-02(美国) / 罗素·克劳 / 杰米·钟 / 刘玉玲 / 帕姆·格里尔 / 戴夫·巴蒂斯塔 / RZA / 黎烈弓 / 周逸之 / 吴彦祖 / 尹成植 / 连凯 / 欧阳靖 / 陈国新 / 文峰 / 尹子维 / 朱珠 / 拜隆·曼 / 黄芝琪 / 陈观泰 / 罗素·克劳 Russell Crowe / 杰米·钟...</p><div class="star clearfix"><span class="allstar30"></span><span class="rating_nums">5.7</span><span class="pl">(6777人评价)</span></div></td></tr></table><div id="collect_form_3148013"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/1294417/"  title="笑傲江湖Ⅱ东方不败" >
+            <img src="http://img3.douban.com/spic/s3015903.jpg" alt="笑傲江湖Ⅱ东方不败"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/1294417/"  >笑傲江湖Ⅱ东方不败 / <span style="font-size:12px;">笑傲江湖之东方不败 / Swordsman 2</span></a></div><p class="pl">1992-06-26 / 林青霞 / 李连杰 / 关之琳 / 李嘉欣 / 李子雄 / 余安安 / 袁洁莹 / 刘洵 / 任世官 / 钱嘉乐 / 林青霞 / 李连杰 / 关之琳 / 李嘉欣 / 李子雄 / 袁洁莹 / 刘洵 / 任世官 / 钱嘉乐 / 香港 / 程小东 / 107 分钟(Hong Kong version) / 99 分钟(US...</p><div class="star clearfix"><span class="allstar40"></span><span class="rating_nums">8.0</span><span class="pl">(46971人评价)</span></div></td></tr></table><div id="collect_form_1294417"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/6425116/"  title="倭寇的踪迹" >
+            <img src="http://img3.douban.com/spic/s8438293.jpg" alt="倭寇的踪迹"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/6425116/"  >倭寇的踪迹 / <span style="font-size:12px;">The Sword Identity</span></a><style>.icon-on-air{font-size:12px;margin-left:15px;background-color:#71B5DE;color:#fff;padding:3px 5px;border-radius:3px;}</style><span class="icon-on-air">可播放</span></div><p class="pl">2012-02-24(中国大陆) / 于承惠 / 宋洋 / 赵圆圆 / 于承惠 Cheng-Hui Yu / 宋洋 Yang Song / 赵圆圆 Yuanyuan Zhao / 中国大陆 / 徐浩峰 Haofeng Xu / 徐皓峰 / 108分钟 / 剧情 / 动作 / 武侠 / 古装 / 徐浩峰 Haofeng Xu / 汉语普通话</p><div class="star clearfix"><span class="allstar35"></span><span class="rating_nums">6.6</span><span class="pl">(4118人评价)</span></div></td></tr></table><div id="collect_form_6425116"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/1308722/"  title="十面埋伏" >
+            <img src="http://img3.douban.com/spic/s3926611.jpg" alt="十面埋伏"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/1308722/"  >十面埋伏 / <span style="font-size:12px;">House of Flying Daggers / Lovers</span></a><style>.icon-on-air{font-size:12px;margin-left:15px;background-color:#71B5DE;color:#fff;padding:3px 5px;border-radius:3px;}</style><span class="icon-on-air">可播放</span></div><p class="pl">2004-07-15(香港) / 章子怡 / 金城武 / 刘德华 / 宋丹丹 / 章子怡 Ziyi Zhang / 金城武 Takeshi Kaneshiro / 刘德华 Andy Lau / 宋丹丹 Dandan Song / 中国大陆 / 香港 / 张艺谋 / 张艺谋 Yimou Zhang / 119 分钟 / 动作 / 冒险 / 剧情 / 奇幻 / 爱情 / 李冯 / 王斌...</p><div class="star clearfix"><span class="allstar25"></span><span class="rating_nums">5.1</span><span class="pl">(59899人评价)</span></div></td></tr></table><div id="collect_form_1308722"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/3412830/"  title="狄仁杰之通天帝国" >
+            <img src="http://img3.douban.com/spic/s4463903.jpg" alt="狄仁杰之通天帝国"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/3412830/"  >狄仁杰之通天帝国 / <span style="font-size:12px;">通天神探狄仁杰 / Detective Dee and the Mystery of the Phantom Flame</span></a></div><p class="pl">2010-09-29(中国大陆) / 刘德华 / 刘嘉玲 / 李冰冰 / 梁家辉 / 邓超 / 泰迪·罗宾 / 吴耀汉 / 姚橹 / 刘金山 / Jean-Michel Casanova / 刘德华 Andy Lau / 刘嘉玲 Carina Lau / 李冰冰 Bingbing Li / 梁家辉 Tony Leung Ka Fai / 邓超 Chao Deng / 泰迪·罗宾 Teddy Robin...</p><div class="star clearfix"><span class="allstar35"></span><span class="rating_nums">6.4</span><span class="pl">(101821人评价)</span></div></td></tr></table><div id="collect_form_3412830"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/1401205/"  title="七剑" >
+            <img src="http://img3.douban.com/spic/s1409956.jpg" alt="七剑"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/1401205/"  >七剑 / <span style="font-size:12px;">Seven Swords</span></a></div><p class="pl">2005-07-29(中国大陆) / 甄子丹 / 黎明 / 杨采妮 / 张静初 / 孙红雷 / 金素妍 / 陆毅 / 刘家良 / 王敏德  / 周群达 / 马精武 / 胡明 / 甄子丹 Donnie Yen / 黎明 Leon Lai / 杨采妮 Charlie Yeung / 张静初 Jingchu Zhang / 孙红雷 Honglei Sun / 金素妍 So-yeon Kim...</p><div class="star clearfix"><span class="allstar30"></span><span class="rating_nums">5.7</span><span class="pl">(28178人评价)</span></div></td></tr></table><div id="collect_form_1401205"></div>
+        <p class="ul"></p><table width="100%"><tr class="item"><td width="100" valign="top">
+        
+            <a class="nbg" href="http://movie.douban.com/subject/1301198/"  title="少林寺" >
+            <img src="http://img3.douban.com/spic/s3285305.jpg" alt="少林寺"/></a>
+            </td><td valign="top"><div class="pl2"><a href="http://movie.douban.com/subject/1301198/"  >少林寺 / <span style="font-size:12px;">The Shaolin Temple / Shao Lin tzu</span></a></div><p class="pl">1982-01-21(香港) / 李连杰 / 于海 / 丁岚 / 于承惠 / 计春华 / 李连杰 Jet Li / 于海 Hai Yu / 丁岚 Lan Ding / 于承惠 Cheng-Hui Yu / 计春华 Chunhua Ji / 中国 / 香港 / 张鑫炎 / 张鑫炎 Xinyan Zhang / 95分钟 / 动作 / 卢兆璋 Shau-Chang Lu / 汉语普通话</p><div class="star clearfix"><span class="allstar40"></span><span class="rating_nums">7.8</span><span class="pl">(17961人评价)</span></div></td></tr></table><div id="collect_form_1301198"></div><div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?start=20&type=T">2</a><a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?start=40&type=T">3</a><a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?start=60&type=T">4</a><a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?start=80&type=T">5</a><a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?start=100&type=T">6</a><a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?start=120&type=T">7</a><a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?start=140&type=T">8</a><a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?start=160&type=T">9</a><span class="break">...</span><a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?start=340&type=T">18</a><a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?start=360&type=T">19</a><span class="next"><a href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?start=20&type=T">后页&gt;</a><link rel="next" href="http://movie.douban.com/tag/%E6%AD%A6%E4%BE%A0?start=20&type=T"/></span></div>
+    </div>
+    
+                </div>
+            <div class="aside">
+    <div style="background-color:#f2f7f6;padding:10px
+        15px;font-size:14px;width:270px;"><a href="/category/">试试新的电影分类筛选 &gt;</a></div><br/><div id="dale_movie_tag_top_right"></div><h2  >相关的标签 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div class="tags-list"><a href="http://movie.douban.com/tag/%E9%A6%99%E6%B8%AF">香港</a><a href="http://movie.douban.com/tag/%E5%8F%A4%E9%BE%99">古龙</a><a href="http://movie.douban.com/tag/%E7%9F%B3%E5%9D%9A">石坚</a><a href="http://movie.douban.com/tag/%E5%8F%A4%E8%A3%85">古装</a><a href="http://movie.douban.com/tag/1969">1969</a><a href="http://movie.douban.com/tag/%E4%BA%8E%E7%B4%A0%E7%A7%8B">于素秋</a><a href="http://movie.douban.com/tag/%E6%9E%97%E8%9B%9F">林蛟</a><a href="http://movie.douban.com/tag/%E5%8F%B0%E6%B9%BE">台湾</a></div><form name="tsp_form" action="http://movie.douban.com/tag/" method="GET"><input name="search_text" class="j a_search_text" type="text" size="24" maxlength="36" title="去其他标签" value=""/>
+    <input class="butt" type="submit" value="进入"/>
+    </form><br/><br/><p class="pl2 mb30">&gt; <a href="http://movie.douban.com/tag/">浏览全部电影标签</a></p>
+        <h2  >"武侠"相关豆列 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><ul class="bs"><li><a href="http://movie.douban.com/doulist/144191/">邵氏出品 必属佳片之武侠功夫片（一）</a>
+            <span class="pl">(三七)</span>
+                </li><li><a href="http://movie.douban.com/doulist/932935/">国风忆思</a>
+            <span class="pl">(❀❃❁)</span>
+                </li><li><a href="http://movie.douban.com/doulist/673992/">影类（09）武侠动作片列</a>
+            <span class="pl">(时时刻刻)</span>
+                </li><li><a href="http://movie.douban.com/doulist/493658/">【邵氏出品 必属佳片】（三）</a>
+            <span class="pl">(桃桃林林)</span>
+                </li><li><a href="http://movie.douban.com/doulist/991297/">古装剧是场不能苛刻的梦。壹。</a>
+            <span class="pl">(某J。624)</span>
+                </li></ul>
+
+
+
+
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = 'http://erebor.douban.com/',
+            userId = '',
+            browserId = 'VKpIE5M+TuQ',
+            ipAddress = '122.236.48.167',
+            criteria = '3:/tag/%E6%AD%A6%E4%BE%A0',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_movie_tag_top_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, ip: ipAddress, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'http://img3.douban.com/js/packed_ad3738113870.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/tag/-', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/tag/-', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/tag/-', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper3 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

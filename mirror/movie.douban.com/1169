@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>2013 豆瓣电影【口碑榜】01/16 更新</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="2013 豆瓣电影【口碑榜】01/16 更新">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>2013 豆瓣电影【口碑榜】01/16 更新</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/tjz230/"><img src="http://img3.douban.com/icon/u1005928-127.jpg" align="left" alt="芙蓉镇上影志叔"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/tjz230/">芙蓉镇上影志叔 (北京)</a><br />
+        创建时间: 2006-09-05 00:19:05　最后修改时间: 2013-01-20 00:47:49</p><p class="indent">　　榜单地址：<a href="http://www.douban.com/link2?url=http%3A//www.douban.com/movie/">http://www.douban.co<wbr/>m/movie/</a> (页面右侧，每周三更新)<br/>　　口碑榜是豆瓣根据用户最近一周收藏的热门电影、依据算法按“评分+热度”综合排序的结果。<br/>　　前十名为本周Top10，☀new为新上榜，包括老片。<br/>　　　　<br/>　　本周☀new：《悲惨世界》8.8分、《被解放的姜戈》8.6分、《乌云背后的幸福线》7.9分、《一代宗师》7.6分、《猎杀本·拉登》7.5分、《七个神经病》7.9分、韩国版《嫌疑人X的献身》7.4分、《宝米恰恰》7.3分 新上榜……《霍比特人》/《林肯》/《007：大破天幕杀机》/《印式英语》/《隐秘的战争》/《浪客剑心》/《科学怪狗》/《送报男孩》等片下榜。<br/>　　<br/>　　上次更新01/07<br/>　　　　<br/>　　发现好电影，从豆瓣电影口碑榜开始……7分以下的电影都去面壁。<br/>　　最主要的，这些电影或短片你都可以通过多种方式（影院、在线、下载等）观看到。<br/>　　<br/>　　<a href="http://www.douban.com/link2?url=http%3A//movie.douban.com/doulist/293933/">http://movie.douban.<wbr/>com/doulist/293933/</a> 2012豆瓣电影【口碑榜】<br/>　　<a href="http://www.douban.com/link2?url=http%3A//movie.douban.com/doulist/457590/">http://movie.douban.<wbr/>com/doulist/457590/</a> 2011豆瓣电影【口碑榜】　　<br/>　　<a href="http://www.douban.com/link2?url=http%3A//movie.douban.com/doulist/808069/">http://movie.douban.<wbr/>com/doulist/808069/</a> 2010豆瓣电影【口碑榜】<br/>　　<a href="http://www.douban.com/link2?url=http%3A//movie.douban.com/doulist/1294832/">http://movie.douban.<wbr/>com/doulist/1294832/<wbr/></a> 2009豆瓣电影【口碑榜】<br/></p>
+        </div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-13921"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">10717人</span>
+</div>
+<div class="filters">全部电影(249)</div>
+    <p id="sb6860160" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6860160/"><img width="80" src="http://img3.douban.com/spic/s22704645.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 23:05:23添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/6860160/">悲惨世界 Les Misérables</a>
+    
+    </div>
+    <p class="pl">导演 : 汤姆·霍珀 Tom Hooper<br/>主演 : 休·杰克曼 Hugh Jackman/罗素·克劳 Russell Crowe/安妮·海瑟薇 Anne Hathaway/阿曼达·塞弗里德 Amanda Seyfried/埃迪·雷德梅恩 Eddie Redmayne/海伦娜·邦汉·卡特 Helena Bonham Carter/萨莎·拜伦·科恩 Sacha Baron Cohen/萨曼莎·巴克斯 Samantha Barks/艾伦·特维特 Aaron Tveit/康姆·威尔金森 Colm Wilkinson</p><p><span class="pl">评语</span> : 8.8 ☀new 【DL】http://kuai.xunlei.com/d/MOPFAALQ5gAbSvBQc89（中字：http://shooter.cn/xml/sub/234/234010.xml 破烂熊）</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6307447" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6307447/"><img width="80" src="http://img3.douban.com/spic/s11163072.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-06 10:37:29添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/6307447/">被解放的姜戈 Django Unchained</a>
+    
+    </div>
+    <p class="pl">导演 : 昆汀·塔伦蒂诺 Quentin Tarantino<br/>主演 : 杰米·福克斯 Jamie Foxx/莱昂纳多·迪卡普里奥 Leonardo DiCaprio/克里斯托弗·沃尔兹 Christoph Waltz/塞缪尔·杰克逊 Samuel L. Jackson/凯丽·华盛顿 Kerry Washington/沃尔顿·戈金斯 Walton Goggins/丹尼斯·克里斯托弗 Dennis Christopher/乔纳·希尔 Jonah Hill/詹姆斯·瑞马尔 James Remar/爱波·塔布琳 Amber Tamblyn/弗兰科·尼罗 Franco Nero/罗伯特·卡拉丁 Robert Carradine/佐伊·贝尔 Zoe Bell</p><p><span class="pl">评语</span> : 8.6 ☀new【DL】http://kuai.xunlei.com/d/XEvhCALyfQCugelQ29b（2.48GB）或 http://kuai.xunlei.com/d/SLceCwK1TACk4ehQ157 （中文字幕 http://www.shooter.cn/xml/sub/233/233540.xml）或 http://pan.baidu.com/share/link?shareid=201556&amp;uk=2251608008（伊甸园内嵌中字版）</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb7015798" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/7015798/"><img width="80" src="http://img3.douban.com/spic/s10388873.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-29 17:27:36添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/7015798/">寻找小糖人 Searching for Sugar Man</a>
+    
+    </div>
+    <p class="pl">导演 : Malik Bendjelloul<br/>主演 : Steve Segerman/Dennis Coffey/Mike Theodore/Dan Dimaggio/Jerome Ferretti/Steve Rowland/Willem Möller</p><p><span class="pl">评语</span> : 8.8 【DL】http://fenxiang.qq.com/x/3S2Mvll9dPVBc3vYXZLdz990IcT5rX133GNxon3MZFpO（TLF）或 http://kuai.xunlei.com/d/ysfHAgJA.wBwSt5Q7f0（中字：http://www.shooter.cn/xml/sub/233/233286.xml）或 http://www.66ys.net/dy/2013-01-06/11601.html（内嵌中字）</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3094909" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3094909/"><img width="80" src="http://img3.douban.com/spic/s11364841.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 23:03:58添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/3094909/">乌云背后的幸福线 Silver Linings Playbook</a>
+    
+    </div>
+    <p class="pl">导演 : 大卫·欧·拉塞尔 David O. Russell<br/>主演 : 布莱德利·库珀 Bradley Cooper/詹妮弗·劳伦斯 Jennifer Lawrence/罗伯特·德尼罗 Robert De Niro/朱丽娅·斯蒂尔斯 Julia Stiles/泰勒·席林 Taylor Schilling/克里斯·塔克 Chris Tucker/杰基·韦佛 Jacki Weaver/阿努潘·凯尔 Anupam Kher</p><p><span class="pl">评语</span> : 7.9 ☀new【DL】http://kuai.xunlei.com/d/MOPFAALB5wCvUPBQ2dd 或 http://kuai.xunlei.com/d/XEvhCALA4QCzMvBQe36（中字 http://www.shooter.cn/xml/sub/233/233963.xml）</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3821067" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3821067/"><img width="80" src="http://img3.douban.com/spic/s24591423.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-08 23:35:11添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/3821067/">一代宗师 一代宗師</a>
+    
+    </div>
+    <p class="pl">导演 : 王家卫 Kar Wai Wong<br/>主演 : 梁朝伟 Tony Leung Chiu Wai/章子怡 Ziyi Zhang/张震 Chen Chang/宋慧乔 Hye-kyo Song/赵本山 Benshan Zhao/小沈阳 Xiao Shen-Yang/王庆祥 Qingxiang Wang/张晋 Jin Zhang/卢海鹏 Hoi-Pang Lo/冯克安 Hark-On Fung/刘家勇/张智霖 Julian Cheung/金士杰 Shi-Jye Jin/徐锦江 Elvis Tsui/刘洵 Shun Lau</p><p><span class="pl">评语</span> : 7.6 ☀new 【2013-01-08】起国内影院热映</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6430835" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6430835/"><img width="80" src="http://img3.douban.com/spic/s24174232.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-04 19:34:47添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/6430835/">猎杀本·拉登 Zero Dark Thirty</a>
+    
+    </div>
+    <p class="pl">导演 : 凯瑟琳·毕格罗 Kathryn Bigelow<br/>主演 : 乔尔·埃哲顿 Joel Edgerton/杰西卡·查斯坦 Jessica Chastain/斯科特·阿金斯 Scott Adkins/马克·斯特朗 Mark Strong/詹妮弗·艾莉 Jennifer Ehle/克里斯·帕拉特 Chris Pratt/泰勒·金尼 Taylor Kinney/凯尔·钱德勒 Kyle Chandler/杰森·克拉科 Jason Clarke</p><p><span class="pl">评语</span> : 7.5 ☀new 【DL】http://kuai.xunlei.com/d/XEvhCALriAArqelQ9ac（2.73G 这个好一些） 或 http://kuai.xunlei.com/d/SLceCwIt0wAMnOZQ848（2.38G）【中字】http://www.shooter.cn/xml/sub/233/233890.xml（by 米粒）</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6753166" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6753166/"><img width="80" src="http://img5.douban.com/spic/s24591129.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-13 17:49:11添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/6753166/">七个神经病 Seven Psychopaths</a>
+    
+    </div>
+    <p class="pl">导演 : 马丁·麦克唐纳 Martin McDonagh<br/>主演 : 柯林·法瑞尔 Colin Farrell/山姆·洛克威尔 Sam Rockwell/迈克尔·斯图巴 Michael Stuhlbarg/克里斯托弗·沃肯 Christopher Walken/艾比·考尼什 Abbie Cornish/海伦娜·马特森 Helena Mattsson/James Hébert/伍迪·哈里森 Woody Harrelson/迈克尔·皮特 Michael Pitt</p><p><span class="pl">评语</span> : 7.9 ☀new 【DL】http://www.dytt8.net/html/gndy/dyzz/20130112/41015.html</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4832825" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4832825/"><img width="80" src="http://img3.douban.com/spic/s11292837.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-05 11:00:27添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/4832825/">惊天巨啸 Lo imposible</a>
+    
+    </div>
+    <p class="pl">导演 : 胡安·安东尼奥·巴亚纳 Juan Antonio Bayona<br/>主演 : 娜奥米·沃茨 Naomi Watts/伊万·麦克格雷格 Ewan McGregor/汤姆·霍兰德 Tom Holland/杰拉丁·卓别林 Geraldine Chaplin/Ploy Jindachote/玛塔·埃图娜 Marta Etura</p><p><span class="pl">评语</span> : 7.6 【DL】http://kuai.xunlei.com/d/MOPFAAKOLQBSF.hQbef （1.36G）或 （中字 http://shooter.cn/xml/sub/233/233774.xml）或http://www.xunleihao.com/oumeidianying/jingtianjuxiao.html（内嵌中字）</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6869412" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6869412/"><img width="80" src="http://img3.douban.com/spic/s24587178.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-07 14:29:21添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/6869412/">嫌疑人X的献身 용의자X</a>
+    
+    </div>
+    <p class="pl">导演 : 方恩珍 Eun-jin Bang<br/>主演 : 李瑶媛 Yu-won Lee/柳承范 Seung-beom Ryu/赵镇雄 Jin-ung Jo</p><p><span class="pl">评语</span> : 7.4 ☀new 【DL】http://www.yyets.com/php/resource/28792 </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4111400" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4111400/"><img width="80" src="http://img3.douban.com/spic/s24594605.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-16 17:15:08添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/4111400/">宝米恰恰 寶米恰恰</a>
+    
+    </div>
+    <p class="pl">导演 : 杨贻茜 Yi-Chien Yang/王传宗 Jim Wang<br/>主演 : 黄姵嘉 Peijia Huang/姜康哲 Paul Chiang/欧阳伦 Lun Ouyang/张诗盈 Shiying Zhang/李志奇 Chih-Chyi Li/李之勤 Ji-Chin Li/高英轩 Ven Kao/钱薇娟 Rosa Chien</p><p><span class="pl">评语</span> : 7.3 ☀new 【2013-01-10】起国内影院热映</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1966182" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1966182/"><img width="80" src="http://img3.douban.com/spic/s22688032.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-02 18:07:17添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/1966182/">霍比特人1：意外之旅 The Hobbit: An Unexpected Journey</a>
+    
+    </div>
+    <p class="pl">导演 : 彼得·杰克逊 Peter Jackson<br/>主演 : 马丁·弗瑞曼 Martin Freeman/伊恩·麦克莱恩 Ian McKellen/理查德·阿米塔格 Richard Armitage/肯·斯托特 Ken Stott/格拉汉姆·麦克泰维什 Graham McTavish/詹姆斯·内斯比特 James Nesbitt/迪恩·奥戈曼 Dean O'Gorman/艾丹·特纳 Aidan Turner/雨果·维文 Hugo Weaving/凯特·布兰切特 Cate Blanchett/安迪·瑟金斯 Andy Serkis/西尔维斯特·迈可伊 Sylvester McCoy/克里斯托弗·李 Christopher Lee/伊利亚·伍德 Elijah Wood/伊安·霍姆 Ian Holm</p><p><span class="pl">评语</span> : 8.4 【DL】http://kuai.xunlei.com/d/VqNnAQJLHAAWo.NQ66f（射手有好版本中字）、http://www.piaohua.com/html/kehuan/2013/0108/26201.html（飘花完美中字）或 http://www.66ys.net/dy/2013-01-05/11585.html（精准中字版）</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1889242" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1889242/"><img width="80" src="http://img3.douban.com/spic/s11195053.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-27 22:01:43添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/1889242/">林肯 Lincoln</a>
+    
+    </div>
+    <p class="pl">导演 : 史蒂文·斯皮尔伯格 Steven Spielberg<br/>主演 : 丹尼尔·戴-刘易斯 Daniel Day-Lewis/莎莉·菲尔德 Sally Field/汤米·李·琼斯 Tommy Lee Jones/约瑟夫·高登-莱维特 Joseph Gordon-Levitt/李·佩斯 Lee Pace/詹姆斯·斯派德 James Spader/杰基·厄尔·哈利 Jackie Earle Haley/大卫·斯特雷泽恩 David Strathairn/布鲁斯·麦克吉尔 Bruce McGill/大卫 科斯塔贝尔 David Costabile/约翰·浩克斯 John Hawkes</p><p><span class="pl">评语</span> : 7.6 ☀new 【DL】http://kuai.xunlei.com/d/t9xBCAImhgChBtxQcb0（中字：http://www.shooter.cn/xml/sub/232/232946.xml）</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2363876" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2363876/"><img width="80" src="http://img3.douban.com/spic/s12620955.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-30 17:55:54添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/2363876/">007：大破天幕杀机 Skyfall</a>
+    
+    </div>
+    <p class="pl">导演 : 萨姆·门德斯 Sam Mendes<br/>主演 : 丹尼尔·克雷格 Daniel Craig/拉尔夫·费因斯 Ralph Fiennes/哈维尔·巴登 Javier Bardem/贝纳尼丝·玛尔洛 Bérénice Marlohe/娜奥米·哈里斯 Naomie Harris/朱迪·丹奇 Judi Dench/阿尔伯特·芬尼 Albert Finney/本·卫肖 Ben Whishaw/海伦·麦克洛瑞 Helen McCrory</p><p><span class="pl">评语</span> : 7.4 ☀new 【DL】http://www.xunleihao.com/oumeidianying/007_dapotianmushajiDVDscr.html（中字版）或 http://kuai.xunlei.com/d/RzdeAAJvegBdVuBQ349</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10876425" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10876425/"><img width="80" src="http://img3.douban.com/spic/s24578787.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-05 15:06:41添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/10876425/">印式英语 English Vinglish</a>
+    
+    </div>
+    <p class="pl">导演 : Gauri Shinde<br/>主演 : 希里黛玉 Sridevi/阿迪勒·侯赛因 Adil Hussain/Mehdi Nebbou/Priya Anand/Sulabha Deshpande/Sujatha Kumar</p><p><span class="pl">评语</span> : 8.4 ☀new 【DL】http://www.yyets.com/php/resource/28568、http://www.xunleihao.com/rihandianying/yinshiyingyu.html</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb7015731" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/7015731/"><img width="80" src="http://img3.douban.com/spic/s10169132.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-25 12:38:08添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/7015731/">隐秘的战争 The Invisible War</a>
+    
+    </div>
+    <p class="pl">导演 : Kirby Dick</p><p><span class="pl">评语</span> : 8.2 ☀new 【DL】http://www.xunleihao.com/oumeidianying/yinmidezhanzheng.html 或  http://dou.bz/3YZJDk</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6558801" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6558801/"><img width="80" src="http://img3.douban.com/spic/s8940827.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-07 14:42:19添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/6558801/">浪客剑心 るろうに剣心</a>
+    
+    </div>
+    <p class="pl">导演 : 大友启史 Keishi Ohtomo<br/>主演 : 佐藤健 Takeru Satô/武井咲 Emi Takei/吉川晃司 Kôji Kikkawa/苍井优 Yu Aoi/青木崇高 Munetaka Aoki/绫野刚 Gô Ayano/田中伟登 Taketo Tanaka/奥田瑛二 Eiji Okuda/江口洋介 Yôsuke Eguchi/香川照之 Teruyuki Kagawa</p><p><span class="pl">评语</span> : 7.6 ☀new 【DL】http://www.yyets.com/php/resource/28728</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2336783" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2336783/"><img width="80" src="http://img3.douban.com/spic/s10249924.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-22 01:53:30添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/2336783/">科学怪狗 Frankenweenie</a>
+    
+    </div>
+    <p class="pl">导演 : 蒂姆·波顿 Tim Burton<br/>主演 : 马丁·肖特 Martin Short/凯瑟琳·欧·哈拉 Catherine O'Hara/马丁·兰道 Martin Landau/薇诺娜·瑞德 Winona Ryder/罗伯特·卡普荣 Robert Capron/康查塔·费雷尔 Conchata Ferrell/阿蒂库斯·沙弗尔 Atticus Shaffer</p><p><span class="pl">评语</span> : 7.4 【DL】http://www.yyets.com/php/resource/28700（720p / 1080p）或 http://kuai.xunlei.com/d/ghCXCAJREACAGNRQd71 或 http://www.dy131.com/dy4/2012-12-22/20770.html</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6832334" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6832334/"><img width="80" src="http://img3.douban.com/spic/s24584087.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-05 10:59:52添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/6832334/">送报男孩 The Paperboy</a>
+    
+    </div>
+    <p class="pl">导演 : 李·丹尼尔斯 Lee Daniels<br/>主演 : 妮可·基德曼 Nicole Kidman/扎克·埃夫隆 Zac Efron/马修·麦康纳 Matthew McConaughey/约翰·库萨克 John Cusack/斯科特·格林 Scott Glenn/Nikolette Noel/大卫·奥伊罗 David Oyelowo/耐德·巴拉米 Ned Bellamy</p><p><span class="pl">评语</span> : 7.1 ☀new 【DL】http://www.66ys.net/dy/2013-01-07/11604.html（内嵌中字）或 http://www.xunleihao.com/oumeidianying/baotong_jizhefanxiang.html（内嵌中字）【5.18G】http://kuai.xunlei.com/d/mtwkBxi0gZ-lUAQA5aa 或 http://kuai.xunlei.com/d/ghCXCAITtQCZPeZQ01b </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb19955871" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/19955871/"><img width="80" src="http://img3.douban.com/spic/s24477618.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-05 15:24:25添加</span>
+        19. 
+    <a href="http://movie.douban.com/subject/19955871/">车轮不息 Where The Trail Ends</a>
+    
+    </div>
+    <p class="pl">导演 : Jeremy Grant<br/>主演 : Darren Berrecloth/Andreu Lacondeguy/James Doerfling/Cam Zink/Kurt Sorge</p><p><span class="pl">评语</span> : 9.1 / 20130107下榜 【DL】http://kuai.xunlei.com/d/DB8VCAKfmwB02tFQa01（BD-RMVB 1.45GB）或 http://www.dy131.com/jlp/2012-12-04/20573.html</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5208150" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5208150/"><img width="80" src="http://img3.douban.com/spic/s11180160.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-21 11:31:53添加</span>
+        20. 
+    <a href="http://movie.douban.com/subject/5208150/">轮回 Samsara</a>
+    
+    </div>
+    <p class="pl">导演 : 罗恩·弗里克 Ron Fricke</p><p><span class="pl">评语</span> : 8.5 / 20130107下榜 【720p】http://kuai.xunlei.com/d/DB8VCAKMkQCwv9FQ2ee （无对白，无需中字）或 http://kuai.xunlei.com/d/ByyQBgKdwAAwtdJQ369</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3530403" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3530403/"><img width="80" src="http://img3.douban.com/spic/s22705883.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-14 00:58:01添加</span>
+        21. 
+    <a href="http://movie.douban.com/subject/3530403/">云图 Cloud Atlas</a>
+    
+    </div>
+    <p class="pl">导演 : 汤姆·提克威 Tom Tykwer/拉娜·沃卓斯基 Lana Wachowski/安迪·沃卓斯基 Andy Wachowski<br/>主演 : 汤姆·汉克斯 Tom Hanks/哈莉·贝瑞 Halle Berry/吉姆·布劳德本特 Jim Broadbent/雨果·维文 Hugo Weaving/吉姆·斯特吉斯 Jim Sturgess/裴斗娜 Doona Bae/本·卫肖 Ben Whishaw/詹姆斯·达西 James D'Arcy/周迅 Xun Zhou/凯斯·大卫 Keith David/大卫·吉雅西 David Gyasi/苏珊·萨兰登 Susan Sarandon/休·格兰特 Hugh Grant</p><p><span class="pl">评语</span> : 8.1 / 20130107下榜 【好】http://kuai.xunlei.com/d/IV1cCQIsFAAzJdRQ477（下好后改后缀.pdf 为.mkv）【英语音轨720p】http://kuai.xunlei.com/d/VqNnAQIxUwBFitBQa85 或 http://www.ttmeiju.com/seed/15450.html 【英语中字收藏版 2.42G】http://www.66ys.net/dy/2012-12-14/11289.html【人人】http://www.yye</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4847665" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4847665/"><img width="80" src="http://img3.douban.com/spic/s10266957.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-13 04:46:38添加</span>
+        22. 
+    <a href="http://movie.douban.com/subject/4847665/">壁花少年 The Perks of Being a Wallflower</a>
+    
+    </div>
+    <p class="pl">导演 : Stephen Chbosky<br/>主演 : 罗根·勒曼 Logan Lerman/艾玛·沃森 Emma Watson/埃兹拉·米勒  Ezra Miller/妮娜·杜波夫 Nina Dobrev/保罗·路德 Paul Rudd/梅·惠特曼 Mae Whitman/迪伦·麦克德莫特 Dylan McDermott/凯特·沃什 Kate Walsh/梅兰妮·林斯基 Melanie Lynskey</p><p><span class="pl">评语</span> : 8.0 / 20130107下榜【中字DL】http://www.yyets.com/php/resource/28661 或 http://kuai.xunlei.com/d/GSAFAgLWyACb.s1Q557 </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10543625" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10543625/"><img width="80" src="http://img3.douban.com/spic/s9094067.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-16 00:38:55添加</span>
+        23. 
+    <a href="http://movie.douban.com/subject/10543625/">我的军中情人2 Yossi</a>
+    
+    </div>
+    <p class="pl">导演 : 伊藤·福克斯 Eytan Fox<br/>主演 : 欧哈德·诺勒 Ohad Knoller/Oz Zehavi/利奥尔·阿什肯纳兹 Lior Ashkenazi/Orly Silbersatz Banai/Ola Schur Selektar/Meir Golan</p><p><span class="pl">评语</span> : 7.6 / 20130107下榜 【DL】http://www.yyets.com/php/resource/28664 或 http://kuai.xunlei.com/d/mtwkBwKOlQBRUc1Qd6d</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5996407" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5996407/"><img width="80" src="http://img3.douban.com/spic/s24517568.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-25 15:51:53添加</span>
+        24. 
+    <a href="http://movie.douban.com/subject/5996407/">命中雷霆 Struck By Lightning</a>
+    
+    </div>
+    <p class="pl">导演 : Brian Dannelly<br/>主演 : 克里斯·柯尔弗 Chris Colfer/蕾蓓尔·威尔森 Rebel Wilson/克里斯蒂娜·亨德里克斯 Christina Hendricks/德蒙特·莫罗尼 Dermot Mulroney/萨拉·海蓝德 Sarah Hyland/艾莉森·珍妮 Allison Janney/罗比·阿美尔 Robbie Amell/阿什利·理查兹 Ashley Rickards</p><p><span class="pl">评语</span> : 7.4 / 20130107下榜【DL】http://www.yyets.com/php/resource/28715 或 http://www.dy131.com/dy1/2012-12-26/20798.html</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6757776" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6757776/"><img width="80" src="http://img3.douban.com/spic/s11171413.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-12-19 18:30:08添加</span>
+        25. 
+    <a href="http://movie.douban.com/subject/6757776/">文科恋曲 Liberal Arts</a>
+    
+    </div>
+    <p class="pl">导演 : 乔什·拉德诺 Josh Radnor<br/>主演 : 乔什·拉德诺 Josh Radnor/伊丽莎白·奥尔森 Elizabeth Olsen/理查·詹金斯 Richard Jenkins/扎克·埃夫隆 Zac Efron/艾莉森·珍妮 Allison Janney/伊莉莎白·里瑟 Elizabeth Reaser</p><p><span class="pl">评语</span> : 7.3 / 20130107下榜 【DL】http://www.xunleihao.com/oumeidianying/wenkelianqu.html</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    <div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/doulist/13921/?start=25&filter=">2</a><a href="http://movie.douban.com/doulist/13921/?start=50&filter=">3</a><a href="http://movie.douban.com/doulist/13921/?start=75&filter=">4</a><a href="http://movie.douban.com/doulist/13921/?start=100&filter=">5</a><a href="http://movie.douban.com/doulist/13921/?start=125&filter=">6</a><a href="http://movie.douban.com/doulist/13921/?start=150&filter=">7</a><a href="http://movie.douban.com/doulist/13921/?start=175&filter=">8</a><a href="http://movie.douban.com/doulist/13921/?start=200&filter=">9</a><a href="http://movie.douban.com/doulist/13921/?start=225&filter=">10</a><span class="next"><a href="http://movie.douban.com/doulist/13921/?start=25&filter=">后页&gt;</a><link rel="next" href="http://movie.douban.com/doulist/13921/?start=25&filter="/></span></div>
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2>最新留言 · · · · · ·  <span class="pl">( <a href="http://movie.douban.com/doulist/13921/comments">查看全部</a> )</span></h2><ul class="mbt"><li class="mbtl"><a href="http://www.douban.com/people/daisy3days/"><img src="http://img3.douban.com/icon/u2056202-54.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/13921/comments#c-282511">IfOneDay : 这个榜单真靠谱，推荐还带下载链接，LZ熊抱一个！
+推荐一下喜欢一个收藏一下下~~</a><span class="pl">  01-17 06:27</span></li><li class="mbtl"><a href="http://www.douban.com/people/mzld/"><img src="http://img3.douban.com/icon/u45463733-14.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/13921/comments#c-278488">小何桶纸 : 没有四平青年不性福</a><span class="pl">  2012-12-13 16:55</span></li><li class="mbtl"><a href="http://www.douban.com/people/41509198/"><img src="http://img3.douban.com/icon/u41509198-55.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/13921/comments#c-278465">世界尽头 : 四平青年还可以，导演是有点投资就好了</a><span class="pl">  2012-12-13 14:25</span></li><li class="mbtl"><a href="http://www.douban.com/people/34807069/"><img src="http://img3.douban.com/icon/u34807069-7.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/13921/comments#c-278000">july : 为什么没有四平青年</a><span class="pl">  2012-12-06 16:45</span></li><li class="mbtl"><a href="http://www.douban.com/people/dofadore/"><img src="http://img3.douban.com/icon/u51147184-13.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/13921/comments#c-277287">饭团 : 太感人了！！！我刚刚才发现居然很多片子都分享了资源地址诶~实在是太感人了！！！</a><span class="pl">  2012-11-24 23:12</span></li></ul><h2 style="margin-top:30px">芙蓉镇上影志叔的其他电影豆列  · · · · · ·  </h2>
+        <style>.dlistp p{margin-top:4px;border-bottom:1px #ddd dashed;padding-bottom:4px}</style>
+        <div class="dlistp"><p><a href="http://movie.douban.com/doulist/11192/">【豆瓣高分短片】❷ 评分人数 &lt;500</a></p> <p><a href="http://movie.douban.com/doulist/11324/">【意外结局】</a></p> <p><a href="http://movie.douban.com/doulist/13369/">【爱看动画】</a></p> <p><a href="http://movie.douban.com/doulist/13370/">【励志电影】</a></p> <p><a href="http://movie.douban.com/doulist/13729/">He loves a man, she loves a woman(1/2)</a></p> </div><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper5 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

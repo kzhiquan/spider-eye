@@ -1,0 +1,730 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>沐风而遇周星星的电影</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+#celebrity .list-s li { height: 140px; overflow: hidden }
+.aside .mod .pl a{font-size:14px;}
+.contact-update-time {margin-top:10px;border-bottom:1px solid #ddd }
+
+    </style>
+    
+<link href="http://img3.douban.com/css/ui/packed_mypage6119031721.css" rel="stylesheet" type="text/css" />
+<link href="http://img3.douban.com/css/music/packed_people5808759241.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.form5689674177.js"></script>
+
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+
+
+
+    
+
+    
+
+    
+
+    
+    <div id="db-usr-profile">
+        <div class="pic">
+            <a href="http://movie.douban.com/people/Jerry-feng/"><img height="48" width="48" alt="沐风而遇周星星" src="http://img3.douban.com/icon/u48849613-145.jpg" /></a>
+        </div>
+        <div class="info">
+            <h1>沐风而遇周星星的电影</h1>
+            <ul>
+                    
+        <li><a href="http://movie.douban.com/people/Jerry-feng/">电影主页</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/Jerry-feng/reviews?cat_id=1002">影评</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/Jerry-feng/do">在看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/Jerry-feng/wish">想看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/Jerry-feng/collect">看过</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/Jerry-feng/doulists">豆列</a></li>
+    
+                    
+        <li class="sep">|</li>
+    
+                    
+        <li><a href="http://www.douban.com/people/Jerry-feng/">豆瓣主页</a></li>
+    
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+
+
+
+
+    <div id="db-book-mine">
+            
+
+    <h2  >看过 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/Jerry-feng/collect">1261部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3821067/" class="cover"><img alt="一代宗师" title="一代宗师" src="http://img3.douban.com/spic/s24591423.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4847665/" class="cover"><img alt="壁花少年" title="壁花少年" src="http://img3.douban.com/spic/s10266957.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6307447/" class="cover"><img alt="被解放的姜戈" title="被解放的姜戈" src="http://img3.douban.com/spic/s11163072.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3007773/" class="cover"><img alt="海盗电台" title="海盗电台" src="http://img3.douban.com/spic/s3582245.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1963070/" class="cover"><img alt="松鼠，坚果和时间机器" title="松鼠，坚果和时间机器" src="http://img3.douban.com/spic/s2734065.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10439358/" class="cover"><img alt="狼狈" title="狼狈" src="http://img3.douban.com/spic/s9065166.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10574622/" class="cover"><img alt="人再囧途之泰囧" title="人再囧途之泰囧" src="http://img3.douban.com/spic/s19836660.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1308817/" class="cover"><img alt="两小无猜" title="两小无猜" src="http://img3.douban.com/spic/s1888134.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3078609/" class="cover"><img alt="爱情与灵药" title="爱情与灵药" src="http://img3.douban.com/spic/s4471683.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10472783/" class="cover"><img alt="美人无泪" title="美人无泪" src="http://img3.douban.com/spic/s11167990.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >想看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/Jerry-feng/wish">170部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4206357/" class="cover"><img alt="龙纹身的女孩" title="龙纹身的女孩" src="http://img3.douban.com/spic/s7057538.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3011051/" class="cover"><img alt="恐怖游轮" title="恐怖游轮" src="http://img3.douban.com/spic/s3932456.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1436868/" class="cover"><img alt="花与蛇" title="花与蛇" src="http://img3.douban.com/spic/s5968743.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1439241/" class="cover"><img alt="魂魄唔齐" title="魂魄唔齐" src="http://img3.douban.com/spic/s3030112.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3586725/" class="cover"><img alt="金氏漂流记" title="金氏漂流记" src="http://img5.douban.com/spic/s3643899.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1306664/" class="cover"><img alt="共同警备区" title="共同警备区" src="http://img3.douban.com/spic/s2738958.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1292262/" class="cover"><img alt="美国往事" title="美国往事" src="http://img3.douban.com/spic/s2383154.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6860160/" class="cover"><img alt="悲惨世界" title="悲惨世界" src="http://img3.douban.com/spic/s22704645.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2084721/" class="cover"><img alt="双性传奇" title="双性传奇" src="http://img3.douban.com/spic/s2694943.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10514817/" class="cover"><img alt="法网狙击" title="法网狙击" src="http://img3.douban.com/spic/s24588262.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >在看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/Jerry-feng/do">12部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3060542/" class="cover"><img alt="夏目友人帐" title="夏目友人帐" src="http://img3.douban.com/spic/s3166471.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6729183/" class="cover"><img alt="美国恐怖故事  第一季" title="美国恐怖故事  第一季" src="http://img3.douban.com/spic/s6981767.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/19971661/" class="cover"><img alt="清潭洞爱丽丝" title="清潭洞爱丽丝" src="http://img3.douban.com/spic/s24425011.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3401355/" class="cover"><img alt="大西洋帝国 第一季" title="大西洋帝国 第一季" src="http://img3.douban.com/spic/s4459755.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10545971/" class="cover"><img alt="行尸走肉 第三季" title="行尸走肉 第三季" src="http://img3.douban.com/spic/s11356673.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+            <h2  >收藏的影人 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/Jerry-feng/celebrities">19位</a> )</span></h2>
+            
+
+    <div id="celebrity" class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1160186/" class="cover">
+                        <img alt="杜琪峰 Johnnie To" src="http://img3.douban.com/img/celebrity/small/851.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1160186/">杜琪峰</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1274389/" class="cover">
+                        <img alt="王朔 Shuo Wang" src="http://img5.douban.com/img/celebrity/small/3269.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1274389/">王朔</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1025148/" class="cover">
+                        <img alt="盖·里奇 Guy Ritchie" src="http://img3.douban.com/img/celebrity/small/38048.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1025148/">盖·里奇</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1054524/" class="cover">
+                        <img alt="克里斯托弗·诺兰 Christopher Nolan" src="http://img3.douban.com/img/celebrity/small/673.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1054524/">克里斯托弗·诺兰</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1007152/" class="cover">
+                        <img alt="徐克 Hark Tsui" src="http://img3.douban.com/img/celebrity/small/41473.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1007152/">徐克</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    </div>
+    
+    <style>
+        .comment-m .comment-item h3 {padding-left:0;}
+        .comment-m .comment-item .author {background:#fff; padding-left:13px; margin-bottom:1em;}
+    </style>
+    <div class="mod comment-m">
+        <h2  >沐风而遇周星星的影评 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/Jerry-feng/reviews?cat_id=1002">13篇</a> )</span></h2>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/3821067/" title="一代宗師"><img src="http://img3.douban.com/spic/s24591423.jpg" alt="一代宗師"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="一代宗师之不如我们重头来过" href="http://movie.douban.com/review/5739622/" class="title">一代宗师之不如我们重头来过</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/Jerry-feng/">沐风而遇周星星</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/3821067/">一代宗師</a>
+                </div>
+                <p>文/@沐风而遇周星星
+
+多年不见墨镜王，作品还是一如既往的充满争议，喜欢他的人觉得牛逼到无人能及，讨厌他的人觉得装逼到不知所云。只是一代宗师若票房不佳，是否还会有人给他拍续集挣钱？
+
+臆想版剧本：
+
+镜头一：
+
+梁朝伟与章子怡打斗，打着打着，突然响起梁朝伟的画外音：
+
+当时那张脸离我的脸只有0.01公...<a href="http://movie.douban.com/review/5739622/">(4回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/19971661/" title="청담동 앨리스"><img src="http://img3.douban.com/spic/s24425011.jpg" alt="청담동 앨리스"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="纵使觉累不爱，也得不哭站撸。" href="http://movie.douban.com/review/5686950/" class="title">纵使觉累不爱，也得不哭站撸。</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/Jerry-feng/">沐风而遇周星星</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/19971661/">청담동 앨리스</a>
+                </div>
+                <p>文/@沐风而遇周星星 
+
+生活就像一个貌美无比却内心腹黑的婊子，每个人初次与之接触的时候意气风发，梦想成为她的主人，征服她操翻她，可最后往往是操之不成反被日。
+
+在一次又一次挫折和打击之后，慢慢明白：生容易，活容易，生活真尼玛不容易。原本的心比天高，慢慢成命比纸薄。曾经想着：能够辉煌就好了，哪怕在人...<a href="http://movie.douban.com/review/5686950/">(18回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/6796113/" title="媳妇的美好宣言"><img src="http://img3.douban.com/spic/s24430657.jpg" alt="媳妇的美好宣言"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="画虎不成反类犬，狗尾续貂真讨嫌。" href="http://movie.douban.com/review/5655666/" class="title">画虎不成反类犬，狗尾续貂真讨嫌。</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/Jerry-feng/">沐风而遇周星星</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/6796113/">媳妇的美好宣言</a>
+                </div>
+                <p>文/@沐风而遇周星星 
+
+畅销影视剧，总会被翻拍。经典的情节，老是被模仿。
+有句古话叫，天下文人是一家，你抄我来我抄他。
+在中国娱乐圈，一部影视剧或节目火了，马上各种续集姊妹篇粗制滥造的山寨都会剧蜂拥而至。
+画皮火了，马上出了垃圾到极点的画壁。
+舌尖上的中国火了，马上出现眼睛上的中国，耳朵里的中国。...<a href="http://movie.douban.com/review/5655666/">(12回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/6968176/" title="新女婿时代"><img src="http://img3.douban.com/spic/s23116304.jpg" alt="新女婿时代"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="少把无聊当有趣，大爷大妈偶像剧。" href="http://movie.douban.com/review/5629134/" class="title">少把无聊当有趣，大爷大妈偶像剧。</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/Jerry-feng/">沐风而遇周星星</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/6968176/">新女婿时代</a>
+                </div>
+                <p>文/@沐风而遇周星星 
+
+国内电视台八点黄金档，充斥着各类型的烂片。一部又一部的烂剧，你方唱罢我登场，刷新着烂剧下限。烂到海枯石烂，惊天地泣鬼神。一次又一次的证明了：“没有最烂，只有更烂”。
+
+《新女婿时代》更是烂剧中的一朵奇葩，绽放在烂剧花海中，丝毫不逊色任何烂剧。开场仿佛是从某本知音杂志上剽窃的...<a href="http://movie.douban.com/review/5629134/">(20回应)</a></p>
+            </div>
+        </div>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+    <div class="mod">
+        <h2>沐风而遇周星星的电影豆列 &nbsp; ·&nbsp;·&nbsp;·&nbsp;
+            <span class="pl">( <a href="http://movie.douban.com/people/Jerry-feng/doulists">2个</a> )</span>
+        </h2>
+        <ul class="list-m">
+            <li>
+                <p>
+                    <a href="http://movie.douban.com/doulist/1390334/">那些让人欲罢不能的经典丧尸片</a>
+                    <span class="rec">119人推荐</span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="http://movie.douban.com/doulist/1690852/">与吸血鬼有个约会</a>
+                    <span class="rec">22人推荐</span>
+                </p>
+            </li>
+        </ul>
+    </div>
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper2-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

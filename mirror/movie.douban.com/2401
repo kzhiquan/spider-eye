@@ -1,0 +1,546 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+浪客剑心 るろうに剣心的论坛
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <meta name="keywords" content="浪客剑心 るろうに剣心,论坛,电影讨论"/>
+    <meta name="description" content="浪客剑心 るろうに剣心论坛,浪客剑心 るろうに剣心电影讨论"/>
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+.useful {color:#999;}
+.spost {text-align:right; margin:0 0 10px 0;}
+.spost a:hover {
+  background-color: transparent;
+  background-image: url(/pics/post.gif);
+}
+.ssort {margin:0 0 20px 0;}
+
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+<h1>浪客剑心 るろうに剣心的论坛</h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    <p>
+        <a href="/login" class="rr bn-post j a_show_login"><span>添加新话题</span></a>
+    </p>
+
+
+    
+<table class="olt">
+    <tr>
+        <td>话题</td>
+        <td>作者</td>
+        <td nowrap="nowrap">回应</td>
+        <td align="right">更新时间</td>
+    </tr>
+
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51253884/" title="我想知道这部电影的武术指导是谁">我想知道这部电影的武术指导是谁</a></td>
+        <td><a href="http://movie.douban.com/people/qilichafang/">七</a></td>
+        <td>44</td>
+        <td class="time">2013-01-18 23:35</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51281139/" title="没人觉得斋藤长得很像毕老师吗">没人觉得斋藤长得很像毕老师吗</a></td>
+        <td><a href="http://movie.douban.com/people/mittermeier/">米达麦亚</a></td>
+        <td>22</td>
+        <td class="time">2013-01-20 17:04</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51298487/" title="原作粉的我表示：比想像中好看很多">原作粉的我表示：比想像中好看很多</a></td>
+        <td><a href="http://movie.douban.com/people/40179185/">涼、黍黍♪*</a></td>
+        <td>13</td>
+        <td class="time">2013-01-18 20:44</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/43035018/" title="等着看狗血片">等着看狗血片</a></td>
+        <td><a href="http://movie.douban.com/people/3894997/">飯野直樹</a></td>
+        <td>50</td>
+        <td class="time">2013-01-12 19:52</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/49025881/" title="弱弱的问下：哪能下个盗版片看看。。。">弱弱的问下：哪能下个盗版片看看。。。</a></td>
+        <td><a href="http://movie.douban.com/people/shuaiteng/">痛苦的熊吉君</a></td>
+        <td>25</td>
+        <td class="time">2013-01-14 09:41</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51514083/" title="除斋藤一 大家都演得不错 。可是 巴能有谁来演">除斋藤一 大家都演得不错 。可是 巴能有谁来演</a></td>
+        <td><a href="http://movie.douban.com/people/2117191/">逆行</a></td>
+        <td>3</td>
+        <td class="time">2013-01-16 18:11</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51409677/" title="没人觉得武田观柳长得像黄渤吗？">没人觉得武田观柳长得像黄渤吗？</a></td>
+        <td><a href="http://movie.douban.com/people/40934593/">claire</a></td>
+        <td>2</td>
+        <td class="time">2013-01-20 17:06</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51637836/" title="想知道原著里也有三个不停扇扇子的狗腿么？bs下我这没看过原著的人吧">想知道原著里也有三个不停扇扇子的狗腿么？bs下我...</a></td>
+        <td><a href="http://movie.douban.com/people/hide.love/">秀命</a></td>
+        <td></td>
+        <td class="time">2013-01-18 12:39</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51633565/" title="武指的水平低的令人发指">武指的水平低的令人发指</a></td>
+        <td><a href="http://movie.douban.com/people/beingboring/">杜兰</a></td>
+        <td></td>
+        <td class="time">2013-01-18 05:15</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51388702/" title="确定佐藤健没带美瞳嘛？！">确定佐藤健没带美瞳嘛？！</a></td>
+        <td><a href="http://movie.douban.com/people/chris7732/">Chris</a></td>
+        <td>4</td>
+        <td class="time">2013-01-17 22:10</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51606969/" title="看了预告片 觉得剑心太丑 佐之助太帅。">看了预告片 觉得剑心太丑 佐之助太帅。</a></td>
+        <td><a href="http://movie.douban.com/people/zhangyuntian/">张飞</a></td>
+        <td></td>
+        <td class="time">2013-01-16 15:25</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51602949/" title="苍老师的片子?">苍老师的片子?</a></td>
+        <td><a href="http://movie.douban.com/people/33999732/">挥挥翅膀</a></td>
+        <td></td>
+        <td class="time">2013-01-16 12:42</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/47955746/" title="真人版里有苍紫么?">真人版里有苍紫么?</a></td>
+        <td><a href="http://movie.douban.com/people/leftgarden/">煙火成災</a></td>
+        <td>10</td>
+        <td class="time">2013-01-15 21:03</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51489259/" title="关于阿巴老公清良的死">关于阿巴老公清良的死</a></td>
+        <td><a href="http://movie.douban.com/people/eden820/">每天都是每天的我的祭日</a></td>
+        <td>4</td>
+        <td class="time">2013-01-15 00:55</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51374728/" title="这个最少要拍5部电影才好嘛">这个最少要拍5部电影才好嘛</a></td>
+        <td><a href="http://movie.douban.com/people/63712981/">半睡不醒</a></td>
+        <td>14</td>
+        <td class="time">2013-01-14 19:48</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51366871/" title="影片中，香川照之他的办公室里有很多钟，代表各个国家，佛国是指哪国？">影片中，香川照之他的办公室里有很多钟，代表各个...</a></td>
+        <td><a href="http://movie.douban.com/people/50329989/">ruii</a></td>
+        <td>7</td>
+        <td class="time">2013-01-10 16:37</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51350950/" title="这片要让北野武拍。。。">这片要让北野武拍。。。</a></td>
+        <td><a href="http://movie.douban.com/people/2304829/">死到右边去</a></td>
+        <td>1</td>
+        <td class="time">2013-01-10 16:32</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51350868/" title="有人觉得熏有点像美列布吗？">有人觉得熏有点像美列布吗？</a></td>
+        <td><a href="http://movie.douban.com/people/SaaSean/">一路小跑</a></td>
+        <td>2</td>
+        <td class="time">2013-01-10 16:29</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/51344130/" title="苍井优和苍井空什么关系？">苍井优和苍井空什么关系？</a></td>
+        <td><a href="http://movie.douban.com/people/siikee/">siikee</a></td>
+        <td>1</td>
+        <td class="time">2013-01-09 16:13</td>
+    </tr>
+    <tr>
+        <td><a href="http://movie.douban.com/subject/6558801/discussion/48545502/" title="求片尾曲">求片尾曲</a></td>
+        <td><a href="http://movie.douban.com/people/bin2xl/">八斋戒|xl</a></td>
+        <td>11</td>
+        <td class="time">2013-01-06 15:59</td>
+    </tr>
+</table>
+
+
+
+
+    
+    
+
+    
+        <div class="paginator">
+        <span class="prev">
+            &lt;前页
+        </span>
+        
+        
+
+                <span class="thispage">1</span>
+                
+            <a href="http://movie.douban.com/subject/6558801/discussion/?start=20&amp;sort=vote" >2</a>
+        
+        <span class="next">
+            <link rel="next" href="http://movie.douban.com/subject/6558801/discussion/?start=20&amp;sort=vote"/>
+            <a href="http://movie.douban.com/subject/6558801/discussion/?start=20&amp;sort=vote" >后页&gt;</a>
+        </span>
+
+            <span class="count">(共31条)</span>
+        </div>
+
+
+
+	</div>
+        <div class="aside">
+            
+
+    <h2>
+        哪些内容不适合这里
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+<p>请尊重创作者的劳动，不要在讨论区里提供或讨论下载方面的内容。</p>
+
+
+<p class="pl2">&gt; <a href="http://movie.douban.com/subject/6558801/">去 浪客剑心 的页面</a></p>
+
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper11-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

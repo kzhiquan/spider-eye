@@ -1,0 +1,716 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>孤岛@无常的电影</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+#celebrity .list-s li { height: 140px; overflow: hidden }
+.aside .mod .pl a{font-size:14px;}
+.contact-update-time {margin-top:10px;border-bottom:1px solid #ddd }
+
+    </style>
+    
+<link href="http://img3.douban.com/css/ui/packed_mypage6119031721.css" rel="stylesheet" type="text/css" />
+<link href="http://img3.douban.com/css/music/packed_people5808759241.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.form5689674177.js"></script>
+
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+
+
+
+    
+
+    
+
+    
+
+    
+    <div id="db-usr-profile">
+        <div class="pic">
+            <a href="http://movie.douban.com/people/isolatedland/"><img height="48" width="48" alt="孤岛@无常" src="http://img3.douban.com/icon/u1140854-56.jpg" /></a>
+        </div>
+        <div class="info">
+            <h1>孤岛@无常的电影</h1>
+            <ul>
+                    
+        <li><a href="http://movie.douban.com/people/isolatedland/">电影主页</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/isolatedland/reviews?cat_id=1002">影评</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/isolatedland/do">在看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/isolatedland/wish">想看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/isolatedland/collect">看过</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/isolatedland/doulists">豆列</a></li>
+    
+                    
+        <li class="sep">|</li>
+    
+                    
+        <li><a href="http://www.douban.com/people/isolatedland/">豆瓣主页</a></li>
+    
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+
+
+
+
+    <div id="db-book-mine">
+            
+
+    <h2  >看过 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/isolatedland/collect">2280部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2294458/" class="cover"><img alt="蛊" title="蛊" src="http://img3.douban.com/spic/s2755856.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6395245/" class="cover"><img alt="破产姐妹 第一季" title="破产姐妹 第一季" src="http://img3.douban.com/spic/s8903063.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10831449/" class="cover"><img alt="搞定岳父大人" title="搞定岳父大人" src="http://img5.douban.com/spic/s11150619.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4212172/" class="cover"><img alt="十二生肖" title="十二生肖" src="http://img3.douban.com/spic/s24519706.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2282471/" class="cover"><img alt="千里姻缘兜错圈" title="千里姻缘兜错圈" src="http://img3.douban.com/spic/s2741780.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3044825/" class="cover"><img alt="公私恋事多" title="公私恋事多" src="http://img3.douban.com/spic/s3127554.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2241523/" class="cover"><img alt="冤家宜结不宜解" title="冤家宜结不宜解" src="http://img3.douban.com/spic/s2681121.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/5965670/" class="cover"><img alt="潜行狙击" title="潜行狙击" src="http://img3.douban.com/spic/s6808772.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1418238/" class="cover"><img alt="威尔和格蕾丝 第一季" title="威尔和格蕾丝 第一季" src="http://img3.douban.com/spic/s1664904.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6872245/" class="cover"><img alt="诈欺游戏 -再生-" title="诈欺游戏 -再生-" src="http://img3.douban.com/spic/s7051185.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >想看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/isolatedland/wish">1688部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6753166/" class="cover"><img alt="七个神经病" title="七个神经病" src="http://img5.douban.com/spic/s24591129.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6875438/" class="cover"><img alt="望风" title="望风" src="http://img3.douban.com/spic/s11098306.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2043155/" class="cover"><img alt="反叛的鲁路修" title="反叛的鲁路修" src="http://img3.douban.com/spic/s2359834.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10491666/" class="cover"><img alt="胜者即是正义" title="胜者即是正义" src="http://img3.douban.com/spic/s11108460.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/20473389/" class="cover"><img alt="坏未来" title="坏未来" src="http://img5.douban.com/spic/s24525499.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1467779/" class="cover"><img alt="天使之卵" title="天使之卵" src="http://img3.douban.com/spic/s2839607.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1963131/" class="cover"><img alt="地下幻灯剧画 少女椿" title="地下幻灯剧画 少女椿" src="http://img3.douban.com/spic/s17047740.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1889242/" class="cover"><img alt="林肯" title="林肯" src="http://img3.douban.com/spic/s11195053.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3094909/" class="cover"><img alt="乌云背后的幸福线" title="乌云背后的幸福线" src="http://img3.douban.com/spic/s11364841.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/7015730/" class="cover"><img alt="瘟疫求生指南" title="瘟疫求生指南" src="http://img3.douban.com/spic/s11326566.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >在看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/isolatedland/do">24部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3754368/" class="cover"><img alt="傲骨贤妻 第一季" title="傲骨贤妻 第一季" src="http://img3.douban.com/spic/s3934515.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2294255/" class="cover"><img alt="笑傲江湖" title="笑傲江湖" src="http://img3.douban.com/spic/s2839830.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3271140/" class="cover"><img alt="源氏物语" title="源氏物语" src="http://img3.douban.com/spic/s3545256.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10561953/" class="cover"><img alt="生活大爆炸 第六季" title="生活大爆炸 第六季" src="http://img3.douban.com/spic/s11365287.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10603908/" class="cover"><img alt="澳洲之声 第一季" title="澳洲之声 第一季" src="http://img3.douban.com/spic/s9056325.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+            <h2  >收藏的影人 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/isolatedland/celebrities">165位</a> )</span></h2>
+            
+
+    <div id="celebrity" class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1310925/" class="cover">
+                        <img alt="裴唯莹 Weiying Pei" src="http://img3.douban.com/img/celebrity/small/39951.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1310925/">裴唯莹</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1054416/" class="cover">
+                        <img alt="雷德利·斯科特 Ridley Scott" src="http://img3.douban.com/img/celebrity/small/588.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1054416/">雷德利·斯科特</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1018976/" class="cover">
+                        <img alt="凯特·戴琳斯 Kat Dennings" src="http://img3.douban.com/img/celebrity/small/23695.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1018976/">凯特·戴琳斯</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1037337/" class="cover">
+                        <img alt="中井和哉 Kazuya Nakai" src="http://img5.douban.com/img/celebrity/small/10219.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1037337/">中井和哉</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1274377/" class="cover">
+                        <img alt="神谷浩史 Hiroshi Kamiya" src="http://img3.douban.com/img/celebrity/small/23870.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1274377/">神谷浩史</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    </div>
+    
+    <style>
+        .comment-m .comment-item h3 {padding-left:0;}
+        .comment-m .comment-item .author {background:#fff; padding-left:13px; margin-bottom:1em;}
+    </style>
+    <div class="mod comment-m">
+        <h2  >孤岛@无常的影评 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/isolatedland/reviews?cat_id=1002">12篇</a> )</span></h2>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/5989840/" title="轩辕剑之天之痕"><img src="http://img3.douban.com/spic/s9085414.jpg" alt="轩辕剑之天之痕"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="导演和编剧，以及唐人的蔡艺侬，请让我温柔地操！你！妈！" href="http://movie.douban.com/review/5494227/" class="title">导演和编剧，以及唐人的蔡艺侬，请让我温柔地操！你！妈！</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/isolatedland/">孤岛@无常</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/5989840/">轩辕剑之天之痕</a>
+                </div>
+                <p>       作为一个老轩辕剑迷，自从知道轩辕剑天之痕要被唐人这家全国最该被诅咒立马倒闭老板被人下降头死无全尸的公司改编之后，我抱着算了死也不看洗洗睡了的心态对待这部注定成为奇葩的电视剧，但是知道编剧是陈十三之后，心里抱有一丝侥幸心理，不管怎么说毕竟是春天和僵尸系列的编剧，再怎么弱也不会天雷滚滚到仙剑三...<a href="http://movie.douban.com/review/5494227/">(67回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/3530403/" title="Cloud Atlas"><img src="http://img3.douban.com/spic/s22705883.jpg" alt="Cloud Atlas"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="从卡司来看本片的票房前景（大雾）" href="http://movie.douban.com/review/5438697/" class="title">从卡司来看本片的票房前景（大雾）</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/isolatedland/">孤岛@无常</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/3530403/">Cloud Atlas</a>
+                </div>
+                <p>标题党
+前面是个人吐槽，不爱看嫌长的直接拉到下面看好了
+╮(╯▽╰)╭
+
+      作为《云图》原著小说的死忠粉，我把486页的小说读了三遍，最爱的段落翻了不下数十遍，厚厚的一本书快被我翻脱线了......囧。《云图》是由英国作家大卫米切尔创作于2004年的畅销书，当年入围了英国布克奖，不过可惜没得奖.......原著将...<a href="http://movie.douban.com/review/5438697/">(66回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/5265182/" title="MADAME"><img src="http://img3.douban.com/spic/s4522957.jpg" alt="MADAME"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="火舞" href="http://movie.douban.com/review/4875338/" class="title">火舞</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/isolatedland/">孤岛@无常</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/5265182/">MADAME</a>
+                </div>
+                <p>火舞
+看完《姑奶奶》之后的半个小时里，我就一直坐在影院的最后一后排哭，眼泪就那么掉，止都止不住。
+哭完之后就脑缺氧，跟条濒死的鱼一样张大了嘴，想要多吸点氧气止住脑袋的疼痛。
+我恼仁疼。
+上一次哭成这样是在看《活埋蓝调里》。
+其实姑奶奶就是Janis Joplin。
+一样深入骨髓的不安感，一样根植灵魂的空白无...<a href="http://movie.douban.com/review/4875338/">(9回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/1437390/" title="Meshes of the Afternoon"><img src="http://img3.douban.com/spic/s1648087.jpg" alt="Meshes of the Afternoon"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="女性之殇：以《午后的迷惘》为镜" href="http://movie.douban.com/review/4658868/" class="title">女性之殇：以《午后的迷惘》为镜</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/isolatedland/">孤岛@无常</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/1437390/">Meshes of the Afternoon</a>
+                </div>
+                <p>玛雅•德伦是20世纪40年代美国独立电影的领军人物，她在创作和理论上的创举影响了很多美国实验电影人，她对实验电影的影响甚至被人戏称为“她自己的前卫运动”。（1）她来自于一个乌克兰犹太教家庭，父亲是一名精神病专家，而母亲则是一名艺术家。德伦一家在1922年反犹主义盛行时逃到了美国，并将姓式由原来的凯伦诺夫...<a href="http://movie.douban.com/review/4658868/">(1回应)</a></p>
+            </div>
+        </div>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+    <div class="mod">
+        <h2>孤岛@无常的电影豆列 &nbsp; ·&nbsp;·&nbsp;·&nbsp;
+            <span class="pl">( <a href="http://movie.douban.com/people/isolatedland/doulists">2个</a> )</span>
+        </h2>
+        <ul class="list-m">
+            <li>
+                <p>
+                    <a href="http://movie.douban.com/doulist/793264/">1953年“诗歌与电影”的讨论会</a>
+                    <span class="rec">4人推荐</span>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="http://movie.douban.com/doulist/1399246/">跌堕</a>
+                    <span class="rec">0人推荐</span>
+                </p>
+            </li>
+        </ul>
+    </div>
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- hogg8-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

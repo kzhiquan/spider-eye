@@ -1,0 +1,582 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>乌索普乔巴合体的电影</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+#celebrity .list-s li { height: 140px; overflow: hidden }
+.aside .mod .pl a{font-size:14px;}
+.contact-update-time {margin-top:10px;border-bottom:1px solid #ddd }
+
+    </style>
+    
+<link href="http://img3.douban.com/css/ui/packed_mypage6119031721.css" rel="stylesheet" type="text/css" />
+<link href="http://img3.douban.com/css/music/packed_people5808759241.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.form5689674177.js"></script>
+
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+
+
+
+    
+
+    
+
+    
+
+    
+    <div id="db-usr-profile">
+        <div class="pic">
+            <a href="http://movie.douban.com/people/zloniea/"><img height="48" width="48" alt="乌索普乔巴合体" src="http://img3.douban.com/icon/u3671777-27.jpg" /></a>
+        </div>
+        <div class="info">
+            <h1>乌索普乔巴合体的电影</h1>
+            <ul>
+                    
+        <li><a href="http://movie.douban.com/people/zloniea/">电影主页</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/zloniea/reviews?cat_id=1002">影评</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/zloniea/do">在看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/zloniea/wish">想看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/zloniea/collect">看过</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/zloniea/doulists">豆列</a></li>
+    
+                    
+        <li class="sep">|</li>
+    
+                    
+        <li><a href="http://www.douban.com/people/zloniea/">豆瓣主页</a></li>
+    
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+
+
+
+
+    <div id="db-book-mine">
+            
+
+    <h2  >看过 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/zloniea/collect">35部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3530403/" class="cover"><img alt="云图" title="云图" src="http://img3.douban.com/spic/s22705883.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6097775/" class="cover"><img alt="艺术家" title="艺术家" src="http://img3.douban.com/spic/s6879372.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3233635/" class="cover"><img alt="功夫熊猫2" title="功夫熊猫2" src="http://img3.douban.com/spic/s6388934.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3227410/" class="cover"><img alt="加勒比海盗4：惊涛怪浪" title="加勒比海盗4：惊涛怪浪" src="http://img3.douban.com/spic/s4710373.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2361386/" class="cover"><img alt="堕入地狱" title="堕入地狱" src="http://img3.douban.com/spic/s3694765.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4934992/" class="cover"><img alt="怪谈新耳袋百物语" title="怪谈新耳袋百物语" src="http://img3.douban.com/spic/s4471612.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3683108/" class="cover"><img alt="疯狂的精神病患者" title="疯狂的精神病患者" src="http://img3.douban.com/spic/s3738648.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3075983/" class="cover"><img alt="电锯惊魂6" title="电锯惊魂6" src="http://img3.douban.com/spic/s3926441.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1895120/" class="cover"><img alt="死寂" title="死寂" src="http://img3.douban.com/spic/s1995437.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2269893/" class="cover"><img alt="食人鱼3D" title="食人鱼3D" src="http://img3.douban.com/spic/s4409406.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >想看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/zloniea/wish">4部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3878157/" class="cover"><img alt="电锯惊魂7" title="电锯惊魂7" src="http://img3.douban.com/spic/s4417938.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2132930/" class="cover"><img alt="速度与激情4" title="速度与激情4" src="http://img3.douban.com/spic/s3602392.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1792902/" class="cover"><img alt="Ripley&#39;s Believe It or Not!" title="Ripley&#39;s Believe It or Not!" src="http://img3.douban.com/spic/s1739668.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1308979/" class="cover"><img alt="雷蒙·斯尼奇的不幸历险" title="雷蒙·斯尼奇的不幸历险" src="http://img3.douban.com/spic/s1327702.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+            <h2  >收藏的影人 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/zloniea/celebrities">1位</a> )</span></h2>
+            
+
+    <div id="celebrity" class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1054447/" class="cover">
+                        <img alt="安吉丽娜·朱莉 Angelina Jolie" src="http://img3.douban.com/img/celebrity/small/1592.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1054447/">安吉丽娜·朱莉</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    </div>
+    
+    <style>
+        .comment-m .comment-item h3 {padding-left:0;}
+        .comment-m .comment-item .author {background:#fff; padding-left:13px; margin-bottom:1em;}
+    </style>
+    <div class="mod comment-m">
+        <h2  >乌索普乔巴合体的影评 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/zloniea/reviews?cat_id=1002">3篇</a> )</span></h2>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/3530403/" title="Cloud Atlas"><img src="http://img3.douban.com/spic/s22705883.jpg" alt="Cloud Atlas"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="第一部让我看到醉，看到吐的电影" href="http://movie.douban.com/review/5747642/" class="title">第一部让我看到醉，看到吐的电影</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/zloniea/">乌索普乔巴合体</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/3530403/">Cloud Atlas</a>
+                </div>
+                <p>神马JB化妆，神马JB剧情，神马JB台词，神马JB场景，还没等看完老子的感觉就像是喝到宿醉想吐还吐不出来的柑橘，看完以后老子感觉就像是一口气吃了六个白水煮鸡蛋嚼都不嚼直接吞的节奏，尼玛顿觉苍井空的片子相当有教育意义啊有木有。豆瓣你麻痹的给8.1是要疯啊！还有啊！你麻痹的那些装波一的豆瓣友邻们我想请问你们哪里...<a href="http://movie.douban.com/review/5747642/">(0回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/3227410/" title="Pirates of the Caribbean: On Stranger Tides"><img src="http://img3.douban.com/spic/s4710373.jpg" alt="Pirates of the Caribbean: On Stranger Tides"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="随便说说" href="http://movie.douban.com/review/4958102/" class="title">随便说说</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/zloniea/">乌索普乔巴合体</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/3227410/">Pirates of the Caribbean: On Stranger Tides</a>
+                </div>
+                <p>今晚多写点。首先我要说的是，威廉驾驶飞翔的荷兰人就已经是故事的结束了，我不知道是导演，编剧缺钱了还是文思泉涌收不了笔，一个投靠了英国国王却身在曹营心在汉的瘸子，一个吊儿郎当的风流瘪三和一个从海贼王里蹦出来名叫爱得华帝奇的男人，三个人搞了两个小时的基，最后黑胡子死了，瘸子抢了黑胡子的船，继承了基情...<a href="http://movie.douban.com/review/4958102/">(0回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/2361386/" title="Drag Me to Hell"><img src="http://img3.douban.com/spic/s3694765.jpg" alt="Drag Me to Hell"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="教育意义" href="http://movie.douban.com/review/4958092/" class="title">教育意义</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/zloniea/">乌索普乔巴合体</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/2361386/">Drag Me to Hell</a>
+                </div>
+                <p>蛆，尸体？好吧我承认此电影只有喷血那一段确实地吸引了我，因为主角喷完血跟菊右京一样没事似的，拔腿就走;而且，那个二逼狗血亚洲人跟故事主线有蛋关系？而且很好玩的是，所谓女巫的影子为什么会是米诺陶斯牛？但愿是我多想了，不过按照外国人的思路，米诺陶斯的应用领域就像我们应用孙悟空一样广泛，所以剧情实在没什...<a href="http://movie.douban.com/review/4958092/">(0回应)</a></p>
+            </div>
+        </div>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper11-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

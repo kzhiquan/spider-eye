@@ -1,0 +1,649 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>宇木林的电影</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+#celebrity .list-s li { height: 140px; overflow: hidden }
+.aside .mod .pl a{font-size:14px;}
+.contact-update-time {margin-top:10px;border-bottom:1px solid #ddd }
+
+    </style>
+    
+<link href="http://img3.douban.com/css/ui/packed_mypage6119031721.css" rel="stylesheet" type="text/css" />
+<link href="http://img3.douban.com/css/music/packed_people5808759241.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.form5689674177.js"></script>
+
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+
+
+
+    
+
+    
+
+    
+
+    
+    <div id="db-usr-profile">
+        <div class="pic">
+            <a href="http://movie.douban.com/people/yumulin/"><img height="48" width="48" alt="宇木林" src="http://img3.douban.com/icon/u1064562-160.jpg" /></a>
+        </div>
+        <div class="info">
+            <h1>宇木林的电影</h1>
+            <ul>
+                    
+        <li><a href="http://movie.douban.com/people/yumulin/">电影主页</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/yumulin/reviews?cat_id=1002">影评</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/yumulin/do">在看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/yumulin/wish">想看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/yumulin/collect">看过</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/yumulin/doulists">豆列</a></li>
+    
+                    
+        <li class="sep">|</li>
+    
+                    
+        <li><a href="http://www.douban.com/people/yumulin/">豆瓣主页</a></li>
+    
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+
+
+
+
+    <div id="db-book-mine">
+            
+
+    <h2  >看过 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/yumulin/collect">1550部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1467585/" class="cover"><img alt="残缺" title="残缺" src="http://img3.douban.com/spic/s2862274.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6860160/" class="cover"><img alt="悲惨世界" title="悲惨世界" src="http://img3.douban.com/spic/s22704645.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4156402/" class="cover"><img alt="背水一战" title="背水一战" src="http://img5.douban.com/spic/s11187619.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/19976063/" class="cover"><img alt="古惑仔：江湖新秩序" title="古惑仔：江湖新秩序" src="http://img3.douban.com/spic/s23115775.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3821067/" class="cover"><img alt="一代宗师" title="一代宗师" src="http://img3.douban.com/spic/s24591423.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/7564989/" class="cover"><img alt="箭士柳白猿" title="箭士柳白猿" src="http://img3.douban.com/spic/s24481054.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4280102/" class="cover"><img alt="能召回前世的布米叔叔" title="能召回前世的布米叔叔" src="http://img3.douban.com/spic/s4363870.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10537853/" class="cover"><img alt="万箭穿心" title="万箭穿心" src="http://img3.douban.com/spic/s22996742.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10480963/" class="cover"><img alt="杨梅洲" title="杨梅洲" src="http://img3.douban.com/spic/s11149447.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6560928/" class="cover"><img alt="乐队" title="乐队" src="http://img3.douban.com/spic/s6880098.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >想看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/yumulin/wish">76部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1306842/" class="cover"><img alt="男孩遇见女孩" title="男孩遇见女孩" src="http://img3.douban.com/spic/s2608221.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1306049/" class="cover"><img alt="我们如此相爱" title="我们如此相爱" src="http://img3.douban.com/spic/s1791210.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2080294/" class="cover"><img alt="时光与成长" title="时光与成长" src="http://img3.douban.com/spic/s2405304.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1295877/" class="cover"><img alt="二楼传来的歌声" title="二楼传来的歌声" src="http://img3.douban.com/spic/s2335348.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1303521/" class="cover"><img alt="特写" title="特写" src="http://img3.douban.com/spic/s4221777.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2300815/" class="cover"><img alt="失败者" title="失败者" src="http://img3.douban.com/spic/s2761273.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1301374/" class="cover"><img alt="少女情怀总是诗" title="少女情怀总是诗" src="http://img5.douban.com/spic/s3577529.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1300487/" class="cover"><img alt="烈火战车" title="烈火战车" src="http://img3.douban.com/spic/s2172007.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3135483/" class="cover"><img alt="严肃的男人" title="严肃的男人" src="http://img3.douban.com/spic/s3922380.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1919906/" class="cover"><img alt="即使这样也不是我做的" title="即使这样也不是我做的" src="http://img3.douban.com/spic/s2967525.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >在看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/yumulin/do">2部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/7054120/" class="cover"><img alt="黑镜 第一季" title="黑镜 第一季" src="http://img3.douban.com/spic/s7124763.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1939521/" class="cover"><img alt="故宫的至宝" title="故宫的至宝" src="http://img3.douban.com/spic/s1947150.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+            <h2  >收藏的影人 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/yumulin/celebrities">30位</a> )</span></h2>
+            
+
+    <div id="celebrity" class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1045316/" class="cover">
+                        <img alt="范若施卡·冯·兰朵夫 Veruschka von Lehndorff" src="http://img5.douban.com/img/celebrity/small/16069.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1045316/">范若施卡·冯·兰朵夫</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1041233/" class="cover">
+                        <img alt="路易·马勒 Louis Malle" src="http://img3.douban.com/img/celebrity/small/1146.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1041233/">路易·马勒</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1056071/" class="cover">
+                        <img alt="佩德罗·阿莫多瓦 Pedro Almodóvar" src="http://img5.douban.com/img/celebrity/small/719.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1056071/">佩德罗·阿莫多瓦</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1025376/" class="cover">
+                        <img alt="克利斯·马克 Chris Marker" src="http://img3.douban.com/img/celebrity/small/4963.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1025376/">克利斯·马克</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1022002/" class="cover">
+                        <img alt="米开朗基罗·安东尼奥尼 Michelangelo Antonioni" src="http://img3.douban.com/img/celebrity/small/633.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1022002/">米开朗基罗·安东尼奥尼</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    </div>
+    
+    <style>
+        .comment-m .comment-item h3 {padding-left:0;}
+        .comment-m .comment-item .author {background:#fff; padding-left:13px; margin-bottom:1em;}
+    </style>
+    <div class="mod comment-m">
+        <h2  >宇木林的影评 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/yumulin/reviews?cat_id=1002">2篇</a> )</span></h2>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/1297747/" title="少林足球"><img src="http://img5.douban.com/spic/s1394549.jpg" alt="少林足球"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="我心中的一团火是不会熄地" href="http://movie.douban.com/review/1292514/" class="title">我心中的一团火是不会熄地</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/yumulin/">宇木林</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/1297747/">少林足球</a>
+                </div>
+                <p>当年看《少林足球》，是租碟看的，也算是接近电影在香港上映的时间，那时候还是VCD盗版，当时也没怎么注意影像方面的效果，只知看得很快活，周星驰的作品看多了，完全可以背过身去，听声音一样可以在眼前出现鲜活的形象和场景，会心一笑得到的收获并不少。
+　　
+《少林足球》好象是以宗教方面的问题不能在内地上映，周...<a href="http://movie.douban.com/review/1292514/">(26回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/1296519/" title="喋血双雄"><img src="http://img3.douban.com/spic/s2524328.jpg" alt="喋血双雄"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="《喋血双雄》：对古典情怀的崇敬与缅怀" href="http://movie.douban.com/review/1080643/" class="title">《喋血双雄》：对古典情怀的崇敬与缅怀</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/yumulin/">宇木林</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/1296519/">喋血双雄</a>
+                </div>
+                <p>有人说吴宇森通过《英雄本色》开创了英雄片类型，借《喋血双雄》达到电影生涯的高峰，一个连他自己也无法逾越的高峰。我基本上认同这种观点，希望在经历了事业上的低潮之后，吴宇森能够创作出新的经典，很是期待。
+
+我认为《喋血双雄》与《英雄本色》一样，绝不是简单的属于某单一类型，或者将其束缚于某一框架里，你...<a href="http://movie.douban.com/review/1080643/">(15回应)</a></p>
+            </div>
+        </div>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- gardner3-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

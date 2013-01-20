@@ -1,0 +1,664 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>god♪fish的电影</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+#celebrity .list-s li { height: 140px; overflow: hidden }
+.aside .mod .pl a{font-size:14px;}
+.contact-update-time {margin-top:10px;border-bottom:1px solid #ddd }
+
+    </style>
+    
+<link href="http://img3.douban.com/css/ui/packed_mypage6119031721.css" rel="stylesheet" type="text/css" />
+<link href="http://img3.douban.com/css/music/packed_people5808759241.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.form5689674177.js"></script>
+
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+
+
+
+    
+
+    
+
+    
+
+    
+    <div id="db-usr-profile">
+        <div class="pic">
+            <a href="http://movie.douban.com/people/evilcrystal/"><img height="48" width="48" alt="god♪fish" src="http://img3.douban.com/icon/u2951696-6.jpg" /></a>
+        </div>
+        <div class="info">
+            <h1>god♪fish的电影</h1>
+            <ul>
+                    
+        <li><a href="http://movie.douban.com/people/evilcrystal/">电影主页</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/evilcrystal/reviews?cat_id=1002">影评</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/evilcrystal/do">在看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/evilcrystal/wish">想看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/evilcrystal/collect">看过</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/evilcrystal/doulists">豆列</a></li>
+    
+                    
+        <li class="sep">|</li>
+    
+                    
+        <li><a href="http://www.douban.com/people/evilcrystal/">豆瓣主页</a></li>
+    
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+
+
+
+
+    <div id="db-book-mine">
+            
+
+    <h2  >看过 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/evilcrystal/collect">246部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/19967854/" class="cover"><img alt="猫物语（黑）" title="猫物语（黑）" src="http://img3.douban.com/spic/s24481051.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/5377120/" class="cover"><img alt="伏 铁炮妹的捕物帐" title="伏 铁炮妹的捕物帐" src="http://img3.douban.com/spic/s11152456.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2567647/" class="cover"><img alt="福音战士新剧场版：Q" title="福音战士新剧场版：Q" src="http://img3.douban.com/spic/s23011175.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10763906/" class="cover"><img alt="只要你说你爱我" title="只要你说你爱我" src="http://img3.douban.com/spic/s23121276.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/5395238/" class="cover"><img alt="天地明察" title="天地明察" src="http://img3.douban.com/spic/s10251327.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1431615/" class="cover"><img alt="攻壳机动队" title="攻壳机动队" src="http://img5.douban.com/spic/s1645549.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/7152895/" class="cover"><img alt="听说桐岛要退部" title="听说桐岛要退部" src="http://img3.douban.com/spic/s10353170.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6558801/" class="cover"><img alt="浪客剑心" title="浪客剑心" src="http://img3.douban.com/spic/s8940827.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6874729/" class="cover"><img alt="Fate/Zero 第二期" title="Fate/Zero 第二期" src="http://img3.douban.com/spic/s9018795.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10472700/" class="cover"><img alt="钓球" title="钓球" src="http://img3.douban.com/spic/s8959143.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >想看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/evilcrystal/wish">81部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1292267/" class="cover"><img alt="银河系漫游指南" title="银河系漫游指南" src="http://img3.douban.com/spic/s3109578.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3642835/" class="cover"><img alt="黑衣人3" title="黑衣人3" src="http://img3.douban.com/spic/s8904327.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10569151/" class="cover"><img alt="剧场版 魔法少女小圆 [新篇] 叛逆的故事" title="剧场版 魔法少女小圆 [新篇] 叛逆的故事" src="http://img3.douban.com/spic/s8995397.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/11625206/" class="cover"><img alt="G:Recode" title="G:Recode" src="http://img3.douban.com/spic/s24515105.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/11499092/" class="cover"><img alt="空之境界 未来福音" title="空之境界 未来福音" src="http://img3.douban.com/spic/s11172667.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10428501/" class="cover"><img alt="新·福音战士剧场版：|▎" title="新·福音战士剧场版：|▎" src="http://img3.douban.com/spic/s24418240.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10788833/" class="cover"><img alt="魔法禁书目录 剧场版" title="魔法禁书目录 剧场版" src="http://img3.douban.com/spic/s23110240.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/20266812/" class="cover"><img alt="血咒圣痕 OVA" title="血咒圣痕 OVA" src="http://img3.douban.com/spic/s23116157.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/20378778/" class="cover"><img alt="召唤恶魔阿萨谢尔 二期" title="召唤恶魔阿萨谢尔 二期" src="http://img3.douban.com/spic/s24227704.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/5423395/" class="cover"><img alt="幸运星 2期" title="幸运星 2期" src="http://img3.douban.com/spic/s4579307.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >在看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/evilcrystal/do">6部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/11615886/" class="cover"><img alt="银魂 第三季" title="银魂 第三季" src="http://img5.douban.com/spic/s22714359.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10001418/" class="cover"><img alt="冰果" title="冰果" src="http://img3.douban.com/spic/s7028853.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/7163768/" class="cover"><img alt="黑子的篮球" title="黑子的篮球" src="http://img3.douban.com/spic/s9056553.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6869375/" class="cover"><img alt="加速世界" title="加速世界" src="http://img3.douban.com/spic/s8916144.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6844863/" class="cover"><img alt="少年同盟2" title="少年同盟2" src="http://img3.douban.com/spic/s9015705.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    </div>
+    
+    <style>
+        .comment-m .comment-item h3 {padding-left:0;}
+        .comment-m .comment-item .author {background:#fff; padding-left:13px; margin-bottom:1em;}
+    </style>
+    <div class="mod comment-m">
+        <h2  >god♪fish的影评 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/evilcrystal/reviews?cat_id=1002">6篇</a> )</span></h2>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/6558801/" title="るろうに剣心"><img src="http://img3.douban.com/spic/s8940827.jpg" alt="るろうに剣心"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="高荷惠太嫩，左之助太老，除此之外一切还算美好" href="http://movie.douban.com/review/5564248/" class="title">高荷惠太嫩，左之助太老，除此之外一切还算美好</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/evilcrystal/">god♪fish</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/6558801/">るろうに剣心</a>
+                </div>
+                <p>剑心的真人版...当初听到这消息的时候一口老血都快吐出来了。
+作为一个原作死忠，介于一贯以来真人版的种种糟糕表现，我已经默默地把这部电影贴上了悲剧的标签。（直接一颗星的广大同志们应该很能理解这种心情XD）
+所以，其实压根就没想着去电影院烧钱。
+
+不过话说事情总是会时不时柳暗花明峰回路转一下的。
+某一天...<a href="http://movie.douban.com/review/5564248/">(58回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/6013847/" title="英雄伝説 空の軌跡 THE ANIMATION"><img src="http://img3.douban.com/spic/s6938733.jpg" alt="英雄伝説 空の軌跡 THE ANIMATION"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="OVA先行放映现场report~  第二卷明年2月预定发售" href="http://movie.douban.com/review/5126445/" class="title">OVA先行放映现场report~  第二卷明年2月预定发售</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/evilcrystal/">god♪fish</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/6013847/">英雄伝説 空の軌跡 THE ANIMATION</a>
+                </div>
+                <p>1.动画
+
+ 总的来说质量还不错，至少比我想象的要好很多...恶，大概是因为之前看到预告片那一张张崩坏的脸，对ova基本没抱任何期待的缘故。
+
+  剧情是从SC开始的，所以没玩过原作的人大概会搞不清状况。嘛，反正这片摆明着就是给饭看的，所以剧情介绍啥的也就可以免了。
+  战斗场面很惊喜。还真是用心去做了的，外加...<a href="http://movie.douban.com/review/5126445/">(13回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/2057171/" title="銀魂"><img src="http://img3.douban.com/spic/s2376282.jpg" alt="銀魂"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="多年后这些人又有谁能记得——187话" href="http://movie.douban.com/review/2863196/" class="title">多年后这些人又有谁能记得——187话</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/evilcrystal/">god♪fish</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/2057171/">銀魂</a>
+                </div>
+                <p>187话
+冲田同学的高人气再次为他赢得了银他妈里为数不多的耍帅机会
+
+停下脚步 面对敌人 刀刃入鞘
+低头 弯腰 拔刀
+
+停！
+冲田同学！
+你确定你学的是天然理心流吗？！
+你确定这些招数不是从飞天御剑流那里剽窃来的超神速拔刀术么？！
+
+擦擦眼，继续观察
+冲田同学！
+你飞刀挡子弹的招式到底是和谁学的？！
+你...<a href="http://movie.douban.com/review/2863196/">(4回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/3199462/" title="機動戦士ガンダムOO 2nd season"><img src="http://img3.douban.com/spic/s3282144.jpg" alt="機動戦士ガンダムOO 2nd season"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="无力吐槽,这片彻底神棍了" href="http://movie.douban.com/review/1700067/" class="title">无力吐槽,这片彻底神棍了</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/evilcrystal/">god♪fish</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/3199462/">機動戦士ガンダムOO 2nd season</a>
+                </div>
+                <p>看到第19话,掩面...
+   
+   在经历18话结尾时众人念叨着情人名字上战场这种古朴而又狗血的桥段之后,终于迎来了又一场激烈的战斗(喂喂,你们全天24小时都在备战备荒备情敌吧=_=)于是,为了凸显战事激烈,众神棍纷纷出场
+
+   1.传说中的OO不仅能大幅提升战力,还兼具强身健体之功效,心灵的对话借助OO居然可以直接升级到具...<a href="http://movie.douban.com/review/1700067/">(12回应)</a></p>
+            </div>
+        </div>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- hogg8-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

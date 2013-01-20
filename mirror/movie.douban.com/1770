@@ -1,0 +1,713 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>rukia的电影</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+#celebrity .list-s li { height: 140px; overflow: hidden }
+.aside .mod .pl a{font-size:14px;}
+.contact-update-time {margin-top:10px;border-bottom:1px solid #ddd }
+
+    </style>
+    
+<link href="http://img3.douban.com/css/ui/packed_mypage6119031721.css" rel="stylesheet" type="text/css" />
+<link href="http://img3.douban.com/css/music/packed_people5808759241.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.form5689674177.js"></script>
+
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+
+
+
+    
+
+    
+
+    
+
+    
+    <div id="db-usr-profile">
+        <div class="pic">
+            <a href="http://movie.douban.com/people/rukiasuki/"><img height="48" width="48" alt="rukia" src="http://img3.douban.com/icon/u30495227-7.jpg" /></a>
+        </div>
+        <div class="info">
+            <h1>rukia的电影</h1>
+            <ul>
+                    
+        <li><a href="http://movie.douban.com/people/rukiasuki/">电影主页</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/rukiasuki/reviews?cat_id=1002">影评</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/rukiasuki/do">在看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/rukiasuki/wish">想看</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/rukiasuki/collect">看过</a></li>
+    
+                    
+        <li><a href="http://movie.douban.com/people/rukiasuki/doulists">豆列</a></li>
+    
+                    
+        <li class="sep">|</li>
+    
+                    
+        <li><a href="http://www.douban.com/people/rukiasuki/">豆瓣主页</a></li>
+    
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+
+
+
+
+    <div id="db-book-mine">
+            
+
+    <h2  >看过 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/rukiasuki/collect">764部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6558801/" class="cover"><img alt="浪客剑心" title="浪客剑心" src="http://img3.douban.com/spic/s8940827.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4927382/" class="cover"><img alt="绝命毒师  第四季" title="绝命毒师  第四季" src="http://img3.douban.com/spic/s6778906.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/7916280/" class="cover"><img alt="嗜血法医 第七季" title="嗜血法医 第七季" src="http://img3.douban.com/spic/s11174002.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1306664/" class="cover"><img alt="共同警备区" title="共同警备区" src="http://img3.douban.com/spic/s2738958.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/5327463/" class="cover"><img alt="白雪公主与猎人" title="白雪公主与猎人" src="http://img3.douban.com/spic/s9064346.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1308575/" class="cover"><img alt="蓝色大门" title="蓝色大门" src="http://img3.douban.com/spic/s1397997.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10487226/" class="cover"><img alt="圣殇" title="圣殇" src="http://img3.douban.com/spic/s11364196.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6307447/" class="cover"><img alt="被解放的姜戈" title="被解放的姜戈" src="http://img3.douban.com/spic/s11163072.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3821067/" class="cover"><img alt="一代宗师" title="一代宗师" src="http://img3.douban.com/spic/s24591423.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6097775/" class="cover"><img alt="艺术家" title="艺术家" src="http://img3.douban.com/spic/s6879372.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >想看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/rukiasuki/wish">1024部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2041876/" class="cover"><img alt="好家伙、坏家伙、怪家伙" title="好家伙、坏家伙、怪家伙" src="http://img3.douban.com/spic/s3211883.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6430835/" class="cover"><img alt="猎杀本·拉登" title="猎杀本·拉登" src="http://img3.douban.com/spic/s24174232.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/4847665/" class="cover"><img alt="壁花少年" title="壁花少年" src="http://img3.douban.com/spic/s10266957.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6860160/" class="cover"><img alt="悲惨世界" title="悲惨世界" src="http://img3.douban.com/spic/s22704645.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/2275278/" class="cover"><img alt="青葱如鸽" title="青葱如鸽" src="http://img3.douban.com/spic/s10328305.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6549903/" class="cover"><img alt="逃离德黑兰" title="逃离德黑兰" src="http://img3.douban.com/spic/s24510981.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1298139/" class="cover"><img alt="关于施密特" title="关于施密特" src="http://img3.douban.com/spic/s1436238.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1361254/" class="cover"><img alt="摇摆少女" title="摇摆少女" src="http://img3.douban.com/spic/s22717696.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/3173638/" class="cover"><img alt="我将在好莱坞长眠" title="我将在好莱坞长眠" src="http://img3.douban.com/spic/s3900796.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1299209/" class="cover"><img alt="500年后" title="500年后" src="http://img3.douban.com/spic/s2869937.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+            
+
+    <h2  >在看 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/rukiasuki/do">6部</a> )</span></h2>
+
+            
+
+    <div class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/6808702/" class="cover"><img alt="我无法恋爱的理由" title="我无法恋爱的理由" src="http://img3.douban.com/spic/s6950026.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/10537919/" class="cover"><img alt="屌丝女士 第一季" title="屌丝女士 第一季" src="http://img3.douban.com/spic/s8969380.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1898121/" class="cover"><img alt="嗜血法医 第一季" title="嗜血法医 第一季" src="http://img3.douban.com/spic/s2608834.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/1940029/" class="cover"><img alt="完美小姐进化论" title="完美小姐进化论" src="http://img3.douban.com/spic/s1947974.jpg"></a>
+                </li>
+                
+                <li>
+                    <a href="http://movie.douban.com/subject/5397537/" class="cover"><img alt="我们仍未知道那天所看见的花的名字。" title="我们仍未知道那天所看见的花的名字。" src="http://img5.douban.com/spic/s4664549.jpg"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+            <h2  >收藏的影人 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/rukiasuki/celebrities">119位</a> )</span></h2>
+            
+
+    <div id="celebrity" class="mod">
+        <div class="sub-list">
+            <ul class="list-s clearfix">
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1227580/" class="cover">
+                        <img alt="佐藤健 Takeru Satô" src="http://img3.douban.com/img/celebrity/small/2016.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1227580/">佐藤健</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1049520/" class="cover">
+                        <img alt="迈克尔·爱默生 Michael Emerson" src="http://img3.douban.com/img/celebrity/small/31090.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1049520/">迈克尔·爱默生</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1003481/" class="cover">
+                        <img alt="米拉·库妮丝 Mila Kunis" src="http://img3.douban.com/img/celebrity/small/31758.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1003481/">米拉·库妮丝</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1025149/" class="cover">
+                        <img alt="本·卫肖 Ben Whishaw" src="http://img3.douban.com/img/celebrity/small/1505.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1025149/">本·卫肖</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://movie.douban.com/celebrity/1047973/" class="cover">
+                        <img alt="弗兰克·德拉邦特 Frank Darabont" src="http://img3.douban.com/img/celebrity/small/230.jpg" />
+                    </a>
+                    <div>
+                        <a href="http://movie.douban.com/celebrity/1047973/">弗兰克·德拉邦特</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    </div>
+    
+    <style>
+        .comment-m .comment-item h3 {padding-left:0;}
+        .comment-m .comment-item .author {background:#fff; padding-left:13px; margin-bottom:1em;}
+    </style>
+    <div class="mod comment-m">
+        <h2  >rukia的影评 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        <span class="pl">( <a href="http://movie.douban.com/people/rukiasuki/reviews?cat_id=1002">6篇</a> )</span></h2>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/4079119/" title="GANTZ: Perfect Answer"><img src="http://img3.douban.com/spic/s8913035.jpg" alt="GANTZ: Perfect Answer"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="就是不怎么明白" href="http://movie.douban.com/review/5114832/" class="title">就是不怎么明白</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/rukiasuki/">rukia</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/4079119/">GANTZ: Perfect Answer</a>
+                </div>
+                <p>看完GANTZ有些雾水，GANTZ代表统治者，挑起2个种族的战争，无缘由的互相残杀。
+而双方又都是怀抱着自己的意志。身边的人倒下，无法容忍的复仇，召回，再复仇。为的是从统治者GANTZ的存活期间里得到摆脱和释放。也为了保护自己而不惜互相残杀而保护GANTZ。
+
+为什么最后玄野变成了GANTZ呢？
+GANTZ的消耗殆尽代表了什么...<a href="http://movie.douban.com/review/5114832/">(0回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/1291568/" title="東京物語"><img src="http://img5.douban.com/spic/s1309379.jpg" alt="東京物語"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="东京物语" href="http://movie.douban.com/review/4834214/" class="title">东京物语</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/rukiasuki/">rukia</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/1291568/">東京物語</a>
+                </div>
+                <p>看的第二个小津的电影，还是那样的生活化。
+很奇怪的就是故事都如此的普通，看的时候又觉得蕴含了太多太多，每一个细节都有动人之处，每一个镜头的让人回味。
+我不懂什么低位的拍摄，确实给人一种父母的视角的感觉，你坐在家里，是家里的一员，来看他们，缓慢的动作，听柔柔的乡音，不动情却含情的对话。对儿女，宽容...<a href="http://movie.douban.com/review/4834214/">(1回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/1296935/" title="Irréversible"><img src="http://img3.douban.com/spic/s1317872.jpg" alt="Irréversible"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="不可撤销" href="http://movie.douban.com/review/4589272/" class="title">不可撤销</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/rukiasuki/">rukia</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/1296935/">Irréversible</a>
+                </div>
+                <p>就这样简单，一件小事让女主的人生从天堂之堕入地狱里。
+强奸，有意拉长的强奸。
+强奸的是你的意志，而犯人，是命运。
+你看女主角长时被强奸得感觉，如同你人生里的后悔心情。你反感，你不敢正视，你想挣扎，无力无奈，痛彻心腑，无可逃避，正如命运，不可逆转。
+一个巧合，一个选择，和你一辈子追求的，咫尺天涯。...<a href="http://movie.douban.com/review/4589272/">(0回应)</a></p>
+            </div>
+        </div>
+        
+        <div class="comment-item">
+            <div class="pic">
+                <a href="http://movie.douban.com/subject/3819939/" title="アウトレイジ"><img src="http://img3.douban.com/spic/s6490582.jpg" alt="アウトレイジ"></a>
+            </div>
+            <div class="content">
+                <h3>
+                    <a title="《极恶非道》" href="http://movie.douban.com/review/4566970/" class="title">《极恶非道》</a>
+                </h3>
+                <div class="author">
+                    <a href="http://movie.douban.com/people/rukiasuki/">rukia</a>&nbsp;&nbsp;评论:&nbsp;<a href="http://movie.douban.com/subject/3819939/">アウトレイジ</a>
+                </div>
+                <p>难道因为我是女的，被我看浪费的电影？
+也有可能是期待过高，整体来说都是平铺直序型，老实说，没有看到惊喜的高潮，北野武成功抓住让观众感到痛的方法，简单又省钱的表现了血腥恐怖地部分，叙事也干净利落，没有坏点~也没有大悬念和大惊喜。
+一群男人，真是所说的很“纯粹”的。（我想象力匮乏，被暗示了）
+很纯粹的...<a href="http://movie.douban.com/review/4566970/">(1回应)</a></p>
+            </div>
+        </div>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+    <div class="mod">
+        <h2>rukia的电影豆列 &nbsp; ·&nbsp;·&nbsp;·&nbsp;
+            <span class="pl">( <a href="http://movie.douban.com/people/rukiasuki/doulists">1个</a> )</span>
+        </h2>
+        <ul class="list-m">
+            <li>
+                <p>
+                    <a href="http://movie.douban.com/doulist/954432/">大爱电影名单</a>
+                    <span class="rec">0人推荐</span>
+                </p>
+            </li>
+        </ul>
+    </div>
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper5-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

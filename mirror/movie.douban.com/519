@@ -1,0 +1,564 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>帮助中心</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+.col { margin-bottom:10px; }
+.cate-name { display:inline-block;*display:inline;*zoom:1;width:72px; }
+.cate-name a { font-size:14px; }
+.cate { vertical-align:baseline;padding-right:20px; }
+.cate a { margin:0 2px; }
+.reply { background:#f7f7f7;padding:10px;margin-top:9px;margin-bottom:28px;display:none; }
+.question { font-size:14px; }
+#hot li { margin-bottom:8px; }
+
+    </style>
+    
+
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1>帮助中心</h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+<h2>你想找的问题也许下面已经列出了，找找看  ·  ·  ·  ·  ·  · </h2>
+<div>
+
+
+<div class="col">
+    <span class="cate-name">
+      <a href="/help/movie">电影</a>
+    </span>
+
+    <span class="cate">
+    
+     <a href="/help/movie#t0-qs">基本资料</a>
+     - 
+     <a href="/help/movie#t1-qs">我看/收藏</a>
+     - 
+     <a href="/help/movie#t2-qs">添加/修改条目</a>
+     - 
+     <a href="/help/movie#t3-qs">在线观看</a>
+    </span>
+</div>
+
+
+
+<div class="col">
+    <span class="cate-name">
+      <a href="/help/opinion">评论打分</a>
+    </span>
+
+    <span class="cate">
+    
+     <a href="/help/opinion#t0-qs">打分</a>
+     - 
+     <a href="/help/opinion#t1-qs">影评</a>
+     - 
+     <a href="/help/opinion#t2-qs">短评</a>
+     - 
+     <a href="/help/opinion#t3-qs">讨论</a>
+     - 
+     <a href="/help/opinion#t4-qs">分享与推荐</a>
+    </span>
+</div>
+
+
+
+<div class="col">
+    <span class="cate-name">
+      <a href="/help/buy">在线购票</a>
+    </span>
+
+    <span class="cate">
+    
+     <a href="/help/buy#t0-qs">电影票须知</a>
+     - 
+     <a href="/help/buy#t1-qs">购票问题</a>
+     - 
+     <a href="/help/buy#t2-qs">支付问题</a>
+     - 
+     <a href="/help/buy#t3-qs">取票问题</a>
+     - 
+     <a href="/help/buy#t4-qs">电影优惠券问题</a>
+    </span>
+</div>
+
+
+
+<div class="col">
+    <span class="cate-name">
+      <a href="/help/people">影人</a>
+    </span>
+
+    <span class="cate">
+    
+     <a href="/help/people#t0-qs">基本资料</a>
+     - 
+     <a href="/help/people#t1-qs">收藏</a>
+     - 
+     <a href="/help/people#t2-qs">评论</a>
+    </span>
+</div>
+
+
+
+<div class="col">
+    <span class="cate-name">
+      <a href="/help/pic">图片</a>
+    </span>
+
+    <span class="cate">
+    
+     <a href="/help/pic#t0-qs">查看</a>
+     - 
+     <a href="/help/pic#t1-qs">添加</a>
+     - 
+     <a href="/help/pic#t2-qs">修改</a>
+    </span>
+</div>
+
+
+
+<div class="col">
+    <span class="cate-name">
+      <a href="/help/doulist">豆列与标签</a>
+    </span>
+
+    <span class="cate">
+    
+     <a href="/help/doulist#t0-qs">豆列</a>
+     - 
+     <a href="/help/doulist#t1-qs">标签</a>
+    </span>
+</div>
+
+
+
+<div class="col">
+    <span class="cate-name">
+      <a href="/help/cinema">电影院</a>
+    </span>
+
+    <span class="cate">
+    
+     <a href="/help/cinema#t0-qs">发布影讯</a>
+     - 
+     <a href="/help/cinema#t1-qs">创建活动</a>
+     - 
+     <a href="/help/cinema#t2-qs">发布优惠券</a>
+     - 
+     <a href="/help/cinema#t3-qs">管理小站</a>
+     - 
+     <a href="/help/cinema#t4-qs">创建电影列表</a>
+    </span>
+</div>
+
+</div><br class="clear"/>
+<div id="hot"><br/>
+
+    <h2>
+        最近热点问题
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+<ul>
+</ul>
+</div>
+
+	</div>
+        <div class="aside">
+            
+<!--
+
+    <h2>
+        公告
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+
+<div class="infobox">
+    <div class="ex1"><span></span></div>
+    <div class="bd">
+<div>暂无公告。</div>
+</div>
+    <div class="ex2"><span></span></div>
+</div>
+
+<br/>
+-->
+
+<div>
+<form action="/help/search" method="get">
+<input type="text" value="" style="width:200px" title="请输入问题关键词" name="q" class="j a_search_text greyinput"/>
+&nbsp;<input type="submit" value="搜索"/>
+</form><br/>
+</div>
+
+
+
+
+<p class="pl2">&gt; <a href="http://www.douban.com/help/">去豆瓣社区的帮助中心</a></p>
+<p class="pl2">&gt; <a href="http://book.douban.com/help/">去豆瓣读书的帮助中心</a></p>
+<p class="pl2">&gt; <a href="http://music.douban.com/help/">去豆瓣音乐的帮助中心</a></p>
+<p class="pl2">&gt; <a href="http://www.douban.com/location/help/">去豆瓣同城的帮助中心</a></p>
+<br/>
+
+<p class="pl2">&gt; <a href="http://www.douban.com/help/doc">豆瓣指南</a></p>
+<p class="pl2">&gt; <a href="http://www.douban.com/about?policy=privacy">隐私声明</a></p>
+<p class="pl2">&gt; <a href="http://www.douban.com/about?topic=copyright">版权声明</a></p>
+<p class="pl2">&gt; <a href="http://www.douban.com/about?policy=guideline">社区指导原则</a></p>
+
+
+        </div>
+        <div class="extra">
+            
+    <a class="gact" href="/help/report">&gt; 举报不良信息</a>
+
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+<script>
+    $(function(){
+        $('body').delegate('.question', 'click', function(e){
+            var el = $(e.currentTarget);
+            e.preventDefault();
+            el.parents('li').find('.reply').slideToggle(0);
+        });
+    });
+</script>
+
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper4-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

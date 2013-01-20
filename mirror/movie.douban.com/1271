@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>东京家族 (豆瓣)</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="东京家族,東京家族,东京家族影评,剧情介绍,电影图片,预告片,影讯,论坛">
+        <meta name="description" content="东京家族电影简介和剧情介绍、东京家族影评、图片、预告片和论坛推荐">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    li.qiyi span { width: 19px; height: 7px; display: inline-block; *zoom: 1; background: url('http://img3.douban.com/pics/new_menu.gif') no-repeat center right }
+
+    </style>
+    <meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.douban.com/movie/subject/5996409/">
+    <link rel="alternate" href="http://movie.douban.com/feed/subject/5996409/reviews" type="application/rss+xml" title="RSS">
+        <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/3130011f77ea574d.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Movie">
+    <h1>
+    <span property="v:itemreviewed">东京家族 東京家族</span>
+    <span class="year" style="display:inline-block;*display:inline;zoom:1;">(2012)</span><div class="clear"></div></h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <script type="text/javascript" src="http://img3.douban.com/js/lib/packed_jquery.ba-hashchange.min1350447987.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $("#season").change(function(){
+        var subject_id = $(this).val();
+        if (subject_id!=""){
+                window.location = "/subject/" + subject_id + "/";
+            }
+        });
+
+        $(window).hashchange();
+        if(window.location.href.indexOf('sugest')>0 && window.location.href.indexOf("?")>0){
+            if(window.history.pushState){
+                window.history.pushState(null, document.title,  window.location.href.substring(0,window.location.href.indexOf("?")));
+            }
+        }
+    })
+    </script>
+    <div class="indent"><div class="subjectwrap clearfix" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Movie">
+
+<div class="subject clearfix">
+    <style> h2 {color: #007722;} </style>
+    <div id="mainpic">
+       <a class="nbg" href="http://movie.douban.com/subject/5996409/photos?type=R" title="点击看更多海报">
+           <img src="http://img3.douban.com/mpic/s14385320.jpg" title="点击看更多海报" alt="東京家族" rel="v:image" />
+       </a>
+       <br />
+
+        
+            <style>
+               .trail_link,.trail_link:visited,.trail_link:hover,.trail_link:active {margin-bottom:10px; display:block; height:28px; width:96px; background:url('/pics/movie_trailer_icon2.png'); overflow:hidden; line-height:99em;}
+               .trail_link.full {background:url('/pics/movie_trailer_icon4.png');}
+            </style>
+            <a class="trail_link" href="http://movie.douban.com/trailer/125159/#content">预告片</a>
+
+        
+
+
+    </div>
+
+    <div id="info">
+            <span><span class="pl">导演</span>: <a href="/search/%E5%B1%B1%E7%94%B0%E6%B4%8B%E6%AC%A1" rel="v:directedBy">山田洋次</a></span><br/>
+            <span><span class="pl">编剧</span>: <a href="/search/%E5%B1%B1%E7%94%B0%E6%B4%8B%E6%AC%A1">山田洋次</a></span><br/>
+            <span><span class="pl">主演</span>: <a href="/search/%E6%A9%8B%E7%88%AA%E5%8A%9F" rel="v:starring">橋爪功</a> / <a href="/search/%E5%90%89%E8%A1%8C%E5%92%8C%E5%AD%90" rel="v:starring">吉行和子</a> / <a href="/search/%E8%A5%BF%E6%9D%91%E9%9B%85%E5%BD%A6" rel="v:starring">西村雅彦</a> / <a href="/search/%E5%A4%8F%E5%B7%9D%E7%B5%90%E8%A1%A3" rel="v:starring">夏川結衣</a> / <a href="/search/%E4%B8%AD%E5%B6%8B%E6%9C%8B%E5%AD%90" rel="v:starring">中嶋朋子</a> / <a href="/search/%E6%9E%97%E5%AE%B6%E6%AD%A3%E8%94%B5" rel="v:starring">林家正蔵</a> / <a href="/search/%E5%A6%BB%E5%A4%AB%E6%9C%A8%E8%81%A1" rel="v:starring">妻夫木聡</a> / <a href="/search/%E8%92%BC%E4%BA%95%E5%84%AA" rel="v:starring">蒼井優</a></span><br/>
+            <span class="pl">类型:</span> <span property="v:genre">剧情</span><br/>
+            
+            <span class="pl">制片国家/地区:</span> 日本<br/>
+            <span class="pl">语言:</span> 日语<br/>
+            <span class="pl">上映日期:</span> <span property="v:initialReleaseDate" content="2013-01-19">2013-01-19</span><br/>
+            
+            <span class="pl">又名:</span> Tokyo Family<br/>
+            
+        <span class="pl">IMDb链接:</span> <a href="http://www.imdb.com/title/tt1796652" target="_blank" rel="nofollow">tt1796652</a><br>
+        
+
+    </div>
+</div>
+
+    <div id="interest_sectl">
+    <div class="rating_wrap clearbox" rel="v:rating">
+    <p class="rating_self clearfix" typeof="v:Rating">
+        <span class="ll bigstar00"></span>
+        <strong class="ll rating_num" property="v:average"></strong>
+        <span property="v:best" content="10.0"></span>
+    </p>
+    <p class="rating_self font_normal">(<a href="collections">评价人数不足</a>)</p>
+    </div></div></div><div id="interest_sect_level" class="clearfix"><a href="http://www.douban.com/register?reason=collectwish&amp;ck=" rel="nofollow" class="j a_show_login colbutt ll" name="pbtn-5996409-wish"><span>想看</span></a><a href="http://www.douban.com/register?reason=collectcollect&amp;ck=" rel="nofollow" class="j a_show_login colbutt ll" name="pbtn-5996409-collect"><span>看过</span></a><div class="ll j a_stars">评价:
+    <span id="rating"><span id="stars">
+    <a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-5996409-1"><img src="http://img3.douban.com/pics/nst.gif" id="star1"/></a><a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-5996409-2"><img src="http://img3.douban.com/pics/nst.gif" id="star2"/></a><a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-5996409-3"><img src="http://img3.douban.com/pics/nst.gif" id="star3"/></a><a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-5996409-4"><img src="http://img3.douban.com/pics/nst.gif" id="star4"/></a><a href="http://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-5996409-5"><img src="http://img3.douban.com/pics/nst.gif" id="star5"/></a></span><span id="rateword" class="pl"></span>
+    <input id="n_rating" type="hidden" value=""  /></span></div></div><div class="gtleft"><ul class="ul_subject_menu bicelink color_gray pt6 clearfix">
+       <li><img src="http://img3.douban.com/pics/short-comment.gif" />&nbsp;<a onclick="moreurl(this, {from:'mv_sbj_wr_cmnt_login'})" class="j a_show_login" href="http://www.douban.com/register?reason=review" rel="nofollow">写短评</a></li>
+       <li>
+             <img src="http://img3.douban.com/pics/add-review.gif" />&nbsp;<a onclick="moreurl(this, {from:'mv_sbj_wr_rv_login'})" class="j a_show_login" href="http://www.douban.com/register?reason=review" rel="nofollow">写影评</a>
+             </li><li><img src="http://img3.douban.com/pics/add-doulist.gif" />&nbsp;<a class="j a_show_login" onclick="moreurl(this, {from:'mv_sbj_add_dlist_login'})" href="http://www.douban.com/register?reason=collect-doulist" rel="nofollow">加入豆列</a></li>
+        
+    
+    <li class="rec" id="M-5996409">
+        <a href= "#" data-url="http://movie.douban.com/subject/5996409/" data-desc="" data-title="电影《东京家族 東京家族》 (来自豆瓣) " data-pic="http://img3.douban.com/lpic/s14385320.jpg" class="bn-sharing ">分享到</a> &nbsp;&nbsp;
+    </li>
+    <script>
+    var cache_url = cache_url || {};
+    (function(u){ if(cache_url[u]){ return; } cache_url[u] = true; Do(function(){$.getScript(u);}); })('http://img3.douban.com/js/lib/packed_sharebutton1775626802.js');
+    </script>
+</ul>
+    <script type="text/javascript">
+        $(function(){
+            $(".ul_subject_menu li.rec .bn-sharing").bind("click", function(){
+                $.get("/blank?sbj_page_click=bn_sharing");
+            });
+        });
+    </script>
+    </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+</div>
+
+    <script>
+        $(function(){
+            //bind events for collection button.
+            $('.collect_btn', '#interest_sect_level').each(function(){
+                Douban.init_collect_btn(this);
+            });
+
+            $(".indent .rec-sec .lnk-sharing").bind("click", function(){
+                moreurl(this, {from:'mv_sbj_db_share'})
+            });
+        });
+    </script>
+    </div><br clear="all"><div id="collect_form_5996409"></div>
+    <div class="related_info"><a name="intro"></a><h2  >东京家族的剧情简介 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div class="indent" id="link-report">　　<span property="v:summary">「男はつらいよ」「学校」シリーズの山田洋次81本目の監督作。映画監督生活50周年を機に、名匠・小津安二郎の「東京家族」（1953）にオマージュを捧げ、舞台を現代に移して描く家族の物語。成長した子どもたちに会うため、瀬戸内海の小島から上京した老夫婦と子どもたちの姿を通じ、家族のきずなと喪失、夫婦や親子、老いや死についての問いかけを描く。</span> <br/></div>
+
+
+
+    <h2>
+        东京家族的电影图片
+         &nbsp; &middot;&nbsp; &middot;&nbsp; &middot;&nbsp; &middot;&nbsp; &middot;&nbsp; &middot;
+            <span class="pl">(
+                <a href="http://movie.douban.com/subject/5996409/all_photos">全部34</a>&nbsp;|&nbsp; <a href="http://movie.douban.com/subject/5996409/mupload">我来添加</a>
+            ) </span>
+    </h2>
+
+
+    <ul class="pic-col5 clearfix">
+                <li>
+                <a href="http://movie.douban.com/photos/photo/1831379050/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1831379050.jpg" /></a>
+            </li>
+                <li>
+                <a href="http://movie.douban.com/photos/photo/1779535111/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1779535111.jpg" /></a>
+            </li>
+                <li>
+                <a href="http://movie.douban.com/photos/photo/1831378299/"><img src="http://img5.douban.com/view/photo/albumicon/public/p1831378299.jpg" /></a>
+            </li>
+                <li>
+                <a href="http://movie.douban.com/photos/photo/1831377568/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1831377568.jpg" /></a>
+            </li>
+                <li class="last">
+                <a href="http://movie.douban.com/photos/photo/1831376948/"><img src="http://img3.douban.com/view/photo/albumicon/public/p1831376948.jpg" /></a>
+            </li>
+    </ul>
+<div id="db-tags-section" class="blank20"><h2  >豆瓣成员常用的标签(共71个) &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div class="indent"><a href="http://movie.douban.com/tag/%E6%97%A5%E6%9C%AC%E7%94%B5%E5%BD%B1">日本电影</a>(164) &nbsp;<a href="http://movie.douban.com/tag/%E5%B1%B1%E7%94%B0%E6%B4%8B%E6%AC%A1">山田洋次</a>(144) &nbsp;<a href="http://movie.douban.com/tag/%E6%97%A5%E6%9C%AC">日本</a>(134) &nbsp;<a href="http://movie.douban.com/tag/%E5%A6%BB%E5%A4%AB%E6%9C%A8%E8%81%AA">妻夫木聪</a>(134) &nbsp;<a href="http://movie.douban.com/tag/%E8%8B%8D%E4%BA%95%E4%BC%98">苍井优</a>(126) &nbsp;<a href="http://movie.douban.com/tag/2012">2012</a>(36) &nbsp;<a href="http://movie.douban.com/tag/%E6%97%A5%E5%BD%B1">日影</a>(29) &nbsp;<a href="http://movie.douban.com/tag/%E8%92%BC%E4%BA%95%E5%84%AA">蒼井優</a>(26) &nbsp;</div></div>
+
+
+<style type="text/css">
+.award li { display: inline; margin-right: 5px }
+.awards { margin-bottom: 20px }
+.awards h2 { background: none; color: #000; font-size: 14px; padding-bottom: 5px; margin-bottom: 8px; border-bottom: 1px dashed #dddddd }
+.awards .year { color: #666666; margin-left: -5px }
+.mod { margin-bottom: 25px }
+.mod .hd { margin-bottom: 10px }
+</style>
+
+
+
+ 
+        <div id="comments-section">
+            <div class="mod-hd">
+                
+                <a class="redbutt j a_show_login rr" href="http://www.douban.com/register?reason=review" rel="nofollow">
+                    <span> 我来说两句 </span>
+                </a>
+                
+                <h2 id="comment_short_tab" class="green_tab clearfix">
+                    <span>东京家族的短评&nbsp;&nbsp;· · · · · ·&nbsp;</span>
+                    <span class="pl">(<a href="comments">全部 8 条</a>)</span>
+                 </h2>
+            </div>
+        
+
+
+
+
+
+
+
+<div class="mod-bd">
+    
+        
+    <div class="tab-hd">
+        <a href="hot-comments" class="on">热门</a>
+        <a href="new-comments">最新</a>
+        <a href="following-comments"  class="j a_show_login">我关注的</a>
+    </div>
+
+    <div class="tab-bd">
+        <div id="hot-comments" class="tab">
+            
+    
+        <div class="clearfix subject-comment-item" data-cid="387293285">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">1</span>
+                <input value="387293285" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/T.V.Zoe/">T.V.Zoe ி</a></span>
+            <span class="fleft ml8">2013-01-19</span>
+                <span class="allstar50 rating" title="力荐"></span>
+        </h3>
+        <p class="w550"> 太多感同身受 山田導演就是一點也不煽情卻讓人泣不成聲 居酒屋外和屋裡都挂了東京家族的海報是否能算彩蛋 最後橋爪功一個人剪腳趾甲的鏡頭太戳淚點 久石讓這次相當低調 直到片尾音樂才顯示出他的味道 蒼井戲份不多 但感覺沒有之前弟弟演的出彩 感謝@ShanghaiG 感謝2013年初能夠看到這樣一部好電影
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="631935134">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="631935134" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/mermaid8756/">Ariel</a></span>
+            <span class="fleft ml8">2013-01-19</span>
+                <span class="allstar50 rating" title="力荐"></span>
+        </h3>
+        <p class="w550"> 一开始就忍着眼泪，后面终于泪如雨下了。有些事真的很无奈，儿女们也有自己的苦衷。希望每个人都能珍惜身边的人，度过无悔的人生吧。
+                
+                <a class="source-icon" href="http://www.douban.com/movie/mobile" target="_blank"><img src="http://img3.douban.com/pics/comment/iphone.png" title="发自iPhone" alt="iPhone" rel="v:image"/></a>
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="606694752">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="606694752" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/ilemonok/">长痘了</a></span>
+            <span class="fleft ml8">2012-11-23</span>
+                <span class="allstar50 rating" title="力荐"></span>
+        </h3>
+        <p class="w550"> 超想看
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="533129594">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="533129594" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/cnaye/">最近稍微有点忙</a></span>
+            <span class="fleft ml8">2012-05-18</span>
+        </h3>
+        <p class="w550"> 泪流满面
+        </p>
+    </div>
+ </div>
+
+
+
+            <a href="comments?sort=new_score">查看更多&raquo;</a>
+        </div>
+        <div id="new-comments" class="tab">
+            
+    
+        <div class="clearfix subject-comment-item" data-cid="387293285">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">1</span>
+                <input value="387293285" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/T.V.Zoe/">T.V.Zoe ி</a></span>
+            <span class="fleft ml8">2013-01-19</span>
+                <span class="allstar50 rating" title="力荐"></span>
+        </h3>
+        <p class="w550"> 太多感同身受 山田導演就是一點也不煽情卻讓人泣不成聲 居酒屋外和屋裡都挂了東京家族的海報是否能算彩蛋 最後橋爪功一個人剪腳趾甲的鏡頭太戳淚點 久石讓這次相當低調 直到片尾音樂才顯示出他的味道 蒼井戲份不多 但感覺沒有之前弟弟演的出彩 感謝@ShanghaiG 感謝2013年初能夠看到這樣一部好電影
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="615561154">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="615561154" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/laflor/">laflor</a></span>
+            <span class="fleft ml8">2012-12-13</span>
+        </h3>
+        <p class="w550"> 2012.12.12完成披露试写会 等中字重看。
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="631935134">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="631935134" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/mermaid8756/">Ariel</a></span>
+            <span class="fleft ml8">2013-01-19</span>
+                <span class="allstar50 rating" title="力荐"></span>
+        </h3>
+        <p class="w550"> 一开始就忍着眼泪，后面终于泪如雨下了。有些事真的很无奈，儿女们也有自己的苦衷。希望每个人都能珍惜身边的人，度过无悔的人生吧。
+                
+                <a class="source-icon" href="http://www.douban.com/movie/mobile" target="_blank"><img src="http://img3.douban.com/pics/comment/iphone.png" title="发自iPhone" alt="iPhone" rel="v:image"/></a>
+        </p>
+    </div>
+ </div>
+        <div class="clearfix subject-comment-item" data-cid="533129594">
+            
+    <div class="comment">
+        <h3 class="clearfix color_gray">
+            <span class="fright">
+                <span class="votes pr5">0</span>
+                <input value="533129594" type="hidden"/>
+                <a href="javascript:;" class="j a_show_login">有用</a>
+            </span>
+            <span class="fleft"><a href="http://movie.douban.com/people/cnaye/">最近稍微有点忙</a></span>
+            <span class="fleft ml8">2012-05-18</span>
+        </h3>
+        <p class="w550"> 泪流满面
+        </p>
+    </div>
+ </div>
+
+
+
+            <a href="comments?sort=time">查看更多&raquo;</a>
+        </div>
+        <div id="following-comments" class="tab">
+            
+    
+
+
+        <div class="clearfix subject-comment-item">
+            你关注的人还没写过短评
+        </div>
+
+            <a href="follows_comments">查看更多&raquo;</a>
+        </div>
+    </div>
+
+
+
+    
+    
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="reviews"></a>
+<div class="clear"></div>
+    
+    
+        <h2 class="clearfix">
+            东京家族的影评&nbsp;&nbsp;· · · · · ·&nbsp;
+                <span class="pl">
+                    (<a href="http://movie.douban.com/subject/5996409/reviews">全部 3 条</a>)
+                </span>
+            
+    
+            <a class="redbutt rr j a_show_login" href="http://www.douban.com/register?reason=review" rel="nofollow"><span>我来评论这部电影</span></a>
+
+        </h2>
+
+
+
+    
+    
+    <h2 id="comment_tab" class="green_tab clearfix">
+        <a id="t_0" class="on" onclick="return switch_tab('t_0')" href="javascript:void(0)">
+            <span>
+                热门
+            </span>
+        </a>
+        <a id="t_1" class="" onclick="return switch_tab('t_1')" href="javascript:void(0)">
+            <span>
+                最新
+            </span>
+        </a>
+        <a id="t_2" class="j a_show_login" onclick="return switch_tab('t_2')" href="javascript:void(0)">
+            <span>
+                我关注的
+            </span>
+        </a>
+    </h2>
+        <div id="wt_0" class="">
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5747282" class="rr"><a id="af-5747282" rel="sw-False" href="http://movie.douban.com/review/5747282/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'5996409',itself:5747282})"/></a>
+                        <a id="au-5747282" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="不知我有沒有資格寫這影評" href="http://movie.douban.com/review/5747282/">不知我有沒有資格寫這影評</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/T.V.Zoe/" title="T.V.Zoe ி"><img class="pil" src="http://img3.douban.com/icon/u1564567-20.jpg" alt="T.V.Zoe ி"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/T.V.Zoe/">T.V.Zoe ி</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5747282_short" class="review-short">
+                    首先一點是 2013年1月19日 下午14：15左右開始看
+結束時大概16：30  哭的我都餓扁了
+
+       事情就是一對年邁的父母從鄉下（日本的鄉下根本都不能算鄉下）到東京看子女 因為子女的難處最後差點無家可歸 母親確定孩子們生活的都很好之後突然離世 最後父親回到老家表示不願再去東京寧願一個人生活
+
+......
+                        <a class="pl" href="http://movie.douban.com/review/5747282/">(18回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-19 21:00:14 &nbsp; &nbsp; 3/3有用 </span>
+                    </div>
+                </div>
+                <div id="review_5747282_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        <div class="fold-hd">
+            <a class="btn-unfold" href="#">有一些影评被折叠了</a>
+            <a class="qa" href="/help/opinion#t1-qs" target="_blank">为什么被折叠？</a>
+            <div class="qa-tip">
+                评论被折叠，是因为发布这条评论的帐号行为异常。评论仍可以被展开阅读，对发布人的账号不造成其他影响。如果认为有问题，可以<a href="http://help.douban.com/help/ask?category=movie">联系</a>豆瓣电影。
+            </div>
+        </div>
+        <div class="fold-bd">
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5747709" class="rr"><a id="af-5747709" rel="sw-False" href="http://movie.douban.com/review/5747709/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'5996409',itself:5747709})"/></a>
+                        <a id="au-5747709" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="亲情的取舍与去留" href="http://movie.douban.com/review/5747709/">亲情的取舍与去留</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/komi26/" title="苦面人"><img class="pil" src="http://img3.douban.com/icon/u2614656-6.jpg" alt="苦面人"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/komi26/">苦面人</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5747709_short" class="review-short">
+                           这部向五十年前的经典《东京物语》致敬的作品同时也是山田洋次导演导演生涯五十周年的纪念之作。整部电影没有刻意煽情的剧情安排，没有剧烈的情感冲突，也没有严厉的道德批判，有的只是对现代社会病态家庭观的困惑和反思。如果你想以一种较为客观的态度享受观映的乐趣，那么我建议你把脑海里对东京物语先入为主的印象抹去。
+ ......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-20 02:15:24 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5747709_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5743159" class="rr"><a id="af-5743159" rel="sw-False" href="http://movie.douban.com/review/5743159/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'5996409',itself:5743159})"/></a>
+                        <a id="au-5743159" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="属于山田洋次的《东京家族》" href="http://movie.douban.com/review/5743159/">属于山田洋次的《东京家族》</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/67400894/" title="小船问鱼"><img class="pil" src="http://img3.douban.com/icon/u67400894-3.jpg" alt="小船问鱼"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/67400894/">小船问鱼</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5743159_short" class="review-short">
+                    尽量回避翻拍名作，这是一个成熟导演最基本的认知准则。因为那些戴着有色眼镜的影迷们，在电影上映前就已经摩拳擦掌准备给影片挑毛病了。 
+　　 
+得知山田洋次要拍摄以小津安二郎的《东京物语》为摹本的新作，我的第一个反应就是先戴上这样一副有色眼镜。为什么当代最好的拍摄家庭题材电影的导演一定要去碰小津安二郎？而用一个新故事来......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-16 14:37:17 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5743159_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        </div>
+
+
+
+
+            <p class="pl" align="right">&gt; <a href="http://movie.douban.com/subject/5996409/reviews">更多影评(共3条)</a></p>
+
+        </div>
+        <div id="wt_1" class="hidden">
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5747282" class="rr"><a id="af-5747282" rel="sw-False" href="http://movie.douban.com/review/5747282/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'5996409',itself:5747282})"/></a>
+                        <a id="au-5747282" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="不知我有沒有資格寫這影評" href="http://movie.douban.com/review/5747282/">不知我有沒有資格寫這影評</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/T.V.Zoe/" title="T.V.Zoe ி"><img class="pil" src="http://img3.douban.com/icon/u1564567-20.jpg" alt="T.V.Zoe ி"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/T.V.Zoe/">T.V.Zoe ி</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5747282_short" class="review-short">
+                    首先一點是 2013年1月19日 下午14：15左右開始看
+結束時大概16：30  哭的我都餓扁了
+
+       事情就是一對年邁的父母從鄉下（日本的鄉下根本都不能算鄉下）到東京看子女 因為子女的難處最後差點無家可歸 母親確定孩子們生活的都很好之後突然離世 最後父親回到老家表示不願再去東京寧願一個人生活
+
+......
+                        <a class="pl" href="http://movie.douban.com/review/5747282/">(18回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-19 21:00:14 &nbsp; &nbsp; 3/3有用 </span>
+                    </div>
+                </div>
+                <div id="review_5747282_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        <div class="fold-hd">
+            <a class="btn-unfold" href="#">有一些影评被折叠了</a>
+            <a class="qa" href="/help/opinion#t1-qs" target="_blank">为什么被折叠？</a>
+            <div class="qa-tip">
+                评论被折叠，是因为发布这条评论的帐号行为异常。评论仍可以被展开阅读，对发布人的账号不造成其他影响。如果认为有问题，可以<a href="http://help.douban.com/help/ask?category=movie">联系</a>豆瓣电影。
+            </div>
+        </div>
+        <div class="fold-bd">
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5747709" class="rr"><a id="af-5747709" rel="sw-False" href="http://movie.douban.com/review/5747709/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'5996409',itself:5747709})"/></a>
+                        <a id="au-5747709" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="亲情的取舍与去留" href="http://movie.douban.com/review/5747709/">亲情的取舍与去留</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/komi26/" title="苦面人"><img class="pil" src="http://img3.douban.com/icon/u2614656-6.jpg" alt="苦面人"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/komi26/">苦面人</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5747709_short" class="review-short">
+                           这部向五十年前的经典《东京物语》致敬的作品同时也是山田洋次导演导演生涯五十周年的纪念之作。整部电影没有刻意煽情的剧情安排，没有剧烈的情感冲突，也没有严厉的道德批判，有的只是对现代社会病态家庭观的困惑和反思。如果你想以一种较为客观的态度享受观映的乐趣，那么我建议你把脑海里对东京物语先入为主的印象抹去。
+ ......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-20 02:15:24 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5747709_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5743159" class="rr"><a id="af-5743159" rel="sw-False" href="http://movie.douban.com/review/5743159/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'5996409',itself:5743159})"/></a>
+                        <a id="au-5743159" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="属于山田洋次的《东京家族》" href="http://movie.douban.com/review/5743159/">属于山田洋次的《东京家族》</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/67400894/" title="小船问鱼"><img class="pil" src="http://img3.douban.com/icon/u67400894-3.jpg" alt="小船问鱼"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/67400894/">小船问鱼</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5743159_short" class="review-short">
+                    尽量回避翻拍名作，这是一个成熟导演最基本的认知准则。因为那些戴着有色眼镜的影迷们，在电影上映前就已经摩拳擦掌准备给影片挑毛病了。 
+　　 
+得知山田洋次要拍摄以小津安二郎的《东京物语》为摹本的新作，我的第一个反应就是先戴上这样一副有色眼镜。为什么当代最好的拍摄家庭题材电影的导演一定要去碰小津安二郎？而用一个新故事来......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-16 14:37:17 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5743159_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        </div>
+
+
+
+
+            <p class="pl" align="right">&gt; <a href="http://movie.douban.com/subject/5996409/reviews">更多影评(共3条)</a></p>
+
+        </div>
+        <div id="wt_2" class="hidden">
+            
+        <div style="margin:20px 0;">你关注的人还没写过影评</div>
+
+        </div>
+
+
+
+<br/><h2  >东京家族的论坛 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;
+        </h2><div id="db-discussion-section" class="indent"><table class="olt"><tr><td><td><td><td></tr>
+    <tr><td class="pl"><a href="http://movie.douban.com/subject/5996409/discussion/51645149/" title="六十年一甲子的轮回（1953——2013）">六十年一甲子的轮回（1953——2013）</a></td><td class="pl">来自<a href="http://movie.douban.com/people/2080524/">金刚明月</a></td><td class="pl"></td><td class="pl">2013-01-18</td></tr>
+        </table>
+    </div></div>
+    <script type="text/javascript">
+        $(function(){if($.browser.msie && $.browser.version == 6.0){
+            var maxWidth = parseInt($('#info').css('max-width'));
+            if($('#info').width() > maxWidth)
+                $('#info').width(maxWidth)
+        }});
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+
+
+
+    <div id="dale_movie_subject_top_right"></div>
+    
+        <div id="dale_movie_subject_top_middle"></div>
+        
+
+
+
+<style type="text/css">
+    .m4 {margin-bottom:8px; padding-bottom:8px;}
+    .movieOnline {background:#FFF6ED; padding:10px; margin-bottom:20px;}
+    .movieOnline h2 {margin:0 0 5px;}
+    .movieOnline .sitename {line-height:2em; width:160px;}
+    .movieOnline td,.movieOnline td a:link,.movieOnline td a:visited{color:#666;}
+    .movieOnline td a:hover {color:#fff;}
+    .link-bt:link,
+    .link-bt:visited,
+    .link-bt:hover,
+    .link-bt:active {margin:5px 0 0; padding:2px 8px; background:#a8c598; color:#fff; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; display:inline-block;}
+</style>
+
+<h2>以下豆列推荐 · · · · · · <span class="pl">(<a href="http://movie.douban.com/subject/5996409/doulists">全部</a>)</span></h2><div id="db-doulist-section" class="indent"><ul class="bs"><li><a href="http://movie.douban.com/doulist/55298/">日本映画上映档期(永久更新中...)</a>
+            <span class="pl">(何处才是天涯~)</span>
+                </li><li><a href="http://movie.douban.com/doulist/1425383/">2013新电影（这些，可以期待）</a>
+            <span class="pl">(桃桃林林)</span>
+                </li><li><a href="http://movie.douban.com/doulist/1595570/">２０１３年第６３屆柏林電影節</a>
+            <span class="pl">(你就是它)</span>
+                </li><li><a href="http://movie.douban.com/doulist/133453/">想看的日本电影</a>
+            <span class="pl">(Alsoran)</span>
+                </li><li><a href="http://movie.douban.com/doulist/1504454/">ღ♩♪生活有这些期待很有动力♫♬ღ</a>
+            <span class="pl">(freedom♪)</span>
+                </li></ul></div><h2>谁看这部电影?</h2><div class="indent" id="collector"><div class="ll"><a href="http://movie.douban.com/people/7438016/"><img src="http://img3.douban.com/icon/u7438016-6.jpg" class="pil" alt="Sissi"/></a></div>
+            <div style="padding-left:60px"><a href="http://movie.douban.com/people/7438016/">Sissi</a><br/><div class="pl ll">4分钟前想看</div><br/><span class="pl">tags:苍井优 山田洋次 日本电影</span></div><div class="clear"></div><br/><div class="ul" style="margin-bottom:12px;"></div><div class="ll"><a href="http://movie.douban.com/people/38619814/"><img src="http://img3.douban.com/icon/u38619814-10.jpg" class="pil" alt="小卷子™"/></a></div>
+            <div style="padding-left:60px"><a href="http://movie.douban.com/people/38619814/">小卷子™</a><br/><div class="pl ll">1小时前想看</div><br/></div><div class="clear"></div><br/><div class="ul" style="margin-bottom:12px;"></div><div class="ll"><a href="http://movie.douban.com/people/shadow/"><img src="http://img3.douban.com/icon/u1031419-51.jpg" class="pil" alt="shadow"/></a></div>
+            <div style="padding-left:60px"><a href="http://movie.douban.com/people/shadow/">shadow</a><br/><div class="pl ll">1小时前想看</div><br/><span class="pl">tags:日本</span></div><div class="clear"></div><br/><div class="ul" style="margin-bottom:12px;"></div><div class="ll"><a href="http://movie.douban.com/people/2548698/"><img src="http://img3.douban.com/icon/u2548698-101.jpg" class="pil" alt="nanally"/></a></div>
+            <div style="padding-left:60px"><a href="http://movie.douban.com/people/2548698/">nanally</a><br/><div class="pl ll">1小时前想看</div><br/></div><div class="clear"></div><br/><div class="ul" style="margin-bottom:12px;"></div><p class="pl">&gt; <a href="http://movie.douban.com/subject/5996409/collections">15人看过</a></p><p class="pl">&gt; <a href="http://movie.douban.com/subject/5996409/wishes">1595人想看</a></p></div>
+
+
+
+
+    <h2>
+        喜欢这部电影的人常去
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/houga/"><img src="http://img3.douban.com/icon/g306973-1.jpg" class="m_sub_img" alt="[╯╰]/"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/houga/">[╯╰]/</a> 
+            <span>(4976)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/194581/"><img src="http://img3.douban.com/icon/g194581-1.jpg" class="m_sub_img" alt="日本映画各大奖项"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/194581/">日本映画各大奖项</a> 
+            <span>(732)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/16205/"><img src="http://img3.douban.com/icon/g16205-1.jpg" class="m_sub_img" alt="是枝裕和"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/16205/">是枝裕和</a> 
+            <span>(1990)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/japcine/"><img src="http://img3.douban.com/icon/g220819-1.jpg" class="m_sub_img" alt="日本映画馆"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/japcine/">日本映画馆</a> 
+            <span>(1977)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/202728/"><img src="http://img3.douban.com/icon/g202728-2.jpg" class="m_sub_img" alt="「米飯大好き」"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/202728/">「米飯大好き」</a> 
+            <span>(5425)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/192959/"><img src="http://img3.douban.com/icon/g192959-1.jpg" class="m_sub_img" alt="日本电影字幕制作"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/192959/">日本电影字幕制作</a> 
+            <span>(555)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/24299/"><img src="http://img3.douban.com/icon/g24299-1.jpg" class="m_sub_img" alt="加濑亮"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/24299/">加濑亮</a> 
+            <span>(1489)</span>
+    </dd>
+</dl>
+
+
+<dl class="ob">
+    <dt>
+        <a href="http://www.douban.com/group/satoshi/"><img src="http://img3.douban.com/icon/g22879-5.jpg" class="m_sub_img" alt="妻夫木聡粉絲團"/></a>
+    </dt>
+    <dd>
+        <a href="http://www.douban.com/group/satoshi/">妻夫木聡粉絲團</a> 
+            <span>(2165)</span>
+    </dd>
+</dl>
+
+
+<div class="clear"></div>
+
+
+
+    <div id="dale_movie_subject_middle_right"></div>
+    
+
+
+
+<style type="text/css">
+</style>
+
+<div class="citysmr" style="width:98%;margin:0;padding:0;">
+    <h2>喜欢这部电影的人关注的活动 &nbsp; &middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;</h2>
+<ul>
+    
+    <li class="clearbox">
+    <div class="title"><a href="http://www.douban.com/event/18134875/">绍兴沙画【视典沙画】邀你一起免费学沙画! </a></div>
+    <a href="http://www.douban.com/event/18134875/"><img src="http://img3.douban.com/pview/event_poster/sicon/public/76b49d6bfa0283d.jpg" class="actimgs"/></a>
+    <div class="evtdesc">
+        时间：2013-01-14 08:00<br/>
+        地点：绍兴 越城区 绍兴视典沙画<br/>8人关注
+    </div>
+    </li>
+    
+    <li class="clearbox">
+    <div class="title"><a href="http://www.douban.com/event/18100236/">遇见——来一场和陌生人的约会吧</a></div>
+    <a href="http://www.douban.com/event/18100236/"><img src="http://img3.douban.com/pview/event_poster/sicon/public/7e731af424ea517.jpg" class="actimgs"/></a>
+    <div class="evtdesc">
+        时间：2013-01-08 08:00<br/>
+        地点：绍兴 绍兴县 浙江省绍兴市环城西路508号绍兴文理学院河东校区<br/>42人关注
+    </div>
+    </li>
+    
+    <li class="clearbox">
+    <div class="title"><a href="http://www.douban.com/event/18133601/">2012年就要过去啦，春节回乡置业大型看房团召集令全城开启</a></div>
+    <a href="http://www.douban.com/event/18133601/"><img src="http://img3.douban.com/pview/event_poster/sicon/public/6c48dcd27a43afa.jpg" class="actimgs"/></a>
+    <div class="evtdesc">
+        时间：2013-01-20 13:00<br/>
+        地点：绍兴 绍兴县 群贤路1657号-1869号<br/>1人关注
+    </div>
+    </li>
+</ul>
+</div>
+<br clear="all"/><p class="pl">&gt; <a href="http://movie.douban.com/subject/5996409/group_collectors">收藏这部电影的小组</a></p><br/><div class="clear"></div>
+<p class="pl">订阅东京家族的影评: <br/><span class="feed">
+    <a href="http://movie.douban.com/feed/subject/5996409/reviews"> feed: rss 2.0</a></span></p>
+
+
+
+
+
+
+<div class="mobile-app-entrance block5 app-movie">
+
+    <a class="entrance-link first-link" href="http://www.douban.com/mobile/movie">
+        <span class="app-icon icon-movie"></span>
+        <span class="main-title">豆瓣电影客户端</span>
+        <span class="sub-title">让买票看电影更简单</span>
+    </a>
+</div>
+
+
+
+
+
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = 'http://erebor.douban.com/',
+            userId = '',
+            browserId = 'VKpIE5M+TuQ',
+            ipAddress = '122.236.48.167',
+            criteria = '3:/subject/5996409/',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_movie_subject_top_right', 'dale_movie_subject_top_middle', 'dale_movie_subject_middle_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, ip: ipAddress, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'http://img3.douban.com/js/packed_ad3738113870.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/37af16dc0af2bf37.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/subject/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/subject/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/subject/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper3 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

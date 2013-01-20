@@ -1,0 +1,1374 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        007：大破天幕杀机 的影评 (44)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    
+    <meta name="keywords" content="007：大破天幕杀机,Skyfall,影评,评论,观后感">
+    <meta name="description" content="007：大破天幕杀机热门影评和最新影评,007：大破天幕杀机电影评论">
+    <link rel="alternate" href="http://movie.douban.com/feed/subject/2363876/reviews" type="application/rss+xml" title="RSS">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/6dfdb53a5cbe25d8.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1>007：大破天幕杀机 的影评 (44)</h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+    <h2 class="green_tab clearfix">
+        
+            
+    
+    <a href="javascript:;" class="on">
+        <span>热门影评</span>
+    </a>
+
+            
+    
+    <a href="http://movie.douban.com/subject/2363876/reviews?sort=time&amp;filter=&amp;score=5" class="">
+        <span>最新影评</span>
+    </a>
+
+            
+    
+    <a href="http://movie.douban.com/subject/2363876/follows_reviews?filter=&amp;score=5" class="j a_show_login">
+        <span>我关注的</span>
+    </a>
+
+
+    </h2>
+    
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5665250" class="rr"><a id="af-5665250" rel="sw-False" href="http://movie.douban.com/review/5665250/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5665250})"/></a>
+                        <a id="au-5665250" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="能成为黑粉大概总带着爱" href="http://movie.douban.com/review/5665250/">能成为黑粉大概总带着爱</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/sakimay/" title="黄青蕉"><img class="pil" src="http://img3.douban.com/icon/u2524948-39.jpg" alt="黄青蕉"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/sakimay/">黄青蕉</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5665250_short" class="review-short">
+                    我不喜欢第六任007那几乎是一定的。
+
+就像你爸突然踹了你亲妈找了个后妈，虽然面目姣好气质出众贤良淑德美貌与智慧并重但是那又算什么啊！我还是喜欢自己的亲妈啊！一睁眼第一次看到就再也不能忘记啊！人生只若如初见啊！
+
+何况这个后妈！他还并！不！好！看！也！不！聪！明！品！味！低！下！气！质！屌！丝！
+
+遥想当年......
+                        <a class="pl" href="http://movie.douban.com/review/5665250/">(116回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-23 15:26:04 &nbsp; &nbsp; 201/234有用 </span>
+                    </div>
+                </div>
+                <div id="review_5665250_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5655635" class="rr"><a id="af-5655635" rel="sw-False" href="http://movie.douban.com/review/5655635/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5655635})"/></a>
+                        <a id="au-5655635" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="007天幕坠落 观后影评" href="http://movie.douban.com/review/5655635/">007天幕坠落 观后影评</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/63829316/" title="银色子弹V5"><img class="pil" src="http://img3.douban.com/icon/u63829316-2.jpg" alt="银色子弹V5"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/63829316/">银色子弹V5</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5655635_short" class="review-short">
+                    警告：以下影评剧透严重，读者谨慎。(Reader&#39;s Discretion is Advised)
+
+ 
+
+ 
+
+文/银色子弹V5
+
+ 
+
+第23部007暨五十周年纪念版没有辱没整个系列的名誉。毫不夸张地说，这是我看过的最好一部007，没有之一。挑选执导了《美国丽人》、《革命之路》等文艺片的山姆·门......
+                        <a class="pl" href="http://movie.douban.com/review/5655635/">(38回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-15 23:10:56 &nbsp; &nbsp; 161/171有用 </span>
+                    </div>
+                </div>
+                <div id="review_5655635_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5651031" class="rr"><a id="af-5651031" rel="sw-False" href="http://movie.douban.com/review/5651031/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5651031})"/></a>
+                        <a id="au-5651031" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="classic with an edge" href="http://movie.douban.com/review/5651031/">classic with an edge</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/petitespot/" title="小斑"><img class="pil" src="http://img3.douban.com/icon/u1548489-15.jpg" alt="小斑"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/petitespot/">小斑</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5651031_short" class="review-short">
+                    PS：在豆瓣这片神奇的土地上，好像应该先自我表白一下：这打分是以“同类型片”而论的。另外姐真的不是小清新文艺青年！姐喜欢砰砰砰（各种方式的）电影
+
+打从一开始，我就下定决心不喜欢这任”Bond, James Bond”——金发碧眼大肌肉坏小子气质神马的，ew！！！但是姐灰常喜欢这集007——classic with......
+                        <a class="pl" href="http://movie.douban.com/review/5651031/">(23回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-12 08:07:21 &nbsp; &nbsp; 65/77有用 </span>
+                    </div>
+                </div>
+                <div id="review_5651031_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5632650" class="rr"><a id="af-5632650" rel="sw-False" href="http://movie.douban.com/review/5632650/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5632650})"/></a>
+                        <a id="au-5632650" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="那只披着米字旗的斗牛犬，以及那只戴着半框的猫咪" href="http://movie.douban.com/review/5632650/">那只披着米字旗的斗牛犬，以及那只戴着半框的猫咪</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/besify/" title="D K U N"><img class="pil" src="http://img3.douban.com/icon/u32530580-215.jpg" alt="D K U N"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/besify/">D K U N</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5632650_short" class="review-short">
+                    Part A
+
+来英国的时间越久，就越不敢妄言什么英格兰或者苏格兰的民族精神。事情往往是这样的：文化这个东西真的是太多元太复杂了，了解地越深入，就越发地感到卑微。正如在中国十几年让我无法正视那些开口闭口“中国人的劣根性”的文人，无论是想要振聋发聩还是沽名钓誉；英国的民族性，也是个永远说不完的话题。
+
+但英国人聪......
+                        <a class="pl" href="http://movie.douban.com/review/5632650/">(46回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-10-27 22:46:51 &nbsp; &nbsp; 84/129有用 </span>
+                    </div>
+                </div>
+                <div id="review_5632650_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5632915" class="rr"><a id="af-5632915" rel="sw-False" href="http://movie.douban.com/review/5632915/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5632915})"/></a>
+                        <a id="au-5632915" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="变化的时代" href="http://movie.douban.com/review/5632915/">变化的时代</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/multivac/" title="Multivac"><img class="pil" src="http://img3.douban.com/icon/u1570033-30.jpg" alt="Multivac"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/multivac/">Multivac</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5632915_short" class="review-short">
+                    007已经50岁了。
+
+作为邦德50年纪念作，编剧时时刻刻不忘提醒我们这件事：时代已经变了。
+
+007不再是全能的，丹尼尔克雷格版的007本来就已经不是绅士而是拼体能了，这部里身手也因为受伤不再神奇；另外邦女郎最少的记录是不是还要继续保持下去……
+
+MI6变了，这一部里各种挨打——话说容易抓的大boss必有......
+                        <a class="pl" href="http://movie.douban.com/review/5632915/">(12回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-10-28 01:08:00 &nbsp; &nbsp; 7/10有用 </span>
+                    </div>
+                </div>
+                <div id="review_5632915_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5650956" class="rr"><a id="af-5650956" rel="sw-False" href="http://movie.douban.com/review/5650956/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5650956})"/></a>
+                        <a id="au-5650956" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="復古味十足以及給Nolan致敬的私密情書" href="http://movie.douban.com/review/5650956/">復古味十足以及給Nolan致敬的私密情書</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/32267845/" title="Hua"><img class="pil" src="http://img3.douban.com/icon/u32267845-6.jpg" alt="Hua"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/32267845/">Hua</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5650956_short" class="review-short">
+                    短評字數太少只好打在這。
+
+就爆破和美女來說，跟以往相比略遜一籌，但Sam還是想了很多方式去滿足觀眾想看精采豐富畫面的渴望，大量外景、動作場面、超遠景深.超焦距空照等，如此美妙的攝影、剪輯、運動及場面調度絕對是以往系列沒有的。正因為這樣反而有種回到80.90年代老派動作片的感動啊！
+
+還有，非常喜歡裡面英國文學......
+                        <a class="pl" href="http://movie.douban.com/review/5650956/">(1回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-12 00:49:34 &nbsp; &nbsp; 5/6有用 </span>
+                    </div>
+                </div>
+                <div id="review_5650956_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5649791" class="rr"><a id="af-5649791" rel="sw-False" href="http://movie.douban.com/review/5649791/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5649791})"/></a>
+                        <a id="au-5649791" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="old way就到这里吧，欢迎新邦德" href="http://movie.douban.com/review/5649791/">old way就到这里吧，欢迎新邦德</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/flyfrankenstein/" title="青山"><img class="pil" src="http://img3.douban.com/icon/u1076839-1.jpg" alt="青山"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/flyfrankenstein/">青山</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5649791_short" class="review-short">
+                    其实最开始没想给五星，但想想看个007还要跟剧情合不合理较劲的话，这世界就太没劲了。
+
+这部电影剧透严重影响观影感受，别说我没提醒你！
+
+
+这之前的007我最喜欢皇家赌场，邦德不再是一丝不乱的发型。克雷格同学片头追跑酷小黑那段，仗着一膀子膘一路撞过去，把老007的那种蛋疼英伦风甩的远远的。
+之前的007，大......
+                        <a class="pl" href="http://movie.douban.com/review/5649791/">(5回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-11 00:34:25 &nbsp; &nbsp; 4/5有用 </span>
+                    </div>
+                </div>
+                <div id="review_5649791_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5721155" class="rr"><a id="af-5721155" rel="sw-False" href="http://movie.douban.com/review/5721155/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5721155})"/></a>
+                        <a id="au-5721155" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="back in time" href="http://movie.douban.com/review/5721155/">back in time</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/tsy_joe/" title="人间观察"><img class="pil" src="http://img3.douban.com/icon/u3201731-131.jpg" alt="人间观察"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/tsy_joe/">人间观察</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5721155_short" class="review-short">
+                    old fashion.vintage.classic.
+只能说，50周年纪念版不是随便拍的。
+严格的来说我不算是个标准意义上的007 fan.看过的007电影数量也比较有限，但这应该是我最喜欢的一部。
+那辆1963年阿斯顿马丁DB5出来的时候，感觉身上的汗毛孔都颤了一下。部分归功于少年时代看《金手指》的回忆，部......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-31 09:39:16 &nbsp; &nbsp; 2/2有用 </span>
+                    </div>
+                </div>
+                <div id="review_5721155_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5666537" class="rr"><a id="af-5666537" rel="sw-False" href="http://movie.douban.com/review/5666537/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5666537})"/></a>
+                        <a id="au-5666537" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="特工，见不得光" href="http://movie.douban.com/review/5666537/">特工，见不得光</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/zhoubin5371/" title="Bill"><img class="pil" src="http://img3.douban.com/icon/u2767575-6.jpg" alt="Bill"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/zhoubin5371/">Bill</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5666537_short" class="review-short">
+                    记得《无间道3》里面沈澄的那句话，“我们这行的，见不得光”。
+
+卧底探员如此，专业特工依然如此。
+
+当M女士在听证会上说出“our enemies no longer have countries, that they fight from the shadows, and that is where we m......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-24 14:01:30 &nbsp; &nbsp; 1/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5666537_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5649558" class="rr"><a id="af-5649558" rel="sw-False" href="http://movie.douban.com/review/5649558/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5649558})"/></a>
+                        <a id="au-5649558" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="中國元素福祿壽" href="http://movie.douban.com/review/5649558/">中國元素福祿壽</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/50144506/" title="天一生水"><img class="pil" src="http://img3.douban.com/icon/u50144506-3.jpg" alt="天一生水"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/50144506/">天一生水</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5649558_short" class="review-short">
+                    讓人大呼叫好的年度好戲，印象最深竟是邦德乘船進入賭場那一幾秒，他身旁一邊一隻燈籠寫著“祿”和“壽”，中國元素嵌入的恰當好處。......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-10 22:28:46 &nbsp; &nbsp; 1/2有用 </span>
+                    </div>
+                </div>
+                <div id="review_5649558_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5658383" class="rr"><a id="af-5658383" rel="sw-False" href="http://movie.douban.com/review/5658383/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5658383})"/></a>
+                        <a id="au-5658383" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="James Bond is Back and Better than Ever" href="http://movie.douban.com/review/5658383/">James Bond is Back and Better than Ever</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/1243009/" title="AndreW."><img class="pil" src="http://img3.douban.com/icon/u1243009-2.jpg" alt="AndreW."/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/1243009/">AndreW.</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5658383_short" class="review-short">
+                    The 23rd and latest installment of the iconic spy film series by Ian Fleming, “Skyfall” is slick, sexy, exciting and above all, classic James Bond. Its loyalty ......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-18 02:00:12 &nbsp; &nbsp; 0/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5658383_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5660725" class="rr"><a id="af-5660725" rel="sw-False" href="http://movie.douban.com/review/5660725/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5660725})"/></a>
+                        <a id="au-5660725" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="由神变人的邦德先生" href="http://movie.douban.com/review/5660725/">由神变人的邦德先生</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/amor27/" title="amor27"><img class="pil" src="http://img3.douban.com/icon/u2432492-7.jpg" alt="amor27"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/amor27/">amor27</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5660725_short" class="review-short">
+                    作为可以看作007前传三部曲终结篇的Skyfall，明显看得出这几年诺兰和他的蝙蝠侠对于同类型影片的影响（邦德先生其实和超级英雄也没什么分别）：启用同样文艺范儿的导演Sam Mendes（就是凯特·温丝莱特那位拍完革命之路俩人就分道扬镳的前夫），前所未有灰暗悲痛的基调和桥段（比如超级英雄必备的幼年父母双亡的悲痛往事），......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-19 22:51:18 &nbsp; &nbsp; 1/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5660725_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5723673" class="rr"><a id="af-5723673" rel="sw-False" href="http://movie.douban.com/review/5723673/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5723673})"/></a>
+                        <a id="au-5723673" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="最爱的一部007" href="http://movie.douban.com/review/5723673/">最爱的一部007</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/tayloverms/" title="Taylover"><img class="pil" src="http://img3.douban.com/icon/u57184500-21.jpg" alt="Taylover"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/tayloverms/">Taylover</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5723673_short" class="review-short">
+                         【严重剧透】
+     第一篇影评献给开年第一片。
+   抱着很纠结的心态还是没等到内地开画的那一天就下载看了，不过下载看完之后更坚定了我要去电影院再看一次的决心。007我是从布鲁斯南开始看起的，正好也是M女士出现的时候。平心而论我还是更爱布鲁斯南，感觉他演出的007的魅力是其他人都无法企及的。但是不可否......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-02 13:29:30 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5723673_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5725042" class="rr"><a id="af-5725042" rel="sw-False" href="http://movie.douban.com/review/5725042/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5725042})"/></a>
+                        <a id="au-5725042" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="To the Good old things" href="http://movie.douban.com/review/5725042/">To the Good old things</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/2254367/" title="misha"><img class="pil" src="http://img3.douban.com/icon/u2254367-2.jpg" alt="misha"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/2254367/">misha</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5725042_short" class="review-short">
+                    有剧透，纯评论。
+
+就评分而言，我比五星！两星比又靓又好听的片头同Adele，两星比大叔，一星比靓仔Q博士！小Q眼镜宅男是姐的菜。完。
+
+007呢D甘old fashion的hero，50周年庆，我完全不反对向老野致敬啊，仲好支持这种辞旧迎新的套路（kill the Old M and have a new M......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-03 13:26:46 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5725042_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5683804" class="rr"><a id="af-5683804" rel="sw-False" href="http://movie.douban.com/review/5683804/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5683804})"/></a>
+                        <a id="au-5683804" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="因为邦德的回归而好" href="http://movie.douban.com/review/5683804/">因为邦德的回归而好</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/42854427/" title="shine_tony"><img class="pil" src="http://img3.douban.com/icon/u42854427-9.jpg" alt="shine_tony"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/42854427/">shine_tony</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5683804_short" class="review-short">
+                    我相信豆瓣的打分都是带有感情色彩的。大部分的人，如我一样，不是专业的影视人员，我们看一部电影或者电视剧仅仅是因为喜欢它（或者装13）。所以一部在专业人士或大多人眼里不尽如人意的影片，你会因为某个演员而喜欢它，因为某首歌而喜欢它，因为某一段场景激起了你的回忆而喜欢它。
+
+对于最新这一部007，我就是因为邦德的回归而喜......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-04 17:23:07 &nbsp; &nbsp; 0/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5683804_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5721930" class="rr"><a id="af-5721930" rel="sw-False" href="http://movie.douban.com/review/5721930/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5721930})"/></a>
+                        <a id="au-5721930" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="这是属于英国的詹姆斯邦德，属于英国的007" href="http://movie.douban.com/review/5721930/">这是属于英国的詹姆斯邦德，属于英国的007</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/55619717/" title="eviloan"><img class="pil" src="http://img3.douban.com/icon/u55619717-4.jpg" alt="eviloan"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/55619717/">eviloan</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5721930_short" class="review-short">
+                    在21世纪英国的文化中，007显然已经成了不可或缺的一个部分，从今年的伦敦奥运会开幕式上就可以看出来。50年来，邦德从肖恩康纳利到现在的丹尼尔克雷格，在英国人的心中007已经不仅仅是一个人这么简单了，007已经成为了一个深入人心的符号，一种精神。
+在007 五十周年之际，推出一部崭新的007电影也是必不可少的。所以剧......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-31 20:37:15 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5721930_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5739696" class="rr"><a id="af-5739696" rel="sw-False" href="http://movie.douban.com/review/5739696/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5739696})"/></a>
+                        <a id="au-5739696" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="《007：大破天幕杀机》：电影史中首位知天命者" href="http://movie.douban.com/review/5739696/">《007：大破天幕杀机》：电影史中首位知天命者</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/wolfboar/" title="满囤儿"><img class="pil" src="http://img3.douban.com/icon/u4221524-2.jpg" alt="满囤儿"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/wolfboar/">满囤儿</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5739696_short" class="review-short">
+                    文/满囤儿
+
+
+        作为007系列诞生50周年的“献礼片”，新一集《007：大破天幕杀机》取得了口碑和票房上的双丰收，一跃成为粉丝和非粉丝们共同的年度必看片目。作为电影史中第一个达到“知命”级别的系列和银幕角色，本集的007变得成熟多了，深邃多了。从国外上映的反应可以看出，文艺片导演萨姆-门德斯带来的......
+                        <a class="pl" href="http://movie.douban.com/review/5739696/">(42回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-14 08:21:54 &nbsp; &nbsp; 1/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5739696_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5636585" class="rr"><a id="af-5636585" rel="sw-False" href="http://movie.douban.com/review/5636585/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5636585})"/></a>
+                        <a id="au-5636585" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="民族精神" href="http://movie.douban.com/review/5636585/">民族精神</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/youbenle/" title="沉默的笑着"><img class="pil" src="http://img3.douban.com/icon/u46660491-4.jpg" alt="沉默的笑着"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/youbenle/">沉默的笑着</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5636585_short" class="review-short">
+                    每个民族都有自己的民族精神。
+
+尽管德国（柏林墙），日本（两颗原子弹）二战后的悲催和悲惨，但是用他们严谨的工艺和机械科技来证明自己；世界500强里面，德国，日本上榜企业有一半是卖技术卖科技。这也正是民族精神的产物，用made in Germany, Japan 来靠诉其他民族我们“行”。
+
+美国则是不断的打破，......
+                        <a class="pl" href="http://movie.douban.com/review/5636585/">(2回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-10-31 10:54:32 &nbsp; &nbsp; 2/2有用 </span>
+                    </div>
+                </div>
+                <div id="review_5636585_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5642238" class="rr"><a id="af-5642238" rel="sw-False" href="http://movie.douban.com/review/5642238/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5642238})"/></a>
+                        <a id="au-5642238" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="脑残英国粉的周日盛宴" href="http://movie.douban.com/review/5642238/">脑残英国粉的周日盛宴</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/3823320/" title="月亮"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg" alt="月亮"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/3823320/">月亮</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5642238_short" class="review-short">
+                    首先念叨一下，新加坡样样都贵，电影还是挺便宜的。22m宽的大屏幕，外加两被柠檬茶（是的不是坑爹的可乐），还有大爆米花。一共花费27新币，13.5英镑，135人民币。所以电影院里大人小孩满满的。看到有小孩趴在大屏幕下仰着脑袋看，很有爱， 很儿时乡村电影院赶集的感觉。
+
+回归正题，先说说片头吧。Bond系列电影的片头一......
+                        <a class="pl" href="http://movie.douban.com/review/5642238/">(8回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-05 01:29:38 &nbsp; &nbsp; 2/3有用 </span>
+                    </div>
+                </div>
+                <div id="review_5642238_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5676046" class="rr"><a id="af-5676046" rel="sw-False" href="http://movie.douban.com/review/5676046/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'2363876',itself:5676046})"/></a>
+                        <a id="au-5676046" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="《天幕坠落》：邦德骑士崛起" href="http://movie.douban.com/review/5676046/">《天幕坠落》：邦德骑士崛起</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/66306592/" title="文森特九六"><img class="pil" src="http://img3.douban.com/icon/u66306592-1.jpg" alt="文森特九六"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/66306592/">文森特九六</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5676046_short" class="review-short">
+                      算起来，那已经是十年前的事了，当时我有幸成为中国第一批网络影院的注册用户，在我童年的电影启蒙期观看的那些电影中，有一部记忆犹新：一个风流英勇的中年男子追查一批钻石罪犯，最终将敌人的钻井平台轰了个稀巴烂。追车、打斗、美女、英雄还有美丽的异国风情，这一切无不吸引着我，很快，我知道了那部叫做《金刚钻》的电影属于一套不朽的......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-30 11:06:49 &nbsp; &nbsp; 1/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5676046_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+
+
+
+
+
+    
+    
+    
+    <div id="paginator">
+            <span class="first">第一页</span> /
+            <span class="prev">前一页</span> /
+            <a href="?start=24&amp;filter=&amp;score=5&amp;limit=20" data-page="" class="next">后一页</a>
+        <span class="total">(共 44 条)</span>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+        
+    <h2>
+        按评分查看影评
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+    <div class="rating_list clearfix">
+        <ul>
+                <li  >
+                    <a href="http://movie.douban.com/subject/2363876/reviews?score=">
+                       <span>全部 - 204</span>
+                    </a>
+                </li>
+                <li class='on' >
+                    <a href="http://movie.douban.com/subject/2363876/reviews?score=5">
+                       <span>5星 - 44</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/2363876/reviews?score=4">
+                       <span>4星 - 72</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/2363876/reviews?score=3">
+                       <span>3星 - 50</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/2363876/reviews?score=2">
+                       <span>2星 - 22</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/2363876/reviews?score=1">
+                       <span>1星 - 16</span>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div>
+        <a href="http://movie.douban.com/subject/2363876/"><img alt="007：大破天幕杀机" title="007：大破天幕杀机" src="http://img3.douban.com/mpic/s12620955.jpg"/></a>
+    </div>
+    <p class="pl2">&gt; <a href="http://movie.douban.com/subject/2363876/">去007：大破天幕杀机的页面</a></p>
+    
+    <h2>
+        用你的鼠标投票
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+    <div class="indent">
+        <span class="pl">
+            如果你觉得一篇评论对你有帮助，请你点击“有用”。你的投票直接决定哪些评论出现在豆瓣首页和“豆瓣最受欢迎的评论”里，以及在书、电影和音乐介绍页里评论的排序。
+            <br/>
+            <br/>
+            所有“没用”的点击都是匿名的。
+        </span>
+    </div>
+    <br/>
+    <br/>
+    
+    
+<p class="pl">订阅007：大破天幕杀机 Skyfall的影评: <br/><span class="feed">
+    <a href="http://movie.douban.com/feed/subject/2363876/reviews"> feed: rss 2.0</a></span></p>
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/5f95afa3d50334d7.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- hogg1-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

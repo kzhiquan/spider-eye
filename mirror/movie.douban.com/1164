@@ -1,0 +1,3221 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        无下限，无智商，无剧情，无节操人拍了一部这种无下限，无智商，无剧情，无节操的片子 (快乐到家 影评)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <meta name="keywords" content="快乐到家,影评,评论,观后感"/>
+    <meta name="description" content="无下限，无智商，无剧情，无节操人拍了一部这种无下限，无智商，无剧情，无节操的片子" />
+    <meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.douban.com/movie/review/5744207/">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/66fb5cfe168507d8.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1><span property="v:summary">无下限，无智商，无剧情，无节操人拍了一部这种无下限，无智商，无剧情，无节操的片子</span></h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    <div class="obss" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review">
+        <div class="piil">
+            <a onclick="moreurl(this, {from:'mv_rv_au_icon'})" href="http://movie.douban.com/people/elfz/">
+                <img class="pil" src="http://img3.douban.com/icon/u1201222-3.jpg">
+            </a>
+        </div>
+        <div class="piir">
+            <span property="v:dtreviewed" content="2013-01-17" class="mn">2013-01-17 10:43:05</span>            <span class="pl2">　　                来自: <a onclick="moreurl(this, {from:'mv_rv_au_name'})" href="http://movie.douban.com/people/elfz/"><span property="v:reviewer">MysterioJr</span></a>
+                    (2B的人生不需要解释。)
+                <br/>
+                <a onclick="moreurl(this, {from:'mv_rv_sbj_l'})"  href="http://movie.douban.com/subject/11610693/"><span property="v:itemreviewed">
+    
+快乐到家</span></a>的评论
+<span title="很差">&nbsp;&nbsp;<img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="1 star rating"/><img src="http://img3.douban.com/pics/nst.gif" alt=" "/><img src="http://img3.douban.com/pics/nst.gif" alt=" "/><img src="http://img3.douban.com/pics/nst.gif" alt=" "/><img src="http://img3.douban.com/pics/nst.gif" alt=" "/></span>
+
+                <span property="v:rating" style="color: #fff">1</span>
+
+            </span>
+            <br/><br/> 
+
+            <div id="link-report">
+                <span property="v:description">　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　娘炮何炅在快乐大本营里说：<br/>　　如果这个片子的票房能过3亿，就如何如何。。。。<br/>　　旁边娘炮维嘉说：<br/>　　如果这个片子票房能过6亿，就如何如何。。。<br/>　　这优越感真尼玛爆棚啊<br/>　　想一下快乐大本营里的几个主持人<br/>　　谢娜，一个智商趋近于0的女人，主持这么多年节目，连ABCD可能都没认识全，在节目里秀智商，秀自己不懂英语，将自己的2当做卖点的奇葩女人，这种不怕2，秀2的特质在全国绝壁名列前茅。<br/>　　何炅，娘到无以复加，“预备备~~~~~~~齐”，我艹，每次听到这话的时候我都尼玛要尿了，每次被迫看节目听到他说话我都想穿上尿不湿，因为我怕尿沙发上不好打理。<br/>　　维嘉，这个人是干什么的？为什么这么娘？是女扮男装么？这么可爱，一定是女孩子。<br/>　　吴昕，没存在感，这么可爱一定是男孩子。<br/>　　海涛，看上去比较像正常人。也只有他比较像正常人。<br/>　　<br/>　　-----------------------我是分割线-------------------------<br/>　　这是后期增加：<br/>　　芒果台所谓的快乐大本营是我见过最没下限的<br/>　　别人的节目是主持人一个，嘉宾一群。<br/>　　这节目<br/>　　好嘛<br/>　　一打开<br/>　　嘉宾一个，主持人一群。<br/>　　而且各个充满了各种无下限无智商的优越感。<br/>　　各种插话，各种打断，各种觉得自己很优秀<br/>　　嘉宾一句话还没说完<br/>　　旁边必定有一个主持人插话，然后所有的主持人搭话<br/>　　然后留下嘉宾一个人戳在台上不知所谓。<br/>　　然后所有的主持人就会“哈哈哈哈”的乐起来<br/>　　也不知道他们在乐什么？<br/>　　是因为弱智儿童欢乐多？<br/>　　还是因为精神病人思路广？<br/>　　既然这样你们还请个毛的嘉宾？<br/>　　你们几个主持人每期轮换着当嘉宾不好么？<br/>　　起码你们自己可以跟上自己2的节奏。<br/>　　然后每期还做一些所谓2到没边的游戏<br/>　　以及一些2到没边的科学实验<br/>　　你们有想过现在的大学已经扩招过了<br/>　　大家的智商，能力，学历都比你们高很多么？<br/>　　你们有觉得你们摆出“哇！！原来是这个道理”的表情说出“小孩子千万不要在家里学哦！”的时候，有想过是因为自己弱智所以不明白这个道理么？<br/>　　<br/>　　这样一想，一群不知所谓的人拍出一部不知所谓的电影也不足为奇了。<br/>　　后期增加结束。<br/>　　<br/>　　-----------------------分割线结束--------------------------<br/>　　<br/>　　-----------------------我还是分割线---------------<br/>　　看到有人义愤填膺的表示，快乐到家没有脑残粉！<br/>　　看到有人义愤填膺的表示：快乐大本营的粉丝一般是不会 特别注册一个号 来跟你们对的<br/>　　看到有人义愤填膺的表示：你想想你自己是哪根葱？你肚子里有多少才华多少能力？简直就是垃圾！<br/>　　看到有人义愤填膺的表示：读个大学你了不起啊？<br/>　　<br/>　　…………<br/>　　看到各种人各种义愤填膺的表示各种观点<br/>　　我都要尿了！<br/>　　快乐到家没有脑残粉！：快乐大本营的粉丝一般是不会 特别注册一个号 来跟你们对的！！！<br/>　　我相信了！！<br/>　　可是为毛你们都只看过一部电影，而这部这部电影都叫快乐到家？<br/>　　-----------我还是分割线---------------<br/>　　<br/>　　<br/>　　<br/>　　这种无下限，无智商，无剧情，无节操人拍了一部这种无下限，无智商，无剧情，无节操的片子能上映本身就已经够下限了<br/>　　<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　我就想说，快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　</span>
+            </div>
+
+            
+
+
+            <div class="clear"></div>
+
+            
+
+            <div class="review-panel" name="5744207">
+                <div class="review-note">
+                </div>
+                <div class="review-stat">
+                    
+                    你认为这篇评论：
+                    <span class="useful">
+                        <a class="btn-useful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_y'});voteuseful('r-5744207',true)">有用</a>
+                        <em id="ucount5744207u">1062</em>
+                    </span>
+                    <span class="unuseful">
+                        <a class="btn-unuseful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_n'});voteuseless('r-5744207',true)">没用</a>
+                        <em id="ucount5744207l">84</em>
+                    </span>
+                </div>
+            </div>
+
+            <div class="ul" style="margin-top:10px;margin-bottom:5px"></div>
+                
+                <ul style="margin:0;padding:0;float:left;">
+                    
+    
+    <li class="rec" id="O-5744207">
+        <a href= "#" data-url="http://movie.douban.com/review/5744207/" data-desc="" data-title="无下限，无智商，无剧情，无节操人拍了一部这种无下限，无智商，无剧情，无节操的片子  (豆瓣影评 - 关于电影《快乐到家》)" data-pic="" class="bn-sharing ">分享到</a> &nbsp;&nbsp;
+    </li>
+    <script>
+    var cache_url = cache_url || {};
+    (function(u){ if(cache_url[u]){ return; } cache_url[u] = true; Do(function(){$.getScript(u);}); })('http://img3.douban.com/js/lib/packed_sharebutton1775626802.js');
+    </script>
+ 
+                </ul>
+                
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+</div>
+
+                <div class="clear"></div>
+                
+
+
+
+
+
+
+
+
+
+
+<div id="comments">
+
+
+
+
+
+    
+
+<div class="comment-item" id=5316090 data-cid="5316090" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 11:31:04 
+          <a href="http://www.douban.com/people/norris0116/">弱爆大熊</a>  (半途而废)
+        </div>
+
+
+        
+        <p>　　哦赞真心话</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u48595951 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316090" class="j a_confirm_link" title="删除弱爆大熊的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316224 data-cid="5316224" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 12:24:11 
+          <a href="http://www.douban.com/people/3133395/">莫失莫忘</a>  (没，没有人仰慕，那我就继续忙碌)
+        </div>
+
+
+        
+        <p>　　那你还看这鸟节目干神马，果断换台啊</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u3133395 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316224" class="j a_confirm_link" title="删除莫失莫忘的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316228 data-cid="5316228" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 12:27:01 
+          <a href="http://www.douban.com/people/3790414/">JR</a> 
+        </div>
+
+
+        
+        <p>　　君不知何炅一直把自己当大牌啊，什么狗仔偷拍啦，机场遇狗仔啦，张杰啦，和各种腕各种熟啦。<br/>　　尼玛，要不是看那些取得明星，谁TM看几个主持秀下限啊</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u3790414 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316228" class="j a_confirm_link" title="删除JR的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316436 data-cid="5316436" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 13:41:22 
+          <a href="http://www.douban.com/people/34906566/">嘻嘻乐_小茉</a>  (混豆瓣 欢乐中~)
+        </div>
+
+
+        
+        <p>　　今天在围脖说了句还好刘烨没娶谢娜不然女儿肯定没这么萌。。。就被nc粉围观了。。。一脸血。。。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u34906566 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316436" class="j a_confirm_link" title="删除嘻嘻乐_小茉的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316437 data-cid="5316437" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 13:41:44 
+          <a href="http://www.douban.com/people/62332598/">发条橙</a> 
+        </div>
+
+
+        
+        <p>　　何炅就是这种风格，不管你怎么看观众喜欢就好了~但是拍这种烂片不知道这群人是不是脑残片吃多了~这么弱智的剧本 弱智的导演 弱智的角色.......有木有智商为正的人啊，连那条狗不如........... 不对，我不应该侮辱狗~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u62332598 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316437" class="j a_confirm_link" title="删除发条橙的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316459 data-cid="5316459" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 13:47:26 
+          <a href="http://www.douban.com/people/elfz/">MysterioJr</a>  (2B的人生不需要解释。)
+        </div>
+
+
+        
+        <p>　　话说。<br/>　　有些节目不是你想不看就不看的<br/>　　家里有小孩啦<br/>　　家里有大人啦<br/>　　家里有朋友啦<br/>　　什么的<br/>　　被逼的<br/>　　被逼的啊！！！！！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1201222 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316459" class="j a_confirm_link" title="删除MysterioJr的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316487 data-cid="5316487" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 13:55:33 
+          <a href="http://www.douban.com/people/67354579/">五彩缤纷石</a> 
+        </div>
+
+
+        
+        <p>　　快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？ +10086<br/>　　</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u67354579 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316487" class="j a_confirm_link" title="删除五彩缤纷石的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316504 data-cid="5316504" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 13:59:38 
+          <a href="http://www.douban.com/people/62332598/">发条橙</a> 
+        </div>
+
+
+        
+        <p>　　好吧，还好我没有被逼的~但是作为一个有节操的人，从来不看湖南台是我的准则之一~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u62332598 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316504" class="j a_confirm_link" title="删除发条橙的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316553 data-cid="5316553" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 14:13:51 
+          <a href="http://www.douban.com/people/jianfangdy/">jianfangdy</a>  (相信自己，相信明天)
+        </div>
+
+
+        
+        <p>　　快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？ +9999 <br/>　　</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u67076882 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316553" class="j a_confirm_link" title="删除jianfangdy的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316855 data-cid="5316855" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 16:06:29 
+          <a href="http://www.douban.com/people/54643617/">越歪歪的星期天</a> 
+        </div>
+
+
+        
+        <p>　　吴昕，没存在感，这么可爱一定是男孩子。 <br/>　　————这句笑死我了</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u54643617 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316855" class="j a_confirm_link" title="删除越歪歪的星期天的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316930 data-cid="5316930" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 16:35:20 
+          <a href="http://www.douban.com/people/25157377/">抽风小帅</a>  (So....What`s More ?)
+        </div>
+
+
+        
+        <p>　　其实分割线之后那个…………<br/>　　芒果台的娱乐节目，我喜欢看天天向上，很喜欢汪涵………………<br/>　　至于快乐大本营……本能的讨厌啊…………【。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u25157377 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316930" class="j a_confirm_link" title="删除抽风小帅的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316934 data-cid="5316934" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 16:37:44 
+          <a href="http://www.douban.com/people/elfz/">MysterioJr</a>  (2B的人生不需要解释。)
+        </div>
+
+
+        
+        <p>　　好吧。我说的是快乐大本营。。不是天天向上<br/>　　</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1201222 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316934" class="j a_confirm_link" title="删除MysterioJr的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5316959 data-cid="5316959" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 16:49:39 
+          <a href="http://www.douban.com/people/4872512/">风流小哪吒</a>  (我是长腿巨婴~~~~)
+        </div>
+
+
+        
+        <p>　　哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u4872512 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5316959" class="j a_confirm_link" title="删除风流小哪吒的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5317734 data-cid="5317734" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 21:55:34 
+          <a href="http://www.douban.com/people/67055073/">心里需要一个他</a> 
+        </div>
+
+
+        
+        <p>　　何炅是实力派ddddddddddddd</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u67055073 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5317734" class="j a_confirm_link" title="删除心里需要一个他的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318060 data-cid="5318060" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 23:47:31 
+          <a href="http://www.douban.com/people/66783871/">一口吃出鱼骨头</a> 
+        </div>
+
+
+        
+        <p>　　不喜欢，那为什么要看？而且那么了解。找吐槽点吗？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u66783871 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318060" class="j a_confirm_link" title="删除一口吃出鱼骨头的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318139 data-cid="5318139" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 00:21:30 
+          <a href="http://www.douban.com/people/36842121/">灰公子</a>  (我喜欢你啊，你聋啦.....？！)
+        </div>
+
+
+        
+        <p>　　快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？ +999999999999<br/>　　</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u36842121 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318139" class="j a_confirm_link" title="删除灰公子的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318298 data-cid="5318298" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 03:06:39 
+          <a href="http://www.douban.com/people/67807459/">气煞我也</a> 
+        </div>
+
+
+        
+        <p>　　哥们真是说到我心里去了</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u67807459 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318298" class="j a_confirm_link" title="删除气煞我也的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318401 data-cid="5318401" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 08:39:00 
+          <a href="http://www.douban.com/people/54821107/">howie</a> 
+        </div>
+
+
+        
+        <p>　　说的我我快哭了，还记得高中那几年，每次读完书难得回家，就看到我弟在看这个，还不给转台，被逼一起看，都不知道在笑什么的傻逼</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u54821107 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318401" class="j a_confirm_link" title="删除howie的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318408 data-cid="5318408" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 08:50:56 
+          <a href="http://www.douban.com/people/so-it-is/">葵花卷</a>  (Sorry我的個性很直♂)
+        </div>
+
+
+        
+        <p>　　我妈看电视时我就在旁边想——到底哪里好笑了！！！！！！！<br/>　　<br/>　　<br/>　　<br/>　　谢娜这女人是傻逼吧！！！！！！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2773328 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318408" class="j a_confirm_link" title="删除葵花卷的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318441 data-cid="5318441" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 09:08:39 
+          <a href="http://www.douban.com/people/1933177/">沧海一粟</a> 
+        </div>
+
+
+        
+        <p>　　脑残台，可悲的是女朋友和妹妹喜欢看</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1933177 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318441" class="j a_confirm_link" title="删除沧海一粟的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318467 data-cid="5318467" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 09:24:11 
+          <a href="http://www.douban.com/people/35721689/">十三</a>  (我们都是宇宙中独一无二的一朵花)
+        </div>
+
+
+        
+        <p>　　其实挺喜欢游戏“谁是卧底”这一环节的，但是这真是个赤裸裸的秀智商的环节啊！这几个人，包括某些嘉宾的智商真的是惨不忍睹！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u35721689 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318467" class="j a_confirm_link" title="删除十三的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318528 data-cid="5318528" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 10:04:21 
+          <a href="http://www.douban.com/people/63663081/">小反</a> 
+        </div>
+
+
+        
+        <p>　　偶尔看下，会笑，但没有再看一次的冲动</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u63663081 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318528" class="j a_confirm_link" title="删除小反的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318640 data-cid="5318640" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 10:59:14 
+          <a href="http://www.douban.com/people/68105707/">啨兲娃娃り</a> 
+        </div>
+
+
+        
+        <p>　　很久没看了湖南台的节目了~~~~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68105707 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318640" class="j a_confirm_link" title="删除啨兲娃娃り的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318660 data-cid="5318660" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 11:04:48 
+          <a href="http://www.douban.com/people/jill520/">甜羙止荹</a> 
+        </div>
+
+
+        
+        <p>　　知己啊，知己！一直不知道为神马这节目，这些鸟人可以如此红。看看谢娜结婚时他们包的红包。几十万几百万有木有。那吴昕我就不说了，基本是摆饰。真不想吐槽。快让我出国吧。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u46209418 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318660" class="j a_confirm_link" title="删除甜羙止荹的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318679 data-cid="5318679" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 11:22:23 
+          <a href="http://www.douban.com/people/68134378/">aoao</a> 
+        </div>
+
+
+        
+        <p>　　脑残演员演了个更脑残的电影……</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68134378 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318679" class="j a_confirm_link" title="删除aoao的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318712 data-cid="5318712" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 11:32:56 
+          <a href="http://www.douban.com/people/63588441/">詹式邦</a> 
+        </div>
+
+
+        
+        <p>　　肚海涛是正常人？哈哈笑屎我啦，整个一个不学无术，贪吃好色，低级趣味的胖子。不明白当初选拔赛为何留下他，就因为那双一线天的小眼睛？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u63588441 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318712" class="j a_confirm_link" title="删除詹式邦的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318718 data-cid="5318718" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 11:38:32 
+          <a href="http://www.douban.com/people/68134406/">犀利姐</a> 
+        </div>
+
+
+        
+        <p>　　为楼主为广大人民呐喊出心声而鼓掌，强烈支持，立顶</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68134406 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318718" class="j a_confirm_link" title="删除犀利姐的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318735 data-cid="5318735" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 11:45:16 
+          <a href="http://www.douban.com/people/68134406/">犀利姐</a> 
+        </div>
+
+
+        
+        <p>　　力顶</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68134406 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318735" class="j a_confirm_link" title="删除犀利姐的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318737 data-cid="5318737" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 11:46:07 
+          <a href="http://www.douban.com/people/68134406/">犀利姐</a> 
+        </div>
+
+
+        
+        <p>　　力顶</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68134406 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318737" class="j a_confirm_link" title="删除犀利姐的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318738 data-cid="5318738" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 11:46:43 
+          <a href="http://www.douban.com/people/68134406/">犀利姐</a> 
+        </div>
+
+
+        
+        <p>　　力顶</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68134406 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318738" class="j a_confirm_link" title="删除犀利姐的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318740 data-cid="5318740" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 11:46:58 
+          <a href="http://www.douban.com/people/elfz/">MysterioJr</a>  (2B的人生不需要解释。)
+        </div>
+
+
+        
+        <p>　　肚海涛是正常人当然不能单独拿出来看。<br/>　　相对其他2货还是算个正常人了。。。。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1201222 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318740" class="j a_confirm_link" title="删除MysterioJr的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318745 data-cid="5318745" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 11:48:21 
+          <a href="http://www.douban.com/people/68134406/">犀利姐</a> 
+        </div>
+
+
+        
+        <p>　　力顶楼主，支持楼主，支持正义</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68134406 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318745" class="j a_confirm_link" title="删除犀利姐的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318789 data-cid="5318789" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 12:07:10 
+          <a href="http://www.douban.com/people/39530328/">热天午后</a> 
+        </div>
+
+
+        
+        <p>　　真心话</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u39530328 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318789" class="j a_confirm_link" title="删除热天午后的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5318837 data-cid="5318837" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 12:27:44 
+          <a href="http://www.douban.com/people/23692621/">小心思</a>  (╭(╯^╰)╮)
+        </div>
+
+
+        
+        <p>　　LZ乃真英雄也</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u23692621 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5318837" class="j a_confirm_link" title="删除小心思的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319164 data-cid="5319164" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 14:52:26 
+          <a href="http://www.douban.com/people/63545831/">柠檬</a> 
+        </div>
+
+
+        
+        <p>　　俺爸对于&lt;快营&gt;的评价是&quot;一群疯子在作戏,一群傻子在看戏&quot;......</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u63545831 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319164" class="j a_confirm_link" title="删除柠檬的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319178 data-cid="5319178" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 15:00:11 
+          <a href="http://www.douban.com/people/omgiloveit/">J</a>  (死亡是再次出生的原因)
+        </div>
+
+
+        
+        <p>　　一群弱智网民，网上开始秀自己的智商了<br/>　　“<br/>　　俺爸对于&lt;快营&gt;的评价是&quot;一群疯子在作戏,一群傻子在看戏&quot;......<br/>　　相对其他2货还是算个正常人了。。。。<br/>　　肚海涛是正常人？哈哈笑屎我啦，整个一个不学无术，贪吃好色，低级趣味的胖子。<br/>　　这真是个赤裸裸的秀智商的环节啊！这几个人，包括某些嘉宾的智商真的是惨不忍睹！<br/>　　脑残台，可悲的是女朋友和妹妹喜欢看<br/>　　谢娜这女人是傻逼吧！！！！！！<br/>　　快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　但是拍这种烂片不知道这群人是不是脑残片吃多了~这么弱智的剧本 弱智的导演 弱智的角色.......有木有智商为正的人啊，连那条狗不如........... 不对，我不应该侮辱狗~<br/>　　今天在围脖说了句还好刘烨没娶谢娜不然女儿肯定没这么萌。。。就被nc粉围观了。。。一脸血。。。<br/>　　这种无下限，无智商，无剧情，无节操人拍了一部这种无下限，无智商，无剧情，无节操的片子能上映本身就已经够下限了<br/>　　谢娜，一个智商趋近于0的女人，主持这么多年节目，连ABCD可能都没认识全，在节目里秀智商，秀自己不懂英语，将自己的2当做卖点的奇葩女人，这种不怕2，秀2的特质在全国绝壁名列前茅。 </p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1211070 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319178" class="j a_confirm_link" title="删除J的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319183 data-cid="5319183" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 15:02:16 
+          <a href="http://www.douban.com/people/omgiloveit/">J</a>  (死亡是再次出生的原因)
+        </div>
+
+
+        
+        <p>　　一群弱智网民，网上开始秀自己的智商了<br/>　　”<br/>　　何炅，娘到无以复加，“预备备~~~~~~~齐”，我艹，每次听到这话的时候我都尼玛要尿了，每次被迫看节目听到他说话我都想穿上尿不湿，因为我怕尿沙发上不好打理。<br/>　　也不知道他们在乐什么？ <br/>　　　　是因为弱智儿童欢乐多？ <br/>　　　　还是因为精神病人思路广？ <br/>　　然后每期还做一些所谓2到没边的游戏 <br/>　　　　以及一些2到没边的科学实验 <br/>　　　　你们有想过现在的大学已经扩招过了 <br/>　　　　大家的智商，能力，学历都比你们高很多么？ <br/>　　你们有觉得你们摆出“哇！！原来是这个道理”的表情说出“小孩子千万不要在家里学哦！”的时候，有想过是因为自己弱智所以不明白这个道理么？<br/>　　&quot;<br/>　　豆瓣网民的智商<br/>　　</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1211070 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319183" class="j a_confirm_link" title="删除J的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319188 data-cid="5319188" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 15:03:38 
+          <a href="http://www.douban.com/people/omgiloveit/">J</a>  (死亡是再次出生的原因)
+        </div>
+
+
+        
+        <p>　　2B的人生真心不需要解释。多读点书，讲话太JB恶心了</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1211070 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319188" class="j a_confirm_link" title="删除J的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319274 data-cid="5319274" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 15:46:10 
+          <a href="http://www.douban.com/people/68201116/">夏洛允儿 ,</a> 
+        </div>
+
+
+        
+        <p>　　吴昕每次主持,我怀疑导演根本没有给她台词,她自导自演？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68201116 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319274" class="j a_confirm_link" title="删除夏洛允儿 ,的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319340 data-cid="5319340" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 16:10:31 
+          <a href="http://www.douban.com/people/53526721/">Cc.</a> 
+        </div>
+
+
+        
+        <p>　　快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？ +10086 <br/>　　</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u53526721 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319340" class="j a_confirm_link" title="删除Cc.的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319345 data-cid="5319345" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 16:12:23 
+          <a href="http://www.douban.com/people/68174492/">低調没错</a> 
+        </div>
+
+
+        
+        <p>　　lz  傻逼不解释</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68174492 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319345" class="j a_confirm_link" title="删除低調没错的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319392 data-cid="5319392" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 16:29:33 
+          <a href="http://www.douban.com/people/57746307/">LOLITA</a>  (ிிிிிிி)
+        </div>
+
+
+        
+        <p>　　哈哈 深明我心</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u57746307 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319392" class="j a_confirm_link" title="删除LOLITA的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319393 data-cid="5319393" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 16:30:05 
+          <a href="http://www.douban.com/people/elfz/">MysterioJr</a>  (2B的人生不需要解释。)
+        </div>
+
+
+        
+        <p>　　LS的低调没错<br/>　　1月17号注册，想看1部电影，快乐到家。看过1部电影，快乐到家，点评五星。<br/>　　<br/>　　我就不说什么了。<br/>　　<br/>　　</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1201222 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319393" class="j a_confirm_link" title="删除MysterioJr的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319407 data-cid="5319407" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 16:34:50 
+          <a href="http://www.douban.com/people/68174492/">低調没错</a> 
+        </div>
+
+
+        
+        <p>　　我1月17号注册的你都知道？  继续黑吧  说不定越黑越火 2.7分都能上首页 真奇葩</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68174492 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319407" class="j a_confirm_link" title="删除低調没错的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319461 data-cid="5319461" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 16:55:02 
+          <a href="http://www.douban.com/people/5800637/">AA</a> 
+        </div>
+
+
+        
+        <p>　　2013-01-17 13:47:26 MysterioJr (2B的人生不需要解释。)<br/>　　　　话说。 <br/>　　　　有些节目不是你想不看就不看的 <br/>　　　　家里有小孩啦 <br/>　　　　家里有大人啦 <br/>　　　　家里有朋友啦 <br/>　　　　什么的 <br/>　　　　被逼的 <br/>　　　　被逼的啊！！！！！<br/>　　--------------------------------------------<br/>　　不想看不会去上网，要不换台电视看呗。<br/>　　<br/>　　又要看又要骂是有多自虐……<br/>　　<br/>　　如果周边的人都看得很开心，是你有问题还是别人有问题啊……</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u5800637 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319461" class="j a_confirm_link" title="删除AA的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319467 data-cid="5319467" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 16:57:17 
+          <a href="http://www.douban.com/people/elfz/">MysterioJr</a>  (2B的人生不需要解释。)
+        </div>
+
+
+        
+        <p>　　2013-01-18 16:34:50 低調没错 <br/>　　　　我1月17号注册的你都知道？ 继续黑吧 说不定越黑越火 2.7分都能上首页 真奇葩<br/>　　<br/>　　----------------------------------<br/>　　我只能说真是奇葩。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1201222 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319467" class="j a_confirm_link" title="删除MysterioJr的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319533 data-cid="5319533" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 17:26:47 
+          <a href="http://www.douban.com/people/1400452/">xxxsli</a> 
+        </div>
+
+
+        
+        <p>　　相比这种影评，我对芒果台各主持人更抱好感。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1400452 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319533" class="j a_confirm_link" title="删除xxxsli的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319549 data-cid="5319549" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 17:37:58 
+          <a href="http://www.douban.com/people/54592717/">leslie</a>  (rock will never die)
+        </div>
+
+
+        
+        <p>　　其实何炅是被某某nc拖累了，近墨者黑，，之前也没那么遭人嫌= =</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u54592717 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319549" class="j a_confirm_link" title="删除leslie的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319565 data-cid="5319565" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 17:43:36 
+          <a href="http://www.douban.com/people/68203835/">快本迷</a> 
+        </div>
+
+
+        
+        <p>　　滚滚滚，都给lz滚！你们一个个的都怎么这样啊，还是人吗！如果你们还有点良知的话，就别发啊，你知不知道他们拍戏很辛苦的，既然不喜欢他们就换台啊！眼不见心不烦！还说他们是nc，我看你们一个个的都是sb！2b！nc！粪土，哦，不对，你们连粪土都不如！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68203835 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319565" class="j a_confirm_link" title="删除快本迷的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319567 data-cid="5319567" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 17:44:32 
+          <a href="http://www.douban.com/people/45631854/">小迷糊丶</a>  (迷糊，它真的是种境界！)
+        </div>
+
+
+        
+        <p>　　唉·······豆瓣的人们和芒果台的人们完全两个世界啊啊啊啊啊啊啊<br/>　　啊啊啊啊<br/>　　    啊啊啊啊啊！！！！！！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u45631854 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319567" class="j a_confirm_link" title="删除小迷糊丶的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319570 data-cid="5319570" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 17:46:32 
+          <a href="http://www.douban.com/people/66186806/">数学课本</a> 
+        </div>
+
+
+        
+        <p>　　何大炅整天耍贫嘴，胳膊肘往外拐，还天天装出他是个文人。看过嘻游记，里面的家伙优越感还真不容小觑</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u66186806 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319570" class="j a_confirm_link" title="删除数学课本的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319591 data-cid="5319591" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 17:55:20 
+          <a href="http://www.douban.com/people/tumihuahua/">荼蘼花事了</a>  (http://blog.sina.com.cn/weiwei)
+        </div>
+
+
+        
+        <p>　　呵呵  真是一群傻逼围着一条可爱的狗演一部2B电影</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u63104832 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319591" class="j a_confirm_link" title="删除荼蘼花事了的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319595 data-cid="5319595" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 17:59:26 
+          <a href="http://www.douban.com/people/45664779/">huahua2610</a> 
+        </div>
+
+
+        
+        <p>　　哈哈哈哈哈····同感啊···豆瓣的人和芒果台的人真的是两个世界的啊·····<br/>　　弱问，上了大学之后，接收更多的资讯以及娱乐方式，浏览过英美剧台湾综艺节目，以及感受丰富多姿的大学生活之后，还有人会看这个节目吗？个人感觉在看的大多是被压在高考中考学习重压之下的苦逼学生吧，对于他们来说只有看不完的书，能看快乐大本营已经是天大的恩赐了。可是但凡是一个有正常思维能力、正确审美价值的人，相信也不会再对快乐大本营有太多兴趣了吧·····</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u45664779 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319595" class="j a_confirm_link" title="删除huahua2610的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319610 data-cid="5319610" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 18:06:41 
+          <a href="http://www.douban.com/people/68204593/">独恋菩提树</a> 
+        </div>
+
+
+        
+        <p>　　快乐出品，烂片保证</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68204593 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319610" class="j a_confirm_link" title="删除独恋菩提树的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319642 data-cid="5319642" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 18:20:29 
+          <a href="http://www.douban.com/people/57902848/">小克劳恩丑</a>  (哇哈哈哈哈哈哈哈~)
+        </div>
+
+
+        
+        <p>　　说话这么毒 小心烂舌根儿</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u57902848 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319642" class="j a_confirm_link" title="删除小克劳恩丑的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319656 data-cid="5319656" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 18:27:24 
+          <a href="http://www.douban.com/people/42608063/">hellen</a>  (我在这里)
+        </div>
+
+
+        
+        <p>　　哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈楼主的怨念好强</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u42608063 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319656" class="j a_confirm_link" title="删除hellen的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319659 data-cid="5319659" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 18:28:22 
+          <a href="http://www.douban.com/people/45712834/">Alcyone</a>  (“分尸”的日文发音是：balabala)
+        </div>
+
+
+        
+        <p>　　次奥~说的太特么好了，说我心坎里了。。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u45712834 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319659" class="j a_confirm_link" title="删除Alcyone的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319672 data-cid="5319672" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 18:34:28 
+          <a href="http://www.douban.com/people/woniubu/">末路狂奔的布瓜</a>  (因为这是上帝给予的试炼)
+        </div>
+
+
+        
+        <p>　　无力吐槽谢娜</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u56152649 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319672" class="j a_confirm_link" title="删除末路狂奔的布瓜的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319680 data-cid="5319680" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 18:39:46 
+          <a href="http://www.douban.com/people/55835230/">Ana爱生活</a> 
+        </div>
+
+
+        
+        <p>　　楼主自己逻辑有错误吧。一边狂贬湖南台和快乐家族。一边又去看人家电影，还挺跟进看了最新的快乐大本营。楼主既然层次高瞧不起别人那为啥还看啊？原来楼主是要通过看＂无智商无下限无情操＂才能知道自己＂有智商有下限有情操＂，也挺可悲的么。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u55835230 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319680" class="j a_confirm_link" title="删除Ana爱生活的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319683 data-cid="5319683" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 18:42:43 
+          <a href="http://www.douban.com/people/64998063/">楼上de公子</a> 
+        </div>
+
+
+        
+        <p>　　说实话,作为湖南人, 快乐大本营现在真的...唉,   还是天天向上好看,好事汪涵好~!!</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u64998063 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319683" class="j a_confirm_link" title="删除楼上de公子的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319686 data-cid="5319686" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 18:43:16 
+          <a href="http://www.douban.com/people/darktales/">一期一会泡面君</a>  (你有没有节操我都爱你 真的)
+        </div>
+
+
+        
+        <p>　　偶谢特写的好棒</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u49080667 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319686" class="j a_confirm_link" title="删除一期一会泡面君的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319706 data-cid="5319706" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 18:52:33 
+          <a href="http://www.douban.com/people/41851070/">在下闸北陆小哄</a>  (随遇而安....)
+        </div>
+
+
+        
+        <p>　　对于娱乐  认真你就输了</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u41851070 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319706" class="j a_confirm_link" title="删除在下闸北陆小哄的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319707 data-cid="5319707" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 18:52:47 
+          <a href="http://www.douban.com/people/68205596/">披过红领巾</a> 
+        </div>
+
+
+        
+        <p>　　一针见血</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68205596 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319707" class="j a_confirm_link" title="删除披过红领巾的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319709 data-cid="5319709" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 18:53:23 
+          <a href="http://www.douban.com/people/viscountz/">星野 -</a>  (【吃了馒头力气会变得很大】)
+        </div>
+
+
+        
+        <p>　　快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？ +10086 <br/>　　</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u53124166 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319709" class="j a_confirm_link" title="删除星野 -的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319784 data-cid="5319784" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 19:30:31 
+          <a href="http://www.douban.com/people/zhou891210/">什么very much</a>  (别人都有·所以我也要！)
+        </div>
+
+
+        
+        <p>　　为什么吴昕没有存在感··因为她那么可爱··却是男孩子！谢娜··完全的是在秀自己智商的下限，是在告诉大家··我的智商是没有下限的哦！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u47496717 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319784" class="j a_confirm_link" title="删除什么very much的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319815 data-cid="5319815" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 19:43:12 
+          <a href="http://www.douban.com/people/1139624/">mrcinema</a> 
+        </div>
+
+
+        
+        <p>　　劝姜文、张艺谋不要玩了，跟一帮囧货有意思吗？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1139624 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319815" class="j a_confirm_link" title="删除mrcinema的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319834 data-cid="5319834" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 19:55:52 
+          <a href="http://www.douban.com/people/50075764/">leondic</a>  (我没有签名档)
+        </div>
+
+
+        
+        <p>　　精神病人思路广。。。笑</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u50075764 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319834" class="j a_confirm_link" title="删除leondic的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319842 data-cid="5319842" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 20:04:05 
+          <a href="http://www.douban.com/people/59664753/">nick-cheung</a> 
+        </div>
+
+
+        
+        <p>　　无奈啊~所有抨击快乐大本营的人自己回头好好看看谢娜的书~人家再怎么没节操，没下线，装优越，也都是一步步自己走过来的，个中的辛酸苦辣又岂是外人能够体会到的？你如果有了他们那样的经历，估计只会更自满！更差劲！更没有下线！最起码，现在快乐大本营能够带给很多人快乐！你能吗？我们快乐！是因为我们都往好处想的，这是一种积极乐观的人生态度··· ···</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u59664753 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319842" class="j a_confirm_link" title="删除nick-cheung的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319856 data-cid="5319856" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 20:10:27 
+          <a href="http://www.douban.com/people/57446011/">小格</a> 
+        </div>
+
+
+        
+        <p>　　认真你就输了。。。。我老师总把这句话挂在嘴边</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u57446011 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319856" class="j a_confirm_link" title="删除小格的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319863 data-cid="5319863" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 20:14:29 
+          <a href="http://www.douban.com/people/66828853/">寒雨晚枫</a> 
+        </div>
+
+
+        
+        <p>　　是因为弱智儿童欢乐多？ <br/>　　还是因为精神病人思路广？<br/>　　<br/>　　LZ这句经典啊，可用于教课文本了，，，</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u66828853 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319863" class="j a_confirm_link" title="删除寒雨晚枫的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319924 data-cid="5319924" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 20:54:10 
+          <a href="http://www.douban.com/people/41895673/">酒妖</a>  (游走在人的世界 用妖的方式活着)
+        </div>
+
+
+        
+        <p>　　哈哈 这个必须顶 </p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u41895673 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319924" class="j a_confirm_link" title="删除酒妖的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319929 data-cid="5319929" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 20:55:59 
+          <a href="http://www.douban.com/people/SherlockChong/">Sherlock</a>  (Expecto Patronum .)
+        </div>
+
+
+        
+        <p>　　快乐大本营里一帮二货是哪里来的优越感？哪里来的优越感？<br/>　　亏我一个同学还屁颠颠的说超期待在考完试后去看《快乐到家》，真是弱智到家<br/>　　喜欢这些的2B，只能说是品位低下</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u63402577 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319929" class="j a_confirm_link" title="删除Sherlock的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319934 data-cid="5319934" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 20:57:53 
+          <a href="http://www.douban.com/people/64598931/">pchy—loving</a> 
+        </div>
+
+
+        
+        <p>　　只想说天天我也看，但是就算嘉宾再好都是很难看完，卧槽调侃抢话感觉自己人缘好是圈中的腕儿，天天也是这样的！！！再说这两个节目本就是不同的定位，满足不同的人群。要是都是千篇一律，估计你就会厌了！！相对于汪涵，我更喜欢何老师，情真亲切。这个电影也许并不出色，结构有问题，演员演技有欠缺，内容简单。但是有些东西是别的电影表达不了的就是人类应该如何对待其他生物。有那么一个可爱的狗狗，通人性的狗狗，我想人们对于食用狗肉应该有个新的认识。不知道你是不是看完感受到了一点儿对狗狗的爱，了解了对宠物的认识？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u64598931 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319934" class="j a_confirm_link" title="删除pchy—loving的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319939 data-cid="5319939" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 20:59:59 
+          <a href="http://www.douban.com/people/68207914/">哦</a> 
+        </div>
+
+
+        
+        <p>　　不要这么贬快乐大本营好不好，你不喜欢也不能骂喜欢的人是脑残！<br/>　　谢娜不是智商趋于0，就算是夸张也太过头了吧！<br/>　　还有上面有个人说海涛不学无术，贪吃好色，低级趣味。根本是说瞎话！<br/>　　除了贪吃，其它的根本是胡扯的，请问你是从哪件事看出来的？<br/>　　</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68207914 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319939" class="j a_confirm_link" title="删除哦的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319954 data-cid="5319954" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:05:07 
+          <a href="http://www.douban.com/people/46824859/">Marshall</a>  (My hardcore rap....)
+        </div>
+
+
+        
+        <p>　　只能说楼主无脑黑.....</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u46824859 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319954" class="j a_confirm_link" title="删除Marshall的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319957 data-cid="5319957" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:05:38 
+          <a href="http://www.douban.com/people/59842600/">、脸。</a>  (老来多健忘，唯不忘相思。)
+        </div>
+
+
+        
+        <p>　　不喜欢可以不看啊 凭什么在这评头论足的~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u59842600 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319957" class="j a_confirm_link" title="删除、脸。的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319958 data-cid="5319958" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:05:42 
+          <a href="http://www.douban.com/people/57976313/">捕梦人</a> 
+        </div>
+
+
+        
+        <p>　　好吧  因为一部电影的好坏就否定他们的辛苦也不用这样吧 <br/>　　</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u57976313 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319958" class="j a_confirm_link" title="删除捕梦人的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5319981 data-cid="5319981" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:16:14 
+          <a href="http://www.douban.com/people/46663440/">江浅泠</a> 
+        </div>
+
+
+        
+        <p>　　何炅好好的，这几年跟着瞎闹腾，晚节都快不保了。赤裸裸的各种吸金，各种标榜快乐，可是除了各种哗众取宠之外，已经很少有让人觉得真诚的开心了</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u46663440 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5319981" class="j a_confirm_link" title="删除江浅泠的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320010 data-cid="5320010" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:30:02 
+          <a href="http://www.douban.com/people/58260232/">黄瓜片</a> 
+        </div>
+
+
+        
+        <p>　　一码归一码  我喜欢何炅的 可能我比较幼稚  不过我也觉得演得不好所以没去看 但是不能因为不喜欢就各种侮辱啊吧……… </p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u58260232 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320010" class="j a_confirm_link" title="删除黄瓜片的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320019 data-cid="5320019" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:35:00 
+          <a href="http://www.douban.com/people/57592907/">happy-designer</a> 
+        </div>
+
+
+        
+        <p>　　各种侮辱 无节操的豆瓣子民~~再也不相信豆瓣了  ~~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u57592907 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320019" class="j a_confirm_link" title="删除happy-designer的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320020 data-cid="5320020" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:36:26 
+          <a href="http://www.douban.com/people/45664779/">huahua2610</a> 
+        </div>
+
+
+        
+        <p>　　有种水军来袭的赶脚啊····赶紧撤····</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u45664779 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320020" class="j a_confirm_link" title="删除huahua2610的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320030 data-cid="5320030" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:39:12 
+          <a href="http://www.douban.com/people/4704549/">Echo</a>  (不需要这样的梦)
+        </div>
+
+
+        
+        <p>　　我听到过3亿就干嘛干嘛……过6亿就干嘛干嘛……那里是真心无语。我当时还想你们的电影能捞回本就不错了~还过亿。 你当中国观影人是傻子啊！！花钱看你几个不如开电视直接看啊~再说有很多人都不想看啊！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u4704549 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320030" class="j a_confirm_link" title="删除Echo的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320032 data-cid="5320032" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:39:56 
+          <a href="http://www.douban.com/people/52969769/">我是小荷花</a> 
+        </div>
+
+
+        
+        <p>　　请问你有节操你高尚干嘛还在这抨击别人。每个节目的定位和受众都不同。你不能要求每个人都跟你一样品味独特有内涵。写到这我想说你是在标榜自己的学识修养么？被逼才看的？那请问你家人你朋友有说你不看就要跟你断绝关系么？你可以去看《上下五千年》啊。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u52969769 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320032" class="j a_confirm_link" title="删除我是小荷花的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320049 data-cid="5320049" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:44:30 
+          <a href="http://www.douban.com/people/59381339/">碳酸钾</a> 
+        </div>
+
+
+        
+        <p>　　不喜欢就不要说话，不好的话憋着不要说。萝卜青菜各有所爱，你以为你自己不二？说这么多你哪来的优越感？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u59381339 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320049" class="j a_confirm_link" title="删除碳酸钾的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320052 data-cid="5320052" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:45:04 
+          <a href="http://www.douban.com/people/amy1212/">Reggae_so</a>  (腐烂，糜烂而又灿烂的生活..)
+        </div>
+
+
+        
+        <p>　　闰土夫妇跟“何老师”就是他们的优越感...</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u30154673 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320052" class="j a_confirm_link" title="删除Reggae_so的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320067 data-cid="5320067" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:52:23 
+          <a href="http://www.douban.com/people/59381339/">碳酸钾</a> 
+        </div>
+
+
+        
+        <p>　　大学扩招又怎样？有多少人没读大学你知道不？读个大学你了不起啊？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u59381339 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320067" class="j a_confirm_link" title="删除碳酸钾的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320068 data-cid="5320068" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:52:31 
+          <a href="http://www.douban.com/people/67484557/">春</a> 
+        </div>
+
+
+        
+        <p>　　真是好笑！你不喜欢就不喜欢何必要这么激动呢？你不想看就不看没人逼你看 说这么多干嘛你哪来的优越感？ 作为明星也有明星的身不由己何必咄咄逼人！还附庸着说这么难听的话？你得到了什么？你感到很爽很痛快？虽然我也不怎么看湖南卫视但人家快乐家族好歹为这么多人带来不一样的欢乐 即使有人喜欢 也有人讨厌 但他们哪惹你了？哪让你看不顺了？！！我有请您老高抬贵口口下留情吧 不是只有你会骂难听的字眼 只是懒得和你说而已 呵呵！ 好笑！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u67484557 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320068" class="j a_confirm_link" title="删除春的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320080 data-cid="5320080" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 21:57:18 
+          <a href="http://www.douban.com/people/58852185/">臭臭臭不要脸的</a> 
+        </div>
+
+
+        
+        <p>　　   我去看了一下这个电影。。。各种快进，不想说什么了。反正我是没找到笑点。。。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u58852185 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320080" class="j a_confirm_link" title="删除臭臭臭不要脸的的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320092 data-cid="5320092" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:01:34 
+          <a href="http://www.douban.com/people/59381339/">碳酸钾</a> 
+        </div>
+
+
+        
+        <p>　　人家再怎样智商为零也不比你混得差，看您讲话这么没有节操就知道混得没有人家好。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u59381339 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320092" class="j a_confirm_link" title="删除碳酸钾的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320104 data-cid="5320104" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:03:55 
+          <a href="http://www.douban.com/people/68210800/">我了个×</a> 
+        </div>
+
+
+        
+        <p>　　写一堆无下限无节操无水平的垃圾来吐槽  引口水战  这是你的优越感么<br/>　　笑尿了</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68210800 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320104" class="j a_confirm_link" title="删除我了个×的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320111 data-cid="5320111" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:05:46 
+          <a href="http://www.douban.com/people/coolbill/">万彼时</a>  (豆瓣已经是我最后一块干净地了)
+        </div>
+
+
+        
+        <p>　　豆瓣什么时候在“我想看”旁边能有“我不想看”的选项</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2151399 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320111" class="j a_confirm_link" title="删除万彼时的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320114 data-cid="5320114" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:06:40 
+          <a href="http://www.douban.com/people/wing-1987/">泡沫咖啡</a>  (安静……)
+        </div>
+
+
+        
+        <p>　　心声吖！早不看他们</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u3327240 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320114" class="j a_confirm_link" title="删除泡沫咖啡的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320130 data-cid="5320130" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:11:44 
+          <a href="http://www.douban.com/people/61514272/">Yoshimori</a> 
+        </div>
+
+
+        
+        <p>　　为了黑而黑。综艺节目，认真你就输了</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u61514272 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320130" class="j a_confirm_link" title="删除Yoshimori的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320132 data-cid="5320132" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:12:27 
+          <a href="http://www.douban.com/people/59381339/">碳酸钾</a> 
+        </div>
+
+
+        
+        <p>　　骂人的留点口德行不？难免有朝一日被人骂连个帮忙的都找不到！！！！！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u59381339 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320132" class="j a_confirm_link" title="删除碳酸钾的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320157 data-cid="5320157" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:19:09 
+          <a href="http://www.douban.com/people/1234370/">赞无不胜</a> 
+        </div>
+
+
+        
+        <p>　　支持LZ，哈哈</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1234370 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320157" class="j a_confirm_link" title="删除赞无不胜的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320168 data-cid="5320168" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:23:29 
+          <a href="http://www.douban.com/people/3126153/">王二和许由。</a> 
+        </div>
+
+
+        
+        <p>　　看了一整楼吵来吵去心情果然变好了<br/>　　<br/>　　另外，批评下水军们来得太慢了啊~~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u3126153 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320168" class="j a_confirm_link" title="删除王二和许由。的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320170 data-cid="5320170" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:23:50 
+          <a href="http://www.douban.com/people/52687974/">把疼痛都给你</a>  (这个冬天豆瓣陪我一起二。)
+        </div>
+
+
+        
+        <p>　　不看那些节目的人撸过。。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u52687974 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320170" class="j a_confirm_link" title="删除把疼痛都给你的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320207 data-cid="5320207" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:41:25 
+          <a href="http://www.douban.com/people/Mirandcarey/">Rachel</a> 
+        </div>
+
+
+        
+        <p>　　看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？看嘉宾不行么？<br/>　　<br/>　　说实话看完我女神的那期我打算这辈子都不会看啦<br/>　　<br/>　　再也不看啦</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u52340118 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320207" class="j a_confirm_link" title="删除Rachel的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320223 data-cid="5320223" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:47:19 
+          <a href="http://www.douban.com/people/68210423/">站在地面飞</a> 
+        </div>
+
+
+        
+        <p>　　里面唯一正常点的海涛，看起来就是一托，不管生么他都参加，参加而且必输！看来他的人生观点就是重在搀和啊</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68210423 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320223" class="j a_confirm_link" title="删除站在地面飞的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5320225 data-cid="5320225" data-target_id="5744207" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-18 22:47:49 
+          <a href="http://www.douban.com/people/55503805/">l花猫</a> 
+        </div>
+
+
+        
+        <p>　　好吧，即使楼主这么讨厌快乐大本营但是您还是看了。。。那什么科学实验室貌似是后来加的吧，楼主这么强烈的表达出自己的情感看得还是很认真的。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u55503805 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5744207/remove_comment?cid=5320225" class="j a_confirm_link" title="删除l花猫的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div id="last"></div>
+
+ 
+
+ 
+
+    
+    
+    
+        <div class="paginator">
+        <span class="prev">
+            &lt;前页
+        </span>
+        
+        
+
+                <span class="on">1</span>
+                
+            <a href="http://movie.douban.com/review/5744207/?start=100#comments" >2</a>
+        
+                
+            <a href="http://movie.douban.com/review/5744207/?start=200#comments" >3</a>
+        
+        <span class="next">
+            <link rel="next" href="http://movie.douban.com/review/5744207/?start=100#comments"/>
+            <a href="http://movie.douban.com/review/5744207/?start=100#comments" >后页&gt;</a>
+        </span>
+
+        </div>
+
+
+
+
+
+
+
+</div>
+
+
+<script>
+Do(function(){
+  $('#comments').find('.comment-item').hover(function(){$(this).addClass('over');}, function(){$(this).removeClass('over');});
+  $('.reply-quote .toggle-reply').click(function(e) {
+    e.preventDefault();
+    var el = $(this);
+    el.prevAll('span').toggle(); 
+    el.find('span').toggle();
+  });
+});
+</script>
+
+
+
+
+        </div>
+    </div>
+
+    
+
+	</div>
+        <div class="aside">
+            
+    
+
+
+
+
+
+
+
+    <div class="copyright indent">本评论版权属于作者MysterioJr，并受法律保护。除非评论正文中另有声明，未经合法书面许可任何人不得转载或使用整体或任何部分的内容。</div>
+    <p class="pl2">&gt; <a onclick="moreurl(this, {from:'mv_rv_sbj_r'})" href="http://movie.douban.com/subject/11610693/">去快乐到家的页面</a></p>
+
+    <div class="indent">
+        
+
+
+
+
+
+
+
+<style>
+    .movie-summary {overflow:hidden; zoom:1;}
+    .movie-summary .movie-pic {margin-bottom:15px; margin-top:3px;}
+    .movie-summary p {margin:3px 0; padding-left:2.5em; text-indent:-2.5em; color:#111;}
+    .movie-summary p .pl, .movie-summary p a:link , .movie-summary p a:visited{color:#111;}
+    .movie-summary p a:hover {color:#fff;}
+    .trail_link,.trail_link:visited,.trail_link:hover,.trail_link:active {margin-top:5px; display:block; height:28px; width:96px; background:url('/pics/movie_trailer_icon2.png'); overflow:hidden; line-height:99em;}
+    .btn-complete-video{margin-top:5px;}
+    .btn-complete-video,.btn-complete-video:active,.btn-complete-video:hover,.btn-complete-video:visited{background:url(http://img3.douban.com/pics/movie_trailer_icon4.png) no-repeat left top;display:block;height:28px;width:96px;line-height:99em;margin-bottom:10px;overflow:hidden}
+</style>
+
+<div class="movie-summary">
+        <div class="movie-pic"><a onclick="moreurl(this, {from:'mv_rv_poster'})"  href="http://movie.douban.com/subject/11610693/" ><img alt="快乐到家" title="快乐到家" src="http://img3.douban.com/mpic/s24585226.jpg" rel="v:image"></a></div>
+    <span class="attrs">
+        
+            
+        <p>
+            <span class="pl">导演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_director'})"  href="http://movie.douban.com/celebrity/1313266/">傅华阳</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">主演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1313023/">何炅</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1274270/">谢娜</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1313025/">李维嘉</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1318460/">吴昕</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1313024/">杜海涛</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1019343/">杜汶泽</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1274306/">倪大红</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1041425/">蔡卓妍</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1275667/">韩庚</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">类型:</span>
+                喜剧
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">地区:</span>
+                中国大陆
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">片长:</span>
+                97分钟
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">上映:</span>
+                2013-01-15(中国大陆)
+        </p>
+
+        <a onclick="moreurl(this, {from:'mv_rv_trailer'})"  class="trail_link" data-trailer-id="128494" href="http://movie.douban.com/trailer/128494/#content" >预告片</a>
+    </span>
+</div>
+
+
+
+
+
+    </div>
+
+            <h2>MysterioJr的其他评论</h2>
+        <div class="indent other_review">
+            <ul>
+                    
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_1'})" href="http://movie.douban.com/review/5623434/" class="ll">从前有一个小朋友，他很讨厌。他就是我。</a> 
+                                    <span class="stars3 starstop" title="还行"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/4176542/">杀生</a>)
+                        </li>
+            </ul>
+            <p class="pl clearfix">
+                <a class="rr" onclick="moreurl(this, {from:'mv_rv_au_all'})" href="http://movie.douban.com/people/elfz/reviews?cat_id=1002">&gt; 全部评论(2)</a>
+            </p>
+        </div>
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/703012dc8cdf08fe.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper1-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

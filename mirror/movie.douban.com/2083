@@ -1,0 +1,1339 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        大叔，我爱你 的影评 (43)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    
+    <meta name="keywords" content="大叔，我爱你,影评,评论,观后感">
+    <meta name="description" content="大叔，我爱你热门影评和最新影评,大叔，我爱你电影评论">
+    <link rel="alternate" href="http://movie.douban.com/feed/subject/10827168/reviews" type="application/rss+xml" title="RSS">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/6dfdb53a5cbe25d8.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1>大叔，我爱你 的影评 (43)</h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    
+    <h2 class="green_tab clearfix">
+        
+            
+    
+    <a href="javascript:;" class="on">
+        <span>热门影评</span>
+    </a>
+
+            
+    
+    <a href="http://movie.douban.com/subject/10827168/reviews?sort=time&amp;filter=" class="">
+        <span>最新影评</span>
+    </a>
+
+            
+    
+    <a href="http://movie.douban.com/subject/10827168/follows_reviews?filter=" class="j a_show_login">
+        <span>我关注的</span>
+    </a>
+
+
+    </h2>
+    
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5734898" class="rr"><a id="af-5734898" rel="sw-False" href="http://movie.douban.com/review/5734898/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5734898})"/></a>
+                        <a id="au-5734898" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="《大叔，我爱你》爱情是一袭华丽的袍子" href="http://movie.douban.com/review/5734898/">《大叔，我爱你》爱情是一袭华丽的袍子</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/3259246/" title="木易孝敦"><img class="pil" src="http://img3.douban.com/icon/u3259246-4.jpg" alt="木易孝敦"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/3259246/">木易孝敦</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5734898_short" class="review-short">
+                          张爱玲说，人生是一袭华丽的袍子,里面爬满了虱子。其实，现实中的爱情又何尝不是，自己眼中的别人的爱情总是显得那么美好，可是只有自己尝试了才明白其中的酸甜苦辣。《大叔，我爱你》中，方家成用了20年的时间将自己的爱情掩埋在痛苦的回忆里，沈绮赌上自己过往只为等待真命天子的出现……爱情很苦，所幸胡崇曦导演并未在片中让......
+                        <a class="pl" href="http://movie.douban.com/review/5734898/">(7回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-10 19:27:51 &nbsp; &nbsp; 5/5有用 </span>
+                    </div>
+                </div>
+                <div id="review_5734898_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5747015" class="rr"><a id="af-5747015" rel="sw-False" href="http://movie.douban.com/review/5747015/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5747015})"/></a>
+                        <a id="au-5747015" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="可能是迎合调查的75%少女的大叔控来赚钱的片子和一种自我安慰的方式" href="http://movie.douban.com/review/5747015/">可能是迎合调查的75%少女的大叔控来赚钱的片子和...</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/BaDa../" title="丽丽茶永远年轻"><img class="pil" src="http://img3.douban.com/icon/u34515939-272.jpg" alt="丽丽茶永远年轻"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/BaDa../">丽丽茶永远年轻</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5747015_short" class="review-short">
+                           本身也知道这部片子也不怎么好看，之前是看了一部意大利的大叔萝莉电影，叫熟男我爱你，可以说这部片子名字都是照搬。然后剧情也比较类似。只是意大利的电影里面大叔是一个做广告的，也是萝莉与大叔发生交通事故相识，大体都差不多，这个就不用说了。
+    这部电影更多是为了迎合所谓的现在75%的少女都有大叔控的调查来......
+                        <a class="pl" href="http://movie.douban.com/review/5747015/">(3回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-19 17:03:19 &nbsp; &nbsp; 1/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5747015_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5739368" class="rr"><a id="af-5739368" rel="sw-False" href="http://movie.douban.com/review/5739368/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5739368})"/></a>
+                        <a id="au-5739368" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="非主流的怪味儿情感" href="http://movie.douban.com/review/5739368/">非主流的怪味儿情感</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/yanzhishuifen/" title="胭脂久"><img class="pil" src="http://img3.douban.com/icon/u48973157-8.jpg" alt="胭脂久"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/yanzhishuifen/">胭脂久</a>
+                    </span>
+                    <span class="allstar20" title="较差">
+                    </span>
+                </span>
+                <div id="review_5739368_short" class="review-short">
+                    不知道为什么，看这部电影我脑子里总会想起一部经典韩剧《对不起我爱你》瞧见没有，连名字听上去都有点像！虽然咱们的偶卓西（韩语大叔）比人家的帅一点，年轻一点，萝莉比人家的假一点，装一点，故事上也有着本质的区别。但是毕竟人家珠玉在前，多少还是会有那么一点联想。哦对了！还有一部同名小说，讲得貌似也是这么个事吧。好了，我说这么多......
+                        <a class="pl" href="http://movie.douban.com/review/5739368/">(1回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-13 22:28:34 &nbsp; &nbsp; 2/3有用 </span>
+                    </div>
+                </div>
+                <div id="review_5739368_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5734479" class="rr"><a id="af-5734479" rel="sw-False" href="http://movie.douban.com/review/5734479/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5734479})"/></a>
+                        <a id="au-5734479" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="有种爱情叫久别重逢" href="http://movie.douban.com/review/5734479/">有种爱情叫久别重逢</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/yufeiki/" title="鱼为"><img class="pil" src="http://img3.douban.com/icon/u4272173-8.jpg" alt="鱼为"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/yufeiki/">鱼为</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5734479_short" class="review-short">
+                    
+    章子怡在《一代宗师》里说：世间所有的相遇，都是久别重逢。
+
+    《大叔·我爱你》中，张智霖与付梦妮就是久别重逢。但影片却并不从开始便告知观众，而是以一种实属巧合的桥段让两人出现在同一个故事当中，堆积情愫，培育感情，成熟与稚嫩对抗，优质大叔与清音萝莉并行，让暧昧在抉择中经受检验，也让酸楚在思念中温柔盛......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-10 14:40:54 &nbsp; &nbsp; 4/4有用 </span>
+                    </div>
+                </div>
+                <div id="review_5734479_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5741510" class="rr"><a id="af-5741510" rel="sw-False" href="http://movie.douban.com/review/5741510/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5741510})"/></a>
+                        <a id="au-5741510" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="相信爱情" href="http://movie.douban.com/review/5741510/">相信爱情</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/bamboo1988/" title="竹子"><img class="pil" src="http://img3.douban.com/icon/u3561929-30.jpg" alt="竹子"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/bamboo1988/">竹子</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5741510_short" class="review-short">
+                       电影本身有点糙，台词偏幼稚，吐槽点太多了。但是有一点好的，就是感情至少不突兀，没有让我看爱love的时候那种无语的感觉。
+  现实中，两人未必相配。光凭一腔热血在一起，可是曾经经历的种种都不同，生活习惯，阅历，价值观，都不同。这两人真的能琴瑟和谐过一辈子？我看未必。
+  爱情是需要“合适”的，但是需要的不仅仅......
+                        <a class="pl" href="http://movie.douban.com/review/5741510/">(1回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-15 12:51:37 &nbsp; &nbsp; 5/8有用 </span>
+                    </div>
+                </div>
+                <div id="review_5741510_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5738728" class="rr"><a id="af-5738728" rel="sw-False" href="http://movie.douban.com/review/5738728/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5738728})"/></a>
+                        <a id="au-5738728" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="君生我未生，我生君已老" href="http://movie.douban.com/review/5738728/">君生我未生，我生君已老</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/estelleyx/" title="一〇一"><img class="pil" src="http://img3.douban.com/icon/u3532571-2.jpg" alt="一〇一"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/estelleyx/">一〇一</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5738728_short" class="review-short">
+                    其实这就是个传统得不能再传统，老套又老套的爱情故事，加上点上海城市记忆，用时髦的欧巴装点一下，可我还是莫名飙泪了，这么多年过去依然能看到很多梗，雨夜的车，破旧厂房，错步流年，一把吉他的从前，没有美克拉的人是难以体会的。看得出来导演已经很用心地让它不一样，比如水下。但还是有浓重的学生气息，生硬的台词和配音是最大硬伤。ps......
+                        <a class="pl" href="http://movie.douban.com/review/5738728/">(2回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-13 15:16:56 &nbsp; &nbsp; 4/5有用 </span>
+                    </div>
+                </div>
+                <div id="review_5738728_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5743829" class="rr"><a id="af-5743829" rel="sw-False" href="http://movie.douban.com/review/5743829/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5743829})"/></a>
+                        <a id="au-5743829" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="这是一部能打动人的影片" href="http://movie.douban.com/review/5743829/">这是一部能打动人的影片</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/68154236/" title="mu2"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg" alt="mu2"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/68154236/">mu2</a>
+                    </span>
+                    <span class="allstar50" title="力荐">
+                    </span>
+                </span>
+                <div id="review_5743829_short" class="review-short">
+                    在网上看了很多关于《大叔我爱你》的评论，差评中最多提到的便是故事老套无新意，许多桥段都是老得不能再老的。而我认为这一切都无伤大雅。我认为一个作品只要能感动人触动人的内心深处，那便是好的作品。我认为《大叔我爱你》这部电影做到了这一点。
+方家成孤独泡在水里的画面和20年前车祸的场面贯穿电影的始终，以此来说明方家成是个孤独......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-16 22:58:29 &nbsp; &nbsp; 1/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5743829_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5734875" class="rr"><a id="af-5734875" rel="sw-False" href="http://movie.douban.com/review/5734875/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5734875})"/></a>
+                        <a id="au-5734875" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="喜见海棠闹梨花！" href="http://movie.douban.com/review/5734875/">喜见海棠闹梨花！</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/zhaozhu/" title="赵猪"><img class="pil" src="http://img3.douban.com/icon/u1081581-1.jpg" alt="赵猪"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/zhaozhu/">赵猪</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5734875_short" class="review-short">
+                    　　东坡先生当年写下“一树梨花压海棠”这一名句时，大概从没想到过，在一千多年之后的今天，曾经的男权主义社会，已经演进成了当下这般男女平等，甚至女权主义盛行的时代。因此，一方面女权主义者仍然在抨击老夫少妻，以及其背后所代表的钱色交易；另一方面，更加张扬自我，追求个性解放的少女们，却已经毫不避讳地大喊出自己的口号——《大叔......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-10 19:13:17 &nbsp; &nbsp; 1/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5734875_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5733471" class="rr"><a id="af-5733471" rel="sw-False" href="http://movie.douban.com/review/5733471/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5733471})"/></a>
+                        <a id="au-5733471" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="成长最残酷的部分就是，女孩永远比同年龄的男孩成熟。" href="http://movie.douban.com/review/5733471/">成长最残酷的部分就是，女孩永远比同年龄的男孩...</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/lukeyu/" title="轮子"><img class="pil" src="http://img3.douban.com/icon/u2763654-3.jpg" alt="轮子"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/lukeyu/">轮子</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5733471_short" class="review-short">
+                    进场的时候片子已经开始了，黑漆漆的影厅中零零散散的也坐了不少人，摸索着找到自己的位置，片子刚好进行到付梦妮下车的镜头——我一下子笑出了声：多少少女内心做过这样的下车梦，先迈出一只脚，然后等镜头摇到腿的时候再拽啊拽的把身子晃出来，不介意脚上穿的是不是非主流运动鞋，也不介意大腿是粗是细，更不介意自己穿了件红色阿迪。
+
+......
+                        <a class="pl" href="http://movie.douban.com/review/5733471/">(2回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-09 20:38:49 &nbsp; &nbsp; 7/8有用 </span>
+                    </div>
+                </div>
+                <div id="review_5733471_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5718561" class="rr"><a id="af-5718561" rel="sw-False" href="http://movie.douban.com/review/5718561/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5718561})"/></a>
+                        <a id="au-5718561" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="最近有爱上张智霖了！！！！！" href="http://movie.douban.com/review/5718561/">最近有爱上张智霖了！！！！！</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/x_Qing/" title="．/╱浅、夏﹏"><img class="pil" src="http://img3.douban.com/icon/u47503857-5.jpg" alt="．/╱浅、夏﹏"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/x_Qing/">．/╱浅、夏﹏</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5718561_short" class="review-short">
+                    很开心提前观看了 大叔我爱你 这部电影的好几个点都有感动到，眼泪在眼眶里打转，喜欢这样的小清新带点怀旧的感觉 張智霖 这么帅的大叔 付梦妮 能不爱嘛，我看完都幻想可以有个这么帅的大叔呢，还有片尾曲非常非常好听!
+不过毕竟是新导演，难免很多地方没有处理的很好，因为泪崩的点感染力不够，跟 天生爱情狂 比的话。可是我觉得很......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-29 12:30:58 &nbsp; &nbsp; 0/0有用 </span>
+                    </div>
+                </div>
+                <div id="review_5718561_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5736565" class="rr"><a id="af-5736565" rel="sw-False" href="http://movie.douban.com/review/5736565/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5736565})"/></a>
+                        <a id="au-5736565" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="《大叔我爱你》71-89=18" href="http://movie.douban.com/review/5736565/">《大叔我爱你》71-89=18</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/lesc/" title="苏筱兀。"><img class="pil" src="http://img3.douban.com/icon/u1639448-18.jpg" alt="苏筱兀。"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/lesc/">苏筱兀。</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5736565_short" class="review-short">
+                    多大的年龄差是你能够接受的距离？热播美剧《老爸老妈的浪漫史》男主角乔什•拉德诺导演处女作《文科恋曲》同样围绕这个问题展开，里面有这样一个画面，35岁的男人用笔计算着他与19岁少女的差距。他16岁时，她刚出生；他35岁时，她19岁；他50岁时，她34岁；他87岁时，她71岁。年龄差距随着数字的变大显得不是突兀，然而，最终......
+                        <a class="pl" href="http://movie.douban.com/review/5736565/">(1回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-11 22:18:54 &nbsp; &nbsp; 3/4有用 </span>
+                    </div>
+                </div>
+                <div id="review_5736565_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5735012" class="rr"><a id="af-5735012" rel="sw-False" href="http://movie.douban.com/review/5735012/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5735012})"/></a>
+                        <a id="au-5735012" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="我造爱情童话" href="http://movie.douban.com/review/5735012/">我造爱情童话</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/18515481/" title="柯尔特"><img class="pil" src="http://img3.douban.com/icon/u18515481-2.jpg" alt="柯尔特"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/18515481/">柯尔特</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5735012_short" class="review-short">
+                    有多少怀春少女眼中的爱情，都好比童话般如梦似真，鲜甜味美；有多少闷骚宅男梦想的爱情，亦如同童话那样清新无邪，完美浪漫；又有多少历经岁月洗礼后的大叔大婶，依旧在记忆的深处，留存着那一处纯美爱情的童话世界，不敢触碰，又难舍难分！
+爱情，在男女间视线相碰，荷尔蒙疯狂滋生的同时，本该就是童话模样地出现，童话模样的结局。童话，......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-10 20:48:59 &nbsp; &nbsp; 0/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5735012_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5661177" class="rr"><a id="af-5661177" rel="sw-False" href="http://movie.douban.com/review/5661177/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5661177})"/></a>
+                        <a id="au-5661177" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="期待《大叔，我爱你》" href="http://movie.douban.com/review/5661177/">期待《大叔，我爱你》</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/buai1314/" title="愛しません"><img class="pil" src="http://img3.douban.com/icon/u3451261-18.jpg" alt="愛しません"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/buai1314/">愛しません</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5661177_short" class="review-short">
+                           在这个对于爱情满是束缚的时代，一部萝莉勇敢追求大叔的电影显得难能可贵了。
+      看过导演的视频之后对于电影的期待值又有了提升，对于敢于去追求实现梦想的导演来说你，一定会把自己觉得完满的东西拿出来与大家分享的。
+     期待电影《大叔，我爱你》的上映，爱你一生一世，选在这天上映真是太有了~期待看......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-11-20 12:13:56 &nbsp; &nbsp; 3/6有用 </span>
+                    </div>
+                </div>
+                <div id="review_5661177_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5737124" class="rr"><a id="af-5737124" rel="sw-False" href="http://movie.douban.com/review/5737124/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5737124})"/></a>
+                        <a id="au-5737124" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="有些事不华丽但很浪漫（大叔，我爱你）" href="http://movie.douban.com/review/5737124/">有些事不华丽但很浪漫（大叔，我爱你）</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/suxiaoxiang/" title="苏小香"><img class="pil" src="http://img3.douban.com/icon/u48061510-7.jpg" alt="苏小香"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/suxiaoxiang/">苏小香</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5737124_short" class="review-short">
+                    昨天跟一些媒体观影之后出门某网站的编辑和我说，嗯这个片子比我想的要好一些，我说了一句，嗯，整部片子的名字坑了很多人。首先我看到这样名字的时候感觉很三俗，其次就是感觉真是简单，名字就好像一针见血一样。我们都知道《失恋三十三天》跟本片其实本质上都是差不多的，但是给人的感觉就是名字一个三俗了一个文艺了，吐槽点之一可能就是名字......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-12 11:17:43 &nbsp; &nbsp; 0/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5737124_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5717088" class="rr"><a id="af-5717088" rel="sw-False" href="http://movie.douban.com/review/5717088/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5717088})"/></a>
+                        <a id="au-5717088" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="美化的畸恋" href="http://movie.douban.com/review/5717088/">美化的畸恋</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/1495292/" title="暗地妖娆"><img class="pil" src="http://img3.douban.com/icon/u1495292-2.jpg" alt="暗地妖娆"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/1495292/">暗地妖娆</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5717088_short" class="review-short">
+                    无论怎么看，《大叔，我爱你》都是用偶像剧手法拍了一部纯爱电影，所有韩剧和台剧里的俗套梗都有了，比如多年暗恋成狂，比如旧时内伤未愈，比如两情厢悦之余无端的纠结，比如烂梗的“淑女养成计划”，更比如在影视剧里已经见识过几百万次的机场追人戏，这个梗是连游川和彦那样的日剧脚本家大咖都会在一个不平凡的作品《想恋爱X3》中用的，所以......
+                        <a class="pl" href="http://movie.douban.com/review/5717088/">(1回应)</a>
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2012-12-28 12:39:43 &nbsp; &nbsp; 13/14有用 </span>
+                    </div>
+                </div>
+                <div id="review_5717088_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5736442" class="rr"><a id="af-5736442" rel="sw-False" href="http://movie.douban.com/review/5736442/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5736442})"/></a>
+                        <a id="au-5736442" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="剧情俗套 煽情比较到位 竟然又泪点" href="http://movie.douban.com/review/5736442/">剧情俗套 煽情比较到位 竟然又泪点</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/xuxiaoyuan/" title="徐晓媛"><img class="pil" src="http://img3.douban.com/icon/u2224484-26.jpg" alt="徐晓媛"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/xuxiaoyuan/">徐晓媛</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5736442_short" class="review-short">
+                    哭点蛮多的，不知道是不是因为有太多共鸣了。人的一辈子可以有几次真爱，一个是向现实妥协的年纪，一个是追梦圆梦的年纪；一个是满身势力的老男人，另一个是古灵精怪的小清新。有的人离爱太远，有的人的幸福很简单。
+
+很老套的剧情挂上了一个时髦的大叔，小萝莉的元素；虽然很俗，不过在后半段的煽情环节还是充分把人物内心刻画的不错，就......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-11 21:04:11 &nbsp; &nbsp; 1/2有用 </span>
+                    </div>
+                </div>
+                <div id="review_5736442_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5734477" class="rr"><a id="af-5734477" rel="sw-False" href="http://movie.douban.com/review/5734477/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5734477})"/></a>
+                        <a id="au-5734477" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="《大叔，我爱你》：意识大胆的“老少配”爱情喜剧" href="http://movie.douban.com/review/5734477/">《大叔，我爱你》：意识大胆的“老少配”爱情喜剧</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/4610443/" title="崔汀"><img class="pil" src="http://img3.douban.com/icon/u4610443-4.jpg" alt="崔汀"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/4610443/">崔汀</a>
+                    </span>
+                    <span class="allstar30" title="还行">
+                    </span>
+                </span>
+                <div id="review_5734477_short" class="review-short">
+                    
+
+ 
+
+曾经的帅哥张智霖已经年过四十，迈入大叔的行列，不过张智霖潇洒依旧，所以照样能在大银幕上和小女生谈情说爱。时代在飞速进步，已经不是那个街上拉手都会脸红的时代了，所以年龄差距也不是什么机会，《大叔，我爱你》就描述了一对年轻相差20多岁的恋人，爱情本来就是很纠结的，他们的相恋只能用更加纠结来形容。
+
+ ......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-10 14:39:11 &nbsp; &nbsp; 2/3有用 </span>
+                    </div>
+                </div>
+                <div id="review_5734477_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5734487" class="rr"><a id="af-5734487" rel="sw-False" href="http://movie.douban.com/review/5734487/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5734487})"/></a>
+                        <a id="au-5734487" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="《大叔，我爱你》：敏感事，浪漫说" href="http://movie.douban.com/review/5734487/">《大叔，我爱你》：敏感事，浪漫说</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/wolfboar/" title="满囤儿"><img class="pil" src="http://img3.douban.com/icon/u4221524-2.jpg" alt="满囤儿"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/wolfboar/">满囤儿</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5734487_short" class="review-short">
+                    文/满囤儿
+
+
+        当看完《大叔，我爱你》之后，你会发现电影人美化残酷现实的功力，比之《新闻联播》都有过之而无不及。导演胡崇曦表示，虽然他接到了一个“萝莉推到大叔”这么一个看上去十分重口味的题目，但是考虑到现今观众的接受程度和口味偏向，他一定会也只能是把其拍成浪漫爱情喜剧。戏中张智霖的老妈在看到儿子领......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-10 14:44:49 &nbsp; &nbsp; 6/7有用 </span>
+                    </div>
+                </div>
+                <div id="review_5734487_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5735826" class="rr"><a id="af-5735826" rel="sw-False" href="http://movie.douban.com/review/5735826/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5735826})"/></a>
+                        <a id="au-5735826" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="且看萝莉在最美好的时光倒追大叔" href="http://movie.douban.com/review/5735826/">且看萝莉在最美好的时光倒追大叔</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/yunfeiyang2046/" title="云飞扬"><img class="pil" src="http://img3.douban.com/icon/u1011382-5.jpg" alt="云飞扬"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/yunfeiyang2046/">云飞扬</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5735826_short" class="review-short">
+                    
+
+无论如何，能够看到发生在上海的萝莉与大叔的爱情故事，我们不妨都报以善意理解的表情，萝莉为什么爱上大叔，当然有其必然之道理，否则也难以通过广电总局的审查。看完电影之后，导演的朋友问我电影怎么样，我说我对《大叔，我爱你》最大的好感，在于电影中的角色活得很自我、且不伤害他人，又能够不以恶意来揣摩他人的动机，这很好，我......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-11 13:20:14 &nbsp; &nbsp; 0/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5735826_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        <div class="fold-hd">
+            <a class="btn-unfold" href="#">有一些影评被折叠了</a>
+            <a class="qa" href="/help/opinion#t1-qs" target="_blank">为什么被折叠？</a>
+            <div class="qa-tip">
+                评论被折叠，是因为发布这条评论的帐号行为异常。评论仍可以被展开阅读，对发布人的账号不造成其他影响。如果认为有问题，可以<a href="http://help.douban.com/help/ask?category=movie">联系</a>豆瓣电影。
+            </div>
+        </div>
+        <div class="fold-bd">
+                
+    
+    <div class="ctsh">
+        <ul class="tlst clearfix" style="clear:both">
+            <li class="nlst">
+                <h3>
+                    <div id="tb-5738657" class="rr"><a id="af-5738657" rel="sw-False" href="http://movie.douban.com/review/5738657/" class="j a_unfolder" style="background:none;">
+                        <img src="http://img3.douban.com/pics/blank.gif" alt="&gt;" width="48" height="19" class="bn-arrow" title="展开全文" onclick="moreurl(this,{from:'review-show-full',owner:'10827168',itself:5738657})"/></a>
+                        <a id="au-5738657" href="javascript:void(0);" class="j a_folder" style="background:none;display:none">
+                            <img src="http://img3.douban.com/pics/blank.gif" alt="&lt;" width="48" height="19" class="bn-arrow" title="缩进全文"/>
+                        </a>
+                    </div>
+                <a title="有爱，请赶紧爱。要笑，请开怀笑。" href="http://movie.douban.com/review/5738657/">有爱，请赶紧爱。要笑，请开怀笑。</a>
+                </h3>
+            </li>
+            <li class="ilst" style="clear:both;">
+                <a href="http://movie.douban.com/people/1198705/" title="yezhantu"><img class="pil" src="http://img3.douban.com/icon/u1198705-1.jpg" alt="yezhantu"/></a>
+            </li>
+            <li class="clst report-link">
+                <span class="pl ll obss">
+                    <span class="starb">
+                        <a href="http://movie.douban.com/people/1198705/">yezhantu</a>
+                    </span>
+                    <span class="allstar40" title="推荐">
+                    </span>
+                </span>
+                <div id="review_5738657_short" class="review-short">
+                    本来去看这片没怀着多大的期待，只是觉得这片名对于我这种叔辈有点兴趣而已，但看完了发现我错了，如此丰盛的剧情，让本打算赴约去吃个快餐，最后却发现原来是满汉全席的惊诧，一部小清新低成本捧新人的电影，却充满着生活的大道理，有着各种密阳般的爱，看完让人爱不释手，感慨绵绵。观影中，一路有欢笑，是全影院内的人都在笑，很大声很开心的......
+                    <br/>
+                    <br/>
+                    <div class="pl clearfix">
+                        <span class="fleft">2013-01-13 14:04:34 &nbsp; &nbsp; 1/1有用 </span>
+                    </div>
+                </div>
+                <div id="review_5738657_full" style="display:none"></div>
+            </li>
+        </ul>
+    </div>
+    <div class="clear">
+    </div>
+
+        </div>
+
+
+
+
+
+    
+    
+    
+    <div id="paginator">
+            <span class="first">第一页</span> /
+            <span class="prev">前一页</span> /
+            <a href="?start=44&amp;filter=&amp;limit=20" data-page="" class="next">后一页</a>
+        <span class="total">(共 43 条)</span>
+    </div>
+
+
+	</div>
+        <div class="aside">
+            
+    
+        
+    <h2>
+        按评分查看影评
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+    <div class="rating_list clearfix">
+        <ul>
+                <li class='on' >
+                    <a href="http://movie.douban.com/subject/10827168/reviews?score=">
+                       <span>全部 - 43</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/10827168/reviews?score=5">
+                       <span>5星 - 9</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/10827168/reviews?score=4">
+                       <span>4星 - 20</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/10827168/reviews?score=3">
+                       <span>3星 - 11</span>
+                    </a>
+                </li>
+                <li  >
+                    <a href="http://movie.douban.com/subject/10827168/reviews?score=2">
+                       <span>2星 - 3</span>
+                    </a>
+                </li>
+        </ul>
+    </div>
+    <div>
+        <a href="http://movie.douban.com/subject/10827168/"><img alt="大叔，我爱你" title="大叔，我爱你" src="http://img3.douban.com/mpic/s24518595.jpg"/></a>
+    </div>
+    <p class="pl2">&gt; <a href="http://movie.douban.com/subject/10827168/">去大叔，我爱你的页面</a></p>
+    
+    <h2>
+        用你的鼠标投票
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+    <div class="indent">
+        <span class="pl">
+            如果你觉得一篇评论对你有帮助，请你点击“有用”。你的投票直接决定哪些评论出现在豆瓣首页和“豆瓣最受欢迎的评论”里，以及在书、电影和音乐介绍页里评论的排序。
+            <br/>
+            <br/>
+            所有“没用”的点击都是匿名的。
+        </span>
+    </div>
+    <br/>
+    <br/>
+    
+    
+<p class="pl">订阅大叔，我爱你的影评: <br/><span class="feed">
+    <a href="http://movie.douban.com/feed/subject/10827168/reviews"> feed: rss 2.0</a></span></p>
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/5f95afa3d50334d7.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- gardner8-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

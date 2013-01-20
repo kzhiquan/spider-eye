@@ -1,0 +1,895 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+一代宗师 剧照
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+<meta name="keywords" content="一代宗师,剧照,截图,下载"/>
+<meta name="description" content="章子怡"/>
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/7e609a5dd6a95100.css">
+    <script>
+$(function () {
+    var slide_step = 4,
+        slide_li_num = 3,
+        slide_width = 267,
+        slide_prev_time = 0,
+        slide_next_time = 0,
+        current_index = 180,
+        total_index = 203,
+        slide_li = '.slide-wrap li',
+        $slide_wrap = $('.slide-wrap ul'),
+        $prev_btn = $('.btn-prev'),
+        $next_btn = $('.btn-next'),
+        $prev_a = $('.btn-prev a'),
+        $next_a = $('.btn-next a'),
+        slide_li_templ = '<li id="{PHOTO_ID}"><a href="{PHOTO_PATH}"><img src="{IMG_PATH}" alt="" /></a></li>',
+        slide_void_templ = '<li><a href="javascript:void(0)"></a></li>',
+        slide_new_array = [],
+        slideAnimate = function (d) {
+            var step = d ? '+=' + slide_width + 'px' : '-=' + slide_width + 'px';
+            $slide_wrap.animate({'left': step}, 'slow');
+        },
+        slide_btn_switch = function () {
+            $prev_a.removeClass();
+            $next_a.removeClass();
+            if (current_index < 2) {
+                $prev_a.addClass('dis');
+            }
+            if (current_index >= total_index - 2) {
+                $next_a.addClass('dis');
+            }
+        },
+        getPhotos = function (current_id, direction) {
+            $.getJSON(
+               '/j/slide_photos',
+               {'pid':current_pid, 'relative':direction},
+               function (data) {
+                   slide_new_array = [];
+                   $.each(data.photos, function (i, n) {
+                       if (n.id) {
+                           slide_new_array[i] = slide_li_templ.replace('{IMG_PATH}', n.icon)
+                               .replace('{PHOTO_PATH}', n.path)
+                               .replace('{PHOTO_ID}', n.id);
+                       } else {
+                           slide_new_array[i] = slide_void_templ;
+                       }
+                   });
+                   if (direction === 'left') {
+                       $slide_wrap.prepend(slide_new_array.join(''));
+                   } else {
+                       $slide_wrap.append(slide_new_array.join(''));
+                       slideAnimate();
+                   }
+               }
+           );
+       };
+
+   $prev_btn.click(function () {
+       if (!$('a', this).attr('class')) {
+           if (slide_next_time < 1) {
+               current_pid = $(slide_li).eq(slide_step).attr('id');
+               getPhotos(current_pid, 'left');
+           } else {
+               slideAnimate(1);
+           }
+           slide_prev_time += 1;
+           slide_step -= slide_li_num;
+           current_index -= slide_li_num;
+           if (slide_next_time !== 0) {
+               slide_next_time -= 1;
+           }
+           slide_btn_switch();
+           return false;
+       } else { return false; }
+   });
+   $next_btn.click(function () {
+       if (!$('a', this).attr('class')) {
+           if (slide_prev_time < 1) {
+               current_pid = $(slide_li).eq(slide_step).attr('id');
+               getPhotos(current_pid, 'right');
+           } else {
+               slideAnimate();
+           }
+           slide_next_time += 1;
+           current_index += slide_li_num;
+           slide_step += slide_li_num;
+           if (slide_prev_time !== 0) {
+               slide_prev_time -= 1;
+           }
+           slide_btn_switch();
+           return false;
+       } else { return false; }
+   });
+});
+var images = new Array();
+function preload() {
+    for (i = 0; i < preload.arguments.length; i++) {
+        images[i] = new Image();
+        images[i].src = preload.arguments[i];
+    }
+};
+preload(
+    "http://img3.douban.com/view/photo/photo/public/p1814046723.jpg",
+        "http://img3.douban.com/view/photo/photo/public/p1814046637.jpg",
+        "http://img3.douban.com/view/photo/photo/public/p1814046892.jpg"
+);
+</script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        <h1>一代宗师的剧照</h1>
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+<div class="opt-bar-line clearfix">
+    <span class="opt-left">
+        第181张/共203张
+    </span>
+    <span class="opt-mid">
+        <a href="http://movie.douban.com/photos/photo/1814046892/#next_photo" title="用方向键←可以向前翻页" id="pre_photo">上一张</a>&nbsp;/&nbsp;<a href="http://movie.douban.com/photos/photo/1814046637/#next_photo" name="next_photo" title="用方向键→可以向后翻页" id="next_photo">下一张</a>
+    </span>
+    <span class="fright">
+        &gt;&nbsp;
+            <a href="http://movie.douban.com/subject/3821067/photos?type=S">浏览所有剧照</a>
+    </span>
+</div>
+<script src="http://img3.douban.com/js/photo_turn_page1.js"></script>
+<style>
+.grid-16-8 .article {width:600px; padding-right:30px}
+.photo-show {text-align:center;}
+.photo-wp {position: relative; display:inline-block; *display:inline; *zoom:1;}
+.photo-show img {display:block}
+.photo-zoom,.photo-zoom:hover{display:none; text-indent:-999em; overflow:hidden; position:absolute; right:0; bottom:0; height:32px; width:32px; background:url(/pics/icon_zoom_in.png);}
+</style>
+<script>
+    $(function(){
+        $(".photo-wp").hover(function(){
+            $(".photo-zoom").show();
+        },function(){
+            $(".photo-zoom").hide();
+        })
+    })
+</script>
+
+<div class="photo-show">
+<div class="photo-wp">
+    <a class="mainphoto" href="http://movie.douban.com/photos/photo/1814046637/#next_photo" title="点击查看下一张">
+        <img src="http://img3.douban.com/view/photo/photo/public/p1814046723.jpg" />
+    </a>
+    <a class="photo-zoom" target="_blank" onclick="moreurl(this, {raw: '1814046723'})" href="http://img3.douban.com/view/photo/raw/public/p1814046723.jpg" rel="nofollow" title="查看原图">查看原图</a>
+</div>
+</div>
+
+    <div class="photo_descri">
+        <div class="edtext pl">章子怡</div>
+    </div>
+
+<div class="clearfix">
+    <span class="update magnifier"> 
+        <a class="j a_show_login" target="_blank" onclick="moreurl(this, {raw: '1814046723'})" rel="nofollow" href="http://img3.douban.com/view/photo/raw/public/p1814046723.jpg">查看原图</a> 
+    <span class="update">
+    </span>
+    
+    
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">34人</span>
+</div>
+
+</div>
+        <div id="comments"><table id="c-43813381" class="wr comment-item" data-cid="43813381" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/JGuo/"><img class="pil" src="http://img3.douban.com/icon/u2449296-80.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 08:48:32 <a href="http://www.douban.com/people/JGuo/">放开那个西红柿</a> (谜一样的双眼。)</h4></span>　　呃，感觉有些诡异。。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43823195" class="wr comment-item" data-cid="43823195" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/live_t/"><img class="pil" src="http://img3.douban.com/icon/u17762460-13.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 11:03:50 <a href="http://www.douban.com/people/live_t/">Live_t</a> (乐而不淫，哀而不伤)</h4></span>　　气势凛然啊<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43827959" class="wr comment-item" data-cid="43827959" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/MrKiM/"><img class="pil" src="http://img3.douban.com/icon/u2617434-22.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 11:54:13 <a href="http://www.douban.com/people/MrKiM/">K iM`</a> (金玉宝，杀狼黑哟)</h4></span>　　好干练啊<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43829152" class="wr comment-item" data-cid="43829152" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/monster-yy/"><img class="pil" src="http://img3.douban.com/icon/u2379056-17.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 12:06:48 <a href="http://www.douban.com/people/monster-yy/">丫丫怪</a></h4></span>　　这就是活脱脱的“萝莉面孔，女王气质”~<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43833623" class="wr comment-item" data-cid="43833623" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/wuhuan1205/"><img class="pil" src="http://img3.douban.com/icon/u2461620-102.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 12:50:30 <a href="http://www.douban.com/people/wuhuan1205/">無 歡</a></h4></span>　　好看，那些有章子怡就不看的人最好也别看。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43834650" class="wr comment-item" data-cid="43834650" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/chengquan/"><img class="pil" src="http://img3.douban.com/icon/u3317403-45.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 12:58:49 <a href="http://www.douban.com/people/chengquan/">程见航</a> (保持幽默的视角和乐观的态度)</h4></span>　　看剧照就有种戏剧张力，不错啊<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43835874" class="wr comment-item" data-cid="43835874" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/MrKiM/"><img class="pil" src="http://img3.douban.com/icon/u2617434-22.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 13:09:36 <a href="http://www.douban.com/people/MrKiM/">K iM`</a> (金玉宝，杀狼黑哟)</h4></span>　　顶LSS<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43844361" class="wr comment-item" data-cid="43844361" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/6216364/"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 14:30:21 <a href="http://www.douban.com/people/6216364/">koes163</a></h4></span>　　喜欢啊 喜欢啊 嘎嘎。听说章戏份多，女扮男装呢<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43845498" class="wr comment-item" data-cid="43845498" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/sunli/"><img class="pil" src="http://img3.douban.com/icon/u3716617-18.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 14:40:57 <a href="http://www.douban.com/people/sunli/">黑草莓</a> (Professional, smile.)</h4></span>　　不是因为王家卫，我就冲着章还真不看<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43863319" class="wr comment-item" data-cid="43863319" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/wuhuan1205/"><img class="pil" src="http://img3.douban.com/icon/u2461620-102.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 17:15:11 <a href="http://www.douban.com/people/wuhuan1205/">無 歡</a></h4></span>　　那你就别看咯，她不差你这张票的。加油，多找点同类一起。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43866017" class="wr comment-item" data-cid="43866017" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/sunli/"><img class="pil" src="http://img3.douban.com/icon/u3716617-18.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 17:35:32 <a href="http://www.douban.com/people/sunli/">黑草莓</a> (Professional, smile.)</h4></span>　　哈哈，肯定是要看的呀，我等王家卫等多久了~再说不喜欢她很正常啊，我也不是说我去看就是捧场，我又不是名人，没把自己多当回事，只是直接的说出自己的感受罢了~<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43872650" class="wr comment-item" data-cid="43872650" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/nature-sky/"><img class="pil" src="http://img3.douban.com/icon/u1956662-14.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 18:41:12 <a href="http://www.douban.com/people/nature-sky/">syphilis</a> (静坐常思己过，闲谈莫论人非)</h4></span>　　wild bitch =．=<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43872960" class="wr comment-item" data-cid="43872960" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/palermo/"><img class="pil" src="http://img3.douban.com/icon/u1692071-168.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 18:44:14 <a href="http://www.douban.com/people/palermo/">章真人</a></h4></span>　　难看，真难看<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43920222" class="wr comment-item" data-cid="43920222" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/misssecret/"><img class="pil" src="http://img3.douban.com/icon/u2836679-219.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-01 23:44:06 <a href="http://www.douban.com/people/misssecret/">刘大顺！</a></h4></span>　　楼上未免过于偏激<br/>　　其实小章还不错啦<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43977418" class="wr comment-item" data-cid="43977418" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/1064107/"><img class="pil" src="http://img3.douban.com/icon/u1064107-4.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-02 16:06:04 <a href="http://www.douban.com/people/1064107/">费马和姬中宪</a> (跳得最帅的那个)</h4></span>　　女黄飞鸿？<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-43996885" class="wr comment-item" data-cid="43996885" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/meiyea/"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-02 18:48:27 <a href="http://www.douban.com/people/meiyea/">[已注销]</a></h4></span>　　看的就是章子怡<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-44015179" class="wr comment-item" data-cid="44015179" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/Dinne/"><img class="pil" src="http://img3.douban.com/icon/u1596229-75.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-02 21:06:45 <a href="http://www.douban.com/people/Dinne/">Richard</a></h4></span>　　她面对的是赵某吗？<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-44111219" class="wr comment-item" data-cid="44111219" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/3109142/"><img class="pil" src="http://img3.douban.com/icon/u3109142-23.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-03 17:25:28 <a href="http://www.douban.com/people/3109142/">大肌霸</a></h4></span>　　八卦的托枪掌？！？！<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-44273432" class="wr comment-item" data-cid="44273432" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/monster-yy/"><img class="pil" src="http://img3.douban.com/icon/u2379056-17.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-05 06:31:15 <a href="http://www.douban.com/people/monster-yy/">丫丫怪</a></h4></span>　　嗷嗷嗷嗷嗷嗷！！！！多了背景更给力！！！<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-44303314" class="wr comment-item" data-cid="44303314" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/46187801/"><img class="pil" src="http://img3.douban.com/icon/u46187801-2.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-05 13:52:13 <a href="http://www.douban.com/people/46187801/">EMPTY</a></h4></span>　　支持，一定去看。。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-44798761" class="wr comment-item" data-cid="44798761" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/LEIAILIANYI/"><img class="pil" src="http://img3.douban.com/icon/u1702426-1.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-09 19:48:25 <a href="http://www.douban.com/people/LEIAILIANYI/">令</a> (超可爱的恶棍)</h4></span>　　这脸蛋儿 就是看不腻<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-45003928" class="wr comment-item" data-cid="45003928" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/v2046/"><img class="pil" src="http://img3.douban.com/icon/u4040729-9.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-11 16:45:16 <a href="http://www.douban.com/people/v2046/">不规则对称</a></h4></span>　　莫文蔚 比章更适合！<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-45008054" class="wr comment-item" data-cid="45008054" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/1064107/"><img class="pil" src="http://img3.douban.com/icon/u1064107-4.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-11 17:27:49 <a href="http://www.douban.com/people/1064107/">费马和姬中宪</a> (跳得最帅的那个)</h4></span>　　一到下雨天、下雪天，宗师们就要上街打架<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-45363386" class="wr comment-item" data-cid="45363386" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/beautybalance/"><img class="pil" src="http://img3.douban.com/icon/u1543558-57.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-14 20:08:34 <a href="http://www.douban.com/people/beautybalance/">菜园儿</a> (扑倒所有喵！)</h4></span>　　气场好强大<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-45375316" class="wr comment-item" data-cid="45375316" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/wngkae/"><img class="pil" src="http://img3.douban.com/icon/u3590737-14.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2010-11-14 21:30:25 <a href="http://www.douban.com/people/wngkae/">W'</a></h4></span>　　萝莉面孔，女王气质<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-52212577" class="wr comment-item" data-cid="52212577" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/renchang/"><img class="pil" src="http://img3.douban.com/icon/u4600240-32.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-01-08 21:32:38 <a href="http://www.douban.com/people/renchang/">精神癫狂小分裂</a> (突突突突嘣！)</h4></span>　　拍电影啥的就是要这种气质，撑得起场子。<br/>　　那什么大s啊黄晓明啊之类的，就应该有自知之明混电视圈！<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-53021392" class="wr comment-item" data-cid="53021392" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/tatsu/"><img class="pil" src="http://img3.douban.com/icon/u23599586-535.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-01-15 00:02:02 <a href="http://www.douban.com/people/tatsu/">春焼辰</a></h4></span>　　就是因为章子怡才看！！！！！！<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-53397006" class="wr comment-item" data-cid="53397006" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/missmisheng/"><img class="pil" src="http://img3.douban.com/icon/u2298855-2.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-01-18 10:39:55 <a href="http://www.douban.com/people/missmisheng/">Echo</a> (叔，你真有颜~)</h4></span>　　上映了么？ 为什么没再电影院看到呢！<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-53902156" class="wr comment-item" data-cid="53902156" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/qiqi8026/"><img class="pil" src="http://img3.douban.com/icon/u1043691-16.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-01-22 08:58:02 <a href="http://www.douban.com/people/qiqi8026/">[已注销]</a></h4></span>　　就想看章子怡和梁朝伟的...  还有乔妹....  娱乐圈谁TM不是一路货色..<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-54095442" class="wr comment-item" data-cid="54095442" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/2689243/"><img class="pil" src="http://img3.douban.com/icon/u2689243-5.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-01-23 23:14:47 <a href="http://www.douban.com/people/2689243/">默</a> (真的会死……)</h4></span>　　恩，气场真的好强大<br/>　　这些雪花好像是被她控制的一样~~<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-54983768" class="wr comment-item" data-cid="54983768" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/1064107/"><img class="pil" src="http://img3.douban.com/icon/u1064107-4.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-01-31 11:53:04 <a href="http://www.douban.com/people/1064107/">费马和姬中宪</a> (跳得最帅的那个)</h4></span>　　后面那支手的手型有点诡异，像残障人士<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-56130649" class="wr comment-item" data-cid="56130649" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/Eudemonia-moon/"><img class="pil" src="http://img3.douban.com/icon/u1468297-445.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-02-10 19:32:03 <a href="http://www.douban.com/people/Eudemonia-moon/">Eudemonia</a> (黑泡穿肠过，后摇心中留。)</h4></span>　　倒，乡土气依然<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-56211423" class="wr comment-item" data-cid="56211423" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/jondy/"><img class="pil" src="http://img3.douban.com/icon/u48630528-2.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-02-11 10:17:35 <a href="http://www.douban.com/people/jondy/">重于江山</a></h4></span>　　一代宗师 ~~热吻~~<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-56779678" class="wr comment-item" data-cid="56779678" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/30698444/"><img class="pil" src="http://img3.douban.com/icon/u30698444-5.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-02-14 18:48:34 <a href="http://www.douban.com/people/30698444/">镜头背后</a> (真实的存在 镜头前还是镜头后)</h4></span>　　好壮观... ...后面的火车... ...<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-57457335" class="wr comment-item" data-cid="57457335" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/44352342/"><img class="pil" src="http://img3.douban.com/icon/u44352342-2.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-02-19 03:05:14 <a href="http://www.douban.com/people/44352342/">Sean</a> (Stand By Me)</h4></span>　　这一代女演员，只有章子怡的打戏有看头<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-67266885" class="wr comment-item" data-cid="67266885" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/kongkongruixin/"><img class="pil" src="http://img3.douban.com/icon/u46468962-13.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-04-30 15:26:08 <a href="http://www.douban.com/people/kongkongruixin/">小嘉</a> (Que Sera Sera)</h4></span>　　我的赵本山和小沈阳呢？？<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-68445847" class="wr comment-item" data-cid="68445847" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/nintendog/"><img class="pil" src="http://img3.douban.com/icon/u2702928-1.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-05-09 13:18:57 <a href="http://www.douban.com/people/nintendog/">再见安打</a> (患者出院后  症状未消除)</h4></span>　　这应该是在我家那拍的<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-68860522" class="wr comment-item" data-cid="68860522" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/1072130/"><img class="pil" src="http://img3.douban.com/icon/u1072130-19.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-05-12 14:30:06 <a href="http://www.douban.com/people/1072130/">Eric Cartman</a> (坐没坐相，站没站相)</h4></span>　　昨天晚上没睡好<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-77607196" class="wr comment-item" data-cid="77607196" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/oldmonkey/"><img class="pil" src="http://img3.douban.com/icon/u44129891-16.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-07-20 11:58:06 <a href="http://www.douban.com/people/oldmonkey/">老猴子</a> (Ready to learn)</h4></span>　　气场好强大 这种打戏只有章子怡能这么给力地诠释！～～<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-77626118" class="wr comment-item" data-cid="77626118" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/35711522/"><img class="pil" src="http://img3.douban.com/icon/u35711522-14.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-07-20 14:45:35 <a href="http://www.douban.com/people/35711522/">糯木</a> (我是淤青大少爷)</h4></span>　　好大的气...吓死我了，跟小时候的冰雪皇后一样的<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-80943892" class="wr comment-item" data-cid="80943892" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/3191265/"><img class="pil" src="http://img3.douban.com/icon/u3191265-22.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-08-18 22:21:26 <a href="http://www.douban.com/people/3191265/">喝牛奶的卡夫卡</a> (又寂寞又美好)</h4></span>　　可爱的左眼袋~~<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-81460906" class="wr comment-item" data-cid="81460906" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/snoopypark/"><img class="pil" src="http://img3.douban.com/icon/u22316329-19.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-08-24 01:11:12 <a href="http://www.douban.com/people/snoopypark/">Mr.Snoopy</a> (I will be there)</h4></span>　　完全不讨厌她了 这气场<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-81753934" class="wr comment-item" data-cid="81753934" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/Brooklyn./"><img class="pil" src="http://img3.douban.com/icon/u41004118-24.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-08-26 20:51:58 <a href="http://www.douban.com/people/Brooklyn./">Brooklyn</a> (其实 每个人都不是你看到的那样)</h4></span>　　一脸祥林嫂 怨妇相  怎么能不讨厌她   ps 个人观点<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-84943302" class="wr comment-item" data-cid="84943302" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/lingzero0/"><img class="pil" src="http://img3.douban.com/icon/u52076877-4.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-09-29 13:50:00 <a href="http://www.douban.com/people/lingzero0/">铃神</a></h4></span>　　美。顺便Brooklyn (以我之姓 冠你之名)只有祥林嫂才能满足你。。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-91256706" class="wr comment-item" data-cid="91256706" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/dahdumiedu/"><img class="pil" src="http://img3.douban.com/icon/u50896622-6.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-12-10 21:36:20 <a href="http://www.douban.com/people/dahdumiedu/">大梁修般若卍</a></h4></span>　　可以认定国际章不是咏春门的了。。。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-91258969" class="wr comment-item" data-cid="91258969" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/daneng/"><img class="pil" src="http://img3.douban.com/icon/u3210971-78.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2011-12-10 21:58:57 <a href="http://www.douban.com/people/daneng/">打卤碗</a> (*-------------------------*)</h4></span>　　依稀看到章子怡五十岁的样子<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-94485644" class="wr comment-item" data-cid="94485644" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/shirang/"><img class="pil" src="http://img3.douban.com/icon/u56092639-71.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-01-20 20:54:29 <a href="http://www.douban.com/people/shirang/">蓝</a> (愿我到死未悔改)</h4></span>　　我还蛮喜欢她。。。子怡可是文艺片出身。。。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-98070080" class="wr comment-item" data-cid="98070080" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/1211711/"><img class="pil" src="http://img3.douban.com/icon/u1211711-6.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-03-05 19:53:57 <a href="http://www.douban.com/people/1211711/">小林</a> (天天都漫无目的)</h4></span>　　子怡给力点多拍片吧 虽然某伙人不依不饶的黑她 但是不可否认的是 子怡同学演技还是蛮可以的 期待大爆发 非粉路过<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-98565787" class="wr comment-item" data-cid="98565787" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/eternitylove/"><img class="pil" src="http://img3.douban.com/icon/u44177600-6.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-03-11 09:47:40 <a href="http://www.douban.com/people/eternitylove/">琦</a> (现在开始，奋战高考)</h4></span>　　她是有演技的，就是作品都不怎么受到广大观众的喜爱<br/>　　王家卫也说过：章子怡在镜头前有很多的可能性。我相信她的演技总有一天会爆发的<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-100307429" class="wr comment-item" data-cid="100307429" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/conniewin/"><img class="pil" src="http://img3.douban.com/icon/u47297717-11.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-03-30 19:48:48 <a href="http://www.douban.com/people/conniewin/">安吉丽娜租赁</a> (善良比聪明更难)</h4></span>　　眉毛好长 支持章子怡 支持每个努力演戏的演员<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-102448576" class="wr comment-item" data-cid="102448576" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/fairydiane/"><img class="pil" src="http://img3.douban.com/icon/u44014569-44.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-04-23 18:13:32 <a href="http://www.douban.com/people/fairydiane/">姚小叶</a> (丹凤眼 琴心剑胆)</h4></span>　　老了<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-102470338" class="wr comment-item" data-cid="102470338" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/25978243/"><img class="pil" src="http://img3.douban.com/icon/u25978243-3.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-04-23 21:33:29 <a href="http://www.douban.com/people/25978243/">May</a> (波澜不惊。)</h4></span>　　喜欢，一定要去影院看。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-102477488" class="wr comment-item" data-cid="102477488" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/13011396/"><img class="pil" src="http://img3.douban.com/icon/u13011396-12.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-04-23 22:21:59 <a href="http://www.douban.com/people/13011396/">Nemo</a></h4></span>　　就冲着章子怡去的<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-103240921" class="wr comment-item" data-cid="103240921" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/iLeen/"><img class="pil" src="http://img3.douban.com/icon/u2330913-9.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-05-01 22:31:47 <a href="http://www.douban.com/people/iLeen/">Leen✨</a> (و)</h4></span>　　气场强大我没看出来  这鼻孔倒是挺大<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-104342974" class="wr comment-item" data-cid="104342974" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/3503308/"><img class="pil" src="http://img3.douban.com/icon/u3503308-37.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-05-14 18:15:37 <a href="http://www.douban.com/people/3503308/">AG</a></h4></span>　　这鼻孔还大，我不活了...!!!<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-107884587" class="wr comment-item" data-cid="107884587" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/8302705/"><img class="pil" src="http://img3.douban.com/icon/u8302705-11.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-06-24 13:41:50 <a href="http://www.douban.com/people/8302705/">寂寞的手纸君</a> (BBBBB)</h4></span>　　鼻孔亮了<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-108399411" class="wr comment-item" data-cid="108399411" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/58659383/"><img class="pil" src="http://img3.douban.com/icon/u58659383-2.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-06-30 10:41:03 <a href="http://www.douban.com/people/58659383/">没看过电影</a></h4></span>　　肿么你们没事就喜欢提鼻孔╮(╯▽╰)╭<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-108920191" class="wr comment-item" data-cid="108920191" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/satellite1109/"><img class="pil" src="http://img3.douban.com/icon/u48910948-45.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-07-06 07:08:40 <a href="http://www.douban.com/people/satellite1109/">例外</a> (天才也会熬成婆)</h4></span>　　such a freak<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-110568156" class="wr comment-item" data-cid="110568156" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/2107398/"><img class="pil" src="http://img3.douban.com/icon/u2107398-5.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-07-25 20:14:46 <a href="http://www.douban.com/people/2107398/">双人徐</a> (Double People Hsu, Double Peop)</h4></span>　　LS的摆脱你别一直喷粪了好么，求你了。。。。。。<br/>　　<br/>　　<br/>　　难得上个国内的网站，难得评国内的演员，难为您这么句句恶毒。<br/>　　<br/>　　真不喜欢或者真恨，看这么多海报得累着您~<br/>　　<br/>　　<br/>　　<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-110568538" class="wr comment-item" data-cid="110568538" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/2107398/"><img class="pil" src="http://img3.douban.com/icon/u2107398-5.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-07-25 20:18:45 <a href="http://www.douban.com/people/2107398/">双人徐</a> (Double People Hsu, Double Peop)</h4></span>　　一味干瘪撒泼作甚？<br/>　　<br/>　　不如上《国际先驱论坛报》/《纽约时报》/《明镜周刊》上说上一说，兴许还有点作用。<br/>　　<br/>　　跟子怡接触过的人，没有不说她“上进勤奋的”<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-111798857" class="wr comment-item" data-cid="111798857" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/jessica1127/"><img class="pil" src="http://img3.douban.com/icon/u28673908-42.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-08-10 07:36:35 <a href="http://www.douban.com/people/jessica1127/">蒋騏綸</a> (兴复民国，还于旧都)</h4></span>　　不敢说话。。。。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-114604878" class="wr comment-item" data-cid="114604878" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/scotthicks/"><img class="pil" src="http://img3.douban.com/icon/u1230682-1.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-09-17 13:53:00 <a href="http://www.douban.com/people/scotthicks/">scott</a></h4></span>　　这是神马现代舞啊，ziyi大婶以前学校的视频木？<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-114926198" class="wr comment-item" data-cid="114926198" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/63307549/"><img class="pil" src="http://img3.douban.com/icon/u63307549-8.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-09-22 10:36:02 <a href="http://www.douban.com/people/63307549/">LATUM</a> (踩张是装13们的标准格局啊。)</h4></span>　　ls，这个是形意八卦，多读点书，了解了解本国文化吧。孩子。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-115152515" class="wr comment-item" data-cid="115152515" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/scotthicks/"><img class="pil" src="http://img3.douban.com/icon/u1230682-1.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-09-25 15:12:26 <a href="http://www.douban.com/people/scotthicks/">scott</a></h4></span>　　ls，怎么我讽刺的这么明显就没看出来呢？还叫我多读书，你是不是书读多了变傻了<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-115248755" class="wr comment-item" data-cid="115248755" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/2543291/"><img class="pil" src="http://img3.douban.com/icon/u2543291-4.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-09-26 21:00:11 <a href="http://www.douban.com/people/2543291/">armchannel</a></h4></span>　　说什么乡土村姑的，中国人长中国脸有什么不对？人总会老的这也有错啊？凭一张脸，看一眼就讨厌一个人什么的太有才华了！<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-115382141" class="wr comment-item" data-cid="115382141" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/63307549/"><img class="pil" src="http://img3.douban.com/icon/u63307549-8.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-09-28 19:46:03 <a href="http://www.douban.com/people/63307549/">LATUM</a> (踩张是装13们的标准格局啊。)</h4></span>　　你讽刺什么啊？叫别人大婶的90后脑残。说话连个目标都没有。形意八卦都不了解，就到这里讽刺别人。你有什么道德优越感啊。别人不是你亲妈，你放了p自然要塞你嘴里。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-115392923" class="wr comment-item" data-cid="115392923" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/jessica1127/"><img class="pil" src="http://img3.douban.com/icon/u28673908-42.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-09-28 22:23:47 <a href="http://www.douban.com/people/jessica1127/">蒋騏綸</a> (兴复民国，还于旧都)</h4></span>　　楼上你这么说话就没意思了，什么叫九零后脑残。以偏概全，二五郎当。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-115397351" class="wr comment-item" data-cid="115397351" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/63307549/"><img class="pil" src="http://img3.douban.com/icon/u63307549-8.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-09-28 23:15:36 <a href="http://www.douban.com/people/63307549/">LATUM</a> (踩张是装13们的标准格局啊。)</h4></span>　　我只是说我的楼上，没有指全部90后。如果冒犯到你，那就sorry了。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-115415672" class="wr comment-item" data-cid="115415672" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/jessica1127/"><img class="pil" src="http://img3.douban.com/icon/u28673908-42.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-09-29 11:24:57 <a href="http://www.douban.com/people/jessica1127/">蒋騏綸</a> (兴复民国，还于旧都)</h4></span>　　我屎的，那就少九零后九零后的讲，自己没逻辑讲别人没逻辑。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-115421015" class="wr comment-item" data-cid="115421015" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/63307549/"><img class="pil" src="http://img3.douban.com/icon/u63307549-8.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-09-29 12:53:12 <a href="http://www.douban.com/people/63307549/">LATUM</a> (踩张是装13们的标准格局啊。)</h4></span>　　你屎什么啊，说个90后也只是特指他而已，你干嘛又要凑上来呢？人80，80后地说我们，也没有你们这么敏感。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-116490091" class="wr comment-item" data-cid="116490091" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/47941861/"><img class="pil" src="http://img3.douban.com/icon/u47941861-27.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-10-16 05:32:21 <a href="http://www.douban.com/people/47941861/">暗香浮动</a> (在安静中，不慌不忙的坚强!)</h4></span>　　诶，干嘛老吵架<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-116741076" class="wr comment-item" data-cid="116741076" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/3888695/"><img class="pil" src="http://img3.douban.com/icon/u3888695-4.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-10-20 12:28:21 <a href="http://www.douban.com/people/3888695/">evit</a> (是一只猫)</h4></span>　　梅超风么<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-116786576" class="wr comment-item" data-cid="116786576" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/OSAKA-Z/"><img class="pil" src="http://img3.douban.com/icon/u3537454-36.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-10-20 23:23:07 <a href="http://www.douban.com/people/OSAKA-Z/">外太空风情</a> (我不是豆瓣活跃用户。)</h4></span>　　LATUM  这位同学。你为何总给他们创造更多机会来侮辱你的偶像啊~！ 谁爱说什么就说什么呗。你非上来跟着回应回应。越说越多。有人喜欢就一定有人不喜欢。有人斯文就一定有人粗鲁。我觉得 作为小章本人。有赞有骂才是理想状态。有争议一般都是名人。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-117863443" class="wr comment-item" data-cid="117863443" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/4094400/"><img class="pil" src="http://img3.douban.com/icon/u4094400-26.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-11-06 08:50:35 <a href="http://www.douban.com/people/4094400/">M</a> (Bye Bye)</h4></span>　　看了预告片，最期待章子怡了，真霸气<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-117874208" class="wr comment-item" data-cid="117874208" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/54354237/"><img class="pil" src="http://img3.douban.com/icon/u54354237-3.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-11-06 12:12:48 <a href="http://www.douban.com/people/54354237/">落叶</a></h4></span>　　认真看那雪花，好像在围着章子怡转啊。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-117968541" class="wr comment-item" data-cid="117968541" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/kmwes/"><img class="pil" src="http://img3.douban.com/icon/u45981603-49.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-11-07 18:04:07 <a href="http://www.douban.com/people/kmwes/">kmwes</a></h4></span>　　感觉火车是她召唤的神兽= =<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-118681318" class="wr comment-item" data-cid="118681318" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/61874703/"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-11-18 11:33:46 <a href="http://www.douban.com/people/61874703/">[已注销]</a></h4></span>　　啊！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！<br/>　　好想看啊  可惜家里断网了   哭……  子怡 人家爱你～～～<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-119328633" class="wr comment-item" data-cid="119328633" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/Co13/"><img class="pil" src="http://img3.douban.com/icon/u51285575-175.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-11-27 18:14:20 <a href="http://www.douban.com/people/Co13/">红豆</a> (我爱你)</h4></span>　　快还钱！！！！！！！！！！<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-119364294" class="wr comment-item" data-cid="119364294" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/vikigt/"><img class="pil" src="http://img3.douban.com/icon/u2412462-7.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-11-28 09:41:26 <a href="http://www.douban.com/people/vikigt/">陌陌的小白免</a> (明暗交接线)</h4></span>　　看海报还以为是爆炸头<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-119522814" class="wr comment-item" data-cid="119522814" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/4368372/"><img class="pil" src="http://img3.douban.com/icon/u4368372-4.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-11-30 00:11:36 <a href="http://www.douban.com/people/4368372/">慕容长弓</a> (做得来便是功德 推不去皆是因缘)</h4></span>　　这个应景啊，火车style。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-119524563" class="wr comment-item" data-cid="119524563" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/47941861/"><img class="pil" src="http://img3.douban.com/icon/u47941861-27.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-11-30 00:58:06 <a href="http://www.douban.com/people/47941861/">暗香浮动</a> (在安静中，不慌不忙的坚强!)</h4></span>　　走你<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-120396816" class="wr comment-item" data-cid="120396816" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/baby88/"><img class="pil" src="http://img3.douban.com/icon/u48592091-28.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-12-13 21:51:41 <a href="http://www.douban.com/people/baby88/">岁壭</a> (沉潜)</h4></span>　　还真是火车style。。。起飞吧<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-120625248" class="wr comment-item" data-cid="120625248" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/60123413/"><img class="pil" src="http://img3.douban.com/icon/u60123413-6.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-12-17 17:43:30 <a href="http://www.douban.com/people/60123413/">舫原</a> (我知道你要来，于是侧耳倾听。)</h4></span>　　文人相轻，自古皆然。文青聚集地的各种人们多少都看不起他人，自认为自己懂得多。我喜欢豆瓣，吵架不好吵，不好艾特，吵不起来，功德之一。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-120685173" class="wr comment-item" data-cid="120685173" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/banhui/"><img class="pil" src="http://img3.douban.com/icon/u3595465-35.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-12-18 17:25:37 <a href="http://www.douban.com/people/banhui/">斑灰</a> (二逼青年欢乐多……)</h4></span>　　怎么跟螳螂精似的<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121092737" class="wr comment-item" data-cid="121092737" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/59203654/"><img class="pil" src="http://img3.douban.com/icon/u59203654-2.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-12-25 22:13:39 <a href="http://www.douban.com/people/59203654/">子瑜</a></h4></span>　　第一次看的时候就觉得这身衣服配这动作挺搞笑的...呵呵<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121112681" class="wr comment-item" data-cid="121112681" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/3596824/"><img class="pil" src="http://img3.douban.com/icon/u3596824-6.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2012-12-26 12:22:10 <a href="http://www.douban.com/people/3596824/">橘色夕阳</a></h4></span>　　我觉得也挺搞笑的~<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121431816" class="wr comment-item" data-cid="121431816" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/67313637/"><img class="pil" src="http://img3.douban.com/icon/u67313637-1.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-01 16:47:09 <a href="http://www.douban.com/people/67313637/">豆瓣</a></h4></span>　　虽说人品不行，但演技还是不错的，这架势摆的挺专业。不过国际章明显更适合这种狠角，危险关系里的那种白兔形象真不适合她。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121560574" class="wr comment-item" data-cid="121560574" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/californiachris/"><img class="pil" src="http://img3.douban.com/icon/u4915127-4.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-04 10:21:35 <a href="http://www.douban.com/people/californiachris/">葉甫蓋尼玻璃心</a> (難道我只待空想嗎。)</h4></span>　　有點違和看起來..<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121582008" class="wr comment-item" data-cid="121582008" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/47941861/"><img class="pil" src="http://img3.douban.com/icon/u47941861-27.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-04 17:39:16 <a href="http://www.douban.com/people/47941861/">暗香浮动</a> (在安静中，不慌不忙的坚强!)</h4></span>　　ls怎么知道人品不行 你了解她吗 见过她吗 不了解就不要随便对一个人下结论 不要以为她是明星就可以随便辱骂 请不要被媒体信息左右 更不要人云亦云<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121603754" class="wr comment-item" data-cid="121603754" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/6298516/"><img class="pil" src="http://img3.douban.com/icon/user_normal.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-05 00:47:25 <a href="http://www.douban.com/people/6298516/">漠隐楼兰</a> (一切价值必将重估)</h4></span>　　这张好有气势，好凌烈决绝！另外，章子怡人很好的，如果你多了解就会发现，她完全不是媒体妖魔化的那样。就是因为她是走正途的，做正事的，我才欣赏的她。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121625216" class="wr comment-item" data-cid="121625216" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/63262503/"><img class="pil" src="http://img3.douban.com/icon/u63262503-2.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-05 15:29:45 <a href="http://www.douban.com/people/63262503/">lizier</a></h4></span>　　在上面的楼，舫原说的深表同意，特别是豆瓣不好@当真是功德。<br/>　　至于说ls们说的么，明星真实的性情观众怎么知道，自封“娱乐圈莲花”的也不是没有，他们访谈时说的话早就穿串过不知道多少遍词了。<br/>　　<br/>　　只要不搞出太离谱的事来，看明星单看作品就好，章子怡这次真是找准感觉了，单看预告片就觉得很赞。她就适合这种带一股狠劲的不那么女人的角色。私以为当年她演的苏霏简直就是败笔啊。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121682539" class="wr comment-item" data-cid="121682539" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/48078575/"><img class="pil" src="http://img3.douban.com/icon/u48078575-21.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-06 14:40:08 <a href="http://www.douban.com/people/48078575/">Jamesleng</a> (sanity)</h4></span>　　拇指好长~~~~~<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121726003" class="wr comment-item" data-cid="121726003" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/36378436/"><img class="pil" src="http://img3.douban.com/icon/u36378436-4.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-07 09:18:11 <a href="http://www.douban.com/people/36378436/">Summer.D</a></h4></span>　　我打啊。。。。<br/>　　<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121734391" class="wr comment-item" data-cid="121734391" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/49101469/"><img class="pil" src="http://img3.douban.com/icon/u49101469-2.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-07 12:26:19 <a href="http://www.douban.com/people/49101469/">Max  Chen</a></h4></span>　　LS有一位别开玩笑了 莫文蔚都上来了！那是拍功夫片的料吗？不管别人怎么说很爱看章的功夫戏，有狠劲！<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121738434" class="wr comment-item" data-cid="121738434" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/lissazheng/"><img class="pil" src="http://img3.douban.com/icon/u3684447-6.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-07 13:33:10 <a href="http://www.douban.com/people/lissazheng/">都是妾身的错</a> (There is something else)</h4></span>　　人品行也不会拿汶川地震炒作了，先把善款解释清楚再来谈rp吧<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121742906" class="wr comment-item" data-cid="121742906" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/redsteel/"><img class="pil" src="http://img3.douban.com/icon/u1644548-60.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-07 14:43:30 <a href="http://www.douban.com/people/redsteel/">红色钢铁</a></h4></span>　　我太喜欢这个眼神了。<br/>　　<br/>　　感觉自己胸膛前面的那块骨头瞬间变得像豆腐一样软。<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121745909" class="wr comment-item" data-cid="121745909" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/feelvoice/"><img class="pil" src="http://img3.douban.com/icon/u2240508-23.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-07 15:27:44 <a href="http://www.douban.com/people/feelvoice/">声音声音</a> (忍把浮名，换了浅斟低唱。)</h4></span>　　这雪略假了…… =。= <br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121775610" class="wr comment-item" data-cid="121775610" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/54998502/"><img class="pil" src="http://img3.douban.com/icon/u54998502-7.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-07 22:38:56 <a href="http://www.douban.com/people/54998502/">潇雨</a></h4></span>　　好长的大拇指<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121778511" class="wr comment-item" data-cid="121778511" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/muyani307/"><img class="pil" src="http://img3.douban.com/icon/u52133075-8.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-07 23:20:45 <a href="http://www.douban.com/people/muyani307/">Lucian_Cor</a> (无)</h4></span>　　刀妹！！！！！艾瑞莉娅！！！！！<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><table id="c-121783258" class="wr comment-item" data-cid="121783258" data-target_id="1814046723" data-target_kind="1025"><tbody class="content"><tr>
+     <td valign="top" width="75"><a href="http://www.douban.com/people/shuibaoche/"><img class="pil" src="http://img3.douban.com/icon/u51472616-3.jpg"></a>
+     </td><td valign="top"><span class="wrap"><h4>2013-01-08 01:47:54 <a href="http://www.douban.com/people/shuibaoche/">水包车</a></h4></span>　　国际鸡，票房毒药哈<br/><div class="content align-right">&nbsp;</div></td></tr></tbody></table><br/><div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="?start=100#comments">2</a><span class="next"><a href="?start=100#comments">后页&gt;</a><link rel="next" href="?start=100#comments"/></span></div></div>
+
+
+
+
+
+
+
+
+	</div>
+        <div class="aside">
+            
+    <div class="mod">
+        
+
+
+
+
+
+        <div class="slidebar clearfix">
+            <span class="btn-prev"><a href="http://movie.douban.com/photos/photo/1814046892/">后退</a></span>
+            <div class="slide-wrap">
+                <ul class="clearfix">
+                            <li id="1820856068">
+                                <a href="http://movie.douban.com/photos/photo/1820856068/">
+                                    <img src="http://img3.douban.com/view/photo/albumicon/public/p1820856068.jpg" alt="" />
+                                </a>
+                            </li>
+                            <li id="1820855610">
+                                <a href="http://movie.douban.com/photos/photo/1820855610/">
+                                    <img src="http://img3.douban.com/view/photo/albumicon/public/p1820855610.jpg" alt="" />
+                                </a>
+                            </li>
+                            <li id="1814046986">
+                                <a href="http://movie.douban.com/photos/photo/1814046986/">
+                                    <img src="http://img3.douban.com/view/photo/albumicon/public/p1814046986.jpg" alt="" />
+                                </a>
+                            </li>
+                            <li id="1814046892">
+                                <a href="http://movie.douban.com/photos/photo/1814046892/">
+                                    <img src="http://img3.douban.com/view/photo/albumicon/public/p1814046892.jpg" alt="" />
+                                </a>
+                            </li>
+                            <li id="1814046723" class="current">
+                                <a href="http://movie.douban.com/photos/photo/1814046723/">
+                                    <img src="http://img3.douban.com/view/photo/albumicon/public/p1814046723.jpg" alt="" />
+                                </a>
+                            </li>
+                            <li id="1814046637">
+                                <a href="http://movie.douban.com/photos/photo/1814046637/">
+                                    <img src="http://img3.douban.com/view/photo/albumicon/public/p1814046637.jpg" alt="" />
+                                </a>
+                            </li>
+                            <li id="1800981688">
+                                <a href="http://movie.douban.com/photos/photo/1800981688/">
+                                    <img src="http://img3.douban.com/view/photo/albumicon/public/p1800981688.jpg" alt="" />
+                                </a>
+                            </li>
+                            <li id="1800980996">
+                                <a href="http://movie.douban.com/photos/photo/1800980996/">
+                                    <img src="http://img3.douban.com/view/photo/albumicon/public/p1800980996.jpg" alt="" />
+                                </a>
+                            </li>
+                            <li id="1800980925">
+                                <a href="http://movie.douban.com/photos/photo/1800980925/">
+                                    <img src="http://img3.douban.com/view/photo/albumicon/public/p1800980925.jpg" alt="" />
+                                </a>
+                            </li>
+                </ul>
+            </div>
+            <span class="btn-next"><a href="http://movie.douban.com/photos/photo/1814046637/">前进</a></span>
+        </div>
+    </div>
+    <div class="mod">
+        
+    <h2>
+        图片信息
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+        <ul class="poster-info">
+            <li>电影名称：<a href="http://movie.douban.com/subject/3821067/">一代宗师 一代宗師</a></li>
+            <li>图片类型：官方剧照 </li>
+            <li class="pl">原图尺寸：3508x2334</li>
+            <li class="pl">文件大小：4194.5KB</li>
+            <li class="pl">来自：<a href="http://movie.douban.com/people/cintin/">启戟</a></li>
+            <li class="pl">上传于2012-12-18</li>
+        </ul>
+        
+<p class="pl2">&gt; <a href="http://movie.douban.com/subject/3821067/">去 一代宗师 的页面</a></p>
+
+    </div>
+
+    <div id="dale_movie_subject_photo_middle_right"></div>
+
+        </div>
+        <div class="extra">
+            
+
+<div class="report" id="page-report"><a rel="nofollow" href="javascript:void(0)">举报不良信息</a></div>
+<script type="text/javascript" src="http://img3.douban.com/js/packed_report_dialog7839904249.js"></script>
+<link rel="stylesheet" type="text/css" href="http://img3.douban.com/css/packed_report_dialog1246768821.css" />
+
+
+
+
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/9335ea8062fa88a.js"></script>
+    
+<!-- douban ad begin -->
+
+
+
+
+
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = 'http://erebor.douban.com/',
+            userId = '',
+            browserId = 'VKpIE5M+TuQ',
+            ipAddress = '122.236.48.167',
+            criteria = '3:/photos/photo/1814046723/',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_movie_subject_photo_middle_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, ip: ipAddress, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'http://img3.douban.com/js/packed_ad3738113870.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+<!-- douban ad end -->
+<script>
+    $('#edi').click(function(){
+      $('form .error-tip').hide();
+    });
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('input[id=sub_desc]').click(function(e){
+        e.preventDefault();
+        $('.error-tip').remove();
+        var $textarea = $('form#desc_edit textarea'),
+            data = {key: $textarea.val()};
+        checkBannedKeyword($('form#desc_edit'), data, function(){
+            $('form#desc_edit').append($('<div class="error-tip" style="width:360px;color:#ff3300;">你的图片描述中有被禁止的内容</div>'));
+        });
+    });
+</script>
+
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper5-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>影史100同性题材电影</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="影史100同性题材电影">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>影史100同性题材电影</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/shiqiang/"><img src="http://img3.douban.com/icon/u2728175-56.jpg" align="left" alt="石墙"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/shiqiang/">石墙 </a><br />
+        创建时间: 2011-02-08 00:35:44　最后修改时间: 2011-08-09 17:45:47</p><p class="indent">　　码已补齐。<br/>　　<br/>　　篇目基本上按照原来那篇日记，只是替换了几个片。<br/>　　<br/>　　仍然有几个片子发在了一个私密小组，看不见的同学可以豆油。个别不带字幕，请射手后外挂。所有TLF压制的片子需要密码的话都是tlfhfcd。<br/>　　<br/>　　<br/></p>
+        </div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-968885"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">794人</span>
+</div>
+<div class="filters">全部电影(100)</div>
+    <p id="sb1477290" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1477290/"><img width="80" src="http://img3.douban.com/spic/s4111680.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 00:36:05添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/1477290/">与众不同 Anders als die Andern</a>
+    
+    </div>
+    <p class="pl">导演 : Richard Oswald<br/>主演 : Conrad Veidt/Reinhold Schünzel/Fritz Schulz/Anita Berber/Ernst Tittschau/Alexandra Wiellegh/Ilse von Tasso-Lind/Wilhelm Diegelmann/Magnus Hirschfeld/Karl Giese</p><p><span class="pl">评语</span> : 片中关键的一场戏是柯特和弗兰兹打架，保尔冲过来分开他们并和弗兰兹打起来。导演里察德非常高明地没有继续表现他们打架的近景，摄影机追踪着柯特脸上的表情，那种绝望和痛苦成了一个世纪的同性恋人的表情。t149259c4</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1303263" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1303263/"><img width="80" src="http://img3.douban.com/spic/s2345813.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 01:46:57添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/1303263/">诗人之血 Le Sang d'un Poète</a>
+    
+    </div>
+    <p class="pl">导演 : 让·谷克多 Jean Cocteau<br/>主演 : Enrique Rivero/Elizabeth Lee Miller/波利娜·卡尔东 Pauline Carton</p><p><span class="pl">评语</span> : 本片是法国同性恋艺术家考克多纵横于诗、小说、戏曲、绘画等创作世界后，作为走向电影世界的第一作，也是当时盛行的先锋派电影代表之作。t587b6a799</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1866433" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1866433/"><img width="80" src="http://img3.douban.com/spic/s3948085.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-06-25 14:54:53添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/1866433/">特殊的友情 Les amitiés particulières</a>
+    
+    </div>
+    <p class="pl">导演 : Jean Delannoy<br/>主演 : Francis Lacombrade/Didier Haudepin/François Leccia</p><p><span class="pl">评语</span> : 一段带有同性爱寓意的青春友谊，电影的背景设定在20世纪20年代一个制度严格的法国罗马天主教的男孩寄宿学校。在这里，神父教员对学生任何时候都充满了警觉，甚至剥夺了学生们的所有隐私。在制度森严的寄宿学校里，一个16岁的男孩迷恋上一个年少的同学。当这个脆弱的男孩，出于复杂的嫉妒、奉承、恐惧，抑或是真正的善意，而加入了神父们抑制学生间一切浪漫的或不适当的特殊友情的行为中时，于此，他背叛了对他来说最为重要的人。cuyiqyt7</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1299775" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1299775/"><img width="80" src="http://img3.douban.com/spic/s4600493.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-06-25 14:36:59添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/1299775/">马太福音 Vangelo secondo Matteo, Il</a>
+    
+    </div>
+    <p class="pl">导演 : Pier Paolo Pasolini<br/>主演 : Enrique Irazoqui/Margherita Caruso/Marcello Morante</p><p><span class="pl">评语</span> : 当人民的苦难不断加深之时，上帝将他的儿子耶稣送到人间。受到感召，少女玛丽亚以处子之身生下耶稣，并与未婚夫约瑟一同将其养大。耶稣如此钟爱世人，他通过各种神迹引导人们诚心向善，他的信徒和追随者越来越多。然而世界已然腐朽，贪婪残暴占据统治地位。那些忘掉廉耻的统治者决定除掉这个来自天堂的圣子。t9c16b0e4c    t9f114d42f </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1303731" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1303731/"><img width="80" src="http://img3.douban.com/spic/s2659111.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 01:52:53添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/1303731/">坎特伯雷故事集 I racconti di Canterbury</a>
+    
+    </div>
+    <p class="pl">导演 : Pier Paolo Pasolini<br/>主演 : Hugh Griffith/Franco Citti/Pier Paolo Pasolini/Derek Deadman</p><p><span class="pl">评语</span> : 本片是帕索里尼“生命三部曲”的第二部，取材于十四世纪英国诗人乔叟的同名诗体小说集。强调了性爱作为反抗宗教束缚、争取人性自由的武器。t3d9ec9eea</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1300912" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1300912/"><img width="80" src="http://img3.douban.com/spic/s1322324.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 02:00:34添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/1300912/">魂断威尼斯 Morte a Venezia</a>
+    
+    </div>
+    <p class="pl">导演 : Luchino Visconti<br/>主演 : Dirk Bogarde/Björn Andresen/Mark Burns/Nora Ricci/Marisa Berenson</p><p><span class="pl">评语</span> : 威尼斯城被瘟疫所笼罩，阿森巴赫为了多看美少年塔奇奥一眼，甘愿染上瘟疫命丧威尼斯。维斯康缔经典之作，改编自托马斯·曼的同名小说。http://goo.gl/aCQgn</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1308674" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1308674/"><img width="80" src="http://img3.douban.com/spic/s3823814.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 14:12:18添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/1308674/">塞巴斯蒂安 Sebastiane</a>
+    
+    </div>
+    <p class="pl">导演 : 德里克·贾曼 Derek Jarman/Paul Humfress<br/>主演 : Leonardo Treviglio/Barney James/Neil Kennedy</p><p><span class="pl">评语</span> : 本片是英国先锋派导演Derek Jarman的第一部长片。这部影片叙事结构非常随意，探讨了同性恋欲望和圣·塞巴斯蒂安的偶像式位置的关系。t98841245f</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1476959" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1476959/"><img width="80" src="http://img3.douban.com/spic/s2363244.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 14:16:22添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/1476959/">天使的对话 The Angelic Conversation</a>
+    
+    </div>
+    <p class="pl">导演 : Derek Jarman<br/>主演 : Dave Baby/Timothy Burke/Simon Costin</p><p><span class="pl">评语</span> : 贾曼实验性的手法配上莎翁的十四行诗，竟然如此的和谐。一个看不见的女人朗诵莎士比亚的十四行诗，画面上是一个男人在寻觅自己内心的欲望。摄影趋于静止，音乐虚无缥缈，加上充满自然物质的背景：巨砾、小石头、大海、烟雾，还有花园。完全营造出一种人间世外的天堂景致。t955e62804</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1300856" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1300856/"><img width="80" src="http://img3.douban.com/spic/s1639823.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 14:24:38添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/1300856/">爱德华二世 Edward II</a>
+    
+    </div>
+    <p class="pl">导演 : 戴瑞克.贾曼(Derek Jarman)<br/>主演 : Steven Waddington/Kevin Collins/Andrew Tiernan/John Lynch/Tilda Swinton</p><p><span class="pl">评语</span> : 故事围绕Edward国王公开的同性恋行为展开，贾曼还充分发掘了原作中所有同性恋的潜台词，并将其作为表达重点。他使用了原作的对白，但将这个戏剧性的故事与当代对同性恋的压制及同性恋者的抗争混合在一起。t9a1b427e7</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1394064" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1394064/"><img width="80" src="http://img3.douban.com/spic/s2383642.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 14:28:11添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/1394064/">维特根斯坦 Wittgenstein</a>
+    
+    </div>
+    <p class="pl">导演 : Derek Jarman<br/>主演 : Clancy Chassay/Jill Balcon/Sally Dexter</p><p><span class="pl">评语</span> : 导演Derek Jarman使用了一些戏剧小品，还有富于想象力的小花招，比如出现了火星侏儒，来表现Wittgenstein的贵族举止，犹太背景，以及同性恋倾向。t9edb37824</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1437326" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1437326/"><img width="80" src="http://img5.douban.com/spic/s4101099.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 14:31:06添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/1437326/">狐及其友 Faustrecht der Freiheit</a>
+    
+    </div>
+    <p class="pl">导演 : Rainer Werner Fassbinder<br/>主演 : Peter Chatel/Rainer Werner Fassbinder/Karlheinz Böhm/Adrian Hoven/Christiane Maybach</p><p><span class="pl">评语</span> : 这是著名的同性恋导演法斯宾的的影片。由他自己主演，据说是他朋友的真实故事。失业后的弗兰茨到了一个有钱人的同性恋团体，在那里，他认识了企业家的儿子欧根，他们相互爱上对方。t3a0db033e</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1300323" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1300323/"><img width="80" src="http://img3.douban.com/spic/s3580202.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 20:38:21添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/1300323/">十三个月亮 In einem Jahr mit 13 Monden</a>
+    
+    </div>
+    <p class="pl">导演 : Rainer Werner Fassbinder<br/>主演 : Volker Spengler/Ingrid Caven/Gottfried John/Elisabeth Trissenaar/Eva Mattes</p><p><span class="pl">评语</span> : 延续了法斯宾德的一贯主题，描写生命的痛苦绝望。他选择了一个社会上最边缘的人物当主角，让她承受所有人世的苦难。这是一段旅程，让人经历一段痛苦的洗礼。t04a28503f   t02fb9f913</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293808" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293808/"><img width="80" src="http://img3.douban.com/spic/s3054485.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 14:35:29添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/1293808/">雾港水手 Querelle</a>
+    
+    </div>
+    <p class="pl">导演 : Rainer Werner Fassbinder<br/>主演 : Brad Davis/Franco Nero/Jeanne Moreau/Laurent Malet/Hanno Pöschl</p><p><span class="pl">评语</span> : 法斯宾德的绝唱，时而乏味无比，时而引人入胜，但连他的拥戴者都不能接受。布景偏程式化，有点色情意味，灯光昏黄，气氛暧昧，但叙事较游离，台词笨重无比，像是一个虚无主义的怪梦。t086ad0e80</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293590" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293590/"><img width="80" src="http://img3.douban.com/spic/s2754044.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 14:46:40添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/1293590/">欲望号街车 A Streetcar Named Desire</a>
+    
+    </div>
+    <p class="pl">导演 : Elia Kazan<br/>主演 : Vivien Leigh/Marlon Brando/Kim Hunter/Karl Malden</p><p><span class="pl">评语</span> : 影片当年在纽约戏院公演，一夜沸腾。导演伊立亚·卡赞因此写道：&quot;威廉斯和我之间有一种默契，那种属于同性恋世界的默契--一种幽闭的默契--把他放在我特异身份同病相怜的处境。我们两个都活在正常社会以外的世界，美国的生活使我们俩变得特别反叛。&quot; f110a2dc32</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1298771" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1298771/"><img width="80" src="http://img5.douban.com/spic/s2369639.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 19:03:20添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/1298771/">双姝怨 The Children's Hour</a>
+    
+    </div>
+    <p class="pl">导演 : William Wyler<br/>主演 : Audrey Hepburn/Shirley MacLaine/James Garner/Veronica Cartwright</p><p><span class="pl">评语</span> : 奥黛丽·赫本是好莱坞的美丽天使，威廉·怀勒是好莱坞著名的类型片导演，二人曾经合作的《罗马假日》相信为很多观众所熟知。但是在金钱至上的好莱坞，这部《双姝怨》对于同性恋问题的关怀却是很少被人提及的。在简单的人物、环境设置中，我们看到了尖锐的社会问题、缱绻的爱情故事。aq6d9ndx</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1296282" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1296282/"><img width="80" src="http://img3.douban.com/spic/s3560857.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 14:50:44添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/1296282/">歌厅 Cabaret</a>
+    
+    </div>
+    <p class="pl">导演 : Bob Fosse<br/>主演 : Liza Minnelli/Michael York/Helmut Griem/Joel Grey</p><p><span class="pl">评语</span> : 描述三十年代的德国，纳粹刚刚兴起，柏林成为一个充满世纪末情调的都市。小酒店的歌舞女郎莎莉爱上了英国来的英文老师，而他却有一个同性恋的男友。Liza Minnelli因此片拿到了奥斯卡最佳女主角。f284aed75e</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1304853" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1304853/"><img width="80" src="http://img3.douban.com/spic/s1448278.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-08-09 17:45:47添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/1304853/">肉 Flesh</a>
+    
+    </div>
+    <p class="pl">导演 : 保罗·莫里西 Paul Morrissey (I)<br/>主演 : Joe Dallesandro</p><p><span class="pl">评语</span> : 这位牛郎是Joe Dallesandro，是肉热渣三片的男主角。我不知道Andy Warhol与Paul Morrissey是否gay的，但肯定他俩有其中一人是&quot;greek greek&quot;地的，不然不会经常把Joe哥的肉体赤条条的暴露在观众面前，而这位Joe也的确有做牛郎的条件。http://www.verycd.com/groups/renren/300474.topic</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293602" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293602/"><img width="80" src="http://img3.douban.com/spic/s3086068.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-06-25 14:41:03添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/1293602/">心是孤独的猎手 The Heart Is a Lonely Hunter</a>
+    
+    </div>
+    <p class="pl">导演 : Robert Ellis Miller<br/>主演 : 桑德拉·洛克 Sondra Locke/艾伦·阿金 Alan Arkin</p><p><span class="pl">评语</span> : 麦卡勒斯原著改编。小镇上来了一个名叫约翰的中年聋哑人，他在一间礼品店工作，替客人在礼品上刻字。约翰跟世界的沟通，全凭他的眼睛。更重要的沟通，是观察人的心情。他租了一个小房间，屋主的女儿情窦初开，但屡次恋爱失败；跟父母又有代沟，终日郁郁寡欢。他安慰她，彼此建立友谊。心灵的孤独，是暂时的，还是无法摆脱的？clwbw966 clwbia6h</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1297628" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1297628/"><img width="80" src="http://img3.douban.com/spic/s2150943.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 14:53:00添加</span>
+        19. 
+    <a href="http://movie.douban.com/subject/1297628/">午夜牛郎 Midnight Cowboy</a>
+    
+    </div>
+    <p class="pl">导演 : John Schlesinger<br/>主演 : Dustin Hoffman/Jon Voight/Sylvia Miles</p><p><span class="pl">评语</span> : 俩位闯荡纽约城的患难兄弟，却让人看出了些许同性暧昧。第一部也是唯一一部获得奥斯卡最佳影片的X级电影。两位男主角强·沃特和达斯汀·霍夫曼同获最佳男主角提名。t36326d174</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293529" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293529/"><img width="80" src="http://img3.douban.com/spic/s4644255.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 19:52:29添加</span>
+        20. 
+    <a href="http://movie.douban.com/subject/1293529/">雌雄莫辩 Victor/Victoria</a>
+    
+    </div>
+    <p class="pl">导演 : Blake Edwards<br/>主演 : Julie Andrews/Roxane Barlow/Michael-Demby Cain/James Garner</p><p><span class="pl">评语</span> : 在三十年代的巴黎，一名落魄的女歌星在饥寒交迫之下假扮男人，并得到在舞台上以人妖姿态表演的同性恋男子指点，决定剪短头发扮成人妖在夜总会演出，不料大受欢迎，甚至得到一名黑社会头子的垂涎。朱莉．安德鲁斯在她的导演丈夫布莱克．爱德华兹指导之下，演出了一部相当精彩的性倒错喜剧，跟同类作品《窈窕淑男》有异曲同工之妙。t09107e545</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1303106" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1303106/"><img width="80" src="http://img5.douban.com/spic/s3247999.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-06-25 14:24:24添加</span>
+        21. 
+    <a href="http://movie.douban.com/subject/1303106/">燕特尔 Yentl</a>
+    
+    </div>
+    <p class="pl">导演 : 芭芭拉·史翠珊 Barbra Streisand<br/>主演 : 芭芭拉·史翠珊 Barbra Streisand/曼迪·帕廷金 Mandy Patinkin/艾米·欧文 Amy Irving</p><p><span class="pl">评语</span> : 故事改编自以撒辛格的短篇小说，描述犹太人女子杨朵在二十世纪初的东欧为了追求梦想而女扮男装求学的故事。在20世纪初，家住东欧的犹太女孩燕特尔非常好学，但当地的风俗禁止女孩上学，于是她只好女扮男装。在学校，有一个男生跟她很要好，但他俩的关系涉及到性取向错乱的议题。dn1zzyyq
+
+</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293374" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293374/"><img width="80" src="http://img3.douban.com/spic/s1799687.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 14:58:26添加</span>
+        22. 
+    <a href="http://movie.douban.com/subject/1293374/">热天午后 Dog Day Afternoon</a>
+    
+    </div>
+    <p class="pl">导演 : Sidney Lumet<br/>主演 : Al Pacino/John Cazale/Charles Durning/Chris Sarandon/James Broderick</p><p><span class="pl">评语</span> : 西德尼·吕美特作品。根据真实故事改编，美国历史上最不完善的银行抢案。而帕西诺饰演的劫匪抢劫银行居然是为了给他的同性男友做变性手术。f1dcaa2f18</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293456" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293456/"><img width="80" src="http://img3.douban.com/spic/s1785728.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 02:20:00添加</span>
+        23. 
+    <a href="http://movie.douban.com/subject/1293456/">莫里斯 Maurice</a>
+    
+    </div>
+    <p class="pl">导演 : 詹姆斯·伊沃里 James Ivory<br/>主演 : 詹姆斯·维尔拜 James Wilby/休·格兰特 Hugh Grant/拉珀特·格雷夫斯 Rupert Graves/丹霍姆·艾略特 Denholm Elliott</p><p><span class="pl">评语</span> : 福斯特是20世纪最有19世纪现实主义气质的小说家，伊沃里则是最有古典主义文学气质的导演，两人合作了不止一次，每一次都是经典。t06a777ab9</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1296660" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1296660/"><img width="80" src="http://img3.douban.com/spic/s2566633.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 15:12:17添加</span>
+        24. 
+    <a href="http://movie.douban.com/subject/1296660/">年少轻狂 My Beautiful Laundrette</a>
+    
+    </div>
+    <p class="pl">导演 : 斯蒂芬·弗雷斯 Stephen Frears<br/>主演 : 丹尼尔·戴-刘易斯 Daniel Day-Lewis/Saeed Jaffrey/Gordon Warnecke/Roshan Seth/Derrick Branche/Rita Wolf/Souad Faress/理查德·格拉翰 Richard Graham/Garry Cooper</p><p><span class="pl">评语</span> : 在20世纪80年代中期，同性恋电影还没有那么泛滥时，这一部混合了种族议题和同性恋议题的英国片曾在国际影坛上引起相当大的瞩目。男主角丹尼尔·戴-刘易斯一举成名。aqm1zbhy 外挂字幕bh17ja25</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293145" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293145/"><img width="80" src="http://img3.douban.com/spic/s2871184.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-02-08 15:27:44添加</span>
+        25. 
+    <a href="http://movie.douban.com/subject/1293145/">费城故事 Philadelphia</a>
+    
+    </div>
+    <p class="pl">导演 : Jonathan Demme<br/>主演 : Tom Hanks/Denzel Washington/Antonio Banderas/Anna Deavere Smith/Joanne Woodward/Jason Robards/Bradley Whitford/Roberta Maxwell</p><p><span class="pl">评语</span> : 在艾滋病刚刚爆发的年代，同性恋者往往很可悲的与艾滋病联系在一起，那时的艾滋病还得不到十分有效的治疗，但是艾滋病人却在为自己的权益奋斗着。这部好莱坞主流影片直面这一现状，为汉克斯迎来他的第一个奥斯卡影帝。http://goo.gl/E3HQ5</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    <div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/doulist/968885/?start=25&filter=">2</a><a href="http://movie.douban.com/doulist/968885/?start=50&filter=">3</a><a href="http://movie.douban.com/doulist/968885/?start=75&filter=">4</a><span class="next"><a href="http://movie.douban.com/doulist/968885/?start=25&filter=">后页&gt;</a><link rel="next" href="http://movie.douban.com/doulist/968885/?start=25&filter="/></span></div>
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2>最新留言 · · · · · ·  <span class="pl">( <a href="http://movie.douban.com/doulist/968885/comments">查看全部</a> )</span></h2><ul class="mbt"><li class="mbtl"><a href="http://www.douban.com/people/68073760/"><img src="http://img3.douban.com/icon/u68073760-2.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/968885/comments#c-282131">自深深处 : 同意ls</a><span class="pl">  01-15 16:03</span></li><li class="mbtl"><a href="http://www.douban.com/people/57747214/"><img src="http://img3.douban.com/icon/user_normal.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/968885/comments#c-273811">Askoil : 穆赫兰道也该算  有名气 也是同性恋的妄想症。。 </a><span class="pl">  2012-09-25 21:20</span></li><li class="mbtl"><a href="http://www.douban.com/people/64633164/"><img src="http://img3.douban.com/icon/u64633164-1.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/968885/comments#c-273182">D伯爵 : 楼上的好几位，现在115已经不能分享了....有转存貌似都不行了，很多人已经转换阵地了》。。。。</a><span class="pl">  2012-09-14 15:34</span></li><li class="mbtl"><a href="http://www.douban.com/people/44863004/"><img src="http://img3.douban.com/icon/u44863004-20.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/968885/comments#c-272301">侧卧内急厕纸君 : 为什么会有艋舺？虽然没看过</a><span class="pl">  2012-08-30 16:03</span></li><li class="mbtl"><a href="http://www.douban.com/people/50579444/"><img src="http://img3.douban.com/icon/u50579444-2.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/968885/comments#c-269891">寒雨连江梦中洛 : 楼主，王尔德 的115不能共享视频，是因为过期了么？麻烦楼主补下，谢谢了！：）</a><span class="pl">  2012-07-26 20:01</span></li></ul><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper6 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

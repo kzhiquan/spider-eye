@@ -1,0 +1,1692 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>快乐到家 预告片1</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+<meta name="keywords" content="快乐到家,电影视频,预告片,正片片段,制作花絮"/>
+<meta name="description" content="《快乐到家》预告片1 在线观看"/>
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <script type="text/javascript" src="http://img3.douban.com/js/packed_do4424682597.js" data-cfg-autoload="false"></script>
+    <script type="text/javascript" src="http://img3.douban.com/js/packed_swfobject4154961822.js" data-cfg-autoload="false"></script>
+    <script type="text/javascript">
+        //-----------------------
+        //object for flash player
+        //-----------------------
+        var playerCB = {
+            showShare: function(w){
+                if (w==="stop"){
+                    $(".playerBt").addClass("replay");
+                } else if (w==="pause"){
+                    $(".playerBt").removeClass("replay");
+                }
+                $("#player-cover,#player-cover-mask").show();
+            },
+            hideShare: function(){
+                $("#player-cover,#player-cover-mask").hide();
+            },
+            ck: function(){
+                return "None";
+            }
+        }
+
+        $(function(){
+            var list_num  = $(".video-list-col").length,
+                list_wi = $(".video-list-col").css("width"),
+                list_op = $("#video-list-op"),
+                arrR = list_op.find(".r"),
+                arrL = list_op.find(".l"),
+                trailer_now = $("#player").attr("trailer_id"),
+                list_now = parseInt( trailer_now / 3 ) + 1,
+                player_cover = $("#player-cover"),
+                hl;
+
+            //set default row
+            $("#video-list-wp").css("left", -(parseInt(list_wi)*(list_now-1))+"px");
+
+            //set current heightlight trailer
+            $("#v_" + trailer_now).addClass("sellect");
+
+            // if display arrow button
+            if (list_num > 1){
+                list_op.css("visibility","visible");
+            }
+
+            //set arrow
+            if (list_now === list_num){
+                arrR.addClass("dis");
+            }
+
+            if (list_now === 1){
+                arrL.addClass("dis");
+            }
+
+            //scrool right
+            list_op.delegate(".r", "click", function(){
+                if (list_now < list_num) {
+                    list_now ++;
+                    $("#video-list-wp").animate({left: "-=" + list_wi}, 300, function(){
+                        arrL.removeClass("dis");
+                        if(list_now >= list_num){
+                            arrR.addClass("dis");
+                        }
+                    });
+                }
+            });
+
+            //scrool left
+            list_op.delegate(".l", "click", function(){
+                if (list_now > 1) {
+                    list_now --;
+                    $("#video-list-wp").animate({left: "+=" + list_wi}, 300, function(){
+                        arrR.removeClass("dis");
+                        if(list_now <= 1){
+                            arrL.addClass("dis");
+                        }
+                    });
+                }
+            });
+
+            //-------------------
+            //Player Cover
+            //-------------------
+            player_cover.delegate(".playerBt", "click", function(){
+                $("#movie_player")[0].exec('play');
+                playerCB.hideShare();
+            });
+            player_cover.delegate(".replay", "click", function(){
+                $("#movie_player")[0].exec('replay');
+                playerCB.hideShare();
+            })
+            player_cover.delegate(".shuo", "click", function(){
+                $(".btns").find(".lnk-sharing").click();
+                return false;
+            })
+
+        })
+
+    </script>
+    <style type="text/css">
+        h1 {margin-bottom:430px;}
+        .stage-cont {position:absolute; left:0; top:170px; width:100%; *width:expression(document.body.offsetWidth + "px"); color:#fff; height:425px; background:#fff;}
+        .stage {width:950px; margin:0 auto; height:417px; border:1px solid #e9e9e9; background:#f0f0f0;}
+        .aside {padding-top:60px;}
+        #player {float:left; width:732px; height:417px; overflow:hidden; position:relative; border-right:1px solid #e9e9e9; background:#fff}
+        #player .cont {background:#000; margin:6px; height:405px;}
+        #player-cover {position:absolute; top:255px; left:260px; height:40px; z-index:99; display:none;}
+        .playerShare{width:215px; margin:0; position:relative; top:-30px;}
+        .playSharebg{height:35px; width:215px; background:#000; filter:alpha(opacity=30); opacity: 0.3; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; }
+        #player-cover .playerShare span {height:24px; display:inline-block; margin-right:8px; background-image:url(/pics/movie_player_icon.png); background-repeat:no-repeat; background-color:none; padding-left:28px; color:#fff; font-size:14px; line-height:23px; text-shadow: 1px 1px 1px #000;}
+        .playerShare a:link,.playerShare a:visited,.playerShare a:hover,.playerShare a:active {color:#fff; background:none; padding:0 10px; margin-left:-28px; display:inline; zoom:1; _width:20px; _padding:5px;}
+        .playerShare a:hover {color:#39f; background:none;}
+        .playerShare a:active {color:#fff; background:none;}
+        .playerShare span.tit {background-position:left 100px; padding-left:26px;}
+        .playerShare span.shuo {background-position:left 0;}
+        .playerShare span.sina {background-position:left -24px;}
+        .playerShare span.tqq {background-position:left -48px;}
+        #video-list {float:left; margin:24px 0 0 18px; width:175px; height:380px; overflow:hidden; position:relative; }
+        #video-list-wp {position:absolute; width:90000px; left:0; top:0;}
+        .video-list-col {float:left;}
+        .video-list-col li{display:block; height:98px; width:175px; padding:3px 0 0 11px; margin-bottom:10px;}
+        .video-list-col li.sellect{background:url(/pics/sellect2.png) no-repeat;}
+        .pr-video {display:block; height:90px; width:159px; overflow:hidden; position: relative; border:1px solid #ccc;}
+        .video-list-col li.sellect .pr-video{border:1px solid #00AFD0;}
+        .pr-video:hover {border:1px solid #888;}
+        .pr-video span,.pr-video strong {position: absolute; bottom:0; left:0; color:#fff; height:18px; line-height:18px; font-weight:normal; font-size:12px; width:100%; padding-left:5px;}
+        .pr-video span {background:#000; opacity: 0.5; filter:alpha(opacity=50);}
+        .pr-video em {position: absolute; top:3px; right:3px; color:#fff;font:10px Helvetica; z-index:6;}
+        .pr-video span.time{position: absolute; top:0; left:126px; z-index:5; height:15px; width:30px;}
+        #video-list-op {zoom:1; position:absolute; left:0; top:340px; width:100%; text-align:center; visibility:hidden;}
+        #video-list-op span{display:inline-block; *display:inline; zoom:1; height:18px; width:20px; background:url(/pics/trailer-list-arr2.gif) 8px top no-repeat; line-height:99em; overflow:hidden; margin:0 10px; cursor:pointer;}
+        #video-list-op span.r{background-position:-12px top;}
+        #video-list-op span.dis{filter:alpha(opacity=30); opacity: 0.3; cursor:default;}
+
+        .trailer-info {margin:0 0 5px; color:#999;}
+        .pl {color:#666}
+        .btns {text-align:right; margin-bottom: 15px; }
+        .btns .lnk-sharing {margin-left:20px;}
+
+        .comment {zoom:1;}
+        .comment .hd {float:left; margin-right:10px;}
+        .comment .hd img {display:block;}
+        .comment .bd {overflow:hidden; zoom:1; margin-top:-3px;}
+        .comment .bd p {margin:0 0 10px 10px;}
+
+        .stage-cont{top:220px;}
+        #comments .comment-item .author {background: none; color:#666;padding:2px 0; }
+    </style>
+
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/66fb5cfe168507d8.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1>快乐到家 预告片1</h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+<div class="stage-cont">
+    <div class="stage">
+        <div id="player" trailer_id="0">
+        <div class="cont">
+            <div id="player-cover">
+                <div class="playSharebg">&nbsp;</div>
+                <p class="playerShare">
+                    <span class="tit">分享到</span>
+                    <span class="shuo"><a href="#">&nbsp;</a></span>
+                    <span class="sina"><a href="javascript:void((function(s,d,e,r,l,p,t,z,c){var%20f='http://v.t.sina.com.cn/share/share.php?appkey=3015934887',u=z||d.location,p=['&amp;url=',e(u),'&amp;title=',e(t||d.title),'&amp;source=',e(r),'&amp;sourceUrl=',e(l),'&amp;content=',c||'gb2312','&amp;pic=',e(p||'')].join('');function%20a(){var%20_url='http://www.douban.com/link2?type=redir&amp;vendor=bshare_sina&amp;url='+e([f,p].join(''));if(!window.open(_url,'mb',['toolbar=0,status=0,resizable=1,width=440,height=430,left=',(s.width-440)/2,',top=',(s.height-430)/2].join('')))u.href=_url;};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();})(screen,document,encodeURIComponent,'','','http://img3.douban.com/lpic/s24585226.jpg','推荐你看《快乐到家》预告片 (来自 @豆瓣电影)','http://movie.douban.com/trailer/128494/','utf-8'));">&nbsp;</a></span>
+                    <span class="tqq"><a href="javascript:void((function(){var f='推荐你看《快乐到家》预告片 (来自 @豆瓣电影)';var c='http://movie.douban.com/trailer/128494/';var e=encodeURI('1459b2ac3d2345d2a17396eec5ad3bd7');var b=encodeURI('http://img3.douban.com/lpic/s24585226.jpg');var a='';var d='http://v.t.qq.com/share/share.php?url='+c+'&amp;appkey='+e+'&amp;site='+a+'&amp;pic='+b+'&amp;title='+f;window.open('http://www.douban.com/link2?type=redir&amp;vendor=bshare_tx&amp;url=' + encodeURIComponent(d),'','width=700, height=680, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, location=yes, resizable=no, status=no')})());">&nbsp;</a></span>
+                </p>
+            </div>
+            
+            <div id="movie_player"></div>
+            <script>
+              swfobject.embedSWF("/swf/movie_player.swf?tid=128494&has_hd=1&auto=1&jsfn=playerCB", "movie_player", "720", "405", "9.0.0",null, {}, {allowFullScreen: true, wmode: 'transparent'}, {id: 'movie_player', name: 'movie_player', style: 'outline:none'});
+            </script>
+        </div>
+        </div>
+        <div id="video-list">
+            <div id="video-list-wp">
+
+                <ul class="video-list-col">
+                       
+                       <li id="v_0">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128494/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1834017982.jpg" height="90" width="160" alt="" />
+                           <em>02:00</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>预告片1</strong>
+                       </a>
+                       </li>
+                       
+                       <li id="v_1">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128493/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1834006877.jpg" height="90" width="160" alt="" />
+                           <em>01:00</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>预告片2</strong>
+                       </a>
+                       </li>
+                       
+                       <li id="v_2">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128466/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1832204587.jpg" height="90" width="160" alt="" />
+                           <em>00:59</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>预告片3</strong>
+                       </a>
+                       </li>
+                </ul>
+                <ul class="video-list-col">
+                       
+                       <li id="v_3">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128135/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1821836175.jpg" height="90" width="160" alt="" />
+                           <em>00:34</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>先行版</strong>
+                       </a>
+                       </li>
+                       
+                       <li id="v_4">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128257/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1824271720.jpg" height="90" width="160" alt="" />
+                           <em>00:16</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>电视版</strong>
+                       </a>
+                       </li>
+                       
+                       <li id="v_5">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128261/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1824294615.jpg" height="90" width="160" alt="" />
+                           <em>01:31</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>花絮1：制作特辑之幕后特...</strong>
+                       </a>
+                       </li>
+                </ul>
+                <ul class="video-list-col">
+                       
+                       <li id="v_6">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128260/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1824290750.jpg" height="90" width="160" alt="" />
+                           <em>01:30</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>花絮2：制作特辑之快乐主...</strong>
+                       </a>
+                       </li>
+                       
+                       <li id="v_7">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128259/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1824285148.jpg" height="90" width="160" alt="" />
+                           <em>00:38</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>花絮3：制作特辑之团队欢...</strong>
+                       </a>
+                       </li>
+                       
+                       <li id="v_8">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128258/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1824278353.jpg" height="90" width="160" alt="" />
+                           <em>00:56</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>花絮4：制作特辑之快乐场...</strong>
+                       </a>
+                       </li>
+                </ul>
+                <ul class="video-list-col">
+                       
+                       <li id="v_9">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128256/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1824270524.jpg" height="90" width="160" alt="" />
+                           <em>01:05</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>花絮5：制作特辑之快乐明...</strong>
+                       </a>
+                       </li>
+                       
+                       <li id="v_10">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128255/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1824268543.jpg" height="90" width="160" alt="" />
+                           <em>01:03</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>花絮6：制作特辑之病狂导...</strong>
+                       </a>
+                       </li>
+                       
+                       <li id="v_11">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128254/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1824256074.jpg" height="90" width="160" alt="" />
+                           <em>00:38</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>花絮7：制作特辑之难忘感...</strong>
+                       </a>
+                       </li>
+                </ul>
+                <ul class="video-list-col">
+                       
+                       <li id="v_12">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128137/#content">
+                           <img src="http://img3.douban.com/img/trailer/small/1821850816.jpg" height="90" width="160" alt="" />
+                           <em>01:52</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>花絮8：快乐风暴之狗狗平...</strong>
+                       </a>
+                       </li>
+                       
+                       <li id="v_13">
+                       <a class="pr-video" href="http://movie.douban.com/trailer/128136/#content">
+                           <img src="http://img5.douban.com/img/trailer/small/1821845019.jpg" height="90" width="160" alt="" />
+                           <em>01:38</em>
+                           <span class="time"></span>
+                           <span></span>
+                           <strong>花絮9：快乐风暴之泰国</strong>
+                       </a>
+                       </li>
+                </ul>
+
+            </div>
+            <div id="video-list-op">
+                <span class='l'>&lt;</span><span class='r'>&gt;</span>
+            </div>
+        </div>
+    </div>
+</div>
+<p class="trailer-info pl"></p>
+<p class="trailer-info">
+<span>2013-01-07</span>&nbsp;&nbsp;&nbsp;&nbsp;
+    <span class="update">
+        <span class="gact">&gt; <a title="这部预告片有问题" rel="nofollow" href="/trailer/128494/report_error">我要报错</a></span>
+    </span>
+</p>
+<div class="btns">
+    <a href="#" data-url="http://movie.douban.com/trailer/128494/" data-desc="" data-text="" data-title="推荐你看《快乐到家》预告片 (来自 @豆瓣电影) " data-pic="http://img3.douban.com/lpic/s24585226.jpg" class="bn-sharing ">分享到</a>
+     <script>
+         var cache_url = cache_url || {};
+         (function(u){
+             if(cache_url[u]){
+                 return;
+             }
+             cache_url[u] = true;
+             $.getScript(u);
+           })("http://img3.douban.com/js/lib/packed_sharebutton1775626802.js");
+     </script>
+    <script>
+    var rec_url = 'http://shuo.douban.com/!service/widgets/share?',
+        num_url = 'http://api.douban.com/shuo/urls/info?', //TODO
+        comments_url = 'http://shuo.douban.com/!service/widgets/urlinfo?';
+      Do.add('dshare', {path: 'http://img3.douban.com/js/packed_dshare3165349252.js', type: 'js', requires:['dialog']});
+      Do('dshare');
+    </script>
+
+     
+     <span class="rec-sec">
+         <span><a href="http://shuo.douban.com/!service/share" data-desc=" " data-text share-id="128494" data-properties="{&#34;width&#34;:480,&#34;swf_href&#34;:&#34;http:\/\/movie.douban.com\/swf\/movie_player.swf?tid=128494&#34;,&#34;height&#34;:270}" data-mode="plain" data-name="《快乐到家 (2013)》预告片" data-type="movie" data-href="http://movie.douban.com/trailer/128494/" data-image="http://img3.douban.com/img/trailer/small/1834017982.jpg" data-redir="http://movie.douban.com/trailer/128494/vote?ck=None" data-target_type="rec" data-target_action="0" data-object_kind="1047" data-object_id="128494" data-action_props="{&#34;subject_url&#34;:&#34;http:\/\/movie.douban.com\/subject\/11610693\/&#34;,&#34;trailer_title&#34;:&#34;预告片&#34;,&#34;trailer_url&#34;:&#34;http:\/\/movie.douban.com\/trailer\/128494\/&#34;,&#34;subject_title&#34;:&#34;快乐到家 (2013)&#34;}" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a></span>
+     
+       <span class="rec-num">1人</span>
+     </span>
+     <script>
+         //bind events for collection button.
+         $('.collect_btn', '#interest_sect_level').each(function(){
+             Douban.init_collect_btn(this);
+         });
+     </script>
+     <div id="collect_form_128494"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="comments">
+
+
+
+
+
+    
+
+<div class="comment-item" id=128721 data-cid="128721" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/67543436/"><img src="http://img3.douban.com/icon/u67543436-1.jpg" alt="一路向北"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-10 20:13:07 
+          <a href="http://www.douban.com/people/67543436/">一路向北</a> 
+        </div>
+
+
+        
+        <p>戏剧化的追狗行动，无厘头中带有一丝温存。。。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u67543436 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=128721" class="j a_confirm_link" title="删除一路向北的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=128809 data-cid="128809" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/Chinawhu/"><img src="http://img3.douban.com/icon/u51417789-2.jpg" alt="冯克思"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-12 01:53:27 
+          <a href="http://www.douban.com/people/Chinawhu/">冯克思</a>  (我是珞珈山下的一棵树)
+        </div>
+
+
+        
+        <p>希望不要像嘻游记那么屎</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u51417789 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=128809" class="j a_confirm_link" title="删除冯克思的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=128852 data-cid="128852" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/44314955/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="apiao007"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-12 20:41:08 
+          <a href="http://www.douban.com/people/44314955/">apiao007</a>  (光影不过是当时流年)
+        </div>
+
+
+        
+        <p>嘻游记 熊猫大侠 湖南台的你们的基槽碎了一地，为搞笑而搞笑的幽默，只适合城乡结合部，比小沈阳的格调还要低那么一点点</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u44314955 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=128852" class="j a_confirm_link" title="删除apiao007的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=128954 data-cid="128954" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/yp99974600/"><img src="http://img3.douban.com/icon/u2046425-19.jpg" alt="埃路皮"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-14 18:52:52 
+          <a href="http://www.douban.com/people/yp99974600/">埃路皮</a> 
+        </div>
+
+
+        
+        <p>这是在黑汪涵媳妇？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2046425 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=128954" class="j a_confirm_link" title="删除埃路皮的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=128955 data-cid="128955" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/58702081/"><img src="http://img3.douban.com/icon/u58702081-2.jpg" alt="笑着流泪猪"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-14 19:38:40 
+          <a href="http://www.douban.com/people/58702081/">笑着流泪猪</a> 
+        </div>
+
+
+        
+        <p>明天走起</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u58702081 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=128955" class="j a_confirm_link" title="删除笑着流泪猪的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=128979 data-cid="128979" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/17083126/"><img src="http://img3.douban.com/icon/u17083126-5.jpg" alt="joe"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 01:01:57 
+          <a href="http://www.douban.com/people/17083126/">joe</a>  (记住导演，然后过滤)
+        </div>
+
+
+        
+        <p>预告片都这么烂，这么没亮点，果然芒果必出烂片</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u17083126 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=128979" class="j a_confirm_link" title="删除joe的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=128999 data-cid="128999" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/Gaowill/"><img src="http://img3.douban.com/icon/u2208595-12.jpg" alt="G"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 12:34:23 
+          <a href="http://www.douban.com/people/Gaowill/">G</a>  (狗屎般的人生需要金子般的心态)
+        </div>
+
+
+        
+        <p>预告片有够烂！！话说这狗叫乐乐，是故意臭汪涵的吧？！！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2208595 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=128999" class="j a_confirm_link" title="删除G的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129000 data-cid="129000" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/1165280/"><img src="http://img3.douban.com/icon/u1165280-10.jpg" alt="落.跹"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 12:37:10 
+          <a href="http://www.douban.com/people/1165280/">落.跹</a>  (13不易散 我们又回来了)
+        </div>
+
+
+        
+        <p>造型基本没突破，演技基本就那样，狗的种类也没选好，一锅大杂烩炝炒~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1165280 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129000" class="j a_confirm_link" title="删除落.跹的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129002 data-cid="129002" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/sum./"><img src="http://img3.douban.com/icon/u1523020-33.jpg" alt="33"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 12:57:33 
+          <a href="http://www.douban.com/people/sum./">33</a>  (天生就是演技派。)
+        </div>
+
+
+        
+        <p>那只狗好丑</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1523020 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129002" class="j a_confirm_link" title="删除33的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129005 data-cid="129005" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/57484229/"><img src="http://img3.douban.com/icon/u57484229-2.jpg" alt="小美"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 13:35:17 
+          <a href="http://www.douban.com/people/57484229/">小美</a>  (喜欢豆瓣)
+        </div>
+
+
+        
+        <p><a href="http://www.douban.com/link2?url=http%3A//www.ying6.com/" target="_blank" rel="nofollow">http://www.ying6.com<wbr/>/</a></p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u57484229 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129005" class="j a_confirm_link" title="删除小美的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129007 data-cid="129007" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/65337026/"><img src="http://img3.douban.com/icon/u65337026-3.jpg" alt="裴佩"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 14:03:28 
+          <a href="http://www.douban.com/people/65337026/">裴佩</a> 
+        </div>
+
+
+        
+        <p>喜欢快乐大本营，喜欢娜娜~~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u65337026 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129007" class="j a_confirm_link" title="删除裴佩的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129010 data-cid="129010" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/68106845/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="香榭丽舍 安安"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 14:35:42 
+          <a href="http://www.douban.com/people/68106845/">香榭丽舍 安安</a> 
+        </div>
+
+
+        
+        <p>希望有看头！！！！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68106845 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129010" class="j a_confirm_link" title="删除香榭丽舍 安安的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129012 data-cid="129012" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/68107408/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="孺子牛"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 15:13:04 
+          <a href="http://www.douban.com/people/68107408/">孺子牛</a> 
+        </div>
+
+
+        
+        <p>居然还写了什么导演作品，这什么狗屁导演？导过什么片子？还敢称作品？！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68107408 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129012" class="j a_confirm_link" title="删除孺子牛的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129017 data-cid="129017" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/51134351/"><img src="http://img3.douban.com/icon/u51134351-2.jpg" alt="纠纠很纠结"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 15:52:22 
+          <a href="http://www.douban.com/people/51134351/">纠纠很纠结</a> 
+        </div>
+
+
+        
+        <p>比排骨的胸还平的预告</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u51134351 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129017" class="j a_confirm_link" title="删除纠纠很纠结的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129020 data-cid="129020" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/4491547/"><img src="http://img3.douban.com/icon/u4491547-47.jpg" alt="嘎卟哩"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 16:27:11 
+          <a href="http://www.douban.com/people/4491547/">嘎卟哩</a>  (冬安~)
+        </div>
+
+
+        
+        <p>何炅的声音真让人出戏==</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u4491547 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129020" class="j a_confirm_link" title="删除嘎卟哩的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129023 data-cid="129023" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/52913559/"><img src="http://img3.douban.com/icon/u52913559-4.jpg" alt="喵星人~~喵呜"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 16:54:34 
+          <a href="http://www.douban.com/people/52913559/">喵星人~~喵呜</a> 
+        </div>
+
+
+        
+        <p>狗眼看世界，一堆大傻逼<br/>别问我是谁，感人肺腑的人兽恋</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u52913559 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129023" class="j a_confirm_link" title="删除喵星人~~喵呜的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129030 data-cid="129030" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/1536123/"><img src="http://img3.douban.com/icon/u1536123-7.jpg" alt="小不一"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 20:09:50 
+          <a href="http://www.douban.com/people/1536123/">小不一</a>  (只有你,淬炼成一朵SB)
+        </div>
+
+
+        
+        <p>我被很多预告片很好但实际很烂的电影骗过，但这——这真的是我见过最诚实预告片了——连上当的欲望都激发不起来</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1536123 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129030" class="j a_confirm_link" title="删除小不一的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129037 data-cid="129037" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/68117025/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="豆豆"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 20:23:45 
+          <a href="http://www.douban.com/people/68117025/">豆豆</a> 
+        </div>
+
+
+        
+        <p>还是很期待~~~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68117025 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129037" class="j a_confirm_link" title="删除豆豆的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129038 data-cid="129038" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/cat8307/"><img src="http://img3.douban.com/icon/u1592544-3.jpg" alt="哲学家cat"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 20:27:04 
+          <a href="http://www.douban.com/people/cat8307/">哲学家cat</a> 
+        </div>
+
+
+        
+        <p>请的少年派的后期，太囧的外景，屎一样的导演演员剧本台词。。。。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1592544 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129038" class="j a_confirm_link" title="删除哲学家cat的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129041 data-cid="129041" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/liubinyan/"><img src="http://img3.douban.com/icon/u30747839-5.jpg" alt="liubinyan"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 21:14:04 
+          <a href="http://www.douban.com/people/liubinyan/">liubinyan</a> 
+        </div>
+
+
+        
+        <p>狗逼狗男女演狗戏，狗（够）囧</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u30747839 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129041" class="j a_confirm_link" title="删除liubinyan的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129043 data-cid="129043" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/woshisunqiao/"><img src="http://img3.douban.com/icon/u59736050-5.jpg" alt="倾听J"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 21:36:27 
+          <a href="http://www.douban.com/people/woshisunqiao/">倾听J</a> 
+        </div>
+
+
+        
+        <p>预告片都没什么看头、、、、</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u59736050 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129043" class="j a_confirm_link" title="删除倾听J的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129047 data-cid="129047" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/68120224/"><img src="http://img3.douban.com/icon/user_normal.jpg" alt="相守。足矣"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-15 21:58:59 
+          <a href="http://www.douban.com/people/68120224/">相守。足矣</a> 
+        </div>
+
+
+        
+        <p>支持，期待。炅哥加油！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68120224 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129047" class="j a_confirm_link" title="删除相守。足矣的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129057 data-cid="129057" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/59824766/"><img src="http://img3.douban.com/icon/u59824766-3.jpg" alt="Tobia"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 05:58:19 
+          <a href="http://www.douban.com/people/59824766/">Tobia</a> 
+        </div>
+
+
+        
+        <p>这逼样也值五百万？这人这狗加起来也不值一千啊</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u59824766 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129057" class="j a_confirm_link" title="删除Tobia的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129062 data-cid="129062" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/53314462/"><img src="http://img3.douban.com/icon/u53314462-5.jpg" alt="不知道"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 09:55:50 
+          <a href="http://www.douban.com/people/53314462/">不知道</a>  (慢慢走！欣赏啊)
+        </div>
+
+
+        
+        <p>不得不说预告片挺烂的，我想看电影的人主要也是为了看快乐大本营的主持人吧？片子真是不怎么样的</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u53314462 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129062" class="j a_confirm_link" title="删除不知道的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129084 data-cid="129084" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/Rabbitoe/"><img src="http://img3.douban.com/icon/u2189737-57.jpg" alt="瑞比啾"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 13:05:53 
+          <a href="http://www.douban.com/people/Rabbitoe/">瑞比啾</a>  (要对人生拿出诚意来)
+        </div>
+
+
+        
+        <p>狗长得好像……猴子………………</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2189737 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129084" class="j a_confirm_link" title="删除瑞比啾的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129087 data-cid="129087" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/48218002/"><img src="http://img3.douban.com/icon/u48218002-34.jpg" alt="二逼女僧万万岁"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 14:19:54 
+          <a href="http://www.douban.com/people/48218002/">二逼女僧万万岁</a>  (好姑娘永垂不朽)
+        </div>
+
+
+        
+        <p>这狗怎么挑的？！<br/>杜汶泽也在里面搞毛线啊！？<br/><br/>好好搞主持不行么，这么贺岁还让不让人过年了你们！！！！！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u48218002 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129087" class="j a_confirm_link" title="删除二逼女僧万万岁的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129088 data-cid="129088" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/27383917/"><img src="http://img3.douban.com/icon/u27383917-5.jpg" alt="Thurs."/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 14:20:21 
+          <a href="http://www.douban.com/people/27383917/">Thurs.</a>  (不要理我！)
+        </div>
+
+
+        
+        <p>狗眼看世界，一生永相随。。。尼玛我已经被雷崩了好吗！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u27383917 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129088" class="j a_confirm_link" title="删除Thurs.的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129089 data-cid="129089" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/BigBigHuang/"><img src="http://img3.douban.com/icon/u5985294-27.jpg" alt="大黄！"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-16 14:34:59 
+          <a href="http://www.douban.com/people/BigBigHuang/">大黄！</a>  (咦)
+        </div>
+
+
+        
+        <p>……………………狗太丑了……………………</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u5985294 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129089" class="j a_confirm_link" title="删除大黄！的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129150 data-cid="129150" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/so-it-is/"><img src="http://img3.douban.com/icon/u2773328-86.jpg" alt="葵花卷"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 11:10:01 
+          <a href="http://www.douban.com/people/so-it-is/">葵花卷</a>  (Sorry我的個性很直♂)
+        </div>
+
+
+        
+        <p> 2013-01-15 20:23:45 豆豆<br/><br/>还是很期待~~~<br/><br/> 2013-01-15 21:58:59 相守。足矣<br/><br/>支持，期待。炅哥加油！<br/><br/><br/><br/>这两位说期待的没有头像的1月15号“刚巧”电影上映时候注册并都只评论了此部烂片的，一定是传说中的能说话的水军了吧。<br/>电影拍得烂就算了，请水军这么恶心的事就损人品了。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u2773328 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129150" class="j a_confirm_link" title="删除葵花卷的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=129169 data-cid="129169" data-target_id="128494" data-target_kind="1047">
+    <div class="pic">
+        <a href="http://www.douban.com/people/44417214/"><img src="http://img3.douban.com/icon/u44417214-4.jpg" alt="南洋海盗"/></a>
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-17 15:49:33 
+          <a href="http://www.douban.com/people/44417214/">南洋海盗</a>  (找到奋发向上的力量！)
+        </div>
+
+
+        
+        <p>LS，这两位也不一定就是水军，也许是快乐家族的脑残粉丝！</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u44417214 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/trailer/128494/remove_comment?cid=129169" class="j a_confirm_link" title="删除南洋海盗的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div id="last"></div>
+
+ 
+
+ 
+
+    
+    
+    
+        <div class="paginator">
+        <span class="prev">
+            &lt;前页
+        </span>
+        
+        
+
+                <span class="on">1</span>
+                
+            <a href="http://movie.douban.com/trailer/128494/?start=30#comments" >2</a>
+        
+        <span class="next">
+            <link rel="next" href="http://movie.douban.com/trailer/128494/?start=30#comments"/>
+            <a href="http://movie.douban.com/trailer/128494/?start=30#comments" >后页&gt;</a>
+        </span>
+
+        </div>
+
+
+
+
+
+
+
+</div>
+
+
+<script>
+Do(function(){
+  $('#comments').find('.comment-item').hover(function(){$(this).addClass('over');}, function(){$(this).removeClass('over');});
+  $('.reply-quote .toggle-reply').click(function(e) {
+    e.preventDefault();
+    var el = $(this);
+    el.prevAll('span').toggle(); 
+    el.find('span').toggle();
+  });
+});
+</script>
+
+
+
+
+
+	</div>
+        <div class="aside">
+            
+<!-- douban ad begin -->
+<div id="dale_movie_subject_trailer_playing_bottom_right"></div>
+<!-- douban ad end -->
+
+
+
+
+
+<style type="text/css">
+    .gray_ad {overflow:hidden; zoom:1;}
+    .gray_ad h2 {margin-bottom:5px;}
+    .gray_ad p  {overflow:hidden; zoom:1; margin:5px 0}
+    .gray_ad li {color:#999; line-height:1.7em;}
+    .gray_ad a.colbutt:link,
+    .gray_ad a.colbutt:visited,
+    .gray_ad a.colbutt:hover,
+    .gray_ad a.colbutt:active {color:#333;}
+</style>
+
+    <div>
+        
+            <div class="gray_ad">
+                
+    <h2>
+        绍兴13家影院今天上映
+            &nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;&nbsp;&middot;
+    </h2>
+
+                <ul>
+                        <li>绍兴世茂国际影城</li>
+                        <li>大地上虞万和城影院</li>
+                </ul>
+                <p><a class="colbutt ll" href="http://movie.douban.com/subject/11610693/cinema/"><span>查看影讯</span></a></p>
+            </div>
+    </div>
+
+<style>
+        .movieOnline {background:#f5f5f5; padding:10px; margin-bottom:20px; overflow:hidden; zoom:1;}
+        .movieOnline .link-bt,.movieOnline .link-bt:hover {background:none; color:#369; display:inline; padding:0 3px; float:right; margin:5px 20px 0 0;}
+        .movieOnline .link-bt:hover {color:#fff; background:#039;}
+</style>
+
+<div class="links mb30">
+    <p class="pl2"><a href="http://movie.douban.com/subject/11610693/trailer">&gt;&nbsp;去 本片全部预告片 的页面</a></p>
+    <p class="pl2"><a href="http://movie.douban.com/subject/11610693/">&gt;&nbsp;去 快乐到家 的页面</a></p>
+</div>
+
+
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+    
+<!-- douban ad begin -->
+
+
+
+
+
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = 'http://erebor.douban.com/',
+            userId = '',
+            browserId = 'VKpIE5M+TuQ',
+            ipAddress = '122.236.48.167',
+            criteria = '3:/trailer/128494/',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_movie_subject_trailer_playing_bottom_right'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, ip: ipAddress, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', 'http://img3.douban.com/js/packed_ad3738113870.js');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+<!-- douban ad end -->
+
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- roper3-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

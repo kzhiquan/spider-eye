@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>【我的爱情观】</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="【我的爱情观】">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>【我的爱情观】</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/tjz230/"><img src="http://img3.douban.com/icon/u1005928-127.jpg" align="left" alt="芙蓉镇上影志叔"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/tjz230/">芙蓉镇上影志叔 (北京)</a><br />
+        创建时间: 2006-09-21 21:14:48　最后修改时间: 2013-01-08 23:35:36</p><p class="indent">　　不要相信电影里的爱情<br/></p>
+        </div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-14891"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">235人</span>
+</div>
+<div class="filters">全部电影(39)</div>
+    <p id="sb1291853" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1291853/"><img width="80" src="http://img5.douban.com/spic/s3848039.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2006-12-04 05:36:22添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/1291853/">英国病人 The English Patient</a>
+    
+    </div>
+    <p class="pl">导演 : 安东尼·明格拉 Anthony Minghella<br/>主演 : 拉尔夫·费因斯 Ralph Fiennes/克里斯汀·斯科特·托马斯 Kristin Scott Thomas/朱丽叶·比诺什 Juliette Binoche/威廉·达福 Willem Dafoe/纳威恩·安德利维斯 Naveen Andrews/柯林·菲尔斯 Colin Firth</p><p><span class="pl">评语</span> : In memory, love lives forever. </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2216966" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2216966/"><img width="80" src="http://img3.douban.com/spic/s2960704.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-04-25 15:10:55添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/2216966/">爱你长久 Il y a longtemps que je t'aime</a>
+    
+    </div>
+    <p class="pl">导演 : 菲利浦·克洛代尔 Philippe Claudel<br/>主演 : 克里斯汀·斯科特·托马斯 Kristin Scott Thomas/艾尔莎·泽贝斯坦 Elsa Zylberstein/Serge Hazanavicius/Laurent Grévill/Frédéric Pierrot</p><p><span class="pl">评语</span> : 爱你已久，永不能忘。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1291559" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1291559/"><img width="80" src="http://img3.douban.com/spic/s1309370.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-04-22 16:21:23添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/1291559/">新桥恋人 Les amants du Pont-Neuf</a>
+    
+    </div>
+    <p class="pl">导演 : 莱奥·卡拉克斯 Leos Carax<br/>主演 : 朱丽叶·比诺什 Juliette Binoche/德尼·拉旺 Denis Lavant/奥利维埃·达昂 Olivier Dahan/Daniel Buain/Klaus-Michael Grüber</p><p><span class="pl">评语</span> : 爱疯了</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2072848" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2072848/"><img width="80" src="http://img3.douban.com/spic/s3831896.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-01-26 17:10:40添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/2072848/">明亮的星 Bright Star</a>
+    
+    </div>
+    <p class="pl">导演 : Jane Campion<br/>主演 : Abbie Cornish/Ben Whishaw/Thomas Sangster/Paul Schneider/Kerry Fox/Jonathan Aris/Samuel Barnett</p><p><span class="pl">评语</span> : 你我编织了一张情网，与尘世相系，却构筑在我们理想之上。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1304585" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1304585/"><img width="80" src="http://img3.douban.com/spic/s2833843.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-01-18 16:33:32添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/1304585/">BJ单身日记 Bridget Jones's Diary</a>
+    
+    </div>
+    <p class="pl">导演 : 沙朗·马奎尔 Sharon Maguire<br/>主演 : Renée Zellweger/Colin Firth/Hugh Grant/Jim Broadbent</p><p><span class="pl">评语</span> : Love her just as she is. </p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1294007" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1294007/"><img width="80" src="http://img3.douban.com/spic/s2142626.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2006-12-04 05:32:42添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/1294007/">我的父亲母亲</a>
+    
+    </div>
+    <p class="pl">导演 : 张艺谋<br/>主演 : 章子怡/郑昊/孙红雷/李滨/嵇波/丁嘉莉</p><p><span class="pl">评语</span> : 简单、至朴</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1296339" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1296339/"><img width="80" src="http://img3.douban.com/spic/s1401102.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-01-10 21:41:17添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/1296339/">爱在黎明破晓前 Before Sunrise</a>
+    
+    </div>
+    <p class="pl">导演 : 理查德·林克莱特 Richard Linklater<br/>主演 : 伊桑·霍克 Ethan Hawke/朱莉·德尔佩 Julie Delpy/安德莉亚·埃克特 Andrea Eckert/Hanno Pöschl/Karl Bruckschwaiger</p><p><span class="pl">评语</span> : 缘分与浪漫</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3440075" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3440075/"><img width="80" src="http://img3.douban.com/spic/s3953541.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-24 17:37:34添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/3440075/">心如折纸 Paper Heart</a>
+    
+    </div>
+    <p class="pl">导演 : Nicholas Jasenovec<br/>主演 : Charlyne Yi/Michael Cera/Jake M. Johnson/Paul Rust/Seth Rogen/Matthew Bass/Demetri Martin</p><p><span class="pl">评语</span> : 真爱，一生一次。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3072086" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3072086/"><img width="80" src="http://img3.douban.com/spic/s3952995.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-11-22 16:24:05添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/3072086/">和莎莫的500天 (500) Days of Summer</a>
+    
+    </div>
+    <p class="pl">导演 : Marc Webb<br/>主演 : Joseph Gordon-Levitt/Zooey Deschanel/Clark Gregg/Matthew Gray Gubler/Geoffrey Arend/Chloe Moretz</p><p><span class="pl">评语</span> : 不管结局如何，过程已经美丽。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3059036" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3059036/"><img width="80" src="http://img3.douban.com/spic/s4140715.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-01-14 09:38:43添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/3059036/">亚当 Adam</a>
+    
+    </div>
+    <p class="pl">导演 : Max Mayer<br/>主演 : Hugh Dancy/Rose Byrne/Peter Gallagher/Amy Irving/Frankie Faison/Mark Linn-Baker</p><p><span class="pl">评语</span> : 因为你的到来，因为你的存在，我一丝一毫的成长，每一天都有了同样的意义。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3070319" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3070319/"><img width="80" src="http://img3.douban.com/spic/s4048408.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-03-25 17:51:22添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/3070319/">爱很复杂 It's Complicated</a>
+    
+    </div>
+    <p class="pl">导演 : Nancy Meyers<br/>主演 : Meryl Streep/Alec Baldwin/Steve Martin/Lake Bell/John Krasinski/Caitlin Fitzgerald/Hunter Parrish/Zoe Kazan/Emjay Anthony/James Patrick Stuart</p><p><span class="pl">评语</span> : 我不能适应没有你的日子。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2131459" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2131459/"><img width="80" src="http://img3.douban.com/spic/s2953087.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2008-11-15 16:35:27添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/2131459/">机器人总动员 WALL·E</a>
+    
+    </div>
+    <p class="pl">导演 : 安德鲁·斯坦顿 Andrew Stanton<br/>主演 : 本·贝尔特 Ben Burtt/艾丽莎·奈特 Elissa Knight/杰夫·格尔林 Jeff Garlin/佛莱德·威拉特 Fred Willard</p><p><span class="pl">评语</span> : 牵手。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3072124" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3072124/"><img width="80" src="http://img3.douban.com/spic/s4034827.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-10-29 17:18:23添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/3072124/">玛丽和马克思 Mary and Max</a>
+    
+    </div>
+    <p class="pl">导演 : Adam Elliot<br/>主演 : Toni Collette/Philip Seymour Hoffman/Eric Bana/Bethany Whitmore</p><p><span class="pl">评语</span> : 如果爱，先爱你自己。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1340517" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1340517/"><img width="80" src="http://img3.douban.com/spic/s2548284.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-01-09 09:09:54添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/1340517/">初吻 La boum</a>
+    
+    </div>
+    <p class="pl">导演 : 克劳德·比诺多 Claude Pinoteau<br/>主演 : 苏菲·玛索 Sophie Marceau/克劳德·布莱塞 Claude Brasseur/布丽吉特·佛西 Brigitte Fossey/Alexandre Sterling</p><p><span class="pl">评语</span> : 关于初恋，不是每个人都那般美好，清纯的记忆有时也会转瞬化为泡影…</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4920528" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4920528/"><img width="80" src="http://img3.douban.com/spic/s6985526.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-10-28 03:17:49添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/4920528/">那些年，我们一起追的女孩 那些年，我們一起追的女孩</a>
+    
+    </div>
+    <p class="pl">导演 : 九把刀 Giddens<br/>主演 : 柯震东 Ko Chen Tung/陈妍希 Michelle Chen/敖犬 Owodog/郝邵文 Shaowen Hao/蔡昌宪 Chang-Hsien Tsai/鄢胜宇 Sheng-yu Yen/弯弯 Wan Wan/邱彦翔 Yanxiang Qiu/王彩桦 Lotus Wang</p><p><span class="pl">评语</span> : “被你喜欢过，就很难觉得别人会比你更喜欢我。” 两个人都让一点，爱情就可以好一点。“新婚快乐，我的青春“ 或许遗憾更美。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4873490" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4873490/"><img width="80" src="http://img3.douban.com/spic/s6964368.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-11-02 16:19:07添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/4873490/">失恋33天</a>
+    
+    </div>
+    <p class="pl">导演 : 滕华涛 Hua-Tao Teng<br/>主演 : 文章 Zhang Wen/白百何 Baihe Bai/张子萱 Zixuan Zhang/王耀庆 David Wang/郭京飞 Jingfei Guo/张嘉译 Jiayi Zhang/海清 Hai-Qing/廖凡 Fan Liao/马伊琍 Yili Ma/姚笛 Di Yao/张默 Mo Zhang/李晨 Chen Li/张歆艺 Xinyi Zhang/陈羽凡 Yufan Chen/魏宗万 Zongwan Wei/李念 Nian Li</p><p><span class="pl">评语</span> : 失恋算个球，没有不会淡的疤，明天醒来继续爱别人吧。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1441238" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1441238/"><img width="80" src="http://img5.douban.com/spic/s1988099.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-01-13 18:26:29添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/1441238/">面纱 The Painted Veil</a>
+    
+    </div>
+    <p class="pl">导演 : 约翰·卡兰 John Curran<br/>主演 : 娜奥米·沃茨 Naomi Watts/爱德华·诺顿 Edward Norton/黄秋生 Anthony Wong Chau/列维·施瑞博尔 Liev Schreiber/托比·琼斯 Toby Jones/夏雨 Yu Xia/冯砾/吕燕</p><p><span class="pl">评语</span> : 在相处中改变认识，由不爱到爱的可能……相信距离产生美。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3011093" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3011093/"><img width="80" src="http://img3.douban.com/spic/s3879354.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-01-12 17:23:46添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/3011093/">成长教育 An Education</a>
+    
+    </div>
+    <p class="pl">导演 : 罗勒·莎菲 Lone Scherfig<br/>主演 : 凯瑞·穆里根 Carey Mulligan/彼得·萨斯加德 Peter Sarsgaard/阿尔弗雷德·莫里纳 Alfred Molina/多米尼克·库珀 Dominic Cooper/罗莎蒙德·派克 Rosamund Pike/马修·比尔德 Matthew Beard/艾玛·汤普森 Emma Thompson/莎莉·霍金斯 Sally Hawkins</p><p><span class="pl">评语</span> : 如果这是爱，那定是我心所向。No baby talk. Just treat me like a grown-up.</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1920796" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1920796/"><img width="80" src="http://img3.douban.com/spic/s2953841.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2008-05-21 03:00:38添加</span>
+        19. 
+    <a href="http://movie.douban.com/subject/1920796/">附注：我爱你 P.S. I Love You</a>
+    
+    </div>
+    <p class="pl">导演 : 理查德·拉·格拉文斯 Richard LaGravenese<br/>主演 : Hilary Swank/Gerard Butler/Kathy Bates/Lisa Kudrow/Gina Gershon/Jeffrey Dean Morgan/Harry Connick Jr.</p><p><span class="pl">评语</span> : 真真切切的去爱你爱的人，用实际行动对她好。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1922152" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1922152/"><img width="80" src="http://img3.douban.com/spic/s2888761.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2008-06-14 13:56:31添加</span>
+        20. 
+    <a href="http://movie.douban.com/subject/1922152/">绝对，也许 Definitely, Maybe</a>
+    
+    </div>
+    <p class="pl">导演 : Adam Brooks<br/>主演 : Ryan Reynolds/Abigail Breslin/Elizabeth Banks/Isla Fisher/Rachel Weisz/Kevin Kline</p><p><span class="pl">评语</span> : 时不我待，爱，不要犹豫。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2161696" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2161696/"><img width="80" src="http://img3.douban.com/spic/s3359983.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-06-07 11:37:34添加</span>
+        21. 
+    <a href="http://movie.douban.com/subject/2161696/">他其实没那么喜欢你 He's Just Not That Into You</a>
+    
+    </div>
+    <p class="pl">导演 : Ken Kwapis<br/>主演 : 詹妮弗·安妮斯顿 Jennifer Aniston/本·阿弗莱克 Ben Affleck/詹妮弗·康纳利 Jennifer Connelly/布莱德利·库珀 Bradley Cooper/斯嘉丽·约翰逊 Scarlett Johansson/凯文·康诺利 Kevin Connolly/德鲁·巴里摩尔 Drew Barrymore/贾斯汀·朗 Justin Long/金妮弗·古德温 Ginnifer Goodwin/摩根·莉莉 Morgan Lily</p><p><span class="pl">评语</span> : 其实你不懂我的心 |||</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1309080" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1309080/"><img width="80" src="http://img5.douban.com/spic/s11150489.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2008-10-26 16:27:42添加</span>
+        22. 
+    <a href="http://movie.douban.com/subject/1309080/">谜情公寓 Wicker Park</a>
+    
+    </div>
+    <p class="pl">导演 : Paul McGuigan<br/>主演 : Josh Hartnett/Diane Kruger/Rose Byrne/Matthew Lillard</p><p><span class="pl">评语</span> : 爱不爱我，暗恋没有错。一见钟情真是害死人。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1309012" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1309012/"><img width="80" src="http://img3.douban.com/spic/s3745554.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-07-06 17:02:17添加</span>
+        23. 
+    <a href="http://movie.douban.com/subject/1309012/">勇往直前 Gegen die Wand</a>
+    
+    </div>
+    <p class="pl">导演 : 法提赫·阿金 Fatih Akin<br/>主演 : 波热尔·尤内尔 Birol Ünel/西贝尔·凯基莉 Sibel Kekilli/Catrin Striebeck/梅特姆·库布尔 Meltem Cumbul/Stefan Gebelhoff/Francesco Fiannaca/Mona Mur/Ralph Misske/Philipp Baltus</p><p><span class="pl">评语</span> : 亲爱的，没有你，我怎么活下去。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4191644" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4191644/"><img width="80" src="http://img5.douban.com/spic/s4633669.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-03-29 01:11:58添加</span>
+        24. 
+    <a href="http://movie.douban.com/subject/4191644/">一天 One Day</a>
+    
+    </div>
+    <p class="pl">导演 : 罗勒·莎菲 Lone Scherfig<br/>主演 : 安妮·海瑟薇 Anne Hathaway/吉姆·斯特吉斯 Jim Sturgess/萝玛拉·嘉瑞 Romola Garai/派翠西娅·克拉克森 Patricia Clarkson/拉菲·斯波 Rafe Spall/肯·斯托特 Ken Stott/Jodie Whittaker</p><p><span class="pl">评语</span> : “未来是不可预见的，这就是它令人兴奋的原因。不管明天发生什么事，把握好今天，找一个真正爱你的人。”</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5377640" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5377640/"><img width="80" src="http://img3.douban.com/spic/s6813966.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-05-27 22:38:42添加</span>
+        25. 
+    <a href="http://movie.douban.com/subject/5377640/">爱疯了 Like Crazy</a>
+    
+    </div>
+    <p class="pl">导演 : 德雷克·多雷穆斯 Drake Doremus<br/>主演 : 安东·尤金 Anton Yelchin/菲丽希缇·琼斯 Felicity Jones/詹妮弗·劳伦斯 Jennifer Lawrence/charlie bewley/阿莉克丝·金斯顿 Alex Kingston/Oliver Muirhead/Finola Hughes/克里斯·梅西纳 Chris Messina/Ben York Jones/杰米·托马斯·金 Jamie Thomas King</p><p><span class="pl">评语</span> : 异地恋人的保鲜法则：1、每天联系；2、定期见面；3、至少有一方愿意放弃去对方城市；4、异地时间极限为两年；5、任何时候相信彼此⋯⋯分分和和很痛苦，It's hard, but be patient. 船到桥头自然直。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    <div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/doulist/14891/?start=25&filter=">2</a><span class="next"><a href="http://movie.douban.com/doulist/14891/?start=25&filter=">后页&gt;</a><link rel="next" href="http://movie.douban.com/doulist/14891/?start=25&filter="/></span></div>
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2>最新留言 · · · · · ·  <span class="pl">( <a href="http://movie.douban.com/doulist/14891/comments">查看全部</a> )</span></h2><ul class="mbt"><li class="mbtl"><a href="http://www.douban.com/people/54591220/"><img src="http://img3.douban.com/icon/u54591220-4.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/14891/comments#c-265853">我是李格 : 你好，推荐作家陆苏的最新散文集《小心轻放的光阴》——做一个淡淡的女子，不浮不躁 ，不争不抢。http://book.douban.com/subject/10729731/</a><span class="pl">  2012-06-16 09:36</span></li><li class="mbtl"><a href="http://www.douban.com/people/sarna/"><img src="http://img3.douban.com/icon/u39066982-306.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/14891/comments#c-230515">老克尔梅克 : 没有罗拉快跑？</a><span class="pl">  2011-03-22 12:06</span></li><li class="mbtl"><a href="http://www.douban.com/people/4081297/"><img src="http://img3.douban.com/icon/u4081297-2.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/14891/comments#c-226721">掌门 : 宁愿相信</a><span class="pl">  2011-02-17 21:17</span></li><li class="mbtl"><a href="http://www.douban.com/people/2636697/"><img src="http://img3.douban.com/icon/u2636697-31.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/14891/comments#c-198492">夏天。 : 你的评语真是干练</a><span class="pl">  2010-04-21 12:08</span></li><li class="mbtl"><a href="http://www.douban.com/people/2390918/"><img src="http://img3.douban.com/icon/u2390918-14.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/14891/comments#c-191573">眠羊 : 为什么不要相信？难道是现实过于残酷，那都成了梦……</a><span class="pl">  2010-02-07 19:03</span></li></ul><h2 style="margin-top:30px">芙蓉镇上影志叔的其他电影豆列  · · · · · ·  </h2>
+        <style>.dlistp p{margin-top:4px;border-bottom:1px #ddd dashed;padding-bottom:4px}</style>
+        <div class="dlistp"><p><a href="http://movie.douban.com/doulist/11192/">【豆瓣高分短片】❷ 评分人数 &lt;500</a></p> <p><a href="http://movie.douban.com/doulist/11324/">【意外结局】</a></p> <p><a href="http://movie.douban.com/doulist/13369/">【爱看动画】</a></p> <p><a href="http://movie.douban.com/doulist/13370/">【励志电影】</a></p> <p><a href="http://movie.douban.com/doulist/13729/">He loves a man, she loves a woman(1/2)</a></p> </div><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- hogg3 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

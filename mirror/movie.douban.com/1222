@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>【北美电影票房总排行榜】</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="【北美电影票房总排行榜】">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>【北美电影票房总排行榜】</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/richer725/"><img src="http://img3.douban.com/icon/u1114759-42.jpg" align="left" alt="荔枝超人"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/richer725/">荔枝超人 </a><br />
+        创建时间: 2007-12-27 09:39:34　最后修改时间: 2013-01-03 16:27:17</p><p class="indent">　　【只做数据记录，不考虑通货膨胀等因素。】<br/>　　<br/>　　【数据来源：BOX OFFICE MOJO】<br/>　　<br/>　　【统计截止：2012年12月26日】<br/></p>
+        </div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-114465"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">2883人</span>
+</div>
+<div class="filters">全部电影(255)</div>
+    <p id="sb1652587" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1652587/"><img width="80" src="http://img3.douban.com/spic/s4065701.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-12-28 01:08:40添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/1652587/">阿凡达 Avatar</a>
+    
+    </div>
+    <p class="pl">导演 : James Cameron<br/>主演 : Sam Worthington/Zoe Saldana/Sigourney Weaver/Stephen Lang/Michelle Rodriguez/Joel Moore/Giovanni Ribisi</p><p><span class="pl">评语</span> : 上映日期：2009-12-18 | 2010-08-27（特别加长版）；累计总票房：$760,507,625；制作预算：$2.37亿；发行厂牌：二十世纪福斯</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1292722" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1292722/"><img width="80" src="http://img3.douban.com/spic/s3939938.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 01:40:07添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/1292722/">泰坦尼克号 Titanic</a>
+    
+    </div>
+    <p class="pl">导演 : James Cameron<br/>主演 : Leonardo DiCaprio/Kate Winslet/Billy Zane/Kathy Bates/Frances Fisher/Gloria Stuart/Suzy Amis/Bill Paxton/Bernard Hill/Victor Garber/Ewan Stewart/James Cameron</p><p><span class="pl">评语</span> : 上映日期：1997-12-19 | 2012-04-04（3D重映版）；北美总票房：$658,672,302；制作预算：$2亿；发行厂牌：派拉蒙</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1866479" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1866479/"><img width="80" src="http://img3.douban.com/spic/s8904324.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-05-08 09:07:56添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/1866479/">复仇者联盟 The Avengers</a>
+    
+    </div>
+    <p class="pl">导演 : 乔斯·韦登 Joss Whedon<br/>主演 : 小罗伯特·唐尼 Robert Downey Jr./克里斯·埃文斯 Chris Evans/斯嘉丽·约翰逊 Scarlett Johansson/克里斯·海姆斯沃斯 Chris Hemsworth/杰瑞米·雷纳 Jeremy Renner/马克·鲁弗洛 Mark Ruffalo/塞缪尔·杰克逊 Samuel L. Jackson/汤姆·希德勒斯顿 Tom Hiddleston/斯特兰·斯卡斯加德 Stellan Skarsgård/寇碧·史莫德斯 Cobie Smulders/克拉克·格雷格 Clark Gregg/保罗·贝坦尼 Paul Bettany/格温妮斯·帕特洛 Gwyneth Paltrow</p><p><span class="pl">评语</span> : 上映日期：2012-05-04；累计总票房：$623,357,910；成本预算：$2.2亿；发行厂牌：博伟</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1851857" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1851857/"><img width="80" src="http://img3.douban.com/spic/s3046065.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2008-07-22 01:27:16添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/1851857/">蝙蝠侠：黑暗骑士 The Dark Knight</a>
+    
+    </div>
+    <p class="pl">导演 : 克里斯托弗·诺兰 Christopher Nolan<br/>主演 : 克里斯蒂安·贝尔 Christian Bale/希斯·莱杰 Heath Ledger/艾伦·艾克哈特 Aaron Eckhart/迈克尔·凯恩 Michael Caine/玛吉·吉伦哈尔 Maggie Gyllenhaal/加里·奥德曼 Gary Oldman/摩根·弗里曼 Morgan Freeman/希里安·墨菲 Cillian Murphy/黄经汉 Chin Han/陈冠希 Edison Chen/内斯特·卡博内尔 Nestor Carbonell/埃里克·罗伯茨 Eric Roberts/威廉·菲德内尔 William Fichtner</p><p><span class="pl">评语</span> : 上映日期：2008-07-18 | 北美总票房：$533,345,358 | 制作预算：$1.8亿 | 发行厂牌：华纳兄弟</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1294362" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1294362/"><img width="80" src="http://img3.douban.com/spic/s1317743.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 01:58:43添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/1294362/">星球大战前传1：幽灵的威胁 Star Wars: Episode I - The Phantom Menace</a>
+    
+    </div>
+    <p class="pl">导演 : George Lucas<br/>主演 : Ewan McGregor/Natalie Portman/Liam Neeson/Samuel L. Jackson/Keira Knightley/Sofia Coppola</p><p><span class="pl">评语</span> : 上映日期：1999-05-19 | 2012-02-10（3D版重映）；累计总票房：$474,544,677；成本预算：$1.15亿；发行厂牌：二十世纪福斯</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293838" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293838/"><img width="80" src="http://img3.douban.com/spic/s2621686.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 01:41:04添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/1293838/">星球大战 Star Wars</a>
+    
+    </div>
+    <p class="pl">导演 : 乔治·卢卡斯 George Lucas<br/>主演 : 哈里森·福特 Harrison Ford/马克·哈米尔 Mark Hamill/凯丽·费雪 Carrie Fisher/彼得·库欣 Peter Cushing/亚利克·基尼斯 Alec Guinness/彼特·梅靥 Peter Mayhew/大卫·鲍罗斯 David Prowse/詹姆斯·厄尔·琼斯 James Earl Jones</p><p><span class="pl">评语</span> : 上映日期：1977-05-25&amp;1982-08-13&amp;1997-01-31 | 累计总票房：$460,998,007 | 制作预算：$1100万 | 发行厂牌：二十世纪福斯</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3395373" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3395373/"><img width="80" src="http://img3.douban.com/spic/s9127643.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-07-24 08:48:56添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/3395373/">蝙蝠侠：黑暗骑士崛起 The Dark Knight Rises</a>
+    
+    </div>
+    <p class="pl">导演 : 克里斯托弗·诺兰 Christopher Nolan<br/>主演 : 克里斯蒂安·贝尔 Christian Bale/汤姆·哈迪 Tom Hardy/安妮·海瑟薇 Anne Hathaway/约瑟夫·高登-莱维特 Joseph Gordon-Levitt/玛丽昂·歌迪亚 Marion Cotillard/加里·奥德曼 Gary Oldman/迈克尔·凯恩 Michael Caine/摩根·弗里曼 Morgan Freeman/朱诺·坦普尔 Juno Temple/乔什·平茨 Josh Pence/丹尼尔·逊亚塔 Daniel Sunjata/内斯特·卡博内尔 Nestor Carbonell/伯恩·乔曼 Burn Gorman/连姆·尼森 Liam Neeson/乔伊·金 Joey King/艾丹·吉伦 Aidan Gillen/希里安·墨菲 Cillian Murphy/乔什·斯图沃特 Josh Stewart/马修·莫迪恩 Matthew Modine/本·门德尔森 Ben Mendelsohn</p><p><span class="pl">评语</span> : 上映日期：2012-07-20；累计总票房：$448,139,099；成本预算：未知；发行厂牌：华纳</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1291582" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1291582/"><img width="80" src="http://img5.douban.com/spic/s4075289.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 01:41:55添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/1291582/">怪物史瑞克2 Shrek 2</a>
+    
+    </div>
+    <p class="pl">导演 : 安德鲁·亚当森 Andrew Adamson/凯利·阿斯博瑞 Kelly Asbury/康拉德·韦特 Conrad Veidt<br/>主演 : 麦克·梅尔斯 Mike Myers/艾迪·墨菲 Eddie Murphy/卡梅隆·迪亚茨 Cameron Diaz/朱丽·安德鲁斯 Julie Andrews/安东尼奥·班德拉斯 Antonio Banderas/约翰·克立斯 John Cleese/鲁伯特·艾弗雷特 Rupert Everett</p><p><span class="pl">评语</span> : 上映日期：2004-05-19；累计总票房：$441,226,247；成本预算：$1.5亿；发行厂牌：梦工场</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1294638" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1294638/"><img width="80" src="http://img3.douban.com/spic/s1325435.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 01:42:53添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/1294638/">E.T. 外星人 E.T.: The Extra-Terrestrial</a>
+    
+    </div>
+    <p class="pl">导演 : Steven Spielberg<br/>主演 : Henry Thomas/Dee Wallace/Robert MacNaughton/Drew Barrymore/Peter Coyote</p><p><span class="pl">评语</span> : 上映日期：1982-06-11|1985-07-19|2002-03-22；累计总票房：$435,110,554；成本预算：$1050万；发行厂牌：环球</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1315574" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1315574/"><img width="80" src="http://img3.douban.com/spic/s1648610.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 02:00:02添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/1315574/">加勒比海盗2：聚魂棺 Pirates of the Caribbean: Dead Man's Chest</a>
+    
+    </div>
+    <p class="pl">导演 : Gore Verbinski<br/>主演 : Johnny Depp/Orlando Bloom/Keira Knightley/Jack Davenport/Bill Nighy/Jonathan Pryce</p><p><span class="pl">评语</span> : 上映日期：2006-07-07；累计总票房：$423,315,812；制作预算：$2.25亿；发行厂牌：博伟（迪士尼）</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1301753" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1301753/"><img width="80" src="http://img3.douban.com/spic/s1879734.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 02:12:22添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/1301753/">狮子王 The Lion King</a>
+    
+    </div>
+    <p class="pl">导演 : Roger Allers/罗伯·明可夫 Rob Minkoff<br/>主演 : 乔纳森·泰勒·托马斯 Jonathan Taylor Thomas/马修·布罗德里克 Matthew Broderick/杰瑞米·艾恩斯 Jeremy Irons/詹姆斯·厄尔·琼斯 James Earl Jones/莫伊拉·凯利 Moira Kelly/内森·连恩 Nathan Lane/Niketa Calame/埃林·萨贝拉 Ernie Sabella/乌比·戈德堡 Whoopi Goldberg/罗温·艾金森 Rowan Atkinson</p><p><span class="pl">评语</span> : 上映日期：1994-06-15|2002-12-27（IMAX版）|2011-09-16（3D版）；累计总票房：$422,783,777；成本预算：$4500万；发行厂牌：博伟</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1858711" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1858711/"><img width="80" src="http://img3.douban.com/spic/s4207957.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2010-06-23 23:56:18添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/1858711/">玩具总动员3 Toy Story 3</a>
+    
+    </div>
+    <p class="pl">导演 : 李·昂克里奇 Lee Unkrich<br/>主演 : 汤姆·汉克斯 Tom Hanks/蒂姆·艾伦 Tim Allen/琼·库萨克 Joan Cusack/尼德·巴蒂 Ned Beatty/唐·里克斯 Don Rickles/迈克尔·基顿 Michael Keaton</p><p><span class="pl">评语</span> : 上映日期：2010-06-18；累计总票房：$415,004,880；成本预算：$2亿；发行厂牌：博伟</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3592853" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3592853/"><img width="80" src="http://img5.douban.com/spic/s7022429.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-03-27 09:19:57添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/3592853/">饥饿游戏 The Hunger Games</a>
+    
+    </div>
+    <p class="pl">导演 : 加里·罗斯 Gary Ross<br/>主演 : 詹妮弗·劳伦斯 Jennifer Lawrence/乔什·哈切森 Josh Hutcherson/利亚姆·海姆斯沃斯 Liam Hemsworth/韦斯·本特利 Wes Bentley/伊丽莎白·班克斯 Elizabeth Banks/史坦利·图齐 Stanley Tucci/伍迪·哈里森 Woody Harrelson/伊莎贝拉·弗尔曼 Isabelle Fuhrman/阿曼德拉·斯坦伯格  Amandla Stenberg/维罗·希尔兹 Willow Shields/唐纳德·萨瑟兰 Donald Sutherland/亚历山大·路德韦格 Alexander Ludwig/莱文·兰宾 Leven Rambin/杰克·奎德 Jack Quaid</p><p><span class="pl">评语</span> : 上映日期：2012-03-23；累计总票房：$408,010,692；成本预算：$7800万；发行厂牌：狮门</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1306612" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1306612/"><img width="80" src="http://img3.douban.com/spic/s2389262.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 02:00:27添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/1306612/">蜘蛛侠 Spider-Man</a>
+    
+    </div>
+    <p class="pl">导演 : 山姆·雷米 Sam Raimi<br/>主演 : Tobey Maguire/Kirsten Dunst/James Franco/Willem Dafoe/Cliff Robertson</p><p><span class="pl">评语</span> : 上映日期：2002-05-03；累计总票房：$403,706,375 ；成本预算：$1.39亿；廠牌：索尼/哥伦比亚 | 全球票房榜排名：NO.22</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2146991" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2146991/"><img width="80" src="http://img3.douban.com/spic/s3818395.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2009-06-29 02:20:37添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/2146991/">变形金刚2 Transformers: Revenge of the Fallen</a>
+    
+    </div>
+    <p class="pl">导演 : 迈克尔·贝 Michael Bay<br/>主演 : 希亚·拉博夫 Shia LaBeouf/梅根·福克斯 Megan Fox/乔什·杜哈明 Josh Duhamel/雨果·维文 Hugo Weaving/伊莎贝尔·卢卡斯 Isabel Lucas/约翰·特托罗 John Turturro</p><p><span class="pl">评语</span> : 上映日期：2009-06-24；累计总票房：$402,111,870；成本预算：$2亿；发行厂牌：派拉蒙/梦工场</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3011235" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3011235/"><img width="80" src="http://img3.douban.com/spic/s6776264.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-07-18 09:25:37添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/3011235/">哈利·波特与死亡圣器(下) Harry Potter and the Deathly Hallows: Part 2</a>
+    
+    </div>
+    <p class="pl">导演 : 大卫·叶茨 David Yates<br/>主演 : 丹尼尔·雷德克里夫 Daniel Radcliffe/艾玛·沃森 Emma Watson/鲁伯特·格林特 Rupert Grint/海伦娜·邦汉·卡特 Helena Bonham Carter/拉尔夫·费因斯 Ralph Fiennes/艾伦·瑞克曼 Alan Rickman/玛吉·史密斯 Maggie Smith/汤姆·费尔顿 Tom Felton/邦妮·赖特 Bonnie Wright/朱丽·沃特斯 Julie Walters/迈克尔·刚本 Michael Gambon/伊文娜·林奇 Evanna Lynch/多姆纳尔·格利森 Domhnall Gleeson/克蕾曼丝·波西 Clémence Poésy/詹森·艾萨克 Jason Isaacs/海伦·麦克洛瑞 Helen McCrory/马修·刘易斯 Matthew Lewis/梁佩诗 Katie Leung</p><p><span class="pl">评语</span> : 上映日期：2011-07-15；累计总票房：$381,011,219；成本预算：未知；发行厂牌：华纳</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1291586" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1291586/"><img width="80" src="http://img3.douban.com/spic/s1309404.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 02:09:16添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/1291586/">海底总动员 Finding Nemo</a>
+    
+    </div>
+    <p class="pl">导演 : 安德鲁·斯坦顿 Andrew Stanton/李·昂克里奇 Lee Unkrich<br/>主演 : 艾伯特·布鲁克斯 Albert Brooks/艾伦·德杰尼勒斯 Ellen DeGeneres/亚历山大·古尔德 Alexander Gould/威廉·达福 Willem Dafoe/布拉德·加内特 Brad Garrett/艾莉森·珍妮 Allison Janney/Austin Pendleton/斯蒂芬·鲁特 Stephen Root/杰弗里·拉什 Geoffrey Rush/伊丽莎白·帕金斯 Elizabeth Perkins</p><p><span class="pl">评语</span> : 上映日期：2003-05-30 | 2012-09-14（3D版重映）；累计总票房：$380,753,852；成本预算：$9400万；发行厂牌：博伟（迪士尼）</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1309078" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1309078/"><img width="80" src="http://img3.douban.com/spic/s1317738.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 02:01:02添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/1309078/">星球大战前传3：西斯的复仇 Star Wars: Episode III - Revenge of the Sith</a>
+    
+    </div>
+    <p class="pl">导演 : George Lucas<br/>主演 : Hayden Christensen/Natalie Portman/Ewan McGregor/Ian McDiarmid/Samuel L. Jackson/Jimmy Smits/Frank Oz/Christopher Lee/Keisha Castle-Hughes</p><p><span class="pl">评语</span> : 上映日期：2005-05-19；累计总票房：$380,270,577；成本预算：$1.13亿；发行厂牌：二十世纪福斯</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1291552" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1291552/"><img width="80" src="http://img3.douban.com/spic/s1309362.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 02:01:32添加</span>
+        19. 
+    <a href="http://movie.douban.com/subject/1291552/">指环王3：王者无敌 The Lord of the Rings: The Return of the King</a>
+    
+    </div>
+    <p class="pl">导演 : 彼得·杰克逊 Peter Jackson<br/>主演 : 维果·莫腾森 Viggo Mortensen/伊利亚·伍德 Elijah Wood/西恩·奥斯汀 Sean Astin/丽芙·泰勒 Liv Tyler/伊恩·麦克莱恩 Ian McKellen/奥兰多·布鲁姆 Orlando Bloom/凯特·布兰切特 Cate Blanchett/米兰达·奥图 Miranda Otto/安迪·瑟金斯 Andy Serkis/雨果·维文 Hugo Weaving/多米尼克·莫纳汉 Dominic Monaghan/比利·博伊德 Billy Boyd/马尔顿·索克斯 Marton Csokas/卡尔·厄本 Karl Urban/克里斯托弗·李 Christopher Lee/约翰·瑞斯-戴维斯 John Rhys-Davies</p><p><span class="pl">评语</span> : 上映日期：2003-12-17；累計票房：$377,027,325；成本预算：$9400万；发行厂牌：新线</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1308570" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1308570/"><img width="80" src="http://img3.douban.com/spic/s2389264.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 02:01:57添加</span>
+        20. 
+    <a href="http://movie.douban.com/subject/1308570/">蜘蛛侠2 Spider-Man 2</a>
+    
+    </div>
+    <p class="pl">导演 : 山姆·雷米 Sam Raimi<br/>主演 : 托比·马奎尔 Tobey Maguire/克尔斯滕·邓斯特 Kirsten Dunst/詹姆斯·弗兰科 James Franco/阿尔弗雷德·莫里纳 Alfred Molina/罗斯玛丽·哈里斯 Rosemary Harris/J·K·西蒙斯 J.K. Simmons/威廉·达福 Willem Dafoe/克里夫·罗伯逊 Cliff Robertson/伊丽莎白·班克斯 Elizabeth Banks</p><p><span class="pl">评语</span> : 上映日期：2004-06-30；累計票房：$373,585,825；成本预算：$2亿；发行厂牌：索尼/哥伦比亚</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1308750" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1308750/"><img width="80" src="http://img3.douban.com/spic/s2595792.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 02:06:53添加</span>
+        21. 
+    <a href="http://movie.douban.com/subject/1308750/">耶稣受难记 The Passion of the Christ</a>
+    
+    </div>
+    <p class="pl">导演 : Mel Gibson<br/>主演 : James Caviezel/Maia Morgenstern/Christo Jivkov/Francesco De Vito/Monica Bellucci</p><p><span class="pl">评语</span> : 上映日期：2004-02-25|2005-03-11；累计总票房：$370,782,930；成本预算：$3000万；发行厂牌：新市场</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1292523" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1292523/"><img width="80" src="http://img3.douban.com/spic/s1325502.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 02:08:25添加</span>
+        22. 
+    <a href="http://movie.douban.com/subject/1292523/">侏罗纪公园 Jurassic Park</a>
+    
+    </div>
+    <p class="pl">导演 : Steven Spielberg<br/>主演 : Sam Neill/Laura Dern/Jeff Goldblum/Richard Attenborough/Samuel L. Jackson</p><p><span class="pl">评语</span> : 上映日期：1993-06-11；累计总票房：$357,067,947；成本预算：$6300万 ；发行厂牌：环球</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3610047" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3610047/"><img width="80" src="http://img3.douban.com/spic/s6794944.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2011-07-05 13:46:09添加</span>
+        23. 
+    <a href="http://movie.douban.com/subject/3610047/">变形金刚3 Transformers: Dark of the Moon</a>
+    
+    </div>
+    <p class="pl">导演 : 迈克尔·贝 Michael Bay<br/>主演 : 希亚·拉博夫 Shia LaBeouf/罗茜·汉丁顿-惠特莉 Rosie Huntington-Whiteley/乔什·杜哈明 Josh Duhamel/泰瑞斯·吉布森 Tyrese Gibson/约翰·马尔科维奇 John Malkovich/弗兰西斯·麦克多蒙德 Frances McDormand/郑肯 Ken Jeong/凯文·杜恩 Kevin Dunn (I)/朱丽叶·怀特 Julie White (I)/帕特里克·德姆西 Patrick Dempsey (I)/艾伦·图代克 Alan Tudyk</p><p><span class="pl">评语</span> : 上映日期：2011-06-29；累计总票房：$352,390,543；成本预算：$1.95亿；发行厂牌：派拉蒙</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1291572" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1291572/"><img width="80" src="http://img3.douban.com/spic/s1309386.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 02:08:50添加</span>
+        24. 
+    <a href="http://movie.douban.com/subject/1291572/">指环王2：双塔奇兵 The Lord of the Rings: The Two Towers</a>
+    
+    </div>
+    <p class="pl">导演 : 彼得·杰克逊 Peter Jackson<br/>主演 : 伊利亚·伍德 Elijah Wood/西恩·奥斯汀 Sean Astin/伊恩·麦克莱恩 Ian McKellen/维果·莫腾森 Viggo Mortensen/奥兰多·布鲁姆 Orlando Bloom/克里斯托弗·李 Christopher Lee/丽芙·泰勒 Liv Tyler/安迪·瑟金斯 Andy Serkis/雨果·维文 Hugo Weaving/卡尔·厄本 Karl Urban/凯特·布兰切特 Cate Blanchett/多米尼克·莫纳汉 Dominic Monaghan/大卫·文翰 David Wenham/比利·博伊德 Billy Boyd/布拉德·道里夫 Brad Dourif/伯纳德·希尔 Bernard Hill/约翰·瑞斯-戴维斯 John Rhys-Davies</p><p><span class="pl">评语</span> : 上映日期：2002-12-18|2003-12-12；累计总票房：$341,786,758；成本预算：$9400万；发行厂牌：新线</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1418189" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1418189/"><img width="80" src="http://img3.douban.com/spic/s1927820.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2007-12-27 02:09:56添加</span>
+        25. 
+    <a href="http://movie.douban.com/subject/1418189/">蜘蛛侠3 Spider-Man 3</a>
+    
+    </div>
+    <p class="pl">导演 : Sam Raimi<br/>主演 : Tobey Maguire/Kirsten Dunst/Thomas Haden Church/James Franco/Topher Grace/Bryce Dallas Howard/Rosemary Harris/Theresa Russell/Elizabeth Banks</p><p><span class="pl">评语</span> : 上映日期：2007-05-04；累计总票房：$336,530,303；成本预算：$2.58亿；发行厂牌：索尼/哥伦比亚</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    <div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/doulist/114465/?start=25&filter=">2</a><a href="http://movie.douban.com/doulist/114465/?start=50&filter=">3</a><a href="http://movie.douban.com/doulist/114465/?start=75&filter=">4</a><a href="http://movie.douban.com/doulist/114465/?start=100&filter=">5</a><a href="http://movie.douban.com/doulist/114465/?start=125&filter=">6</a><a href="http://movie.douban.com/doulist/114465/?start=150&filter=">7</a><a href="http://movie.douban.com/doulist/114465/?start=175&filter=">8</a><a href="http://movie.douban.com/doulist/114465/?start=200&filter=">9</a><span class="break">...</span><a href="http://movie.douban.com/doulist/114465/?start=225&filter=">10</a><a href="http://movie.douban.com/doulist/114465/?start=250&filter=">11</a><span class="next"><a href="http://movie.douban.com/doulist/114465/?start=25&filter=">后页&gt;</a><link rel="next" href="http://movie.douban.com/doulist/114465/?start=25&filter="/></span></div>
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2>最新留言 · · · · · ·  <span class="pl">( <a href="http://movie.douban.com/doulist/114465/comments">查看全部</a> )</span></h2><ul class="mbt"><li class="mbtl"><a href="http://www.douban.com/people/62892043/"><img src="http://img3.douban.com/icon/u62892043-2.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/114465/comments#c-270304">静谧飞行 : 一网打尽，金眼睛艺术电影资料馆51dvd.taobao.com</a><span class="pl">  2012-08-02 11:43</span></li><li class="mbtl"><a href="http://www.douban.com/people/48140577/"><img src="http://img3.douban.com/icon/user_normal.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/114465/comments#c-268104">goldenbear : 这些数据也太失真了，应该看全球总票房吧。
+
+
+《2012》全球7亿6千万美金
+Total Lifetime Grosses
+Domestic:  $166,112,167    21.6% 
++ Fore...</a><span class="pl">  2012-07-05 12:54</span></li><li class="mbtl"><a href="http://www.douban.com/people/matlab/"><img src="http://img3.douban.com/icon/u3978117-1.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/114465/comments#c-253998">架构师 : 怪物史莱克还好，排前面的主要是蜘蛛侠太多了</a><span class="pl">  2012-01-15 17:52</span></li><li class="mbtl"><a href="http://www.douban.com/people/2642675/"><img src="http://img3.douban.com/icon/u2642675-22.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/114465/comments#c-252434">张泡沫小姐。 : 意思是2012连成本都没有收回来？</a><span class="pl">  2011-12-25 00:01</span></li><li class="mbtl"><a href="http://www.douban.com/people/vivian8827/"><img src="http://img3.douban.com/icon/user_normal.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/114465/comments#c-249742">[已注销] : 刚去维基百科搜到的《假结婚》Budget $40 million[1] 
+Box office $317,375,031 
+</a><span class="pl">  2011-11-19 19:35</span></li></ul><h2 style="margin-top:30px">荔枝超人的其他电影豆列  · · · · · ·  </h2>
+        <style>.dlistp p{margin-top:4px;border-bottom:1px #ddd dashed;padding-bottom:4px}</style>
+        <div class="dlistp"><p><a href="http://movie.douban.com/doulist/171140/">【2009年国内公映电影排期】</a></p> <p><a href="http://movie.douban.com/doulist/130411/">《我生命中的电影》</a></p> <p><a href="http://movie.douban.com/doulist/114064/">【2008年国内公映电影排期】</a></p> <p><a href="http://movie.douban.com/doulist/215124/">【2010年国内公映电影排期】</a></p> <p><a href="http://movie.douban.com/doulist/233916/">【2011年国内公映电影排期】</a></p> </div><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper6 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

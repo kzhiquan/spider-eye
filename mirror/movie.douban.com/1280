@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>与吸血鬼有个约会</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="与吸血鬼有个约会">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>与吸血鬼有个约会</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/Jerry-feng/"><img src="http://img3.douban.com/icon/u48849613-145.jpg" align="left" alt="沐风而遇周星星"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/Jerry-feng/">沐风而遇周星星 (北京)</a><br />
+        创建时间: 2012-10-15 21:41:37　最后修改时间: 2012-11-22 10:44:31</p><p class="indent">　　吸血鬼俊美邪魅，杀人于春宵一刻。<br/>　　<br/>　　（收录吸血鬼题材电影电视剧动漫，依据经典程度及热度排序）<br/></p>
+        </div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-1690852"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">22人</span>
+</div>
+<div class="filters">全部电影(76)</div>
+    <p id="sb1299327" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1299327/"><img width="80" src="http://img3.douban.com/spic/s1325497.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 21:44:38添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/1299327/">夜访吸血鬼 Interview with the Vampire: The Vampire Chronicles</a>
+    
+    </div>
+    <p class="pl">导演 : 尼尔·乔丹 Neil Jordan<br/>主演 : 布拉德·皮特 Brad Pitt/汤姆·克鲁斯 Tom Cruise/克斯汀·邓斯特 Kirsten Dunst/安东尼奥·班德拉斯 Antonio Banderas/桑迪·牛顿 Thandie Newton/克里斯汀·史莱特 Christian Slater</p><p><span class="pl">评语</span> : 俊美吸血鬼，基情2鬼组。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1306078" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1306078/"><img width="80" src="http://img3.douban.com/spic/s3187498.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:54:18添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/1306078/">坏品位 Bad Taste</a>
+    
+    </div>
+    <p class="pl">导演 : Peter Jackson<br/>主演 : Terry Potter/Pete O'Herne/Craig Smith/Mike Minett/Peter Jackson</p><p><span class="pl">评语</span> : 屌爆了的彼得·杰克逊式cult片</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1301409" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1301409/"><img width="80" src="http://img3.douban.com/spic/s1892263.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:31:44添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/1301409/">杀出个黎明 From Dusk Till Dawn</a>
+    
+    </div>
+    <p class="pl">导演 : Robert Rodriguez<br/>主演 : 乔治·克鲁尼 George Clooney/昆汀·塔伦蒂诺 Quentin Tarantino/哈威·凯特尔 Harvey Keitel/朱丽叶特·刘易斯 Juliette Lewis/萨尔玛·海耶克 Salma Hayek/迈克尔·帕克斯 Michael Parks/丹尼·特乔 Danny Trejo</p><p><span class="pl">评语</span> : 公路片最后变成了吸血鬼僵尸片！</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1293124" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1293124/"><img width="80" src="http://img3.douban.com/spic/s3761378.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 21:44:38添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/1293124/">惊情四百年 Dracula</a>
+    
+    </div>
+    <p class="pl">导演 : Francis Ford Coppola<br/>主演 : Gary Oldman/Winona Ryder/Anthony Hopkins/Keanu Reeves/Richard E. Grant/Cary Elwes/Bill Campbell/Sadie Frost/Tom Waits/Monica Bellucci</p><p><span class="pl">评语</span> : 中规中矩吸血鬼</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2968813" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2968813/"><img width="80" src="http://img3.douban.com/spic/s2876246.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:42:44添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/2968813/">生人勿进 Låt den rätte komma in</a>
+    
+    </div>
+    <p class="pl">导演 : Tomas Alfredson<br/>主演 : Kåre Hedebrant/Lina Leandersson/Per Ragnar/Henrik Dahl/Karin Bergquist/Peter Carlberg</p><p><span class="pl">评语</span> : 诗意且温情的吸血鬼题材爱情电影</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3646523" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3646523/"><img width="80" src="http://img3.douban.com/spic/s3904912.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:11:13添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/3646523/">吸血鬼日记 第一季 The Vampire Diaries Season 1</a>
+    
+    </div>
+    <p class="pl">导演 : Marcos Siega<br/>主演 : 妮娜·杜波夫 Nina Dobrev/保罗·韦斯利 Paul Wesley/伊恩·萨默海尔德 Ian Somerhalder/史蒂夫·R·麦奎因 Steven R. McQueen/卡特琳娜·格兰厄姆 Katerina Graham/坎迪丝·阿科拉 Candice Accola/扎齐·罗伊瑞格 Zach Roerig/迈克尔·特瑞威诺 Michael Trevino/莎拉·坎宁 Sara Canning</p><p><span class="pl">评语</span> : 热门美剧吸血鬼日记1</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4905040" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4905040/"><img width="80" src="http://img3.douban.com/spic/s4464190.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:12:01添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/4905040/">吸血鬼日记  第二季 The Vampire Diaries  Season 2</a>
+    
+    </div>
+    <p class="pl">导演 : 马科斯·西恩加 Marcos Siega/Kevin Bray<br/>主演 : 妮娜·杜波夫 Nina Dobrev/保罗·韦斯利 Paul Wesley/伊恩·萨默海尔德 Ian Somerhalder/史蒂夫·R·麦奎因 Steven R. McQueen/莎拉·坎宁 Sara Canning/卡特琳娜·格兰厄姆 Katerina Graham/坎迪丝·阿科拉 Candice Accola/扎齐·罗伊瑞格 Zach Roerig/迈克尔·特瑞威诺 Michael Trevino/马修·戴维斯 Matthew Davis/玛格丽特·马科林苔 Marguerite MacIntyre/苏珊·沃尔特斯 Susan Walters/玛莱斯·裘 Malese Jow/大卫·安德斯 David Anders/丹尼尔·吉里斯 Daniel Gillies/凯拉·伊薇儿 Kayla Ewell/约瑟夫 摩根 Joseph Morgan/泰勒·金尼 Taylor Kinney</p><p><span class="pl">评语</span> : 热门美剧吸血鬼日记2</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6714078" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6714078/"><img width="80" src="http://img3.douban.com/spic/s6982163.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:12:58添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/6714078/">吸血鬼日记 第三季 The Vampire Diaries Season 3</a>
+    
+    </div>
+    <p class="pl">导演 : 马科斯·西恩加 Marcos Siega<br/>主演 : 妮娜·杜波夫 Nina Dobrev/保罗·韦斯利 Paul Wesley/伊恩·萨默海尔德 Ian Somerhalder/史蒂夫·R·麦奎因 Steven R. McQueen/约瑟夫·摩根 Joseph Morgan</p><p><span class="pl">评语</span> : 热门美剧吸血鬼日记3</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10733231" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10733231/"><img width="80" src="http://img3.douban.com/spic/s11134323.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:14:19添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/10733231/">吸血鬼日记 第四季 The Vampire Diaries Season 4</a>
+    
+    </div>
+    <p class="pl">导演 : 马科斯·西恩加 等<br/>主演 : 妮娜·杜波夫/保罗·韦斯利/伊恩·萨默海尔德/约瑟夫·摩根/史蒂夫·R·麦奎因/迈克尔·特瑞威诺/坎迪丝·阿科拉/玛姬·格蕾斯/卡特琳娜·格兰厄姆 Katerina Graham</p><p><span class="pl">评语</span> : 热门美剧吸血鬼日记4</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4889423" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4889423/"><img width="80" src="http://img3.douban.com/spic/s3265084.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 23:09:34添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/4889423/">真爱如血  第一季 True Blood  Season 1</a>
+    
+    </div>
+    <p class="pl">导演 : 艾伦·鲍尔 Alan Ball/麦克·勒曼 Michael Lehmann/Scott Winant<br/>主演 : 安娜·帕奎因 Anna Paquin/史蒂芬·莫耶 Stephen Moyer/山姆·特拉梅尔 Sam Trammell/瑞恩·柯万腾 Ryan Kwanten/Rutina Wesley/亚历山大·斯卡斯加德 Alexander Skarsgård/克里斯汀·鲍尔 Kristin Bauer/黛博拉·安沃尔 Deborah Ann Woll</p><p><span class="pl">评语</span> : 热门美剧真爱如血1</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3686352" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3686352/"><img width="80" src="http://img3.douban.com/spic/s3838796.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 23:10:23添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/3686352/">真爱如血  第二季 True Blood  Season 2</a>
+    
+    </div>
+    <p class="pl"><br/>主演 : 安娜·帕奎因 Anna Paquin/史蒂芬·莫耶 Stephen Moyer/山姆·特拉梅尔 Sam Trammell/瑞恩·柯万腾 Ryan Kwanten/亚历山大·斯卡斯加德 Alexander Skarsgård/埃文·蕾切尔·伍德 Evan Rachel Wood/克里斯汀·鲍尔 Kristin Bauer/黛博拉·安沃尔 Deborah Ann Woll/米歇尔·佛贝丝 Michelle Forbes</p><p><span class="pl">评语</span> : 热门美剧真爱如血2</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4073750" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4073750/"><img width="80" src="http://img3.douban.com/spic/s4235993.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 23:10:59添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/4073750/">真爱如血  第三季 True Blood  Season 3</a>
+    
+    </div>
+    <p class="pl">导演 : 艾伦·鲍尔 Alan Ball<br/>主演 : 安娜·帕奎因 Anna Paquin/史蒂芬·莫耶 Stephen Moyer/亚历山大·斯卡斯加德 Alexander Skarsgård/尼尔森·埃利斯 Nelsan Ellis/克里斯汀·鲍尔 Kristin Bauer/埃文·蕾切尔·伍德 Evan Rachel Wood/黛博拉·安沃尔 Deborah Ann Woll/丹尼斯·欧哈拉 Denis O'Hare</p><p><span class="pl">评语</span> : 热门美剧真爱如血3</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5503435" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5503435/"><img width="80" src="http://img3.douban.com/spic/s6388525.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 23:11:21添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/5503435/">真爱如血  第四季 True Blood  Season 4</a>
+    
+    </div>
+    <p class="pl">导演 : 艾伦·鲍尔 Alan Ball<br/>主演 : 安娜·帕奎因 Anna Paquin/亚历山大·斯卡斯加德 Alexander Skarsgård/史蒂芬·莫耶 Stephen Moyer/黛博拉·安沃尔 Deborah Ann Woll/克里斯汀·鲍尔 Kristin Bauer/瑞恩·柯万腾 Ryan Kwanten/山姆·特拉梅尔 Sam Trammell</p><p><span class="pl">评语</span> : 热门美剧真爱如血4</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb7161587" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/7161587/"><img width="80" src="http://img5.douban.com/spic/s9085709.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 23:11:35添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/7161587/">真爱如血  第五季 True Blood  Season 5</a>
+    
+    </div>
+    <p class="pl"><br/>主演 : 安娜·帕奎因 Anna Paquin/史蒂芬·莫耶 Stephen Moyer/山姆·特拉梅尔 Sam Trammell/瑞恩·柯万腾 Ryan Kwanten/亚历山大·斯卡斯加德 Alexander Skarsgård/尼尔森·埃利斯 Nelsan Ellis/乔·曼根尼罗 Joe Manganiello/丹尼斯·欧哈拉 Denis O'Hare/克里斯汀·鲍尔 Kristin Bauer/黛博拉·安沃尔 Deborah Ann Woll</p><p><span class="pl">评语</span> : 热门美剧真爱如血5</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2268359" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2268359/"><img width="80" src="http://img3.douban.com/spic/s3077934.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:05:39添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/2268359/">暮光之城 Twilight</a>
+    
+    </div>
+    <p class="pl">导演 : 凯瑟琳·哈德威克 Catherine Hardwicke<br/>主演 : 克里斯汀·斯图尔特 Kristen Stewart/罗伯特·帕丁森 Robert Pattinson/比利·伯克 Billy Burke/阿什丽·格林尼 Ashley Greene/妮基·瑞德 Nikki Reed/泰勒·洛特纳 Taylor Lautner/艾迪·盖瑟吉 Edi Gathegi</p><p><span class="pl">评语</span> : 畅销小说暮光之城改编电影1</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3148027" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3148027/"><img width="80" src="http://img3.douban.com/spic/s3789780.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:07:09添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/3148027/">暮光之城2：新月 The Twilight Saga: New Moon</a>
+    
+    </div>
+    <p class="pl">导演 : Chris Weitz<br/>主演 : 克里斯汀·斯图尔特 Kristen Stewart/罗伯特·帕丁森 Robert Pattinson/泰勒·洛特纳 Taylor Lautner/达科塔·范宁 Dakota Fanning/安娜·肯德里克 Anna Kendrick/杰米·坎贝尔·鲍尔 Jamie Campbell Bower/阿什丽·格林尼 Ashley Greene/麦克·辛 Michael Sheen/杰克逊·拉斯波恩 Jackson Rathbone/妮基·瑞德 Nikki Reed/彼得·费辛利 Peter Facinelli/凯南·鲁兹 Kellan Lutz/伊莉莎白·里瑟 Elizabeth Reaser</p><p><span class="pl">评语</span> : 畅销小说暮光之城改编电影2</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3289086" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3289086/"><img width="80" src="http://img3.douban.com/spic/s4233495.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:08:01添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/3289086/">暮光之城3：月蚀 The Twilight Saga: Eclipse</a>
+    
+    </div>
+    <p class="pl">导演 : 大卫·斯雷德 David Slade<br/>主演 : 克里斯汀·斯图尔特 Kristen Stewart/罗伯特·帕丁森 Robert Pattinson/泰勒·洛特纳 Taylor Lautner/比利·伯克 Billy Burke/阿什丽·格林尼 Ashley Greene/杰克逊·拉斯波恩 Jackson Rathbone/妮基·瑞德 Nikki Reed/凯南·鲁兹 Kellan Lutz/伊莉莎白·里瑟 Elizabeth Reaser/彼得·费辛利 Peter Facinelli/吉尔·伯明翰 Gil Birmingham/克里斯蒂·瑟拉图斯 Christian Serratos/安娜·肯德里克 Anna Kendrick/祖蒂·弗兰 Jodelle Ferland</p><p><span class="pl">评语</span> : 畅销小说暮光之城改编电影3</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb3289081" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/3289081/"><img width="80" src="http://img3.douban.com/spic/s6998911.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:09:03添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/3289081/">暮光之城4：破晓(上) The Twilight Saga: Breaking Dawn - Part 1</a>
+    
+    </div>
+    <p class="pl">导演 : 比尔·康顿 Bill Condon<br/>主演 : 罗伯特·帕丁森 Robert Pattinson/克里斯汀·斯图尔特 Kristen Stewart/泰勒·洛特纳 Taylor Lautner/杰克逊·拉斯波恩 Jackson Rathbone/阿什丽·格林尼 Ashley Greene/安娜·肯德里克 Anna Kendrick/妮基·瑞德 Nikki Reed/彼得·费辛利 Peter Facinelli</p><p><span class="pl">评语</span> : 畅销小说暮光之城改编电影4（上）</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4889554" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4889554/"><img width="80" src="http://img3.douban.com/spic/s24338297.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:09:31添加</span>
+        19. 
+    <a href="http://movie.douban.com/subject/4889554/">暮光之城4：破晓(下) The Twilight Saga: Breaking Dawn - Part 2</a>
+    
+    </div>
+    <p class="pl">导演 : 比尔·康顿 Bill Condon<br/>主演 : 罗伯特·帕丁森 Robert Pattinson/克里斯汀·斯图尔特 Kristen Stewart/泰勒·洛特纳 Taylor Lautner/杰克逊·拉斯波恩 Jackson Rathbone/阿什丽·格林尼 Ashley Greene/安娜·肯德里克 Anna Kendrick/妮基·瑞德 Nikki Reed/彼得·费辛利 Peter Facinelli/伊莉莎白·里瑟 Elizabeth Reaser/凯南·鲁兹 Kellan Lutz/达科塔·范宁 Dakota Fanning/麦克·辛 Michael Sheen/杰米·坎贝尔·鲍尔 Jamie Campbell Bower/李·佩斯 Lee Pace/麦肯吉·弗依 Mackenzie Foy</p><p><span class="pl">评语</span> : 畅销小说暮光之城改编电影4（下）</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4901335" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4901335/"><img width="80" src="http://img3.douban.com/spic/s4430505.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:15:13添加</span>
+        20. 
+    <a href="http://movie.douban.com/subject/4901335/">暮色大电影 Vampires Suck</a>
+    
+    </div>
+    <p class="pl">导演 : 贾森·弗莱德伯格 Jason Friedberg/Aaron Seltzer<br/>主演 : 珍·普罗斯克  Jenn Proske/马特·兰特尔 Matt Lanter/戴德里克·巴德 Diedrich Bader/克里斯·里吉 Chris Riggi/郑肯 Ken Jeong/Anneliese van der Pol/David DeLuise/Kelsey Heart/Dave Foley/Jeff Witzke/Crista Flanagan</p><p><span class="pl">评语</span> : 恶搞暮光之城系列</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb2138885" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/2138885/"><img width="80" src="http://img3.douban.com/spic/s2697827.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-18 19:26:18添加</span>
+        21. 
+    <a href="http://movie.douban.com/subject/2138885/">血色月光 Moonlight</a>
+    
+    </div>
+    <p class="pl">导演 : Rod Holcomb/Michael Fields<br/>主演 : 索非亚·迈尔斯 Sophia Myles/艾历克斯·奥洛林 Alex O'Loughlin/杰森·多灵 Jason Dohring</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4326412" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4326412/"><img width="80" src="http://img3.douban.com/spic/s7024887.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:22:39添加</span>
+        22. 
+    <a href="http://movie.douban.com/subject/4326412/">亚伯拉罕·林肯：吸血鬼猎人 Abraham Lincoln: Vampire Hunter</a>
+    
+    </div>
+    <p class="pl">导演 : 提莫·贝克曼贝托夫 Timur Bekmambetov<br/>主演 : 本杰明·沃克 Benjamin Walker/卢夫斯·塞维尔 Rufus Sewell/多米尼克·库珀 Dominic Cooper/玛丽·伊丽莎白·文斯蒂德 Mary Elizabeth Winstead/艾琳·沃森 Erin Wasson/马尔顿·索克斯 Marton Csokas/吉米·辛普森 Jimmi Simpson</p><p><span class="pl">评语</span> : 林肯也成吸血鬼猎人</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1298120" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1298120/"><img width="80" src="http://img3.douban.com/spic/s24594506.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:36:28添加</span>
+        23. 
+    <a href="http://movie.douban.com/subject/1298120/">刀锋战士 Blade</a>
+    
+    </div>
+    <p class="pl">导演 : Stephen Norrington<br/>主演 : Wesley Snipes/Stephen Dorff/Kris Kristofferson/N'Bushe Wright/Donal Logue</p><p><span class="pl">评语</span> : 打斗很帅</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1306894" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1306894/"><img width="80" src="http://img3.douban.com/spic/s1796518.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:37:27添加</span>
+        24. 
+    <a href="http://movie.douban.com/subject/1306894/">刀锋战士2 Blade II</a>
+    
+    </div>
+    <p class="pl">导演 : Guillermo del Toro<br/>主演 : Wesley Snipes/Kris Kristofferson/Ron Perlman/Leonor Varela/Norman Reedus/Thomas Kretschmann/甄子丹 Donnie Yen</p><p><span class="pl">评语</span> : 打斗很棒</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb1308978" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/1308978/"><img width="80" src="http://img3.douban.com/spic/s1326083.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-15 22:38:35添加</span>
+        25. 
+    <a href="http://movie.douban.com/subject/1308978/">刀锋战士3 Blade: Trinity</a>
+    
+    </div>
+    <p class="pl">导演 : 大卫·S·高耶 David S. Goyer<br/>主演 : 韦斯利·斯奈普斯 Wesley Snipes/克里斯·克里斯托佛森 Kris Kristofferson/多米尼克·珀塞尔 Dominic Purcell/杰西卡·贝尔 Jessica Biel/瑞恩·雷诺兹 Ryan Reynolds/叶芳华 Françoise Yip</p><p><span class="pl">评语</span> : 打斗酷炫</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    <div class="paginator"><span class="prev">&lt;前页</span><span class="thispage">1</span><a href="http://movie.douban.com/doulist/1690852/?start=25&filter=">2</a><a href="http://movie.douban.com/doulist/1690852/?start=50&filter=">3</a><a href="http://movie.douban.com/doulist/1690852/?start=75&filter=">4</a><span class="next"><a href="http://movie.douban.com/doulist/1690852/?start=25&filter=">后页&gt;</a><link rel="next" href="http://movie.douban.com/doulist/1690852/?start=25&filter="/></span></div>
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2 style="margin-top:30px">沐风而遇周星星的其他电影豆列  · · · · · ·  </h2>
+        <style>.dlistp p{margin-top:4px;border-bottom:1px #ddd dashed;padding-bottom:4px}</style>
+        <div class="dlistp"><p><a href="http://movie.douban.com/doulist/1390334/">那些让人欲罢不能的经典丧尸片</a></p> </div><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper2 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>

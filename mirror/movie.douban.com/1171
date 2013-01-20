@@ -1,0 +1,1073 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-webkit">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>
+        为什么说电影《黑客帝国》重新阐释了存在主义哲学？ (黑客帝国 影评)
+</title>
+    
+
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    <meta name="keywords" content="黑客帝国,The Matrix,影评,评论,观后感"/>
+    <meta name="description" content="为什么说电影《黑客帝国》重新阐释了存在主义哲学？" />
+    <meta http-equiv="mobile-agent" content="format=xhtml; url=http://m.douban.com/movie/review/5746914/">
+
+    <script >var _head_start = new Date();</script>
+    <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script>
+    <script src="http://img3.douban.com/js/packed_douban1000047119.js"></script>
+    <link href="http://img3.douban.com/css/packed_douban3283200863.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    
+        
+    </style>
+    
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/3f45551276fb584e.css">
+    <script></script>
+
+    <link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+    
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+    <h1><span property="v:summary">为什么说电影《黑客帝国》重新阐释了存在主义哲学？</span></h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+	  
+    <div class="obss" xmlns:v="http://rdf.data-vocabulary.org/#" typeof="v:Review">
+        <div class="piil">
+            <a onclick="moreurl(this, {from:'mv_rv_au_icon'})" href="http://movie.douban.com/people/chouhe/">
+                <img class="pil" src="http://img3.douban.com/icon/u59842885-20.jpg">
+            </a>
+        </div>
+        <div class="piir">
+            <span property="v:dtreviewed" content="2013-01-19" class="mn">2013-01-19 15:21:26</span>            <span class="pl2">　　                来自: <a onclick="moreurl(this, {from:'mv_rv_au_name'})" href="http://movie.douban.com/people/chouhe/"><span property="v:reviewer">chou_he</span></a>
+                    (无话可说)
+                <br/>
+                <a onclick="moreurl(this, {from:'mv_rv_sbj_l'})"  href="http://movie.douban.com/subject/1291843/"><span property="v:itemreviewed">
+    
+The Matrix / 黑客帝国</span></a>的评论
+<span title="推荐">&nbsp;&nbsp;<img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="4 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="4 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="4 star rating"/><img class="rating" src="http://img3.douban.com/pics/st.gif" vspace="0" alt="4 star rating"/><img src="http://img3.douban.com/pics/nst.gif" alt=" "/></span>
+
+                <span property="v:rating" style="color: #fff">4</span>
+
+            </span>
+            <br/><br/> 
+
+            <div id="link-report">
+                <span property="v:description">　　原帖发表于知乎（图文并茂版）：http://www.zhihu.com<wbr/>/question/19954191/a<wbr/>nswer/15967628<br/>　　<br/>　　<br/>　　《黑客帝国》是直接受到了日本导演押井守的《攻壳机动队》（95年）的启发才诞生的，这部电影当时在整个西方引发巨大的震动。而任何没有提到《攻壳机动队》就惶惶然谈论《黑客帝国》的所谓海德格尔的存在主义都是不负责任的无意识的耍流氓行为。<br/>　　关于理解《攻壳机动队》这部形而上的动画电影，其英文标题是Ghost in the Shell,即包裹在躯壳中的灵魂，其思想渊源主要来自笛卡尔的二元对立存在主义、科幻系列题材赛博朋克（cyberpunk）中的典型意识流传承，以及哈拉维博士发表的《赛博格（cyborg）宣言》（即在未来中我们人类一旦脱离肉体的控制与束缚，我们所诉求的新未来社会理当将成为什么样子）。《黑客帝国》实际上也没有脱离上述的关键点。<br/>　　PS.<br/>　　当然，不得不提到这两部作品中都出现的中国元素（实际上是“香港”而不是“中国”元素），这是赛博朋克中典型的科幻设定，因为“香港”这座城市，包括香港电影传输给西方世界的“中国功夫”观，是最典型的科幻未来都市，多元文化杂交，贫富差距悬殊，政治地位特别（既相对独立于母体中国大陆，又是典型的后殖民城市）。同样的类似香港圣地还包括日本城市，或者说印尼语的东南亚城市。<br/>　　<br/>　　以上，点到为止。<br/>　　————————————————————————<br/>　　以下，详细说明。<br/>　　呃，先声明本人海德格尔学得很烂的，对《黑客帝国》也没有特别的研究，不过看了下豆瓣评论上那些一看就知道是这辈子没和科幻打交道的妹子们拿着一大套主义的扯淡去过度解读《黑客帝国》而且错误百出OTZ……这不科学。那就与上面的答案做个分界线，下面就教你以“正确的方式”打开《黑客帝国》，或者，了解赛博朋克（cyberpunk）（另，本人为下文中但凡出现的所有错误负责并致歉。）<br/>　　<br/>　　《黑客帝国》就是一部标准的赛博朋克。<br/>　　整部电影真正值得称道的只有它的电影特效（如Bullet time）和视觉设计（尽管大部分视觉美术设计直接沿袭《攻壳》，应该夸奖抄得不错？）。1999年的《黑客帝国》是1995年的《攻壳机动队》（监督：押井守）的直接催生产物。下面将要谈论并引申开来的只有这两部创世的电影，它们的后续作品尽管依然延续了前作的高水准制作和世界观理念，但主要作为圈钱的产物，其开天辟地的里程碑的意义已经大大消减。<br/>　　<br/>　　一、黑客其实没有那么多主义<br/>　　<br/>　　不要扯淡“Matrix”是什么意思，就是从某位科幻大神的作品中抽取出来&quot;致敬&quot;的名词（考证随后），这是所有科幻作品的致敬传统，不表。《黑客帝国》的电影似乎向了很多宗教（印度教、佛教、犹太教、基督教）、哲学上的的主义和理念（柏拉图的洞穴、笛卡尔的我思、萨特的存在主义、后现代主义……）和大神（所有的科幻大神、或者爱丽丝漫游的奇幻作者）致敬，但这恰好说明它没有什么真正的创新精神，只是一脉相承的科幻作品产物（后文再述其具体的世界观，即赛博格的理解方式）。当然如果要做文学批评，又不热爱科幻，那么不扯几个这种形而上学的理论来夸夸其谈地分析电影文本是不合格的评论，因此这种装逼现象是可以理解的。<br/>　　下面我来举个装逼被雷劈的例子：被粉丝津津乐道的鲍德里亚作品《仿真和拟像》在电影中特别出现的表征与意味，鲍德里亚本人在《卫报》记者采访中直接揭穿老底protest：这根本不是老子的东西，老子的哲学被这部电影完全扭曲掉了好么！（新闻链接：http://www.guardian.<wbr/>co.uk/news/2007/mar/<wbr/>07/guardianobituarie<wbr/>s.france）<br/>　　<br/>　　二、赛博朋克其实也没有那么简单<br/>　　《黑客帝国》让人感觉很“酷”、“非常酷”，这是它对赛博朋克的最大贡献。因为赛博朋克的文学作品在没有电影《攻壳机动队》出现之前，实在是难以用动画以外的形式来表现科幻朋克的迷幻颓废色彩。电影几度尝试都是失败或者边缘化的作品，比如《银翼杀手》，这部电影当时完全是超时代的边缘作品，就如同《黑客帝国》同样在1999年表现出来的超时代感，只是这一次观众买账。八卦一下，94年的《黑客》电影文本出来后其实连吃闭门羹，几乎被所有电影制作公司拒绝掉了——拍摄不出来这种作品的！你要怎么拍有本事你告诉我？——后来华纳兄弟买单说我们来拍吧，一是因为沃卓斯基兄弟和这家公司关系好算人情债，二就是因为《攻壳》在西方的上映所引起的轰动。这时的电影公司：好吧，我至少知道你想要表达出的什么景象而大概猜出来可以怎么拍了；这时的西方的观众：完全的、彻底的被这一题材与它的电影表现魅力所折服（《攻壳机动队》被誉为第一部真正意义上的“成人动画”），非常愿意为下一部赛博朋克电影付钱。<br/>　　<br/>　　赛博朋克的科幻文字作品目前发展得相当成熟，优秀的作品不仅有超哲学的思想深度，而且对未来社会的构想极其多样性与有趣，并且毫不夸张地说它们深刻地影响着美国当下的科学技术发展的世界观（这不是扯淡么？阿喂喂科幻小说哎？= = 不是扯淡，真的不是扯淡。美国的精英们对未来至少拥有二十年以后的远见，并且，大多数因此在二十年前采取的决策与战略目标基本正确。生活在美国的大多数中庸的、无能的群众真不知道该说他们是被精英操控的傻子呢还是超级会利用精英的最大赢家？）。赛博朋克主要的思想核心与表现特征如下（然后你就知道《黑客帝国》的剧情有多一板一眼的俗套，实在是电影特效的功劳更赞）：<br/>　　<br/>　　（一）剧情流核心思想的老梗：<br/>　　<br/>　　1.无论科学与技术的发展多么先进与了不起，人性永远战胜一切！比如人类的爱（电影《人工智能》AI算是最典型了吧？尽管是亲情之爱）、比如人的信念、人的意志、人的精神……简而言之，无论弱小的人类在强大的科技与超人类的能力面前显现得多么废柴与渺小，最后总是有各种不合理的、没道理的外挂桥段使得主角“精诚所至，金石为开”，拯救世界。科幻瞬间变得魔幻不已。<br/>　　<br/>　　2.无论赛博朋克假设一个未来无限发展的国家、高度的商业化、机器人与人工智能泛滥、人类物质与精神生活水平上升，背后总有一个集团的阴谋论正在或者试图去主宰世界，比如跨国公司、集权制（或独裁专制的）政府、邪恶的外星人（或入侵者）、拥有了个人思考能力的机器人、生化武器失败进化出来的僵尸也行，你都把它们称之为“The Matrix”也没有问题。于是，乌托邦和反乌托邦的战斗剧情就开始了，又开始了，又又开始了，又又又开始了阿！没完没了了是不是？这当然是《星球大战》遗留给好莱坞的宝贵财产，以后科幻电影剧情基本都是反乌托邦，重点是电影特效与打斗场面。<br/>　　<br/>　　3.对科技的发展永远抱有颓废悲观的消极思想（除非是吐嘈片），对未来抱有警惕与深度的不信任。<br/>　　这一点是西方科幻的主要特征，绝对不包括其他科幻大国比如日本与印度，以及西方思想辐射以外的地区。主要是科幻鼻祖《弗兰肯斯坦》（Frankenstein） 书评链接：<a href="http://www.douban.com/link2?url=http%3A//book.douban.com/review/5627265/">http://book.douban.c<wbr/>om/review/5627265/</a>)（一位名字叫做弗兰克斯坦的教授发明了一个人造人怪物）在西方世界奠定了这一基调然后渊源流传。这部小说的译本在中国的反响并不好，理解上存在文化语境的巨大差异。我也是后来在被迫阅读英文原著以及与他人的争辩中才意识到这是一部相当伟大的科幻作品（女权主义渗透科幻界的先驱）。又，原书的副标题是《现代的普罗米修斯》，你就懂为什么科幻作品非常愿意使用“普罗米修斯”这一符号了。又又，日本人解释自己的高达为什么不受西方人待见的原因之一是弗兰肯斯坦情节（这个真心碉堡，不过西方人确实不怎么爱高达，他们更爱《钢之炼金术士》和EVA）。<br/>　　<br/>　　4.其他：绝对令人碉堡的女权主义、上帝掷骰子吗的世界观、灵肉的二元对立，等等……这些都需要另辟一章解释赛博格（cyborg）与生命树的进化论（工程量好大……）。但这些核心思想算是科幻作品中很高的思想表现了，在电影这种大众娱乐中出现得不太普遍，不过在文字作品中一度极其风靡甚至达到哲学的探讨深度（但是这些个话题都令人不愉快），近年来科幻作品的趋势则是转向平行世界的叙事结构居多（大家终于冷静下来了么……换个次元玩玩吧）。<br/>　　<br/>　　（二）屏幕意识流表现特征的老梗：<br/>　　<br/>　　1. 作品主要基调务必是颓废的、迷幻的、冷色调为主，伴有霓虹灯的贫民区特别做陪衬。<br/>　　——颓废的、迷幻的、冷色调：《黑客帝国》与《攻壳机动队》等同类型题材都是如此，即使是《机器人Wall E》这种全家欢乐向的动画片都会识趣地表现出地球末日的景象，大地一片荒凉与腐败。<br/>　　——霓虹灯？就是闪烁的广告招牌、流光溢彩的暴力色情街区……象征着高度的商业化发展，以及阶层分化悬殊而在城市外围产生的堕落的腐朽的贫民区（ghetto）。<br/>　　<br/>　　2.中国（香港）元素的设定。<br/>　　2000年以后的好莱坞电影会出现中国元素，主要是因为中国电影市场已经成为仅次于美国的第二大市场，取悦中国观众的最好方式是各种中国元素的代入，比如功夫熊猫，比如变形金刚钢铁侠之流……但是，在中国电影市场还不成气候的时候，科幻题材电影中出现的中国元素（实际上是香港元素）是一个赛博朋克的身份象征，尤其是香港这座城市，简直是未来社会的最完美理想设定。<br/>　　香港的地缘政治具有非常意义的特殊性，相对脱离于母体大陆的政治独立性，又保留着长期殖民城市的文化交融性，使得这座国际化程度极高的城市人员流动性广、商品经济发展熟到快要烂了、贫富差距与阶层分化悬殊。街道上讲着各国语言的人流、城市区外围贫民区，都是最好的对未来城市的写照。这一点在《攻壳机动队》中表现到了极致，连街道上的广告标语“保护举报人合法权益”都那么的香港。遗憾的是，后来电影中也开始植入普通话，个人感觉就有些奇怪。在《黑客帝国》的表现中就是所谓的中国元素（比如那些神神叨叨的装格调的乍听之下听不太懂但感觉有好像有些深度的屁话）以及中国功夫的代入（准确地说，是香港功夫）。这一点还是比较佩服的，赛博朋克的短板是在cyberspace中的机械化战斗，直接子弹秒杀，在银幕上的表现力太弱、弱爆了好么（除非是机战片），但是功夫就可以让主角十分漂亮地耍帅，还可以撑满时长两、三分钟的样子。<br/>　　不过，香港不是唯一的赛博朋克圣地，任何与西方世界（社会阶层太固定的挫事实）违和感强烈的亚洲城市都可以代表，比如日本城市，或者印尼语的东南亚城市。<br/>　　<br/>　　3.当下赛博朋克最高思想境界的表现特征：女主角是中性的，外形和男主角有什么区别阿喂喂？<br/>　　终于说到女权主义了么（擦汗……表示压力好大）科幻文学作品中的未来女性的表现往往涉及到人类的生命起源、繁殖与繁衍、以及对人类being（存在）状态的自相矛盾的各种状况，从这一点上来说是非常困难来解释的话题。呃……直接上图吧。<br/>　　如下是你应该“理所当然”期待的一部科幻(商业)片的女主角（图片为美剧《英雄》的不死的啦啦队长）：金发、大波、性感、负责调戏电影中的大部分男性角色，当然最后服务于废柴男主，然后使所有电影中的男性观众从对女性身体的欲望而得到充分意淫的快感。<br/>　　——图呢？<br/>　　<br/>　　然后，如下是稍微有点追求的科幻片（准备留名千古，至少在学术领域已经赢得一席之地）设定的女主角：<br/>　　《黑客帝国》女主角Trinity<br/>　　——图呢？<br/>　　请思考以下几个问题：<br/>　　1. Trinity为什么在影片中必需穿着能够显露出胸部这一女性特征的背心？<br/>　　2.一旦Trinity披上风衣之后，你真的还愿意伤脑筋去区分她和他（Neo）的区别么？<br/>　　3.你在电影中真的有“想当然”地把Trinity当成一个女人？一但你的大脑告诉你她是个女人，你是不是觉得，哇哦！好霸气、好MAN的女人？！<br/>　　<br/>　　如下是《攻壳机动队》 的女主角少佐素子，没错，Trinity完全复制了原型，连造型都不费力地就加了一副墨镜和一件风衣而已。<br/>　　——图呢？<br/>　　如果没有看过《攻壳机动队》的同志，请再思考一下：你认为图片中的这位少佐是女人么？<br/>　　<br/>　　然后看下一张图：<br/>　　——图呢？<br/>　　这是你所希望能够激发男性欲望的女性的肉体么？是不是吓死爹了？要咆哮草泥马了？<br/>　　咦？<br/>　　呃……<br/>　　为什么！<br/>　　为什么在赛博朋克中的女主角设定是偏向男性的？<br/>　　因为这是赛博朋克的未来社会。因为肉体的存在是没有意义的。因为性别的存在是没有意义的。因为人类继续执迷于繁衍后代是没有意义的。因为赛博朋克发展到最后追求的是人类演化的最高境界：不朽。<br/>　　然后，装逼的最高境界来了——赛博格。<br/>　　<br/>　　（三）、赛博格（cyborg）的生命演化意义<br/>　　cyborg，字面翻译就是机械化有机体，cybernetic organism。也就是将机器替代人类的肢体、器官等肉体的部分，用人的大脑来操控身体上的义肢什么的。俗称机械化人、改造人、生化人，等等。义体人拥有“可控的新陈代谢、强化的感官知觉，异于常人的反映速度和运动能力”，但超强的数字化处理目前还做不到的样子。<br/>　　请不关注任何人类科学文明进步的同学注意：赛博格并不是科幻小说中类似“宇宙飞船”这样幻想出来的东西，它是……实际存在的。只是目前作为医学设备与其他开放应用，商业化还不足（非常昂贵），而且是二十多年年就已经研发出来的老物了。可以参考日本的纪录片1997年的 [NHK纪录片]赛博格技术革命http://video.sina.co<wbr/>m.cn/v/b/48888656-16<wbr/>16027890.html，2005年的[中文字幕]改变人类的赛博格技术 http://v.youku.com/v<wbr/>_show/id_XMTM4OTExNj<wbr/>A0.html。<br/>　　这里有必要交代一下科幻作品中的发展背景，美国有一段时期不少作家出版了不少表达女权主义的软科幻作品（软科幻以展现后现代文明的民族志居多），大部分作家为女性，并凭借着自身的言辞极其优美的文笔掳获了大量以往只买账硬科幻（呃，我们就爱打打杀杀奋起革命美女投送英雄怀抱的反乌托邦题材）的男性读者。话说科幻的鼻祖玛丽・雪莱本人的母亲就是一个身先士卒的女权主义先驱，对她女儿的作品影响妥妥的，这也就算传承历史遗产罢……<br/>　　于是，伟大的女权主义者哈拉维（Donna Haraway）在90年代初发表了《赛博格宣言》(A manifesto for cyborgs: Science, technology, and socialist feminism in the 1980s)，喧哗一时。认为未来社会是女性赛博格主导的社会……原因么……呃，和性有关。<br/>　　<br/>　　。。。太复杂了，说简单点。<br/>　　赛博格带来的问题是这样的：<br/>　　既然科技已经发达到义体人的地步了，我们真的还需要肉体么？我们只要有大脑就可以操纵任意一具义体，不管男性女性（社会性别与心理性别没有意义）、大人小孩（年龄没有意义）、白人黑人（种族没有意义）、运动员或者医生（职业没有意义）、同性恋异性恋（性取向没有意义，啊啊，已经涉及酷儿政治了）……也就是说，本来么——只要肉体的死亡就可以带来人类的死亡这件事情，已经完全没有意义了。只要你的大脑不死，你就可以永远不死（随便换义体好了）——这是人类当前可以进化的生命树更高的阶段了：不朽。<br/>　　……等等，生孩子什么的怎么办？以哈拉维女士的眼光来看，孩子不是“人” （顺便一说，英语中的“baby”的代词是It），因为不具备以自己的意志或个人判断能力来决定自己的行动的作为“人”的本质，所以基本不讨论孩子，你作为凡胎时想生就生吧，但作为人造人的话，其实已经不需要孩子了。养儿育女过去是作为人造人最快的途径，在赛博格中则演变成为了纯粹只是为了基因的突变与进化。保留人类记忆信息的DNA也可以理解为不过是一段保留信息的程序或者代码而已。这样构建起来的所谓网络社会，即cyberspace，即the Matrix就很好理解世界观的架构了。所谓的真实与虚拟不过是个人的自我（self）的如何构建，是根据周围环境进行判断的镜中之我？还是在现实社会与虚拟社会中交错的双重人格的构建与渲染？<br/>　　另一方面，赛博格使得一切造成当下人类社会不平等的障碍（性别、种族、职位等等）大都被肉体消灭了，于是乌托邦一样的不可思议的平等社会竟然真的到来了，让所有人诚惶诚恐，惶惶不安。要知道，赛博格抹杀的不仅仅是男性和女性的肉体差异，还可能是人类和动物的肉体差异，如果这个人非常喜欢喵星人而且选择了一只猫作为自己大脑的载体，因而成为了半兽人（兽奸是不是要从刑法中取消了！）？想想都是一身冷汗吧……忽然想起来以前同学和我说看美剧《行尸走肉》的时候被里面表现人性的剧情给虐到震撼死了，当时我默默地在心里叹了一口气，其实老外的精英们已经远见到把未来社会的伦理道德价值观的重建都基本做过一遍思考了，这种在我们看来一惊一乍的剧情无非是编剧从大众媒体中随手捡来的专家观点……至少我个人得到的印象大概如此。<br/>　　回到正题：以及，作为赛博格的你的存在的依据是什么？你是不是已经伴随着肉体的死亡而事实上死亡了？——只有大脑，你的思维，我思故我在仍然成立么？连灵肉的二元对立消解掉的具体是作为人的什么的本质存在？你怎么判断你的人格不是电脑程序设定的、或者The Matrix母体控制下的虚拟人格展开的虚拟人生？这就是《黑客帝国》解决《攻壳机动队》的遗留问题，因为《攻壳》的结尾是素子完全放弃义体，将自己融入网络中去了——名台词“网络无限宽广”。只是没想到《黑客》还是这种糟糕的反乌托邦题材。至于赛博格带来的生命进化论具体参考《攻壳机动队》中素子与傀儡师的两段神对白。<br/>　　就这样了吧，不想写了。<br/>　　<br/>　　总结：<br/>　　理解了赛博格带来的思想上的冲击，你就会发现真正懂科幻的导演已经不屑以商业娱乐致死的精神来取悦观众了，女权主义就是其中一个明显的例子。这些导演借助电影所展现的世界观确实真心得超出了普通观众的理解水准，但套海德格尔什么的就不如追溯科幻的历史发展背景来得靠谱了…<br/>　　不过，科幻作品停留在赛博格这一层面上的思考已经多少成为了过去式，现在主流的作品是平行世界观的设定，以及衍生的这种“何方为实、何方为虚”的次元设定（比如《盗梦空间》之流），本质都差不多，让大家看得很开心，觉得迎接到来了智商的考研炫耀自己的优越感时刻。好吧，只要薛定谔的猫没有普及到所有高中物理课本，那么相信大多数观众还是很愿意继续买账这样的“穿越”题材的吧。<br/>　　<br/>　　PS。<br/>　　尽管本文默认了1999年的《黑客帝国》的导演那时还是沃卓斯基兄弟，但是，实际上现在正确的称呼已经改为“沃卓斯基姐弟”。拉里（Larry Wachowski） 已经变性并更名为拉娜（Lana Wachowski），人家已经等不及女性的赛博格义体出现，争分夺秒地用生命和肉体来支持女权主义与酷儿政治了……附上最近的照片一张：<br/>　　——图呢？</span>
+            </div>
+
+            
+
+
+            <div class="clear"></div>
+
+            
+
+            <div class="review-panel" name="5746914">
+                <div class="review-note">
+                </div>
+                <div class="review-stat">
+                    
+                    你认为这篇评论：
+                    <span class="useful">
+                        <a class="btn-useful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_y'});voteuseful('r-5746914',true)">有用</a>
+                        <em id="ucount5746914u">53</em>
+                    </span>
+                    <span class="unuseful">
+                        <a class="btn-unuseful j a_show_login" href="javascript:;" onclick="moreurl(this, {from:'mv_rv_vote_n'});voteuseless('r-5746914',true)">没用</a>
+                        <em id="ucount5746914l">8</em>
+                    </span>
+                </div>
+            </div>
+
+            <div class="ul" style="margin-top:10px;margin-bottom:5px"></div>
+                
+                <ul style="margin:0;padding:0;float:left;">
+                    
+    
+    <li class="rec" id="O-5746914">
+        <a href= "#" data-url="http://movie.douban.com/review/5746914/" data-desc="" data-title="为什么说电影《黑客帝国》重新阐释了存在主义哲学？  (豆瓣影评 - 关于电影《黑客帝国 The Matrix》)" data-pic="" class="bn-sharing ">分享到</a> &nbsp;&nbsp;
+    </li>
+    <script>
+    var cache_url = cache_url || {};
+    (function(u){ if(cache_url[u]){ return; } cache_url[u] = true; Do(function(){$.getScript(u);}); })('http://img3.douban.com/js/lib/packed_sharebutton1775626802.js');
+    </script>
+ 
+                </ul>
+                
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+</div>
+
+                <div class="clear"></div>
+                
+
+
+
+
+
+
+
+
+
+
+<div id="comments">
+
+
+
+
+
+    
+
+<div class="comment-item" id=5321872 data-cid="5321872" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 18:08:12 
+          <a href="http://www.douban.com/people/pohpih/">pohpih</a> 
+        </div>
+
+
+        
+        <p>　　黑客帝国源自攻壳机动队的原文在哪里？？？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1547710 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5321872" class="j a_confirm_link" title="删除pohpih的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5321894 data-cid="5321894" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 18:22:49 
+          <a href="http://www.douban.com/people/chouhe/">chou_he</a>  (无话可说)
+        </div>
+
+
+        
+        <p>　　对姐弟本人的采访报道，等等，随便发个链接好了：<a href="http://www.douban.com/link2?url=http%3A//www.mashpedia.com/The_Matrix" target="_blank" rel="nofollow">http://www.mashpedia<wbr/>.com/The_Matrix</a></p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u59842885 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5321894" class="j a_confirm_link" title="删除chou_he的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5322012 data-cid="5322012" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 19:20:37 
+          <a href="http://www.douban.com/people/52592923/">刘上进</a> 
+        </div>
+
+
+        
+        <p>　　PS。 <br/>　　　　尽管本文默认了1994年的《黑客帝国》的导演那时还是沃卓斯基兄弟，但是，实际上现在正确的称呼已经改为“沃卓斯基姐弟”。<br/>　　<br/>　　……应该是1999吧？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u52592923 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5322012" class="j a_confirm_link" title="删除刘上进的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5322048 data-cid="5322048" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 19:38:13 
+          <a href="http://www.douban.com/people/chouhe/">chou_he</a>  (无话可说)
+        </div>
+
+
+        
+        <p>　　@刘上进 恩，因为默认了94年的电影剧本已经算出生了，不过还是改成99年吧，多谢指正</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u59842885 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5322048" class="j a_confirm_link" title="删除chou_he的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5322282 data-cid="5322282" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 21:03:16 
+          <a href="http://www.douban.com/people/cunsir/">牛爷儿</a> 
+        </div>
+
+
+        
+        <p>　　如此科普好文，怎么点击率这么少？国内编剧要是都如楼主这样钻研该有多好，能减少多少白痴剧。</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u48842996 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5322282" class="j a_confirm_link" title="删除牛爷儿的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5322590 data-cid="5322590" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-19 22:38:37 
+          <a href="http://www.douban.com/people/yangwu/">想注销这个号</a>  (母鸡不多生蛋，女人多了捣蛋)
+        </div>
+
+
+        
+        <p>　　楼主真专研</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u51340191 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5322590" class="j a_confirm_link" title="删除想注销这个号的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5323099 data-cid="5323099" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 01:19:16 
+          <a href="http://www.douban.com/people/karlyf/">Karl Yu</a>  (虚拟化生存)
+        </div>
+
+
+        
+        <p>　　1、第十三层楼<br/>　　2、移魂都市<br/>　　3、攻壳机动队<br/>　　4、猛兽侠<br/>　　</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1448084 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5323099" class="j a_confirm_link" title="删除Karl Yu的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5323249 data-cid="5323249" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 02:45:36 
+          <a href="http://www.douban.com/people/babalusoa3/">Varg</a>  (Creep)
+        </div>
+
+
+        
+        <p>　　科普好文  谢</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u1325436 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5323249" class="j a_confirm_link" title="删除Varg的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5323494 data-cid="5323494" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 10:16:53 
+          <a href="http://www.douban.com/people/alice_s_233/">Alice</a>  (愿天使从灰飞烟没中把爱降落)
+        </div>
+
+
+        
+        <p>　　学习了</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u8923068 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5323494" class="j a_confirm_link" title="删除Alice的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5323504 data-cid="5323504" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 10:25:46 
+          <a href="http://www.douban.com/people/32900894/">will</a>  (万千情愫)
+        </div>
+
+
+        
+        <p>　　我不知道你想说什么</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u32900894 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5323504" class="j a_confirm_link" title="删除will的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5323568 data-cid="5323568" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 11:08:48 
+          <a href="http://www.douban.com/people/68249338/">哈喽-简</a>  (活的不要太严肃~)
+        </div>
+
+
+        
+        <p>　　好吧 好科普 看不懂 飘过</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u68249338 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5323568" class="j a_confirm_link" title="删除哈喽-简的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5323617 data-cid="5323617" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 11:30:08 
+          <a href="http://www.douban.com/people/51898828/">灰非非灰</a> 
+        </div>
+
+
+        
+        <p>　　虽然没完全懂，但看了启发很大~</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u51898828 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5323617" class="j a_confirm_link" title="删除灰非非灰的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5323985 data-cid="5323985" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 14:28:39 
+          <a href="http://www.douban.com/people/67542327/">wrh</a> 
+        </div>
+
+
+        
+        <p>　　<a href="http://www.douban.com/link2?url=http%3A//www.qjlhw.com" target="_blank" rel="nofollow">www.qjlhw.com</a></p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u67542327 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5323985" class="j a_confirm_link" title="删除wrh的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5324292 data-cid="5324292" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 16:45:52 
+          <a href="http://www.douban.com/people/SaberMelancholy/">李可笑</a>  (温和微蓝色的与不存在同名的死亡)
+        </div>
+
+
+        
+        <p>　　LZ接着写啊，余音还长着呢，至少先把开头框定的几个构架完成吧</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u53357615 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5324292" class="j a_confirm_link" title="删除李可笑的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5324324 data-cid="5324324" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 17:00:40 
+          <a href="http://www.douban.com/people/47300313/">blackflag</a> 
+        </div>
+
+
+        
+        <p>　　　《黑客帝国》是直接受到了日本导演押井守的《攻壳机动队》（95年）的启发才诞生的……<br/>　　<br/>　　请给证据</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u47300313 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5324324" class="j a_confirm_link" title="删除blackflag的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5324491 data-cid="5324491" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 18:27:21 
+          <a href="http://www.douban.com/people/49562417/">智斌</a> 
+        </div>
+
+
+        
+        <p>　　图呢？</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u49562417 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5324491" class="j a_confirm_link" title="删除智斌的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+    
+
+<div class="comment-item" id=5324492 data-cid="5324492" data-target_id="5746914" data-target_kind="1012">
+    <div class="pic">
+    </div>
+    <div class="content report-comment">
+        <div class="author">
+          2013-01-20 18:27:24 
+          <a href="http://www.douban.com/people/49045876/">淘淘</a>  (淘沙取金)
+        </div>
+
+
+        
+        <p>　　黑客帝国源自机动队我记得当年看这部电影介绍的时候，是沃卓斯基兄弟亲自说的</p>
+
+        <div class="op-lnks">
+        </div>
+
+        <div class="group_banned">
+            <span class="gact hidden p_u49045876 p_admin p_intern fright">&gt;
+                <a rel="nofollow" href="http://movie.douban.com/review/5746914/remove_comment?cid=5324492" class="j a_confirm_link" title="删除淘淘的发言?">删除</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div id="last"></div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <br/><span class="pl2" align="right"><a class="j a_show_login" href="https://www.douban.com/accounts/register?reason=comment">&gt; 我来回应</a></span>
+
+
+ 
+
+ 
+
+    
+    
+    
+
+
+
+
+
+
+
+</div>
+
+
+<script>
+Do(function(){
+  $('#comments').find('.comment-item').hover(function(){$(this).addClass('over');}, function(){$(this).removeClass('over');});
+  $('.reply-quote .toggle-reply').click(function(e) {
+    e.preventDefault();
+    var el = $(this);
+    el.prevAll('span').toggle(); 
+    el.find('span').toggle();
+  });
+});
+</script>
+
+
+
+
+        </div>
+    </div>
+
+    
+
+	</div>
+        <div class="aside">
+            
+    
+
+
+
+
+
+
+
+    <div class="copyright indent">本评论版权属于作者chou_he，并受法律保护。除非评论正文中另有声明，未经合法书面许可任何人不得转载或使用整体或任何部分的内容。</div>
+    <p class="pl2">&gt; <a onclick="moreurl(this, {from:'mv_rv_sbj_r'})" href="http://movie.douban.com/subject/1291843/">去黑客帝国的页面</a></p>
+
+    <div class="indent">
+        
+
+
+
+
+
+
+
+<style>
+    .movie-summary {overflow:hidden; zoom:1;}
+    .movie-summary .movie-pic {margin-bottom:15px; margin-top:3px;}
+    .movie-summary p {margin:3px 0; padding-left:2.5em; text-indent:-2.5em; color:#111;}
+    .movie-summary p .pl, .movie-summary p a:link , .movie-summary p a:visited{color:#111;}
+    .movie-summary p a:hover {color:#fff;}
+    .trail_link,.trail_link:visited,.trail_link:hover,.trail_link:active {margin-top:5px; display:block; height:28px; width:96px; background:url('/pics/movie_trailer_icon2.png'); overflow:hidden; line-height:99em;}
+    .btn-complete-video{margin-top:5px;}
+    .btn-complete-video,.btn-complete-video:active,.btn-complete-video:hover,.btn-complete-video:visited{background:url(http://img3.douban.com/pics/movie_trailer_icon4.png) no-repeat left top;display:block;height:28px;width:96px;line-height:99em;margin-bottom:10px;overflow:hidden}
+</style>
+
+<div class="movie-summary">
+        <div class="movie-pic"><a onclick="moreurl(this, {from:'mv_rv_poster'})"  href="http://movie.douban.com/subject/1291843/" ><img alt="黑客帝国 The Matrix" title="黑客帝国 The Matrix" src="http://img3.douban.com/mpic/s3052684.jpg" rel="v:image"></a></div>
+    <span class="attrs">
+        
+            
+        <p>
+            <span class="pl">导演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_director'})"  href="http://movie.douban.com/celebrity/1013899/">安迪·沃卓斯基</a> / <a onclick="moreurl(this, {from:'mv_rv_director'})"  href="http://movie.douban.com/celebrity/1161012/">拉娜·沃卓斯基</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">主演:</span>
+                <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1008070/">基努·李维斯</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1022581/">凯瑞-安·莫斯</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1022596/">劳伦斯·菲什伯恩</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1040994/">雨果·维文</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1040825/">格洛丽亚·福斯特</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1049557/">乔·潘托里亚诺</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1070860/">Marcus Chong</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1056199/">Julian Arahanga</a> / <a onclick="moreurl(this, {from:'mv_rv_actor'})"  href="http://movie.douban.com/celebrity/1080668/">Matt Doran</a>
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">类型:</span>
+                动作, 科幻, 冒险
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">地区:</span>
+                美国, 澳大利亚
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">片长:</span>
+                136分钟
+        </p>
+
+        
+            
+        <p>
+            <span class="pl">上映:</span>
+                1999-03-31(美国)
+        </p>
+
+        <a onclick="moreurl(this, {from:'mv_rv_trailer'})"  class="trail_link" data-trailer-id="102672" href="http://movie.douban.com/trailer/102672/#content" >预告片</a>
+    </span>
+</div>
+
+
+
+
+
+    </div>
+
+            <h2>chou_he的其他评论</h2>
+        <div class="indent other_review">
+            <ul>
+                    
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_1'})" href="http://movie.douban.com/review/5686709/" class="ll">EVA的通篇心理学解释其实就是一个专业名词：恋母情结</a> 
+                                    <span class="stars4 starstop" title="推荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/1457573/">新世紀エヴァンゲリオン</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_2'})" href="http://movie.douban.com/review/5526795/" class="ll">祭典男爵和狂欢岛：这是细田守的绝望</a> 
+                                    <span class="stars4 starstop" title="推荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/3263410/">ONE PIECE THE MOVIE オマツリ男爵と秘密の島</a>)
+                        </li>
+                    
+                        <li>
+                            <div class="clearfix">
+                                <a onclick="moreurl(this, {from:'mv_rv_au_3'})" href="http://movie.douban.com/review/5505974/" class="ll">《天书奇谭》和《三遂平妖传》：那些阶级的刻印</a> 
+                                    <span class="stars4 starstop" title="推荐"></span>
+                            </div>
+                            (评<a href="http://movie.douban.com/subject/1428581/">天书奇谭</a>)
+                        </li>
+            </ul>
+            <p class="pl clearfix">
+                <a class="rr" onclick="moreurl(this, {from:'mv_rv_au_all'})" href="http://movie.douban.com/people/chouhe/reviews?cat_id=1002">&gt; 全部评论(4)</a>
+            </p>
+        </div>
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+    </div>
+
+        
+    <div id="footer">
+        
+
+<span id="icp" class="fleft gray-link">
+    &copy; 2005－2013 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://movie.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_blank">开发者</a>
+    · <a href="http://www.douban.com/mobile/movie">手机电影</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+    </div>
+
+    </div>
+    <script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/703012dc8cdf08fe.js"></script>
+    
+    
+    
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-7019765-1']);
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', '3721', 'name']);
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'vnet', 'kw']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣']);
+_gaq.push(['_addIgnoredOrganic', 'douban']);
+_gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+_gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+_gaq.push(['_setDomainName', '.douban.com']);
+
+
+    _gaq.push(['_setCustomVar', 1, 'responsive_view_mode', 'desktop', 3]); 
+
+_gaq.push(['_trackPageview']);
+_gaq.push(['_trackPageLoadTime']);
+
+
+window._ga_init = function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+};
+if (window.addEventListener) {
+    window.addEventListener('load', _ga_init, false);
+} else {
+    window.attachEvent('onload', _ga_init);
+}
+</script>
+
+
+
+
+
+
+
+
+    <!-- gardner8-->
+
+<script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

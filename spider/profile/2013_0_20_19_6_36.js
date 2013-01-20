@@ -1,0 +1,4 @@
+var profile = 
+'{"dispatcher":{"connect_pool_size":100,"connect_used_count":0},"sites":[{"host":"movie.douban.com","hashsize":10000,"dir":"movie.douban.com","cookie":"bid=%22VKpIE5M+TuQ%22;%20__utma=30149280.1752107507.1351302076.1356832429.1358591647.20;%20__utmz=30149280.1358591647.20.19.utmcsr=douban.com%7Cutmccn=(referral)%7Cutmcmd=referral%7Cutmcct=/;%20viewed=%224832825_10540066_20278174_2363876_10586326_5374414_4212172_2308234_1232061_5362856%22;%20ll=%22118177%22;%20__utma=223695111.548335238.1356357102.1358591681.1358593623.4;%20__utmz=223695111.1356431753.2.2.utmcsr=dianying.fm%7Cutmccn=(referral)%7Cutmcmd=referral%7Cutmcct=/=hometown-boy;%20__utmb=30149280.42.9.1358594983500;%20__utmc=30149280;%20__utmc=223695111","pages":[],"unscraped_pages_length":0,"scraping_pages_length":0,"scraped_pages_length":0,"parsed_pages_length":0}]}'
+;
+exports = module.exports = profile;

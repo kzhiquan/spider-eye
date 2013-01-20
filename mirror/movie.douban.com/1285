@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+    <html lang="zh-CN" class="ua-windows ua-webkit">
+    
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <title>国内大陆网络微电影--收集</title>
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    <script type="text/javascript">var _head_start=new Date();</script>
+    <meta name="keywords" content="电影豆列、电影排行、电影盘点">
+        <meta name="description" content="国内大陆网络微电影--收集">
+        <script src="http://img3.douban.com/js/packed_jquery.min6301986802.js"></script><script src="http://img3.douban.com/js/packed_douban1000047119.js"></script><script src="http://img3.douban.com/js/ui/packed_dialog8321689615.js"></script><link href="http://img3.douban.com/css/movie/packed__init_1608541469.css" rel="stylesheet" type="text/css"><link href="http://img3.douban.com/css/ui/packed_dialog4563741467.css" rel="stylesheet" type="text/css"><style type="text/css">
+    td p { word-wrap:break-word;overflow:hidden;width:480px; }
+    .ul { width:100%; }
+    div.filters { margin-top: 20px; color: #666 }
+    p.ul { margin-top: 3px }
+    a.start_radio { background: url('/pics/fm/radio_8_gray-1.jpg');
+                    display: inline-block;
+                    width: 43px;
+                    height: 16px;
+                    margin-left: 16px;
+                    margin-bottom: -2.5px;
+    }
+    </style><script type="text/javascript">/*<![CDATA[*/
+    /*]]>*/</script><link rel="shortcut icon" href="http://img3.douban.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="http://img3.douban.com/misc/mixed_static/1e99fdb210b7f2c1.css">
+    </head>
+    <body>
+    <script type="text/javascript">var _body_start=new Date();</script>
+    
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav global-nav-a">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+    <a href="http://www.douban.com/accounts/login" rel="nofollow">登录</a>
+    <a href="http://www.douban.com/accounts/register">注册</a>
+</div>
+
+
+
+    <div class="global-nav-items">
+      <ul>
+          
+            
+            <li>
+              <a href="http://www.douban.com/">豆瓣</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://book.douban.com/">读书</a>
+            </li>
+          
+            
+            <li class="on">
+              <a href="http://movie.douban.com/">电影</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://music.douban.com/">音乐</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://www.douban.com/location/">同城</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank">阅读</a>
+            </li>
+          
+            
+            <li>
+              <a href="http://douban.fm/" target="_blank">豆瓣FM</a>
+            </li>
+          
+            <li>
+              <a href="#more" class="bn-more"><span>更多</span></a>
+              <div class="more-items">
+                <table cellpadding="0" cellspacing="0">
+                    
+                    <tr><td><a href="http://9.douban.com" target="_blank">九点</a></td></tr>
+                    
+                    <tr><td><a href="http://alphatown.com" target="_blank">阿尔法城</a></td></tr>
+                    
+                    <tr><td><a href="http://www.douban.com/mobile/" target="_blank">移动应用</a></td></tr>
+                </table>
+              </div>
+            </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="http://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="http://movie.douban.com/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">电影、影人、影院、电视剧</label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002" />
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+  
+  <div class="nav-items nav-anon">
+      <ul>
+        
+                          
+                 <li><a href="/nowplaying/">影讯&amp;购票</a></li>
+             
+                 <li><a href="/tv/">电视剧</a></li>
+             
+                 <li><a href="/chart">排行榜</a></li>
+             
+                 <li><a href="/tag/">分类</a></li>
+             
+                 <li><a href="/review/best/">影评</a></li>
+      
+      </ul>
+  </div>
+ 
+  </div>
+</div>
+
+  
+  <script id="suggResult" type="text/x-jquery-tmpl">
+      <li data-link="{{= url}}">
+          <a href="{{= url}}">
+              <img src="{{= img}}" width="40" />
+              <p>
+                  <em>{{= title}}</em>
+                  {{if year}}
+                      <span>{{= year}}</span>
+                  {{/if}}
+                  {{if sub_title}}
+                      <br /><span>{{= sub_title}}</span>
+                  {{/if}}
+                  {{if address}}
+                      <br /><span>{{= address}}</span>
+                  {{/if}}
+                  {{if episode}}
+                      {{if episode=="unknow"}}
+                          <br /><span>集数未知</span>
+                      {{else}}
+                          <br /><span>共{{= episode}}集</span>
+                      {{/if}}
+                  {{/if}}
+              </p>
+          </a>
+      </li>
+  </script>
+  
+
+
+
+
+
+    <div id="wrapper" >
+    <h1>国内大陆网络微电影--收集</h1>
+    <div id="content">
+        <div class="grid-16-8 clearfix">
+                <div class="article">
+        <div class="col2_doc clearfix" id="link-report"><a href="http://movie.douban.com/people/3290474/"><img src="http://img3.douban.com/icon/u3290474-2.jpg" align="left" alt="IVAN"/></a>
+        <div class="col2_doc_text"><p class="pl2">来自: <a href="http://movie.douban.com/people/3290474/">IVAN (南京)</a><br />
+        创建时间: 2012-02-14 15:51:06　最后修改时间: 2013-01-12 21:14:00</p><p class="indent">　　豆瓣能列单的收集一下<br/>　　<br/>　　<br/></p>
+        </div></div><div class="ll" style="clear:left"><a href="http://www.douban.com/register?reason=collect-doulist" class="j a_show_login" name="pbtn-1456893"><img src="http://img3.douban.com/pics/doulist_collect.gif" /></a>
+            </div>
+
+
+
+
+
+
+
+<div class="rec-sec">
+
+    <span class="rec">
+
+<a href="https://www.douban.com/accounts/register?reason=collect" class="j a_show_login lnk-sharing lnk-douban-sharing">推荐</a>
+</span>
+<span class="rec-num">7人</span>
+</div>
+<div class="filters">全部电影(18)</div>
+    <p id="sb10487917" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10487917/"><img width="80" src="http://img3.douban.com/spic/s7665427.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-02-14 15:51:19添加</span>
+        1. 
+    <a href="http://movie.douban.com/subject/10487917/">看不见的女朋友</a>
+    
+    </div>
+    <p class="pl">导演 : 叫兽易小星<br/>主演 : 刘循子墨/刘艺滨/桃宝/王一/易小星</p><p><span class="pl">评语</span> : 咩啊卡卡卡，叫兽作品，悲催的宅男们啊。。。2个女主角很养眼。。叫兽本色出演，霸气外露，亮点不少。但故事总体还是悲凉啊，反映社会现象的黑色幽默和情人节的热热的氛围有些不搭。总体氛围到是喜剧片的味道。。估计叫兽骗小女孩来看片的目的能实现。。哇啊哈哈哈</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb6759556" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/6759556/"><img width="80" src="http://img3.douban.com/spic/s6818344.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-02-24 10:18:30添加</span>
+        2. 
+    <a href="http://movie.douban.com/subject/6759556/">红领巾</a>
+    
+    </div>
+    <p class="pl">导演 : 向歌 Ge Xiang<br/>主演 : 曾庆宏/祁琪/罗慧妍/路红/罗美婷/杜文琪/刘辰其/张晋钦/李卓航/叶宇/刘奕江</p><p><span class="pl">评语</span> : 五道杠出没。。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10439282" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10439282/"><img width="80" src="http://img3.douban.com/spic/s7043055.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-02-24 10:18:56添加</span>
+        3. 
+    <a href="http://movie.douban.com/subject/10439282/">北京房事</a>
+    
+    </div>
+    <p class="pl">导演 : 魏婷婷</p><p><span class="pl">评语</span> : 配音真不错。。哈哈。。。很欢乐</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4226741" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4226741/"><img width="80" src="http://img3.douban.com/spic/s4125657.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-02-24 10:19:26添加</span>
+        4. 
+    <a href="http://movie.douban.com/subject/4226741/">李献计历险记</a>
+    
+    </div>
+    <p class="pl">导演 : 李阳<br/>主演 : 年轻优秀的飞行员/DEERPLAY</p><p><span class="pl">评语</span> : 欢乐喜感+小伤感</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4057312" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4057312/"><img width="80" src="http://img5.douban.com/spic/s3994469.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-02-24 10:19:43添加</span>
+        5. 
+    <a href="http://movie.douban.com/subject/4057312/">打，打个大西瓜</a>
+    
+    </div>
+    <p class="pl">导演 : 杨宇</p><p><span class="pl">评语</span> : 主题挺大的，但是故事讲的算是比较有趣，不太生硬。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10439274" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10439274/"><img width="80" src="http://img3.douban.com/spic/s7042922.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-02-24 10:20:59添加</span>
+        6. 
+    <a href="http://movie.douban.com/subject/10439274/">外国人眼中的中国人</a>
+    
+    </div>
+    <p class="pl">导演 : Jacky</p><p><span class="pl">评语</span> : 果然各种价值观</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10740275" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10740275/"><img width="80" src="http://img3.douban.com/spic/s9104124.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-06-07 18:00:50添加</span>
+        7. 
+    <a href="http://movie.douban.com/subject/10740275/">女生日记</a>
+    
+    </div>
+    <p class="pl">导演 : 陈宇 Yu Chen<br/>主演 : 陈菁菁</p><p><span class="pl">评语</span> : 北大的妹纸，文艺小清新？</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb5344178" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/5344178/"><img width="80" src="http://img3.douban.com/spic/s4525371.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-07-06 12:56:54添加</span>
+        8. 
+    <a href="http://movie.douban.com/subject/5344178/">11度青春之《老男孩》</a>
+    
+    </div>
+    <p class="pl">导演 : 肖央 Yang Xiao<br/>主演 : 肖央 Yang Xiao/王太利 Wang Taili/韩秋池 Qiuchi Han/于蓓蓓 Beibei Yu/张末/颜隆/宋金岳/贺敬东/李卫东/刘若瑶/张菁/王昂/薛萌/杜鹏/佟友琴/郭广启/郭一非/踏西男孩</p><p><span class="pl">评语</span> : 唯一感动的地方就是那首歌的部分。。。其余部分嘛。。。很一般很一般（但悲剧的是，之后的很多微电影都喜欢巴拉这些社会阴暗面，有点审美行吗？巴拉的有点品位或感动行吗），中学青涩的内容有点回味，但总体没什么意思，基本直接快进到唱歌的部分感动一下就行了。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb4914623" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/4914623/"><img width="80" src="http://img3.douban.com/spic/s4417086.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-07-14 16:10:29添加</span>
+        9. 
+    <a href="http://movie.douban.com/subject/4914623/">爱情公寓外传</a>
+    
+    </div>
+    <p class="pl">导演 : 韦正   Zheng Wei<br/>主演 : 段倩茹/王楠/董博睿/徐佳琦</p><p><span class="pl">评语</span> : 广告剧，但还是能看到一些笑点的。。。女主角够养眼。虽然故事的确有山寨美剧的说。但勉强不错了说</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb11534756" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/11534756/"><img width="80" src="http://img3.douban.com/spic/s11168675.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-08-13 11:58:24添加</span>
+        10. 
+    <a href="http://movie.douban.com/subject/11534756/">坐标</a>
+    
+    </div>
+    <p class="pl">导演 : 王小帅<br/>主演 : 佟悦/冉倩</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb11599330" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/11599330/"><img width="80" src="http://img3.douban.com/spic/s11180267.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-08-27 21:23:15添加</span>
+        11. 
+    <a href="http://movie.douban.com/subject/11599330/">爱情宅急便</a>
+    
+    </div>
+    <p class="pl">导演 : 滕华涛 Hua-Tao Teng<br/>主演 : 段博文 Bowen Duan/徐唯</p><p><span class="pl">评语</span> : 广告剧，走文艺青年的情感路线，估计妹纸什么的可能对这片有点感觉。。。个人没什么感觉。。。就觉得剧情有点小矫情。看完之后没什么有印象的地方。。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb10740274" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/10740274/"><img width="80" src="http://img3.douban.com/spic/s9100846.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-09-05 12:30:21添加</span>
+        12. 
+    <a href="http://movie.douban.com/subject/10740274/">男生日记</a>
+    
+    </div>
+    <p class="pl">导演 : 陈宇 Yu Chen<br/>主演 : 金韩 Hang Jing/杨采钰 Caiyu Yang</p><p><span class="pl">评语</span> : 北大 女生日记的姐妹篇。继续文艺范 男主演是韩国人，女主演是泰国人。
+这算国际范？</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb19945722" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/19945722/"><img width="80" src="http://img3.douban.com/spic/s17505091.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-09-24 15:48:27添加</span>
+        13. 
+    <a href="http://movie.douban.com/subject/19945722/">刷车</a>
+    
+    </div>
+    <p class="pl">导演 : 五百<br/>主演 : 张译/韩烨州/付梅/曹仁伟</p><p><span class="pl">评语</span> : 杯具故事加苦逼屌丝青年。。张译的演技不错，其他，没有多少亮眼的地方
+
+。貌似很多微电影里都喜欢为观众设置一种屌丝男做性幻想的情节设计，真的如卡梅隆国外访谈里主持人说的：某国男人多不经人事吗？另外片中女主角的出现似乎是为本片拍摄续集而留下的伏笔？妹纸挺好看，但是如果没有张译出演主角，本片也就2星-3星的样子。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb19975472" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/19975472/"><img width="80" src="http://img3.douban.com/spic/s22717395.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-17 10:19:43添加</span>
+        14. 
+    <a href="http://movie.douban.com/subject/19975472/">叫我爸爸</a>
+    
+    </div>
+    <p class="pl">导演 : 易小星 Xiaoxing Yi<br/>主演 : 易小星 Xiaoxing Yi</p><p><span class="pl">评语</span> : 叫兽最近走温情路线了。。亲情路线。不过最近在网上看到台湾的搞笑视频  BC.TV系列 里面的美女阿喜很有女版叫兽的风范，特别是那囧囧的眼神，和叫兽就像兄妹的感觉，有木有啊。。。。哈哈哈哈 可惜豆瓣不收录 他们的微电影系列。。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb20274042" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/20274042/"><img width="80" src="http://img3.douban.com/spic/s23123986.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-28 00:28:51添加</span>
+        15. 
+    <a href="http://movie.douban.com/subject/20274042/">灰机灰机</a>
+    
+    </div>
+    <p class="pl">导演 : 陈柏坚<br/>主演 : 柳岩/肖央</p><p><span class="pl">评语</span> : 柳岩的大波+片名 灰机灰机的隐喻==果然又是屌丝的故事。这倒是符合逆袭系列微电影的名字。。。又是所谓的传统文艺隐含批判当下社会+男女小暧昧+小温馨励志风格的微电影，这个套路差不多是国内微电影的基本套路，已经审美疲劳了，来点纯粹的喜剧风格吧。。从点击量来看 选用柳岩大波妹子显然是吸引了不少屌丝青年的关注。作为注重点击量的片子，算是成功了。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb11503638" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/11503638/"><img width="80" src="http://img3.douban.com/spic/s11097340.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-10-28 00:43:42添加</span>
+        16. 
+    <a href="http://movie.douban.com/subject/11503638/">十万个冷笑话</a>
+    
+    </div>
+    <p class="pl">导演 : 卢恒宇/李姝洁<br/>主演 : 宝木中阳/山新/蒙蒙/皇贞季</p><p><span class="pl">评语</span> : 系列恶搞喜剧动画，这才是网友喜闻乐见的喜剧风格。</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb20326475" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/20326475/"><img width="80" src="http://img3.douban.com/spic/s24131804.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2012-11-20 13:54:02添加</span>
+        17. 
+    <a href="http://movie.douban.com/subject/20326475/">暴力实验室</a>
+    
+    </div>
+    <p class="pl">导演 : 刘循子墨<br/>主演 : 卑鄙马维斯/刘艺滨/李丽薇/桃子</p><p><span class="pl">评语</span> : 呵呵，叫兽风格的广告喜剧微电视剧短片。。卑鄙马维斯 主演。。。屌丝气息+美女大波+网络幽默视频创意（有点火星和山寨凌氏效应广告的味道）。。不过够有幽默感。。哈哈
+
+话说如果这个油烟机能使得厨房的PM2.5下降的话，倒也是有亮点 说</p><p></p>
+        </td></tr></tbody></table>
+        
+    <p id="sb20473389" class="ul"></p>
+    <table width="100%"><tbody><tr class="doulist_item"><td width="100" valign="top">
+    
+    <a href="http://movie.douban.com/subject/20473389/"><img width="80" src="http://img5.douban.com/spic/s24525499.jpg"/></a>
+    
+    </td><td valign="top"><div class="pl2">
+    
+        <span class="rr pl">2013-01-12 21:14:00添加</span>
+        18. 
+    <a href="http://movie.douban.com/subject/20473389/">坏未来</a>
+    
+    </div>
+    <p class="pl">导演 : 李阳 Yang Li<br/>主演 : 段博文 Bowen Duan/冯文娟 Wenjuan Feng/李茂</p><p><span class="pl">评语</span> : 第一遍没看太明白，得多看几遍（英文字幕也是亮点的说。哈）。李阳肯定是文艺青年里的军迷，那么多战争场景的设计和安排。、话说有些场景段落的设计让人想起EVA,源代码之类的经典电影。。。。niubility。另外：背景乐挺有特点http://movie.douban.com/subject/20473389/discussion/51524784/</p><p></p>
+        </td></tr></tbody></table>
+        
+    <script>
+    /**
+     * @form 是表单的 jquery 对象
+     * @data 是需要验证的字符串
+     * @callback 是验证有敏感词时的回调函数
+     */
+    function checkBannedKeyword(form, data, callback){
+        $.post_withck('/j/censor', data, function(ret){
+            if(ret.ban == true){
+                callback();
+                return false;
+            }else{
+                form.append($('<input type="hidden" name="dl_submit" value="更新评语和位置" />'));
+                form.submit();
+            }
+        }, 'json');
+    }
+    $('#dl_submit').click(function(e){
+        e.preventDefault();
+        var $textarea = $('form.form-desc textarea[name=dl_comment]'),
+            data = {key: $textarea.val()};
+
+        checkBannedKeyword($('form.form-desc'), data, function(){
+            $('textarea[name=dl_comment]').parent().append($('<div style="width:360px;color:#ff3300;padding-top:10px;">你的评语中有被禁止的内容</div>'));
+        });
+    });
+    </script>
+    
+    <script>
+    $(function () {
+        $(".doulist_item").hover(function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8-1.jpg')");
+        }, function () {
+            $(this).find('.start_radio').css("background",
+                "url('/pics/fm/radio_8_gray-1.jpg')");
+        });
+    });
+    </script>
+    
+                </div>
+            <div class="aside">
+    
+
+
+
+<h2>最新留言 · · · · · ·  <span class="pl">( <a href="http://movie.douban.com/doulist/1456893/comments">查看全部</a> )</span></h2><ul class="mbt"><li class="mbtl"><a href="http://www.douban.com/people/3290474/"><img src="http://img3.douban.com/icon/u3290474-2.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/1456893/comments#c-256577">IVAN : 貌似豆瓣一般不怎么给网络微电影开空间，所以。。。得等豆瓣了</a><span class="pl">  2012-02-16 15:05</span></li><li class="mbtl"><a href="http://www.douban.com/people/yomu/"><img src="http://img3.douban.com/icon/user_normal.jpg"/></a></li>
+            <li class="mbtrdot"><a href="http://movie.douban.com/doulist/1456893/comments#c-256576">[已注销] : ...............才一个    来人收集收集啊</a><span class="pl">  2012-02-16 14:57</span></li></ul><h2 style="margin-top:30px">IVAN的其他电影豆列  · · · · · ·  </h2>
+        <style>.dlistp p{margin-top:4px;border-bottom:1px #ddd dashed;padding-bottom:4px}</style>
+        <div class="dlistp"><p><a href="http://movie.douban.com/doulist/1776577/">美国越战题材电影</a></p> <p><a href="http://movie.douban.com/doulist/374508/">海外情感类电影</a></p> <p><a href="http://movie.douban.com/doulist/401642/">著名电影配乐</a></p> <p><a href="http://movie.douban.com/doulist/413495/">韩国电影</a></p> <p><a href="http://movie.douban.com/doulist/457891/">演员 凯特·贝金赛尔 Kate Beckinsale</a></p> </div><br/>
+            </div>
+            <div class="extra">
+    
+            </div>
+        </div>
+    </div>
+    
+        <div id="footer">
+            <span id="icp" class="fleft gray-link">&copy; 2005－2013 douban.com, all rights reserved
+        
+            </span>
+            <span class="fright">
+                <a href="http://www.douban.com/about">关于豆瓣</a>
+                · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+                · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+                · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+                · <a href="http://www.douban.com/help/">帮助中心</a>
+        
+                    · <a href="http://developers.douban.com">开发者</a>
+                    · <a href="http://movie.douban.com/mobile">手机电影</a>
+                    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+                </span>
+            </div>
+            </div><script type="text/javascript" src="http://img3.douban.com/misc/mixed_static/852a89fb64a692a.js"></script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-7019765-1']);
+        _gaq.push(['_addOrganic', 'baidu', 'word']);
+        _gaq.push(['_addOrganic', 'soso', 'w']);
+        _gaq.push(['_addOrganic', '3721', 'name']);
+        _gaq.push(['_addOrganic', 'yodao', 'q']);
+        _gaq.push(['_addOrganic', 'vnet', 'kw']);
+        _gaq.push(['_addOrganic', 'sogou', 'query']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣']);
+        _gaq.push(['_addIgnoredOrganic', 'douban']);
+        _gaq.push(['_addIgnoredOrganic', '豆瓣网']);
+        _gaq.push(['_addIgnoredOrganic', 'www.douban.com']);
+        _gaq.push(['_setDomainName', '.douban.com']);
+        _gaq.push(['_trackPageview', '']);
+        _gaq.push(['_trackPageLoadTime']);
+        
+        if (typeof(_letv) == "string") {
+            _gaq.push(['_trackEvent', 'LetvUrl', 'view', _letv, 1]);
+        }
+        if (typeof(_qiyi) == "string") {
+            _gaq.push(['_trackEvent', 'QiyiUrl', 'view', _qiyi, 1]);
+        }
+        if (typeof(_sohuhd) == "string") {
+            _gaq.push(['_trackEvent', 'SohuHdUrl', 'view', _sohuhd, 1]);
+        }
+        if (typeof(_youku) == "string") {
+            _gaq.push(['_trackEvent', 'YoukuUrl', 'view', _youku, 1]);
+        }
+        if (typeof(_tudou) == "string") {
+            _gaq.push(['_trackEvent', 'TudouUrl', 'view', _tudou, 1]);
+        }
+        
+        (function() {
+            var ga = document.createElement('script');
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            ga.setAttribute('async', 'true');
+            document.documentElement.firstChild.appendChild(ga);
+        })();
+        </script>
+        
+            <script src="http://img3.douban.com/js/boomerang.js?09" type="text/javascript"></script>
+            <script type="text/javascript">
+            BOOMR.init({
+                user_ip: "${request.ip}",
+                beacon_url: "/beacon.gif",
+                site_domain: ".douban.com",
+                BW: {
+                    enabled: false
+                }
+            });
+            BOOMR.subscribe('before_beacon', function(o) {
+                if(o.t_done && o.t_done > 0 && o.t_done < 30) {
+                    _gaq.push(['t1._trackEvent', 'Performance', 'done', '/movie/doulist/-/', o.t_done]);
+                }
+            });
+            var _now = new Date();
+            if (typeof(_head_start)==typeof(_now)) {
+                var t_head = _now-_head_start;
+                var t_body = _now-_body_start;
+                if (t_head < 60*1000 && t_head > 0) {
+                  var _slow = t_head > 10*1000 ? 'slow ' : '';
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'head', '/movie/doulist/-/', _now-_head_start]);
+                  _gaq.push(['t1._trackEvent', 'Performance', _slow + 'body', '/movie/doulist/-/', _now-_body_start]);
+                }
+            }
+            </script>
+            <!-- roper11 --><script>var _check_hijack = function () {
+            var _sig = "VKpIE5M+", _login = false, bid = get_cookie('bid');
+            if (location.protocol != "file:" && (typeof(bid) != "string" && _login || typeof(bid) == "string" && bid.substring(0,8) != _sig)) {
+                location.href+=(/\?/.test(location.href)?"&":"?") + "_r=" + Math.random().toString(16).substring(2);
+            }};
+            if (typeof(Do) != 'undefined') Do(_check_hijack);
+            else if (typeof(get_cookie) != 'undefined') _check_hijack();
+            </script></body></html>
