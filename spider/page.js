@@ -107,9 +107,9 @@ Page.prototype.parseAncherHref = function(fn){
 
 
     //var pattern = /<a href=\"(.+)\"/g;
-    //var pattern = /<a href=\"(http:\/\/\S+)(?=\"[ .+>| >|>[.+<\/a>|<\/a>])/g;
+    var pattern = /<a.?href=\"(http:\/\/\S+)(?=\"[ .+>| >|>][.+<\/a>|<\/a>])/g;
     //var pattern = /(?<=<a .?)href=\"(http:\/\/\S+)(?=\"[ .+>| >|>[.+<\/a>|<\/a>]])/g;
-    var pattern = /<a.?href=\"(http:\/\/\S+)(?=\"[.?><\/a>|<\/a>|.?>|>])/g;
+    //var pattern = /<a.?href=\"(http:\/\/\S+)(?=\"[.?><\/a>|><\/a>|.?>|>])/g;
     var i = 0;
     var matches = null;
     //var matches = pattern.exec(html);
